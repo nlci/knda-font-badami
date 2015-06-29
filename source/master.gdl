@@ -1,0 +1,8 @@
+// Insert some useful gdl rules here
+
+table(substitution)
+pass(1)
+// make ligatures here
+endpass
+endtable
+

@@ -1,0 +1,29 @@
+FONTLOG
+Badami, Kaveri - NLCI Kannada fonts
+===================================
+
+This file provides detailed information on the NLCI Kannada fonts.
+This information should be distributed along with the NLCI Kannada fonts and any derivative works.
+
+Basic Font Information
+----------------------
+
+Pan Kannada font designed to support all the languages using the Kannada script.
+
+ChangeLog
+---------
+(This should list both major and minor changes, most recent first.)
+
+19 Jun 2015 (Dev NLCI) NLCI Kannada fonts version 0.100
+- Latin glyphs are from Charis SIL (http://scripts.sil.org/CharisSILfont)
+
+Acknowledgements
+----------------
+(If you make modifications be sure to add your
+name (N), email (E), web-address (W) and description (D).
+This list is sorted by last name in alphabetical order.)
+
+N: Dev NLCI
+E: dev@nlife.in
+W: http://www.nlci.in/fonts/
+D: NLCI designers and font engineers
