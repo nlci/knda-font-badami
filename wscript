@@ -39,7 +39,7 @@ for f in faces:
 #        zipdir = ''
 #    )
     for (s, sn) in zip(styles, stylesName):
-        font(target = process(tag + f + '-' + sn + '.ttf',
+        font(target = process(tag + f + '-' + sn.replace(' ', '') + '.ttf',
                 name(tag + ' ' + f, lang='en-US', subfamily=(sn))
                 ),
             source = fontbase + f + s + '.sfd',
