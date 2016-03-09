@@ -1,5 +1,7 @@
 # badami
 
+import os2
+
 # set folder names
 out='results'
 TESTDIR='tests'
@@ -8,8 +10,8 @@ STANDARDS='tests/reference'
 # set meta-information
 script='knda'
 APPNAME='nlci-' + script
-VERSION='0.100'
-TTF_VERSION='0.100'
+VERSION='0.101'
+TTF_VERSION='0.101'
 COPYRIGHT='Copyright (c) 2009-2015, NLCI (http://www.nlci.in/fonts/)'
 
 DESC_SHORT='Kannada Unicode font with OT support'
@@ -31,6 +33,11 @@ stylesName = ('Regular', 'Bold', 'Italic', 'Bold Italic')
 fontbase = 'source/'
 tag = script.upper()
 
+panose = [2, 0, 0, 3]
+codePageRange = [0]
+unicodeRange = [0, 15, 22, 31]
+hackos2 = os2.hackos2(panose, codePageRange, unicodeRange)
+
 for f in faces:
 #    p = package(
 #        appname = APPNAME + '-' + f.lower(),
@@ -40,6 +47,7 @@ for f in faces:
 #    )
     for (s, sn) in zip(styles, stylesName):
         font(target = process(tag + f + '-' + sn.replace(' ', '') + '.ttf',
+                cmd(hackos2 + ' ${DEP} ${TGT}'),
                 name(tag + ' ' + f, lang='en-US', subfamily=(sn))
                 ),
             source = fontbase + f + s + '.sfd',
