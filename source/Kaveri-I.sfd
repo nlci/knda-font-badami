@@ -10,16 +10,17 @@ UnderlinePosition: -290
 UnderlineWidth: 20
 Ascent: 800
 Descent: 200
+InvalidEm: 0
 LayerCount: 2
-Layer: 0 1 "Back"  1
-Layer: 1 1 "Fore"  0
+Layer: 0 1 "Back" 1
+Layer: 1 1 "Fore" 0
 XUID: [1021 297 2115494286 1251845]
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1250825687
-ModificationTime: 1250825687
+ModificationTime: 1458193494
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -51,6 +52,7 @@ OS2StrikeYSize: 50
 OS2StrikeYPos: 259
 OS2Vendor: 'Alts'
 OS2UnicodeRanges: 00000000.00000000.00000000.00000000
+MarkAttachClasses: 1
 DEI: 91125
 TtTable: prep
 NPUSHB
@@ -79,204 +81,18 @@ ShortTable: maxp 16
   4
   2
 EndShort
-LangName: 1033 "" "" "Italic" "NLCI:KAN Kaveri Italic" "" "1.0 Wed May 17 15:42:18 1995" 
+LangName: 1033 "" "" "Italic" "NLCI:KAN Kaveri Italic" "" "1.0 Wed May 17 15:42:18 1995"
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-Lookup: 6 0 0 "'akhn' Akhand in Kannada lookup 0"  {"'akhn' Akhand in Kannada lookup 0 subtable"  } ['akhn' ('knda' <'dflt' > ) ]
-Lookup: 6 0 0 "'akhn' Akhand in Kannada lookup 1"  {"'akhn' Akhand in Kannada lookup 1 contextual 0"  "'akhn' Akhand in Kannada lookup 1 contextual 1"  } ['akhn' ('knda' <'dflt' > ) ]
-Lookup: 4 0 0 "'abvs' Above Base Substitutions in Kannada lookup 2"  {"'abvs' Above Base Substitutions in Kannada lookup 2 subtable"  } ['abvs' ('knda' <'dflt' > ) ]
-Lookup: 4 0 0 "'rphf' Reph Form in Kannada lookup 3"  {"'rphf' Reph Form in Kannada lookup 3 subtable"  } ['rphf' ('knda' <'dflt' > ) ]
-Lookup: 4 0 0 "'blwf' Below Base Forms in Kannada lookup 4"  {"'blwf' Below Base Forms in Kannada lookup 4 subtable"  } ['blwf' ('knda' <'dflt' > ) ]
-Lookup: 4 0 0 "'blwf' Below Base Forms in Kannada lookup 5"  {"'blwf' Below Base Forms in Kannada lookup 5 subtable"  } ['blwf' ('knda' <'dflt' > ) ]
-Lookup: 4 0 0 "'akhn' Akhand in Kannada lookup 6"  {"'akhn' Akhand in Kannada lookup 6 subtable"  } ['akhn' ('knda' <'dflt' > ) ]
-Lookup: 6 0 0 "'abvs' Above Base Substitutions in Kannada lookup 7"  {"'abvs' Above Base Substitutions in Kannada lookup 7 contextual 0"  "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 1"  "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 2"  "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 3"  "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 4"  "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 5"  "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 6"  "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 7"  } ['abvs' ('knda' <'dflt' > ) ]
-Lookup: 6 0 0 "'abvs' Above Base Substitutions in Kannada lookup 8"  {"'abvs' Above Base Substitutions in Kannada lookup 8 subtable"  } ['abvs' ('knda' <'dflt' > ) ]
-Lookup: 6 0 0 "'abvs' Above Base Substitutions in Kannada lookup 9"  {"'abvs' Above Base Substitutions in Kannada lookup 9 contextual 0"  "'abvs' Above Base Substitutions in Kannada lookup 9 contextual 1"  } ['abvs' ('knda' <'dflt' > ) ]
-Lookup: 6 0 0 "'abvs' Above Base Substitutions in Kannada lookup 10"  {"'abvs' Above Base Substitutions in Kannada lookup 10 contextual 2"  "'abvs' Above Base Substitutions in Kannada lookup 10 contextual 3"  "'abvs' Above Base Substitutions in Kannada lookup 10 contextual 7"  } ['abvs' ('knda' <'dflt' > ) ]
-Lookup: 4 0 0 "'abvs' Above Base Substitutions in Kannada lookup 11"  {"'abvs' Above Base Substitutions in Kannada lookup 11 subtable"  } ['abvs' ('knda' <'dflt' > ) ]
-Lookup: 6 0 0 "'abvs' Above Base Substitutions in Kannada lookup 12"  {"'abvs' Above Base Substitutions in Kannada lookup 12 contextual 0"  } ['abvs' ('knda' <'dflt' > ) ]
-Lookup: 2 0 0 "Multiple Substitution lookup 13"  {"Multiple Substitution lookup 13 subtable"  } []
-Lookup: 4 0 0 "Ligature Substitution lookup 14"  {"Ligature Substitution lookup 14 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 15"  {"Single Substitution lookup 15 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 16"  {"Single Substitution lookup 16 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 17"  {"Single Substitution lookup 17 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 18"  {"Single Substitution lookup 18 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 19"  {"Single Substitution lookup 19 subtable"  } []
-Lookup: 260 0 0 "'blwm' ksha formation"  {"'blwm' ksha formation-1"  } ['blwm' ('knda' <'dflt' > ) ]
-Lookup: 257 0 0 "RightSubMove"  {"RightSubMove-1"  } ['blwm' ('knda' <'dflt' > ) ]
-Lookup: 257 0 0 "SubMove"  {"SubMove-1"  } []
-Lookup: 264 0 0 "'blwm' Below Base Mark in Kannada lookup 2"  {"'blwm' Below Base Mark in Kannada lookup 2-1"  } ['blwm' ('knda' <'dflt' > ) ]
-Lookup: 264 0 0 "'blwm' Below Base Mark in Kannada lookup 4"  {"'blwm' Below Base Mark in Kannada lookup 4-1"  } ['blwm' ('knda' <'dflt' > ) ]
-Lookup: 260 0 0 "'abvs' Above Base Substitutions lookup 1"  {"'abvs' Above Base Substitutions lookup 1-1"  } ['abvm' ('knda' <'dflt' > ) ]
-ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 12 contextual 0"  0 0 0 1
- 1 1 0
-  Coverage: 11 u0CC1 u0CC2
-  BCoverage: 50 u0CAA u0CAB u0CB5 u0CAA.base u0CAB.base u0CB5.base
- 1
-  SeqLookup: 0 "Single Substitution lookup 19" 
-EndFPST
-ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 10 contextual 7"  0 0 0 1
- 1 0 1
-  Coverage: 32 u0C9D.base u0CAE.base u0CAF.base
-  FCoverage: 5 u0CBE
- 1
-  SeqLookup: 0 "Single Substitution lookup 18" 
-EndFPST
-ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 10 contextual 3"  0 0 0 1
- 1 0 1
-  Coverage: 32 u0C9D.base u0CAE.base u0CAF.base
-  FCoverage: 5 u0CCC
- 1
-  SeqLookup: 0 "Single Substitution lookup 18" 
-EndFPST
-ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 10 contextual 2"  0 0 0 1
- 1 0 1
-  Coverage: 32 u0C9D.base u0CAE.base u0CAF.base
-  FCoverage: 5 u0CCD
- 1
-  SeqLookup: 0 "Single Substitution lookup 18" 
-EndFPST
-ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 9 contextual 1"  0 0 0 1
- 1 0 3
-  Coverage: 32 u0CAE.base u0CAF.base u0C9D.base
-  FCoverage: 9 u0CB1.sub
-  FCoverage: 5 u0CC6
-  FCoverage: 5 u0CC2
- 1
-  SeqLookup: 0 "Single Substitution lookup 17" 
-EndFPST
-ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 9 contextual 0"  0 0 0 1
- 1 0 2
-  Coverage: 32 u0CAE.base u0CAF.base u0C9D.base
-  FCoverage: 5 u0CC6
-  FCoverage: 5 u0CC2
- 1
-  SeqLookup: 0 "Single Substitution lookup 17" 
-EndFPST
-ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 8 subtable"  0 0 0 1
- 1 1 0
-  Coverage: 5 u0CC6
-  BCoverage: 17 u0C99 u0C9E u0CB1
- 1
-  SeqLookup: 0 "Single Substitution lookup 16" 
-EndFPST
-ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 7"  0 0 0 1
- 1 0 3
-  Coverage: 191 u0C95 u0C96 u0C97 u0C98 u0C9A u0C9B u0C9C u0C9D u0C9F u0CA0 u0CA1 u0CA2 u0CA3 u0CA4 u0CA5 u0CA6 u0CA7 u0CA8 u0CAA u0CAB u0CAC u0CAD u0CAE u0CAF u0CB0 u0CB2 u0CB3 u0CB5 u0CB6 u0CB7 u0CB8 u0CB9
-  FCoverage: 5 u0CB1
-  FCoverage: 5 u0CCD
-  FCoverage: 5 u0CCD
- 1
-  SeqLookup: 0 "Single Substitution lookup 15" 
-EndFPST
-ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 6"  0 0 0 1
- 1 0 3
-  Coverage: 191 u0C95 u0C96 u0C97 u0C98 u0C9A u0C9B u0C9C u0C9D u0C9F u0CA0 u0CA1 u0CA2 u0CA3 u0CA4 u0CA5 u0CA6 u0CA7 u0CA8 u0CAA u0CAB u0CAC u0CAD u0CAE u0CAF u0CB0 u0CB2 u0CB3 u0CB5 u0CB6 u0CB7 u0CB8 u0CB9
-  FCoverage: 5 u0CB1
-  FCoverage: 5 u0CCD
-  FCoverage: 5 u0CCC
- 1
-  SeqLookup: 0 "Single Substitution lookup 15" 
-EndFPST
-ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 5"  0 0 0 1
- 1 0 3
-  Coverage: 191 u0C95 u0C96 u0C97 u0C98 u0C9A u0C9B u0C9C u0C9D u0C9F u0CA0 u0CA1 u0CA2 u0CA3 u0CA4 u0CA5 u0CA6 u0CA7 u0CA8 u0CAA u0CAB u0CAC u0CAD u0CAE u0CAF u0CB0 u0CB2 u0CB3 u0CB5 u0CB6 u0CB7 u0CB8 u0CB9
-  FCoverage: 5 u0CB1
-  FCoverage: 5 u0CCD
-  FCoverage: 5 u0CBE
- 1
-  SeqLookup: 0 "Single Substitution lookup 15" 
-EndFPST
-ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 4"  0 0 0 1
- 1 0 3
-  Coverage: 191 u0C95 u0C96 u0C97 u0C98 u0C9A u0C9B u0C9C u0C9D u0C9F u0CA0 u0CA1 u0CA2 u0CA3 u0CA4 u0CA5 u0CA6 u0CA7 u0CA8 u0CAA u0CAB u0CAC u0CAD u0CAE u0CAF u0CB0 u0CB2 u0CB3 u0CB5 u0CB6 u0CB7 u0CB8 u0CB9
-  FCoverage: 5 u0CB1
-  FCoverage: 5 u0CCD
-  FCoverage: 5 u0CC6
- 1
-  SeqLookup: 0 "Single Substitution lookup 15" 
-EndFPST
-ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 3"  0 0 0 1
- 1 0 1
-  Coverage: 191 u0C95 u0C96 u0C97 u0C98 u0C9A u0C9B u0C9C u0C9D u0C9F u0CA0 u0CA1 u0CA2 u0CA3 u0CA4 u0CA5 u0CA6 u0CA7 u0CA8 u0CAA u0CAB u0CAC u0CAD u0CAE u0CAF u0CB0 u0CB2 u0CB3 u0CB5 u0CB6 u0CB7 u0CB8 u0CB9
-  FCoverage: 5 u0CCC
- 1
-  SeqLookup: 0 "Single Substitution lookup 15" 
-EndFPST
-ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 2"  0 0 0 1
- 1 0 1
-  Coverage: 191 u0C95 u0C96 u0C97 u0C98 u0C9A u0C9B u0C9C u0C9D u0C9F u0CA0 u0CA1 u0CA2 u0CA3 u0CA4 u0CA5 u0CA6 u0CA7 u0CA8 u0CAA u0CAB u0CAC u0CAD u0CAE u0CAF u0CB0 u0CB2 u0CB3 u0CB5 u0CB6 u0CB7 u0CB8 u0CB9
-  FCoverage: 5 u0CCD
- 1
-  SeqLookup: 0 "Single Substitution lookup 15" 
-EndFPST
-ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 1"  0 0 0 1
- 1 0 1
-  Coverage: 191 u0C95 u0C96 u0C97 u0C98 u0C9A u0C9B u0C9C u0C9D u0C9F u0CA0 u0CA1 u0CA2 u0CA3 u0CA4 u0CA5 u0CA6 u0CA7 u0CA8 u0CAA u0CAB u0CAC u0CAD u0CAE u0CAF u0CB0 u0CB2 u0CB3 u0CB5 u0CB6 u0CB7 u0CB8 u0CB9
-  FCoverage: 5 u0CBE
- 1
-  SeqLookup: 0 "Single Substitution lookup 15" 
-EndFPST
-ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 0"  0 0 0 1
- 1 0 1
-  Coverage: 191 u0C95 u0C96 u0C97 u0C98 u0C9A u0C9B u0C9C u0C9D u0C9F u0CA0 u0CA1 u0CA2 u0CA3 u0CA4 u0CA5 u0CA6 u0CA7 u0CA8 u0CAA u0CAB u0CAC u0CAD u0CAE u0CAF u0CB0 u0CB2 u0CB3 u0CB5 u0CB6 u0CB7 u0CB8 u0CB9
-  FCoverage: 5 u0CC6
- 1
-  SeqLookup: 0 "Single Substitution lookup 15" 
-EndFPST
-ChainSub2: coverage "'akhn' Akhand in Kannada lookup 1 contextual 1"  0 0 0 1
- 2 0 1
-  Coverage: 209 u0C95 u0C96 u0C97 u0C98 u0C99 u0C9A u0C9B u0C9C u0C9D u0C9E u0C9F u0CA0 u0CA1 u0CA2 u0CA3 u0CA4 u0CA5 u0CA6 u0CA7 u0CA8 u0CAA u0CAB u0CAC u0CAD u0CAE u0CAF u0CB1 u0CB2 u0CB3 u0CB5 u0CB6 u0CB7 u0CB8 u0CB9 u0CDE
-  Coverage: 5 u0CCD
-  FCoverage: 5 u0CB0
- 1
-  SeqLookup: 0 "Ligature Substitution lookup 14" 
-EndFPST
-ChainSub2: coverage "'akhn' Akhand in Kannada lookup 1 contextual 0"  0 0 0 1
- 2 0 1
-  Coverage: 209 u0C95 u0C96 u0C97 u0C98 u0C99 u0C9A u0C9B u0C9C u0C9D u0C9E u0C9F u0CA0 u0CA1 u0CA2 u0CA3 u0CA4 u0CA5 u0CA6 u0CA7 u0CA8 u0CAA u0CAB u0CAC u0CAD u0CAE u0CAF u0CB1 u0CB2 u0CB3 u0CB5 u0CB6 u0CB7 u0CB8 u0CB9 u0CDE
-  Coverage: 5 u0CCD
-  FCoverage: 5 u0CB1
- 1
-  SeqLookup: 0 "Ligature Substitution lookup 14" 
-EndFPST
-ChainSub2: coverage "'akhn' Akhand in Kannada lookup 0 subtable"  0 0 0 1
- 1 2 0
-  Coverage: 11 u0CB0 u0CB1
-  BCoverage: 5 u0CCD
-  BCoverage: 209 u0C95 u0C96 u0C97 u0C98 u0C99 u0C9A u0C9B u0C9C u0C9D u0C9E u0C9F u0CA0 u0CA1 u0CA2 u0CA3 u0CA4 u0CA5 u0CA6 u0CA7 u0CA8 u0CAA u0CAB u0CAC u0CAD u0CAE u0CAF u0CB1 u0CB2 u0CB3 u0CB5 u0CB6 u0CB7 u0CB8 u0CB9 u0CDE
- 1
-  SeqLookup: 0 "Multiple Substitution lookup 13" 
-EndFPST
-ChainPos2: class "'blwm' Below Base Mark in Kannada lookup 4-1"  2 3 0 1
-  Class: 17 u0CC4 u0CC3 u0CD6
-  BClass: 17 u0CC4 u0CC3 u0CD6
-  BClass: 354 u0C95.sub u0C96.sub u0C97.sub u0C98.sub u0C99.sub u0C9A.sub u0C9B.sub u0C9C.sub u0C9D.sub u0C9E.sub u0C9F.sub u0CA0.sub u0CA1.sub u0CA2.sub u0CA3.sub u0CA4.sub u0CA5.sub u0CA6.sub u0CA7.sub u0CA8.sub u0CAA.sub u0CAB.sub u0CAC.sub u0CAD.sub u0CAE.sub u0CAF.sub u0CB1.sub u0CB2.sub u0CB3.sub u0CB5.sub u0CB6.sub u0CB7.sub u0CB8.sub u0CB9.sub u0CB0.below.ra
- 1 1 0
-  ClsList: 1
-  BClsList: 2
-  FClsList:
- 1
-  SeqLookup: 0 "RightSubMove" 
-EndFPST
-ChainPos2: class "'blwm' Below Base Mark in Kannada lookup 2-1"  3 1 3 1
-  Class: 354 u0C95.sub u0C96.sub u0C97.sub u0C98.sub u0C99.sub u0C9A.sub u0C9B.sub u0C9C.sub u0C9D.sub u0C9E.sub u0C9F.sub u0CA0.sub u0CA1.sub u0CA2.sub u0CA3.sub u0CA4.sub u0CA5.sub u0CA6.sub u0CA7.sub u0CA8.sub u0CAA.sub u0CAB.sub u0CAC.sub u0CAD.sub u0CAE.sub u0CAF.sub u0CB1.sub u0CB2.sub u0CB3.sub u0CB5.sub u0CB6.sub u0CB7.sub u0CB8.sub u0CB9.sub u0CB0.below.ra
-  Class: 17 u0CC4 u0CC3 u0CD6
-  FClass: 354 u0C95.sub u0C96.sub u0C97.sub u0C98.sub u0C99.sub u0C9A.sub u0C9B.sub u0C9C.sub u0C9D.sub u0C9E.sub u0C9F.sub u0CA0.sub u0CA1.sub u0CA2.sub u0CA3.sub u0CA4.sub u0CA5.sub u0CA6.sub u0CA7.sub u0CA8.sub u0CAA.sub u0CAB.sub u0CAC.sub u0CAD.sub u0CAE.sub u0CAF.sub u0CB1.sub u0CB2.sub u0CB3.sub u0CB5.sub u0CB6.sub u0CB7.sub u0CB8.sub u0CB9.sub u0CB0.below.ra
-  FClass: 17 u0CC4 u0CC3 u0CD6
- 1 0 1
-  ClsList: 1
-  BClsList:
-  FClsList: 2
- 1
-  SeqLookup: 0 "SubMove" 
-EndFPST
-AnchorClass2: "s"  "'blwm' ksha formation-1" "V"  "'abvs' Above Base Substitutions lookup 1-1" 
-BeginChars: 65670 319
+WinInfo: 0 74 22
+BeginPrivate: 0
+EndPrivate
+AnchorClass2: "s" "" "V" "" 
+BeginChars: 65670 323
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -16113,9 +15929,7 @@ SplineSet
  936 685 l 1,46,-1
  916 588 l 1,0,-1
 EndSplineSet
-Ligature2: "'rphf' Reph Form in Kannada lookup 3 subtable" u0CB0 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u00A0
@@ -17397,23 +17211,19 @@ StartChar: u0C95
 Encoding: 3221 3221 125
 Width: 691
 Flags: W
+AnchorPoint: "s" 280 -58 basechar 0
 LayerCount: 2
 Fore
 Refer: 126 -1 N 1 0 0 1 0 0 0
 Refer: 103 -1 N 1 0 0 1 527 0 0
-AnchorPoint: "s" 280 -58 basechar 0
-
-
-Substitution2: "Single Substitution lookup 15 subtable" u0C95.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0C95 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C95.base
 Encoding: 65545 -1 126
 Width: 527
 Flags: W
+AnchorPoint: "s" 278 -62 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -17460,15 +17270,13 @@ SplineSet
  546 101 546 101 559 118.5 c 128,-1,56
  572 136 572 136 574 155 c 1,36,-1
 EndSplineSet
-AnchorPoint: "s" 278 -62 basechar 0
-
-
 EndChar
 
 StartChar: u0C95.imathra
 Encoding: 65546 -1 127
 Width: 620
 Flags: W
+AnchorPoint: "s" 270 -80 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -17524,12 +17332,7 @@ SplineSet
  530 92 530 92 540.5 104.5 c 128,-1,69
  551 117 551 117 556 133 c 1,57,-1
 EndSplineSet
-AnchorPoint: "s" 270 -80 basechar 0
-
-
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0C95 u0CBF
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C95.sub
@@ -17579,11 +17382,7 @@ SplineSet
  99 -335 99 -335 108 -321 c 1,50,51
  120 -309 120 -309 126 -291 c 1,35,-1
 EndSplineSet
-Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C95 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C95_u0CC3.sub
@@ -17725,10 +17524,7 @@ SplineSet
  477 88 477 88 493 101 c 128,-1,88
  509 114 509 114 510 129 c 1,73,-1
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0C96.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0C96 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C96.base
@@ -17892,9 +17688,7 @@ SplineSet
  476 97 476 97 492.5 109.5 c 128,-1,110
  509 122 509 122 513 137 c 2,94,-1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0C96 u0CBF
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C96.sub
@@ -17959,11 +17753,7 @@ SplineSet
  -163 -335 l 2,76,77
  -154 -335 -154 -335 -117 -318 c 1,65,66
 EndSplineSet
-Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C96 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C97
@@ -17974,10 +17764,7 @@ LayerCount: 2
 Fore
 Refer: 135 -1 N 1 0 0 1 0 0 0
 Refer: 103 -1 N 1 0 0 1 550 0 0
-Substitution2: "Single Substitution lookup 15 subtable" u0C97.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0C97 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C97.base
@@ -18058,9 +17845,7 @@ SplineSet
  705 683 l 2,54,55
  748 683 748 683 776 633 c 1,40,41
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0C97 u0CBF
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C97.sub
@@ -18089,11 +17874,7 @@ SplineSet
  159 -159 159 -159 157 -175 c 1,23,-1
  107 -410 l 1,0,-1
 EndSplineSet
-Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C97 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C98
@@ -18104,10 +17885,7 @@ LayerCount: 2
 Fore
 Refer: 139 -1 N 1 0 0 1 0 0 0
 Refer: 103 -1 N 1 0 0 1 970 0 0
-Substitution2: "Single Substitution lookup 15 subtable" u0C98.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0C98 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C98.base
@@ -18304,9 +18082,7 @@ SplineSet
  584 -33 l 1,142,-1
  555 -168 l 1,139,-1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0C98 u0CBF
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C98.sub
@@ -18370,11 +18146,7 @@ SplineSet
  -51 -349 l 1,71,-1
  -63 -412 l 1,67,-1
 EndSplineSet
-Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C98 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C99
@@ -18463,9 +18235,7 @@ SplineSet
  655 369 l 1,107,-1
  633 260 l 1,104,-1
 EndSplineSet
-Ligature2: "Ligature Substitution lookup 14 subtable" u0C99 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C99.sub
@@ -18541,11 +18311,7 @@ SplineSet
  318 -230 l 1,89,-1
  302 -320 l 1,4,5
 EndSplineSet
-Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C99 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C9A
@@ -18556,10 +18322,7 @@ LayerCount: 2
 Fore
 Refer: 145 -1 N 1 0 0 1 0 0 0
 Refer: 103 -1 N 1 0 0 1 779 0 0
-Substitution2: "Single Substitution lookup 15 subtable" u0C9A.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0C9A u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C9A.base
@@ -18733,9 +18496,7 @@ SplineSet
  1075 443 l 1,115,-1
  1051 341 l 1,0,-1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0C9A u0CBF
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C9A.sub
@@ -18809,11 +18570,7 @@ SplineSet
  351 -67 l 1,88,-1
  340 -149 l 1,0,-1
 EndSplineSet
-Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C9A u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C9B
@@ -18824,10 +18581,7 @@ LayerCount: 2
 Fore
 Refer: 149 -1 N 1 0 0 1 0 0 0
 Refer: 103 -1 N 1 0 0 1 694 0 0
-Substitution2: "Single Substitution lookup 15 subtable" u0C9B.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0C9B u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C9B.base
@@ -18983,9 +18737,7 @@ SplineSet
  590 -28 l 1,108,-1
  561 -163 l 1,105,-1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0C9B u0CBF
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C9B.sub
@@ -19049,11 +18801,7 @@ SplineSet
  -22 -402 l 1,71,-1
  -31 -448 l 1,67,-1
 EndSplineSet
-Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C9B u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C9C
@@ -19144,10 +18892,7 @@ SplineSet
  972 288 972 288 970 269 c 1,116,-1
  937 109 l 1,0,1
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0C9C.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0C9C u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C9C.base
@@ -19339,9 +19084,7 @@ SplineSet
  919 561 919 561 930 573.5 c 128,-1,126
  941 586 941 586 940 602 c 1,114,-1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0C9C u0CBF
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C9C.sub
@@ -19416,11 +19159,7 @@ SplineSet
  309 -232 l 1,90,-1
  298 -306 l 1,24,25
 EndSplineSet
-Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C9C u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C9D
@@ -19433,26 +19172,19 @@ Refer: 239 -1 N 1 0 0 1 0 0 0
 Refer: 103 -1 N 1 0 0 1 614 0 0
 Refer: 161 -1 N 1 0 0 1 778 0 0
 Refer: 282 3265 N 1 0 0 1 1188 0 0
-Substitution2: "Single Substitution lookup 15 subtable" u0C9D.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0C9D u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C9D.base
 Encoding: 65568 -1 157
 Width: 1435
 Flags: W
+AnchorPoint: "V" 404 537 basechar 0
 LayerCount: 2
 Fore
 Refer: 239 -1 N 1 0 0 1 0 0 0
 Refer: 161 -1 N 1 0 0 1 614 0 0
 Refer: 282 3265 N 1 0 0 1 1024 0 0
-AnchorPoint: "V" 404 537 basechar 0
-
-
-Substitution2: "Single Substitution lookup 18 subtable" u0C9D.base.mathra
-
 EndChar
 
 StartChar: u0C9D_half.base
@@ -19474,9 +19206,7 @@ Fore
 Refer: 241 -1 N 1 0 0 1 0 0 0
 Refer: 161 -1 N 1 0 0 1 751 0 0
 Refer: 282 3265 N 1 0 0 1 1162 0 0
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0C9D u0CBF
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C9D.sub
@@ -19553,11 +19283,7 @@ SplineSet
  -211 -302 -211 -302 -193.5 -287.5 c 128,-1,92
  -176 -273 -176 -273 -173 -254 c 2,77,-1
 EndSplineSet
-Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C9D u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C9D_base
@@ -19706,9 +19432,7 @@ SplineSet
  719 269 l 2,122,123
  727 269 727 269 757 282 c 1,110,111
 EndSplineSet
-Ligature2: "Ligature Substitution lookup 14 subtable" u0C9E u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C9E.sub
@@ -19801,11 +19525,7 @@ SplineSet
  -112 -300 -112 -300 -89 -300 c 0,121,122
  -77 -300 -77 -300 -71 -279 c 1,113,-1
 EndSplineSet
-Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C9E u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C9F
@@ -19894,10 +19614,7 @@ SplineSet
  977 336 977 336 975 320 c 1,113,-1
  933 109 l 2,0,1
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0C9F.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0C9F u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C9F.base
@@ -20093,9 +19810,7 @@ SplineSet
  999 340 999 340 997 324 c 1,137,-1
  947 112 l 2,0,1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0C9F u0CBF
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C9F.sub
@@ -20168,11 +19883,7 @@ SplineSet
  282 -180 282 -180 278 -206 c 2,87,-1
  253 -338 l 2,0,1
 EndSplineSet
-Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C9F u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA0
@@ -20183,10 +19894,7 @@ LayerCount: 2
 Fore
 Refer: 170 -1 N 1 0 0 1 0 0 0
 Refer: 103 -1 N 1 0 0 1 614 0 0
-Substitution2: "Single Substitution lookup 15 subtable" u0CA0.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CA0 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA0.base
@@ -20297,9 +20005,7 @@ SplineSet
  627 378 l 1,72,-1
  604 269 l 1,69,-1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CA0 u0CBF
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA0.sub
@@ -20344,11 +20050,7 @@ SplineSet
  19 -178 l 1,44,-1
  1 -260 l 1,41,-1
 EndSplineSet
-Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CA0 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA1
@@ -20359,10 +20061,7 @@ LayerCount: 2
 Fore
 Refer: 174 -1 N 1 0 0 1 0 0 0
 Refer: 103 -1 N 1 0 0 1 749 0 0
-Substitution2: "Single Substitution lookup 15 subtable" u0CA1.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CA1 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA1.base
@@ -20538,9 +20237,7 @@ SplineSet
  839 119 839 119 842.5 125 c 128,-1,123
  846 131 846 131 853 140 c 1,74,-1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CA1 u0CBF
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA1.sub
@@ -20602,11 +20299,7 @@ SplineSet
  177 -317 177 -317 188.5 -310 c 128,-1,72
  200 -303 200 -303 203 -294 c 1,41,-1
 EndSplineSet
-Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CA1 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA2
@@ -20617,10 +20310,7 @@ LayerCount: 2
 Fore
 Refer: 178 -1 N 1 0 0 1 0 0 0
 Refer: 103 -1 N 1 0 0 1 749 0 0
-Substitution2: "Single Substitution lookup 15 subtable" u0CA2.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CA2 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA2.base
@@ -20806,9 +20496,7 @@ SplineSet
  600 0 l 1,127,-1
  571 -137 l 1,124,-1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CA2 u0CBF
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA2.sub
@@ -20875,11 +20563,7 @@ SplineSet
  175 -316 175 -316 186.5 -309 c 128,-1,76
  198 -302 198 -302 201 -293 c 1,45,-1
 EndSplineSet
-Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CA2 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA3
@@ -20958,10 +20642,7 @@ SplineSet
  1106 565 1106 565 1102 546 c 2,94,-1
  1012 131 l 2,0,1
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0CA3.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CA3 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA3.base
@@ -21151,9 +20832,7 @@ SplineSet
  1105 559 1105 559 1101 540 c 2,135,-1
  1012 131 l 2,0,1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CA3 u0CBF
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA3.sub
@@ -21225,11 +20904,7 @@ SplineSet
  318 -163 318 -163 314 -179 c 2,89,-1
  285 -315 l 2,0,1
 EndSplineSet
-Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CA3 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA4
@@ -21240,10 +20915,7 @@ LayerCount: 2
 Fore
 Refer: 186 -1 N 1 0 0 1 0 0 0
 Refer: 103 -1 N 1 0 0 1 614 0 0
-Substitution2: "Single Substitution lookup 15 subtable" u0CA4.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CA4 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA4.base
@@ -21385,9 +21057,7 @@ SplineSet
  612 367 l 2,99,100
  654 367 654 367 684 392 c 1,89,90
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CA4 u0CBF
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA4.sub
@@ -21417,11 +21087,7 @@ SplineSet
  285 -55 l 1,22,-1
  247 -237 l 2,0,1
 EndSplineSet
-Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CA4 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA4_u0CAF.sub
@@ -21696,10 +21362,7 @@ LayerCount: 2
 Fore
 Refer: 194 -1 N 1 0 0 1 0 0 0
 Refer: 103 -1 N 1 0 0 1 729 0 0
-Substitution2: "Single Substitution lookup 15 subtable" u0CA5.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CA5 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA5.base
@@ -21850,9 +21513,7 @@ SplineSet
  683 411 l 1,91,-1
  661 302 l 1,88,-1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CA5 u0CBF
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA5.sub
@@ -21917,11 +21578,7 @@ SplineSet
  28 -142 l 1,68,-1
  10 -223 l 1,65,-1
 EndSplineSet
-Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CA5 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA6
@@ -21932,10 +21589,7 @@ LayerCount: 2
 Fore
 Refer: 198 -1 N 1 0 0 1 0 0 0
 Refer: 103 -1 N 1 0 0 1 729 0 0
-Substitution2: "Single Substitution lookup 15 subtable" u0CA6.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CA6 u0CCD
-LCarets2: 1 726 
-
+LCarets2: 1 726
 EndChar
 
 StartChar: u0CA6.base
@@ -22066,9 +21720,7 @@ SplineSet
  778 94 778 94 799.5 108 c 128,-1,83
  821 122 821 122 826 141 c 2,50,-1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CA6 u0CBF
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA6.sub
@@ -22123,11 +21775,7 @@ SplineSet
  158 -289 158 -289 166 -281 c 1,60,61
  174 -276 174 -276 177 -262 c 2,30,-1
 EndSplineSet
-Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CA6 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA7
@@ -22138,10 +21786,7 @@ LayerCount: 2
 Fore
 Refer: 202 -1 N 1 0 0 1 0 0 0
 Refer: 103 -1 N 1 0 0 1 729 0 0
-Substitution2: "Single Substitution lookup 15 subtable" u0CA7.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CA7 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA7.base
@@ -22282,9 +21927,7 @@ SplineSet
  603 -4 l 1,87,-1
  574 -141 l 1,84,-1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CA7 u0CBF
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA7.sub
@@ -22347,11 +21990,7 @@ SplineSet
  156 -279 156 -279 163.5 -275 c 128,-1,67
  171 -271 171 -271 175 -263 c 1,36,-1
 EndSplineSet
-Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CA7 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA8
@@ -22362,10 +22001,7 @@ LayerCount: 2
 Fore
 Refer: 206 -1 N 1 0 0 1 0 0 0
 Refer: 103 -1 N 1 0 0 1 670 0 0
-Substitution2: "Single Substitution lookup 15 subtable" u0CA8.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CA8 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA8.base
@@ -22495,9 +22131,7 @@ SplineSet
  971 700 971 700 969 681 c 1,84,-1
  847 109 l 2,0,1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CA8 u0CBF
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA8.sub
@@ -22553,11 +22187,7 @@ SplineSet
  -171 -322 l 2,65,66
  -131 -322 -131 -322 -85 -276 c 1,54,55
 EndSplineSet
-Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CA8 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAA
@@ -22568,10 +22198,7 @@ LayerCount: 2
 Fore
 Refer: 210 -1 N 1 0 0 1 0 0 0
 Refer: 103 -1 N 1 0 0 1 806 0 0
-Substitution2: "Single Substitution lookup 15 subtable" u0CAA.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CAA u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAA.base
@@ -22752,9 +22379,7 @@ SplineSet
  1054 421 1054 421 1052 407 c 2,156,-1
  993 119 l 1,87,88
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CAA u0CBF
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAA.sub
@@ -22816,11 +22441,7 @@ SplineSet
  -1 -364 l 1,71,-1
  -11 -413 l 1,67,-1
 EndSplineSet
-Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CAA u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAB
@@ -22831,10 +22452,7 @@ LayerCount: 2
 Fore
 Refer: 214 -1 N 1 0 0 1 0 0 0
 Refer: 103 -1 N 1 0 0 1 806 0 0
-Substitution2: "Single Substitution lookup 15 subtable" u0CAB.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CAB u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAB.base
@@ -22999,9 +22617,7 @@ SplineSet
  613 -2 l 1,113,-1
  584 -139 l 1,110,-1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CAB u0CBF
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAB.sub
@@ -23064,11 +22680,7 @@ SplineSet
  -22 -362 l 1,69,-1
  -31 -410 l 1,65,-1
 EndSplineSet
-Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CAB u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAC
@@ -23143,10 +22755,7 @@ SplineSet
  1037 537 1037 537 1033 518 c 2,94,-1
  960 145 l 2,0,1
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0CAC.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CAC u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAC.base
@@ -23305,9 +22914,7 @@ SplineSet
  1063 655 1063 655 1062 648 c 2,108,-1
  953 149 l 2,0,1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CAC u0CBF
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAC.sub
@@ -23369,11 +22976,7 @@ SplineSet
  352 89 352 89 350 75 c 2,73,-1
  280 -251 l 2,0,1
 EndSplineSet
-Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CAC u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAD
@@ -23384,10 +22987,7 @@ LayerCount: 2
 Fore
 Refer: 222 -1 N 1 0 0 1 0 0 0
 Refer: 103 -1 N 1 0 0 1 765 0 0
-Substitution2: "Single Substitution lookup 15 subtable" u0CAD.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CAD u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAD.base
@@ -23556,9 +23156,7 @@ SplineSet
  579 -10 l 1,112,-1
  550 -147 l 1,109,-1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CAD u0CBF
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAD.sub
@@ -23630,11 +23228,7 @@ SplineSet
  11 -370 l 1,83,-1
  3 -410 l 1,79,-1
 EndSplineSet
-Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CAD u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAE
@@ -23646,26 +23240,18 @@ Fore
 Refer: 258 -1 N 1 0 0 1 0 0 0
 Refer: 103 -1 N 1 0 0 1 772 0 0
 Refer: 282 3265 N 1 0 0 1 936 0 0
-Substitution2: "Single Substitution lookup 15 subtable" u0CAE.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CAE u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAE.base
 Encoding: 65621 -1 226
 Width: 1183
 Flags: W
+AnchorPoint: "V" 537.25 535 basechar 0
 LayerCount: 2
 Fore
 Refer: 258 -1 N 1 0 0 1 0 0 0
 Refer: 282 3265 N 1 0 0 1 772 0 0
-AnchorPoint: "V" 537.25 535 basechar 0
-
-
-Substitution2: "Single Substitution lookup 18 subtable" u0CAE.base.mathra
-Substitution2: "Single Substitution lookup 17 subtable" u0CAE_base
-
 EndChar
 
 StartChar: u0CAE.imathra
@@ -23676,9 +23262,7 @@ LayerCount: 2
 Fore
 Refer: 259 -1 N 1 0 0 1 0 0 0
 Refer: 282 3265 N 1 0 0 1 907 0 0
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CAE u0CBF
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAE.sub
@@ -23737,11 +23321,7 @@ SplineSet
  211 -192 211 -192 222 -187 c 1,68,-1
  231 -170 l 1,58,-1
 EndSplineSet
-Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CAE u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAE.base.mathra
@@ -23773,26 +23353,18 @@ Fore
 Refer: 235 -1 N 1 0 0 1 0 0 0
 Refer: 103 -1 N 1 0 0 1 970 0 0
 Refer: 282 3265 N 1 0 0 1 1134 0 0
-Substitution2: "Single Substitution lookup 15 subtable" u0CAF.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CAF u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAF.base
 Encoding: 65626 -1 232
 Width: 1380
 Flags: W
+AnchorPoint: "V" 705 536 basechar 0
 LayerCount: 2
 Fore
 Refer: 235 -1 N 1 0 0 1 0 0 0
 Refer: 282 3265 N 1 0 0 1 970 0 0
-AnchorPoint: "V" 705 536 basechar 0
-
-
-Substitution2: "Single Substitution lookup 18 subtable" u0CAF.base.mathra
-Substitution2: "Single Substitution lookup 17 subtable" u0CAF_base
-
 EndChar
 
 StartChar: u0CAF.imathra
@@ -23803,9 +23375,7 @@ LayerCount: 2
 Fore
 Refer: 236 -1 N 1 0 0 1 0 0 0
 Refer: 282 3265 N 1 0 0 1 1082 0 0
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CAF u0CBF
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAF.sub
@@ -23873,11 +23443,7 @@ SplineSet
  370 183 370 183 369 179 c 2,85,-1
  350 95 l 1,0,-1
 EndSplineSet
-Position2: "SubMove-1" dx=-150 dy=0 dh=0 dv=0
-
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CAF u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAF_base
@@ -24041,9 +23607,6 @@ LayerCount: 2
 Fore
 Refer: 239 -1 N 1 0 0 1 0 0 0
 Refer: 103 -1 N 1 0 0 1 614 0 0
-Substitution2: "Single Substitution lookup 15 subtable" u0CB0.base
-MultipleSubs2: "Multiple Substitution lookup 13 subtable" u0CB0 u0CCD
-
 EndChar
 
 StartChar: u0CB0.base
@@ -24172,9 +23735,7 @@ SplineSet
  697 123 697 123 703 134 c 128,-1,68
  709 145 709 145 715 161 c 1,48,-1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CB0 u0CBF
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB0.below.ra
@@ -24198,11 +23759,7 @@ SplineSet
  214 276 l 1,15,-1
  137 -82 l 1,0,1
 EndSplineSet
-Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 4 subtable" u0CB0 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB0.below.angleright
@@ -24384,10 +23941,7 @@ SplineSet
  896 130 896 130 910.5 151 c 128,-1,85
  925 172 925 172 935 197 c 1,40,-1
 EndSplineSet
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CB1 u0CCD
-MultipleSubs2: "Multiple Substitution lookup 13 subtable" u0CB1 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB1.imathra
@@ -24488,9 +24042,7 @@ SplineSet
  896 907 896 907 895 903 c 2,126,-1
  871 799 l 2,86,87
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CB1 u0CBF
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB1.sub
@@ -24550,12 +24102,7 @@ SplineSet
  188 -284 188 -284 196 -276.5 c 128,-1,62
  204 -269 204 -269 209 -259 c 1,31,-1
 EndSplineSet
-Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CB1 u0CCD
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 2 subtable" u0CB1 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB2
@@ -24609,10 +24156,7 @@ SplineSet
  1007 556 1007 556 1003 537 c 2,59,-1
  930 172 l 1,0,1
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0CB2.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CB2 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB2.base
@@ -24739,9 +24283,7 @@ SplineSet
  1032 674 1032 674 1028 655 c 2,80,-1
  929 175 l 2,0,1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CB2 u0CBF
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB2.sub
@@ -24798,11 +24340,7 @@ SplineSet
  298 -162 298 -162 296 -178 c 1,61,-1
  264 -306 l 1,0,1
 EndSplineSet
-Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CB2 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB3
@@ -24813,10 +24351,7 @@ LayerCount: 2
 Fore
 Refer: 254 -1 N 1 0 0 1 0 0 0
 Refer: 103 -1 N 1 0 0 1 610 0 0
-Substitution2: "Single Substitution lookup 15 subtable" u0CB3.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CB3 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB3.base
@@ -24985,9 +24520,7 @@ SplineSet
  510 92 510 92 524.5 103.5 c 128,-1,117
  539 115 539 115 543 134 c 2,98,-1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CB3 u0CBF
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB3.sub
@@ -25045,11 +24578,7 @@ SplineSet
  -28 -345 l 1,61,62
  -14 -344 -14 -344 -8 -319 c 2,55,-1
 EndSplineSet
-Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CB3 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB5
@@ -25060,10 +24589,7 @@ LayerCount: 2
 Fore
 Refer: 258 -1 N 1 0 0 1 0 0 0
 Refer: 103 -1 N 1 0 0 1 772 0 0
-Substitution2: "Single Substitution lookup 15 subtable" u0CB5.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CB5 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB5.base
@@ -25202,9 +24728,7 @@ SplineSet
  1079 663 1079 663 1075 640 c 2,98,-1
  975 163 l 2,0,1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CB5 u0CBF
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB5.sub
@@ -25266,11 +24790,7 @@ SplineSet
  272 -191 272 -191 271 -195 c 2,68,-1
  250 -287 l 1,0,1
 EndSplineSet
-Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CB5 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB6
@@ -25281,10 +24801,7 @@ LayerCount: 2
 Fore
 Refer: 262 -1 N 1 0 0 1 0 0 0
 Refer: 103 -1 N 1 0 0 1 585 0 0
-Substitution2: "Single Substitution lookup 15 subtable" u0CB6.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CB6 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB6.base
@@ -25455,9 +24972,7 @@ SplineSet
  573 87 573 87 607 110.5 c 128,-1,123
  641 134 641 134 644 163 c 1,102,-1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CB6 u0CBF
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB6.sub
@@ -25519,11 +25034,7 @@ SplineSet
  277 -325 277 -325 291 -314.5 c 128,-1,70
  305 -304 305 -304 306 -286 c 1,51,-1
 EndSplineSet
-Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CB6 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB6_u0CB0_imathra
@@ -25676,9 +25187,7 @@ SplineSet
  1668 685 l 1,201,-1
  1627 508 l 1,165,166
 EndSplineSet
-Ligature2: "'akhn' Akhand in Kannada lookup 6 subtable" u0CB6 u0CBF u0CB0 u0CCD
-LCarets2: 3 0 0 0 
-
+LCarets2: 3 0 0 0
 EndChar
 
 StartChar: u0CB7
@@ -25689,10 +25198,7 @@ LayerCount: 2
 Fore
 Refer: 267 -1 N 1 0 0 1 0 0 0
 Refer: 103 -1 N 1 0 0 1 806 0 0
-Substitution2: "Single Substitution lookup 15 subtable" u0CB7.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CB7 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB7.base
@@ -25857,15 +25363,14 @@ SplineSet
  836 262 l 1,114,-1
  900 180 l 1,40,-1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CB7 u0CBF
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB7.sub
 Encoding: 65656 -1 269
 Width: 218
 Flags: W
+AnchorPoint: "s" -122 18 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -25934,14 +25439,7 @@ SplineSet
  373 -311 l 1,94,-1
  355 -407 l 1,0,-1
 EndSplineSet
-Position2: "SubMove-1" dx=-150 dy=75 dh=0 dv=0
-
-AnchorPoint: "s" -122 18 basechar 0
-
-
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CB7 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB8
@@ -25952,10 +25450,7 @@ LayerCount: 2
 Fore
 Refer: 271 -1 N 1 0 0 1 0 0 0
 Refer: 103 -1 N 1 0 0 1 648 0 0
-Substitution2: "Single Substitution lookup 15 subtable" u0CB8.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CB8 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB8.base
@@ -26095,9 +25590,7 @@ SplineSet
  888 363 888 363 886 349 c 2,103,-1
  828 79 l 2,48,49
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CB8 u0CBF
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB8.sub
@@ -26140,11 +25633,7 @@ SplineSet
  294 -2 294 -2 292 -21 c 1,48,-1
  239 -278 l 2,0,1
 EndSplineSet
-Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CB8 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB9
@@ -26155,10 +25644,7 @@ LayerCount: 2
 Fore
 Refer: 275 -1 N 1 0 0 1 0 0 0
 Refer: 103 -1 N 1 0 0 1 842 0 0
-Substitution2: "Single Substitution lookup 15 subtable" u0CB9.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CB9 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB9.base
@@ -26330,9 +25816,7 @@ SplineSet
  504 98 504 98 531 119 c 128,-1,119
  558 140 558 140 569 163 c 1,100,-1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CB9 u0CBF
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB9.sub
@@ -26392,11 +25876,7 @@ SplineSet
  -145 -271 l 2,69,70
  -113 -271 -113 -271 -105 -245 c 1,54,-1
 EndSplineSet
-Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CB9 u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CBD
@@ -26572,8 +26052,6 @@ SplineSet
  551 548 551 548 547 527 c 2,34,-1
  466 131 l 1,0,1
 EndSplineSet
-Substitution2: "Single Substitution lookup 19 subtable" u0CC1.large
-
 EndChar
 
 StartChar: u0CC1.large
@@ -26661,8 +26139,6 @@ SplineSet
  934 564 934 564 932 548 c 1,63,-1
  848 131 l 1,0,1
 EndSplineSet
-Substitution2: "Single Substitution lookup 19 subtable" u0CC2.large
-
 EndChar
 
 StartChar: u0CC2.large
@@ -26767,8 +26243,6 @@ SplineSet
  -92 -176 l 2,50,51
  -78 -176 -78 -176 -74 -153 c 2,42,-1
 EndSplineSet
-Position2: "RightSubMove-1" dx=50 dy=0 dh=0 dv=0
-
 EndChar
 
 StartChar: u0CC4
@@ -26832,14 +26306,13 @@ SplineSet
  128 -20 l 1,73,-1
  487 -24 l 2,10,11
 EndSplineSet
-Position2: "RightSubMove-1" dx=50 dy=0 dh=0 dv=0
-
 EndChar
 
 StartChar: u0CC6
 Encoding: 3270 3270 288
 Width: 163
 Flags: W
+AnchorPoint: "V" -225.667 534.667 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -26874,11 +26347,6 @@ SplineSet
  345 874 345 874 343 855 c 1,42,-1
  320 737 l 2,0,1
 EndSplineSet
-AnchorPoint: "V" -225.667 534.667 mark 0
-
-
-Substitution2: "Single Substitution lookup 16 subtable" u0CC6.large
-
 EndChar
 
 StartChar: u0CC6.large
@@ -26959,8 +26427,6 @@ LayerCount: 2
 Fore
 Refer: 288 3270 N 1 0 0 1 0 0 0
 Refer: 284 3266 N 1 0 0 1 163 0 0
-Substitution2: "Single Substitution lookup 19 subtable" u0CCA.large
-
 EndChar
 
 StartChar: u0CCA.large
@@ -26982,8 +26448,6 @@ Fore
 Refer: 288 3270 N 1 0 0 1 0 0 0
 Refer: 284 3266 N 1 0 0 1 163 0 0
 Refer: 298 3285 N 1 0 0 1 986 0 0
-Substitution2: "Single Substitution lookup 19 subtable" u0CCB.large
-
 EndChar
 
 StartChar: u0CCB.large
@@ -27200,8 +26664,6 @@ SplineSet
  -47 -172 l 2,85,86
  -19 -172 -19 -172 -18 -158 c 1,74,-1
 EndSplineSet
-Position2: "RightSubMove-1" dx=50 dy=0 dh=0 dv=0
-
 EndChar
 
 StartChar: u0CDE
@@ -27263,9 +26725,7 @@ SplineSet
  1122 567 1122 567 1120 559 c 2,74,-1
  1033 137 l 2,0,1
 EndSplineSet
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CDE u0CCD
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CDE.imathra
@@ -27358,9 +26818,7 @@ SplineSet
  899 906 899 906 898 902 c 2,115,-1
  874 798 l 2,75,76
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CDE u0CBF
-LCarets2: 1 0 
-
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CDE.sub
@@ -28142,221 +27600,223 @@ Width: 0
 Flags: W
 LayerCount: 2
 EndChar
+
 StartChar: u0C95_u0CB7
 Encoding: 319 -1 319
 Width: 536
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 SplineSet
-492.292 64 m 1
- 515.7 15.3432 543.954 -47.789 570.235 -114 c 0
- 586.394 -154.708 607.5 -206 608.5 -237 c 0
- 609.854 -278.981 585.5 -303 567 -302 c 256
- 551.423 -301.158 528 -289 528 -237 c 0
- 528 -222.728 540.877 -173.636 514 -136 c 1
- 514 -203.083 451.701 -246 394 -246 c 0
- 323.2 -246 291.045 -171.79 276 -137 c 1
- 248.336 -203.394 213.519 -247 155 -247 c 0
- 94.4746 -247 62 -194.573 62 -139 c 0
- 62 -100.358 81.25 -41 146 -41 c 0
- 182.7 -41 213 -52.2002 213 -97 c 256
- 213 -135.327 183.846 -134.343 174 -135 c 1
- 181.333 -131.667 185 -120.667 185 -102 c 0
- 185 -84.75 176.8 -64 144 -64 c 0
- 113.333 -64 98 -80 98 -112 c 0
- 98 -134.4 109.8 -168 157 -168 c 0
- 214.391 -168 250.124 -118.452 276 -46 c 1
- 301.761 -118.129 337.151 -168 397 -168 c 0
- 431.4 -168 483 -151.3 483 -63 c 0
- 483 -19.8014 469.601 25.2606 453.585 64 c 1
- 492.292 64 l 1
-431 668 m 0xf4
- 431 732.2 388.512 764.495 366 775 c 1
- 397 794 l 1
- 442.314 773.284 486 700.529 486 625 c 0
- 486 543.261 430.5 482 354 482 c 2
- 309 482 l 1
- 331.963 467.497 333.5 435.5 317 419 c 1
- 486 419 l 1
- 486 328 l 1xf4
- 367 328 l 1
- 409.955 292.409 451 238.766 451 173 c 0xf8
- 451 59.0376 374.205 -4 276 -4 c 0
- 174.6 -4 88 66.6088 88 175 c 0
- 88 245.413 121.97 293.807 168 328 c 1
- 42 328 l 1
- 42 419 l 1
- 258 419 l 2
- 302.507 419 289.193 477.049 257 482 c 1
- 42 482 l 1
- 42 574 l 1
- 324 574 l 2
- 408.498 574 431 627.086 431 668 c 0xf4
-270 89 m 0
- 329.45 89 395 124.412 395 210 c 0xf8
- 395 304.4 317.974 328 273 328 c 0
- 209.232 328 138 288.427 138 207 c 0
- 138 129.489 204.737 89 270 89 c 0
+492.292 64 m 1,0,1
+ 529.827 -16.2229 529.827 -16.2229 570.235 -114 c 0,2,3
+ 596.947 -180.354 596.947 -180.354 608.5 -237 c 0,4,5
+ 597.677 -290.9905 597.677 -290.9905 567 -302 c 256,6,7
+ 539.7115 -295.079 539.7115 -295.079 528 -237 c 0,8,9
+ 534.4385 -198.182 534.4385 -198.182 514 -136 c 1,10,11
+ 482.8505 -224.5415 482.8505 -224.5415 394 -246 c 0,12,13
+ 307.1225 -208.895 307.1225 -208.895 276 -137 c 1,14,15
+ 230.9275 -225.197 230.9275 -225.197 155 -247 c 0,16,17
+ 78.2373 -220.7865 78.2373 -220.7865 62 -139 c 0,18,19
+ 71.625 -70.679 71.625 -70.679 146 -41 c 0,20,21
+ 197.85 -46.6001 197.85 -46.6001 213 -97 c 256,22,23
+ 198.423 -134.835 198.423 -134.835 174 -135 c 1,24,25
+ 183.1665 -126.167 183.1665 -126.167 185 -102 c 0,26,27
+ 180.9 -74.375 180.9 -74.375 144 -64 c 0,28,29
+ 105.6665 -72 105.6665 -72 98 -112 c 0,30,31
+ 103.9 -151.2 103.9 -151.2 157 -168 c 0,32,33
+ 232.2575 -143.226 232.2575 -143.226 276 -46 c 1,34,35
+ 319.456 -143.0645 319.456 -143.0645 397 -168 c 0,36,37
+ 457.2 -159.65 457.2 -159.65 483 -63 c 0,38,39
+ 476.3005 2.7296 476.3005 2.7296 453.585 64 c 1,40,-1
+ 492.292 64 l 1,0,1
+431 668 m 0,41,42
+ 409.756 748.3475 409.756 748.3475 366 775 c 1,43,-1
+ 397 794 l 1,44,45
+ 464.157 736.9065 464.157 736.9065 486 625 c 0,46,47
+ 458.25 512.6305 458.25 512.6305 354 482 c 2,48,-1
+ 309 482 l 1,49,50
+ 332.7315 451.4985 332.7315 451.4985 317 419 c 1,51,-1
+ 486 419 l 1,52,-1
+ 486 328 l 1,53,-1
+ 367 328 l 1,54,55
+ 430.4775 265.5875 430.4775 265.5875 451 173 c 0,56,57
+ 412.6025 27.5188 412.6025 27.5188 276 -4 c 0,58,59
+ 131.3 31.3044 131.3 31.3044 88 175 c 0,60,61
+ 104.985 269.61 104.985 269.61 168 328 c 1,62,-1
+ 42 328 l 1,63,-1
+ 42 419 l 1,64,-1
+ 258 419 l 2,65,66
+ 295.85 448.0245 295.85 448.0245 257 482 c 1,67,-1
+ 42 482 l 1,68,-1
+ 42 574 l 1,69,-1
+ 324 574 l 2,70,71
+ 419.749 600.543 419.749 600.543 431 668 c 0,41,42
+270 89 m 0,72,73
+ 362.225 106.706 362.225 106.706 395 210 c 0,74,75
+ 356.487 316.2 356.487 316.2 273 328 c 0,76,77
+ 173.616 308.2135 173.616 308.2135 138 207 c 0,78,79
+ 171.3685 109.2445 171.3685 109.2445 270 89 c 0,72,73
 EndSplineSet
 Fore
 SplineSet
-492.292 64 m 1
- 515.7 15.3432 543.954 -47.789 570.235 -114 c 0
- 586.394 -154.708 607.5 -206 608.5 -237 c 0
- 609.854 -278.981 585.5 -303 567 -302 c 256
- 551.423 -301.158 528 -289 528 -237 c 0
- 528 -222.728 540.877 -173.636 514 -136 c 1
- 514 -203.083 451.701 -246 394 -246 c 0
- 323.2 -246 291.045 -171.79 276 -137 c 1
- 248.336 -203.394 213.519 -247 155 -247 c 0
- 94.4746 -247 62 -194.573 62 -139 c 0
- 62 -100.358 81.25 -41 146 -41 c 0
- 182.7 -41 213 -52.2002 213 -97 c 256
- 213 -135.327 183.846 -134.343 174 -135 c 1
- 181.333 -131.667 185 -120.667 185 -102 c 0
- 185 -84.75 176.8 -64 144 -64 c 0
- 113.333 -64 98 -80 98 -112 c 0
- 98 -134.4 109.8 -168 157 -168 c 0
- 214.391 -168 250.124 -118.452 276 -46 c 1
- 301.761 -118.129 337.151 -168 397 -168 c 0
- 431.4 -168 483 -151.3 483 -63 c 0
- 483 -19.8014 469.601 25.2606 453.585 64 c 1
- 492.292 64 l 1
-431 668 m 0xf4
- 431 732.2 388.512 764.495 366 775 c 1
- 397 794 l 1
- 442.314 773.284 486 700.529 486 625 c 0
- 486 543.261 430.5 482 354 482 c 2
- 309 482 l 1
- 331.963 467.497 333.5 435.5 317 419 c 1
- 486 419 l 1
- 486 328 l 1xf4
- 367 328 l 1
- 409.955 292.409 451 238.766 451 173 c 0xf8
- 451 59.0376 374.205 -4 276 -4 c 0
- 174.6 -4 88 66.6088 88 175 c 0
- 88 245.413 121.97 293.807 168 328 c 1
- 42 328 l 1
- 42 419 l 1
- 258 419 l 2
- 302.507 419 289.193 477.049 257 482 c 1
- 42 482 l 1
- 42 574 l 1
- 324 574 l 2
- 408.498 574 431 627.086 431 668 c 0xf4
-270 89 m 0
- 329.45 89 395 124.412 395 210 c 0xf8
- 395 304.4 317.974 328 273 328 c 0
- 209.232 328 138 288.427 138 207 c 0
- 138 129.489 204.737 89 270 89 c 0
+492.292 64 m 1,0,1
+ 529.827 -16.2229 529.827 -16.2229 570.235 -114 c 0,2,3
+ 596.947 -180.354 596.947 -180.354 608.5 -237 c 0,4,5
+ 597.677 -290.9905 597.677 -290.9905 567 -302 c 256,6,7
+ 539.7115 -295.079 539.7115 -295.079 528 -237 c 0,8,9
+ 534.4385 -198.182 534.4385 -198.182 514 -136 c 1,10,11
+ 482.8505 -224.5415 482.8505 -224.5415 394 -246 c 0,12,13
+ 307.1225 -208.895 307.1225 -208.895 276 -137 c 1,14,15
+ 230.9275 -225.197 230.9275 -225.197 155 -247 c 0,16,17
+ 78.2373 -220.7865 78.2373 -220.7865 62 -139 c 0,18,19
+ 71.625 -70.679 71.625 -70.679 146 -41 c 0,20,21
+ 197.85 -46.6001 197.85 -46.6001 213 -97 c 256,22,23
+ 198.423 -134.835 198.423 -134.835 174 -135 c 1,24,25
+ 183.1665 -126.167 183.1665 -126.167 185 -102 c 0,26,27
+ 180.9 -74.375 180.9 -74.375 144 -64 c 0,28,29
+ 105.6665 -72 105.6665 -72 98 -112 c 0,30,31
+ 103.9 -151.2 103.9 -151.2 157 -168 c 0,32,33
+ 232.2575 -143.226 232.2575 -143.226 276 -46 c 1,34,35
+ 319.456 -143.0645 319.456 -143.0645 397 -168 c 0,36,37
+ 457.2 -159.65 457.2 -159.65 483 -63 c 0,38,39
+ 476.3005 2.7296 476.3005 2.7296 453.585 64 c 1,40,-1
+ 492.292 64 l 1,0,1
+431 668 m 0,41,42
+ 409.756 748.3475 409.756 748.3475 366 775 c 1,43,-1
+ 397 794 l 1,44,45
+ 464.157 736.9065 464.157 736.9065 486 625 c 0,46,47
+ 458.25 512.6305 458.25 512.6305 354 482 c 2,48,-1
+ 309 482 l 1,49,50
+ 332.7315 451.4985 332.7315 451.4985 317 419 c 1,51,-1
+ 486 419 l 1,52,-1
+ 486 328 l 1,53,-1
+ 367 328 l 1,54,55
+ 430.4775 265.5875 430.4775 265.5875 451 173 c 0,56,57
+ 412.6025 27.5188 412.6025 27.5188 276 -4 c 0,58,59
+ 131.3 31.3044 131.3 31.3044 88 175 c 0,60,61
+ 104.985 269.61 104.985 269.61 168 328 c 1,62,-1
+ 42 328 l 1,63,-1
+ 42 419 l 1,64,-1
+ 258 419 l 2,65,66
+ 295.85 448.0245 295.85 448.0245 257 482 c 1,67,-1
+ 42 482 l 1,68,-1
+ 42 574 l 1,69,-1
+ 324 574 l 2,70,71
+ 419.749 600.543 419.749 600.543 431 668 c 0,41,42
+270 89 m 0,72,73
+ 362.225 106.706 362.225 106.706 395 210 c 0,74,75
+ 356.487 316.2 356.487 316.2 273 328 c 0,76,77
+ 173.616 308.2135 173.616 308.2135 138 207 c 0,78,79
+ 171.3685 109.2445 171.3685 109.2445 270 89 c 0,72,73
 EndSplineSet
 EndChar
 
 StartChar: u0C95_u0CB7.base
 Encoding: 320 -1 320
 Width: 522
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 SplineSet
-492.292 64 m 1
- 515.7 15.3432 543.954 -47.789 570.235 -114 c 0
- 586.394 -154.708 607.5 -206 608.5 -237 c 0
- 609.854 -278.981 585.5 -303 567 -302 c 256
- 551.423 -301.158 528 -289 528 -237 c 0
- 528 -222.728 540.877 -173.636 514 -136 c 1
- 514 -203.083 451.701 -246 394 -246 c 0
- 323.2 -246 291.045 -171.79 276 -137 c 1
- 248.336 -203.394 213.519 -247 155 -247 c 0
- 94.4746 -247 62 -194.573 62 -139 c 0
- 62 -100.358 81.25 -41 146 -41 c 0
- 182.7 -41 213 -52.2002 213 -97 c 256
- 213 -135.327 183.846 -134.343 174 -135 c 1
- 181.333 -131.667 185 -120.667 185 -102 c 0
- 185 -84.75 176.8 -64 144 -64 c 0
- 113.333 -64 98 -80 98 -112 c 0
- 98 -134.4 109.8 -168 157 -168 c 0
- 214.391 -168 250.124 -118.452 276 -46 c 1
- 301.761 -118.129 337.151 -168 397 -168 c 0
- 431.4 -168 483 -151.3 483 -63 c 0
- 483 -19.8014 469.601 25.2606 453.585 64 c 1
- 492.292 64 l 1
-257 482 m 1
- 42 482 l 1
- 42 574 l 1
- 330 574 l 1
- 330 482 l 1
- 309 482 l 1
- 331.963 467.497 333.5 435.5 317 419 c 1
- 486 419 l 1
- 486 328 l 1
- 367 328 l 1
- 409.955 292.409 451 238.766 451 173 c 0
- 451 59.0376 374.205 -4 276 -4 c 0
- 174.6 -4 88 66.6088 88 175 c 0
- 88 245.413 121.97 293.807 168 328 c 1
- 42 328 l 1
- 42 419 l 1
- 258 419 l 2
- 302.507 419 289.193 477.049 257 482 c 1
-270 89 m 0
- 329.45 89 395 124.412 395 210 c 0
- 395 304.4 317.974 328 273 328 c 0
- 209.232 328 138 288.427 138 207 c 0
- 138 129.489 204.737 89 270 89 c 0
+492.292 64 m 1,0,1
+ 529.827 -16.2229 529.827 -16.2229 570.235 -114 c 0,2,3
+ 596.947 -180.354 596.947 -180.354 608.5 -237 c 0,4,5
+ 597.677 -290.9905 597.677 -290.9905 567 -302 c 256,6,7
+ 539.7115 -295.079 539.7115 -295.079 528 -237 c 0,8,9
+ 534.4385 -198.182 534.4385 -198.182 514 -136 c 1,10,11
+ 482.8505 -224.5415 482.8505 -224.5415 394 -246 c 0,12,13
+ 307.1225 -208.895 307.1225 -208.895 276 -137 c 1,14,15
+ 230.9275 -225.197 230.9275 -225.197 155 -247 c 0,16,17
+ 78.2373 -220.7865 78.2373 -220.7865 62 -139 c 0,18,19
+ 71.625 -70.679 71.625 -70.679 146 -41 c 0,20,21
+ 197.85 -46.6001 197.85 -46.6001 213 -97 c 256,22,23
+ 198.423 -134.835 198.423 -134.835 174 -135 c 1,24,25
+ 183.1665 -126.167 183.1665 -126.167 185 -102 c 0,26,27
+ 180.9 -74.375 180.9 -74.375 144 -64 c 0,28,29
+ 105.6665 -72 105.6665 -72 98 -112 c 0,30,31
+ 103.9 -151.2 103.9 -151.2 157 -168 c 0,32,33
+ 232.2575 -143.226 232.2575 -143.226 276 -46 c 1,34,35
+ 319.456 -143.0645 319.456 -143.0645 397 -168 c 0,36,37
+ 457.2 -159.65 457.2 -159.65 483 -63 c 0,38,39
+ 476.3005 2.7296 476.3005 2.7296 453.585 64 c 1,40,-1
+ 492.292 64 l 1,0,1
+257 482 m 1,41,-1
+ 42 482 l 1,42,-1
+ 42 574 l 1,43,-1
+ 330 574 l 1,44,-1
+ 330 482 l 1,45,-1
+ 309 482 l 1,46,47
+ 332.7315 451.4985 332.7315 451.4985 317 419 c 1,48,-1
+ 486 419 l 1,49,-1
+ 486 328 l 1,50,-1
+ 367 328 l 1,51,52
+ 430.4775 265.5875 430.4775 265.5875 451 173 c 0,53,54
+ 412.6025 27.5188 412.6025 27.5188 276 -4 c 0,55,56
+ 131.3 31.3044 131.3 31.3044 88 175 c 0,57,58
+ 104.985 269.61 104.985 269.61 168 328 c 1,59,-1
+ 42 328 l 1,60,-1
+ 42 419 l 1,61,-1
+ 258 419 l 2,62,63
+ 295.85 448.0245 295.85 448.0245 257 482 c 1,41,-1
+270 89 m 0,64,65
+ 362.225 106.706 362.225 106.706 395 210 c 0,66,67
+ 356.487 316.2 356.487 316.2 273 328 c 0,68,69
+ 173.616 308.2135 173.616 308.2135 138 207 c 0,70,71
+ 171.3685 109.2445 171.3685 109.2445 270 89 c 0,64,65
 EndSplineSet
 Fore
 SplineSet
-492.292 64 m 1
- 515.7 15.3432 543.954 -47.789 570.235 -114 c 0
- 586.394 -154.708 607.5 -206 608.5 -237 c 0
- 609.854 -278.981 585.5 -303 567 -302 c 256
- 551.423 -301.158 528 -289 528 -237 c 0
- 528 -222.728 540.877 -173.636 514 -136 c 1
- 514 -203.083 451.701 -246 394 -246 c 0
- 323.2 -246 291.045 -171.79 276 -137 c 1
- 248.336 -203.394 213.519 -247 155 -247 c 0
- 94.4746 -247 62 -194.573 62 -139 c 0
- 62 -100.358 81.25 -41 146 -41 c 0
- 182.7 -41 213 -52.2002 213 -97 c 256
- 213 -135.327 183.846 -134.343 174 -135 c 1
- 181.333 -131.667 185 -120.667 185 -102 c 0
- 185 -84.75 176.8 -64 144 -64 c 0
- 113.333 -64 98 -80 98 -112 c 0
- 98 -134.4 109.8 -168 157 -168 c 0
- 214.391 -168 250.124 -118.452 276 -46 c 1
- 301.761 -118.129 337.151 -168 397 -168 c 0
- 431.4 -168 483 -151.3 483 -63 c 0
- 483 -19.8014 469.601 25.2606 453.585 64 c 1
- 492.292 64 l 1
-257 482 m 1
- 42 482 l 1
- 42 574 l 1
- 330 574 l 1
- 330 482 l 1
- 309 482 l 1
- 331.963 467.497 333.5 435.5 317 419 c 1
- 486 419 l 1
- 486 328 l 1
- 367 328 l 1
- 409.955 292.409 451 238.766 451 173 c 0
- 451 59.0376 374.205 -4 276 -4 c 0
- 174.6 -4 88 66.6088 88 175 c 0
- 88 245.413 121.97 293.807 168 328 c 1
- 42 328 l 1
- 42 419 l 1
- 258 419 l 2
- 302.507 419 289.193 477.049 257 482 c 1
-270 89 m 0
- 329.45 89 395 124.412 395 210 c 0
- 395 304.4 317.974 328 273 328 c 0
- 209.232 328 138 288.427 138 207 c 0
- 138 129.489 204.737 89 270 89 c 0
+492.292 64 m 1,0,1
+ 529.827 -16.2229 529.827 -16.2229 570.235 -114 c 0,2,3
+ 596.947 -180.354 596.947 -180.354 608.5 -237 c 0,4,5
+ 597.677 -290.9905 597.677 -290.9905 567 -302 c 256,6,7
+ 539.7115 -295.079 539.7115 -295.079 528 -237 c 0,8,9
+ 534.4385 -198.182 534.4385 -198.182 514 -136 c 1,10,11
+ 482.8505 -224.5415 482.8505 -224.5415 394 -246 c 0,12,13
+ 307.1225 -208.895 307.1225 -208.895 276 -137 c 1,14,15
+ 230.9275 -225.197 230.9275 -225.197 155 -247 c 0,16,17
+ 78.2373 -220.7865 78.2373 -220.7865 62 -139 c 0,18,19
+ 71.625 -70.679 71.625 -70.679 146 -41 c 0,20,21
+ 197.85 -46.6001 197.85 -46.6001 213 -97 c 256,22,23
+ 198.423 -134.835 198.423 -134.835 174 -135 c 1,24,25
+ 183.1665 -126.167 183.1665 -126.167 185 -102 c 0,26,27
+ 180.9 -74.375 180.9 -74.375 144 -64 c 0,28,29
+ 105.6665 -72 105.6665 -72 98 -112 c 0,30,31
+ 103.9 -151.2 103.9 -151.2 157 -168 c 0,32,33
+ 232.2575 -143.226 232.2575 -143.226 276 -46 c 1,34,35
+ 319.456 -143.0645 319.456 -143.0645 397 -168 c 0,36,37
+ 457.2 -159.65 457.2 -159.65 483 -63 c 0,38,39
+ 476.3005 2.7296 476.3005 2.7296 453.585 64 c 1,40,-1
+ 492.292 64 l 1,0,1
+257 482 m 1,41,-1
+ 42 482 l 1,42,-1
+ 42 574 l 1,43,-1
+ 330 574 l 1,44,-1
+ 330 482 l 1,45,-1
+ 309 482 l 1,46,47
+ 332.7315 451.4985 332.7315 451.4985 317 419 c 1,48,-1
+ 486 419 l 1,49,-1
+ 486 328 l 1,50,-1
+ 367 328 l 1,51,52
+ 430.4775 265.5875 430.4775 265.5875 451 173 c 0,53,54
+ 412.6025 27.5188 412.6025 27.5188 276 -4 c 0,55,56
+ 131.3 31.3044 131.3 31.3044 88 175 c 0,57,58
+ 104.985 269.61 104.985 269.61 168 328 c 1,59,-1
+ 42 328 l 1,60,-1
+ 42 419 l 1,61,-1
+ 258 419 l 2,62,63
+ 295.85 448.0245 295.85 448.0245 257 482 c 1,41,-1
+270 89 m 0,64,65
+ 362.225 106.706 362.225 106.706 395 210 c 0,66,67
+ 356.487 316.2 356.487 316.2 273 328 c 0,68,69
+ 173.616 308.2135 173.616 308.2135 138 207 c 0,70,71
+ 171.3685 109.2445 171.3685 109.2445 270 89 c 0,64,65
 EndSplineSet
 EndChar
+
 StartChar: .notdef
-Encoding: 0 -1 0
+Encoding: 0 -1 321
 Width: 500
 Flags: W
 HStem: 0 31<62 438> 596 31<62 438>
@@ -28364,119 +27824,119 @@ VStem: 31 31<31 596> 438 31<31 596>
 LayerCount: 2
 Fore
 SplineSet
-31 0 m 1
- 31 627 l 1
- 469 627 l 1
- 469 0 l 1
- 31 0 l 1
-438 31 m 1
- 438 596 l 1
- 62 596 l 1
- 62 31 l 1
- 438 31 l 1
+31 0 m 1,0,-1
+ 31 627 l 1,1,-1
+ 469 627 l 1,2,-1
+ 469 0 l 1,3,-1
+ 31 0 l 1,0,-1
+438 31 m 1,4,-1
+ 438 596 l 1,5,-1
+ 62 596 l 1,6,-1
+ 62 31 l 1,7,-1
+ 438 31 l 1,4,-1
 EndSplineSet
 EndChar
 
 StartChar: u0C95_u0CB7.base
-Encoding: 320 -1 320
+Encoding: 320 -1 322
 Width: 522
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 SplineSet
-492.292 64 m 1
- 515.7 15.3432 543.954 -47.789 570.235 -114 c 0
- 586.394 -154.708 607.5 -206 608.5 -237 c 0
- 609.854 -278.981 585.5 -303 567 -302 c 256
- 551.423 -301.158 528 -289 528 -237 c 0
- 528 -222.728 540.877 -173.636 514 -136 c 1
- 514 -203.083 451.701 -246 394 -246 c 0
- 323.2 -246 291.045 -171.79 276 -137 c 1
- 248.336 -203.394 213.519 -247 155 -247 c 0
- 94.4746 -247 62 -194.573 62 -139 c 0
- 62 -100.358 81.25 -41 146 -41 c 0
- 182.7 -41 213 -52.2002 213 -97 c 256
- 213 -135.327 183.846 -134.343 174 -135 c 1
- 181.333 -131.667 185 -120.667 185 -102 c 0
- 185 -84.75 176.8 -64 144 -64 c 0
- 113.333 -64 98 -80 98 -112 c 0
- 98 -134.4 109.8 -168 157 -168 c 0
- 214.391 -168 250.124 -118.452 276 -46 c 1
- 301.761 -118.129 337.151 -168 397 -168 c 0
- 431.4 -168 483 -151.3 483 -63 c 0
- 483 -19.8014 469.601 25.2606 453.585 64 c 1
- 492.292 64 l 1
-257 482 m 1
- 42 482 l 1
- 42 574 l 1
- 330 574 l 1
- 330 482 l 1
- 309 482 l 1
- 331.963 467.497 333.5 435.5 317 419 c 1
- 486 419 l 1
- 486 328 l 1
- 367 328 l 1
- 409.955 292.409 451 238.766 451 173 c 0
- 451 59.0376 374.205 -4 276 -4 c 0
- 174.6 -4 88 66.6088 88 175 c 0
- 88 245.413 121.97 293.807 168 328 c 1
- 42 328 l 1
- 42 419 l 1
- 258 419 l 2
- 302.507 419 289.193 477.049 257 482 c 1
-270 89 m 0
- 329.45 89 395 124.412 395 210 c 0
- 395 304.4 317.974 328 273 328 c 0
- 209.232 328 138 288.427 138 207 c 0
- 138 129.489 204.737 89 270 89 c 0
+492.292 64 m 1,0,1
+ 529.827 -16.2229 529.827 -16.2229 570.235 -114 c 0,2,3
+ 596.947 -180.354 596.947 -180.354 608.5 -237 c 0,4,5
+ 597.677 -290.9905 597.677 -290.9905 567 -302 c 256,6,7
+ 539.7115 -295.079 539.7115 -295.079 528 -237 c 0,8,9
+ 534.4385 -198.182 534.4385 -198.182 514 -136 c 1,10,11
+ 482.8505 -224.5415 482.8505 -224.5415 394 -246 c 0,12,13
+ 307.1225 -208.895 307.1225 -208.895 276 -137 c 1,14,15
+ 230.9275 -225.197 230.9275 -225.197 155 -247 c 0,16,17
+ 78.2373 -220.7865 78.2373 -220.7865 62 -139 c 0,18,19
+ 71.625 -70.679 71.625 -70.679 146 -41 c 0,20,21
+ 197.85 -46.6001 197.85 -46.6001 213 -97 c 256,22,23
+ 198.423 -134.835 198.423 -134.835 174 -135 c 1,24,25
+ 183.1665 -126.167 183.1665 -126.167 185 -102 c 0,26,27
+ 180.9 -74.375 180.9 -74.375 144 -64 c 0,28,29
+ 105.6665 -72 105.6665 -72 98 -112 c 0,30,31
+ 103.9 -151.2 103.9 -151.2 157 -168 c 0,32,33
+ 232.2575 -143.226 232.2575 -143.226 276 -46 c 1,34,35
+ 319.456 -143.0645 319.456 -143.0645 397 -168 c 0,36,37
+ 457.2 -159.65 457.2 -159.65 483 -63 c 0,38,39
+ 476.3005 2.7296 476.3005 2.7296 453.585 64 c 1,40,-1
+ 492.292 64 l 1,0,1
+257 482 m 1,41,-1
+ 42 482 l 1,42,-1
+ 42 574 l 1,43,-1
+ 330 574 l 1,44,-1
+ 330 482 l 1,45,-1
+ 309 482 l 1,46,47
+ 332.7315 451.4985 332.7315 451.4985 317 419 c 1,48,-1
+ 486 419 l 1,49,-1
+ 486 328 l 1,50,-1
+ 367 328 l 1,51,52
+ 430.4775 265.5875 430.4775 265.5875 451 173 c 0,53,54
+ 412.6025 27.5188 412.6025 27.5188 276 -4 c 0,55,56
+ 131.3 31.3044 131.3 31.3044 88 175 c 0,57,58
+ 104.985 269.61 104.985 269.61 168 328 c 1,59,-1
+ 42 328 l 1,60,-1
+ 42 419 l 1,61,-1
+ 258 419 l 2,62,63
+ 295.85 448.0245 295.85 448.0245 257 482 c 1,41,-1
+270 89 m 0,64,65
+ 362.225 106.706 362.225 106.706 395 210 c 0,66,67
+ 356.487 316.2 356.487 316.2 273 328 c 0,68,69
+ 173.616 308.2135 173.616 308.2135 138 207 c 0,70,71
+ 171.3685 109.2445 171.3685 109.2445 270 89 c 0,64,65
 EndSplineSet
 Fore
 SplineSet
-492.292 64 m 1
- 515.7 15.3432 543.954 -47.789 570.235 -114 c 0
- 586.394 -154.708 607.5 -206 608.5 -237 c 0
- 609.854 -278.981 585.5 -303 567 -302 c 256
- 551.423 -301.158 528 -289 528 -237 c 0
- 528 -222.728 540.877 -173.636 514 -136 c 1
- 514 -203.083 451.701 -246 394 -246 c 0
- 323.2 -246 291.045 -171.79 276 -137 c 1
- 248.336 -203.394 213.519 -247 155 -247 c 0
- 94.4746 -247 62 -194.573 62 -139 c 0
- 62 -100.358 81.25 -41 146 -41 c 0
- 182.7 -41 213 -52.2002 213 -97 c 256
- 213 -135.327 183.846 -134.343 174 -135 c 1
- 181.333 -131.667 185 -120.667 185 -102 c 0
- 185 -84.75 176.8 -64 144 -64 c 0
- 113.333 -64 98 -80 98 -112 c 0
- 98 -134.4 109.8 -168 157 -168 c 0
- 214.391 -168 250.124 -118.452 276 -46 c 1
- 301.761 -118.129 337.151 -168 397 -168 c 0
- 431.4 -168 483 -151.3 483 -63 c 0
- 483 -19.8014 469.601 25.2606 453.585 64 c 1
- 492.292 64 l 1
-257 482 m 1
- 42 482 l 1
- 42 574 l 1
- 330 574 l 1
- 330 482 l 1
- 309 482 l 1
- 331.963 467.497 333.5 435.5 317 419 c 1
- 486 419 l 1
- 486 328 l 1
- 367 328 l 1
- 409.955 292.409 451 238.766 451 173 c 0
- 451 59.0376 374.205 -4 276 -4 c 0
- 174.6 -4 88 66.6088 88 175 c 0
- 88 245.413 121.97 293.807 168 328 c 1
- 42 328 l 1
- 42 419 l 1
- 258 419 l 2
- 302.507 419 289.193 477.049 257 482 c 1
-270 89 m 0
- 329.45 89 395 124.412 395 210 c 0
- 395 304.4 317.974 328 273 328 c 0
- 209.232 328 138 288.427 138 207 c 0
- 138 129.489 204.737 89 270 89 c 0
+492.292 64 m 1,0,1
+ 529.827 -16.2229 529.827 -16.2229 570.235 -114 c 0,2,3
+ 596.947 -180.354 596.947 -180.354 608.5 -237 c 0,4,5
+ 597.677 -290.9905 597.677 -290.9905 567 -302 c 256,6,7
+ 539.7115 -295.079 539.7115 -295.079 528 -237 c 0,8,9
+ 534.4385 -198.182 534.4385 -198.182 514 -136 c 1,10,11
+ 482.8505 -224.5415 482.8505 -224.5415 394 -246 c 0,12,13
+ 307.1225 -208.895 307.1225 -208.895 276 -137 c 1,14,15
+ 230.9275 -225.197 230.9275 -225.197 155 -247 c 0,16,17
+ 78.2373 -220.7865 78.2373 -220.7865 62 -139 c 0,18,19
+ 71.625 -70.679 71.625 -70.679 146 -41 c 0,20,21
+ 197.85 -46.6001 197.85 -46.6001 213 -97 c 256,22,23
+ 198.423 -134.835 198.423 -134.835 174 -135 c 1,24,25
+ 183.1665 -126.167 183.1665 -126.167 185 -102 c 0,26,27
+ 180.9 -74.375 180.9 -74.375 144 -64 c 0,28,29
+ 105.6665 -72 105.6665 -72 98 -112 c 0,30,31
+ 103.9 -151.2 103.9 -151.2 157 -168 c 0,32,33
+ 232.2575 -143.226 232.2575 -143.226 276 -46 c 1,34,35
+ 319.456 -143.0645 319.456 -143.0645 397 -168 c 0,36,37
+ 457.2 -159.65 457.2 -159.65 483 -63 c 0,38,39
+ 476.3005 2.7296 476.3005 2.7296 453.585 64 c 1,40,-1
+ 492.292 64 l 1,0,1
+257 482 m 1,41,-1
+ 42 482 l 1,42,-1
+ 42 574 l 1,43,-1
+ 330 574 l 1,44,-1
+ 330 482 l 1,45,-1
+ 309 482 l 1,46,47
+ 332.7315 451.4985 332.7315 451.4985 317 419 c 1,48,-1
+ 486 419 l 1,49,-1
+ 486 328 l 1,50,-1
+ 367 328 l 1,51,52
+ 430.4775 265.5875 430.4775 265.5875 451 173 c 0,53,54
+ 412.6025 27.5188 412.6025 27.5188 276 -4 c 0,55,56
+ 131.3 31.3044 131.3 31.3044 88 175 c 0,57,58
+ 104.985 269.61 104.985 269.61 168 328 c 1,59,-1
+ 42 328 l 1,60,-1
+ 42 419 l 1,61,-1
+ 258 419 l 2,62,63
+ 295.85 448.0245 295.85 448.0245 257 482 c 1,41,-1
+270 89 m 0,64,65
+ 362.225 106.706 362.225 106.706 395 210 c 0,66,67
+ 356.487 316.2 356.487 316.2 273 328 c 0,68,69
+ 173.616 308.2135 173.616 308.2135 138 207 c 0,70,71
+ 171.3685 109.2445 171.3685 109.2445 270 89 c 0,64,65
 EndSplineSet
 EndChar
 EndChars
