@@ -10,16 +10,17 @@ UnderlinePosition: -290
 UnderlineWidth: 20
 Ascent: 800
 Descent: 200
+InvalidEm: 0
 LayerCount: 2
-Layer: 0 0 "Back"  1
-Layer: 1 0 "Fore"  0
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
 XUID: [1021 182 1145523420 2649352]
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1250503974
-ModificationTime: 1258630028
+ModificationTime: 1422020867
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -49,177 +50,180 @@ OS2SupXOff: 0
 OS2SupYOff: 453
 OS2StrikeYSize: 50
 OS2StrikeYPos: 259
+OS2CapHeight: 0
+OS2XHeight: 0
 OS2Vendor: 'Alts'
 OS2UnicodeRanges: 00000000.00000000.00000000.00000000
-Lookup: 6 0 0 "'akhn' Akhand in Kannada lookup 0"  {"'akhn' Akhand in Kannada lookup 0 subtable"  } ['akhn' ('knda' <'dflt' > ) ]
-Lookup: 6 0 0 "'akhn' Akhand in Kannada lookup 1"  {"'akhn' Akhand in Kannada lookup 1 contextual 0"  "'akhn' Akhand in Kannada lookup 1 contextual 1"  } ['akhn' ('knda' <'dflt' > ) ]
-Lookup: 4 0 0 "'abvs' Above Base Substitutions in Kannada lookup 2"  {"'abvs' Above Base Substitutions in Kannada lookup 2 subtable"  } ['abvs' ('knda' <'dflt' > ) ]
-Lookup: 4 0 0 "'rphf' Reph Form in Kannada lookup 3"  {"'rphf' Reph Form in Kannada lookup 3 subtable"  } ['rphf' ('knda' <'dflt' > ) ]
-Lookup: 4 0 0 "'blwf' Below Base Forms in Kannada lookup 4"  {"'blwf' Below Base Forms in Kannada lookup 4 subtable"  } ['blwf' ('knda' <'dflt' > ) ]
-Lookup: 4 0 0 "'blwf' Below Base Forms in Kannada lookup 5"  {"'blwf' Below Base Forms in Kannada lookup 5 subtable"  } ['blwf' ('knda' <'dflt' > ) ]
-Lookup: 4 0 0 "'akhn' Akhand in Kannada lookup 6"  {"'akhn' Akhand in Kannada lookup 6 subtable"  } ['akhn' ('knda' <'dflt' > ) ]
-Lookup: 6 0 0 "'abvs' Above Base Substitutions in Kannada lookup 7"  {"'abvs' Above Base Substitutions in Kannada lookup 7 contextual 0"  "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 1"  "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 2"  "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 3"  "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 4"  "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 5"  "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 6"  "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 7"  } ['abvs' ('knda' <'dflt' > ) ]
-Lookup: 6 0 0 "'abvs' Above Base Substitutions in Kannada lookup 8"  {"'abvs' Above Base Substitutions in Kannada lookup 8 subtable"  } ['abvs' ('knda' <'dflt' > ) ]
-Lookup: 6 0 0 "'abvs' Above Base Substitutions in Kannada lookup 9"  {"'abvs' Above Base Substitutions in Kannada lookup 9 contextual 0"  "'abvs' Above Base Substitutions in Kannada lookup 9 contextual 1"  } ['abvs' ('knda' <'dflt' > ) ]
-Lookup: 6 0 0 "'abvs' Above Base Substitutions in Kannada lookup 10"  {"'abvs' Above Base Substitutions in Kannada lookup 10 contextual 2"  "'abvs' Above Base Substitutions in Kannada lookup 10 contextual 3"  "'abvs' Above Base Substitutions in Kannada lookup 10 contextual 7"  } ['abvs' ('knda' <'dflt' > ) ]
-Lookup: 4 0 0 "'abvs' Above Base Substitutions in Kannada lookup 11"  {"'abvs' Above Base Substitutions in Kannada lookup 11 subtable"  } ['abvs' ('knda' <'dflt' > ) ]
-Lookup: 6 0 0 "'abvs' Above Base Substitutions in Kannada lookup 12"  {"'abvs' Above Base Substitutions in Kannada lookup 12 contextual 0"  } ['abvs' ('knda' <'dflt' > ) ]
-Lookup: 2 0 0 "Multiple Substitution lookup 13"  {"Multiple Substitution lookup 13 subtable"  } []
-Lookup: 4 0 0 "Ligature Substitution lookup 14"  {"Ligature Substitution lookup 14 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 15"  {"Single Substitution lookup 15 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 16"  {"Single Substitution lookup 16 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 17"  {"Single Substitution lookup 17 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 18"  {"Single Substitution lookup 18 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 19"  {"Single Substitution lookup 19 subtable"  } []
-Lookup: 260 0 0 "'blwm' ksha formation"  {"'blwm' ksha formation-1"  } ['blwm' ('knda' <'dflt' > ) ]
-Lookup: 257 0 0 "RightSubMove"  {"RightSubMove-1"  } ['blwm' ('knda' <'dflt' > ) ]
-Lookup: 257 0 0 "SubMove"  {"SubMove-1"  } []
-Lookup: 264 0 0 "'blwm' Below Base Mark in Kannada lookup 2"  {"'blwm' Below Base Mark in Kannada lookup 2-1"  } ['blwm' ('knda' <'dflt' > ) ]
-Lookup: 264 0 0 "'blwm' Below Base Mark in Kannada lookup 4"  {"'blwm' Below Base Mark in Kannada lookup 4-1"  } ['blwm' ('knda' <'dflt' > ) ]
-Lookup: 260 0 0 "'abvs' Above Base Substitutions lookup 1"  {"'abvs' Above Base Substitutions lookup 1-1"  } ['abvm' ('knda' <'dflt' > ) ]
+Lookup: 6 0 0 "'akhn' Akhand in Kannada lookup 0" { "'akhn' Akhand in Kannada lookup 0 subtable"  } ['akhn' ('knda' <'dflt' > ) ]
+Lookup: 6 0 0 "'akhn' Akhand in Kannada lookup 1" { "'akhn' Akhand in Kannada lookup 1 contextual 0"  "'akhn' Akhand in Kannada lookup 1 contextual 1"  } ['akhn' ('knda' <'dflt' > ) ]
+Lookup: 4 0 0 "'abvs' Above Base Substitutions in Kannada lookup 2" { "'abvs' Above Base Substitutions in Kannada lookup 2 subtable"  } ['abvs' ('knda' <'dflt' > ) ]
+Lookup: 4 0 0 "'rphf' Reph Form in Kannada lookup 3" { "'rphf' Reph Form in Kannada lookup 3 subtable"  } ['rphf' ('knda' <'dflt' > ) ]
+Lookup: 4 0 0 "'blwf' Below Base Forms in Kannada lookup 4" { "'blwf' Below Base Forms in Kannada lookup 4 subtable"  } ['blwf' ('knda' <'dflt' > ) ]
+Lookup: 4 0 0 "'blwf' Below Base Forms in Kannada lookup 5" { "'blwf' Below Base Forms in Kannada lookup 5 subtable"  } ['blwf' ('knda' <'dflt' > ) ]
+Lookup: 4 0 0 "'akhn' Akhand in Kannada lookup 6" { "'akhn' Akhand in Kannada lookup 6 subtable"  } ['akhn' ('knda' <'dflt' > ) ]
+Lookup: 6 0 0 "'abvs' Above Base Substitutions in Kannada lookup 7" { "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 0"  "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 1"  "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 2"  "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 3"  "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 4"  "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 5"  "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 6"  "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 7"  } ['abvs' ('knda' <'dflt' > ) ]
+Lookup: 6 0 0 "'abvs' Above Base Substitutions in Kannada lookup 8" { "'abvs' Above Base Substitutions in Kannada lookup 8 subtable"  } ['abvs' ('knda' <'dflt' > ) ]
+Lookup: 6 0 0 "'abvs' Above Base Substitutions in Kannada lookup 9" { "'abvs' Above Base Substitutions in Kannada lookup 9 contextual 0"  "'abvs' Above Base Substitutions in Kannada lookup 9 contextual 1"  } ['abvs' ('knda' <'dflt' > ) ]
+Lookup: 6 0 0 "'abvs' Above Base Substitutions in Kannada lookup 10" { "'abvs' Above Base Substitutions in Kannada lookup 10 contextual 2"  "'abvs' Above Base Substitutions in Kannada lookup 10 contextual 3"  "'abvs' Above Base Substitutions in Kannada lookup 10 contextual 7"  } ['abvs' ('knda' <'dflt' > ) ]
+Lookup: 4 0 0 "'abvs' Above Base Substitutions in Kannada lookup 11" { "'abvs' Above Base Substitutions in Kannada lookup 11 subtable"  } ['abvs' ('knda' <'dflt' > ) ]
+Lookup: 6 0 0 "'abvs' Above Base Substitutions in Kannada lookup 12" { "'abvs' Above Base Substitutions in Kannada lookup 12 contextual 0"  } ['abvs' ('knda' <'dflt' > ) ]
+Lookup: 2 0 0 "Multiple Substitution lookup 13" { "Multiple Substitution lookup 13 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 14" { "Ligature Substitution lookup 14 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 15" { "Single Substitution lookup 15 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 16" { "Single Substitution lookup 16 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 17" { "Single Substitution lookup 17 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 18" { "Single Substitution lookup 18 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 19" { "Single Substitution lookup 19 subtable"  } []
+Lookup: 260 0 0 "'mark' Mark Positioning lookup 6" { "'mark' Mark Positioning lookup 6-1"  } ['mark' ('DFLT' <'dflt' > 'knda' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 260 0 0 "'blwm' ksha formation" { "'blwm' ksha formation-1"  } ['blwm' ('knda' <'dflt' > ) ]
+Lookup: 257 0 0 "RightSubMove" { "RightSubMove-1"  } ['blwm' ('knda' <'dflt' > ) ]
+Lookup: 257 0 0 "SubMove" { "SubMove-1"  } []
+Lookup: 264 0 0 "'blwm' Below Base Mark in Kannada lookup 2" { "'blwm' Below Base Mark in Kannada lookup 2-1"  } ['blwm' ('knda' <'dflt' > ) ]
+Lookup: 264 0 0 "'blwm' Below Base Mark in Kannada lookup 4" { "'blwm' Below Base Mark in Kannada lookup 4-1"  } ['blwm' ('knda' <'dflt' > ) ]
+Lookup: 260 0 0 "'abvs' Above Base Substitutions lookup 1" { "'abvs' Above Base Substitutions lookup 1-1"  } ['abvm' ('knda' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 12 contextual 0"  0 0 0 1
+ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 12 contextual 0" 0 0 0 1
  1 1 0
   Coverage: 11 u0CC1 u0CC2
   BCoverage: 50 u0CAA u0CAB u0CB5 u0CAA.base u0CAB.base u0CB5.base
  1
-  SeqLookup: 0 "Single Substitution lookup 19" 
+  SeqLookup: 0 "Single Substitution lookup 19"
 EndFPST
-ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 10 contextual 7"  0 0 0 1
+ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 10 contextual 7" 0 0 0 1
  1 0 1
   Coverage: 32 u0C9D.base u0CAE.base u0CAF.base
   FCoverage: 5 u0CBE
  1
-  SeqLookup: 0 "Single Substitution lookup 18" 
+  SeqLookup: 0 "Single Substitution lookup 18"
 EndFPST
-ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 10 contextual 3"  0 0 0 1
+ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 10 contextual 3" 0 0 0 1
  1 0 1
   Coverage: 32 u0C9D.base u0CAE.base u0CAF.base
   FCoverage: 5 u0CCC
  1
-  SeqLookup: 0 "Single Substitution lookup 18" 
+  SeqLookup: 0 "Single Substitution lookup 18"
 EndFPST
-ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 10 contextual 2"  0 0 0 1
+ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 10 contextual 2" 0 0 0 1
  1 0 1
   Coverage: 32 u0C9D.base u0CAE.base u0CAF.base
   FCoverage: 5 u0CCD
  1
-  SeqLookup: 0 "Single Substitution lookup 18" 
+  SeqLookup: 0 "Single Substitution lookup 18"
 EndFPST
-ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 9 contextual 1"  0 0 0 1
+ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 9 contextual 1" 0 0 0 1
  1 0 3
   Coverage: 32 u0CAE.base u0CAF.base u0C9D.base
   FCoverage: 9 u0CB1.sub
   FCoverage: 5 u0CC6
   FCoverage: 5 u0CC2
  1
-  SeqLookup: 0 "Single Substitution lookup 17" 
+  SeqLookup: 0 "Single Substitution lookup 17"
 EndFPST
-ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 9 contextual 0"  0 0 0 1
+ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 9 contextual 0" 0 0 0 1
  1 0 2
   Coverage: 32 u0CAE.base u0CAF.base u0C9D.base
   FCoverage: 5 u0CC6
   FCoverage: 5 u0CC2
  1
-  SeqLookup: 0 "Single Substitution lookup 17" 
+  SeqLookup: 0 "Single Substitution lookup 17"
 EndFPST
-ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 8 subtable"  0 0 0 1
+ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 8 subtable" 0 0 0 1
  1 1 0
   Coverage: 5 u0CC6
   BCoverage: 17 u0C99 u0C9E u0CB1
  1
-  SeqLookup: 0 "Single Substitution lookup 16" 
+  SeqLookup: 0 "Single Substitution lookup 16"
 EndFPST
-ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 7"  0 0 0 1
+ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 7" 0 0 0 1
  1 0 3
   Coverage: 191 u0C95 u0C96 u0C97 u0C98 u0C9A u0C9B u0C9C u0C9D u0C9F u0CA0 u0CA1 u0CA2 u0CA3 u0CA4 u0CA5 u0CA6 u0CA7 u0CA8 u0CAA u0CAB u0CAC u0CAD u0CAE u0CAF u0CB0 u0CB2 u0CB3 u0CB5 u0CB6 u0CB7 u0CB8 u0CB9
   FCoverage: 5 u0CB1
   FCoverage: 5 u0CCD
   FCoverage: 5 u0CCD
  1
-  SeqLookup: 0 "Single Substitution lookup 15" 
+  SeqLookup: 0 "Single Substitution lookup 15"
 EndFPST
-ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 6"  0 0 0 1
+ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 6" 0 0 0 1
  1 0 3
   Coverage: 191 u0C95 u0C96 u0C97 u0C98 u0C9A u0C9B u0C9C u0C9D u0C9F u0CA0 u0CA1 u0CA2 u0CA3 u0CA4 u0CA5 u0CA6 u0CA7 u0CA8 u0CAA u0CAB u0CAC u0CAD u0CAE u0CAF u0CB0 u0CB2 u0CB3 u0CB5 u0CB6 u0CB7 u0CB8 u0CB9
   FCoverage: 5 u0CB1
   FCoverage: 5 u0CCD
   FCoverage: 5 u0CCC
  1
-  SeqLookup: 0 "Single Substitution lookup 15" 
+  SeqLookup: 0 "Single Substitution lookup 15"
 EndFPST
-ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 5"  0 0 0 1
+ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 5" 0 0 0 1
  1 0 3
   Coverage: 191 u0C95 u0C96 u0C97 u0C98 u0C9A u0C9B u0C9C u0C9D u0C9F u0CA0 u0CA1 u0CA2 u0CA3 u0CA4 u0CA5 u0CA6 u0CA7 u0CA8 u0CAA u0CAB u0CAC u0CAD u0CAE u0CAF u0CB0 u0CB2 u0CB3 u0CB5 u0CB6 u0CB7 u0CB8 u0CB9
   FCoverage: 5 u0CB1
   FCoverage: 5 u0CCD
   FCoverage: 5 u0CBE
  1
-  SeqLookup: 0 "Single Substitution lookup 15" 
+  SeqLookup: 0 "Single Substitution lookup 15"
 EndFPST
-ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 4"  0 0 0 1
+ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 4" 0 0 0 1
  1 0 3
   Coverage: 191 u0C95 u0C96 u0C97 u0C98 u0C9A u0C9B u0C9C u0C9D u0C9F u0CA0 u0CA1 u0CA2 u0CA3 u0CA4 u0CA5 u0CA6 u0CA7 u0CA8 u0CAA u0CAB u0CAC u0CAD u0CAE u0CAF u0CB0 u0CB2 u0CB3 u0CB5 u0CB6 u0CB7 u0CB8 u0CB9
   FCoverage: 5 u0CB1
   FCoverage: 5 u0CCD
   FCoverage: 5 u0CC6
  1
-  SeqLookup: 0 "Single Substitution lookup 15" 
+  SeqLookup: 0 "Single Substitution lookup 15"
 EndFPST
-ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 3"  0 0 0 1
+ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 3" 0 0 0 1
  1 0 1
   Coverage: 191 u0C95 u0C96 u0C97 u0C98 u0C9A u0C9B u0C9C u0C9D u0C9F u0CA0 u0CA1 u0CA2 u0CA3 u0CA4 u0CA5 u0CA6 u0CA7 u0CA8 u0CAA u0CAB u0CAC u0CAD u0CAE u0CAF u0CB0 u0CB2 u0CB3 u0CB5 u0CB6 u0CB7 u0CB8 u0CB9
   FCoverage: 5 u0CCC
  1
-  SeqLookup: 0 "Single Substitution lookup 15" 
+  SeqLookup: 0 "Single Substitution lookup 15"
 EndFPST
-ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 2"  0 0 0 1
+ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 2" 0 0 0 1
  1 0 1
   Coverage: 191 u0C95 u0C96 u0C97 u0C98 u0C9A u0C9B u0C9C u0C9D u0C9F u0CA0 u0CA1 u0CA2 u0CA3 u0CA4 u0CA5 u0CA6 u0CA7 u0CA8 u0CAA u0CAB u0CAC u0CAD u0CAE u0CAF u0CB0 u0CB2 u0CB3 u0CB5 u0CB6 u0CB7 u0CB8 u0CB9
   FCoverage: 5 u0CCD
  1
-  SeqLookup: 0 "Single Substitution lookup 15" 
+  SeqLookup: 0 "Single Substitution lookup 15"
 EndFPST
-ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 1"  0 0 0 1
+ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 1" 0 0 0 1
  1 0 1
   Coverage: 191 u0C95 u0C96 u0C97 u0C98 u0C9A u0C9B u0C9C u0C9D u0C9F u0CA0 u0CA1 u0CA2 u0CA3 u0CA4 u0CA5 u0CA6 u0CA7 u0CA8 u0CAA u0CAB u0CAC u0CAD u0CAE u0CAF u0CB0 u0CB2 u0CB3 u0CB5 u0CB6 u0CB7 u0CB8 u0CB9
   FCoverage: 5 u0CBE
  1
-  SeqLookup: 0 "Single Substitution lookup 15" 
+  SeqLookup: 0 "Single Substitution lookup 15"
 EndFPST
-ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 0"  0 0 0 1
+ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 0" 0 0 0 1
  1 0 1
   Coverage: 191 u0C95 u0C96 u0C97 u0C98 u0C9A u0C9B u0C9C u0C9D u0C9F u0CA0 u0CA1 u0CA2 u0CA3 u0CA4 u0CA5 u0CA6 u0CA7 u0CA8 u0CAA u0CAB u0CAC u0CAD u0CAE u0CAF u0CB0 u0CB2 u0CB3 u0CB5 u0CB6 u0CB7 u0CB8 u0CB9
   FCoverage: 5 u0CC6
  1
-  SeqLookup: 0 "Single Substitution lookup 15" 
+  SeqLookup: 0 "Single Substitution lookup 15"
 EndFPST
-ChainSub2: coverage "'akhn' Akhand in Kannada lookup 1 contextual 1"  0 0 0 1
+ChainSub2: coverage "'akhn' Akhand in Kannada lookup 1 contextual 1" 0 0 0 1
  2 0 1
   Coverage: 209 u0C95 u0C96 u0C97 u0C98 u0C99 u0C9A u0C9B u0C9C u0C9D u0C9E u0C9F u0CA0 u0CA1 u0CA2 u0CA3 u0CA4 u0CA5 u0CA6 u0CA7 u0CA8 u0CAA u0CAB u0CAC u0CAD u0CAE u0CAF u0CB1 u0CB2 u0CB3 u0CB5 u0CB6 u0CB7 u0CB8 u0CB9 u0CDE
   Coverage: 5 u0CCD
   FCoverage: 5 u0CB0
  1
-  SeqLookup: 0 "Ligature Substitution lookup 14" 
+  SeqLookup: 0 "Ligature Substitution lookup 14"
 EndFPST
-ChainSub2: coverage "'akhn' Akhand in Kannada lookup 1 contextual 0"  0 0 0 1
+ChainSub2: coverage "'akhn' Akhand in Kannada lookup 1 contextual 0" 0 0 0 1
  2 0 1
   Coverage: 209 u0C95 u0C96 u0C97 u0C98 u0C99 u0C9A u0C9B u0C9C u0C9D u0C9E u0C9F u0CA0 u0CA1 u0CA2 u0CA3 u0CA4 u0CA5 u0CA6 u0CA7 u0CA8 u0CAA u0CAB u0CAC u0CAD u0CAE u0CAF u0CB1 u0CB2 u0CB3 u0CB5 u0CB6 u0CB7 u0CB8 u0CB9 u0CDE
   Coverage: 5 u0CCD
   FCoverage: 5 u0CB1
  1
-  SeqLookup: 0 "Ligature Substitution lookup 14" 
+  SeqLookup: 0 "Ligature Substitution lookup 14"
 EndFPST
-ChainSub2: coverage "'akhn' Akhand in Kannada lookup 0 subtable"  0 0 0 1
+ChainSub2: coverage "'akhn' Akhand in Kannada lookup 0 subtable" 0 0 0 1
  1 2 0
   Coverage: 11 u0CB0 u0CB1
   BCoverage: 5 u0CCD
   BCoverage: 209 u0C95 u0C96 u0C97 u0C98 u0C99 u0C9A u0C9B u0C9C u0C9D u0C9E u0C9F u0CA0 u0CA1 u0CA2 u0CA3 u0CA4 u0CA5 u0CA6 u0CA7 u0CA8 u0CAA u0CAB u0CAC u0CAD u0CAE u0CAF u0CB1 u0CB2 u0CB3 u0CB5 u0CB6 u0CB7 u0CB8 u0CB9 u0CDE
  1
-  SeqLookup: 0 "Multiple Substitution lookup 13" 
+  SeqLookup: 0 "Multiple Substitution lookup 13"
 EndFPST
-ChainPos2: class "'blwm' Below Base Mark in Kannada lookup 4-1"  2 3 0 1
+ChainPos2: class "'blwm' Below Base Mark in Kannada lookup 4-1" 2 3 0 1
   Class: 17 u0CC4 u0CC3 u0CD6
   BClass: 17 u0CC4 u0CC3 u0CD6
   BClass: 354 u0C95.sub u0C96.sub u0C97.sub u0C98.sub u0C99.sub u0C9A.sub u0C9B.sub u0C9C.sub u0C9D.sub u0C9E.sub u0C9F.sub u0CA0.sub u0CA1.sub u0CA2.sub u0CA3.sub u0CA4.sub u0CA5.sub u0CA6.sub u0CA7.sub u0CA8.sub u0CAA.sub u0CAB.sub u0CAC.sub u0CAD.sub u0CAE.sub u0CAF.sub u0CB1.sub u0CB2.sub u0CB3.sub u0CB5.sub u0CB6.sub u0CB7.sub u0CB8.sub u0CB9.sub u0CB0.below.ra
@@ -228,9 +232,11 @@ ChainPos2: class "'blwm' Below Base Mark in Kannada lookup 4-1"  2 3 0 1
   BClsList: 2
   FClsList:
  1
-  SeqLookup: 0 "RightSubMove" 
+  SeqLookup: 0 "RightSubMove"
+  ClassNames: "0" "1"
+  BClassNames: "0" "1" "2"
 EndFPST
-ChainPos2: class "'blwm' Below Base Mark in Kannada lookup 2-1"  3 1 3 1
+ChainPos2: class "'blwm' Below Base Mark in Kannada lookup 2-1" 3 1 3 1
   Class: 354 u0C95.sub u0C96.sub u0C97.sub u0C98.sub u0C99.sub u0C9A.sub u0C9B.sub u0C9C.sub u0C9D.sub u0C9E.sub u0C9F.sub u0CA0.sub u0CA1.sub u0CA2.sub u0CA3.sub u0CA4.sub u0CA5.sub u0CA6.sub u0CA7.sub u0CA8.sub u0CAA.sub u0CAB.sub u0CAC.sub u0CAD.sub u0CAE.sub u0CAF.sub u0CB1.sub u0CB2.sub u0CB3.sub u0CB5.sub u0CB6.sub u0CB7.sub u0CB8.sub u0CB9.sub u0CB0.below.ra
   Class: 17 u0CC4 u0CC3 u0CD6
   FClass: 354 u0C95.sub u0C96.sub u0C97.sub u0C98.sub u0C99.sub u0C9A.sub u0C9B.sub u0C9C.sub u0C9D.sub u0C9E.sub u0C9F.sub u0CA0.sub u0CA1.sub u0CA2.sub u0CA3.sub u0CA4.sub u0CA5.sub u0CA6.sub u0CA7.sub u0CA8.sub u0CAA.sub u0CAB.sub u0CAC.sub u0CAD.sub u0CAE.sub u0CAF.sub u0CB1.sub u0CB2.sub u0CB3.sub u0CB5.sub u0CB6.sub u0CB7.sub u0CB8.sub u0CB9.sub u0CB0.below.ra
@@ -240,7 +246,10 @@ ChainPos2: class "'blwm' Below Base Mark in Kannada lookup 2-1"  3 1 3 1
   BClsList:
   FClsList: 2
  1
-  SeqLookup: 0 "SubMove" 
+  SeqLookup: 0 "SubMove"
+  ClassNames: "0" "1" "2"
+  BClassNames: "0"
+  FClassNames: "0" "1" "2"
 EndFPST
 TtTable: prep
 NPUSHB
@@ -269,16 +278,18 @@ ShortTable: maxp 16
   4
   2
 EndShort
-LangName: 1033 "" "" "Normal" "NLCI:KAN Badami Normal" "" "1.0 Sat Apr 29 14:43:46 1995" 
+LangName: 1033 "" "" "Normal" "NLCI:KAN Badami Normal" "" "1.0 Sat Apr 29 14:43:46 1995"
 Encoding: Custom
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 180 20 8
-AnchorClass2: "s"  "'blwm' ksha formation-1" "V"  "'abvs' Above Base Substitutions lookup 1-1" 
-BeginChars: 321 321
+WinInfo: 78 26 9
+BeginPrivate: 0
+EndPrivate
+AnchorClass2: "Nukta" "'mark' Mark Positioning lookup 6-1" "s" "'blwm' ksha formation-1" "V" "'abvs' Above Base Substitutions lookup 1-1" 
+BeginChars: 324 324
 
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -287,6 +298,7 @@ Flags: W
 HStem: 0 31<62 438> 596 31<62 438>
 VStem: 31 31<31 596> 438 31<31 596>
 LayerCount: 2
+Back
 Fore
 SplineSet
 31 0 m 1
@@ -307,6 +319,8 @@ Encoding: 1 -1 1
 Width: 0
 Flags: HW
 LayerCount: 2
+Back
+Fore
 EndChar
 
 StartChar: nonmarkingreturn
@@ -314,6 +328,8 @@ Encoding: 2 -1 2
 Width: 268
 Flags: HW
 LayerCount: 2
+Back
+Fore
 EndChar
 
 StartChar: space
@@ -321,6 +337,8 @@ Encoding: 3 32 3
 Width: 292
 Flags: HW
 LayerCount: 2
+Back
+Fore
 EndChar
 
 StartChar: exclam
@@ -328,6 +346,7 @@ Encoding: 4 33 4
 Width: 337
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 170 108 m 256
@@ -353,6 +372,7 @@ Encoding: 5 34 5
 Width: 333
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 43 664 m 1
@@ -375,6 +395,7 @@ Encoding: 6 35 6
 Width: 743
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 324 420 m 1
@@ -419,6 +440,7 @@ Encoding: 7 36 7
 Width: 562
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 308 51 m 1
@@ -461,6 +483,7 @@ Encoding: 8 37 8
 Width: 859
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 188 307 m 256
@@ -496,6 +519,7 @@ Encoding: 9 38 9
 Width: 699
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 141 212 m 0
@@ -544,6 +568,7 @@ Encoding: 10 39 10
 Width: 170
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 43 664 m 1
@@ -560,6 +585,7 @@ Encoding: 11 40 11
 Width: 375
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 154 283 m 256
@@ -577,6 +603,7 @@ Encoding: 12 41 12
 Width: 375
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 37 715 m 1
@@ -594,6 +621,7 @@ Encoding: 13 42 13
 Width: 500
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 198 362 m 1
@@ -634,6 +662,7 @@ Encoding: 14 43 14
 Width: 1000
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 530 269 m 1
@@ -657,6 +686,7 @@ Encoding: 15 44 15
 Width: 279
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 125 118 m 0
@@ -675,6 +705,7 @@ Encoding: 16 45 16
 Width: 319
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 43 203 m 1
@@ -690,6 +721,7 @@ Encoding: 17 46 17
 Width: 279
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 130 120 m 0
@@ -705,6 +737,7 @@ Encoding: 18 47 18
 Width: 490
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 63 -92 m 1
@@ -720,6 +753,7 @@ Encoding: 19 48 19
 Width: 562
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 282 37 m 256
@@ -743,6 +777,7 @@ Encoding: 20 49 20
 Width: 562
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 328 67 m 2
@@ -767,6 +802,7 @@ Encoding: 21 50 21
 Width: 562
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 284 685 m 0
@@ -795,6 +831,7 @@ Encoding: 22 51 22
 Width: 562
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 338 357 m 1
@@ -828,6 +865,7 @@ Encoding: 23 52 23
 Width: 562
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 344 559 m 1
@@ -854,6 +892,7 @@ Encoding: 24 53 24
 Width: 562
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 288 423 m 0
@@ -882,6 +921,7 @@ Encoding: 25 54 25
 Width: 562
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 281 38 m 256
@@ -909,6 +949,7 @@ Encoding: 26 55 26
 Width: 562
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 192 17 m 1
@@ -930,6 +971,7 @@ Encoding: 27 56 27
 Width: 562
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 282 41 m 0
@@ -960,6 +1002,7 @@ Encoding: 28 57 28
 Width: 562
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 144 455 m 0
@@ -987,6 +1030,7 @@ Encoding: 29 58 29
 Width: 279
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 130 120 m 0
@@ -1007,6 +1051,7 @@ Encoding: 30 59 30
 Width: 279
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 125 118 m 0
@@ -1030,6 +1075,7 @@ Encoding: 31 60 31
 Width: 1000
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 200 269 m 1
@@ -1048,6 +1094,7 @@ Encoding: 32 61 32
 Width: 1000
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 200 178 m 1
@@ -1068,6 +1115,7 @@ Encoding: 33 62 33
 Width: 1000
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 200 39 m 1
@@ -1086,6 +1134,7 @@ Encoding: 34 63 34
 Width: 485
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 214 684 m 0
@@ -1113,6 +1162,7 @@ Encoding: 35 64 35
 Width: 936
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 367 230 m 0
@@ -1155,6 +1205,7 @@ Encoding: 36 65 36
 Width: 673
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 313 558 m 1
@@ -1189,6 +1240,7 @@ Encoding: 37 66 37
 Width: 604
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 383 357 m 1
@@ -1225,6 +1277,7 @@ Encoding: 38 67 38
 Width: 626
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 159 332 m 0
@@ -1253,6 +1306,7 @@ Encoding: 39 68 39
 Width: 695
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 290 44 m 2
@@ -1281,6 +1335,7 @@ Encoding: 40 69 40
 Width: 583
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 462 38 m 2
@@ -1322,6 +1377,7 @@ Encoding: 41 70 41
 Width: 541
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 107 597 m 2
@@ -1361,6 +1417,7 @@ Encoding: 42 71 42
 Width: 694
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 499 252 m 2
@@ -1393,6 +1450,7 @@ Encoding: 43 72 43
 Width: 743
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 638 65 m 2
@@ -1442,6 +1500,7 @@ Flags: W
 HStem: 0 45<33 112 215 296> 617 46<33 112 215 296>
 VStem: 112 103<45.0102 616.99>
 LayerCount: 2
+Back
 Fore
 SplineSet
 215 65 m 2
@@ -1469,6 +1528,7 @@ Encoding: 45 74 45
 Width: 484
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 280 602 m 2
@@ -1496,6 +1556,7 @@ Encoding: 46 75 46
 Width: 638
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 613 624 m 1
@@ -1540,6 +1601,7 @@ Encoding: 47 76 47
 Width: 530
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 416 45 m 2
@@ -1569,6 +1631,7 @@ Encoding: 48 77 48
 Width: 875
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 768 65 m 2
@@ -1613,6 +1676,7 @@ Encoding: 49 78 49
 Width: 721
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 556 601 m 2
@@ -1652,6 +1716,7 @@ Flags: W
 HStem: -15 56<278.687 452.627> 627 57<279.363 453.34>
 VStem: 42 115<201.412 466.162> 576 114<204.335 463.022>
 LayerCount: 2
+Back
 Fore
 SplineSet
 365 41 m 0
@@ -1672,6 +1737,7 @@ Encoding: 51 80 51
 Width: 579
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 267 301 m 0
@@ -1707,6 +1773,7 @@ Encoding: 52 81 52
 Width: 738
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 371 42 m 0
@@ -1732,6 +1799,7 @@ Encoding: 53 82 53
 Width: 648
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 257 347 m 2
@@ -1771,6 +1839,7 @@ Encoding: 54 83 54
 Width: 520
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 286 625 m 0
@@ -1801,6 +1870,7 @@ Encoding: 55 84 55
 Width: 599
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 103 620 m 2
@@ -1832,6 +1902,7 @@ Encoding: 56 85 56
 Width: 711
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 547 608 m 2
@@ -1865,6 +1936,7 @@ Encoding: 57 86 57
 Width: 666
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 598 617 m 1
@@ -1893,6 +1965,7 @@ Encoding: 58 87 58
 Width: 931
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 859 616 m 1
@@ -1927,6 +2000,7 @@ Encoding: 59 88 59
 Width: 633
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 367 0 m 1
@@ -1970,6 +2044,7 @@ Encoding: 60 89 60
 Width: 625
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 236 49 m 2
@@ -2006,6 +2081,7 @@ Encoding: 61 90 61
 Width: 575
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 39 0 m 1
@@ -2033,6 +2109,7 @@ Encoding: 62 91 62
 Width: 422
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 136 -131 m 1
@@ -2052,6 +2129,7 @@ Encoding: 63 92 63
 Width: 488
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 424 -92 m 1
@@ -2067,6 +2145,7 @@ Encoding: 64 93 64
 Width: 422
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 43 -131 m 1
@@ -2086,6 +2165,7 @@ Encoding: 65 94 65
 Width: 327
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 267 550 m 1
@@ -2104,6 +2184,7 @@ Encoding: 66 95 66
 Width: 334
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 0 -148 m 1
@@ -2119,6 +2200,7 @@ Encoding: 67 96 67
 Width: 350
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 1 685 m 0
@@ -2136,6 +2218,7 @@ Encoding: 68 97 68
 Width: 508
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 134 132 m 0
@@ -2169,6 +2252,7 @@ Encoding: 69 98 69
 Width: 555
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 318 492 m 0
@@ -2196,6 +2280,7 @@ Encoding: 70 99 70
 Width: 465
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 307 50 m 0
@@ -2220,6 +2305,7 @@ Encoding: 71 100 71
 Width: 563
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 137 244 m 0
@@ -2254,6 +2340,7 @@ Encoding: 72 101 72
 Width: 490
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 300 51 m 0
@@ -2279,6 +2366,7 @@ Encoding: 73 102 73
 Width: 326
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 304 733 m 0
@@ -2311,6 +2399,7 @@ Encoding: 74 103 74
 Width: 524
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 257 -182 m 0
@@ -2351,6 +2440,7 @@ Encoding: 75 104 75
 Width: 574
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 479 63 m 2
@@ -2389,6 +2479,7 @@ Encoding: 76 105 76
 Width: 303
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 195 60 m 2
@@ -2418,6 +2509,7 @@ Encoding: 77 106 77
 Width: 291
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 65 -184 m 1
@@ -2446,6 +2538,7 @@ Encoding: 78 107 78
 Width: 534
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 66 43 m 2
@@ -2487,6 +2580,7 @@ Encoding: 79 108 79
 Width: 296
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 192 61 m 2
@@ -2511,6 +2605,7 @@ Encoding: 80 109 80
 Width: 850
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 752 59 m 2
@@ -2563,6 +2658,7 @@ Encoding: 81 110 81
 Width: 566
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 476 60 m 2
@@ -2604,6 +2700,7 @@ Flags: W
 HStem: -10 45<211.202 336.797> 448 45<207.395 334.737>
 VStem: 39 104<126.722 351.602> 405 105<129.543 352.951>
 LayerCount: 2
+Back
 Fore
 SplineSet
 274 35 m 0
@@ -2624,6 +2721,7 @@ Encoding: 83 112 83
 Width: 559
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 264 36 m 0
@@ -2659,6 +2757,7 @@ Encoding: 84 113 84
 Width: 548
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 139 246 m 0
@@ -2690,6 +2789,7 @@ Encoding: 85 114 85
 Width: 391
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 317 492 m 0
@@ -2722,6 +2822,7 @@ Encoding: 86 115 86
 Width: 397
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 216 438 m 0
@@ -2753,6 +2854,7 @@ Encoding: 87 116 87
 Width: 339
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 267 45 m 0
@@ -2780,6 +2882,7 @@ Encoding: 88 117 88
 Width: 568
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 483 63 m 2
@@ -2812,6 +2915,7 @@ Encoding: 89 118 89
 Width: 528
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 465 437 m 1
@@ -2840,6 +2944,7 @@ Encoding: 90 119 90
 Width: 783
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 722 437 m 1
@@ -2875,6 +2980,7 @@ Width: 509
 Flags: W
 HStem: 0 39<9 66 143.828 199 285 327.116 452.75 500> 441 39<15 66.625 189.872 234 307 355.182 439.625 486>
 LayerCount: 2
+Back
 Fore
 SplineSet
 285 0 m 1
@@ -2918,6 +3024,7 @@ Encoding: 92 121 92
 Width: 529
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 157 -154 m 1
@@ -2951,6 +3058,7 @@ Encoding: 93 122 93
 Width: 461
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 344 48 m 2
@@ -2978,6 +3086,7 @@ Encoding: 94 123 94
 Width: 487
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 295 52 m 130
@@ -3004,6 +3113,7 @@ Encoding: 95 124 95
 Width: 353
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 146 -257 m 1
@@ -3019,6 +3129,7 @@ Encoding: 96 125 96
 Width: 487
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 288 436 m 2
@@ -3046,6 +3157,7 @@ Encoding: 97 126 97
 Width: 833
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 562 296 m 0
@@ -3065,6 +3177,7 @@ Encoding: 98 8216 98
 Width: 247
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 122 439 m 0
@@ -3087,6 +3200,7 @@ Encoding: 99 8217 99
 Width: 247
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 129 703 m 0
@@ -3107,6 +3221,7 @@ Encoding: 100 8220 100
 Width: 453
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 122 439 m 0
@@ -3139,6 +3254,7 @@ Encoding: 101 8221 101
 Width: 453
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 129 702 m 0
@@ -3170,6 +3286,7 @@ Encoding: 102 -1 102
 Width: 387
 Flags: HW
 LayerCount: 2
+Back
 Fore
 Refer: 104 -1 N 1 0 0 1 0 0 0
 EndChar
@@ -3177,7 +3294,8 @@ EndChar
 StartChar: consonant_part
 Encoding: 103 -1 103
 Width: 0
-Flags: HW
+Flags: HWO
+AnchorPoint: "V" -279 540 mark 0
 LayerCount: 2
 Back
 SplineSet
@@ -3297,8 +3415,8 @@ SplineSet
  43 219.8 98.5764 258.387 162 279 c 5
  72.7967 304.04 44 377.321 44 430 c 4
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'rphf' Reph Form in Kannada lookup 3 subtable" u0CB0 u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u00A0
@@ -3306,6 +3424,8 @@ Encoding: 106 160 106
 Width: 375
 Flags: HW
 LayerCount: 2
+Back
+Fore
 EndChar
 
 StartChar: u0C82
@@ -3397,7 +3517,10 @@ EndChar
 StartChar: u0C85
 Encoding: 109 3205 109
 Width: 777
-Flags: HW
+Flags: W
+HStem: -13 101<264.533 505.399> 364 54<340 509 532.056 704.5> 518 76<137.12 244.634>
+VStem: 44 28<262.531 418.541> 709 26<289.428 364>
+AnchorPoint: "Nukta" 400 -50 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -3461,6 +3584,7 @@ StartChar: u0C86
 Encoding: 110 3206 110
 Width: 777
 Flags: HW
+AnchorPoint: "Nukta" 400 -50 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -3496,35 +3620,35 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-389 86 m 4
- 532.296 86 660 147.2 660 239 c 4
- 660 288.8 637.932 315.424 633 322 c 5
- 617.423 316.336 572.487 316 547 316 c 6
- 333 316 l 5
- 333 419 l 5
- 557 419 l 5
- 513.413 476.596 511.345 603 616 603 c 4
- 774.349 603 767.365 388.62 661 334 c 5
- 676.8 318.2 698.019 279.271 697 212 c 4
- 697 72.4563 545.669 -19 387 -19 c 4
- 292.333 -19 214 9.33333 152 66 c 4
- 79.3333 132 43 227.333 43 352 c 4
- 43 474.888 97.4292 597 198 597 c 4
- 274.8 597 294 526.8 294 481 c 4
- 294 410.089 253.883 332 184 332 c 4
- 129.6 332 104.728 379.627 100 434 c 5
- 82.5338 409.984 77 388 74 356 c 4
- 60.0534 207.236 183.2 86 389 86 c 4
-706 462 m 4
- 729.823 517.588 663.282 573.926 608 534 c 4
- 597.642 526.519 574 498.5 599 419 c 5
- 613 419 l 6
- 632.5 419 689.045 422.438 706 462 c 4
-201 524 m 4
- 166.993 523.261 141.32 499.976 132 484 c 5
- 124.698 451.549 142.733 409.527 190 410 c 4
- 231.108 410.411 254 438.621 254 469 c 4
- 254 501.212 224 524.5 201 524 c 4
+389 86 m 0
+ 532.296 86 660 147.2 660 239 c 0
+ 660 288.8 637.932 315.424 633 322 c 1
+ 617.423 316.336 572.487 316 547 316 c 2
+ 333 316 l 1
+ 333 419 l 1
+ 557 419 l 1
+ 513.413 476.596 511.345 603 616 603 c 0
+ 774.349 603 767.365 388.62 661 334 c 1
+ 676.8 318.2 698.019 279.271 697 212 c 0
+ 697 72.4563 545.669 -19 387 -19 c 0
+ 292.333 -19 214 9.33333 152 66 c 0
+ 79.3333 132 43 227.333 43 352 c 0
+ 43 474.888 97.4292 597 198 597 c 0
+ 274.8 597 294 526.8 294 481 c 0
+ 294 410.089 253.883 332 184 332 c 0
+ 129.6 332 104.728 379.627 100 434 c 1
+ 82.5338 409.984 77 388 74 356 c 0
+ 60.0534 207.236 183.2 86 389 86 c 0
+706 462 m 0
+ 729.823 517.588 663.282 573.926 608 534 c 0
+ 597.642 526.519 574 498.5 599 419 c 1
+ 613 419 l 2
+ 632.5 419 689.045 422.438 706 462 c 0
+201 524 m 0
+ 166.993 523.261 141.32 499.976 132 484 c 1
+ 124.698 451.549 142.733 409.527 190 410 c 0
+ 231.108 410.411 254 438.621 254 469 c 0
+ 254 501.212 224 524.5 201 524 c 0
 EndSplineSet
 EndChar
 
@@ -3532,6 +3656,7 @@ StartChar: u0C87
 Encoding: 111 3207 111
 Width: 760
 Flags: HW
+AnchorPoint: "Nukta" 400 -50 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -3607,6 +3732,7 @@ StartChar: u0C88
 Encoding: 112 3208 112
 Width: 1030
 Flags: HW
+AnchorPoint: "Nukta" 415 -50 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -3784,6 +3910,7 @@ StartChar: u0C8A
 Encoding: 114 3210 114
 Width: 1257
 Flags: HW
+AnchorPoint: "Nukta" 650 -50 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -3893,6 +4020,7 @@ StartChar: u0C8B
 Encoding: 115 3211 115
 Width: 1230
 Flags: HW
+AnchorPoint: "Nukta" 615 -50 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -4115,7 +4243,9 @@ StartChar: u0C8C
 Encoding: 117 3212 117
 Width: 1150
 Flags: HW
+AnchorPoint: "Nukta" 575 -50 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 118 -1 N 1 0 0 1 0 0 0
 Refer: 282 3265 N 1 0 0 1 789 0 0
@@ -4125,7 +4255,9 @@ StartChar: u0C8C_base
 Encoding: 118 -1 118
 Width: 789
 Flags: HW
+AnchorPoint: "Nukta" 395 -50 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 740 168 m 1
@@ -4157,6 +4289,7 @@ StartChar: u0C8E
 Encoding: 119 3214 119
 Width: 760
 Flags: HW
+AnchorPoint: "Nukta" 380 -50 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -4214,6 +4347,7 @@ StartChar: u0C8F
 Encoding: 120 3215 120
 Width: 760
 Flags: HW
+AnchorPoint: "Nukta" 380 -50 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -4273,6 +4407,7 @@ StartChar: u0C90
 Encoding: 121 3216 121
 Width: 760
 Flags: HW
+AnchorPoint: "Nukta" 380 -50 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -4340,6 +4475,7 @@ StartChar: u0C92
 Encoding: 122 3218 122
 Width: 800
 Flags: HW
+AnchorPoint: "Nukta" 400 -50 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -4397,6 +4533,7 @@ StartChar: u0C93
 Encoding: 123 3219 123
 Width: 800
 Flags: HW
+AnchorPoint: "Nukta" 400 -50 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -4462,6 +4599,7 @@ StartChar: u0C94
 Encoding: 124 3220 124
 Width: 760
 Flags: HW
+AnchorPoint: "Nukta" 380 -50 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -4505,7 +4643,7 @@ SplineSet
  655.659 804 738 706.267 738 576 c 0
  738 455.6 668.616 367 562 367 c 0
  438.8 367 408 461.542 408 517 c 0
- 408 587.981 448.159 652 520 652 c 0
+ 408 587.981 448.159 652 520 652 c 1024
 EndSplineSet
 Fore
 SplineSet
@@ -4514,7 +4652,7 @@ SplineSet
  505.8 485 493 515 493 535 c 0
  493 560.348 510.448 579 534 579 c 256
  552.8 579 570.723 568.277 581 558 c 1
- 598.149 588.008 556.809 613 521 613 c 0
+ 598.149 588.008 556.809 613 521 613 c 1024
 585 285 m 1
  590.4 289.8 601.512 295.536 614 295 c 0
  695.5 291.5 727 221.025 727 167 c 0
@@ -4635,7 +4773,7 @@ SplineSet
 EndSplineSet
 Substitution2: "Single Substitution lookup 15 subtable" u0C95.base
 Ligature2: "Ligature Substitution lookup 14 subtable" u0C95 u0CCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C95.base
@@ -4767,7 +4905,7 @@ SplineSet
  137 110.222 215.947 76 271 76 c 4
 EndSplineSet
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0C95 u0CBF
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C95.sub
@@ -4821,9 +4959,9 @@ SplineSet
  6.46193 -127 -36 -163.286 -36 -213 c 0
  -36 -269.562 10.225 -298 53 -298 c 0
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C95 u0CCD
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C95 u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C95_u0CC3.sub
@@ -4986,7 +5124,7 @@ SplineSet
 EndSplineSet
 Substitution2: "Single Substitution lookup 15 subtable" u0C96.base
 Ligature2: "Ligature Substitution lookup 14 subtable" u0C96 u0CCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C96.base
@@ -5155,8 +5293,8 @@ SplineSet
  243.6 75 321.129 125.176 369 162 c 1
  344.741 178.54 295.519 207 222 207 c 0
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0C96 u0CBF
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C96.sub
@@ -5224,9 +5362,9 @@ SplineSet
  -140.6 -334 -112.707 -306.952 -97 -289 c 1
  -148.49 -253.603 -189.814 -255 -200 -255 c 0
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C96 u0CCD
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C96 u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C97
@@ -5276,7 +5414,7 @@ SplineSet
 EndSplineSet
 Substitution2: "Single Substitution lookup 15 subtable" u0C97.base
 Ligature2: "Ligature Substitution lookup 14 subtable" u0C97 u0CCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C97.base
@@ -5365,8 +5503,8 @@ SplineSet
  182.5 639 170 598.8 170 572 c 256
  170 525.666 204.491 513.263 234 503 c 1
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0C97 u0CBF
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C97.sub
@@ -5394,9 +5532,9 @@ SplineSet
  132 -375 l 5
  144.275 -221.525 73.4937 -84 -11 -84 c 4
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C97 u0CCD
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C97 u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C98
@@ -5518,7 +5656,7 @@ SplineSet
 EndSplineSet
 Substitution2: "Single Substitution lookup 15 subtable" u0C98.base
 Ligature2: "Ligature Substitution lookup 14 subtable" u0C98 u0CCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C98.base
@@ -5723,8 +5861,8 @@ SplineSet
  366.662 602.008 342.82 615 311 615 c 256
  264.612 615 238 579.188 238 546 c 0
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0C98 u0CBF
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C98.sub
@@ -5798,9 +5936,9 @@ SplineSet
  -82 -347.119 -54.1603 -285.621 -50 -276 c 5
  -43 -287 -30 -316 -16 -357 c 4
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C98 u0CCD
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C98 u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C99
@@ -5881,7 +6019,7 @@ SplineSet
  392 420.6 424.825 433 448 433 c 4
 EndSplineSet
 Ligature2: "Ligature Substitution lookup 14 subtable" u0C99 u0CCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C99.sub
@@ -5957,9 +6095,9 @@ SplineSet
  -111 -167 l 5
  -17.1998 -86.3308 68.0196 -81 87 -81 c 4
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C99 u0CCD
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C99 u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C9A
@@ -6051,7 +6189,7 @@ SplineSet
 EndSplineSet
 Substitution2: "Single Substitution lookup 15 subtable" u0C9A.base
 Ligature2: "Ligature Substitution lookup 14 subtable" u0C9A u0CCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C9A.base
@@ -6222,8 +6360,8 @@ SplineSet
  532.4 635 521 603.2 521 582 c 4
  521 548 539 531 575 531 c 4
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0C9A u0CBF
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C9A.sub
@@ -6303,9 +6441,9 @@ SplineSet
  103.667 -23 99.3333 -23.6667 92 -25 c 5
  94.7562 -4.32757 103.076 5 130 5 c 4
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C9A u0CCD
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C9A u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C9B
@@ -6389,7 +6527,7 @@ SplineSet
 EndSplineSet
 Substitution2: "Single Substitution lookup 15 subtable" u0C9B.base
 Ligature2: "Ligature Substitution lookup 14 subtable" u0C9B u0CCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C9B.base
@@ -6544,8 +6682,8 @@ SplineSet
  137 410.2 155.617 389 204 389 c 0
  261.8 389 280 425 280 449 c 0
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0C9B u0CBF
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C9B.sub
@@ -6611,15 +6749,16 @@ SplineSet
  -192.383 -88 -205.303 -112.609 -214 -130 c 5
  -211.055 -141.775 -195.74 -150 -169 -150 c 4
 EndSplineSet
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C9B u0CCD
-LCarets2: 1 0 
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C9B u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C9C
 Encoding: 152 3228 152
 Width: 800
 Flags: HW
+AnchorPoint: "Nukta" 400 -50 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -6681,15 +6820,16 @@ SplineSet
  592.665 447 656 512.149 656 571 c 4
  656 581 653.667 590.667 649 600 c 5
 EndSplineSet
-LCarets2: 1 0 
 Substitution2: "Single Substitution lookup 15 subtable" u0C9C.base
 Ligature2: "Ligature Substitution lookup 14 subtable" u0C9C u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C9C.base
 Encoding: 153 -1 153
 Width: 789
 Flags: HW
+AnchorPoint: "Nukta" 400 -50 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -6769,6 +6909,7 @@ StartChar: u0C9C.imathra
 Encoding: 154 -1 154
 Width: 789
 Flags: HW
+AnchorPoint: "Nukta" 400 -50 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -6848,8 +6989,8 @@ SplineSet
  481.4 655 463 628.2 463 588 c 4
  463 541.129 563.465 537.472 566 616 c 4
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0C9C u0CBF
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C9C.sub
@@ -6917,9 +7058,9 @@ SplineSet
  158 -316 182 -296 182 -266 c 4
  182 -246 171.333 -228.667 150 -214 c 5
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C9C u0CCD
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C9C u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C9D
@@ -7021,7 +7162,7 @@ SplineSet
 EndSplineSet
 Substitution2: "Single Substitution lookup 15 subtable" u0C9D.base
 Ligature2: "Ligature Substitution lookup 14 subtable" u0C9D u0CCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C9D.base
@@ -7288,8 +7429,8 @@ SplineSet
  869.194 -222 840 -200.007 840 -160 c 0
  840 -130.462 892.101 0.576172 896 10 c 1
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0C9D u0CBF
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C9D.sub
@@ -7363,9 +7504,9 @@ SplineSet
  -170.938 -116 -229 -133 -229 -201 c 0
  -229 -257.486 -182.863 -285 -134 -285 c 256
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C9D u0CCD
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C9D u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C9D_base
@@ -7605,8 +7746,8 @@ SplineSet
  573.817 212 601.94 229.382 625 251 c 1
  607.951 278.28 577.809 293 539 293 c 0
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "Ligature Substitution lookup 14 subtable" u0C9E u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C9E.sub
@@ -7690,9 +7831,9 @@ SplineSet
  122.299 -249.585 99.3324 -229 40 -229 c 4
  -12.45 -229 -28 -252.4 -28 -268 c 4
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C9E u0CCD
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C9E u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C9F
@@ -7778,7 +7919,7 @@ SplineSet
 EndSplineSet
 Substitution2: "Single Substitution lookup 15 subtable" u0C9F.base
 Ligature2: "Ligature Substitution lookup 14 subtable" u0C9F u0CCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C9F.base
@@ -7960,7 +8101,7 @@ SplineSet
  148.698 267.877 226.729 264.047 230 336 c 0
 EndSplineSet
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0C9F u0CBF
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0C9F.sub
@@ -8032,9 +8173,9 @@ SplineSet
  21 -112 7 -100.667 -21 -102 c 4
  -40.0639 -102 -62.9319 -109.331 -70 -127 c 5
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C9F u0CCD
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C9F u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA0
@@ -8098,7 +8239,7 @@ SplineSet
 EndSplineSet
 Substitution2: "Single Substitution lookup 15 subtable" u0CA0.base
 Ligature2: "Ligature Substitution lookup 14 subtable" u0CA0 u0CCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA0.base
@@ -8217,8 +8358,8 @@ SplineSet
  279.524 230 250 249.343 250 292 c 260
  250 341.6 288.75 354 312 354 c 260
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CA0 u0CBF
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA0.sub
@@ -8262,9 +8403,9 @@ SplineSet
  -108 -174 -96 -162 -72 -162 c 4
  -48.6667 -162 -37.3333 -174 -38 -198 c 4
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CA0 u0CCD
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CA0 u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA1
@@ -8348,7 +8489,7 @@ SplineSet
 EndSplineSet
 Substitution2: "Single Substitution lookup 15 subtable" u0CA1.base
 Ligature2: "Ligature Substitution lookup 14 subtable" u0CA1 u0CCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA1.base
@@ -8505,8 +8646,8 @@ SplineSet
  277.8 94 336.66 127.774 366 213 c 1
  383.952 180.217 429.6 94 525 94 c 0
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CA1 u0CBF
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA1.sub
@@ -8570,9 +8711,9 @@ SplineSet
  -79.1186 -285 -36.5657 -240.164 1 -183 c 5
  10.2 -198.333 54.6 -285 135 -285 c 4
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CA1 u0CCD
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CA1 u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA2
@@ -8668,7 +8809,7 @@ SplineSet
 EndSplineSet
 Substitution2: "Single Substitution lookup 15 subtable" u0CA2.base
 Ligature2: "Ligature Substitution lookup 14 subtable" u0CA2 u0CCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA2.base
@@ -8847,8 +8988,8 @@ SplineSet
  276.8 92 335.66 125.774 365 211 c 5
  382.952 178.217 428.6 92 524 92 c 4xbe70
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CA2 u0CBF
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA2.sub
@@ -8922,9 +9063,9 @@ SplineSet
  -80.1186 -285 -37.5657 -240.164 0 -183 c 1
  9.20001 -198.333 53.6 -285 134 -285 c 0
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CA2 u0CCD
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CA2 u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA3
@@ -8994,9 +9135,9 @@ SplineSet
  317.6 590 369.735 493.916 390 430 c 1
  411.496 476.732 466.516 590 583 590 c 0
 EndSplineSet
-LCarets2: 1 0 
 Substitution2: "Single Substitution lookup 15 subtable" u0CA3.base
 Ligature2: "Ligature Substitution lookup 14 subtable" u0CA3 u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA3.base
@@ -9175,8 +9316,8 @@ SplineSet
  711 720.2 697.6 749 656 749 c 0
  625.51 749 601 727.153 601 701 c 0
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CA3 u0CBF
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA3.sub
@@ -9242,9 +9383,9 @@ SplineSet
  63 -396 44 -340.225 44 -309 c 4
  44 -265.087 71.4688 -228 119 -228 c 4
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CA3 u0CCD
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CA3 u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA4
@@ -9321,7 +9462,7 @@ SplineSet
 EndSplineSet
 Substitution2: "Single Substitution lookup 15 subtable" u0CA4.base
 Ligature2: "Ligature Substitution lookup 14 subtable" u0CA4 u0CCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA4.base
@@ -9456,8 +9597,8 @@ SplineSet
  427.087 361.248 391.4 375 347 375 c 0
  267.8 375 248 345 248 325 c 0
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CA4 u0CBF
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA4.sub
@@ -9499,9 +9640,9 @@ SplineSet
  180.979 -244.705 201 -218.37 201 -180 c 256
  201 -141.778 177.403 -110 139 -110 c 0
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CA4 u0CCD
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CA4 u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA4_u0CAF.sub
@@ -9837,7 +9978,7 @@ SplineSet
 EndSplineSet
 Substitution2: "Single Substitution lookup 15 subtable" u0CA5.base
 Ligature2: "Ligature Substitution lookup 14 subtable" u0CA5 u0CCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA5.base
@@ -9996,8 +10137,8 @@ SplineSet
  364.524 246 335 265.343 335 308 c 256
  335 357.6 373.75 370 397 370 c 256
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CA5 u0CBF
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA5.sub
@@ -10060,9 +10201,9 @@ SplineSet
  -24.1 -175 -47 -167.4 -47 -137 c 0
  -47 -113 -36 -101 -14 -101 c 0
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CA5 u0CCD
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CA5 u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA6
@@ -10130,7 +10271,7 @@ SplineSet
 EndSplineSet
 Substitution2: "Single Substitution lookup 15 subtable" u0CA6.base
 Ligature2: "Ligature Substitution lookup 14 subtable" u0CA6 u0CCD
-LCarets2: 1 726 
+LCarets2: 1 726
 EndChar
 
 StartChar: u0CA6.base
@@ -10251,8 +10392,8 @@ SplineSet
  114 157.327 154.298 89 247 89 c 0
  338.8 89 388.928 184.226 400 203 c 1
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CA6 u0CBF
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA6.sub
@@ -10296,9 +10437,9 @@ SplineSet
  -226 -245.6 -210 -287 -146 -287 c 0
  -91.5632 -287 -50.365 -251.894 -10 -201 c 1
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CA6 u0CCD
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CA6 u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA7
@@ -10371,7 +10512,7 @@ SplineSet
 EndSplineSet
 Substitution2: "Single Substitution lookup 15 subtable" u0CA7.base
 Ligature2: "Ligature Substitution lookup 14 subtable" u0CA7 u0CCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA7.base
@@ -10506,8 +10647,8 @@ SplineSet
  83.9531 497 24.5991 88 248 88 c 0
  339.8 88 389.928 183.226 401 202 c 1
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CA7 u0CBF
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA7.sub
@@ -10559,9 +10700,9 @@ SplineSet
  -226 -244.6 -210 -286 -146 -286 c 4
  -91.5632 -286 -50.365 -250.894 -10 -200 c 5
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CA7 u0CCD
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CA7 u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA8
@@ -10625,7 +10766,7 @@ SplineSet
 EndSplineSet
 Substitution2: "Single Substitution lookup 15 subtable" u0CA8.base
 Ligature2: "Ligature Substitution lookup 14 subtable" u0CA8 u0CCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA8.base
@@ -10744,8 +10885,8 @@ SplineSet
  123.606 630.116 85 616.2 85 569 c 0
  85 541.087 107.731 526 136 526 c 0
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CA8 u0CBF
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CA8.sub
@@ -10801,9 +10942,9 @@ SplineSet
  12.9988 -134.497 -16.8 -94 -84 -94 c 0
  -165.025 -94 -187 -127 -187 -149 c 0
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CA8 u0CCD
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CA8 u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAA
@@ -10886,7 +11027,7 @@ SplineSet
 EndSplineSet
 Substitution2: "Single Substitution lookup 15 subtable" u0CAA.base
 Ligature2: "Ligature Substitution lookup 14 subtable" u0CAA u0CCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAA.base
@@ -11042,8 +11183,8 @@ SplineSet
  368.662 605.008 344.82 618 313 618 c 260
  266.612 618 240 582.188 240 549 c 4
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CAA u0CBF
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAA.sub
@@ -11093,9 +11234,9 @@ SplineSet
  -17.0614 -148.8 11.4004 -211 78 -211 c 0
  142.8 -211 159 -134.321 159 -68 c 0
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CAA u0CCD
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CAA u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAB
@@ -11189,7 +11330,7 @@ SplineSet
 EndSplineSet
 Substitution2: "Single Substitution lookup 15 subtable" u0CAB.base
 Ligature2: "Ligature Substitution lookup 14 subtable" u0CAB u0CCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAB.base
@@ -11366,8 +11507,8 @@ SplineSet
  369.662 604.008 345.82 617 314 617 c 256
  267.612 617 241 581.188 241 548 c 0
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CAB u0CBF
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAB.sub
@@ -11429,9 +11570,9 @@ SplineSet
  -70 -343.618 -56.8705 -312.564 -35 -267 c 1
  -15 -309 -3.44824 -339.654 -2 -344 c 1
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CAB u0CCD
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CAB u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAC
@@ -11494,9 +11635,9 @@ SplineSet
  733 280.897 720.364 380.623 605 485 c 1
  544.612 537.841 578.629 612.805 653 554 c 0
 EndSplineSet
-LCarets2: 1 0 
 Substitution2: "Single Substitution lookup 15 subtable" u0CAC.base
 Ligature2: "Ligature Substitution lookup 14 subtable" u0CAC u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAC.base
@@ -11635,8 +11776,8 @@ SplineSet
  466.478 603 433 591 433 543 c 4
  433 509.023 458.714 488 493 488 c 4
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CAC u0CBF
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAC.sub
@@ -11692,9 +11833,9 @@ SplineSet
  214 -146.897 208.692 -37.9057 107 106 c 5
  114.304 113.304 120.6 121 141 121 c 4
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CAC u0CCD
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CAC u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAD
@@ -11782,7 +11923,7 @@ SplineSet
 EndSplineSet
 Substitution2: "Single Substitution lookup 15 subtable" u0CAD.base
 Ligature2: "Ligature Substitution lookup 14 subtable" u0CAD u0CCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAD.base
@@ -11943,8 +12084,8 @@ SplineSet
  466.478 603 433 591 433 543 c 4
  433 509.023 458.714 488 493 488 c 4
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CAD u0CBF
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAD.sub
@@ -12012,9 +12153,9 @@ SplineSet
  -52 -360.618 -38.8701 -329.564 -17 -284 c 5
  -2.57812 -318.253 11.6348 -360.452 14 -364 c 5
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CAD u0CCD
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CAD u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAE
@@ -12106,7 +12247,7 @@ SplineSet
 EndSplineSet
 Substitution2: "Single Substitution lookup 15 subtable" u0CAE.base
 Ligature2: "Ligature Substitution lookup 14 subtable" u0CAE u0CCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAE.base
@@ -12280,8 +12421,8 @@ SplineSet
  1049 395.35 926.444 449.1 805 488 c 0
  794.077 490.184 758 497.8 758 537 c 0
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CAE u0CBF
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAE.sub
@@ -12337,9 +12478,9 @@ SplineSet
  62.1463 -138.147 112.935 -155.846 166 -157 c 0
  215.875 -157 251 -139 251 -112 c 0
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CAE u0CCD
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CAE u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAE.base.mathra
@@ -12581,7 +12722,7 @@ SplineSet
 EndSplineSet
 Substitution2: "Single Substitution lookup 15 subtable" u0CAF.base
 Ligature2: "Ligature Substitution lookup 14 subtable" u0CAF u0CCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAF.base
@@ -12744,8 +12885,8 @@ SplineSet
  694.499 519.001 687.478 442 617 442 c 0
  537.212 442 489 514.6 489 581 c 0
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CAF u0CBF
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAF.sub
@@ -12805,9 +12946,9 @@ SplineSet
  114.446 106 138 90.6692 138 70 c 260
  138 60 132.744 50.427 130 55 c 4
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CAF u0CCD
 Position2: "SubMove-1" dx=-150 dy=0 dh=0 dv=0
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CAF u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CAF_base
@@ -13226,8 +13367,8 @@ SplineSet
  207.25 496 97 452.4 97 278 c 4
  97 164.274 183.147 89 308 89 c 260
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CB0 u0CBF
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB0.below.ra
@@ -13261,9 +13402,9 @@ SplineSet
  154 145.5 115 177.675 115 204 c 4
  115 222.667 123.333 232 140 232 c 4
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 4 subtable" u0CB0 u0CCD
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 4 subtable" u0CB0 u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB0.below.angleright
@@ -13481,9 +13622,9 @@ SplineSet
  329.2 89 368.299 175.215 392 245 c 1
  420.434 150.818 465.041 89 538 89 c 0
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "Ligature Substitution lookup 14 subtable" u0CB1 u0CCD
 MultipleSubs2: "Multiple Substitution lookup 13 subtable" u0CB1 u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB1.imathra
@@ -13593,8 +13734,8 @@ SplineSet
  331.2 88 370.299 174.215 394 244 c 5
  422.434 149.818 467.041 88 540 88 c 4
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CB1 u0CBF
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB1.sub
@@ -13676,10 +13817,10 @@ SplineSet
  -103 -115.4 -108.1 -91 -147 -91 c 0
  -182.2 -91 -191 -117.8 -191 -132 c 256
 EndSplineSet
-LCarets2: 1 0 
+Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
 Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CB1 u0CCD
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 2 subtable" u0CB1 u0CCD
-Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB2
@@ -13737,9 +13878,9 @@ SplineSet
  198.705 473.705 192 452.286 192 434 c 0
  192 386.8 237 375 267 375 c 0
 EndSplineSet
-LCarets2: 1 0 
 Substitution2: "Single Substitution lookup 15 subtable" u0CB2.base
 Ligature2: "Ligature Substitution lookup 14 subtable" u0CB2 u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB2.base
@@ -13872,8 +14013,8 @@ SplineSet
  190.389 474.662 190 434.968 190 426 c 4
  190 388.199 223.637 366 263 366 c 4
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CB2 u0CBF
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB2.sub
@@ -13921,9 +14062,9 @@ SplineSet
  46.556 -90.9195 88 -59 138 -59 c 4
  223.347 -59 269 -119.816 269 -192 c 4
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CB2 u0CCD
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CB2 u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB3
@@ -14013,7 +14154,7 @@ SplineSet
 EndSplineSet
 Substitution2: "Single Substitution lookup 15 subtable" u0CB3.base
 Ligature2: "Ligature Substitution lookup 14 subtable" u0CB3 u0CCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB3.base
@@ -14182,8 +14323,8 @@ SplineSet
  317.761 188.333 276.638 160.49 278 121 c 28
  279.34 82.1309 311.975 52 350 52 c 4
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CB3 u0CBF
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB3.sub
@@ -14259,9 +14400,9 @@ SplineSet
  -58.4 -266 -83 -274 -83 -306 c 260
  -83 -338 -58.4 -346 -42 -346 c 4
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CB3 u0CCD
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CB3 u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB5
@@ -14333,7 +14474,7 @@ SplineSet
 EndSplineSet
 Substitution2: "Single Substitution lookup 15 subtable" u0CB5.base
 Ligature2: "Ligature Substitution lookup 14 subtable" u0CB5 u0CCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB5.base
@@ -14466,8 +14607,8 @@ SplineSet
  263.3 616 212 588.432 212 552 c 260
  212 511.2 245.675 501 266 501 c 4
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CB5 u0CBF
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB5.sub
@@ -14527,9 +14668,9 @@ SplineSet
  204 91.9241 184.462 138.554 167 163 c 5
  186 165 l 5
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CB5 u0CCD
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CB5 u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB6
@@ -14623,7 +14764,7 @@ SplineSet
 EndSplineSet
 Substitution2: "Single Substitution lookup 15 subtable" u0CB6.base
 Ligature2: "Ligature Substitution lookup 14 subtable" u0CB6 u0CCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB6.base
@@ -14794,8 +14935,8 @@ SplineSet
  186.191 240 110 248.824 110 171 c 0
  110 105.236 183.463 78 258 78 c 0
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CB6 u0CBF
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB6.sub
@@ -14860,9 +15001,9 @@ SplineSet
  -94.35 -216 -110 -233.6 -110 -260 c 4
  -110 -312.033 -52.7312 -334 5 -334 c 4
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CB6 u0CCD
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CB6 u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB6_u0CB0_imathra
@@ -14980,8 +15121,8 @@ SplineSet
  571 250 523 231 407 240 c 4
  342 245 323 196 324 175 c 4
 EndSplineSet
-LCarets2: 3 0 0 0 
 Ligature2: "'akhn' Akhand in Kannada lookup 6 subtable" u0CB6 u0CBF u0CB0 u0CCD
+LCarets2: 3 0 0 0
 EndChar
 
 StartChar: u0CB7
@@ -15079,7 +15220,7 @@ SplineSet
 EndSplineSet
 Substitution2: "Single Substitution lookup 15 subtable" u0CB7.base
 Ligature2: "Ligature Substitution lookup 14 subtable" u0CB7 u0CCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB7.base
@@ -15267,8 +15408,8 @@ SplineSet
  370.662 604.008 346.82 617 315 617 c 256
  268.612 617 242 581.188 242 548 c 0
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CB7 u0CBF
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB7.sub
@@ -15326,9 +15467,9 @@ SplineSet
  85 1.89362 36.8457 90.4831 14 130 c 1
  51 130 l 1
 EndSplineSet
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CB7 u0CCD
-LCarets2: 1 0 
 Position2: "SubMove-1" dx=-150 dy=75 dh=0 dv=0
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CB7 u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB8
@@ -15400,7 +15541,7 @@ SplineSet
 EndSplineSet
 Substitution2: "Single Substitution lookup 15 subtable" u0CB8.base
 Ligature2: "Ligature Substitution lookup 14 subtable" u0CB8 u0CCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB8.base
@@ -15535,8 +15676,8 @@ SplineSet
  291.851 604.724 267.927 618 237 618 c 0
  185.363 618 161 576.6 161 549 c 0
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CB8 u0CBF
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB8.sub
@@ -15580,9 +15721,9 @@ SplineSet
  -34.0229 -95 35.0732 -138.492 52 -233 c 0
  58.7184 -268.512 62.9361 -300 100 -300 c 0
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CB8 u0CCD
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CB8 u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB9
@@ -15666,7 +15807,7 @@ SplineSet
 EndSplineSet
 Substitution2: "Single Substitution lookup 15 subtable" u0CB9.base
 Ligature2: "Ligature Substitution lookup 14 subtable" u0CB9 u0CCD
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB9.base
@@ -15813,8 +15954,8 @@ SplineSet
  365.07 265.328 325.4 330 233 330 c 4
  133.048 330 108 260.286 108 213 c 4
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CB9 u0CBF
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CB9.sub
@@ -15866,9 +16007,9 @@ SplineSet
  -224 -258.587 -190.085 -320 -110 -320 c 4
  -27.9258 -320 6 -256.077 6 -201 c 4
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CB9 u0CCD
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CB9 u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CBD
@@ -16017,6 +16158,7 @@ Encoding: 281 3264 281
 Width: 732
 Flags: HW
 LayerCount: 2
+Back
 Fore
 Refer: 280 3263 N 1 0 0 1 0 0 0
 Refer: 298 3285 N 1 0 0 1 333 0 0
@@ -16469,6 +16611,7 @@ Encoding: 290 3271 290
 Width: 413
 Flags: HW
 LayerCount: 2
+Back
 Fore
 Refer: 288 3270 N 1 0 0 1 0 0 0
 Refer: 298 3285 N 1 0 0 1 14 0 0
@@ -16479,6 +16622,7 @@ Encoding: 291 3272 291
 Width: 200
 Flags: HW
 LayerCount: 2
+Back
 Fore
 Refer: 288 3270 N 1 0 0 1 0 0 0
 Refer: 299 3286 N 1 0 0 1 14 0 0
@@ -16489,6 +16633,7 @@ Encoding: 292 3274 292
 Width: 774
 Flags: HW
 LayerCount: 2
+Back
 Fore
 Refer: 288 3270 N 1 0 0 1 0 0 0
 Refer: 284 3266 N 1 0 0 1 14 0 0
@@ -16500,6 +16645,7 @@ Encoding: 293 -1 293
 Width: 536
 Flags: HW
 LayerCount: 2
+Back
 Fore
 Refer: 288 3270 N 1 0 0 1 0 0 0
 Refer: 285 -1 N 1 0 0 1 14 0 0
@@ -16510,6 +16656,7 @@ Encoding: 294 3275 294
 Width: 1173
 Flags: HW
 LayerCount: 2
+Back
 Fore
 Refer: 288 3270 N 1 0 0 1 0 0 0
 Refer: 284 3266 N 1 0 0 1 14 0 0
@@ -16522,6 +16669,7 @@ Encoding: 295 -1 295
 Width: 935
 Flags: HW
 LayerCount: 2
+Back
 Fore
 Refer: 288 3270 N 1 0 0 1 0 0 0
 Refer: 285 -1 N 1 0 0 1 14 0 0
@@ -16814,8 +16962,8 @@ SplineSet
  140 419.4 152 390 200 390 c 4
  252.4 390 269 426.175 269 446 c 4
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "Ligature Substitution lookup 14 subtable" u0CDE u0CCD
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CDE.imathra
@@ -16919,8 +17067,8 @@ SplineSet
  140 418.4 152 389 200 389 c 4
  252.4 389 269 425.175 269 445 c 4
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CDE u0CBF
+LCarets2: 1 0
 EndChar
 
 StartChar: u0CDE.sub
@@ -17821,6 +17969,8 @@ Encoding: 315 8205 315
 Width: 0
 Flags: HW
 LayerCount: 2
+Back
+Fore
 EndChar
 
 StartChar: uni200C
@@ -17828,6 +17978,8 @@ Encoding: 316 8204 316
 Width: 0
 Flags: HW
 LayerCount: 2
+Back
+Fore
 EndChar
 
 StartChar: uni200B
@@ -17835,6 +17987,8 @@ Encoding: 317 8203 317
 Width: 0
 Flags: HW
 LayerCount: 2
+Back
+Fore
 EndChar
 
 StartChar: uni2060
@@ -17842,6 +17996,8 @@ Encoding: 318 8288 318
 Width: 0
 Flags: HW
 LayerCount: 2
+Back
+Fore
 EndChar
 
 StartChar: u0C95_u0CB7
@@ -18056,6 +18212,63 @@ SplineSet
  209.232 328 138 288.427 138 207 c 0
  138 129.489 204.737 89 270 89 c 0
 EndSplineSet
+EndChar
+
+StartChar: u0CBC
+Encoding: 321 3260 321
+Width: 0
+VWidth: 2048
+Flags: W
+HStem: -982 326<-1219.4 -1062.4> -974 326<-750.398 -593.398>
+VStem: -1302 325<-896.686 -739.542> -833 325<-888.686 -731.542>
+AnchorPoint: "Nukta" -905 -600 mark 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+-833 -811 m 0x70
+ -833 -717 -757 -648 -672 -648 c 0
+ -580 -648 -509 -719 -508 -811 c 0
+ -508 -901 -583 -974 -671 -974 c 0
+ -759 -974 -833 -900 -833 -811 c 0x70
+-1302 -819 m 0
+ -1302 -725 -1226 -656 -1141 -656 c 0
+ -1049 -656 -978 -727 -977 -819 c 0
+ -977 -909 -1052 -982 -1140 -982 c 0xb0
+ -1228 -982 -1302 -908 -1302 -819 c 0
+EndSplineSet
+EndChar
+
+StartChar: u0CBC.alt
+Encoding: 322 -1 322
+Width: 2048
+VWidth: 2048
+Flags: HW
+LayerCount: 2
+Back
+Fore
+SplineSet
+-506.34765625 -399.70703125 m 0
+ -506.34765625 -435.051757812 -476.639648438 -464.6484375 -441.89453125 -464.6484375 c 0
+ -406.983398438 -464.6484375 -376.953125 -435.337890625 -376.953125 -399.787109375 c 0
+ -377.354492188 -362.833984375 -405.444335938 -334.765625 -442.3828125 -334.765625 c 0
+ -476.028320312 -334.765625 -506.34765625 -362.1171875 -506.34765625 -399.70703125 c 0
+-535.64453125 -399.70703125 m 0
+ -535.64453125 -345.5 -491.745117188 -305.46875 -442.3828125 -305.46875 c 0
+ -389.4765625 -305.46875 -348.231445312 -346.736328125 -347.65625 -399.626953125 c 0
+ -347.65625 -451.966796875 -390.868164062 -493.9453125 -441.89453125 -493.9453125 c 0
+ -493.086914062 -493.9453125 -535.64453125 -451.276367188 -535.64453125 -399.70703125 c 0
+EndSplineSet
+EndChar
+
+StartChar: u0CBC.alt2
+Encoding: 323 -1 323
+Width: 2048
+VWidth: 2048
+Flags: HW
+LayerCount: 2
+Back
+Fore
 EndChar
 EndChars
 EndSplineFont
