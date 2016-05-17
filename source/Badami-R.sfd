@@ -82,7 +82,8 @@ ShortTable: maxp 16
   2
 EndShort
 LangName: 1033 "" "" "Normal" "NLCI:KAN Badami Normal" "" "1.0 Sat Apr 29 14:43:46 1995"
-Encoding: Custom
+Encoding: Original
+Compacted: 1
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -48
@@ -92,7 +93,7 @@ WinInfo: 0 37 14
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Nukta" "" "s" "" "V" "" 
-BeginChars: 324 323
+BeginChars: 323 323
 
 StartChar: .notdef
 Encoding: 0 -1 0
