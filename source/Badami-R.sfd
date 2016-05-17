@@ -92,7 +92,7 @@ WinInfo: 0 37 14
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Nukta" "" "s" "" "V" "" 
-BeginChars: 324 324
+BeginChars: 324 323
 
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -17746,14 +17746,6 @@ SplineSet
  -347.65625 -451.966796875 -390.868164062 -493.9453125 -441.89453125 -493.9453125 c 0
  -493.086914062 -493.9453125 -535.64453125 -451.276367188 -535.64453125 -399.70703125 c 0
 EndSplineSet
-EndChar
-
-StartChar: u0CBC.alt2
-Encoding: 323 -1 323
-Width: 2048
-VWidth: 2048
-Flags: HW
-LayerCount: 2
 EndChar
 EndChars
 EndSplineFont
