@@ -26,8 +26,10 @@ TESTSTRING=u'\u0c95'
 
 # set fonts to build
 faces = ('Badami', 'Kaveri')
+facesLegacy = ('BADA', 'KAVE')
 styles = ('-R', '-B', '-I', '-BI')
 stylesName = ('Regular', 'Bold', 'Italic', 'Bold Italic')
+stylesLegacy = ('', 'BD', 'I', 'BI')
 
 # set build parameters
 fontbase = 'source/'
@@ -37,6 +39,17 @@ panose = [2, 0, 0, 3]
 codePageRange = [0]
 unicodeRange = [0, 15, 22, 31]
 hackos2 = os2.hackos2(panose, codePageRange, unicodeRange)
+
+for f, fLegacy in zip(faces, facesLegacy):
+    for (s, sn, sLegacy) in zip(styles, stylesName, stylesLegacy):
+        font(target = process(f + '-' + sn.replace(' ', '') + '.ttf',
+                cmd('psfix ${DEP} ${TGT}'),
+                ),
+            source = legacy(f + s + '.ttf',
+                            source = fontbase + 'archive/' + fLegacy + sLegacy + '.ttf',
+                            xml = fontbase + 'badami_unicode.xml',
+                            noap = '')
+            )
 
 for f in faces:
 #    p = package(

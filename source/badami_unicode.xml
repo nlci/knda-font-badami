@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <font>
 <glyphs>
+<!--
 <glyph UID='0020'><base UID='0020' font="1"/></glyph>
 <glyph UID='0021'><base UID='0021' font="1"/></glyph>
 <glyph UID='0022'><base UID='0022' font="1"/></glyph>
@@ -101,7 +102,38 @@
 <glyph UID="2019"><base UID="2019" font="1"/></glyph>
 <glyph UID="201C"><base UID="201C" font="1"/></glyph>
 <glyph UID="201D"><base UID="201D" font="1"/></glyph>
+-->
 
+<!-- characters from legacy font files that were not mapped before -->
+<glyph PSName="exclam.knda"><base UID="F021"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="quoteleft.knda"><base UID="F022"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="quotedblleft.knda"><base UID="F022"><scale x="1.4" y="1.4"/></base><base UID="F022"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph UID="25CC" PSName="u25CC"><base UID="F023"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="quoteright.knda"><base UID="F027"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="quoterdblight.knda"><base UID="F027"><scale x="1.4" y="1.4"/></base><base UID="F027"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="parenleft.knda"><base UID="F028"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="parenright.knda"><base UID="F029"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph UID="0964" PSName="u0964"><base UID="F02B"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph UID="0965" PSName="u0965"><base UID="F02B"><scale x="1.4" y="1.4"/></base><base UID="F02B"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="comma.knda"><base UID="F02C"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="hyphen.knda"><base UID="F02D"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="period.knda"><base UID="F02E"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="slash.knda"><base UID="F02F"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph UID="0030" PSName="zero"><base UID="F030"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph UID="0031" PSName="one"><base UID="F031"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph UID="0032" PSName="two"><base UID="F032"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph UID="0033" PSName="three"><base UID="F033"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph UID="0034" PSName="four"><base UID="F034"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph UID="0035" PSName="five"><base UID="F035"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph UID="0036" PSName="six"><base UID="F036"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph UID="0037" PSName="seven"><base UID="F037"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph UID="0038" PSName="eight"><base UID="F038"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph UID="0039" PSName="nine"><base UID="F039"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="colon.knda"><base UID="F03A"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="semicolon.knda"><base UID="F03B"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="question.knda"><base UID="F03F"><scale x="1.4" y="1.4"/></base></glyph>
+
+<!-- original non-roman mapping -->
 <glyph PSName='angleleft'><base UID='F0E1'><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName='consonant_part'><base UID='F0DA'><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName='consonant_part1'><base UID='F0E1'><scale x="1.4" y="1.4"/></base></glyph>
