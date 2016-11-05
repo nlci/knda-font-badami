@@ -88,6 +88,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
+WinInfo: 0 37 14
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Nukta"""  "s"""  "V""" 
@@ -4478,7 +4479,7 @@ Fore
 Refer: 104 -1 N 1 0 0 1 0 0 0
 EndChar
 
-StartChar: consonant_part
+StartChar: consonant.part
 Encoding: 103 -1 103
 Width: 316
 Flags: HW
@@ -4495,7 +4496,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: consonant_part1
+StartChar: consonant.part1
 Encoding: 104 -1 104
 Width: 638
 Flags: HW
@@ -4521,7 +4522,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: short_rr
+StartChar: shortrr
 Encoding: 105 -1 105
 Width: 1512
 Flags: HW
@@ -4551,7 +4552,6 @@ SplineSet
  425.552 725.296 343 789.81 343 888 c 2
  343 1124 l 2
 EndSplineSet
-LCarets2: 1 0
 EndChar
 
 StartChar: u00A0
@@ -4987,7 +4987,7 @@ Refer: 116 -1 N 1 0 0 1 0 0 0
 Refer: 282 3265 N 1 0 0 1 1933 0 0
 EndChar
 
-StartChar: u0C8B_base
+StartChar: u0C8B.part
 Encoding: 116 -1 116
 Width: 1933
 Flags: HW
@@ -5058,7 +5058,7 @@ Refer: 118 -1 N 1 0 0 1 0 0 0
 Refer: 282 3265 N 1 0 0 1 1516 0 0
 EndChar
 
-StartChar: u0C8C_base
+StartChar: u0C8C.part
 Encoding: 118 -1 118
 Width: 1516
 Flags: HW
@@ -6947,7 +6947,7 @@ Refer: 161 -1 N 1 0 0 1 1187 0 0
 Refer: 282 3265 N 1 0 0 1 1979 0 0
 EndChar
 
-StartChar: u0C9D_half.base
+StartChar: u0C9D.half.base
 Encoding: 158 -1 158
 Width: 1979
 Flags: HW
@@ -7026,7 +7026,7 @@ EndSplineSet
 LCarets2: 1 0
 EndChar
 
-StartChar: u0C9D_base
+StartChar: u0C9D.part
 Encoding: 161 -1 161
 Width: 792
 Flags: HW
@@ -10051,7 +10051,7 @@ Refer: 103 -1 N 1 0 0 1 1491 0 0
 Refer: 104 -1 N 1 0 0 1 1807 0 0
 EndChar
 
-StartChar: u0CAE_base
+StartChar: u0CAE.part
 Encoding: 230 -1 230
 Width: 1491
 Flags: HW
@@ -10149,7 +10149,7 @@ EndSplineSet
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CAF_base
+StartChar: u0CAF.part
 Encoding: 235 -1 235
 Width: 1874
 Flags: HW
@@ -10192,7 +10192,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CAF_base_i
+StartChar: u0CAF.part.i
 Encoding: 236 -1 236
 Width: 2090
 Flags: HW
@@ -11294,10 +11294,10 @@ EndSplineSet
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CB6_u0CB0_imathra
+StartChar: u0CB6_u0CB0.imathra
 Encoding: 265 -1 265
 Width: 2871
-Flags: HW
+Flags: HWO
 LayerCount: 2
 Fore
 SplineSet
@@ -11395,7 +11395,6 @@ SplineSet
  2204.33 478.667 2169 556.667 2169 628 c 2
  2169 1077 l 2
 EndSplineSet
-LCarets2: 3 0 0 0
 EndChar
 
 StartChar: u0CB7

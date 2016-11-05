@@ -88,6 +88,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
+WinInfo: 0 37 14
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Nukta"""  "s"""  "V""" 
@@ -4523,7 +4524,7 @@ Fore
 Refer: 104 -1 N 1 0 0 1 0 0 0
 EndChar
 
-StartChar: consonant_part
+StartChar: consonant.part
 Encoding: 103 -1 103
 Width: 0
 Flags: HW
@@ -4567,7 +4568,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: consonant_part1
+StartChar: consonant.part1
 Encoding: 104 -1 104
 Width: 387
 Flags: HW
@@ -4602,7 +4603,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: short_rr
+StartChar: shortrr
 Encoding: 105 -1 105
 Width: 628
 Flags: HW
@@ -4647,7 +4648,6 @@ SplineSet
  43 219.8 98.5764 258.387 162 279 c 5
  72.7967 304.04 44 377.321 44 430 c 4
 EndSplineSet
-LCarets2: 1 0
 EndChar
 
 StartChar: u00A0
@@ -5368,7 +5368,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0C8B_base
+StartChar: u0C8B.part
 Encoding: 116 -1 116
 Width: 869
 Flags: HW
@@ -5480,7 +5480,7 @@ Refer: 118 -1 N 1 0 0 1 0 0 0
 Refer: 282 3265 N 1 0 0 1 789 0 0
 EndChar
 
-StartChar: u0C8C_base
+StartChar: u0C8C.part
 Encoding: 118 -1 118
 Width: 789
 Flags: HW
@@ -8445,7 +8445,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0C9D_half.base
+StartChar: u0C9D.half.base
 Encoding: 158 -1 158
 Width: 975
 Flags: W
@@ -8693,7 +8693,7 @@ EndSplineSet
 LCarets2: 1 0
 EndChar
 
-StartChar: u0C9D_base
+StartChar: u0C9D.part
 Encoding: 161 -1 161
 Width: 361
 Flags: HW
@@ -13676,7 +13676,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CAE_base
+StartChar: u0CAE.part
 Encoding: 230 -1 230
 Width: 746
 Flags: W
@@ -14048,7 +14048,7 @@ EndSplineSet
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CAF_base
+StartChar: u0CAF.part
 Encoding: 235 -1 235
 Width: 897
 Flags: W
@@ -14113,7 +14113,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CAF_base_i
+StartChar: u0CAF.part.i
 Encoding: 236 -1 236
 Width: 897
 Flags: HW
@@ -16072,10 +16072,10 @@ EndSplineSet
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CB6_u0CB0_imathra
+StartChar: u0CB6_u0CB0.imathra
 Encoding: 265 -1 265
 Width: 1014
-Flags: W
+Flags: WO
 HStem: -289 94<358.554 639.999> -13 84<387.717 619.719> 326 31<413.415 480.202> 462 20G<171.5 201> 491 27<451.734 598.462> 729 52<459.151 531.843>
 VStem: 36 39<79.8467 308.729> 258 66<122.416 222.24> 367 35<365.93 452.853> 407 51<671.583 728.058> 432 90<374.938 442.079> 925 45<80.2674 316.442>
 LayerCount: 2
@@ -16187,7 +16187,6 @@ SplineSet
  571 250 523 231 407 240 c 4
  342 245 323 196 324 175 c 4
 EndSplineSet
-LCarets2: 3 0 0 0
 EndChar
 
 StartChar: u0CB7
