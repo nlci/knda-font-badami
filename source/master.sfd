@@ -83,148 +83,148 @@ MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 12 contextual 0" 0 0 0 1
  1 1 0
-  Coverage: 11 u0CC1 u0CC2
-  BCoverage: 50 u0CAA u0CAB u0CB5 u0CAA.base u0CAB.base u0CB5.base
+  Coverage: 11 umatra uumatra
+  BCoverage: 50 pa pha va pa.base pha.base va.base
  1
   SeqLookup: 0 "Single Substitution lookup 19"
 EndFPST
 ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 10 contextual 7" 0 0 0 1
  1 0 1
-  Coverage: 32 u0C9D.base u0CAE.base u0CAF.base
-  FCoverage: 5 u0CBE
+  Coverage: 32 jha.base ma.base ya.base
+  FCoverage: 5 aamatra
  1
   SeqLookup: 0 "Single Substitution lookup 18"
 EndFPST
 ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 10 contextual 3" 0 0 0 1
  1 0 1
-  Coverage: 32 u0C9D.base u0CAE.base u0CAF.base
-  FCoverage: 5 u0CCC
+  Coverage: 32 jha.base ma.base ya.base
+  FCoverage: 5 aumatra
  1
   SeqLookup: 0 "Single Substitution lookup 18"
 EndFPST
 ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 10 contextual 2" 0 0 0 1
  1 0 1
-  Coverage: 32 u0C9D.base u0CAE.base u0CAF.base
-  FCoverage: 5 u0CCD
+  Coverage: 32 jha.base ma.base ya.base
+  FCoverage: 5 virama
  1
   SeqLookup: 0 "Single Substitution lookup 18"
 EndFPST
 ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 9 contextual 1" 0 0 0 1
  1 0 3
-  Coverage: 32 u0CAE.base u0CAF.base u0C9D.base
-  FCoverage: 9 u0CB1.sub
-  FCoverage: 5 u0CC6
-  FCoverage: 5 u0CC2
+  Coverage: 32 ma.base ya.base jha.base
+  FCoverage: 9 rra.sub
+  FCoverage: 5 ematra
+  FCoverage: 5 uumatra
  1
   SeqLookup: 0 "Single Substitution lookup 17"
 EndFPST
 ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 9 contextual 0" 0 0 0 1
  1 0 2
-  Coverage: 32 u0CAE.base u0CAF.base u0C9D.base
-  FCoverage: 5 u0CC6
-  FCoverage: 5 u0CC2
+  Coverage: 32 ma.base ya.base jha.base
+  FCoverage: 5 ematra
+  FCoverage: 5 uumatra
  1
   SeqLookup: 0 "Single Substitution lookup 17"
 EndFPST
 ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 8 subtable" 0 0 0 1
  1 1 0
-  Coverage: 5 u0CC6
-  BCoverage: 17 u0C99 u0C9E u0CB1
+  Coverage: 5 ematra
+  BCoverage: 17 nga nya rra
  1
   SeqLookup: 0 "Single Substitution lookup 16"
 EndFPST
 ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 7" 0 0 0 1
  1 0 3
-  Coverage: 191 u0C95 u0C96 u0C97 u0C98 u0C9A u0C9B u0C9C u0C9D u0C9F u0CA0 u0CA1 u0CA2 u0CA3 u0CA4 u0CA5 u0CA6 u0CA7 u0CA8 u0CAA u0CAB u0CAC u0CAD u0CAE u0CAF u0CB0 u0CB2 u0CB3 u0CB5 u0CB6 u0CB7 u0CB8 u0CB9
-  FCoverage: 5 u0CB1
-  FCoverage: 5 u0CCD
-  FCoverage: 5 u0CCD
+  Coverage: 191 ka kha ga gha ca cha ja jha tta ttha dda ddha nna ta tha da dha na pa pha ba bha ma ya ra la lla va sha ssa sa ha
+  FCoverage: 5 rra
+  FCoverage: 5 virama
+  FCoverage: 5 virama
  1
   SeqLookup: 0 "Single Substitution lookup 15"
 EndFPST
 ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 6" 0 0 0 1
  1 0 3
-  Coverage: 191 u0C95 u0C96 u0C97 u0C98 u0C9A u0C9B u0C9C u0C9D u0C9F u0CA0 u0CA1 u0CA2 u0CA3 u0CA4 u0CA5 u0CA6 u0CA7 u0CA8 u0CAA u0CAB u0CAC u0CAD u0CAE u0CAF u0CB0 u0CB2 u0CB3 u0CB5 u0CB6 u0CB7 u0CB8 u0CB9
-  FCoverage: 5 u0CB1
-  FCoverage: 5 u0CCD
-  FCoverage: 5 u0CCC
+  Coverage: 191 ka kha ga gha ca cha ja jha tta ttha dda ddha nna ta tha da dha na pa pha ba bha ma ya ra la lla va sha ssa sa ha
+  FCoverage: 5 rra
+  FCoverage: 5 virama
+  FCoverage: 5 aumatra
  1
   SeqLookup: 0 "Single Substitution lookup 15"
 EndFPST
 ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 5" 0 0 0 1
  1 0 3
-  Coverage: 191 u0C95 u0C96 u0C97 u0C98 u0C9A u0C9B u0C9C u0C9D u0C9F u0CA0 u0CA1 u0CA2 u0CA3 u0CA4 u0CA5 u0CA6 u0CA7 u0CA8 u0CAA u0CAB u0CAC u0CAD u0CAE u0CAF u0CB0 u0CB2 u0CB3 u0CB5 u0CB6 u0CB7 u0CB8 u0CB9
-  FCoverage: 5 u0CB1
-  FCoverage: 5 u0CCD
-  FCoverage: 5 u0CBE
+  Coverage: 191 ka kha ga gha ca cha ja jha tta ttha dda ddha nna ta tha da dha na pa pha ba bha ma ya ra la lla va sha ssa sa ha
+  FCoverage: 5 rra
+  FCoverage: 5 virama
+  FCoverage: 5 aamatra
  1
   SeqLookup: 0 "Single Substitution lookup 15"
 EndFPST
 ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 4" 0 0 0 1
  1 0 3
-  Coverage: 191 u0C95 u0C96 u0C97 u0C98 u0C9A u0C9B u0C9C u0C9D u0C9F u0CA0 u0CA1 u0CA2 u0CA3 u0CA4 u0CA5 u0CA6 u0CA7 u0CA8 u0CAA u0CAB u0CAC u0CAD u0CAE u0CAF u0CB0 u0CB2 u0CB3 u0CB5 u0CB6 u0CB7 u0CB8 u0CB9
-  FCoverage: 5 u0CB1
-  FCoverage: 5 u0CCD
-  FCoverage: 5 u0CC6
+  Coverage: 191 ka kha ga gha ca cha ja jha tta ttha dda ddha nna ta tha da dha na pa pha ba bha ma ya ra la lla va sha ssa sa ha
+  FCoverage: 5 rra
+  FCoverage: 5 virama
+  FCoverage: 5 ematra
  1
   SeqLookup: 0 "Single Substitution lookup 15"
 EndFPST
 ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 3" 0 0 0 1
  1 0 1
-  Coverage: 191 u0C95 u0C96 u0C97 u0C98 u0C9A u0C9B u0C9C u0C9D u0C9F u0CA0 u0CA1 u0CA2 u0CA3 u0CA4 u0CA5 u0CA6 u0CA7 u0CA8 u0CAA u0CAB u0CAC u0CAD u0CAE u0CAF u0CB0 u0CB2 u0CB3 u0CB5 u0CB6 u0CB7 u0CB8 u0CB9
-  FCoverage: 5 u0CCC
+  Coverage: 191 ka kha ga gha ca cha ja jha tta ttha dda ddha nna ta tha da dha na pa pha ba bha ma ya ra la lla va sha ssa sa ha
+  FCoverage: 5 aumatra
  1
   SeqLookup: 0 "Single Substitution lookup 15"
 EndFPST
 ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 2" 0 0 0 1
  1 0 1
-  Coverage: 191 u0C95 u0C96 u0C97 u0C98 u0C9A u0C9B u0C9C u0C9D u0C9F u0CA0 u0CA1 u0CA2 u0CA3 u0CA4 u0CA5 u0CA6 u0CA7 u0CA8 u0CAA u0CAB u0CAC u0CAD u0CAE u0CAF u0CB0 u0CB2 u0CB3 u0CB5 u0CB6 u0CB7 u0CB8 u0CB9
-  FCoverage: 5 u0CCD
+  Coverage: 191 ka kha ga gha ca cha ja jha tta ttha dda ddha nna ta tha da dha na pa pha ba bha ma ya ra la lla va sha ssa sa ha
+  FCoverage: 5 virama
  1
   SeqLookup: 0 "Single Substitution lookup 15"
 EndFPST
 ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 1" 0 0 0 1
  1 0 1
-  Coverage: 191 u0C95 u0C96 u0C97 u0C98 u0C9A u0C9B u0C9C u0C9D u0C9F u0CA0 u0CA1 u0CA2 u0CA3 u0CA4 u0CA5 u0CA6 u0CA7 u0CA8 u0CAA u0CAB u0CAC u0CAD u0CAE u0CAF u0CB0 u0CB2 u0CB3 u0CB5 u0CB6 u0CB7 u0CB8 u0CB9
-  FCoverage: 5 u0CBE
+  Coverage: 191 ka kha ga gha ca cha ja jha tta ttha dda ddha nna ta tha da dha na pa pha ba bha ma ya ra la lla va sha ssa sa ha
+  FCoverage: 5 aamatra
  1
   SeqLookup: 0 "Single Substitution lookup 15"
 EndFPST
 ChainSub2: coverage "'abvs' Above Base Substitutions in Kannada lookup 7 contextual 0" 0 0 0 1
  1 0 1
-  Coverage: 191 u0C95 u0C96 u0C97 u0C98 u0C9A u0C9B u0C9C u0C9D u0C9F u0CA0 u0CA1 u0CA2 u0CA3 u0CA4 u0CA5 u0CA6 u0CA7 u0CA8 u0CAA u0CAB u0CAC u0CAD u0CAE u0CAF u0CB0 u0CB2 u0CB3 u0CB5 u0CB6 u0CB7 u0CB8 u0CB9
-  FCoverage: 5 u0CC6
+  Coverage: 191 ka kha ga gha ca cha ja jha tta ttha dda ddha nna ta tha da dha na pa pha ba bha ma ya ra la lla va sha ssa sa ha
+  FCoverage: 5 ematra
  1
   SeqLookup: 0 "Single Substitution lookup 15"
 EndFPST
 ChainSub2: coverage "'akhn' Akhand in Kannada lookup 1 contextual 1" 0 0 0 1
  2 0 1
-  Coverage: 209 u0C95 u0C96 u0C97 u0C98 u0C99 u0C9A u0C9B u0C9C u0C9D u0C9E u0C9F u0CA0 u0CA1 u0CA2 u0CA3 u0CA4 u0CA5 u0CA6 u0CA7 u0CA8 u0CAA u0CAB u0CAC u0CAD u0CAE u0CAF u0CB1 u0CB2 u0CB3 u0CB5 u0CB6 u0CB7 u0CB8 u0CB9 u0CDE
-  Coverage: 5 u0CCD
-  FCoverage: 5 u0CB0
+  Coverage: 209 ka kha ga gha nga ca cha ja jha nya tta ttha dda ddha nna ta tha da dha na pa pha ba bha ma ya rra la lla va sha ssa sa ha fa
+  Coverage: 5 virama
+  FCoverage: 5 ra
  1
   SeqLookup: 0 "Ligature Substitution lookup 14"
 EndFPST
 ChainSub2: coverage "'akhn' Akhand in Kannada lookup 1 contextual 0" 0 0 0 1
  2 0 1
-  Coverage: 209 u0C95 u0C96 u0C97 u0C98 u0C99 u0C9A u0C9B u0C9C u0C9D u0C9E u0C9F u0CA0 u0CA1 u0CA2 u0CA3 u0CA4 u0CA5 u0CA6 u0CA7 u0CA8 u0CAA u0CAB u0CAC u0CAD u0CAE u0CAF u0CB1 u0CB2 u0CB3 u0CB5 u0CB6 u0CB7 u0CB8 u0CB9 u0CDE
-  Coverage: 5 u0CCD
-  FCoverage: 5 u0CB1
+  Coverage: 209 ka kha ga gha nga ca cha ja jha nya tta ttha dda ddha nna ta tha da dha na pa pha ba bha ma ya rra la lla va sha ssa sa ha fa
+  Coverage: 5 virama
+  FCoverage: 5 rra
  1
   SeqLookup: 0 "Ligature Substitution lookup 14"
 EndFPST
 ChainSub2: coverage "'akhn' Akhand in Kannada lookup 0 subtable" 0 0 0 1
  1 2 0
-  Coverage: 11 u0CB0 u0CB1
-  BCoverage: 5 u0CCD
-  BCoverage: 209 u0C95 u0C96 u0C97 u0C98 u0C99 u0C9A u0C9B u0C9C u0C9D u0C9E u0C9F u0CA0 u0CA1 u0CA2 u0CA3 u0CA4 u0CA5 u0CA6 u0CA7 u0CA8 u0CAA u0CAB u0CAC u0CAD u0CAE u0CAF u0CB1 u0CB2 u0CB3 u0CB5 u0CB6 u0CB7 u0CB8 u0CB9 u0CDE
+  Coverage: 11 ra rra
+  BCoverage: 5 virama
+  BCoverage: 209 ka kha ga gha nga ca cha ja jha nya tta ttha dda ddha nna ta tha da dha na pa pha ba bha ma ya rra la lla va sha ssa sa ha fa
  1
   SeqLookup: 0 "Multiple Substitution lookup 13"
 EndFPST
 ChainPos2: class "'blwm' Below Base Mark in Kannada lookup 4-1" 2 3 0 1
-  Class: 17 u0CC4 u0CC3 u0CD6
-  BClass: 17 u0CC4 u0CC3 u0CD6
-  BClass: 354 u0C95.sub u0C96.sub u0C97.sub u0C98.sub u0C99.sub u0C9A.sub u0C9B.sub u0C9C.sub u0C9D.sub u0C9E.sub u0C9F.sub u0CA0.sub u0CA1.sub u0CA2.sub u0CA3.sub u0CA4.sub u0CA5.sub u0CA6.sub u0CA7.sub u0CA8.sub u0CAA.sub u0CAB.sub u0CAC.sub u0CAD.sub u0CAE.sub u0CAF.sub u0CB1.sub u0CB2.sub u0CB3.sub u0CB5.sub u0CB6.sub u0CB7.sub u0CB8.sub u0CB9.sub u0CB0.below.ra
+  Class: 17 rrvocalicmatra rvocalicmatra ailengthmark
+  BClass: 17 rrvocalicmatra rvocalicmatra ailengthmark
+  BClass: 354 ka.sub kha.sub ga.sub gha.sub nga.sub ca.sub cha.sub ja.sub jha.sub nya.sub tta.sub ttha.sub dda.sub ddha.sub nna.sub ta.sub tha.sub da.sub dha.sub na.sub pa.sub pha.sub ba.sub bha.sub ma.sub ya.sub rra.sub la.sub lla.sub va.sub sha.sub ssa.sub sa.sub ha.sub ra.below.ra
  1 1 0
   ClsList: 1
   BClsList: 2
@@ -235,10 +235,10 @@ ChainPos2: class "'blwm' Below Base Mark in Kannada lookup 4-1" 2 3 0 1
   BClassNames: "0" "1" "2"
 EndFPST
 ChainPos2: class "'blwm' Below Base Mark in Kannada lookup 2-1" 3 1 3 1
-  Class: 354 u0C95.sub u0C96.sub u0C97.sub u0C98.sub u0C99.sub u0C9A.sub u0C9B.sub u0C9C.sub u0C9D.sub u0C9E.sub u0C9F.sub u0CA0.sub u0CA1.sub u0CA2.sub u0CA3.sub u0CA4.sub u0CA5.sub u0CA6.sub u0CA7.sub u0CA8.sub u0CAA.sub u0CAB.sub u0CAC.sub u0CAD.sub u0CAE.sub u0CAF.sub u0CB1.sub u0CB2.sub u0CB3.sub u0CB5.sub u0CB6.sub u0CB7.sub u0CB8.sub u0CB9.sub u0CB0.below.ra
-  Class: 17 u0CC4 u0CC3 u0CD6
-  FClass: 354 u0C95.sub u0C96.sub u0C97.sub u0C98.sub u0C99.sub u0C9A.sub u0C9B.sub u0C9C.sub u0C9D.sub u0C9E.sub u0C9F.sub u0CA0.sub u0CA1.sub u0CA2.sub u0CA3.sub u0CA4.sub u0CA5.sub u0CA6.sub u0CA7.sub u0CA8.sub u0CAA.sub u0CAB.sub u0CAC.sub u0CAD.sub u0CAE.sub u0CAF.sub u0CB1.sub u0CB2.sub u0CB3.sub u0CB5.sub u0CB6.sub u0CB7.sub u0CB8.sub u0CB9.sub u0CB0.below.ra
-  FClass: 17 u0CC4 u0CC3 u0CD6
+  Class: 354 ka.sub kha.sub ga.sub gha.sub nga.sub ca.sub cha.sub ja.sub jha.sub nya.sub tta.sub ttha.sub dda.sub ddha.sub nna.sub ta.sub tha.sub da.sub dha.sub na.sub pa.sub pha.sub ba.sub bha.sub ma.sub ya.sub rra.sub la.sub lla.sub va.sub sha.sub ssa.sub sa.sub ha.sub ra.below.ra
+  Class: 17 rrvocalicmatra rvocalicmatra ailengthmark
+  FClass: 354 ka.sub kha.sub ga.sub gha.sub nga.sub ca.sub cha.sub ja.sub jha.sub nya.sub tta.sub ttha.sub dda.sub ddha.sub nna.sub ta.sub tha.sub da.sub dha.sub na.sub pa.sub pha.sub ba.sub bha.sub ma.sub ya.sub rra.sub la.sub lla.sub va.sub sha.sub ssa.sub sa.sub ha.sub ra.below.ra
+  FClass: 17 rrvocalicmatra rvocalicmatra ailengthmark
  1 0 1
   ClsList: 1
   BClsList:
@@ -4843,10 +4843,10 @@ SplineSet
  43 219.8 98.5764 258.387 162 279 c 5
  72.7967 304.04 44 377.321 44 430 c 4
 EndSplineSet
-Ligature2: "'rphf' Reph Form in Kannada lookup 3 subtable" u0CB0 u0CCD
+Ligature2: "'rphf' Reph Form in Kannada lookup 3 subtable" ra virama
 EndChar
 
-StartChar: u00A0
+StartChar: nbspace
 Encoding: 106 160 106
 Width: 300
 VWidth: 500
@@ -4854,7 +4854,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: u0C82
+StartChar: anusvara
 Encoding: 107 3202 107
 Width: 505
 Flags: HW
@@ -4887,7 +4887,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0C83
+StartChar: visarga
 Encoding: 108 3203 108
 Width: 281
 Flags: HW
@@ -4940,7 +4940,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0C85
+StartChar: avowel
 Encoding: 109 3205 109
 Width: 777
 Flags: W
@@ -5006,7 +5006,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0C86
+StartChar: aavowel
 Encoding: 110 3206 110
 Width: 777
 Flags: HW
@@ -5078,7 +5078,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0C87
+StartChar: ivowel
 Encoding: 111 3207 111
 Width: 760
 Flags: HW
@@ -5154,7 +5154,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0C88
+StartChar: iivowel
 Encoding: 112 3208 112
 Width: 1030
 Flags: HW
@@ -5255,7 +5255,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0C89
+StartChar: uvowel
 Encoding: 113 3209 113
 Width: 1096
 Flags: HW
@@ -5332,7 +5332,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0C8A
+StartChar: uuvowel
 Encoding: 114 3210 114
 Width: 1257
 Flags: HW
@@ -5442,7 +5442,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0C8B
+StartChar: rvocalicvowel
 Encoding: 115 3211 115
 Width: 1230
 Flags: HW
@@ -5564,7 +5564,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0C8B.part
+StartChar: rvocalicvowel.part
 Encoding: 116 -1 116
 Width: 869
 Flags: HW
@@ -5665,7 +5665,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0C8C
+StartChar: lvocalicvowel
 Encoding: 117 3212 117
 Width: 1150
 Flags: HW
@@ -5676,7 +5676,7 @@ Refer: 118 -1 N 1 0 0 1 0 0 0
 Refer: 282 3265 N 1 0 0 1 789 0 0
 EndChar
 
-StartChar: u0C8C.part
+StartChar: lvocalicvowel.part
 Encoding: 118 -1 118
 Width: 789
 Flags: HW
@@ -5709,7 +5709,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0C8E
+StartChar: evowel
 Encoding: 119 3214 119
 Width: 760
 Flags: HW
@@ -5767,7 +5767,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0C8F
+StartChar: eevowel
 Encoding: 120 3215 120
 Width: 760
 Flags: HW
@@ -5827,7 +5827,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0C90
+StartChar: aivowel
 Encoding: 121 3216 121
 Width: 760
 Flags: HW
@@ -5895,7 +5895,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0C92
+StartChar: ovowel
 Encoding: 122 3218 122
 Width: 800
 Flags: HW
@@ -5953,7 +5953,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0C93
+StartChar: oovowel
 Encoding: 123 3219 123
 Width: 800
 Flags: HW
@@ -6019,7 +6019,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0C94
+StartChar: auvowel
 Encoding: 124 3220 124
 Width: 760
 Flags: HW
@@ -6127,7 +6127,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0C95
+StartChar: ka
 Encoding: 125 3221 125
 Width: 536
 Flags: W
@@ -6195,12 +6195,12 @@ SplineSet
  209.232 328 138 288.427 138 207 c 0
  138 129.489 204.737 89 270 89 c 0
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0C95.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0C95 u0CCD
+Substitution2: "Single Substitution lookup 15 subtable" ka.base
+Ligature2: "Ligature Substitution lookup 14 subtable" ka virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0C95.base
+StartChar: ka.base
 Encoding: 126 -1 126
 Width: 522
 Flags: W
@@ -6262,7 +6262,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0C95.imathra
+StartChar: ka.imathra
 Encoding: 127 -1 127
 Width: 522
 Flags: HW
@@ -6328,11 +6328,11 @@ SplineSet
  208.5 328 137 287.959 137 200 c 4
  137 110.222 215.947 76 271 76 c 4
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0C95 u0CBF
+Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" ka imatra
 LCarets2: 1 0
 EndChar
 
-StartChar: u0C95.sub
+StartChar: ka.sub
 Encoding: 128 -1 128
 Width: 237
 Flags: HW
@@ -6384,11 +6384,11 @@ SplineSet
  -36 -269.562 10.225 -298 53 -298 c 0
 EndSplineSet
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C95 u0CCD
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" ka virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0C95_u0CC3.sub
+StartChar: ka_rvocalicmatra.sub
 Encoding: 129 -1 129
 Width: 481
 Flags: HW
@@ -6469,7 +6469,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0C96
+StartChar: kha
 Encoding: 130 3222 130
 Width: 855
 Flags: W
@@ -6546,12 +6546,12 @@ SplineSet
  240.2 72 305.958 114.798 359 159 c 5
  343.745 171.712 304.6 204 223 204 c 4
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0C96.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0C96 u0CCD
+Substitution2: "Single Substitution lookup 15 subtable" kha.base
+Ligature2: "Ligature Substitution lookup 14 subtable" kha virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0C96.base
+StartChar: kha.base
 Encoding: 131 -1 131
 Width: 897
 Flags: HW
@@ -6628,7 +6628,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0C96.imathra
+StartChar: kha.imathra
 Encoding: 132 -1 132
 Width: 897
 Flags: HW
@@ -6717,11 +6717,11 @@ SplineSet
  243.6 75 321.129 125.176 369 162 c 1
  344.741 178.54 295.519 207 222 207 c 0
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0C96 u0CBF
+Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" kha imatra
 LCarets2: 1 0
 EndChar
 
-StartChar: u0C96.sub
+StartChar: kha.sub
 Encoding: 133 -1 133
 Width: 237
 Flags: HW
@@ -6787,11 +6787,11 @@ SplineSet
  -148.49 -253.603 -189.814 -255 -200 -255 c 0
 EndSplineSet
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C96 u0CCD
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" kha virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0C97
+StartChar: ga
 Encoding: 134 3223 134
 Width: 667
 Flags: W
@@ -6836,12 +6836,12 @@ SplineSet
  209.333 489 145 326 145 -2 c 1
  55 -2 l 1xe0
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0C97.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0C97 u0CCD
+Substitution2: "Single Substitution lookup 15 subtable" ga.base
+Ligature2: "Ligature Substitution lookup 14 subtable" ga virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0C97.base
+StartChar: ga.base
 Encoding: 135 -1 135
 Width: 653
 Flags: HW
@@ -6878,7 +6878,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0C97.imathra
+StartChar: ga.imathra
 Encoding: 136 -1 136
 Width: 642
 Flags: HW
@@ -6927,11 +6927,11 @@ SplineSet
  182.5 639 170 598.8 170 572 c 256
  170 525.666 204.491 513.263 234 503 c 1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0C97 u0CBF
+Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" ga imatra
 LCarets2: 1 0
 EndChar
 
-StartChar: u0C97.sub
+StartChar: ga.sub
 Encoding: 137 -1 137
 Width: 237
 Flags: HW
@@ -6957,11 +6957,11 @@ SplineSet
  144.275 -221.525 73.4937 -84 -11 -84 c 4
 EndSplineSet
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C97 u0CCD
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" ga virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0C98
+StartChar: gha
 Encoding: 138 3224 138
 Width: 823
 Flags: W
@@ -7078,12 +7078,12 @@ SplineSet
  616 576 l 2
  704.207 576 723 633.32 723 670 c 0
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0C98.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0C98 u0CCD
+Substitution2: "Single Substitution lookup 15 subtable" gha.base
+Ligature2: "Ligature Substitution lookup 14 subtable" gha virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0C98.base
+StartChar: gha.base
 Encoding: 139 -1 139
 Width: 809
 Flags: HW
@@ -7180,7 +7180,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0C98.imathra
+StartChar: gha.imathra
 Encoding: 140 -1 140
 Width: 921
 Flags: HW
@@ -7285,11 +7285,11 @@ SplineSet
  366.662 602.008 342.82 615 311 615 c 256
  264.612 615 238 579.188 238 546 c 0
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0C98 u0CBF
+Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" gha imatra
 LCarets2: 1 0
 EndChar
 
-StartChar: u0C98.sub
+StartChar: gha.sub
 Encoding: 141 -1 141
 Width: 292
 Flags: HW
@@ -7361,11 +7361,11 @@ SplineSet
  -43 -287 -30 -316 -16 -357 c 4
 EndSplineSet
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C98 u0CCD
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" gha virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0C99
+StartChar: nga
 Encoding: 142 3225 142
 Width: 800
 Flags: HW
@@ -7442,11 +7442,11 @@ SplineSet
  424.825 309 392 321.4 392 371 c 260
  392 420.6 424.825 433 448 433 c 4
 EndSplineSet
-Ligature2: "Ligature Substitution lookup 14 subtable" u0C99 u0CCD
+Ligature2: "Ligature Substitution lookup 14 subtable" nga virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0C99.sub
+StartChar: nga.sub
 Encoding: 143 -1 143
 Width: 251
 Flags: HW
@@ -7520,11 +7520,11 @@ SplineSet
  -17.1998 -86.3308 68.0196 -81 87 -81 c 4
 EndSplineSet
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C99 u0CCD
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" nga virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0C9A
+StartChar: ca
 Encoding: 144 3226 144
 Width: 803
 Flags: HW
@@ -7611,12 +7611,12 @@ SplineSet
  590 581 l 6
  678.207 581 697 638.32 697 675 c 4
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0C9A.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0C9A u0CCD
+Substitution2: "Single Substitution lookup 15 subtable" ca.base
+Ligature2: "Ligature Substitution lookup 14 subtable" ca virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0C9A.base
+StartChar: ca.base
 Encoding: 145 -1 145
 Width: 789
 Flags: HW
@@ -7695,7 +7695,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0C9A.imathra
+StartChar: ca.imathra
 Encoding: 146 -1 146
 Width: 789
 Flags: HW
@@ -7784,11 +7784,11 @@ SplineSet
  532.4 635 521 603.2 521 582 c 4
  521 548 539 531 575 531 c 4
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0C9A u0CBF
+Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" ca imatra
 LCarets2: 1 0
 EndChar
 
-StartChar: u0C9A.sub
+StartChar: ca.sub
 Encoding: 147 -1 147
 Width: 251
 Flags: HW
@@ -7866,11 +7866,11 @@ SplineSet
  94.7562 -4.32757 103.076 5 130 5 c 4
 EndSplineSet
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C9A u0CCD
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" ca virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0C9B
+StartChar: cha
 Encoding: 148 3227 148
 Width: 792
 Flags: HW
@@ -7949,12 +7949,12 @@ SplineSet
  348.7 -204 319 -182.55 319 -143 c 4
  319 -128.224 337.214 -67.2652 376 14 c 5
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0C9B.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0C9B u0CCD
+Substitution2: "Single Substitution lookup 15 subtable" cha.base
+Ligature2: "Ligature Substitution lookup 14 subtable" cha virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0C9B.base
+StartChar: cha.base
 Encoding: 149 -1 149
 Width: 760
 Flags: HW
@@ -8025,7 +8025,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0C9B.imathra
+StartChar: cha.imathra
 Encoding: 150 -1 150
 Width: 746
 Flags: HW
@@ -8106,11 +8106,11 @@ SplineSet
  137 410.2 155.617 389 204 389 c 0
  261.8 389 280 425 280 449 c 0
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0C9B u0CBF
+Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" cha imatra
 LCarets2: 1 0
 EndChar
 
-StartChar: u0C9B.sub
+StartChar: cha.sub
 Encoding: 151 -1 151
 Width: 200
 Flags: HW
@@ -8174,11 +8174,11 @@ SplineSet
  -211.055 -141.775 -195.74 -150 -169 -150 c 4
 EndSplineSet
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C9B u0CCD
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" cha virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0C9C
+StartChar: ja
 Encoding: 152 3228 152
 Width: 800
 Flags: HW
@@ -8244,12 +8244,12 @@ SplineSet
  592.665 447 656 512.149 656 571 c 4
  656 581 653.667 590.667 649 600 c 5
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0C9C.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0C9C u0CCD
+Substitution2: "Single Substitution lookup 15 subtable" ja.base
+Ligature2: "Ligature Substitution lookup 14 subtable" ja virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0C9C.base
+StartChar: ja.base
 Encoding: 153 -1 153
 Width: 789
 Flags: HW
@@ -8329,7 +8329,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0C9C.imathra
+StartChar: ja.imathra
 Encoding: 154 -1 154
 Width: 789
 Flags: HW
@@ -8413,11 +8413,11 @@ SplineSet
  481.4 655 463 628.2 463 588 c 4
  463 541.129 563.465 537.472 566 616 c 4
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0C9C u0CBF
+Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" ja imatra
 LCarets2: 1 0
 EndChar
 
-StartChar: u0C9C.sub
+StartChar: ja.sub
 Encoding: 155 -1 155
 Width: 251
 Flags: HW
@@ -8483,11 +8483,11 @@ SplineSet
  182 -246 171.333 -228.667 150 -214 c 5
 EndSplineSet
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C9C u0CCD
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" ja virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0C9D
+StartChar: jha
 Encoding: 156 3229 156
 Width: 1351
 Flags: HW
@@ -8584,12 +8584,12 @@ SplineSet
  882.194 -221 853 -199.007 853 -159 c 0x0940
  853 -128.655 908.989 11.9745 909 12 c 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0C9D.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0C9D u0CCD
+Substitution2: "Single Substitution lookup 15 subtable" jha.base
+Ligature2: "Ligature Substitution lookup 14 subtable" jha virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0C9D.base
+StartChar: jha.base
 Encoding: 157 -1 157
 Width: 1337
 Flags: W
@@ -8679,10 +8679,10 @@ SplineSet
  882.194 -221 853 -199.007 853 -159 c 0x9d
  853 -128.655 908.989 11.9745 909 12 c 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 18 subtable" u0C9D.base.mathra
+Substitution2: "Single Substitution lookup 18 subtable" jha.base.mathra
 EndChar
 
-StartChar: u0C9D.half.base
+StartChar: jha.half.base
 Encoding: 158 -1 158
 Width: 975
 Flags: W
@@ -8755,7 +8755,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0C9D.imathra
+StartChar: jha.imathra
 Encoding: 159 -1 159
 Width: 1337
 Flags: HW
@@ -8853,11 +8853,11 @@ SplineSet
  869.194 -222 840 -200.007 840 -160 c 0
  840 -130.462 892.101 0.576172 896 10 c 1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0C9D u0CBF
+Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" jha imatra
 LCarets2: 1 0
 EndChar
 
-StartChar: u0C9D.sub
+StartChar: jha.sub
 Encoding: 160 -1 160
 Width: 453
 Flags: HW
@@ -8929,11 +8929,11 @@ SplineSet
  -229 -257.486 -182.863 -285 -134 -285 c 256
 EndSplineSet
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C9D u0CCD
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" jha virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0C9D.part
+StartChar: jha.part
 Encoding: 161 -1 161
 Width: 361
 Flags: HW
@@ -8978,7 +8978,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0C9D.base.mathra
+StartChar: jha.base.mathra
 Encoding: 162 -1 162
 Width: 1377
 Flags: W
@@ -9085,7 +9085,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0C9E
+StartChar: nya
 Encoding: 163 3230 163
 Width: 1127
 Flags: HW
@@ -9170,11 +9170,11 @@ SplineSet
  573.817 212 601.94 229.382 625 251 c 1
  607.951 278.28 577.809 293 539 293 c 0
 EndSplineSet
-Ligature2: "Ligature Substitution lookup 14 subtable" u0C9E u0CCD
+Ligature2: "Ligature Substitution lookup 14 subtable" nya virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0C9E.sub
+StartChar: nya.sub
 Encoding: 164 -1 164
 Width: 387
 Flags: HW
@@ -9256,11 +9256,11 @@ SplineSet
  -12.45 -229 -28 -252.4 -28 -268 c 4
 EndSplineSet
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C9E u0CCD
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" nya virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0C9F
+StartChar: tta
 Encoding: 165 3231 165
 Width: 760
 Flags: HW
@@ -9341,12 +9341,12 @@ SplineSet
  252 321 221.226 416.994 134 363 c 5
  133.333 357 133 352.333 133 349 c 4
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0C9F.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0C9F u0CCD
+Substitution2: "Single Substitution lookup 15 subtable" tta.base
+Ligature2: "Ligature Substitution lookup 14 subtable" tta virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0C9F.base
+StartChar: tta.base
 Encoding: 166 -1 166
 Width: 777
 Flags: HW
@@ -9431,7 +9431,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0C9F.imathra
+StartChar: tta.imathra
 Encoding: 167 -1 167
 Width: 760
 Flags: HW
@@ -9524,11 +9524,11 @@ SplineSet
  132.333 345.333 132.667 332 134 324 c 0
  148.698 267.877 226.729 264.047 230 336 c 0
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0C9F u0CBF
+Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" tta imatra
 LCarets2: 1 0
 EndChar
 
-StartChar: u0C9F.sub
+StartChar: tta.sub
 Encoding: 168 -1 168
 Width: 442
 Flags: HW
@@ -9598,11 +9598,11 @@ SplineSet
  -40.0639 -102 -62.9319 -109.331 -70 -127 c 5
 EndSplineSet
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0C9F u0CCD
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" tta virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CA0
+StartChar: ttha
 Encoding: 169 3232 169
 Width: 628
 Flags: HW
@@ -9661,12 +9661,12 @@ SplineSet
  237.667 -2 177.118 19.8036 127 63 c 0
  71.1316 111.153 43 176.333 43 259 c 0
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0CA0.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CA0 u0CCD
+Substitution2: "Single Substitution lookup 15 subtable" ttha.base
+Ligature2: "Ligature Substitution lookup 14 subtable" ttha virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CA0.base
+StartChar: ttha.base
 Encoding: 170 -1 170
 Width: 614
 Flags: HW
@@ -9719,7 +9719,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CA0.imathra
+StartChar: ttha.imathra
 Encoding: 171 -1 171
 Width: 614
 Flags: HW
@@ -9782,11 +9782,11 @@ SplineSet
  279.524 230 250 249.343 250 292 c 260
  250 341.6 288.75 354 312 354 c 260
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CA0 u0CBF
+Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" ttha imatra
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CA0.sub
+StartChar: ttha.sub
 Encoding: 172 -1 172
 Width: 106
 Flags: HW
@@ -9828,11 +9828,11 @@ SplineSet
  -48.6667 -162 -37.3333 -174 -38 -198 c 4
 EndSplineSet
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CA0 u0CCD
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" ttha virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CA1
+StartChar: dda
 Encoding: 173 3233 173
 Width: 735
 Flags: HW
@@ -9911,12 +9911,12 @@ SplineSet
  544 578 l 6
  632.207 578 651 635.32 651 672 c 4
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0CA1.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CA1 u0CCD
+Substitution2: "Single Substitution lookup 15 subtable" dda.base
+Ligature2: "Ligature Substitution lookup 14 subtable" dda virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CA1.base
+StartChar: dda.base
 Encoding: 174 -1 174
 Width: 746
 Flags: HW
@@ -9987,7 +9987,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CA1.imathra
+StartChar: dda.imathra
 Encoding: 175 -1 175
 Width: 735
 Flags: HW
@@ -10070,11 +10070,11 @@ SplineSet
  277.8 94 336.66 127.774 366 213 c 1
  383.952 180.217 429.6 94 525 94 c 0
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CA1 u0CBF
+Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" dda imatra
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CA1.sub
+StartChar: dda.sub
 Encoding: 176 -1 176
 Width: 267
 Flags: HW
@@ -10136,11 +10136,11 @@ SplineSet
  10.2 -198.333 54.6 -285 135 -285 c 4
 EndSplineSet
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CA1 u0CCD
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" dda virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CA2
+StartChar: ddha
 Encoding: 177 3234 177
 Width: 749
 Flags: W
@@ -10231,12 +10231,12 @@ SplineSet
  543 578 l 2
  631.207 578 650 635.32 650 672 c 0xf9
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0CA2.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CA2 u0CCD
+Substitution2: "Single Substitution lookup 15 subtable" ddha.base
+Ligature2: "Ligature Substitution lookup 14 subtable" ddha virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CA2.base
+StartChar: ddha.base
 Encoding: 178 -1 178
 Width: 735
 Flags: HW
@@ -10317,7 +10317,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CA2.imathra
+StartChar: ddha.imathra
 Encoding: 179 -1 179
 Width: 735
 Flags: HW
@@ -10412,11 +10412,11 @@ SplineSet
  276.8 92 335.66 125.774 365 211 c 5
  382.952 178.217 428.6 92 524 92 c 4xbe70
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CA2 u0CBF
+Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" ddha imatra
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CA2.sub
+StartChar: ddha.sub
 Encoding: 180 -1 180
 Width: 267
 Flags: HW
@@ -10488,11 +10488,11 @@ SplineSet
  9.20001 -198.333 53.6 -285 134 -285 c 0
 EndSplineSet
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CA2 u0CCD
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" ddha virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CA3
+StartChar: nna
 Encoding: 181 3235 181
 Width: 828
 Flags: HW
@@ -10559,12 +10559,12 @@ SplineSet
  317.6 590 369.735 493.916 390 430 c 1
  411.496 476.732 466.516 590 583 590 c 0
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0CA3.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CA3 u0CCD
+Substitution2: "Single Substitution lookup 15 subtable" nna.base
+Ligature2: "Ligature Substitution lookup 14 subtable" nna virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CA3.base
+StartChar: nna.base
 Encoding: 182 -1 182
 Width: 800
 Flags: HW
@@ -10643,7 +10643,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CA3.imathra
+StartChar: nna.imathra
 Encoding: 183 -1 183
 Width: 828
 Flags: HW
@@ -10740,11 +10740,11 @@ SplineSet
  711 720.2 697.6 749 656 749 c 0
  625.51 749 601 727.153 601 701 c 0
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CA3 u0CBF
+Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" nna imatra
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CA3.sub
+StartChar: nna.sub
 Encoding: 184 -1 184
 Width: 267
 Flags: HW
@@ -10808,11 +10808,11 @@ SplineSet
  44 -265.087 71.4688 -228 119 -228 c 4
 EndSplineSet
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CA3 u0CCD
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" nna virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CA4
+StartChar: ta
 Encoding: 185 3236 185
 Width: 628
 Flags: W
@@ -10884,12 +10884,12 @@ SplineSet
  441.466 488 l 1
  495.657 449.751 506 395.305 506 361 c 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0CA4.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CA4 u0CCD
+Substitution2: "Single Substitution lookup 15 subtable" ta.base
+Ligature2: "Ligature Substitution lookup 14 subtable" ta virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CA4.base
+StartChar: ta.base
 Encoding: 186 -1 186
 Width: 614
 Flags: HW
@@ -10951,7 +10951,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CA4.imathra
+StartChar: ta.imathra
 Encoding: 187 -1 187
 Width: 614
 Flags: HW
@@ -11021,11 +11021,11 @@ SplineSet
  427.087 361.248 391.4 375 347 375 c 0
  267.8 375 248 345 248 325 c 0
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CA4 u0CBF
+Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" ta imatra
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CA4.sub
+StartChar: ta.sub
 Encoding: 188 -1 188
 Width: 237
 Flags: HW
@@ -11065,11 +11065,11 @@ SplineSet
  201 -141.778 177.403 -110 139 -110 c 0
 EndSplineSet
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CA4 u0CCD
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" ta virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CA4_u0CAF.sub
+StartChar: ta_ya.sub
 Encoding: 189 -1 189
 Width: 492
 Flags: HW
@@ -11138,7 +11138,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CA4_u0CB5.sub
+StartChar: ta_va.sub
 Encoding: 190 -1 190
 Width: 617
 Flags: HW
@@ -11215,7 +11215,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CA4_u0CC3.sub
+StartChar: ta_rvocalicmatra.sub
 Encoding: 191 -1 191
 Width: 175
 Flags: HW
@@ -11268,7 +11268,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CA4_u0CD6.sub
+StartChar: ta_ailengthmark.sub
 Encoding: 192 -1 192
 Width: 200
 Flags: HW
@@ -11321,7 +11321,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CA5
+StartChar: tha
 Encoding: 193 3237 193
 Width: 774
 Flags: HW
@@ -11400,12 +11400,12 @@ SplineSet
  517 486 l 1
  643.879 429.61 723 304.18 723 178 c 0
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0CA5.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CA5 u0CCD
+Substitution2: "Single Substitution lookup 15 subtable" tha.base
+Ligature2: "Ligature Substitution lookup 14 subtable" tha virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CA5.base
+StartChar: tha.base
 Encoding: 194 -1 194
 Width: 760
 Flags: HW
@@ -11478,7 +11478,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CA5.imathra
+StartChar: tha.imathra
 Encoding: 195 -1 195
 Width: 789
 Flags: HW
@@ -11561,11 +11561,11 @@ SplineSet
  364.524 246 335 265.343 335 308 c 256
  335 357.6 373.75 370 397 370 c 256
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CA5 u0CBF
+Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" tha imatra
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CA5.sub
+StartChar: tha.sub
 Encoding: 196 -1 196
 Width: 251
 Flags: HW
@@ -11626,11 +11626,11 @@ SplineSet
  -47 -113 -36 -101 -14 -101 c 0
 EndSplineSet
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CA5 u0CCD
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" tha virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CA6
+StartChar: da
 Encoding: 197 3238 197
 Width: 774
 Flags: HW
@@ -11693,12 +11693,12 @@ SplineSet
  517 486 l 1
  643.879 429.61 723 304.18 723 178 c 0
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0CA6.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CA6 u0CCD
+Substitution2: "Single Substitution lookup 15 subtable" da.base
+Ligature2: "Ligature Substitution lookup 14 subtable" da virama
 LCarets2: 1 726
 EndChar
 
-StartChar: u0CA6.base
+StartChar: da.base
 Encoding: 198 -1 198
 Width: 760
 Flags: HW
@@ -11753,7 +11753,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CA6.imathra
+StartChar: da.imathra
 Encoding: 199 -1 199
 Width: 789
 Flags: HW
@@ -11816,11 +11816,11 @@ SplineSet
  114 157.327 154.298 89 247 89 c 0
  338.8 89 388.928 184.226 400 203 c 1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CA6 u0CBF
+Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" da imatra
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CA6.sub
+StartChar: da.sub
 Encoding: 200 -1 200
 Width: 251
 Flags: HW
@@ -11862,11 +11862,11 @@ SplineSet
  -91.5632 -287 -50.365 -251.894 -10 -201 c 1
 EndSplineSet
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CA6 u0CCD
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" da virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CA7
+StartChar: dha
 Encoding: 201 3239 201
 Width: 774
 Flags: HW
@@ -11934,12 +11934,12 @@ SplineSet
  517 486 l 1
  643.879 429.61 723 304.18 723 178 c 0
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0CA7.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CA7 u0CCD
+Substitution2: "Single Substitution lookup 15 subtable" dha.base
+Ligature2: "Ligature Substitution lookup 14 subtable" dha virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CA7.base
+StartChar: dha.base
 Encoding: 202 -1 202
 Width: 760
 Flags: HW
@@ -11998,7 +11998,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CA7.imathra
+StartChar: dha.imathra
 Encoding: 203 -1 203
 Width: 789
 Flags: HW
@@ -12071,11 +12071,11 @@ SplineSet
  83.9531 497 24.5991 88 248 88 c 0
  339.8 88 389.928 183.226 401 202 c 1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CA7 u0CBF
+Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" dha imatra
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CA7.sub
+StartChar: dha.sub
 Encoding: 204 -1 204
 Width: 251
 Flags: HW
@@ -12125,11 +12125,11 @@ SplineSet
  -91.5632 -286 -50.365 -250.894 -10 -200 c 5
 EndSplineSet
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CA7 u0CCD
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" dha virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CA8
+StartChar: na
 Encoding: 205 3240 205
 Width: 667
 Flags: HW
@@ -12188,12 +12188,12 @@ SplineSet
  448 578 l 2
  536.207 578 555 635.32 555 672 c 0
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0CA8.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CA8 u0CCD
+Substitution2: "Single Substitution lookup 15 subtable" na.base
+Ligature2: "Ligature Substitution lookup 14 subtable" na virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CA8.base
+StartChar: na.base
 Encoding: 206 -1 206
 Width: 653
 Flags: HW
@@ -12246,7 +12246,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CA8.imathra
+StartChar: na.imathra
 Encoding: 207 -1 207
 Width: 642
 Flags: HW
@@ -12309,11 +12309,11 @@ SplineSet
  123.606 630.116 85 616.2 85 569 c 0
  85 541.087 107.731 526 136 526 c 0
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CA8 u0CBF
+Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" na imatra
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CA8.sub
+StartChar: na.sub
 Encoding: 208 -1 208
 Width: 212
 Flags: HW
@@ -12367,11 +12367,11 @@ SplineSet
  -165.025 -94 -187 -127 -187 -149 c 0
 EndSplineSet
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CA8 u0CCD
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" na virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CAA
+StartChar: pa
 Encoding: 209 3242 209
 Width: 760
 Flags: HW
@@ -12449,12 +12449,12 @@ SplineSet
  552 579 l 2
  640.207 579 659 636.32 659 673 c 0
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0CAA.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CAA u0CCD
+Substitution2: "Single Substitution lookup 15 subtable" pa.base
+Ligature2: "Ligature Substitution lookup 14 subtable" pa virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CAA.base
+StartChar: pa.base
 Encoding: 210 -1 210
 Width: 746
 Flags: HW
@@ -12526,7 +12526,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CAA.imathra
+StartChar: pa.imathra
 Encoding: 211 -1 211
 Width: 746
 Flags: HW
@@ -12607,11 +12607,11 @@ SplineSet
  368.662 605.008 344.82 618 313 618 c 260
  266.612 618 240 582.188 240 549 c 4
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CAA u0CBF
+Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" pa imatra
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CAA.sub
+StartChar: pa.sub
 Encoding: 212 -1 212
 Width: 200
 Flags: HW
@@ -12659,11 +12659,11 @@ SplineSet
  142.8 -211 159 -134.321 159 -68 c 0
 EndSplineSet
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CAA u0CCD
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" pa virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CAB
+StartChar: pha
 Encoding: 213 3243 213
 Width: 760
 Flags: HW
@@ -12752,12 +12752,12 @@ SplineSet
  549 579 l 2
  637.207 579 656 636.32 656 673 c 0xce40
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0CAB.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CAB u0CCD
+Substitution2: "Single Substitution lookup 15 subtable" pha.base
+Ligature2: "Ligature Substitution lookup 14 subtable" pha virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CAB.base
+StartChar: pha.base
 Encoding: 214 -1 214
 Width: 746
 Flags: HW
@@ -12839,7 +12839,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CAB.imathra
+StartChar: pha.imathra
 Encoding: 215 -1 215
 Width: 746
 Flags: HW
@@ -12931,11 +12931,11 @@ SplineSet
  369.662 604.008 345.82 617 314 617 c 256
  267.612 617 241 581.188 241 548 c 0
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CAB u0CBF
+Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" pha imatra
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CAB.sub
+StartChar: pha.sub
 Encoding: 216 -1 216
 Width: 200
 Flags: HW
@@ -12995,11 +12995,11 @@ SplineSet
  -15 -309 -3.44824 -339.654 -2 -344 c 1
 EndSplineSet
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CAB u0CCD
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" pha virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CAC
+StartChar: ba
 Encoding: 217 3244 217
 Width: 800
 Flags: HW
@@ -13059,12 +13059,12 @@ SplineSet
  733 280.897 720.364 380.623 605 485 c 1
  544.612 537.841 578.629 612.805 653 554 c 0
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0CAC.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CAC u0CCD
+Substitution2: "Single Substitution lookup 15 subtable" ba.base
+Ligature2: "Ligature Substitution lookup 14 subtable" ba virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CAC.base
+StartChar: ba.base
 Encoding: 218 -1 218
 Width: 800
 Flags: HW
@@ -13129,7 +13129,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CAC.imathra
+StartChar: ba.imathra
 Encoding: 219 -1 219
 Width: 800
 Flags: HW
@@ -13200,11 +13200,11 @@ SplineSet
  466.478 603 433 591 433 543 c 4
  433 509.023 458.714 488 493 488 c 4
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CAC u0CBF
+Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" ba imatra
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CAC.sub
+StartChar: ba.sub
 Encoding: 220 -1 220
 Width: 251
 Flags: HW
@@ -13258,11 +13258,11 @@ SplineSet
  114.304 113.304 120.6 121 141 121 c 4
 EndSplineSet
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CAC u0CCD
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" ba virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CAD
+StartChar: bha
 Encoding: 221 3245 221
 Width: 814
 Flags: HW
@@ -13345,12 +13345,12 @@ SplineSet
  587.146 490 l 5
  694.933 425.908 759 308.101 759 188 c 4
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0CAD.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CAD u0CCD
+Substitution2: "Single Substitution lookup 15 subtable" bha.base
+Ligature2: "Ligature Substitution lookup 14 subtable" bha virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CAD.base
+StartChar: bha.base
 Encoding: 222 -1 222
 Width: 800
 Flags: HW
@@ -13425,7 +13425,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CAD.imathra
+StartChar: bha.imathra
 Encoding: 223 -1 223
 Width: 800
 Flags: HW
@@ -13508,11 +13508,11 @@ SplineSet
  466.478 603 433 591 433 543 c 4
  433 509.023 458.714 488 493 488 c 4
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CAD u0CBF
+Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" bha imatra
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CAD.sub
+StartChar: bha.sub
 Encoding: 224 -1 224
 Width: 251
 Flags: HW
@@ -13578,11 +13578,11 @@ SplineSet
  -2.57812 -318.253 11.6348 -360.452 14 -364 c 5
 EndSplineSet
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CAD u0CCD
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" bha virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CAE
+StartChar: ma
 Encoding: 225 3246 225
 Width: 1121
 Flags: HW
@@ -13669,12 +13669,12 @@ SplineSet
  550 579 l 2
  638.207 579 657 636.32 657 673 c 0x7f80
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0CAE.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CAE u0CCD
+Substitution2: "Single Substitution lookup 15 subtable" ma.base
+Ligature2: "Ligature Substitution lookup 14 subtable" ma virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CAE.base
+StartChar: ma.base
 Encoding: 226 -1 226
 Width: 1107
 Flags: W
@@ -13754,11 +13754,11 @@ SplineSet
  538 579 l 17
  538 487 l 9
 EndSplineSet
-Substitution2: "Single Substitution lookup 18 subtable" u0CAE.base.mathra
-Substitution2: "Single Substitution lookup 17 subtable" u0CAE.part
+Substitution2: "Single Substitution lookup 18 subtable" ma.base.mathra
+Substitution2: "Single Substitution lookup 17 subtable" ma.part
 EndChar
 
-StartChar: u0CAE.imathra
+StartChar: ma.imathra
 Encoding: 227 -1 227
 Width: 1107
 Flags: HW
@@ -13845,11 +13845,11 @@ SplineSet
  1049 395.35 926.444 449.1 805 488 c 0
  794.077 490.184 758 497.8 758 537 c 0
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CAE u0CBF
+Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" ma imatra
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CAE.sub
+StartChar: ma.sub
 Encoding: 228 -1 228
 Width: 467
 Flags: HW
@@ -13903,11 +13903,11 @@ SplineSet
  215.875 -157 251 -139 251 -112 c 0
 EndSplineSet
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CAE u0CCD
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" ma virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CAE.base.mathra
+StartChar: ma.base.mathra
 Encoding: 229 -1 229
 Width: 1148
 Flags: W
@@ -13996,7 +13996,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CAE.part
+StartChar: ma.part
 Encoding: 230 -1 230
 Width: 746
 Flags: W
@@ -14057,7 +14057,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CAF
+StartChar: ya
 Encoding: 231 3247 231
 Width: 1272
 Flags: HW
@@ -14144,12 +14144,12 @@ SplineSet
  551.333 120.667 600 91 662 91 c 0
  778.523 91 811 177.432 811 240 c 0
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0CAF.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CAF u0CCD
+Substitution2: "Single Substitution lookup 15 subtable" ya.base
+Ligature2: "Ligature Substitution lookup 14 subtable" ya virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CAF.base
+StartChar: ya.base
 Encoding: 232 -1 232
 Width: 1258
 Flags: W
@@ -14227,11 +14227,11 @@ SplineSet
  551.333 120.667 600 91 662 91 c 0
  778.523 91 811 177.432 811 240 c 0
 EndSplineSet
-Substitution2: "Single Substitution lookup 18 subtable" u0CAF.base.mathra
-Substitution2: "Single Substitution lookup 17 subtable" u0CAF.part
+Substitution2: "Single Substitution lookup 18 subtable" ya.base.mathra
+Substitution2: "Single Substitution lookup 17 subtable" ya.part
 EndChar
 
-StartChar: u0CAF.imathra
+StartChar: ya.imathra
 Encoding: 233 -1 233
 Width: 1258
 Flags: HW
@@ -14309,11 +14309,11 @@ SplineSet
  694.499 519.001 687.478 442 617 442 c 0
  537.212 442 489 514.6 489 581 c 0
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CAF u0CBF
+Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" ya imatra
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CAF.sub
+StartChar: ya.sub
 Encoding: 234 -1 234
 Width: 281
 Flags: HW
@@ -14371,11 +14371,11 @@ SplineSet
  138 60 132.744 50.427 130 55 c 4
 EndSplineSet
 Position2: "SubMove-1" dx=-150 dy=0 dh=0 dv=0
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CAF u0CCD
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" ya virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CAF.part
+StartChar: ya.part
 Encoding: 235 -1 235
 Width: 897
 Flags: W
@@ -14440,7 +14440,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CAF.part.i
+StartChar: ya.part.i
 Encoding: 236 -1 236
 Width: 897
 Flags: HW
@@ -14504,7 +14504,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CAF.base.mathra
+StartChar: ya.base.mathra
 Encoding: 237 -1 237
 Width: 1299
 Flags: W
@@ -14603,7 +14603,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CB0
+StartChar: ra
 Encoding: 238 3248 238
 Width: 628
 Flags: W
@@ -14654,11 +14654,11 @@ SplineSet
  237.667 -2 177.118 19.8036 127 63 c 4
  71.1316 111.153 43 176.333 43 259 c 4
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0CB0.base
-MultipleSubs2: "Multiple Substitution lookup 13 subtable" u0CB0 u0CCD
+Substitution2: "Single Substitution lookup 15 subtable" ra.base
+MultipleSubs2: "Multiple Substitution lookup 13 subtable" ra virama
 EndChar
 
-StartChar: u0CB0.base
+StartChar: ra.base
 Encoding: 239 -1 239
 Width: 614
 Flags: W
@@ -14703,7 +14703,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CB0.below
+StartChar: ra.below
 Encoding: 240 -1 240
 Width: 14
 Flags: HW
@@ -14740,7 +14740,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CB0.imathra
+StartChar: ra.imathra
 Encoding: 241 -1 241
 Width: 614
 Flags: HW
@@ -14791,11 +14791,11 @@ SplineSet
  207.25 496 97 452.4 97 278 c 4
  97 164.274 183.147 89 308 89 c 260
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CB0 u0CBF
+Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" ra imatra
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CB0.below.ra
+StartChar: ra.below.ra
 Encoding: 242 -1 242
 Width: 226
 Flags: HW
@@ -14827,11 +14827,11 @@ SplineSet
  115 222.667 123.333 232 140 232 c 4
 EndSplineSet
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 4 subtable" u0CB0 u0CCD
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 4 subtable" ra virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CB0.below.angleright
+StartChar: ra.below.angleright
 Encoding: 243 -1 243
 Width: 210
 Flags: HW
@@ -14870,7 +14870,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CB0.below.large
+StartChar: ra.below.large
 Encoding: 244 -1 244
 Width: 14
 Flags: HW
@@ -14907,7 +14907,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CB0_u0CD6.sub
+StartChar: ra_ailengthmark.sub
 Encoding: 245 -1 245
 Width: 429
 Flags: HW
@@ -14968,7 +14968,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CB1
+StartChar: rra
 Encoding: 246 3249 246
 Width: 777
 Flags: HW
@@ -15046,12 +15046,12 @@ SplineSet
  329.2 89 368.299 175.215 392 245 c 1
  420.434 150.818 465.041 89 538 89 c 0
 EndSplineSet
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CB1 u0CCD
-MultipleSubs2: "Multiple Substitution lookup 13 subtable" u0CB1 u0CCD
+Ligature2: "Ligature Substitution lookup 14 subtable" rra virama
+MultipleSubs2: "Multiple Substitution lookup 13 subtable" rra virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CB1.imathra
+StartChar: rra.imathra
 Encoding: 247 -1 247
 Width: 777
 Flags: HW
@@ -15158,11 +15158,11 @@ SplineSet
  331.2 88 370.299 174.215 394 244 c 5
  422.434 149.818 467.041 88 540 88 c 4
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CB1 u0CBF
+Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" rra imatra
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CB1.sub
+StartChar: rra.sub
 Encoding: 248 -1 248
 Width: 251
 Flags: HW
@@ -15242,12 +15242,12 @@ SplineSet
  -182.2 -91 -191 -117.8 -191 -132 c 256
 EndSplineSet
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CB1 u0CCD
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 2 subtable" u0CB1 u0CCD
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" rra virama
+Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 2 subtable" rra virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CB2
+StartChar: la
 Encoding: 249 3250 249
 Width: 760
 Flags: HW
@@ -15302,12 +15302,12 @@ SplineSet
  198.705 473.705 192 452.286 192 434 c 0
  192 386.8 237 375 267 375 c 0
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0CB2.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CB2 u0CCD
+Substitution2: "Single Substitution lookup 15 subtable" la.base
+Ligature2: "Ligature Substitution lookup 14 subtable" la virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CB2.base
+StartChar: la.base
 Encoding: 250 -1 250
 Width: 760
 Flags: HW
@@ -15366,7 +15366,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CB2.imathra
+StartChar: la.imathra
 Encoding: 251 -1 251
 Width: 760
 Flags: HW
@@ -15437,11 +15437,11 @@ SplineSet
  190.389 474.662 190 434.968 190 426 c 4
  190 388.199 223.637 366 263 366 c 4
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CB2 u0CBF
+Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" la imatra
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CB2.sub
+StartChar: la.sub
 Encoding: 252 -1 252
 Width: 281
 Flags: HW
@@ -15487,11 +15487,11 @@ SplineSet
  223.347 -59 269 -119.816 269 -192 c 4
 EndSplineSet
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CB2 u0CCD
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" la virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CB3
+StartChar: lla
 Encoding: 253 3251 253
 Width: 642
 Flags: HW
@@ -15576,12 +15576,12 @@ SplineSet
  149.626 370 119 398 110 450 c 0
  107.517 464.347 107 465 105 473 c 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0CB3.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CB3 u0CCD
+Substitution2: "Single Substitution lookup 15 subtable" lla.base
+Ligature2: "Ligature Substitution lookup 14 subtable" lla virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CB3.base
+StartChar: lla.base
 Encoding: 254 -1 254
 Width: 628
 Flags: HW
@@ -15658,7 +15658,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CB3.imathra
+StartChar: lla.imathra
 Encoding: 255 -1 255
 Width: 642
 Flags: HW
@@ -15747,11 +15747,11 @@ SplineSet
  317.761 188.333 276.638 160.49 278 121 c 28
  279.34 82.1309 311.975 52 350 52 c 4
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CB3 u0CBF
+Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" lla imatra
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CB3.sub
+StartChar: lla.sub
 Encoding: 256 -1 256
 Width: 200
 Flags: HW
@@ -15825,11 +15825,11 @@ SplineSet
  -83 -338 -58.4 -346 -42 -346 c 4
 EndSplineSet
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CB3 u0CCD
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" lla virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CB5
+StartChar: va
 Encoding: 257 3253 257
 Width: 760
 Flags: HW
@@ -15896,12 +15896,12 @@ SplineSet
  494 487 l 1
  609.071 439.235 711 329.562 711 180 c 0
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0CB5.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CB5 u0CCD
+Substitution2: "Single Substitution lookup 15 subtable" va.base
+Ligature2: "Ligature Substitution lookup 14 subtable" va virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CB5.base
+StartChar: va.base
 Encoding: 258 -1 258
 Width: 746
 Flags: W
@@ -15962,7 +15962,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CB5.imathra
+StartChar: va.imathra
 Encoding: 259 -1 259
 Width: 746
 Flags: HW
@@ -16031,11 +16031,11 @@ SplineSet
  263.3 616 212 588.432 212 552 c 260
  212 511.2 245.675 501 266 501 c 4
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CB5 u0CBF
+Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" va imatra
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CB5.sub
+StartChar: va.sub
 Encoding: 260 -1 260
 Width: 292
 Flags: HW
@@ -16093,11 +16093,11 @@ SplineSet
  186 165 l 5
 EndSplineSet
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CB5 u0CCD
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" va virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CB6
+StartChar: sha
 Encoding: 261 3254 261
 Width: 656
 Flags: W
@@ -16186,12 +16186,12 @@ SplineSet
  302 357.954 274.146 322 225 322 c 0
  169.8 322 140 364.631 140 406 c 0
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0CB6.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CB6 u0CCD
+Substitution2: "Single Substitution lookup 15 subtable" sha.base
+Ligature2: "Ligature Substitution lookup 14 subtable" sha virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CB6.base
+StartChar: sha.base
 Encoding: 262 -1 262
 Width: 642
 Flags: HW
@@ -16270,7 +16270,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CB6.imathra
+StartChar: sha.imathra
 Encoding: 263 -1 263
 Width: 642
 Flags: HW
@@ -16359,11 +16359,11 @@ SplineSet
  186.191 240 110 248.824 110 171 c 0
  110 105.236 183.463 78 258 78 c 0
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CB6 u0CBF
+Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" sha imatra
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CB6.sub
+StartChar: sha.sub
 Encoding: 264 -1 264
 Width: 226
 Flags: HW
@@ -16426,11 +16426,11 @@ SplineSet
  -110 -312.033 -52.7312 -334 5 -334 c 4
 EndSplineSet
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CB6 u0CCD
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" sha virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CB6_u0CB0.imathra
+StartChar: sha_ra.imathra
 Encoding: 265 -1 265
 Width: 1014
 Flags: W
@@ -16545,10 +16545,10 @@ SplineSet
  571 250 523 231 407 240 c 4
  342 245 323 196 324 175 c 4
 EndSplineSet
-Ligature2: "'akhn' Akhand in Kannada lookup 6 subtable" u0CB6 u0CBF u0CB0 u0CCD
+Ligature2: "'akhn' Akhand in Kannada lookup 6 subtable" sha imatra ra virama
 EndChar
 
-StartChar: u0CB7
+StartChar: ssa
 Encoding: 266 3255 266
 Width: 760
 Flags: HW
@@ -16641,12 +16641,12 @@ SplineSet
  346.88 319 317 340.259 317 379 c 0
  317 417.791 346.849 439 379 439 c 0
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0CB7.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CB7 u0CCD
+Substitution2: "Single Substitution lookup 15 subtable" ssa.base
+Ligature2: "Ligature Substitution lookup 14 subtable" ssa virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CB7.base
+StartChar: ssa.base
 Encoding: 267 -1 267
 Width: 746
 Flags: HW
@@ -16735,7 +16735,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CB7.imathra
+StartChar: ssa.imathra
 Encoding: 268 -1 268
 Width: 746
 Flags: HW
@@ -16831,11 +16831,11 @@ SplineSet
  370.662 604.008 346.82 617 315 617 c 256
  268.612 617 242 581.188 242 548 c 0
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CB7 u0CBF
+Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" ssa imatra
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CB7.sub
+StartChar: ssa.sub
 Encoding: 269 -1 269
 Width: 14
 Flags: HW
@@ -16891,11 +16891,11 @@ SplineSet
  51 130 l 1
 EndSplineSet
 Position2: "SubMove-1" dx=-150 dy=75 dh=0 dv=0
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CB7 u0CCD
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" ssa virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CB8
+StartChar: sa
 Encoding: 270 3256 270
 Width: 628
 Flags: HW
@@ -16962,12 +16962,12 @@ SplineSet
  420 579 l 2
  508.207 579 527 640.32 527 677 c 0
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0CB8.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CB8 u0CCD
+Substitution2: "Single Substitution lookup 15 subtable" sa.base
+Ligature2: "Ligature Substitution lookup 14 subtable" sa virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CB8.base
+StartChar: sa.base
 Encoding: 271 -1 271
 Width: 614
 Flags: HW
@@ -17028,7 +17028,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CB8.imathra
+StartChar: sa.imathra
 Encoding: 272 -1 272
 Width: 614
 Flags: HW
@@ -17099,11 +17099,11 @@ SplineSet
  291.851 604.724 267.927 618 237 618 c 0
  185.363 618 161 576.6 161 549 c 0
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CB8 u0CBF
+Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" sa imatra
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CB8.sub
+StartChar: sa.sub
 Encoding: 273 -1 273
 Width: 226
 Flags: HW
@@ -17145,11 +17145,11 @@ SplineSet
  58.7184 -268.512 62.9361 -300 100 -300 c 0
 EndSplineSet
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CB8 u0CCD
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" sa virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CB9
+StartChar: ha
 Encoding: 274 3257 274
 Width: 828
 Flags: HW
@@ -17228,12 +17228,12 @@ SplineSet
  370.667 312 382 296.333 394 275 c 1
  395.333 280.333 396 286 396 292 c 0
 EndSplineSet
-Substitution2: "Single Substitution lookup 15 subtable" u0CB9.base
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CB9 u0CCD
+Substitution2: "Single Substitution lookup 15 subtable" ha.base
+Ligature2: "Ligature Substitution lookup 14 subtable" ha virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CB9.base
+StartChar: ha.base
 Encoding: 275 -1 275
 Width: 814
 Flags: HW
@@ -17300,7 +17300,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CB9.imathra
+StartChar: ha.imathra
 Encoding: 276 -1 276
 Width: 800
 Flags: HW
@@ -17377,11 +17377,11 @@ SplineSet
  365.07 265.328 325.4 330 233 330 c 4
  133.048 330 108 260.286 108 213 c 4
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CB9 u0CBF
+Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" ha imatra
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CB9.sub
+StartChar: ha.sub
 Encoding: 277 -1 277
 Width: 347
 Flags: HW
@@ -17431,11 +17431,11 @@ SplineSet
  -27.9258 -320 6 -256.077 6 -201 c 4
 EndSplineSet
 Position2: "SubMove-1" dx=-100 dy=0 dh=0 dv=0
-Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" u0CB9 u0CCD
+Ligature2: "'blwf' Below Base Forms in Kannada lookup 5 subtable" ha virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CBD
+StartChar: avagraha
 Encoding: 278 3261 278
 Width: 557
 Flags: HW
@@ -17478,7 +17478,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CBE
+StartChar: aamatra
 Encoding: 279 3262 279
 Width: 387
 Flags: HW
@@ -17527,7 +17527,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CBF
+StartChar: imatra
 Encoding: 280 3263 280
 Width: 333
 Flags: W
@@ -17576,7 +17576,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CC0
+StartChar: iimatra
 Encoding: 281 3264 281
 Width: 732
 Flags: HW
@@ -17586,7 +17586,7 @@ Refer: 280 3263 N 1 0 0 1 0 0 0
 Refer: 298 3285 N 1 0 0 1 333 0 0
 EndChar
 
-StartChar: u0CC1
+StartChar: umatra
 Encoding: 282 3265 282
 Width: 361
 Flags: W
@@ -17621,10 +17621,10 @@ SplineSet
  303 394.35 180.444 448.1 59 487 c 4
  48.077 489.184 12 496.8 12 536 c 260
 EndSplineSet
-Substitution2: "Single Substitution lookup 19 subtable" u0CC1.large
+Substitution2: "Single Substitution lookup 19 subtable" umatra.large
 EndChar
 
-StartChar: u0CC1.large
+StartChar: umatra.large
 Encoding: 283 -1 283
 Width: 120
 Flags: W
@@ -17659,7 +17659,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CC2
+StartChar: uumatra
 Encoding: 284 3266 284
 Width: 760
 Flags: W
@@ -17718,10 +17718,10 @@ SplineSet
  200.163 75 234 120.6 234 189 c 0
  234 235.5 218 258.75 218 344 c 0
 EndSplineSet
-Substitution2: "Single Substitution lookup 19 subtable" u0CC2.large
+Substitution2: "Single Substitution lookup 19 subtable" uumatra.large
 EndChar
 
-StartChar: u0CC2.large
+StartChar: uumatra.large
 Encoding: 285 -1 285
 Width: 522
 Flags: W
@@ -17786,7 +17786,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CC3
+StartChar: rvocalicmatra
 Encoding: 286 3267 286
 Width: 175
 Flags: HW
@@ -17834,7 +17834,7 @@ EndSplineSet
 Position2: "RightSubMove-1" dx=50 dy=0 dh=0 dv=0
 EndChar
 
-StartChar: u0CC4
+StartChar: rrvocalicmatra
 Encoding: 287 3268 287
 Width: 505
 Flags: HW
@@ -17906,7 +17906,7 @@ EndSplineSet
 Position2: "RightSubMove-1" dx=50 dy=0 dh=0 dv=0
 EndChar
 
-StartChar: u0CC6
+StartChar: ematra
 Encoding: 288 3270 288
 Width: 14
 Flags: W
@@ -17964,10 +17964,10 @@ SplineSet
  1 0 l 1
  0 0 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 16 subtable" u0CC6.large
+Substitution2: "Single Substitution lookup 16 subtable" ematra.large
 EndChar
 
-StartChar: u0CC6.large
+StartChar: ematra.large
 Encoding: 289 -1 289
 Width: 306
 Flags: W
@@ -18028,7 +18028,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CC7
+StartChar: eematra
 Encoding: 290 3271 290
 Width: 413
 Flags: HW
@@ -18038,7 +18038,7 @@ Refer: 288 3270 N 1 0 0 1 0 0 0
 Refer: 298 3285 N 1 0 0 1 14 0 0
 EndChar
 
-StartChar: u0CC8
+StartChar: aimatra
 Encoding: 291 3272 291
 Width: 200
 Flags: HW
@@ -18048,7 +18048,7 @@ Refer: 288 3270 N 1 0 0 1 0 0 0
 Refer: 299 3286 N 1 0 0 1 14 0 0
 EndChar
 
-StartChar: u0CCA
+StartChar: omatra
 Encoding: 292 3274 292
 Width: 774
 Flags: HW
@@ -18056,10 +18056,10 @@ LayerCount: 2
 Fore
 Refer: 288 3270 N 1 0 0 1 0 0 0
 Refer: 284 3266 N 1 0 0 1 14 0 0
-Substitution2: "Single Substitution lookup 19 subtable" u0CCA.large
+Substitution2: "Single Substitution lookup 19 subtable" omatra.large
 EndChar
 
-StartChar: u0CCA.large
+StartChar: omatra.large
 Encoding: 293 -1 293
 Width: 536
 Flags: HW
@@ -18069,7 +18069,7 @@ Refer: 288 3270 N 1 0 0 1 0 0 0
 Refer: 285 -1 N 1 0 0 1 14 0 0
 EndChar
 
-StartChar: u0CCB
+StartChar: oomatra
 Encoding: 294 3275 294
 Width: 1173
 Flags: HW
@@ -18078,10 +18078,10 @@ Fore
 Refer: 288 3270 N 1 0 0 1 0 0 0
 Refer: 284 3266 N 1 0 0 1 14 0 0
 Refer: 298 3285 N 1 0 0 1 774 0 0
-Substitution2: "Single Substitution lookup 19 subtable" u0CCB.large
+Substitution2: "Single Substitution lookup 19 subtable" oomatra.large
 EndChar
 
-StartChar: u0CCB.large
+StartChar: oomatra.large
 Encoding: 295 -1 295
 Width: 935
 Flags: HW
@@ -18092,7 +18092,7 @@ Refer: 285 -1 N 1 0 0 1 14 0 0
 Refer: 298 3285 N 1 0 0 1 536 0 0
 EndChar
 
-StartChar: u0CCC
+StartChar: aumatra
 Encoding: 296 3276 296
 Width: 522
 Flags: HW
@@ -18159,7 +18159,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CCD
+StartChar: virama
 Encoding: 297 3277 297
 Width: 439
 Flags: W
@@ -18212,7 +18212,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CD5
+StartChar: lengthmark
 Encoding: 298 3285 298
 Width: 399
 Flags: HW
@@ -18255,7 +18255,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CD6
+StartChar: ailengthmark
 Encoding: 299 3286 299
 Width: 186
 Flags: HW
@@ -18309,7 +18309,7 @@ EndSplineSet
 Position2: "RightSubMove-1" dx=50 dy=0 dh=0 dv=0
 EndChar
 
-StartChar: u0CDE
+StartChar: fa
 Encoding: 300 3294 300
 Width: 777
 Flags: HW
@@ -18378,11 +18378,11 @@ SplineSet
  140 419.4 152 390 200 390 c 4
  252.4 390 269 426.175 269 446 c 4
 EndSplineSet
-Ligature2: "Ligature Substitution lookup 14 subtable" u0CDE u0CCD
+Ligature2: "Ligature Substitution lookup 14 subtable" fa virama
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CDE.imathra
+StartChar: fa.imathra
 Encoding: 301 -1 301
 Width: 777
 Flags: HW
@@ -18483,11 +18483,11 @@ SplineSet
  140 418.4 152 389 200 389 c 4
  252.4 389 269 425.175 269 445 c 4
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" u0CDE u0CBF
+Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 11 subtable" fa imatra
 LCarets2: 1 0
 EndChar
 
-StartChar: u0CDE.sub
+StartChar: fa.sub
 Encoding: 302 -1 302
 Width: 251
 Flags: HW
@@ -18558,7 +18558,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CE0
+StartChar: rrvocalicvowel
 Encoding: 303 3296 303
 Width: 1629
 Flags: HW
@@ -18703,7 +18703,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CE1
+StartChar: llvocalicvowel
 Encoding: 304 3297 304
 Width: 1344
 Flags: HW
@@ -18788,7 +18788,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CE6
+StartChar: zeroknda
 Encoding: 305 3302 305
 Width: 653
 Flags: HW
@@ -18823,7 +18823,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CE7
+StartChar: oneknda
 Encoding: 306 3303 306
 Width: 653
 Flags: HW
@@ -18866,7 +18866,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CE8
+StartChar: twoknda
 Encoding: 307 3304 307
 Width: 653
 Flags: HW
@@ -18913,7 +18913,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CE9
+StartChar: threeknda
 Encoding: 308 3305 308
 Width: 653
 Flags: HW
@@ -18984,7 +18984,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CEA
+StartChar: fourknda
 Encoding: 309 3306 309
 Width: 653
 Flags: HW
@@ -19061,7 +19061,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CEB
+StartChar: fiveknda
 Encoding: 310 3307 310
 Width: 653
 Flags: HW
@@ -19148,7 +19148,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CEC
+StartChar: sixknda
 Encoding: 311 3308 311
 Width: 653
 Flags: HW
@@ -19207,7 +19207,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CED
+StartChar: sevenknda
 Encoding: 312 3309 312
 Width: 653
 Flags: HW
@@ -19252,7 +19252,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CEE
+StartChar: eightknda
 Encoding: 313 3310 313
 Width: 653
 Flags: HW
@@ -19317,7 +19317,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CEF
+StartChar: nineknda
 Encoding: 314 3311 314
 Width: 653
 Flags: HW
@@ -19380,7 +19380,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni200D
+StartChar: zwj
 Encoding: 315 8205 315
 Width: 0
 VWidth: 500
@@ -19388,7 +19388,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uni200C
+StartChar: zwnj
 Encoding: 316 8204 316
 Width: 0
 VWidth: 500
@@ -19396,7 +19396,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uni200B
+StartChar: zwsp
 Encoding: 317 8203 317
 Width: 0
 VWidth: 500
@@ -19404,7 +19404,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uni2060
+StartChar: wj
 Encoding: 318 8288 318
 Width: 0
 VWidth: 500
@@ -19412,7 +19412,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: u0C95_u0CB7
+StartChar: ka_ssa
 Encoding: 319 -1 319
 Width: 536
 Flags: HW
@@ -19523,7 +19523,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0C95_u0CB7.base
+StartChar: ka_ssa.base
 Encoding: 320 -1 320
 Width: 522
 Flags: HW
@@ -19626,7 +19626,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CBC
+StartChar: nukta
 Encoding: 321 3260 321
 Width: 0
 VWidth: 2048
@@ -19650,7 +19650,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0CBC.alt
+StartChar: nukta.alt
 Encoding: 322 -1 322
 Width: 2048
 VWidth: 2048
@@ -19671,7 +19671,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni20A8
+StartChar: rs
 Encoding: 323 8360 323
 Width: 942
 VWidth: 0
@@ -19796,7 +19796,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni20B9
+StartChar: inr
 Encoding: 324 8377 324
 Width: 608
 VWidth: 0
@@ -19838,7 +19838,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0334.Lrg
+StartChar: u0334.Lrg
 Encoding: 325 -1 325
 Width: 853
 VWidth: 0
@@ -19897,7 +19897,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni01A9
+StartChar: Esh
 Encoding: 327 425 327
 Width: 599
 VWidth: 0
@@ -20016,7 +20016,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni02F9
+StartChar: u02F9
 Encoding: 330 761 330
 Width: 315
 VWidth: 0
@@ -20034,7 +20034,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni02FA
+StartChar: u02FA
 Encoding: 331 762 331
 Width: 315
 VWidth: 0
@@ -20052,7 +20052,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni02FB
+StartChar: u02FB
 Encoding: 332 763 332
 Width: 315
 VWidth: 0
@@ -20070,7 +20070,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni02FC
+StartChar: u02FC
 Encoding: 333 764 333
 Width: 315
 VWidth: 0
@@ -20138,7 +20138,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0302
+StartChar: u0302
 Encoding: 336 770 336
 Width: 0
 VWidth: 0
@@ -20167,7 +20167,7 @@ Fore
 Refer: 329 732 N 0.5 0 0 0.5 -456 0 2
 EndChar
 
-StartChar: uni0304
+StartChar: u0304
 Encoding: 338 772 338
 Width: 0
 VWidth: 0
@@ -20183,7 +20183,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0306
+StartChar: u0306
 Encoding: 339 774 339
 Width: 0
 VWidth: 0
@@ -20213,7 +20213,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0308
+StartChar: u0308
 Encoding: 340 776 340
 Width: 0
 VWidth: 0
@@ -20258,7 +20258,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni030A
+StartChar: u030A
 Encoding: 341 778 341
 Width: 0
 VWidth: 0
@@ -20268,7 +20268,7 @@ Fore
 Refer: 328 730 N 0.5 0 0 0.5 -400 0 2
 EndChar
 
-StartChar: uni030C
+StartChar: u030C
 Encoding: 342 780 342
 Width: 0
 VWidth: 0
@@ -20287,7 +20287,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0327
+StartChar: u0327
 Encoding: 343 807 343
 Width: 0
 VWidth: 0
@@ -20328,7 +20328,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0328
+StartChar: u0328
 Encoding: 344 808 344
 Width: 0
 VWidth: 0
@@ -20360,7 +20360,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0338
+StartChar: u0338
 Encoding: 345 824 345
 Width: 0
 VWidth: 0
@@ -20376,7 +20376,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0394
+StartChar: u0394
 Encoding: 346 916 346
 Width: 654
 VWidth: 0
@@ -20453,7 +20453,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni03A9
+StartChar: u03A9
 Encoding: 348 937 348
 Width: 782
 VWidth: 0
@@ -21142,7 +21142,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni00AD
+StartChar: softhyphen
 Encoding: 361 173 361
 Width: 327
 VWidth: 0
@@ -23703,7 +23703,7 @@ Fore
 Refer: 342 780 N 0.5 0 0 0.5 446 0 2
 EndChar
 
-StartChar: uni02D0
+StartChar: colontriangularmod
 Encoding: 454 720 454
 Width: 261
 VWidth: 0
@@ -23809,7 +23809,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni034F
+StartChar: u034F
 Encoding: 459 847 459
 Width: 0
 VWidth: 0
@@ -23887,7 +23887,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni2000
+StartChar: u2000
 Encoding: 461 8192 461
 Width: 492
 VWidth: 0
@@ -23895,7 +23895,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uni2001
+StartChar: u2001
 Encoding: 462 8193 462
 Width: 985
 VWidth: 0
@@ -23903,7 +23903,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uni2002
+StartChar: enspace
 Encoding: 463 8194 463
 Width: 512
 VWidth: 0
@@ -23911,7 +23911,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uni2003
+StartChar: u2003
 Encoding: 464 8195 464
 Width: 1024
 VWidth: 0
@@ -23919,7 +23919,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uni2004
+StartChar: u2004
 Encoding: 465 8196 465
 Width: 328
 VWidth: 0
@@ -23927,7 +23927,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uni2005
+StartChar: u2005
 Encoding: 466 8197 466
 Width: 246
 VWidth: 0
@@ -23935,7 +23935,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uni2006
+StartChar: u2006
 Encoding: 467 8198 467
 Width: 164
 VWidth: 0
@@ -23943,7 +23943,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uni2007
+StartChar: u2007
 Encoding: 468 8199 468
 Width: 563
 VWidth: 0
@@ -23951,7 +23951,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uni2008
+StartChar: u2008
 Encoding: 469 8200 469
 Width: 286
 VWidth: 0
@@ -23959,7 +23959,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uni2009
+StartChar: u2009
 Encoding: 470 8201 470
 Width: 256
 VWidth: 0
@@ -23967,7 +23967,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uni200A
+StartChar: u200A
 Encoding: 471 8202 471
 Width: 20
 VWidth: 0
@@ -23975,7 +23975,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uni200E
+StartChar: u200E
 Encoding: 472 8206 472
 Width: 0
 VWidth: 0
@@ -23983,7 +23983,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uni200F
+StartChar: u200F
 Encoding: 473 8207 473
 Width: 0
 VWidth: 0
@@ -23991,7 +23991,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uni2010
+StartChar: hyphentwo
 Encoding: 474 8208 474
 Width: 327
 VWidth: 0
@@ -24001,7 +24001,7 @@ Fore
 Refer: 16 45 N 0.5 0 0 0.5 0 0 2
 EndChar
 
-StartChar: uni2011
+StartChar: u2011
 Encoding: 475 8209 475
 Width: 327
 VWidth: 0
@@ -24059,7 +24059,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni2015
+StartChar: horizontalbar
 Encoding: 479 8213 479
 Width: 995
 VWidth: 0
@@ -24339,7 +24339,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni2027
+StartChar: u2027
 Encoding: 486 8231 486
 Width: 192
 VWidth: 0
@@ -24349,7 +24349,7 @@ Fore
 Refer: 371 183 N 0.5 0 0 0.5 0 0 2
 EndChar
 
-StartChar: uni2028
+StartChar: u2028
 Encoding: 487 8232 487
 Width: 0
 VWidth: 0
@@ -24357,7 +24357,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uni2029
+StartChar: u2029
 Encoding: 488 8233 488
 Width: 0
 VWidth: 0
@@ -24365,7 +24365,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uni202A
+StartChar: u202A
 Encoding: 489 8234 489
 Width: 0
 VWidth: 0
@@ -24373,7 +24373,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uni202B
+StartChar: u202B
 Encoding: 490 8235 490
 Width: 0
 VWidth: 0
@@ -24381,7 +24381,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uni202C
+StartChar: u202C
 Encoding: 491 8236 491
 Width: 0
 VWidth: 0
@@ -24389,7 +24389,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uni202D
+StartChar: u202D
 Encoding: 492 8237 492
 Width: 0
 VWidth: 0
@@ -24397,7 +24397,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uni202E
+StartChar: u202E
 Encoding: 493 8238 493
 Width: 0
 VWidth: 0
@@ -24405,7 +24405,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uni202F
+StartChar: u202F
 Encoding: 494 8239 494
 Width: 246
 VWidth: 0
@@ -24837,7 +24837,7 @@ Fore
 Refer: 327 425 N 0.5 0 0 0.5 0 0 2
 EndChar
 
-StartChar: uni2219
+StartChar: u2219
 Encoding: 506 8729 506
 Width: 192
 VWidth: 0
@@ -25179,7 +25179,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni25CC
+StartChar: dottedcircle
 Encoding: 515 9676 515
 Width: 750
 VWidth: 0
@@ -25453,7 +25453,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniFE00
+StartChar: uFE00
 Encoding: 518 65024 518
 Width: 0
 VWidth: 0
@@ -25461,7 +25461,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uniFE01
+StartChar: uFE01
 Encoding: 519 65025 519
 Width: 0
 VWidth: 0
@@ -25469,7 +25469,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uniFE02
+StartChar: uFE02
 Encoding: 520 65026 520
 Width: 0
 VWidth: 0
@@ -25477,7 +25477,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uniFE03
+StartChar: uFE03
 Encoding: 521 65027 521
 Width: 0
 VWidth: 0
@@ -25485,7 +25485,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uniFE04
+StartChar: uFE04
 Encoding: 522 65028 522
 Width: 0
 VWidth: 0
@@ -25493,7 +25493,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uniFE05
+StartChar: uFE05
 Encoding: 523 65029 523
 Width: 0
 VWidth: 0
@@ -25501,7 +25501,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uniFE06
+StartChar: uFE06
 Encoding: 524 65030 524
 Width: 0
 VWidth: 0
@@ -25509,7 +25509,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uniFE07
+StartChar: uFE07
 Encoding: 525 65031 525
 Width: 0
 VWidth: 0
@@ -25517,7 +25517,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uniFE08
+StartChar: uFE08
 Encoding: 526 65032 526
 Width: 0
 VWidth: 0
@@ -25525,7 +25525,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uniFE09
+StartChar: uFE09
 Encoding: 527 65033 527
 Width: 0
 VWidth: 0
@@ -25533,7 +25533,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uniFE0A
+StartChar: uFE0A
 Encoding: 528 65034 528
 Width: 0
 VWidth: 0
@@ -25541,7 +25541,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uniFE0B
+StartChar: uFE0B
 Encoding: 529 65035 529
 Width: 0
 VWidth: 0
@@ -25549,7 +25549,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uniFE0C
+StartChar: uFE0C
 Encoding: 530 65036 530
 Width: 0
 VWidth: 0
@@ -25557,7 +25557,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uniFE0D
+StartChar: uFE0D
 Encoding: 531 65037 531
 Width: 0
 VWidth: 0
@@ -25565,7 +25565,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uniFE0E
+StartChar: uFE0E
 Encoding: 532 65038 532
 Width: 0
 VWidth: 0
@@ -25573,7 +25573,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uniFE0F
+StartChar: uFE0F
 Encoding: 533 65039 533
 Width: 0
 VWidth: 0
@@ -25581,7 +25581,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uniFEFF
+StartChar: uFEFF
 Encoding: 534 65279 534
 Width: 0
 VWidth: 0
@@ -25589,7 +25589,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uniFFFC
+StartChar: uFFFC
 Encoding: 535 65532 535
 Width: 0
 VWidth: 0
@@ -25597,7 +25597,7 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: uniFFFD
+StartChar: uFFFD
 Encoding: 536 65533 536
 Width: 985
 VWidth: 0
@@ -25676,7 +25676,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni2308
+StartChar: u2308
 Encoding: 537 8968 537
 Width: 400
 VWidth: 0
@@ -25694,7 +25694,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni2309
+StartChar: u2309
 Encoding: 538 8969 538
 Width: 400
 VWidth: 0
@@ -25712,7 +25712,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni230A
+StartChar: u230A
 Encoding: 539 8970 539
 Width: 400
 VWidth: 0
@@ -25730,7 +25730,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni230B
+StartChar: u230B
 Encoding: 540 8971 540
 Width: 400
 VWidth: 0
@@ -25748,7 +25748,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni231C
+StartChar: u231C
 Encoding: 541 8988 541
 Width: 315
 VWidth: 0
@@ -25758,7 +25758,7 @@ Fore
 Refer: 330 761 N 0.5 0 0 0.5 0 0 2
 EndChar
 
-StartChar: uni231D
+StartChar: u231D
 Encoding: 542 8989 542
 Width: 315
 VWidth: 0
@@ -25768,7 +25768,7 @@ Fore
 Refer: 331 762 N 0.5 0 0 0.5 0 0 2
 EndChar
 
-StartChar: uni231E
+StartChar: u231E
 Encoding: 543 8990 543
 Width: 315
 VWidth: 0
@@ -25778,7 +25778,7 @@ Fore
 Refer: 332 763 N 0.5 0 0 0.5 0 0 2
 EndChar
 
-StartChar: uni231F
+StartChar: u231F
 Encoding: 544 8991 544
 Width: 315
 VWidth: 0
@@ -25788,7 +25788,7 @@ Fore
 Refer: 333 764 N 0.5 0 0 0.5 0 0 2
 EndChar
 
-StartChar: uni2070
+StartChar: u2070
 Encoding: 545 8304 545
 Width: 375
 VWidth: 0
@@ -25833,7 +25833,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni2074
+StartChar: u2074
 Encoding: 546 8308 546
 Width: 375
 VWidth: 0
@@ -25860,7 +25860,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni2075
+StartChar: u2075
 Encoding: 547 8309 547
 Width: 375
 VWidth: 0
@@ -25913,7 +25913,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni2076
+StartChar: u2076
 Encoding: 548 8310 548
 Width: 375
 VWidth: 0
@@ -25964,7 +25964,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni2077
+StartChar: u2077
 Encoding: 549 8311 549
 Width: 375
 VWidth: 0
@@ -25986,7 +25986,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni2078
+StartChar: u2078
 Encoding: 550 8312 550
 Width: 375
 VWidth: 0
@@ -26060,7 +26060,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni2079
+StartChar: u2079
 Encoding: 551 8313 551
 Width: 375
 VWidth: 0
@@ -26111,7 +26111,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni207B
+StartChar: u207B
 Encoding: 552 8315 552
 Width: 212
 VWidth: 0
@@ -26127,7 +26127,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni207D
+StartChar: u207D
 Encoding: 553 8317 553
 Width: 250
 VWidth: 0
@@ -26159,7 +26159,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni207E
+StartChar: u207E
 Encoding: 554 8318 554
 Width: 250
 VWidth: 0
@@ -26191,7 +26191,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni2423
+StartChar: u2423
 Encoding: 555 9251 555
 Width: 235
 VWidth: 0
@@ -26516,7 +26516,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0964
+StartChar: danda
 Encoding: 570 2404 570
 Width: 378
 VWidth: 0
@@ -26532,7 +26532,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0965
+StartChar: doubledanda
 Encoding: 571 2405 571
 Width: 756
 VWidth: 0

@@ -31,6 +31,12 @@ styles = ('-R', '-B', '-I', '-BI')
 stylesName = ('Regular', 'Bold', 'Italic', 'Bold Italic')
 stylesLegacy = ('', 'BD', 'I', 'BI')
 
+# faces = ('Badami',)
+# facesLegacy = ('BADA',)
+# styles = ('-R',)
+# stylesName = ('Regular',)
+# stylesLegacy = ('',)
+
 # set build parameters
 fontbase = 'source/'
 tag = script.upper()
@@ -40,16 +46,16 @@ codePageRange = [0]
 unicodeRange = [0, 15, 22, 31]
 hackos2 = os2.hackos2(panose, codePageRange, unicodeRange)
 
-for f, fLegacy in zip(faces, facesLegacy):
-    for (s, sn, sLegacy) in zip(styles, stylesName, stylesLegacy):
-        font(target = process(f + '-' + sn.replace(' ', '') + '.ttf',
-                cmd('psfix ${DEP} ${TGT}'),
-                ),
-            source = legacy(f + s + '.ttf',
-                            source = fontbase + 'archive/' + fLegacy + sLegacy + '.ttf',
-                            xml = fontbase + 'badami_unicode.xml',
-                            noap = '')
-            )
+# for f, fLegacy in zip(faces, facesLegacy):
+#     for (s, sn, sLegacy) in zip(styles, stylesName, stylesLegacy):
+#         font(target = process(f + '-' + sn.replace(' ', '') + '.ttf',
+#                 cmd('psfix ${DEP} ${TGT}'),
+#                 ),
+#             source = legacy(f + s + '.ttf',
+#                             source = fontbase + 'archive/' + fLegacy + sLegacy + '.ttf',
+#                             xml = fontbase + 'badami_unicode.xml',
+#                             noap = '')
+#             )
 
 for f in faces:
 #    p = package(
@@ -60,12 +66,17 @@ for f in faces:
 #    )
     for (s, sn) in zip(styles, stylesName):
         font(target = process(tag + f + '-' + sn.replace(' ', '') + '.ttf',
+                cmd('psfix ${DEP} ${TGT}'),
                 cmd(hackos2 + ' ${DEP} ${TGT}'),
                 name(tag + ' ' + f, lang='en-US', subfamily=(sn))
                 ),
             source = fontbase + f + s + '.sfd',
             sfd_master = fontbase + 'master.sfd',
             opentype = internal(),
+            # opentype = fea(fontbase + f + s + '.fea',
+            #     master = fontbase + 'master.fea',
+            #     make_params = ''
+            #     ),
             #graphite = gdl(fontbase + f + s + '.gdl',
             #    master = fontbase + 'master.gdl',
             #    make_params = '',
