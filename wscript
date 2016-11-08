@@ -57,6 +57,11 @@ hackos2 = os2.hackos2(panose, codePageRange, unicodeRange)
 #                             noap = '')
 #             )
 
+# command line options
+# -p    do not run psfix on the final fonts
+opts = preprocess_args({'opt' : '-p'})
+psfix = 'cp' if '-p' in opts else 'psfix'
+
 for f in faces:
 #    p = package(
 #        appname = APPNAME + '-' + f.lower(),
@@ -66,7 +71,7 @@ for f in faces:
 #    )
     for (s, sn) in zip(styles, stylesName):
         font(target = process(tag + f + '-' + sn.replace(' ', '') + '.ttf',
-                cmd('psfix ${DEP} ${TGT}'),
+                cmd(psfix + ' ${DEP} ${TGT}'),
                 cmd(hackos2 + ' ${DEP} ${TGT}'),
                 name(tag + ' ' + f, lang='en-US', subfamily=(sn))
                 ),
@@ -77,13 +82,13 @@ for f in faces:
             #     master = fontbase + 'master.fea',
             #     make_params = ''
             #     ),
-            #graphite = gdl(fontbase + f + s + '.gdl',
-            #    master = fontbase + 'master.gdl',
-            #    make_params = '',
-            #    params = ''
-            #    ),
+            graphite = gdl(fontbase + f + s + '.gdl',
+               master = fontbase + 'master.gdl',
+               make_params = '',
+               params = ''
+               ),
             #classes = fontbase + 'badami_classes.xml',
-            ap = f + s + '.xml',
+            ap = fontbase + f + s + '.xml',
             version = TTF_VERSION,
             copyright = COPYRIGHT,
             license = ofl('Badami', 'Kaveri', 'NLCI'),

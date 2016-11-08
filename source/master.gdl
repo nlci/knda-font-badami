@@ -1,8 +1,11 @@
-// Insert some useful gdl rules here
+#include "stddef.gdh"
 
 table(substitution)
-pass(1)
-// make ligatures here
-endpass
-endtable
 
+pass(1)
+
+g_ka g_virama g_ka > g_ka g_ka_sub:(2 3) _;
+
+endpass;
+
+endtable;
