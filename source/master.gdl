@@ -4,7 +4,7 @@ table(substitution)
 
 pass(1)
 
-g_ka g_virama g_ka > g_ka g_ka_sub:(2 3) _;
+g_virama cno_sub > _ csub:(1 2) / cno_sub _ _;
 
 endpass;
 

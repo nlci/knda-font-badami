@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../tools/ftml.xsl"?>
+<ftml version="1.0">
+  <head>
+    <columns comment="30%" label="15%" string="50%" style="5%"/>
+    <fontsrc>url(../results/KNDABadami-Regular.ttf)</fontsrc>
+  </head>
+  <testgroup label="blwf">
+    <test label="ka-ka">
+      <string>\u0c95\u0ccd\u0c95</string>
+    </test>
+    <test label="ka-kha">
+      <string>\u0c95\u0ccd\u0c96</string>
+    </test>
+    <test label="kha-ka">
+      <string>\u0c96\u0ccd\u0c95</string>
+    </test>
+    <test label="kha-kha">
+      <string>\u0c96\u0ccd\u0c96</string>
+    </test>
+  </testgroup>
+</ftml>
