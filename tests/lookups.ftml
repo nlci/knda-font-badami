@@ -5,6 +5,11 @@
     <columns comment="30%" label="15%" string="50%" style="5%"/>
     <fontsrc>url(../results/KNDABadami-Regular.ttf)</fontsrc>
   </head>
+  <testgroup label="akhn">
+    <test label="ssa">
+      <string>\u0c95\u0ccd\u0c95</string>
+    </test>
+  </testgroup>
   <testgroup label="blwf">
     <test label="ka-ka">
       <string>\u0c95\u0ccd\u0c95</string>

@@ -2,7 +2,7 @@
 
 table(substitution)
 
-pass(1)
+pass(1) // blwf
 
 g_virama cno_sub > _ csub:(1 2) / cno_sub _ _;
 
