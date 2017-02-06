@@ -1,3 +1,6 @@
+Lookups ending with the digit 2 are only in the OpenType shaper
+newer knd2, not the older knda.
+
 nukt2 - modify consonants and the two akhand forms
 \u0c95\u0cbc
 \u0c95\u0ccd\u0cb7\u0cbc
@@ -5,3 +8,19 @@ nukt2 - modify consonants and the two akhand forms
 akhn
 \u0c95\u0ccd\u0cb7
 \u0c9c\u0ccd\u0c9e
+blwf
+\u0c95\u0ccd\u0c95
+\u0c95\u0ccd\u0c96
+\u0c96\u0ccd\u0c95
+\u0c96\u0ccd\u0c96
+pres2, abvs, blws, psts - handle matras including the halant
+\u0c95\u0cbe
+\u0c95\u0cbf
+\u0c95\u0cc0 \u0c95\u0cbf\u0cd5
+\u0c96\u0cc6
+\u0c96\u0cc7 \u0c96\u0cc6\u0cd5
+\u0c96\u0cc7 \u0c96\u0cc6\u0cd5
+\u0c96\u0cc8 \u0c96\u0cc6\u0cd6
+\u0c96\u0cca \u0c96\u0cc6\u0cc2
+\u0c96\u0ccb \u0c96\u0cca\u0cd5 \u0c96\u0cc6\u0cc2\u0cd5
+\u0c95\u0ccd

@@ -21,7 +21,7 @@ table(glyph)
 	//	Classes
 
 	//cls_mathraToBase = ( g0cbe g0cc6 g0ccc g0ccd );
-	cls_mathraToBase = ( g_aamatra g_ematra g_aumatra g_virama );
+	cls_mathraToBase = ( g_aamatra g_ematra g_eematra g_aimatra g_omatra g_oomatra g_aumatra g_virama );
 
 endtable;
 
@@ -37,7 +37,7 @@ endtable;
 
 table(substitution)
 
-pass(1) 
+pass(1)
 
 	// blwf
 	g_virama cno_sub > _ csub:(1 2) / cno_sub _ _;
@@ -46,13 +46,12 @@ endpass;
 
 pass(2)
 
-	// vowel signs AA, E, AU, virama
+	// vowel signs AA, E, EE, AI, O, OO, AU, virama
 	cno_base > cbase / _ cls_mathraToBase;
 
 	// vowel signs I, II
 	cno_imathra  g_imatra  > cimathra:2 _ ;
 	cno_imathra  g_iimatra > cimathra g_lengthmark;
-
 
 endpass;
 
@@ -68,4 +67,3 @@ endtable; // substitution
 
 
 // endtable; // positioning
-

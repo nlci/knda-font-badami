@@ -5,23 +5,23 @@
     <columns comment="30%" label="15%" string="50%" style="5%"/>
     <fontsrc>url(../results/KNDABadami-Regular.ttf)</fontsrc>
   </head>
-  <testgroup label="akhn">
-    <test label="ssa">
-      <string>\u0c95\u0ccd\u0c95</string>
+  <testgroup label="akhn and blwf">
+    <test label="ka-ssa">
+      <string>\u0c95\u0ccd\u0cb7</string>
     </test>
   </testgroup>
-  <testgroup label="blwf">
-    <test label="ka-ka">
-      <string>\u0c95\u0ccd\u0c95</string>
+  <testgroup label="pres2, abvs, blws, psts">
+    <test label="ka-aamatra">
+      <string>\u0c95\u0cbe</string>
     </test>
-    <test label="ka-kha">
-      <string>\u0c95\u0ccd\u0c96</string>
+    <test label="ka-imatra">
+      <string>\u0c95\u0cbf</string>
     </test>
-    <test label="kha-ka">
-      <string>\u0c96\u0ccd\u0c95</string>
+    <test label="ka-iimatra">
+      <string>\u0c95\u0cc0 \u0c95\u0cbf\u0cd5</string>
     </test>
-    <test label="kha-kha">
-      <string>\u0c96\u0ccd\u0c96</string>
+    <test label="kha-ematra">
+      <string>\u0c96\u0cc7 \u0c96\u0cc6\u0cd5</string>
     </test>
   </testgroup>
 </ftml>
