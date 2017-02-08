@@ -21,7 +21,16 @@ table(glyph)
 	//	Classes
 
 	//cls_mathraToBase = ( g0cbe g0cc6 g0ccc g0ccd );
-	cls_mathraToBase = ( g_aamatra g_ematra g_eematra g_aimatra g_omatra g_oomatra g_aumatra g_virama );
+	cls_mathraToBase = ( g_aamatra g_ematra g_eematra g_aimatra
+		g_omatra g_oomatra g_aumatra g_virama );
+	cls_cons = ( g_ka g_kha g_ga g_gha g_nga g_ca g_cha g_ja g_jha g_nya g_tta
+		g_ttha g_dda g_ddha g_nna g_ta g_tha g_da g_dha g_na g_pa g_pha g_ba
+		g_bha g_ma g_ya g_ra g_rra g_la g_lla g_va g_sha g_ssa g_sa g_ha );
+	cls_vowel = ( g_avowel g_aavowel g_ivowel g_iivowel g_uvowel g_uuvowel
+		g_rvocalicvowel g_lvocalicvowel g_evowel g_eevowel g_aivowel g_ovowel
+		g_oovowel g_auvowel );
+	cls_matras = ( g_imatra g_iimatra g_umatra g_uumatra
+		g_rvocalicmatra g_rrvocalicmatra cls_mathraToBase );
 
 endtable;
 
@@ -39,19 +48,59 @@ table(substitution)
 
 pass(1)
 
-	// blwf
-	g_virama cno_sub > _ csub:(1 2) / cno_sub _ _;
+	// akhn
+	g_ka g_virama g_ssa > _ g_ka g_ssa_sub:(1 2);
+	g_ja g_virama g_nya > _ g_ja g_nya_sub:(1 2);
 
 endpass;
 
 pass(2)
 
+	// rphf
+
+	// advance past consonants in cluster
+	g_shortrr _ > _ @1:(1 2) / _ g_virama cls_cons ^ _;
+
+	// advance past matras
+	g_shortrr _ > _ @1:(1 2) / _ cls_matras ^ _;
+
+	// advance past sub forms
+	g_shortrr _ > _ @1:(1 2) / _ csub ^ _;
+
+	// block ra->reph for virama ra
+	g_ra g_virama > @2 @3 / g_virama _ _ cls_cons;
+
+	// initial ra->reph
+	g_ra g_virama _ > _ _ g_shortrr:(1 2 3) / _ _ cls_cons ^ _;
+
+endpass;
+
+pass(3)
+
+	// blwf
+	g_virama cno_sub > _ csub:(1 2) / cno_sub _ _;
+
+endpass;
+
+pass(4)
+
+	// pres2, abvs, blws, psts
+
+	// In the code below, the first line in each pair handles the ligature
+	// of the consonant and the matra. The second line handles moving the matra
+	// next to the consonant over a sub form.
+
 	// vowel signs AA, E, EE, AI, O, OO, AU, virama
 	cno_base > cbase / _ cls_mathraToBase;
+	cno_base csub cls_mathraToBase > cbase @3 @2;
 
-	// vowel signs I, II
-	cno_imathra  g_imatra  > cimathra:2 _ ;
-	cno_imathra  g_iimatra > cimathra g_lengthmark;
+	// vowel sign I
+	cno_imathra g_imatra  > cimathra:2 _ ;
+	cno_imathra csub g_imatra > cimathra:(1 3) csub _;
+
+	// vowel sign II
+	cno_imathra g_iimatra > cimathra g_lengthmark;
+	cno_imathra csub g_iimatra > cimathra:(1 3) csub g_lengthmark;
 
 endpass;
 

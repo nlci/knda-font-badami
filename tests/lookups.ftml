@@ -5,9 +5,63 @@
     <columns comment="30%" label="15%" string="50%" style="5%"/>
     <fontsrc>url(../results/KNDABadami-Regular.ttf)</fontsrc>
   </head>
-  <testgroup label="akhn and blwf">
-    <test label="ka-ssa">
+  <testgroup label="nukt2">
+    <test label="ka-nukta">
+      <string>\u0c95\u0cbc</string>
+    </test>
+    <test label="ka-halant-ssa-nukta">
+      <string>\u0c95\u0ccd\u0cb7\u0cbc</string>
+    </test>
+  </testgroup>
+  <testgroup label="akhn">
+    <test label="ka-halant-ssa">
       <string>\u0c95\u0ccd\u0cb7</string>
+    </test>
+    <test label="ja-halant-nya">
+      <string>\u0c9c\u0ccd\u0c9e</string>
+    </test>
+  </testgroup>
+  <testgroup label="rphf">
+    <test label="ra-halant-ka">
+      <string>\u0cb0\u0ccd\u0c95</string>
+    </test>
+    <test label="ra-halant-ka-halant-kha">
+      <string>\u0cb0\u0ccd\u0c95\u0ccd\u0c96</string>
+    </test>
+    <test label="ra-halant-ka-halant-ssa-ga (has akhn)">
+      <string>\u0cb0\u0ccd\u0c95\u0ccd\u0cb7\u0c97</string>
+    </test>
+    <test label="ra-halant-ja-halant-nya-i (has akhn)">
+      <string>\u0cb0\u0ccd\u0c9c\u0ccd\u0c9e\u0c87</string>
+    </test>
+    <test label="ra-halant-ka-halant-kha-aamatra">
+      <string>\u0cb0\u0ccd\u0c95\u0ccd\u0c96\u0cbe</string>
+    </test>
+    <test label="ra-halant-ka-halant-kha-imatra">
+      <string>\u0cb0\u0ccd\u0c95\u0ccd\u0c96\u0cbf</string>
+    </test>
+    <test label="ra-halant-ka-halant-kha-imatra-ga">
+      <string>\u0cb0\u0ccd\u0c95\u0ccd\u0c96\u0cbf\u0c97</string>
+    </test>
+    <test label="ra-halant-ka-halant-kha-imatra-i">
+      <string>\u0cb0\u0ccd\u0c95\u0ccd\u0c96\u0cbf\u0c87</string>
+    </test>
+    <test label="ra-halant-ka-halant-kha-iimatra">
+      <string>\u0cb0\u0ccd\u0c95\u0ccd\u0c96\u0cc0</string>
+    </test>
+  </testgroup>
+  <testgroup label="blwf">
+    <test label="ka-halant-ka">
+      <string>\u0c95\u0ccd\u0c95</string>
+    </test>
+    <test label="ka-halant-kha">
+      <string>\u0c95\u0ccd\u0c96</string>
+    </test>
+    <test label="kha-halant-ka">
+      <string>\u0c96\u0ccd\u0c95</string>
+    </test>
+    <test label="kha-halant-kha">
+      <string>\u0c96\u0ccd\u0c96</string>
     </test>
   </testgroup>
   <testgroup label="pres2, abvs, blws, psts">
@@ -21,7 +75,22 @@
       <string>\u0c95\u0cc0 \u0c95\u0cbf\u0cd5</string>
     </test>
     <test label="kha-ematra">
+      <string>\u0c96\u0cc6</string>
+    </test>
+    <test label="kha-eematra">
       <string>\u0c96\u0cc7 \u0c96\u0cc6\u0cd5</string>
+    </test>
+    <test label="kha-aimatra">
+      <string>\u0c96\u0cc8 \u0c96\u0cc6\u0cd6</string>
+    </test>
+    <test label="kha-omatra">
+      <string>\u0c96\u0cca \u0c96\u0cc6\u0cc2</string>
+    </test>
+    <test label="kha-oomatra">
+      <string>\u0c96\u0ccb \u0c96\u0cca\u0cd5 \u0c96\u0cc6\u0cc2\u0cd5</string>
+    </test>
+    <test label="ka-halant">
+      <string>\u0c95\u0ccd</string>
     </test>
   </testgroup>
 </ftml>
