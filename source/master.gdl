@@ -22,7 +22,7 @@ table(glyph)
 
 	//cls_mathraToBase = ( g0cbe g0cc6 g0ccc g0ccd );
 	cls_mathraToBase = ( g_aamatra g_ematra g_eematra g_aimatra
-		g_omatra g_oomatra g_aumatra g_virama );
+		g_omatra g_oomatra g_aumatra );
 	cls_cons = ( g_ka g_kha g_ga g_gha g_nga g_ca g_cha g_ja g_jha g_nya g_tta
 		g_ttha g_dda g_ddha g_nna g_ta g_tha g_da g_dha g_na g_pa g_pha g_ba
 		g_bha g_ma g_ya g_ra g_rra g_la g_lla g_va g_sha g_ssa g_sa g_ha );
@@ -31,6 +31,7 @@ table(glyph)
 		g_oovowel g_auvowel );
 	cls_matras = ( g_imatra g_iimatra g_umatra g_uumatra
 		g_rvocalicmatra g_rrvocalicmatra cls_mathraToBase );
+	cls_takesLargeEmatra = ( g_nga g_nya g_rra );
 
 endtable;
 
@@ -79,28 +80,37 @@ pass(3)
 
 	// blwf
 	g_virama cno_sub > _ csub:(1 2) / cno_sub _ _;
+	g_virama cno_sub > _ csub:(1 2) / csub _ _;
 
 endpass;
 
 pass(4)
 
-	// pres2, abvs, blws, psts
+	// pres2? abvs blws? psts?
 
 	// In the code below, the first line in each pair handles the ligature
 	// of the consonant and the matra. The second line handles moving the matra
 	// next to the consonant over a sub form.
 
-	// vowel signs AA, E, EE, AI, O, OO, AU, virama
+	// vowel signs AA, E, EE, AI, O, OO, AU
 	cno_base > cbase / _ cls_mathraToBase;
 	cno_base csub cls_mathraToBase > cbase @3 @2;
+	// cno_base csub cls_mathraToBase > cbase @3 @2 / _ ^ _ _;
 
-	// vowel sign I
-	cno_imathra g_imatra  > cimathra:2 _ ;
-	cno_imathra csub g_imatra > cimathra:(1 3) csub _;
+	// different E matra
+	// This only works with the first rule in the pair above.
+	g_ematra > g_ematra_large / cls_takesLargeEmatra _;
 
-	// vowel sign II
-	cno_imathra g_iimatra > cimathra g_lengthmark;
-	cno_imathra csub g_iimatra > cimathra:(1 3) csub g_lengthmark;
+	// vowel signs I, II
+	cno_imathra g_imatra  > cimathra:m _ / _ csub? _=m;
+	cno_imathra g_iimatra > cimathra g_lengthmark / _ csub? _;
+
+endpass;
+
+pass(5)
+
+	// haln
+	cno_base > cbase / _ g_virama;
 
 endpass;
 
