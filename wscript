@@ -76,12 +76,12 @@ for f in faces:
                 name(tag + ' ' + f, lang='en-US', subfamily=(sn))
                 ),
             source = fontbase + f + s + '.sfd',
-            sfd_master = fontbase + 'master.sfd',
-            opentype = internal(),
-            # opentype = fea(fontbase + f + s + '.fea',
-            #     master = fontbase + 'master.fea',
-            #     make_params = ''
-            #     ),
+            # sfd_master = fontbase + 'master.sfd',
+            # opentype = internal(),
+            opentype = fea(fontbase + f + s + 'gen.fea',
+                master = fontbase + f + s + '.fea',
+                make_params = '' # might need -z 8 to work around a FontForge bug
+                ),
             graphite = gdl(fontbase + f + s + '.gdl',
                master = fontbase + 'master.gdl',
                make_params = '',
