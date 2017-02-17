@@ -86,28 +86,29 @@ endpass;
 
 pass(4)
 
-	// pres2? abvs blws? psts?
-
-	// In the code below, the first line in each pair handles the ligature
-	// of the consonant and the matra. The second line handles moving the matra
-	// next to the consonant over a sub form.
-
-	// vowel signs AA, E, EE, AI, O, OO, AU
-	cno_base > cbase / _ cls_mathraToBase;
-	cno_base csub cls_mathraToBase > cbase @3 @2;
-	// cno_base csub cls_mathraToBase > cbase @3 @2 / _ ^ _ _;
-
-	// different E matra
-	// This only works with the first rule in the pair above.
-	g_ematra > g_ematra_large / cls_takesLargeEmatra _;
-
-	// vowel signs I, II
-	cno_imathra g_imatra  > cimathra:m _ / _ csub? _=m;
-	cno_imathra g_iimatra > cimathra g_lengthmark / _ csub? _;
+	// move matras over sub forms
+	cls_cons csub cls_matras > @1 @3 @2;
+	cls_cons csub csub cls_matras > @1 @4 @2 @3;
 
 endpass;
 
 pass(5)
+
+	// pres2? abvs blws? psts?
+
+	// vowel signs AA, E, EE, AI, O, OO, AU
+	cno_base > cbase / _ cls_mathraToBase;
+
+	// different E matra
+	g_ematra > g_ematra_large / cls_takesLargeEmatra _;
+
+	// vowel signs I, II
+	cno_imathra g_imatra  > cimathra:2 _;
+	cno_imathra g_iimatra > cimathra g_lengthmark;
+
+endpass;
+
+pass(6)
 
 	// haln
 	cno_base > cbase / _ g_virama;
@@ -115,7 +116,6 @@ pass(5)
 endpass;
 
 endtable; // substitution
-
 
 // POSITIONING
 
