@@ -1,5 +1,12 @@
 # badami
 
+# command line options
+opts = preprocess_args(
+    {'opt' : '-l'}, # build fonts from legacy for inclusion into final fonts
+    {'opt' : '-p'}, # do not run psfix on the final fonts
+    {'opt' : '-s'}  # only build a single font
+    )
+
 import os2
 
 # set folder names
@@ -31,11 +38,12 @@ styles = ('-R', '-B', '-I', '-BI')
 stylesName = ('Regular', 'Bold', 'Italic', 'Bold Italic')
 stylesLegacy = ('', 'BD', 'I', 'BI')
 
-# faces = ('Badami',)
-# facesLegacy = ('BADA',)
-# styles = ('-R',)
-# stylesName = ('Regular',)
-# stylesLegacy = ('',)
+if '-s' in opts:
+    faces = (faces[0],)
+    facesLegacy = (facesLegacy[0],)
+    styles = (styles[0],)
+    stylesName = (stylesName[0],)
+    stylesLegacy = (stylesLegacy[0],)
 
 # set build parameters
 fontbase = 'source/'
@@ -46,20 +54,18 @@ codePageRange = [0]
 unicodeRange = [0, 15, 22, 31]
 hackos2 = os2.hackos2(panose, codePageRange, unicodeRange)
 
-# for f, fLegacy in zip(faces, facesLegacy):
-#     for (s, sn, sLegacy) in zip(styles, stylesName, stylesLegacy):
-#         font(target = process(f + '-' + sn.replace(' ', '') + '.ttf',
-#                 cmd('psfix ${DEP} ${TGT}'),
-#                 ),
-#             source = legacy(f + s + '.ttf',
-#                             source = fontbase + 'archive/' + fLegacy + sLegacy + '.ttf',
-#                             xml = fontbase + 'badami_unicode.xml',
-#                             noap = '')
-#             )
+if '-l' in opts:
+    for f, fLegacy in zip(faces, facesLegacy):
+        for (s, sn, sLegacy) in zip(styles, stylesName, stylesLegacy):
+            font(target = process(f + '-' + sn.replace(' ', '') + '.ttf',
+                    cmd('psfix ${DEP} ${TGT}'),
+                    ),
+                source = legacy(f + s + '.ttf',
+                                source = fontbase + 'archive/' + fLegacy + sLegacy + '.ttf',
+                                xml = fontbase + 'badami_unicode.xml',
+                                noap = '')
+                )
 
-# command line options
-# -p    do not run psfix on the final fonts
-opts = preprocess_args({'opt' : '-p'})
 psfix = 'cp' if '-p' in opts else 'psfix'
 
 for f in faces:
