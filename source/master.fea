@@ -3,7 +3,7 @@ languagesystem knda dflt;
 languagesystem latn dflt;
 
 
-# GSUB 
+# GSUB
 
 
 lookup MultipleSubstitutionlookup13 {
@@ -14,9 +14,9 @@ lookup MultipleSubstitutionlookup13 {
 
 lookup akhnAkhandinKannadalookup0 {
   lookupflag 0;
-    sub [\ka \kha \ga \gha \nga \ca \cha \ja \jha \nya \tta \ttha 
-	\dda \ddha \nna \ta \tha \da \dha \na \pa \pha 
-	\ba \bha \ma \ya \rra \la \lla \va \sha \ssa 
+    sub [\ka \kha \ga \gha \nga \ca \cha \ja \jha \nya \tta \ttha
+	\dda \ddha \nna \ta \tha \da \dha \na \pa \pha
+	\ba \bha \ma \ya \rra \la \lla \va \sha \ssa
 	\sa \ha \fa ] [\virama ] [\ra \rra ]'lookup MultipleSubstitutionlookup13  ;
 } akhnAkhandinKannadalookup0;
 
@@ -61,13 +61,13 @@ lookup LigatureSubstitutionlookup14 {
 
 lookup akhnAkhandinKannadalookup1 {
   lookupflag 0;
-    sub [\ka \kha \ga \gha \nga \ca \cha \ja \jha \nya \tta \ttha 
-	\dda \ddha \nna \ta \tha \da \dha \na \pa \pha 
-	\ba \bha \ma \ya \rra \la \lla \va \sha \ssa 
+    sub [\ka \kha \ga \gha \nga \ca \cha \ja \jha \nya \tta \ttha
+	\dda \ddha \nna \ta \tha \da \dha \na \pa \pha
+	\ba \bha \ma \ya \rra \la \lla \va \sha \ssa
 	\sa \ha \fa ]'lookup LigatureSubstitutionlookup14  [\virama ]'lookup LigatureSubstitutionlookup14  [\rra ] ;
-    sub [\ka \kha \ga \gha \nga \ca \cha \ja \jha \nya \tta \ttha 
-	\dda \ddha \nna \ta \tha \da \dha \na \pa \pha 
-	\ba \bha \ma \ya \rra \la \lla \va \sha \ssa 
+    sub [\ka \kha \ga \gha \nga \ca \cha \ja \jha \nya \tta \ttha
+	\dda \ddha \nna \ta \tha \da \dha \na \pa \pha
+	\ba \bha \ma \ya \rra \la \lla \va \sha \ssa
 	\sa \ha \fa ]'lookup LigatureSubstitutionlookup14  [\virama ]'lookup LigatureSubstitutionlookup14  [\ra ] ;
 } akhnAkhandinKannadalookup1;
 
@@ -167,29 +167,29 @@ lookup SingleSubstitutionlookup15 {
 
 lookup abvsAboveBaseSubstitutionsinKannadalookup7 {
   lookupflag 0;
-    sub [\ka \kha \ga \gha \ca \cha \ja \jha \tta \ttha \dda \ddha 
-	\nna \ta \tha \da \dha \na \pa \pha \ba \bha 
+    sub [\ka \kha \ga \gha \ca \cha \ja \jha \tta \ttha \dda \ddha
+	\nna \ta \tha \da \dha \na \pa \pha \ba \bha
 	\ma \ya \ra \la \lla \va \sha \ssa \sa \ha ]'lookup SingleSubstitutionlookup15  [\ematra ] ;
-    sub [\ka \kha \ga \gha \ca \cha \ja \jha \tta \ttha \dda \ddha 
-	\nna \ta \tha \da \dha \na \pa \pha \ba \bha 
+    sub [\ka \kha \ga \gha \ca \cha \ja \jha \tta \ttha \dda \ddha
+	\nna \ta \tha \da \dha \na \pa \pha \ba \bha
 	\ma \ya \ra \la \lla \va \sha \ssa \sa \ha ]'lookup SingleSubstitutionlookup15  [\aamatra ] ;
-    sub [\ka \kha \ga \gha \ca \cha \ja \jha \tta \ttha \dda \ddha 
-	\nna \ta \tha \da \dha \na \pa \pha \ba \bha 
+    sub [\ka \kha \ga \gha \ca \cha \ja \jha \tta \ttha \dda \ddha
+	\nna \ta \tha \da \dha \na \pa \pha \ba \bha
 	\ma \ya \ra \la \lla \va \sha \ssa \sa \ha ]'lookup SingleSubstitutionlookup15  [\virama ] ;
-    sub [\ka \kha \ga \gha \ca \cha \ja \jha \tta \ttha \dda \ddha 
-	\nna \ta \tha \da \dha \na \pa \pha \ba \bha 
+    sub [\ka \kha \ga \gha \ca \cha \ja \jha \tta \ttha \dda \ddha
+	\nna \ta \tha \da \dha \na \pa \pha \ba \bha
 	\ma \ya \ra \la \lla \va \sha \ssa \sa \ha ]'lookup SingleSubstitutionlookup15  [\aumatra ] ;
-    sub [\ka \kha \ga \gha \ca \cha \ja \jha \tta \ttha \dda \ddha 
-	\nna \ta \tha \da \dha \na \pa \pha \ba \bha 
+    sub [\ka \kha \ga \gha \ca \cha \ja \jha \tta \ttha \dda \ddha
+	\nna \ta \tha \da \dha \na \pa \pha \ba \bha
 	\ma \ya \ra \la \lla \va \sha \ssa \sa \ha ]'lookup SingleSubstitutionlookup15  [\rra ] [\virama ] [\ematra ] ;
-    sub [\ka \kha \ga \gha \ca \cha \ja \jha \tta \ttha \dda \ddha 
-	\nna \ta \tha \da \dha \na \pa \pha \ba \bha 
+    sub [\ka \kha \ga \gha \ca \cha \ja \jha \tta \ttha \dda \ddha
+	\nna \ta \tha \da \dha \na \pa \pha \ba \bha
 	\ma \ya \ra \la \lla \va \sha \ssa \sa \ha ]'lookup SingleSubstitutionlookup15  [\rra ] [\virama ] [\aamatra ] ;
-    sub [\ka \kha \ga \gha \ca \cha \ja \jha \tta \ttha \dda \ddha 
-	\nna \ta \tha \da \dha \na \pa \pha \ba \bha 
+    sub [\ka \kha \ga \gha \ca \cha \ja \jha \tta \ttha \dda \ddha
+	\nna \ta \tha \da \dha \na \pa \pha \ba \bha
 	\ma \ya \ra \la \lla \va \sha \ssa \sa \ha ]'lookup SingleSubstitutionlookup15  [\rra ] [\virama ] [\aumatra ] ;
-    sub [\ka \kha \ga \gha \ca \cha \ja \jha \tta \ttha \dda \ddha 
-	\nna \ta \tha \da \dha \na \pa \pha \ba \bha 
+    sub [\ka \kha \ga \gha \ca \cha \ja \jha \tta \ttha \dda \ddha
+	\nna \ta \tha \da \dha \na \pa \pha \ba \bha
 	\ma \ya \ra \la \lla \va \sha \ssa \sa \ha ]'lookup SingleSubstitutionlookup15  [\rra ] [\virama ] [\virama ] ;
 } abvsAboveBaseSubstitutionsinKannadalookup7;
 
@@ -303,3 +303,219 @@ feature blwf {
       lookup blwfBelowBaseFormsinKannadalookup4;
       lookup blwfBelowBaseFormsinKannadalookup5;
 } blwf;
+
+# GPOS
+
+
+lookup markMarkPositioninglookup6 {
+  lookupflag 0;
+  markClass [\nukta ] <anchor -905 -600> @Nukta;
+  pos base [\avowel \aavowel \ivowel \ovowel \oovowel \ja \ja.base \ja.imathra ] <anchor 400 -50> mark @Nukta;
+  pos base [\iivowel ] <anchor 415 -50> mark @Nukta;
+  pos base [\uuvowel ] <anchor 650 -50> mark @Nukta;
+  pos base [\rvocalicvowel ] <anchor 615 -50> mark @Nukta;
+  pos base [\lvocalicvowel ] <anchor 575 -50> mark @Nukta;
+  pos base [\lvocalicvowel.part ] <anchor 395 -50> mark @Nukta;
+  pos base [\evowel \eevowel \aivowel \auvowel ] <anchor 380 -50> mark @Nukta;
+} markMarkPositioninglookup6;
+
+lookup RightSubMove {
+  lookupflag 0;
+    pos \rvocalicmatra <50 0 0 0>;
+    pos \rrvocalicmatra <50 0 0 0>;
+    pos \ailengthmark <50 0 0 0>;
+} RightSubMove;
+
+lookup SubMove {
+  lookupflag 0;
+    pos \ka.sub <-100 0 0 0>;
+    pos \kha.sub <-100 0 0 0>;
+    pos \ga.sub <-100 0 0 0>;
+    pos \gha.sub <-100 0 0 0>;
+    pos \nga.sub <-100 0 0 0>;
+    pos \ca.sub <-100 0 0 0>;
+    pos \cha.sub <-100 0 0 0>;
+    pos \ja.sub <-100 0 0 0>;
+    pos \jha.sub <-100 0 0 0>;
+    pos \nya.sub <-100 0 0 0>;
+    pos \tta.sub <-100 0 0 0>;
+    pos \ttha.sub <-100 0 0 0>;
+    pos \dda.sub <-100 0 0 0>;
+    pos \ddha.sub <-100 0 0 0>;
+    pos \nna.sub <-100 0 0 0>;
+    pos \ta.sub <-100 0 0 0>;
+    pos \tha.sub <-100 0 0 0>;
+    pos \da.sub <-100 0 0 0>;
+    pos \dha.sub <-100 0 0 0>;
+    pos \na.sub <-100 0 0 0>;
+    pos \pa.sub <-100 0 0 0>;
+    pos \pha.sub <-100 0 0 0>;
+    pos \ba.sub <-100 0 0 0>;
+    pos \bha.sub <-100 0 0 0>;
+    pos \ma.sub <-100 0 0 0>;
+    pos \ya.sub <-150 0 0 0>;
+    pos \ra.below.ra <-100 0 0 0>;
+    pos \rra.sub <-100 0 0 0>;
+    pos \la.sub <-100 0 0 0>;
+    pos \lla.sub <-100 0 0 0>;
+    pos \va.sub <-100 0 0 0>;
+    pos \sha.sub <-100 0 0 0>;
+    pos \ssa.sub <-150 75 0 0>;
+    pos \sa.sub <-100 0 0 0>;
+    pos \ha.sub <-100 0 0 0>;
+} SubMove;
+
+lookup blwmBelowBaseMarkinKannadalookup2 {
+  lookupflag 0;
+    @cc35_match_1 = [\ka.sub \kha.sub \ga.sub \gha.sub \nga.sub \ca.sub \cha.sub
+	\ja.sub \jha.sub \nya.sub \tta.sub \ttha.sub \dda.sub
+	\ddha.sub \nna.sub \ta.sub \tha.sub \da.sub \dha.sub
+	\na.sub \pa.sub \pha.sub \ba.sub \bha.sub \ma.sub
+	\ya.sub \rra.sub \la.sub \lla.sub \va.sub \sha.sub
+	\ssa.sub \sa.sub \ha.sub \ra.below.ra ];
+    @cc35_match_2 = [\rrvocalicmatra \rvocalicmatra \ailengthmark ];
+    @cc35_ahead_1 = [\ka.sub \kha.sub \ga.sub \gha.sub \nga.sub \ca.sub \cha.sub
+	\ja.sub \jha.sub \nya.sub \tta.sub \ttha.sub \dda.sub
+	\ddha.sub \nna.sub \ta.sub \tha.sub \da.sub \dha.sub
+	\na.sub \pa.sub \pha.sub \ba.sub \bha.sub \ma.sub
+	\ya.sub \rra.sub \la.sub \lla.sub \va.sub \sha.sub
+	\ssa.sub \sa.sub \ha.sub \ra.below.ra ];
+    @cc35_ahead_2 = [\rrvocalicmatra \rvocalicmatra \ailengthmark ];
+    pos @cc35_match_1'lookup SubMove  @cc35_ahead_2 ;
+} blwmBelowBaseMarkinKannadalookup2;
+
+lookup blwmBelowBaseMarkinKannadalookup4 {
+  lookupflag 0;
+    @cc36_match_1 = [\rrvocalicmatra \rvocalicmatra \ailengthmark ];
+    @cc36_back_1 = [\rrvocalicmatra \rvocalicmatra \ailengthmark ];
+    @cc36_back_2 = [\ka.sub \kha.sub \ga.sub \gha.sub \nga.sub \ca.sub \cha.sub
+	\ja.sub \jha.sub \nya.sub \tta.sub \ttha.sub \dda.sub
+	\ddha.sub \nna.sub \ta.sub \tha.sub \da.sub \dha.sub
+	\na.sub \pa.sub \pha.sub \ba.sub \bha.sub \ma.sub
+	\ya.sub \rra.sub \la.sub \lla.sub \va.sub \sha.sub
+	\ssa.sub \sa.sub \ha.sub \ra.below.ra ];
+    pos @cc36_back_2 @cc36_match_1'lookup RightSubMove  ;
+} blwmBelowBaseMarkinKannadalookup4;
+
+lookup abvsAboveBaseSubstitutionslookup1 {
+  lookupflag 0;
+  markClass [\consonant.part ] <anchor -279 540> @V;
+  markClass [\ematra ] <anchor -226 535> @V;
+  pos base [\jha.base ] <anchor 404 537> mark @V;
+  pos base [\ma.base ] <anchor 537 535> mark @V;
+  pos base [\ya.base ] <anchor 707 527> mark @V;
+} abvsAboveBaseSubstitutionslookup1;
+
+feature mark {
+
+ script DFLT;
+     language dflt ;
+      lookup markMarkPositioninglookup6;
+
+ script knda;
+     language dflt ;
+      lookup markMarkPositioninglookup6;
+
+ script latn;
+     language dflt ;
+      lookup markMarkPositioninglookup6;
+} mark;
+
+feature blwm {
+
+ script knda;
+     language dflt ;
+      lookup blwmkshaformation;
+      lookup RightSubMove;
+      lookup blwmBelowBaseMarkinKannadalookup2;
+      lookup blwmBelowBaseMarkinKannadalookup4;
+} blwm;
+
+feature abvm {
+
+ script knda;
+     language dflt ;
+      lookup abvsAboveBaseSubstitutionslookup1;
+} abvm;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\.null \nonmarkingreturn \space \exclam \quotedbl \numbersign
+	\dollar \percent \ampersand \quotesingle \parenleft \parenright \asterisk \plus
+	\comma \hyphen \period \slash \zero \one \two \three \four \five \six \seven \eight
+	\nine \colon \semicolon \less \equal \greater \question \at \A \B \C \D \E \F \G \H \I \J
+	\K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z \bracketleft \backslash \bracketright
+	\asciicircum \underscore \grave \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u
+	\v \w \x \y \z \braceleft \bar \braceright \asciitilde \quoteleft \quoteright
+	\quotedblleft \quotedblright \angleleft \consonant.part1 \nbspace \anusvara \visarga
+	\avowel \aavowel \ivowel \iivowel \uvowel \uuvowel \rvocalicvowel \rvocalicvowel.part \lvocalicvowel \lvocalicvowel.part
+	\evowel \eevowel \aivowel \ovowel \oovowel \auvowel \ka.base \ka_rvocalicmatra.sub
+	\kha.base \ga.base \gha.base \ca.base \cha.base \ja.base
+	\jha.base \jha.half.base \jha.part \jha.base.mathra \tta.base
+	\ttha.base \dda.base \ddha.base \nna.base \ta.base \ta_ya.sub
+	\ta_va.sub \ta_rvocalicmatra.sub \ta_ailengthmark.sub \tha.base \da.base
+	\dha.base \na.base \pa.base \pha.base \ba.base \bha.base
+	\ma.base \ma.base.mathra \ma.part \ya.base \ya.part
+	\ya.part.i \ya.base.mathra \ra \ra.base \ra.below
+	\ra.below.angleright \ra.below.large \ra_ailengthmark.sub \la.base
+	\lla.base \va.base \sha.base \ssa.base \sa.base \ha.base \avagraha
+	\aamatra \imatra \iimatra \umatra \umatra.large \uumatra \uumatra.large \rvocalicmatra \rrvocalicmatra
+	\ematra.large \eematra \aimatra \omatra \omatra.large \oomatra \oomatra.large \aumatra \virama
+	\lengthmark \ailengthmark \fa.sub \rrvocalicvowel \llvocalicvowel \zeroknda \oneknda \twoknda \threeknda \fourknda \fiveknda
+	\sixknda \sevenknda \eightknda \nineknda \zwj \zwnj \zwsp \wj \ka_ssa
+	\ka_ssa.base \nukta.alt \rs \inr \u0334.Lrg \dotlessi \Esh
+	\ring \tilde \u02F9 \u02FA \u02FB \u02FC \gravecomb \acutecomb \u0302
+	\tildecomb \u0304 \u0306 \u0308 \u030A \u030C \u0327 \u0328
+	\u0338 \u0394 \Pi \u03A9 \exclamdown \cent \sterling \currency \yen
+	\brokenbar \section \dieresis \copyright \ordfeminine \guillemotleft
+	\logicalnot \softhyphen \registered \macron \degree \plusminus \twosuperior
+	\threesuperior \acute \mu \paragraph \periodcentered \cedilla \onesuperior
+	\ordmasculine \guillemotright \onequarter \onehalf \threequarters
+	\questiondown \Agrave \Aacute \Acircumflex \Atilde \Adieresis \Aring \AE
+	\Ccedilla \Egrave \Eacute \Ecircumflex \Edieresis \Igrave \Iacute \Icircumflex
+	\Idieresis \Eth \Ntilde \Ograve \Oacute \Ocircumflex \Otilde \Odieresis
+	\multiply \Oslash \Ugrave \Uacute \Ucircumflex \Udieresis \Yacute \Thorn
+	\germandbls \agrave \aacute \acircumflex \atilde \adieresis \aring \ae \ccedilla
+	\egrave \eacute \ecircumflex \edieresis \igrave \iacute \icircumflex \idieresis
+	\eth \ntilde \ograve \oacute \ocircumflex \otilde \odieresis \divide \oslash
+	\ugrave \uacute \ucircumflex \udieresis \yacute \thorn \ydieresis \OE \oe \Scaron
+	\scaron \Ydieresis \Zcaron \zcaron \florin \circumflex \caron \colontriangularmod \breve
+	\dotaccent \ogonek \hungarumlaut \u034F \pi \u2000 \u2001 \enspace
+	\u2003 \u2004 \u2005 \u2006 \u2007 \u2008 \u2009 \u200A \u200E
+	\u200F \hyphentwo \u2011 \figuredash \endash \emdash \horizontalbar \quotesinglbase
+	\quotedblbase \dagger \daggerdbl \bullet \ellipsis \u2027 \u2028 \u2029
+	\u202A \u202B \u202C \u202D \u202E \u202F \perthousand
+	\guilsinglleft \guilsinglright \fraction \Euro \trademark \Omega \partialdiff
+	\Delta \product \summation \u2219 \radical \infinity \integral \approxequal
+	\notequal \lessequal \greaterequal \lozenge \dottedcircle \fi \fl \uFE00 \uFE01
+	\uFE02 \uFE03 \uFE04 \uFE05 \uFE06 \uFE07 \uFE08 \uFE09 \uFE0A
+	\uFE0B \uFE0C \uFE0D \uFE0E \uFE0F \uFEFF \uFFFC \uFFFD \u2308
+	\u2309 \u230A \u230B \u231C \u231D \u231E \u231F \u2070 \u2074
+	\u2075 \u2076 \u2077 \u2078 \u2079 \u207B \u207D \u207E \u2423
+	\exclam.knda \quoteleft.knda \quotedblleft.knda \quoteright.knda
+	\quoterdblight.knda \parenleft.knda \parenright.knda \comma.knda
+	\hyphen.knda \period.knda \slash.knda \colon.knda \semicolon.knda
+	\question.knda \danda \doubledanda ];
+@GDEF_Ligature = [\shortrr \ka \ka.imathra \ka.sub \kha \kha.imathra
+	\kha.sub \ga \ga.imathra \ga.sub \gha \gha.imathra \gha.sub
+	\nga \nga.sub \ca \ca.imathra \ca.sub \cha \cha.imathra
+	\cha.sub \ja \ja.imathra \ja.sub \jha \jha.imathra \jha.sub
+	\nya \nya.sub \tta \tta.imathra \tta.sub \ttha \ttha.imathra
+	\ttha.sub \dda \dda.imathra \dda.sub \ddha \ddha.imathra \ddha.sub
+	\nna \nna.imathra \nna.sub \ta \ta.imathra \ta.sub \tha
+	\tha.imathra \tha.sub \da \da.imathra \da.sub \dha
+	\dha.imathra \dha.sub \na \na.imathra \na.sub \pa
+	\pa.imathra \pa.sub \pha \pha.imathra \pha.sub \ba
+	\ba.imathra \ba.sub \bha \bha.imathra \bha.sub \ma
+	\ma.imathra \ma.sub \ya \ya.imathra \ya.sub \ra.imathra
+	\ra.below.ra \rra \rra.imathra \rra.sub \la \la.imathra
+	\la.sub \lla \lla.imathra \lla.sub \va \va.imathra \va.sub
+	\sha \sha.imathra \sha.sub \sha_ra.imathra \ssa \ssa.imathra
+	\ssa.sub \sa \sa.imathra \sa.sub \ha \ha.imathra \ha.sub
+	\fa \fa.imathra ];
+@GDEF_Mark = [\consonant.part \ematra \nukta ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
+
+  LigatureCaretByPos \da 726;
+} GDEF;
