@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1250825690
-ModificationTime: 1476226989
+ModificationTime: 1488342107
 PfmFamily: 81
 TTFWeight: 700
 TTFWidth: 5
@@ -52,6 +52,7 @@ OS2StrikeYSize: 50
 OS2StrikeYPos: 259
 OS2Vendor: 'Alts'
 OS2UnicodeRanges: 00000000.00000000.00000000.00000000
+Lookup: 262 0 0 "blwm" { "blwm-2sub"  } []
 MarkAttachClasses: 1
 DEI: 91125
 TtTable: prep
@@ -91,7 +92,7 @@ FitToEm: 1
 WinInfo: 0 37 14
 BeginPrivate: 0
 EndPrivate
-AnchorClass2: "Nukta"""  "s"""  "V""" 
+AnchorClass2: "Sub" "blwm-2sub" "Nukta"""  "s"""  "V""" 
 BeginChars: 572 572
 
 StartChar: .notdef
@@ -6463,6 +6464,8 @@ StartChar: ka.sub
 Encoding: 128 -1 128
 Width: 172
 Flags: W
+AnchorPoint: "Sub" -182 290 mark 0
+AnchorPoint: "Sub" 240 -414 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6827,6 +6830,8 @@ StartChar: kha.sub
 Encoding: 133 -1 133
 Width: 163
 Flags: W
+AnchorPoint: "Sub" -310 185 mark 0
+AnchorPoint: "Sub" 216 -373 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6981,6 +6986,8 @@ StartChar: ga.sub
 Encoding: 137 -1 137
 Width: 99
 Flags: W
+AnchorPoint: "Sub" -222 -64 mark 0
+AnchorPoint: "Sub" 118 -432 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7212,6 +7219,8 @@ StartChar: gha.sub
 Encoding: 141 -1 141
 Width: 210
 Flags: W
+AnchorPoint: "Sub" -274 81 mark 0
+AnchorPoint: "Sub" 294 -337 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7373,6 +7382,8 @@ StartChar: nga.sub
 Encoding: 143 -1 143
 Width: 196
 Flags: W
+AnchorPoint: "Sub" -418 -32 mark 0
+AnchorPoint: "Sub" 326 -396 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7632,6 +7643,8 @@ StartChar: ca.sub
 Encoding: 147 -1 147
 Width: 196
 Flags: W
+AnchorPoint: "Sub" -330 135 mark 0
+AnchorPoint: "Sub" 267 -398 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7877,6 +7890,8 @@ StartChar: cha.sub
 Encoding: 151 -1 151
 Width: 156
 Flags: W
+AnchorPoint: "Sub" -292 169 mark 0
+AnchorPoint: "Sub" 261 -370 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8234,6 +8249,8 @@ StartChar: ja.sub
 Encoding: 155 -1 155
 Width: 189
 Flags: W
+AnchorPoint: "Sub" -430 -26 mark 0
+AnchorPoint: "Sub" 310 -404 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8358,6 +8375,8 @@ StartChar: jha.sub
 Encoding: 160 -1 160
 Width: 207
 Flags: W
+AnchorPoint: "Sub" -428 -32 mark 0
+AnchorPoint: "Sub" 339 -376 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8590,6 +8609,8 @@ StartChar: nya.sub
 Encoding: 164 -1 164
 Width: 235
 Flags: W
+AnchorPoint: "Sub" -445 -11 mark 0
+AnchorPoint: "Sub" 333 -354 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8990,6 +9011,8 @@ StartChar: tta.sub
 Encoding: 168 -1 168
 Width: 169
 Flags: W
+AnchorPoint: "Sub" -292 148 mark 0
+AnchorPoint: "Sub" 274 -401 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9200,6 +9223,8 @@ StartChar: ttha.sub
 Encoding: 172 -1 172
 Width: 103
 Flags: W
+AnchorPoint: "Sub" -222 -27 mark 0
+AnchorPoint: "Sub" 140 -407 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9433,6 +9458,8 @@ StartChar: dda.sub
 Encoding: 176 -1 176
 Width: 186
 Flags: W
+AnchorPoint: "Sub" -398 -65 mark 0
+AnchorPoint: "Sub" 305 -396 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9704,6 +9731,8 @@ StartChar: ddha.sub
 Encoding: 180 -1 180
 Width: 186
 Flags: W
+AnchorPoint: "Sub" -388 -58 mark 0
+AnchorPoint: "Sub" 303 -388 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10045,6 +10074,8 @@ StartChar: nna.sub
 Encoding: 184 -1 184
 Width: 180
 Flags: W
+AnchorPoint: "Sub" -384 -39 mark 0
+AnchorPoint: "Sub" 292 -402 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10274,6 +10305,8 @@ StartChar: ta.sub
 Encoding: 188 -1 188
 Width: 152
 Flags: W
+AnchorPoint: "Sub" -366 -66 mark 0
+AnchorPoint: "Sub" 245 -343 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10741,6 +10774,8 @@ StartChar: tha.sub
 Encoding: 196 -1 196
 Width: 175
 Flags: W
+AnchorPoint: "Sub" -361 -20 mark 0
+AnchorPoint: "Sub" 292 -361 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10952,6 +10987,8 @@ StartChar: da.sub
 Encoding: 200 -1 200
 Width: 166
 Flags: W
+AnchorPoint: "Sub" -335 -20 mark 0
+AnchorPoint: "Sub" 253 -364 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11166,6 +11203,8 @@ StartChar: dha.sub
 Encoding: 204 -1 204
 Width: 166
 Flags: W
+AnchorPoint: "Sub" -346 -36 mark 0
+AnchorPoint: "Sub" 272 -362 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11371,6 +11410,8 @@ StartChar: na.sub
 Encoding: 208 -1 208
 Width: 147
 Flags: W
+AnchorPoint: "Sub" -305 30 mark 0
+AnchorPoint: "Sub" 212 -398 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11602,6 +11643,8 @@ StartChar: pa.sub
 Encoding: 212 -1 212
 Width: 172
 Flags: W
+AnchorPoint: "Sub" -260 103 mark 0
+AnchorPoint: "Sub" 278 -353 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11849,6 +11892,8 @@ StartChar: pha.sub
 Encoding: 216 -1 216
 Width: 156
 Flags: W
+AnchorPoint: "Sub" -311 193 mark 0
+AnchorPoint: "Sub" 263 -338 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12163,6 +12208,8 @@ StartChar: ba.sub
 Encoding: 220 -1 220
 Width: 172
 Flags: W
+AnchorPoint: "Sub" -300 142 mark 0
+AnchorPoint: "Sub" 282 -373 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12416,6 +12463,8 @@ StartChar: bha.sub
 Encoding: 224 -1 224
 Width: 172
 Flags: W
+AnchorPoint: "Sub" -300 142 mark 0
+AnchorPoint: "Sub" 267 -374 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12523,6 +12572,8 @@ StartChar: ma.sub
 Encoding: 228 -1 228
 Width: 172
 Flags: W
+AnchorPoint: "Sub" -58 79 mark 0
+AnchorPoint: "Sub" 392 -407 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12638,6 +12689,8 @@ StartChar: ya.sub
 Encoding: 234 -1 234
 Width: 261
 Flags: W
+AnchorPoint: "Sub" -153 207 mark 0
+AnchorPoint: "Sub" 231 -396 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13337,6 +13390,8 @@ StartChar: rra.sub
 Encoding: 248 -1 248
 Width: 159
 Flags: W
+AnchorPoint: "Sub" -341 -52 mark 0
+AnchorPoint: "Sub" 309 -363 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13587,6 +13642,8 @@ StartChar: la.sub
 Encoding: 252 -1 252
 Width: 172
 Flags: W
+AnchorPoint: "Sub" -364 -67 mark 0
+AnchorPoint: "Sub" 262 -408 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13826,6 +13883,8 @@ StartChar: lla.sub
 Encoding: 256 -1 256
 Width: 149
 Flags: W
+AnchorPoint: "Sub" -276 177 mark 0
+AnchorPoint: "Sub" 256 -267 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14039,6 +14098,8 @@ StartChar: va.sub
 Encoding: 260 -1 260
 Width: 159
 Flags: W
+AnchorPoint: "Sub" -332 -21 mark 0
+AnchorPoint: "Sub" 266 -365 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14290,6 +14351,8 @@ StartChar: sha.sub
 Encoding: 264 -1 264
 Width: 172
 Flags: W
+AnchorPoint: "Sub" -62 207 mark 0
+AnchorPoint: "Sub" 404 -404 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14352,7 +14415,7 @@ EndChar
 StartChar: sha_ra.imathra
 Encoding: 265 -1 265
 Width: 1561
-Flags: WO
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -14691,6 +14754,8 @@ StartChar: ssa.sub
 Encoding: 269 -1 269
 Width: 229
 Flags: W
+AnchorPoint: "Sub" -458 132 mark 0
+AnchorPoint: "Sub" 380 -438 basemark 0
 AnchorPoint: "s" -122 18 basechar 0
 LayerCount: 2
 Fore
@@ -14923,6 +14988,8 @@ StartChar: sa.sub
 Encoding: 273 -1 273
 Width: 152
 Flags: W
+AnchorPoint: "Sub" -302 38 mark 0
+AnchorPoint: "Sub" 220 -400 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -15157,6 +15224,8 @@ StartChar: ha.sub
 Encoding: 277 -1 277
 Width: 163
 Flags: W
+AnchorPoint: "Sub" -352 -66 mark 0
+AnchorPoint: "Sub" 274 -352 basemark 0
 LayerCount: 2
 Fore
 SplineSet

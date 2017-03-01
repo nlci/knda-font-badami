@@ -11,6 +11,6 @@ with Reserved Font Names "Badami" and "Kaveri" and "NLCI".
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 
 master.gdl            - Graphite rules
-master.sfd            - OpenType rules
-other .sfd files      - glyph outline data for each font
+master.fea            - OpenType rules
+*.sfd files           - glyph outline data for each font
 badami_unicode.xml    - mapping from legacy to Unicode as used by ttfbuilder
