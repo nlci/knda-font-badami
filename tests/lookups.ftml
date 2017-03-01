@@ -4,21 +4,22 @@
   <head>
     <columns comment="30%" label="15%" string="50%" style="5%"/>
     <fontsrc>url(../results/KNDABadami-Regular.ttf)</fontsrc>
+    <title>Lookups</title>
   </head>
   <testgroup label="nukt2">
-    <test label="ka-nukta">
+    <test label="simple nukta">
       <string>\u0c95\u0cbc</string>
     </test>
-    <test label="ka-halant-ssa-nukta">
+    <test label="akhn 1">
       <string>\u0c95\u0ccd\u0cb7\u0cbc</string>
     </test>
   </testgroup>
   <testgroup label="akhn">
-    <test label="ka-halant-ssa">
-      <string>\u0c95\u0ccd\u0cb7</string>
+    <test label="akhn 1">
+      <string>\u0c95\u0ccd\u0cb7</string><comment>ka-halant-ssa</comment>
     </test>
-    <test label="ja-halant-nya">
-      <string>\u0c9c\u0ccd\u0c9e</string>
+    <test label="akhn 2">
+      <string>\u0c9c\u0ccd\u0c9e</string><comment>ja-halant-nya</comment>
     </test>
   </testgroup>
   <testgroup label="rphf">
