@@ -94,7 +94,7 @@ endpass;
 
 pass(5)
 
-	// pres2? abvs blws? psts?
+	// pres2? abvs
 
 	// vowel signs AA, E, EE, AI, O, OO, AU
 	cno_base > cbase / _ cls_mathraToBase;
@@ -109,6 +109,19 @@ pass(5)
 endpass;
 
 pass(6)
+
+	// blws
+	g_ta_sub g_ya_sub > _ g_ta_ya_sub:(1 2);
+	g_ta_sub g_va_sub > _ g_ta_va_sub:(1 2);
+	// TODO:
+	// Should ka_rvocalicmatra.sub, ta_rvocalicmatra.sub, ta_ailengthmark.sub
+	// be here as well?
+
+endpass;
+
+// psts?
+
+pass(7)
 
 	// haln
 	cno_base > cbase / _ g_virama;

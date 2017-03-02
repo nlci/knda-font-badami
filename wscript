@@ -89,7 +89,7 @@ for f in faces:
                 ),
             graphite = gdl(fontbase + f + s + '.gdl',
                master = fontbase + 'master.gdl',
-               make_params = '-p 7',
+               make_params = '-p 1',
                params = ''
                ),
             #classes = fontbase + 'badami_classes.xml',
