@@ -132,6 +132,62 @@
         <string>\u0c95\u0ccd\u0ca4\u0ccd\u0cb5\u0cc0</string>
       </test>
   </testgroup>
+  <testgroup label="psts">
+    <test label="ba-u">
+      <string>\u0cac\u0cc1</string>
+    </test>
+      <test label="ba-uu">
+        <string>\u0cac\u0cc2</string>
+      </test>
+      <test label="ba-o">
+        <string>\u0cac\u0cca \u0cac\u0cc6\u0cc2</string>
+      </test>
+      <test label="ba-oo">
+        <string>\u0cac\u0ccb \u0cac\u0cca\u0cd5 \u0cac\u0cc6\u0cc2\u0cd5</string>
+      </test>
+      <test label="pa-u">
+        <string>\u0caa\u0cc1</string>
+      </test>
+      <test label="pa-uu">
+        <string>\u0caa\u0cc2</string>
+      </test>
+      <test label="pa-o">
+        <string>\u0caa\u0cca \u0caa\u0cc6\u0cc2</string>
+      </test>
+      <test label="pa-oo">
+        <string>\u0caa\u0ccb \u0caa\u0cca\u0cd5 \u0caa\u0cc6\u0cc2\u0cd5</string>
+      </test>
+      <test label="pha-u">
+        <string>\u0cab\u0cc1</string>
+      </test>
+      <test label="pha-uu">
+        <string>\u0cab\u0cc2</string>
+      </test>
+      <test label="pha-o">
+        <string>\u0cab\u0cca \u0cab\u0cc6\u0cc2</string>
+      </test>
+      <test label="pha-oo">
+        <string>\u0cab\u0ccb \u0cab\u0cca\u0cd5 \u0cab\u0cc6\u0cc2\u0cd5</string>
+      </test>
+      <test label="va-u">
+        <string>\u0cb5\u0cc1</string>
+      </test>
+      <test label="va-uu">
+        <string>\u0cb5\u0cc2</string>
+      </test>
+      <test label="va-o">
+        <string>\u0cb5\u0cca \u0cb5\u0cc6\u0cc2</string>
+      </test>
+      <test label="va-oo">
+        <string>\u0cb5\u0ccb \u0cb5\u0cca\u0cd5 \u0cb5\u0cc6\u0cc2\u0cd5</string>
+      </test>
+      <test label="ba-oo and sub forms that ligate">
+        <string>\u0cac\u0ccd\u0ca4\u0ccd\u0caf\u0ccb \u0cac\u0ccd\u0ca4\u0ccd\u0caf\u0cca\u0cd5 \u0cac\u0ccd\u0ca4\u0ccd\u0caf\u0cc6\u0cc2\u0cd5</string>
+      </test>
+      <test label="pa-oo and sub forms that ligate">
+        <string>\u0caa\u0ccd\u0ca4\u0ccd\u0caf\u0ccb \u0caa\u0ccd\u0ca4\u0ccd\u0caf\u0cca\u0cd5 \u0caa\u0ccd\u0ca4\u0ccd\u0caf\u0cc6\u0cc2\u0cd5</string>
+      </test>
+  </testgroup>
   <testgroup label="haln">
     <test label="ka-halant">
       <string>\u0c95\u0ccd</string>

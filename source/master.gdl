@@ -1,49 +1,27 @@
 #include "stddef.gdh"
 
-/*******************************************************************
-
-	GLYPH DEFINITIONS
-
-*******************************************************************/
-
 table(glyph)
-
-	//	Friendly glyph names (when not used in the smith build system)
-
-	//g_aamatra = g0cbe;
-	//g_imatra = g0cbf;
-	//g_iimatra = g0cc0;
-	//g_virama = g0ccd;
-	//g_nukta = g0cbc;
-	//g_lengthmark = g0cd5;
-
 
 	//	Classes
 
-	//cls_mathraToBase = ( g0cbe g0cc6 g0ccc g0ccd );
-	cls_mathraToBase = ( g_aamatra g_ematra g_eematra g_aimatra
+	cls_matraToBase = ( g_aamatra g_ematra g_eematra g_aimatra
 		g_omatra g_oomatra g_aumatra );
+	cls_matras = ( g_imatra g_iimatra g_umatra g_uumatra
+		g_rvocalicmatra g_rrvocalicmatra cls_matraToBase );
+	cls_takesLargeEmatra = ( g_nga g_nya g_rra );
+	cls_takesUbasedMatra = ( g_pa g_pa_base g_pha g_pha_base g_va g_va_base);
+	cls_UbasedMatra = ( g_umatra g_uumatra
+		g_omatra g_oomatra );
+	cls_LargeUbasedMatra = ( g_umatra_large g_uumatra_large
+		g_omatra_large g_oomatra_large );
 	cls_cons = ( g_ka g_kha g_ga g_gha g_nga g_ca g_cha g_ja g_jha g_nya g_tta
 		g_ttha g_dda g_ddha g_nna g_ta g_tha g_da g_dha g_na g_pa g_pha g_ba
 		g_bha g_ma g_ya g_ra g_rra g_la g_lla g_va g_sha g_ssa g_sa g_ha );
 	cls_vowel = ( g_avowel g_aavowel g_ivowel g_iivowel g_uvowel g_uuvowel
 		g_rvocalicvowel g_lvocalicvowel g_evowel g_eevowel g_aivowel g_ovowel
 		g_oovowel g_auvowel );
-	cls_matras = ( g_imatra g_iimatra g_umatra g_uumatra
-		g_rvocalicmatra g_rrvocalicmatra cls_mathraToBase );
-	cls_takesLargeEmatra = ( g_nga g_nya g_rra );
 
-endtable;
-
-
-/*******************************************************************
-
-	RULES
-
-*******************************************************************/
-
-// SUBSTITUTION
-
+endtable; // glyph
 
 table(substitution)
 
@@ -86,9 +64,21 @@ endpass;
 
 pass(4)
 
+	// #define opt(x)      [x]?
+	// #define opt2(x)     [opt(x) x]?
+	// #define opt3(x)     [opt2(x) x]?
+
 	// move matras over sub forms
+
+	// one sub form
 	cls_cons csub cls_matras > @1 @3 @2;
+	cls_cons csub cls_matras cls_matras > @1 @3 @4 @2;
+	// cls_cons csub cls_matras cls_matras cls_matras > @1 @3 @4 @5 @2;
+
+	// two sub forms
 	cls_cons csub csub cls_matras > @1 @4 @2 @3;
+	cls_cons csub csub cls_matras cls_matras > @1 @4 @5 @2 @3;
+	// cls_cons csub csub cls_matras cls_matras cls_matras > @1 @4 @5 @6 @2 @3;
 
 endpass;
 
@@ -97,7 +87,7 @@ pass(5)
 	// pres2? abvs
 
 	// vowel signs AA, E, EE, AI, O, OO, AU
-	cno_base > cbase / _ cls_mathraToBase;
+	cno_base > cbase / _ cls_matraToBase;
 
 	// different E matra
 	g_ematra > g_ematra_large / cls_takesLargeEmatra _;
@@ -119,9 +109,18 @@ pass(6)
 
 endpass;
 
-// psts?
-
 pass(7)
+
+	// psts
+	cls_UbasedMatra > cls_LargeUbasedMatra / cls_takesUbasedMatra _;
+
+	// handle fully decomposed cases
+	// here the uumatra is part of an omatra or oomatra in the input
+	g_uumatra > g_uumatra_large / cls_takesUbasedMatra g_ematra _;
+
+endpass;
+
+pass(8)
 
 	// haln
 	cno_base > cbase / _ g_virama;
