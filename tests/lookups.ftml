@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../tools/ftml.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../tools/FTMLcreateList.xsl"?>
 <ftml version="1.0">
   <head>
     <columns comment="30%" label="15%" string="50%" style="5%"/>
@@ -15,16 +15,19 @@
     </test>
   </testgroup>
   <testgroup label="akhn">
-    <test label="akhn 1">
-      <string>\u0c95\u0ccd\u0cb7</string><comment>ka-halant-ssa</comment>
+    <test label="akhn 1 and with ZW[N]J">
+      <string>\u0c95\u0ccd\u0cb7 \u0c95\u0ccd\u200c\u0cb7 \u0c95\u0ccd\u200d\u0cb7</string><comment>ka-halant-ssa</comment>
     </test>
     <test label="akhn 2">
       <string>\u0c9c\u0ccd\u0c9e</string><comment>ja-halant-nya</comment>
     </test>
   </testgroup>
   <testgroup label="rphf">
-    <test label="ra-halant-ka">
+    <test label="init ra">
       <string>\u0cb0\u0ccd\u0c95</string>
+    </test>
+    <test label="ra sub ra">
+      <string>\u0cb0\u0ccd\u0cb0</string>
     </test>
     <test label="ra-halant-ka-halant-kha">
       <string>\u0cb0\u0ccd\u0c95\u0ccd\u0c96</string>
@@ -52,17 +55,41 @@
     </test>
   </testgroup>
   <testgroup label="blwf">
-    <test label="ka-halant-ka">
-      <string>\u0c95\u0ccd\u0c95</string>
+    <test label="ka-halant-ka and with ZW[N]J">
+      <string>\u0c95\u0ccd\u0c95 \u0c95\u0ccd\u200c\u0c95 \u0c95\u0ccd\u200d\u0c95</string>
     </test>
-    <test label="ka-halant-kha">
-      <string>\u0c95\u0ccd\u0c96</string>
+    <test label="ka-halant-kha and with ZW[N]J">
+      <string>\u0c95\u0ccd\u0c96 \u0c95\u0ccd\u200c\u0c96 \u0c95\u0ccd\u200d\u0c96</string>
     </test>
-    <test label="kha-halant-ka">
-      <string>\u0c96\u0ccd\u0c95</string>
+    <test label="kha-halant-ka and with ZW[N]J">
+      <string>\u0c96\u0ccd\u0c95 \u0c96\u0ccd\u200c\u0c95 \u0c96\u0ccd\u200d\u0c95</string>
     </test>
-    <test label="kha-halant-kha">
-      <string>\u0c96\u0ccd\u0c96</string>
+    <test label="kha-halant-kha and with ZW[N]J">
+      <string>\u0c96\u0ccd\u0c96 \u0c96\u0ccd\u200c\u0c96 \u0c96\u0ccd\u200d\u0c96</string>
+    </test>
+    <test label="init ra with ZW[N]J after virama (OT spec)">
+      <string>\u0cb0\u0ccd\u200c\u0c95 \u0cb0\u0ccd\u200d\u0c95</string>
+    </test>
+    <test label="ra sub ka with ZW[N]J before virama (TUS ch. 12)">
+      <string>\u0cb0\u200c\u0ccd\u0c95 \u0cb0\u200d\u0ccd\u0c95</string>
+    </test>
+    <test label="ra sub ra with ZW[N]J before virama">
+      <string>\u0cb0\u200c\u0ccd\u0cb0 \u0cb0\u200d\u0ccd\u0cb0</string>
+    </test>
+    <test label="ka sub ra and sub ra alone">
+      <string>\u0c95\u0ccd\u0cb0 \u00a0\u200d\u0ccd\u0cb0</string>
+    </test>
+    <test label="ta sub ra sub ya">
+      <string>\u0ca4\u0ccd\u0cb0\u0ccd\u0caf</string>
+    </test>
+    <test label="jha sub ra">
+      <string>\u0c9d\u0ccd\u0cb0</string>
+    </test>
+    <test label="jha sub ra sub ya">
+      <string>\u0c9d\u0ccd\u0cb0\u0ccd\u0caf</string>
+    </test>
+    <test label="ssa sub tta sub ra oomatra">
+      <string>\u0cb7\u0ccd\u0c9f\u0ccd\u0cb0\u0ccb \u0cb7\u0ccd\u0c9f\u0ccd\u0cb0\u0cca\u0cd5 \u0cb7\u0ccd\u0c9f\u0ccd\u0cb0\u0cc6\u0cc2\u0cd5</string>
     </test>
   </testgroup>
   <testgroup label="pres2 ?, abvs">
@@ -110,6 +137,9 @@
     </test>
     <test label="ka-halant-kha-halant-gh-iimatra">
       <string>\u0c95\u0ccd\u0c96\u0ccd\u0c97\u0cc0</string>
+    </test>
+    <test label="lone imatra">
+      <string>\u00a0\u0cbf</string>
     </test>
   </testgroup>
   <testgroup label="blws (with blwm)">
@@ -199,6 +229,12 @@
   <testgroup label="extra">
     <test label="sub sub">
       <string>ರಾಷ್ಟ್ರೀಯ</string>
+    </test>
+    <test label="ot spec example">
+      <string>\u0cb0\u0ccd\u0c95\u0ccd\u0cb7\u0ccd\u0cb8\u0cbf\u0cc7</string>
+    </test>
+    <test label="issue">
+      <string>\u0c95\u0ccd\u0cd5\u0c82</string>
     </test>
   </testgroup>
 </ftml>

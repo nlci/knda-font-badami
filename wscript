@@ -30,7 +30,7 @@ DEBPKG='fonts-nlci-' + script
 
 # set test parameters
 TESTSTRING=u'\u0c95'
-ftmlTest('tools/ftml.xsl')
+ftmlTest('tools/FTMLcreateList.xsl')
 
 # set fonts to build
 faces = ('Badami', 'Kaveri')
