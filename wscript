@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# this is a smith configuration file
+
 # badami
 
 # command line options
@@ -9,17 +12,21 @@ opts = preprocess_args(
 
 import os2
 
-# set folder names
+# set the default output folders
 out='results'
+DOCDIR='documentation'
+OUTDIR='installers'
+ZIPDIR='releases'
 TESTDIR='tests'
 STANDARDS='tests/reference'
 
-# set meta-information
+# set the font name, version, licensing and description
 script='knda'
 APPNAME='nlci-' + script
-VERSION='0.101'
-TTF_VERSION='0.101'
-COPYRIGHT='Copyright (c) 2009-2015, NLCI (http://www.nlci.in/fonts/)'
+VERSION='0.102'
+TTF_VERSION='0.102'
+COPYRIGHT='Copyright (c) 2009-2017, NLCI (http://www.nlci.in/fonts/)'
+LICENSE='OFL.txt'
 
 DESC_SHORT='Kannada Unicode font with OT support'
 DESC_LONG='''
@@ -48,6 +55,7 @@ if '-s' in opts:
 
 # set build parameters
 fontbase = 'source/'
+generated = 'generated/'
 tag = script.upper()
 
 panose = [2, 0, 0, 3]
@@ -77,27 +85,28 @@ for f in faces:
 #        zipdir = ''
 #    )
     for (s, sn) in zip(styles, stylesName):
-        font(target = process(tag + f + '-' + sn.replace(' ', '') + '.ttf',
+        fontfilename = tag + f + '-' + sn.replace(' ', '')
+        font(target = process(fontfilename + '.ttf',
                 cmd(psfix + ' ${DEP} ${TGT}'),
                 cmd(hackos2 + ' ${DEP} ${TGT}'),
                 name(tag + ' ' + f, lang='en-US', subfamily=(sn))
                 ),
             source = fontbase + f + s + '.sfd',
-            opentype = fea(fontbase + f + s + '.fea',
+            opentype = fea(generated + f + s + '.fea',
                 master = fontbase + 'master.fea',
                 make_params = '' # might need -z 8 to work around a FontForge bug
                 ),
-            graphite = gdl(fontbase + f + s + '.gdl',
+            graphite = gdl(generated + f + s + '.gdl',
                master = fontbase + 'master.gdl',
                make_params = '-p 1',
                params = ''
                ),
             #classes = fontbase + 'badami_classes.xml',
-            ap = fontbase + f + s + '.xml',
+            ap = generated + f + s + '.xml',
             version = TTF_VERSION,
             copyright = COPYRIGHT,
             license = ofl('Badami', 'Kaveri', 'NLCI'),
-            woff = woff(),
+            woff = woff('web/' + fontfilename + '.woff'),
             script = 'knda',
             #package = p,
             fret = fret(params = '-r')
