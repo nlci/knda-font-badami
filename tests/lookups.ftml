@@ -24,10 +24,13 @@
   </testgroup>
   <testgroup label="rphf">
     <test label="init ra">
-      <string>\u0cb0\u0ccd\u0c95</string>
+      <string>\u0cb0\u0ccd\u0c95 \u0cb0\u0ccd\u0cde</string>
     </test>
     <test label="ra sub ra">
       <string>\u0cb0\u0ccd\u0cb0</string>
+    </test>
+    <test label="ra sub ra sub ra">
+      <string>\u0cb0\u0ccd\u0cb0\u0ccd\u0cb0</string>
     </test>
     <test label="ra-halant-ka-halant-kha">
       <string>\u0cb0\u0ccd\u0c95\u0ccd\u0c96</string>
@@ -55,6 +58,9 @@
     </test>
   </testgroup>
   <testgroup label="blwf">
+    <test label="fa-halant-fa">
+      <string>\u0cde\u0ccd\u0cde</string>
+    </test>
     <test label="ka-halant-ka and with ZW[N]J">
       <string>\u0c95\u0ccd\u0c95 \u0c95\u0ccd\u200c\u0c95 \u0c95\u0ccd\u200d\u0c95</string>
     </test>
@@ -67,7 +73,7 @@
     <test label="kha-halant-kha and with ZW[N]J">
       <string>\u0c96\u0ccd\u0c96 \u0c96\u0ccd\u200c\u0c96 \u0c96\u0ccd\u200d\u0c96</string>
     </test>
-    <test label="init ra with ZW[N]J after virama (OT spec)">
+    <test label="init ra sub ka with ZW[N]J after virama (OT spec)">
       <string>\u0cb0\u0ccd\u200c\u0c95 \u0cb0\u0ccd\u200d\u0c95</string>
     </test>
     <test label="ra sub ka with ZW[N]J before virama (TUS ch. 12)">

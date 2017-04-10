@@ -9,14 +9,14 @@ table(glyph)
 	cls_matras = ( g_imatra g_iimatra g_umatra g_uumatra
 		g_rvocalicmatra g_rrvocalicmatra cls_matraToBase );
 	cls_takesLargeEmatra = ( g_nga g_nya g_rra );
-	cls_takesUbasedMatra = ( g_pa g_pa_base g_pha g_pha_base g_va g_va_base);
-	cls_UbasedMatra = ( g_umatra g_uumatra
-		g_omatra g_oomatra );
+	cls_takesUbasedMatra = ( g_pa g_pa_base g_pha g_pha_base g_va g_va_base );
+	cls_UbasedMatra = ( g_umatra g_uumatra g_omatra g_oomatra );
 	cls_LargeUbasedMatra = ( g_umatra_large g_uumatra_large
 		g_omatra_large g_oomatra_large );
-	cls_cons = ( g_ka g_kha g_ga g_gha g_nga g_ca g_cha g_ja g_jha g_nya g_tta
-		g_ttha g_dda g_ddha g_nna g_ta g_tha g_da g_dha g_na g_pa g_pha g_ba
-		g_bha g_ma g_ya g_ra g_rra g_la g_lla g_va g_sha g_ssa g_sa g_ha );
+	cls_takesLargeRaSubCons = ( g_gha g_cha g_jha g_ddha
+		g_tha g_dha g_pha g_bha );
+	cls_cons = ( cno_sub g_ra );
+	cls_subCons = ( csub g_ra_below );
 	cls_vowel = ( g_avowel g_aavowel g_ivowel g_iivowel g_uvowel g_uuvowel
 		g_rvocalicvowel g_lvocalicvowel g_evowel g_eevowel g_aivowel g_ovowel
 		g_oovowel g_auvowel );
@@ -44,7 +44,7 @@ pass(2)
 	g_shortrr _ > _ @1:(1 2) / _ cls_matras ^ _;
 
 	// advance past sub forms
-	g_shortrr _ > _ @1:(1 2) / _ csub ^ _;
+	g_shortrr _ > _ @1:(1 2) / _ cls_subCons ^ _;
 
 	// block ra->reph for virama ra
 	g_ra g_virama > @2 @3 / g_virama _ _ cls_cons;
@@ -57,8 +57,13 @@ endpass;
 pass(3)
 
 	// blwf
-	g_virama cno_sub > _ csub:(1 2) / cno_sub _ _;
-	g_virama cno_sub > _ csub:(1 2) / csub _ _;
+
+	// most consonants
+	g_virama cls_cons > _ cls_subCons:(1 2) / cls_cons _ _;
+	g_virama cls_cons > _ cls_subCons:(1 2) / cls_subCons _ _;
+
+	// special handling of ra sub form
+	g_shortrr > g_ra_below_ra / g_ra _;
 
 endpass;
 
@@ -71,14 +76,14 @@ pass(4)
 	// move matras over sub forms
 
 	// one sub form
-	cls_cons csub cls_matras > @1 @3 @2;
-	cls_cons csub cls_matras cls_matras > @1 @3 @4 @2;
-	// cls_cons csub cls_matras cls_matras cls_matras > @1 @3 @4 @5 @2;
+	cls_cons cls_subCons cls_matras > @1 @3 @2;
+	cls_cons cls_subCons cls_matras cls_matras > @1 @3 @4 @2;
+	// cls_cons cls_subCons cls_matras cls_matras cls_matras > @1 @3 @4 @5 @2;
 
 	// two sub forms
-	cls_cons csub csub cls_matras > @1 @4 @2 @3;
-	cls_cons csub csub cls_matras cls_matras > @1 @4 @5 @2 @3;
-	// cls_cons csub csub cls_matras cls_matras cls_matras > @1 @4 @5 @6 @2 @3;
+	cls_cons cls_subCons cls_subCons cls_matras > @1 @4 @2 @3;
+	cls_cons cls_subCons cls_subCons cls_matras cls_matras > @1 @4 @5 @2 @3;
+	// cls_cons cls_subCons cls_subCons cls_matras cls_matras cls_matras > @1 @4 @5 @6 @2 @3;
 
 endpass;
 
@@ -101,8 +106,15 @@ endpass;
 pass(6)
 
 	// blws
+
+	// conjuncts
 	g_ta_sub g_ya_sub > _ g_ta_ya_sub:(1 2);
 	g_ta_sub g_va_sub > _ g_ta_va_sub:(1 2);
+
+	// special handling of ra sub forms
+	g_ra_below > g_ra_below_angleright / cls_subCons _;
+	g_ra_below > g_ra_below_large / cls_takesLargeRaSubCons _;
+
 	// TODO:
 	// Should
 	// ka_rvocalicmatra.sub, ta_rvocalicmatra.sub,

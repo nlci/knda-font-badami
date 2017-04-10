@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1250825684
-ModificationTime: 1488342389
+ModificationTime: 1491624279
 PfmFamily: 81
 TTFWeight: 700
 TTFWidth: 5
@@ -12157,6 +12157,7 @@ StartChar: ra.below
 Encoding: 240 -1 240
 Width: 23
 Flags: W
+AnchorPoint: "Sub" 197 -282 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12241,6 +12242,7 @@ StartChar: ra.below.ra
 Encoding: 242 -1 242
 Width: 159
 Flags: W
+AnchorPoint: "Sub" 132 -312 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12290,6 +12292,7 @@ StartChar: ra.below.large
 Encoding: 244 -1 244
 Width: 22
 Flags: W
+AnchorPoint: "Sub" -35 -297 basemark 0
 LayerCount: 2
 Fore
 SplineSet
