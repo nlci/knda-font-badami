@@ -29,8 +29,26 @@
     <test label="ra sub ra">
       <string>\u0cb0\u0ccd\u0cb0</string>
     </test>
+    <test label="ra sub ra iimatra">
+      <string>\u0cb0\u0ccd\u0cb0\u0cc0 \u0cb0\u0ccd\u0cb0\u0cbf\u0cd5</string>
+    </test>
+    <test label="ra sub ra uumatra">
+      <string>\u0cb0\u0ccd\u0cb0\u0cc2</string>
+    </test>
+    <test label="ra sub ra oomatra">
+      <string>\u0cb0\u0ccd\u0cb0\u0ccb \u0cb0\u0ccd\u0cb0\u0cca\u0cd5 \u0cb0\u0ccd\u0cb0\u0cc6\u0cc2\u0cd5</string>
+    </test>
     <test label="ra sub ra sub ra">
       <string>\u0cb0\u0ccd\u0cb0\u0ccd\u0cb0</string>
+    </test>
+    <test label="ra sub ra sub ra iimatra">
+      <string>\u0cb0\u0ccd\u0cb0\u0ccd\u0cb0\u0cc0 \u0cb0\u0ccd\u0cb0\u0ccd\u0cb0\u0cbf\u0cd5</string>
+    </test>
+    <test label="ra sub ra sub ra uumatra">
+      <string>\u0cb0\u0ccd\u0cb0\u0ccd\u0cb0\u0cc2</string>
+    </test>
+    <test label="ra sub ra sub ra oomatra">
+      <string>\u0cb0\u0ccd\u0cb0\u0ccd\u0cb0\u0ccb \u0cb0\u0ccd\u0cb0\u0ccd\u0cb0\u0cca\u0cd5 \u0cb0\u0ccd\u0cb0\u0ccd\u0cb0\u0cc6\u0cc2\u0cd5</string>
     </test>
     <test label="ra-halant-ka-halant-kha">
       <string>\u0cb0\u0ccd\u0c95\u0ccd\u0c96</string>
@@ -93,6 +111,21 @@
     </test>
     <test label="jha sub ra sub ya">
       <string>\u0c9d\u0ccd\u0cb0\u0ccd\u0caf</string>
+    </test>
+    <test label="ssa sub tta iimatra">
+      <string>\u0cb7\u0ccd\u0c9f\u0cc0 \u0cb7\u0ccd\u0c9f\u0cbf\u0cd5</string>
+    </test>
+    <test label="ssa sub tta uumatra">
+      <string>\u0cb7\u0ccd\u0c9f\u0cc2</string>
+    </test>
+    <test label="ssa sub tta oomatra">
+      <string>\u0cb7\u0ccd\u0c9f\u0ccb \u0cb7\u0ccd\u0c9f\u0cca\u0cd5 \u0cb7\u0ccd\u0c9f\u0cc6\u0cc2\u0cd5</string>
+    </test>
+    <test label="ssa sub tta sub ra iimatra">
+      <string>\u0cb7\u0ccd\u0c9f\u0ccd\u0cb0\u0cc0 \u0cb7\u0ccd\u0c9f\u0ccd\u0cb0\u0cbf\u0cd5</string>
+    </test>
+    <test label="ssa sub tta sub ra uumatra">
+      <string>\u0cb7\u0ccd\u0c9f\u0ccd\u0cb0\u0cc2</string>
     </test>
     <test label="ssa sub tta sub ra oomatra">
       <string>\u0cb7\u0ccd\u0c9f\u0ccd\u0cb0\u0ccb \u0cb7\u0ccd\u0c9f\u0ccd\u0cb0\u0cca\u0cd5 \u0cb7\u0ccd\u0c9f\u0ccd\u0cb0\u0cc6\u0cc2\u0cd5</string>
