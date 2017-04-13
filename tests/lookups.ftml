@@ -35,6 +35,9 @@
     <test label="ra sub ra uumatra">
       <string>\u0cb0\u0ccd\u0cb0\u0cc2</string>
     </test>
+    <test label="ra sub ra aimatra">
+      <string>\u0cb0\u0ccd\u0cb0\u0cc8 \u0cb0\u0ccd\u0cb0\u0cc6\u0cd6</string>
+    </test>
     <test label="ra sub ra oomatra">
       <string>\u0cb0\u0ccd\u0cb0\u0ccb \u0cb0\u0ccd\u0cb0\u0cca\u0cd5 \u0cb0\u0ccd\u0cb0\u0cc6\u0cc2\u0cd5</string>
     </test>
@@ -46,6 +49,9 @@
     </test>
     <test label="ra sub ra sub ra uumatra">
       <string>\u0cb0\u0ccd\u0cb0\u0ccd\u0cb0\u0cc2</string>
+    </test>
+    <test label="ra sub ra sub ra aimatra">
+      <string>\u0cb0\u0ccd\u0cb0\u0ccd\u0cb0\u0cc8 \u0cb0\u0ccd\u0cb0\u0ccd\u0cb0\u0cc6\u0cd6</string>
     </test>
     <test label="ra sub ra sub ra oomatra">
       <string>\u0cb0\u0ccd\u0cb0\u0ccd\u0cb0\u0ccb \u0cb0\u0ccd\u0cb0\u0ccd\u0cb0\u0cca\u0cd5 \u0cb0\u0ccd\u0cb0\u0ccd\u0cb0\u0cc6\u0cc2\u0cd5</string>
@@ -118,6 +124,9 @@
     <test label="ssa sub tta uumatra">
       <string>\u0cb7\u0ccd\u0c9f\u0cc2</string>
     </test>
+    <test label="ssa sub tta aimatra">
+      <string>\u0cb7\u0ccd\u0c9f\u0cc8 \u0cb7\u0ccd\u0c9f\u0cc6\u0cd6</string>
+    </test>
     <test label="ssa sub tta oomatra">
       <string>\u0cb7\u0ccd\u0c9f\u0ccb \u0cb7\u0ccd\u0c9f\u0cca\u0cd5 \u0cb7\u0ccd\u0c9f\u0cc6\u0cc2\u0cd5</string>
     </test>
@@ -126,6 +135,9 @@
     </test>
     <test label="ssa sub tta sub ra uumatra">
       <string>\u0cb7\u0ccd\u0c9f\u0ccd\u0cb0\u0cc2</string>
+    </test>
+    <test label="ssa sub tta sub ra aimatra">
+      <string>\u0cb7\u0ccd\u0c9f\u0ccd\u0cb0\u0cc8 \u0cb7\u0ccd\u0c9f\u0ccd\u0cb0\u0cc6\u0cd6</string>
     </test>
     <test label="ssa sub tta sub ra oomatra">
       <string>\u0cb7\u0ccd\u0c9f\u0ccd\u0cb0\u0ccb \u0cb7\u0ccd\u0c9f\u0ccd\u0cb0\u0cca\u0cd5 \u0cb7\u0ccd\u0c9f\u0ccd\u0cb0\u0cc6\u0cc2\u0cd5</string>
