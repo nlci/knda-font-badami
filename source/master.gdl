@@ -37,6 +37,12 @@ pass(1)
 	_ g_eematra > g_ematra:2 g_lengthmark;
 	_ g_iimatra > g_imatra:2 g_lengthmark;
 
+	// pass ra sub ra sunb ra to next pass
+	g_ra g_virama g_ra g_virama g_ra > @1 @2 @3 @4 @5;
+
+	// special handling of ra sub ra form
+	g_virama g_ra > _ g_ra_below:(1 2) / g_ra _ _;
+
 endpass;
 
 pass(2)
@@ -63,21 +69,12 @@ endpass;
 pass(3)
 
 	// blwf
-
-	// most consonants
 	g_virama cls_cons > _ cls_subCons:(1 2) / cls_cons _ _;
 	g_virama cls_cons > _ cls_subCons:(1 2) / cls_subCons _ _;
-
-	// special handling of ra sub form
-	g_shortrr > g_ra_below_ra / g_ra _;
 
 endpass;
 
 pass(4)
-
-	// #define opt(x)      [x]?
-	// #define opt2(x)     [opt(x) x]?
-	// #define opt3(x)     [opt2(x) x]?
 
 	// move matras over sub forms
 
@@ -111,20 +108,13 @@ endpass;
 pass(6)
 
 	// blws
-
-	// conjuncts
 	g_ta_sub g_ya_sub > _ g_ta_ya_sub:(1 2);
 	g_ta_sub g_va_sub > _ g_ta_va_sub:(1 2);
-
-	// special handling of ra sub forms
-	g_ra_below > g_ra_below_angleright / cls_subCons _;
-	g_ra_below > g_ra_below_large / cls_takesLargeRaSubCons _;
-
-	// TODO:
-	// Should
-	// ka_rvocalicmatra.sub, ta_rvocalicmatra.sub,
-	// ta_ailengthmark.sub, ra_ailengthmark.sub
-	// be here as well?
+	g_rvocalicmatra g_ka_sub > _ g_ka_rvocalicmatra_sub:(1 2);
+	g_rvocalicmatra g_ta_sub > _ g_ta_rvocalicmatra_sub:(1 2);
+	g_ta_sub g_ailengthmark > _ g_ta_ailengthmark_sub:(1 2);
+	g_ra_below g_ailengthmark > _ g_ra_ailengthmark_sub:(1 2);
+	g_sha_imathra g_ra_below > _ g_sha_ra_imathra:(1 2);
 
 endpass;
 
@@ -133,6 +123,13 @@ pass(7)
 	// psts
 	g_umatra > g_umatra_large / cls_takesUbasedMatra _;
 	g_uumatra > g_uumatra_large / cls_takesUbasedMatra g_ematra? _;
+
+	// special handling of ra sub forms
+	g_ra_below > g_ra_below_angleright / cls_subCons _;
+	g_ra_below > g_ra_below_large / cls_takesLargeRaSubCons _;
+	g_ra_below > g_ra_below_ra / g_ra_imathra _;
+	g_ra_below > g_ra_below_ra / g_ra opt(cls_subConsPassMatras) _;
+	g_ra_below > g_ra_below_ra / g_ra_base opt2(cls_subConsPassMatras) _;
 
 endpass;
 

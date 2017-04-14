@@ -118,6 +118,9 @@
     <test label="jha sub ra sub ya">
       <string>\u0c9d\u0ccd\u0cb0\u0ccd\u0caf</string>
     </test>
+    <test label="sha sub ra iimatra">
+      <string>\u0cb6\u0ccd\u0cb0\u0cc0 \u0cb6\u0ccd\u0cb0\u0cbf\u0cd5</string>
+    </test>
     <test label="ssa sub tta iimatra">
       <string>\u0cb7\u0ccd\u0c9f\u0cc0 \u0cb7\u0ccd\u0c9f\u0cbf\u0cd5</string>
     </test>
@@ -212,6 +215,18 @@
       <test label="sub ligature (ta-va) with matra">
         <string>\u0c95\u0ccd\u0ca4\u0ccd\u0cb5\u0cc0</string>
       </test>
+      <test label="sub ligature (sa-ka) with rvocalicmatra">
+        <string>\u0cb8\u0ccd\u0c95\u0cc3</string>
+      </test>
+      <test label="sub ligature (sa-ta) with rvocalicmatra">
+        <string>\u0cb8\u0ccd\u0ca4\u0cc3</string>
+      </test>
+      <test label="sub ligature (sa-ta) with ailengthmark">
+        <string>\u0cb8\u0ccd\u0ca4\u0cd6</string>
+      </test>
+      <test label="sub ligature (sa-ra) with ailengthmark">
+        <string>\u0cb8\u0ccd\u0cb0\u0cd6</string>
+      </test>
   </testgroup>
   <testgroup label="psts">
     <test label="ba-u">
@@ -278,9 +293,6 @@
     </test>
   </testgroup>
   <testgroup label="extra">
-    <test label="sub sub">
-      <string>ರಾಷ್ಟ್ರೀಯ</string>
-    </test>
     <test label="ot spec example">
       <string>\u0cb0\u0ccd\u0c95\u0ccd\u0cb7\u0ccd\u0cb8\u0cbf\u0cc7</string>
     </test>
