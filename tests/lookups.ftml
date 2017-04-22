@@ -85,29 +85,41 @@
     <test label="fa-halant-fa">
       <string>\u0cde\u0ccd\u0cde</string>
     </test>
-    <test label="ka-halant-ka and with ZW[N]J">
-      <string>\u0c95\u0ccd\u0c95 \u0c95\u0ccd\u200c\u0c95 \u0c95\u0ccd\u200d\u0c95</string>
+    <test label="ka-halant-ka">
+      <string>\u0c95\u0ccd\u0c95</string>
     </test>
-    <test label="ka-halant-kha and with ZW[N]J">
-      <string>\u0c95\u0ccd\u0c96 \u0c95\u0ccd\u200c\u0c96 \u0c95\u0ccd\u200d\u0c96</string>
+    <test label="ka-halant-kha">
+      <string>\u0c95\u0ccd\u0c96</string>
     </test>
-    <test label="kha-halant-ka and with ZW[N]J">
-      <string>\u0c96\u0ccd\u0c95 \u0c96\u0ccd\u200c\u0c95 \u0c96\u0ccd\u200d\u0c95</string>
+    <test label="kha-halant-ka">
+      <string>\u0c96\u0ccd\u0c95</string>
     </test>
-    <test label="kha-halant-kha and with ZW[N]J">
-      <string>\u0c96\u0ccd\u0c96 \u0c96\u0ccd\u200c\u0c96 \u0c96\u0ccd\u200d\u0c96</string>
+    <test label="kha-halant-kha">
+      <string>\u0c96\u0ccd\u0c96</string>
     </test>
-    <test label="init ra sub ka with ZW[N]J after virama (OT spec)">
+    <test label="ra sub ka with ZW[N]J after virama (OT spec)">
       <string>\u0cb0\u0ccd\u200c\u0c95 \u0cb0\u0ccd\u200d\u0c95</string>
     </test>
     <test label="ra sub ka with ZW[N]J before virama (TUS ch. 12)">
       <string>\u0cb0\u200c\u0ccd\u0c95 \u0cb0\u200d\u0ccd\u0c95</string>
     </test>
+    <test label="ka sub ka with ZW[N]J after virama (OT spec)">
+      <string>\u0c95\u0ccd\u200c\u0c95 \u0c95\u0ccd\u200d\u0c95</string>
+    </test>
+    <test label="ka sub ka with ZW[N]J before virama (TUS ch. 12)">
+      <string>\u0c95\u200c\u0ccd\u0c95 \u0c95\u200d\u0ccd\u0c95</string>
+    </test>
     <test label="ra sub ra with ZW[N]J before virama">
       <string>\u0cb0\u200c\u0ccd\u0cb0 \u0cb0\u200d\u0ccd\u0cb0</string>
     </test>
-    <test label="ka sub ra and sub ra alone">
-      <string>\u0c95\u0ccd\u0cb0 \u00a0\u200d\u0ccd\u0cb0</string>
+    <test label="ka sub ra">
+      <string>\u0c95\u0ccd\u0cb0</string>
+    </test>
+    <test label="sub ra alone">
+      <string>\u00a0\u200d\u0ccd\u0cb0</string>
+    </test>
+    <test label="sub ka alone">
+      <string>\u00a0\u200d\u0ccd\u0c95</string>
     </test>
     <test label="ta sub ra sub ya">
       <string>\u0ca4\u0ccd\u0cb0\u0ccd\u0caf</string>

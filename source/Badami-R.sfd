@@ -4651,7 +4651,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: nbspace
+StartChar: nbsp
 Encoding: 106 160 106
 Width: 300
 VWidth: 500

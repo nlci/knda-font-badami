@@ -69,8 +69,20 @@ endpass;
 pass(3)
 
 	// blwf
+
+	// general case
 	g_virama cls_cons > _ cls_subCons:(1 2) / cls_cons _ _;
 	g_virama cls_cons > _ cls_subCons:(1 2) / cls_subCons _ _;
+
+	// special case for ra
+	g_virama g_zwj cls_cons > _ _ cls_subCons:(1 2 3) / g_ra _ _ _;
+
+	// handle general case of ZWNJ and ZWJ
+	g_zwnj g_virama cls_cons > _ _ cls_subCons:(1 2 3) / cls_cons _ _ _;
+	g_zwj g_virama cls_cons > _ _ cls_subCons:(1 2 3) / cls_cons _ _ _;
+
+	// sub marks in isolation
+	g_zwj g_virama cls_cons > _ _ cls_subCons:(1 2 3) / g_nbsp _ _ _;
 
 endpass;
 
