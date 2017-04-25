@@ -6,7 +6,30 @@
     <fontsrc>url(../results/KNDABadami-Regular.ttf)</fontsrc>
     <title>Issues</title>
   </head>
-  <testgroup label="extra">
+  <testgroup label="halant as vowel">
+    <test label="extra vowel and ZW[N]J after virama">
+      <string>\u0c95\u0ccd\u0cd5\u0c82 \u0c95\u0ccd\u200c\u0cd5\u0c82 \u0c95\u0ccd\u200d\u0cd5\u0c82</string>
+    </test>
+    <test label="extra vowel and ZW[N]J before virama">
+      <string>\u0c95\u0ccd\u0cd5\u0c82 \u0c95\u200c\u0ccd\u0cd5\u0c82 \u0c95\u200d\u0ccd\u0cd5\u0c82</string>
+    </test>
+    <test label="extra vowel using NBSP and ZW[N]J after virama">
+      <string>\u0c95\u0ccd\u00a0\u0cd5\u00a0\u0c82 \u0c95\u0ccd\u200c\u00a0\u0cd5\u00a0\u0c82 \u0c95\u0ccd\u200d\u00a0\u0cd5\u00a0\u0c82</string>
+    </test>
+    <test label="extra vowel using NBSP and ZW[N]J before virama">
+      <string>\u0c95\u0ccd\u00a0\u0cd5\u00a0\u0c82 \u0c95\u200c\u0ccd\u00a0\u0cd5\u00a0\u0c82 \u0c95\u200d\u0ccd\u00a0\u0cd5\u00a0\u0c82</string>
+    </test>
+    <test label="extra vowel using NBSP and ZW[N]J twice after virama">
+      <string>\u0c95\u0ccd\u00a0\u0cd5\u00a0\u0c82 \u0c95\u0ccd\u200c\u00a0\u200c\u0cd5\u00a0\u0c82 \u0c95\u0ccd\u200d\u00a0\u200d\u0cd5\u00a0\u0c82</string>
+    </test>
+    <test label="extra vowel using NBSP and ZW[N]J twice before virama">
+      <string>\u0c95\u0ccd\u00a0\u0cd5\u00a0\u0c82 \u0c95\u0ccd\u00a0\u200c\u0cd5\u00a0\u0c82 \u0c95\u200d\u0ccd\u00a0\u200d\u0cd5\u00a0\u0c82</string>
+    </test>
+  </testgroup>
+  <testgroup label="words">
+    <test label="r1 and with ZW[N]J after virama">
+      <string>\u0c95\u0ca8\u0ccd\u0ca8\u0cc0\u0cb0\u0ccd\u0cb0 \u0c95\u0ca8\u0ccd\u0ca8\u0cc0\u0cb0\u0ccd\u200c\u0cb0 \u0c95\u0ca8\u0ccd\u0ca8\u0cc0\u0cb0\u0ccd\u200d\u0cb0</string>
+    </test>
     <test label="r1 and with ZW[N]J before virama">
       <string>\u0c95\u0ca8\u0ccd\u0ca8\u0cc0\u0cb0\u0ccd\u0cb0 \u0c95\u0ca8\u0ccd\u0ca8\u0cc0\u0cb0\u200c\u0ccd\u0cb0 \u0c95\u0ca8\u0ccd\u0ca8\u0cc0\u0cb0\u200d\u0ccd\u0cb0</string>
     </test>
