@@ -4,7 +4,7 @@ table(glyph)
 
 	//	Classes
 
-	cls_matraToBase = ( g_aamatra g_ematra g_aumatra );
+	cls_matraToBase = ( g_aamatra g_ematra g_aumatra g_virama );
 	cls_subConsPassMatras = ( g_imatra g_umatra g_uumatra
 		g_rvocalicmatra g_rrvocalicmatra cls_matraToBase );
 	cls_rephPassMatras = ( cls_subConsPassMatras g_lengthmark g_ailengthmark );
@@ -106,7 +106,7 @@ pass(5)
 
 	// pres2? abvs
 
-	// vowel signs and parts AA, E, AU
+	// vowel signs and parts AA, E, AU and haln
 	cno_base > cbase / _ cls_matraToBase;
 
 	// different E matra
@@ -142,13 +142,6 @@ pass(7)
 	g_ra_below > g_ra_below_ra / g_ra_imathra _;
 	g_ra_below > g_ra_below_ra / g_ra opt(cls_subConsPassMatras) _;
 	g_ra_below > g_ra_below_ra / g_ra_base opt2(cls_subConsPassMatras) _;
-
-endpass;
-
-pass(8)
-
-	// haln
-	cno_base > cbase / _ g_virama;
 
 endpass;
 
