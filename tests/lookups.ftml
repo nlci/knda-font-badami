@@ -166,6 +166,15 @@
     <test label="ya sub fa ematra">
       <string>\u0caf\u0ccd\u0cde\u0cc6</string>
     </test>
+    <test label="na halant">
+      <string>\u0ca8\u0ccd</string>
+    </test>
+    <test label="na halant zwnj da">
+      <string>\u0ca8\u0ccd\u200c\u0ca6</string>
+    </test>
+    <test label="na halant da">
+      <string>\u0ca8\u0ccd\u0ca6</string>
+    </test>
   </testgroup>
   <testgroup label="pres2 ?, abvs">
     <test label="ka-aamatra">
