@@ -4,6 +4,9 @@ table(glyph)
 
 	//	Classes
 
+	cls_vowel = ( g_avowel g_aavowel g_ivowel g_iivowel g_uvowel g_uuvowel
+		g_rvocalicvowel g_lvocalicvowel g_evowel g_eevowel g_aivowel g_ovowel
+		g_oovowel g_auvowel g_rrvocalicvowel g_llvocalicvowel );
 	cls_matraToBase = ( g_aamatra g_ematra g_aumatra g_virama );
 	cls_subConsPassMatras = ( g_imatra g_umatra g_uumatra
 		g_rvocalicmatra g_rrvocalicmatra cls_matraToBase );
@@ -14,11 +17,6 @@ table(glyph)
 		g_tha g_dha g_pha g_bha );
 	cls_cons = ( cno_sub g_ra );
 	cls_subCons = ( csub g_ra_below );
-
-	// may not be needed
-	// cls_vowel = ( g_avowel g_aavowel g_ivowel g_iivowel g_uvowel g_uuvowel
-		// g_rvocalicvowel g_lvocalicvowel g_evowel g_eevowel g_aivowel g_ovowel
-		// g_oovowel g_auvowel );
 
 endtable; // glyph
 
@@ -80,6 +78,9 @@ pass(3)
 	// handle general case of ZWNJ and ZWJ
 	g_zwnj g_virama cls_cons > _ _ cls_subCons:(1 2 3) / cls_cons _ _ _;
 	g_zwj g_virama cls_cons > _ _ cls_subCons:(1 2 3) / cls_cons _ _ _;
+
+	// retroflexion in badaga vowels
+	g_virama g_fa > _ g_fa_sub:(1 2) / cls_vowel _ _;
 
 	// sub marks in isolation
 	g_zwj g_virama cls_cons > _ _ cls_subCons:(1 2 3) / g_nbsp _ _ _;

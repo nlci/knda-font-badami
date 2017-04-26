@@ -160,6 +160,12 @@
     <test label="ssa sub tta sub ra oomatra">
       <string>\u0cb7\u0ccd\u0c9f\u0ccd\u0cb0\u0ccb \u0cb7\u0ccd\u0c9f\u0ccd\u0cb0\u0cca\u0cd5 \u0cb7\u0ccd\u0c9f\u0ccd\u0cb0\u0cc6\u0cc2\u0cd5</string>
     </test>
+    <test label="u sub fa">
+      <string>\u0c89\u0ccd\u0cde</string>
+    </test>
+    <test label="ya sub fa ematra">
+      <string>\u0caf\u0ccd\u0cde\u0cc6</string>
+    </test>
   </testgroup>
   <testgroup label="pres2 ?, abvs">
     <test label="ka-aamatra">
