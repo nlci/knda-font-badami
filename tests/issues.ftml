@@ -45,5 +45,17 @@
     <test label="m and with ZW[N]J before virama">
       <string>\u0ca4\u0c95\u0ccd\u0c95\u0ccd\u0c82\u0ca6\u0ccd \u0ca4\u0c95\u0ccd\u0c95\u200c\u0ccd\u0c82\u0ca6\u0ccd \u0ca4\u0c95\u0ccd\u0c95\u200d\u0ccd\u0c82\u0ca6\u0ccd</string>
     </test>
+    <test label="pt1 and with ZW[N]J after virama">
+      <string>\u0cb0\u0ccd\u0caf\u0cbe \u0cb0\u0ccd\u200c\u0caf\u0cbe \u0cb0\u0ccd\u200d\u0caf\u0cbe</string>
+    </test>
+    <test label="pt1 and with ZW[N]J before virama">
+      <string>\u0cb0\u0ccd\u0caf\u0cbe \u0cb0\u200c\u0ccd\u0caf\u0cbe \u0cb0\u200d\u0ccd\u0caf\u0cbe</string>
+    </test>
+    <test label="pt2 and with ZW[N]J after virama">
+      <string>\u0cb0\u0ccd\u0cb9\u0cbe \u0cb0\u0ccd\u200c\u0cb9\u0cbe \u0cb0\u0ccd\u200d\u0cb9\u0cbe</string>
+    </test>
+    <test label="pt2 and with ZW[N]J before virama">
+      <string>\u0cb0\u0ccd\u0cb9\u0cbe \u0cb0\u200c\u0ccd\u0cb9\u0cbe \u0cb0\u200d\u0ccd\u0cb9\u0cbe</string>
+    </test>
   </testgroup>
 </ftml>
