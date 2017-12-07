@@ -1,0 +1,39 @@
+\begin[class=fontproof]{document}
+\setTestFont[filename="/script/knda/fonts/badami/results/KNDABadami-Regular.ttf"]
+
+\section{Kannada}
+
+\subsection{Name}
+
+\proof{ಕನ್ನಡ ಲಿಪಿ}
+
+\proof[size="10,11,12,16",heading=Body text]{ಕನ್ನಡ ಲಿಪಿ}
+
+\proof[size="18,24,30,36",heading=Heading text]{ಕನ್ನಡ ಲಿಪಿ}
+
+\section{Patterns}
+
+\pattern[chars="I",reps="ಅಕ",heading=Sample mixed script]{aIb}
+
+\patterngroup[name="vowels"]{ಅಆ}
+\patterngroup[name="cons"]{ಕಖ}
+\patterngroup[name="matras"]{ಾಿ}
+\pattern[chars="e,k,o,w",reps="group_vowels,group_cons,group_vowels,group_cons",heading=Lowercase]{text_az}
+\pattern[chars="E,K,O,W",reps="group_vowels,group_cons,group_vowels,group_cons",heading=Uppercase]{text_AZ}
+\pattern[chars="C,M",reps="group_cons,group_matras",heading=Some matra combinations]{ಅCMಕ}
+
+\patterngroup[name="digits"]{೦೧೨೩೪೫೬೭೮೯}
+\pattern[chars="@",reps="group_digits",heading=Digits]{೦@೧@೨@೩@೪@೫@೬@೭@೮@೯}
+
+\pattern[chars="¡,¿",reps="।,॥",heading=Punctuation]{text_punct}
+
+\section{Generated}
+
+\subsection{Latin text}
+\pangrams
+\lorem[words=100]
+
+\subsection{Glyphs}
+\repertoire
+
+\end{document}

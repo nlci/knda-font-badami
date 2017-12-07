@@ -1,0 +1,58 @@
+%!TEX TS-program = xetex-xdvipdfmx
+%!TEX encoding = UTF-8 Unicode
+
+\input ../tools/font-tests.tex
+%\labelsfalse will turn off sample labels
+%\labelstrue will turn them back on
+
+\papersize{a4}
+%\landscape will turn page
+%\landscapefalse will undo it
+
+%\testfont{KNDA Badami}
+\testfont\buildfont
+%font features can be specified as part of the font name (see separate docs)
+
+\sizes={4,5,6,7,8,9,10,11,12,14,16,18,20,22,24,26,28,30}
+%\sub a {\N{a.SngStory}} % specifies glyph by name
+%\sub n {\U{014B}} % specifies glyph by codepoint
+%\sub o {\G{123}} % specifies glyph by ID
+
+\dotext ಕನ್ನಡ ಲಿಪಿ
+
+\text={ಮಾನವ ಕುಟುಂಬದ ಸಮಸ್ತ ಸದಸ್ಯರ ಸಹಜ ಗೌರವವನ್ನೂ ಸಮಾನವೂ ಅನನ್ಯಹಾರ್ಯವೂ ಆದ ಹಕ್ಕುಗಳನ್ನು ಅಂಗೀಕರಿಸುವುದು ಪ್ರಪಂಚದಲ್ಲಿ ಸ್ವಾತಂತ್ರ್ಯದ ಧರ್ಮಶಾಂತತೆಗಳ ತಳಹದಿಯಾಗಿರುವುದರಿಂದಲೂ.}
+\dotext
+
+\sizes={5,7,10,12,18,24}
+
+\dofile{../tests/preamble.text}
+
+\class C {\U{0C95}, \U{0C96}}
+\class M {\U{0CBE}, \U{0CBF}}
+\class V {\U{0CCD}}
+\sizes={6,7,8,9,10}
+\columns=5
+
+\dotext @C@V@C@M
+%the only special character is the @ symbol, @@ will include it
+
+\clearsubs
+
+\columns=2
+\sizes={9/11,9/13,9/12,9/14}
+
+\dotext
+
+\vfill
+\eject
+%will force page break
+
+\columns=1
+\sizes={9/11/2in,9/11/3in,12/14/4in,12/14/5in,12/14/*}
+%a paragraph width of * give infinite width (cutting off the page)
+\dotext
+
+\sizes={12/14/4.5in/L, 12/14/4.5in/C, 12/14/4.5in/R, 12/14/4.5in/J}
+\dotext
+
+\end
