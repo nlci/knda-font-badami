@@ -138,7 +138,7 @@ pass(7)
 	g_uumatra > g_uumatra_large / cls_takesUbasedMatra g_ematra? _;
 
 	// special handling of ra sub forms
-	g_ra_below > g_ra_below_angleright / cls_subCons _;
+	g_ra_below > g_ra_below_subcons / cls_subCons _;
 	g_ra_below > g_ra_below_large / cls_takesLargeRaSubCons _;
 	g_ra_below > g_ra_below_ra / g_ra_imathra _;
 	g_ra_below > g_ra_below_ra / g_ra opt(cls_subConsPassMatras) _;

@@ -399,7 +399,7 @@ lookup blwmBelowBaseMarkinKannadalookup4 {
 
 lookup abvsAboveBaseSubstitutionslookup1 {
   lookupflag 0;
-  markClass [\consonant.part ] <anchor -279 540> @V;
+  markClass [\inherent ] <anchor -279 540> @V;
   markClass [\ematra ] <anchor -226 535> @V;
   pos base [\jha.base ] <anchor 404 537> mark @V;
   pos base [\ma.base ] <anchor 537 535> mark @V;
@@ -446,7 +446,7 @@ feature abvm {
 	\K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z \bracketleft \backslash \bracketright
 	\asciicircum \underscore \grave \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u
 	\v \w \x \y \z \braceleft \bar \braceright \asciitilde \quoteleft \quoteright
-	\quotedblleft \quotedblright \angleleft \consonant.part1 \nbsp \anusvara \visarga
+	\quotedblleft \quotedblright \makewide \nbsp \anusvara \visarga
 	\avowel \aavowel \ivowel \iivowel \uvowel \uuvowel \rvocalicvowel \rvocalicvowel.part \lvocalicvowel \lvocalicvowel.part
 	\evowel \eevowel \aivowel \ovowel \oovowel \auvowel \ka.base \ka_rvocalicmatra.sub
 	\kha.base \ga.base \gha.base \ca.base \cha.base \ja.base
@@ -456,7 +456,7 @@ feature abvm {
 	\dha.base \na.base \pa.base \pha.base \ba.base \bha.base
 	\ma.base \ma.base.mathra \ma.part \ya.base \ya.part
 	\ya.part.i \ya.base.mathra \ra \ra.base \ra.below
-	\ra.below.angleright \ra.below.large \ra_ailengthmark.sub \la.base
+	\ra.below.subcons \ra.below.large \ra_ailengthmark.sub \la.base
 	\lla.base \va.base \sha.base \ssa.base \sa.base \ha.base \avagraha
 	\aamatra \imatra \iimatra \umatra \umatra.large \uumatra \uumatra.large \rvocalicmatra \rrvocalicmatra
 	\ematra.large \eematra \aimatra \omatra \omatra.large \oomatra \oomatra.large \aumatra \virama
@@ -512,7 +512,7 @@ feature abvm {
 	\sha \sha.imathra \sha.sub \sha_ra.imathra \ssa \ssa.imathra
 	\ssa.sub \sa \sa.imathra \sa.sub \ha \ha.imathra \ha.sub
 	\fa \fa.imathra ];
-@GDEF_Mark = [\consonant.part \ematra \nukta ];
+@GDEF_Mark = [\inherent \ematra \nukta ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
