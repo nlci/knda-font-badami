@@ -66,12 +66,17 @@ hackos2 = os2.hackos2(panose, codePageRange, unicodeRange)
 if '-l' in opts:
     for f, fLegacy in zip(faces, facesLegacy):
         for (s, sn, sLegacy) in zip(styles, stylesName, stylesLegacy):
+            # devpanini = '../../../../deva/fonts/panini/source/archive/PANI' + sLegacy + '.ttf'
+            devapanini = '../../../../deva/fonts/panini/results/DEVAPanini-Regular.ttf'
+            # charis = '../../../../latn/fonts/charis_local/5.000/zip/CharisSIL' + s + '.ttf'
             font(target = process(f + '-' + sn.replace(' ', '') + '.ttf',
-                    cmd('psfix ${DEP} ${TGT}'),
+                    cmd('cp ${DEP} ${TGT}'),
                     ),
                 source = legacy(f + s + '.ttf',
                                 source = fontbase + 'archive/' + fLegacy + sLegacy + '.ttf',
                                 xml = fontbase + 'badami_unicode.xml',
+                                # params = '-f ' + devapanini + ' -f ' + devpanini + ' -f ' + charis,
+                                params = '-f ' + devapanini,
                                 noap = '')
                 )
 

@@ -4661,7 +4661,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: visarga
+StartChar: u0C83
 Encoding: 108 3203 107
 Width: 508
 Flags: W

@@ -5108,7 +5108,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: visarga
+StartChar: u0C83
 Encoding: 108 3203 107
 Width: 281
 Flags: W
@@ -11966,7 +11966,7 @@ EndChar
 StartChar: ra.below.subcons
 Encoding: 243 -1 242
 Width: 210
-Flags: WO
+Flags: W
 LayerCount: 2
 Fore
 SplineSet

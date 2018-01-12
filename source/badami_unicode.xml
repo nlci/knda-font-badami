@@ -105,33 +105,55 @@
 -->
 
 <!-- characters from legacy font files that were not mapped before -->
+<glyph PSName="space.knda"><base UID="F020"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="exclam.knda"><base UID="F021"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="quoteleft.knda"><base UID="F022"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="quotedblleft.knda"><base UID="F022"><scale x="1.4" y="1.4"/></base><base UID="F022"><scale x="1.4" y="1.4"/></base></glyph>
-<glyph UID="25CC" PSName="u25CC"><base UID="F023"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph UID="25CC" PSName="dottedcircle"><base UID="F023"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName='spacingcandrabindu' UID='0C80'><base UID='F024'><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName='candrabindu' UID='0C81'><base UID='F024'><scale x="1.4" y="1.4"/></base></glyph>
+<glyph UID="0950" PSName="om"><base UID="F024"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="na_virama"><base UID="F026"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="quoteright.knda"><base UID="F027"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="quoterdblight.knda"><base UID="F027"><scale x="1.4" y="1.4"/></base><base UID="F027"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="parenleft.knda"><base UID="F028"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="parenright.knda"><base UID="F029"><scale x="1.4" y="1.4"/></base></glyph>
-<glyph UID="0964" PSName="u0964"><base UID="F02B"><scale x="1.4" y="1.4"/></base></glyph>
-<glyph UID="0965" PSName="u0965"><base UID="F02B"><scale x="1.4" y="1.4"/></base><base UID="F02B"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph UID="0964" PSName="danda"><base UID="F02B"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph UID="0965" PSName="doubledanda"><base UID="F02B"><scale x="1.4" y="1.4"/></base><base UID="F02B"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="comma.knda"><base UID="F02C"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="hyphen.knda"><base UID="F02D"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="period.knda"><base UID="F02E"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="slash.knda"><base UID="F02F"><scale x="1.4" y="1.4"/></base></glyph>
-<glyph UID="0030" PSName="zero"><base UID="F030"><scale x="1.4" y="1.4"/></base></glyph>
-<glyph UID="0031" PSName="one"><base UID="F031"><scale x="1.4" y="1.4"/></base></glyph>
-<glyph UID="0032" PSName="two"><base UID="F032"><scale x="1.4" y="1.4"/></base></glyph>
-<glyph UID="0033" PSName="three"><base UID="F033"><scale x="1.4" y="1.4"/></base></glyph>
-<glyph UID="0034" PSName="four"><base UID="F034"><scale x="1.4" y="1.4"/></base></glyph>
-<glyph UID="0035" PSName="five"><base UID="F035"><scale x="1.4" y="1.4"/></base></glyph>
-<glyph UID="0036" PSName="six"><base UID="F036"><scale x="1.4" y="1.4"/></base></glyph>
-<glyph UID="0037" PSName="seven"><base UID="F037"><scale x="1.4" y="1.4"/></base></glyph>
-<glyph UID="0038" PSName="eight"><base UID="F038"><scale x="1.4" y="1.4"/></base></glyph>
-<glyph UID="0039" PSName="nine"><base UID="F039"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="zero.knda"><base UID="F030"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="one.knda"><base UID="F031"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="two.knda"><base UID="F032"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="three.knda"><base UID="F033"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="four.knda"><base UID="F034"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="five.knda"><base UID="F035"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="six.knda"><base UID="F036"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="seven.knda"><base UID="F037"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="eight.knda"><base UID="F038"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="nine.knda"><base UID="F039"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="colon.knda"><base UID="F03A"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="semicolon.knda"><base UID="F03B"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="question.knda"><base UID="F03F"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="nbsp.knda"><base UID="F020"><advance width="1400"/></base></glyph>
+<glyph PSName='lvocalicmatra' UID='0CE2'><base UID='0962' font='1'><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName='llvocalicmatra' UID='0CE3'><base UID='0963' font='1'><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName='lvocalicmatra.alt'><base UID='0962' font='1'><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName='llvocalicmatra.alt'><base UID='0963' font='1'><scale x="1.4" y="1.4"/></base></glyph>
+<!--
+<glyph PSName='lvocalicmatra.alt'><base UID='F04A'><scale x="0.6" y="0.6"/><shift x="0" y="-300"/></base></glyph>
+<glyph PSName='llvocalicmatra.alt'><base UID='F04B'><scale x="0.6" y="0.6"/><shift x="0" y="-300"/></base></glyph>
+-->
+<glyph PSName='xmatra'><base UID='F0DC'><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName='jihvamuliya' UID='0CF1'><base UID='0079' font="1"/><scale x="1.0" y="1.0"/></glyph>
+<glyph PSName='upadhmaniya' UID='0CF2'><base UID='F04E'><scale x="1.9" y="1.9"/></base></glyph>
+<glyph PSName='udatta' UID='0951'><base UID='F09A'><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName='anudatta' UID='0952'><base UID='F09B'><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName='gravedeva' UID='0953'><base UID='F09C'><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName='acutedeva' UID='0954'><base UID='F09D'><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName='doublesvarita' UID='1CDA'><base UID='F09F'><scale x="1.4" y="1.4"/></base></glyph>
 
 <!-- original non-roman mapping -->
 <glyph PSName='angleleft'><base UID='F0E1'><scale x="1.4" y="1.4"/></base></glyph>

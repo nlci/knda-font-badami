@@ -4566,7 +4566,7 @@ EndChar
 StartChar: inherent
 Encoding: 103 -1 102
 Width: 14
-Flags: WO
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -4692,7 +4692,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: visarga
+StartChar: u0C83
 Encoding: 108 3203 107
 Width: 281
 Flags: W
