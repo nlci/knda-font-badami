@@ -115,7 +115,7 @@
 <glyph UID="0950" PSName="om"><base UID="F024"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="na_virama"><base UID="F026"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="quoteright.knda"><base UID="F027"><scale x="1.4" y="1.4"/></base></glyph>
-<glyph PSName="quoterdblight.knda"><base UID="F027"><scale x="1.4" y="1.4"/></base><base UID="F027"><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName="quotedblright.knda"><base UID="F027"><scale x="1.4" y="1.4"/></base><base UID="F027"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="parenleft.knda"><base UID="F028"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="parenright.knda"><base UID="F029"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph UID="0964" PSName="danda"><base UID="F02B"><scale x="1.4" y="1.4"/></base></glyph>
