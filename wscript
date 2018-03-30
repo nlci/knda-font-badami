@@ -23,9 +23,9 @@ STANDARDS='tests/reference'
 # set the font name, version, licensing and description
 script='knda'
 APPNAME='nlci-' + script
-VERSION='0.102'
-TTF_VERSION='0.102'
-COPYRIGHT='Copyright (c) 2009-2017, NLCI (http://www.nlci.in/fonts/)'
+VERSION='0.200'
+TTF_VERSION='0.200'
+COPYRIGHT='Copyright (c) 2009-2018, NLCI (http://www.nlci.in/fonts/)'
 LICENSE='OFL.txt'
 
 DESC_SHORT='Kannada Unicode font with OT support'
@@ -55,25 +55,28 @@ if '-s' in opts:
 
 # set build parameters
 fontbase = 'source/'
+archive = fontbase + 'archive/'
 generated = 'generated/'
 tag = script.upper()
 
 panose = [2, 0, 0, 3]
 codePageRange = [0]
-unicodeRange = [0, 15, 22, 31]
+unicodeRange = [0, 1, 15, 22, 31]
 hackos2 = os2.hackos2(panose, codePageRange, unicodeRange)
 
 if '-l' in opts:
     for f, fLegacy in zip(faces, facesLegacy):
         for (s, sn, sLegacy) in zip(styles, stylesName, stylesLegacy):
+            gentium = '../../../../latn/fonts/gentium_local/basic/1.102/zip/unhinted/GenBkBas' + s.replace('-', '') + '.ttf'
+            charis = '../../../../latn/fonts/charis_local/5.000/zip/unhinted/CharisSIL' + s + '.ttf'
             devapanini = '../../../../deva/fonts/panini/results/DEVAPanini-Regular.ttf'
-            font(target = process(f + '-' + sn.replace(' ', '') + '.ttf',
+            font(target = process('ufo/' + f + '-' + sn.replace(' ', '') + '.ttf',
                     cmd('cp ${DEP} ${TGT}'),
                     ),
                 source = legacy(f + s + '.ttf',
-                                source = fontbase + 'archive/' + fLegacy + sLegacy + '.ttf',
+                                source = archive + 'unhinted/' + fLegacy + sLegacy + '.ttf',
                                 xml = fontbase + 'badami_unicode.xml',
-                                params = '-f ' + devapanini,
+                                params = '-f ' + gentium,
                                 noap = '')
                 )
 
@@ -88,13 +91,17 @@ for f in faces:
 #        zipdir = ''
 #    )
     for (s, sn) in zip(styles, stylesName):
+        if '-l' in opts:
+            style = s
+        else:
+            style = '-' + sn.replace(' ', '')
         fontfilename = tag + f + '-' + sn.replace(' ', '')
         font(target = process(fontfilename + '.ttf',
                 cmd(psfix + ' ${DEP} ${TGT}'),
                 cmd(hackos2 + ' ${DEP} ${TGT}'),
                 name(tag + ' ' + f, lang='en-US', subfamily=(sn))
                 ),
-            source = fontbase + f + s + '.sfd',
+            source = fontbase + f + style + '.sfd',
             opentype = fea(fontbase + 'master.fea', no_make = True),
             # opentype = fea(generated + f + s + '.fea',
             #     master = fontbase + 'master.fea',

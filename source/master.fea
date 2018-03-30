@@ -462,37 +462,9 @@ feature abvm {
 	\ematra.large \eematra \aimatra \omatra \omatra.large \oomatra \oomatra.large \aumatra \virama
 	\lengthmark \ailengthmark \fa.sub \rrvocalicvowel \llvocalicvowel \zeroknda \oneknda \twoknda \threeknda \fourknda \fiveknda
 	\sixknda \sevenknda \eightknda \nineknda \zwj \zwnj \zwsp \wj \ka_ssa
-	\ka_ssa.base \nukta.alt \rs \inr \u0334.Lrg \dotlessi \Esh
-	\ring \tilde \u02F9 \u02FA \u02FB \u02FC \gravecomb \acutecomb \u0302
-	\tildecomb \u0304 \u0306 \u0308 \u030A \u030C \u0327 \u0328
-	\u0338 \u0394 \Pi \u03A9 \exclamdown \cent \sterling \currency \yen
-	\brokenbar \section \dieresis \copyright \ordfeminine \guillemotleft
-	\logicalnot \softhyphen \registered \macron \degree \plusminus \twosuperior
-	\threesuperior \acute \mu \paragraph \periodcentered \cedilla \onesuperior
-	\ordmasculine \guillemotright \onequarter \onehalf \threequarters
-	\questiondown \Agrave \Aacute \Acircumflex \Atilde \Adieresis \Aring \AE
-	\Ccedilla \Egrave \Eacute \Ecircumflex \Edieresis \Igrave \Iacute \Icircumflex
-	\Idieresis \Eth \Ntilde \Ograve \Oacute \Ocircumflex \Otilde \Odieresis
-	\multiply \Oslash \Ugrave \Uacute \Ucircumflex \Udieresis \Yacute \Thorn
-	\germandbls \agrave \aacute \acircumflex \atilde \adieresis \aring \ae \ccedilla
-	\egrave \eacute \ecircumflex \edieresis \igrave \iacute \icircumflex \idieresis
-	\eth \ntilde \ograve \oacute \ocircumflex \otilde \odieresis \divide \oslash
-	\ugrave \uacute \ucircumflex \udieresis \yacute \thorn \ydieresis \OE \oe \Scaron
-	\scaron \Ydieresis \Zcaron \zcaron \florin \circumflex \caron \colontriangularmod \breve
-	\dotaccent \ogonek \hungarumlaut \u034F \pi \u2000 \u2001 \enspace
-	\u2003 \u2004 \u2005 \u2006 \u2007 \u2008 \u2009 \u200A \u200E
-	\u200F \hyphentwo \u2011 \figuredash \endash \emdash \horizontalbar \quotesinglbase
-	\quotedblbase \dagger \daggerdbl \bullet \ellipsis \u2027 \u2028 \u2029
-	\u202A \u202B \u202C \u202D \u202E \u202F \perthousand
-	\guilsinglleft \guilsinglright \fraction \Euro \trademark \Omega \partialdiff
-	\Delta \product \summation \u2219 \radical \infinity \integral \approxequal
-	\notequal \lessequal \greaterequal \lozenge \dottedcircle \fi \fl \uFE00 \uFE01
-	\uFE02 \uFE03 \uFE04 \uFE05 \uFE06 \uFE07 \uFE08 \uFE09 \uFE0A
-	\uFE0B \uFE0C \uFE0D \uFE0E \uFE0F \uFEFF \uFFFC \uFFFD \u2308
-	\u2309 \u230A \u230B \u231C \u231D \u231E \u231F \u2070 \u2074
-	\u2075 \u2076 \u2077 \u2078 \u2079 \u207B \u207D \u207E \u2423
+	\ka_ssa.base \nukta.alt
 	\exclam.knda \quoteleft.knda \quotedblleft.knda \quoteright.knda
-	\quoterdblight.knda \parenleft.knda \parenright.knda \comma.knda
+	\quotedblright.knda \parenleft.knda \parenright.knda \comma.knda
 	\hyphen.knda \period.knda \slash.knda \colon.knda \semicolon.knda
 	\question.knda \danda \doubledanda ];
 @GDEF_Ligature = [\shortrr \ka \ka.imathra \ka.sub \kha \kha.imathra

@@ -138,16 +138,12 @@
 <glyph PSName="semicolon.knda"><base UID="F03B"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="question.knda"><base UID="F03F"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="nbsp.knda"><base UID="F020"><advance width="1400"/></base></glyph>
-<glyph PSName='lvocalicmatra' UID='0CE2'><base UID='0962' font='1'><scale x="1.4" y="1.4"/></base></glyph>
-<glyph PSName='llvocalicmatra' UID='0CE3'><base UID='0963' font='1'><scale x="1.4" y="1.4"/></base></glyph>
-<glyph PSName='lvocalicmatra.alt'><base UID='0962' font='1'><scale x="1.4" y="1.4"/></base></glyph>
-<glyph PSName='llvocalicmatra.alt'><base UID='0963' font='1'><scale x="1.4" y="1.4"/></base></glyph>
-<!--
-<glyph PSName='lvocalicmatra.alt'><base UID='F04A'><scale x="0.6" y="0.6"/><shift x="0" y="-300"/></base></glyph>
-<glyph PSName='llvocalicmatra.alt'><base UID='F04B'><scale x="0.6" y="0.6"/><shift x="0" y="-300"/></base></glyph>
--->
+<glyph PSName='lvocalicmatra' UID='0CE2'><base UID='F04A'><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName='llvocalicmatra' UID='0CE3'><base UID='F04B'><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName='lvocalicmatra.alt'><base UID='F04A'><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName='llvocalicmatra.alt'><base UID='F04B'><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName='xmatra'><base UID='F0DC'><scale x="1.4" y="1.4"/></base></glyph>
-<glyph PSName='jihvamuliya' UID='0CF1'><base UID='0079' font="1"/><scale x="1.0" y="1.0"/></glyph>
+<glyph PSName='jihvamuliya' UID='0CF1'><base UID='0078' font="1"/><scale x="1.0" y="1.0"/></glyph>
 <glyph PSName='upadhmaniya' UID='0CF2'><base UID='F04E'><scale x="1.9" y="1.9"/></base></glyph>
 <glyph PSName='udatta' UID='0951'><base UID='F09A'><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName='anudatta' UID='0952'><base UID='F09B'><scale x="1.4" y="1.4"/></base></glyph>
@@ -176,8 +172,8 @@
 <glyph PSName='u0C8E' UID='0C8E'><base UID='F047'><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName='u0C8F' UID='0C8F'><base UID='F048'><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName='u0C90' UID='0C90'><base UID='F049'><scale x="1.4" y="1.4"/></base></glyph>
-<glyph PSName='u0C92' UID='0C92'><base UID='F04A'><scale x="1.4" y="1.4"/></base></glyph>
-<glyph PSName='u0C93' UID='0C93'><base UID='F04B'><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName='ovowel' UID='0C92'><base UID='F04A'><scale x="1.4" y="1.4"/></base></glyph>
+<glyph PSName='oovowel' UID='0C93'><base UID='F04B'><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName='u0C94' UID='0C94'><base UID='F04C'><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName='u0C95' UID='0C95'><base UID='F04F'><scale x="1.4" y="1.4"/></base><base UID='F0DA'><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName='u0C95.base'><base UID='F04F'><scale x="1.4" y="1.4"/></base></glyph>
