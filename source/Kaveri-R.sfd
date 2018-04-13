@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1250825681
-ModificationTime: 1491624340
+ModificationTime: 1523582739
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -12548,6 +12548,8 @@ StartChar: fa.sub
 Encoding: 302 -1 296
 Width: 316
 Flags: HW
+AnchorPoint: "Sub" -593 -148 mark 0
+AnchorPoint: "Sub" 743 -698 basemark 0
 LayerCount: 2
 Fore
 SplineSet

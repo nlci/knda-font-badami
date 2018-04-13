@@ -82,8 +82,9 @@ if '-l' in opts:
 
 psfix = 'cp' if '-p' in opts else 'psfix'
 
+if '-l' in opts:
+    faces = list()
 for f in faces:
-#for f in list():
 #    p = package(
 #        appname = APPNAME + '-' + f.lower(),
 #        version = VERSION,
@@ -91,17 +92,14 @@ for f in faces:
 #        zipdir = ''
 #    )
     for (s, sn) in zip(styles, stylesName):
-        if '-l' in opts:
-            style = s
-        else:
-            style = '-' + sn.replace(' ', '')
+        snf = '-' + sn.replace(' ', '')
         fontfilename = tag + f + '-' + sn.replace(' ', '')
         font(target = process(fontfilename + '.ttf',
                 cmd(psfix + ' ${DEP} ${TGT}'),
                 cmd(hackos2 + ' ${DEP} ${TGT}'),
                 name(tag + ' ' + f, lang='en-US', subfamily=(sn))
                 ),
-            source = fontbase + f + style + '.sfd',
+            source = fontbase + f + snf + '.sfd',
             opentype = fea(fontbase + 'master.fea', no_make = True),
             # opentype = fea(generated + f + s + '.fea',
             #     master = fontbase + 'master.fea',
