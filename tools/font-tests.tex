@@ -1,0 +1,324 @@
+%% set up for testing in TeXShop - others can ignore this
+%!TEX TS-program = xetex
+%!TEX encoding = UTF-8 Unicode
+%!TEX root = ../samples/font-test-sample.tex
+
+\nopagenumbers
+\frenchspacing
+\rightskip=0pt plus 1fil
+\linepenalty=100
+\hyphenpenalty=10000
+\lineskiplimit=-1000pt
+\pretolerance=9000
+\emergencystretch=1in
+\hbadness=9999
+\parindent=0pt
+\parskip=0pt
+\raggedbottom
+\XeTeXlinebreaklocale "en"
+\XeTeXlinebreakpenalty=100
+
+\def\msg{\immediate\write16 }
+
+\newcount\colcount \colcount=1
+\def\columns{\afterassignment\setcolumns\count255 }
+\def\setcolumns{\ifnum\colcount=\count255\else
+  \ifnum\count255>0
+    \ifnum\count255>20
+      \colcount=20 \message{*** Maximum number of columns is 20}
+    \else
+      \colcount=\count255
+    \fi
+    \colwidth=\fullhsize
+    \ifnum\colcount>1
+      \advance\colwidth by -\colcount\gutter \advance\colwidth by \gutter
+      \divide\colwidth by \colcount
+    \fi
+    \hsize=\colwidth
+  \fi\fi}
+\newdimen\colwidth
+\newdimen\gutter \gutter=10pt
+
+\def\startreport{%
+  % figure out height available on current page
+  \global\htavail=\pdfpageheight \global\advance\htavail by -2\verticalmargin
+  \global\advance\htavail by -\pagetotal
+  \global\multiply\htavail by \colcount
+  \global\setbox\galley=\vbox\bgroup
+}
+\newdimen\htavail
+\newbox\galley
+
+%\msg{start: total=\the\pagetotal, goal=\the\pagegoal}}
+\def\endreport{
+  \egroup
+  \ifnum\colcount=1
+    % single column - just output
+    \unvbox\galley
+  \else
+    % see if everything will fit on this page, if so, balance as well as we can
+%    \splittopskip=\topskip
+    \loop \ifdim\wd\galley=0pt \morefalse\else\moretrue\fi
+      \ifmore
+      \ifdim\ht\galley>\htavail
+        {\offinterlineskip\fillonepage}
+      \else
+        {\offinterlineskip\trytobalance}
+      \fi
+    \repeat
+  \fi
+  \medskip\filbreak}
+\newif\ifmore
+
+\def\fillonepage{
+  \global\htavail=\pdfpageheight \global\advance\htavail by -2\verticalmargin
+  \global\advance\htavail by -\pagetotal
+  \vbadness=10000
+  \index=0
+  {\vfuzz=20pt \setbox0=\vsplit\galley to 0pt} % get splittopskip at start
+  \loop \ifnum\index<\colcount
+    \setbox0=\vsplit\galley to \htavail
+    \ifvoid0 \setbox0=\hbox to \colwidth{\hfil} \fi
+    \setbox2=\hbox{\unhbox2\box0\hfil}
+    \advance\index by 1
+    \repeat
+  \setbox2=\hbox to \fullhsize{\unhbox2\unskip}
+%  \msg{fillonepage box2: ht=\the\ht2, dp=\the\dp2}
+  \box2 \vfil\eject
+  \global\setbox\galley=\vbox{\unvbox\galley}
+  \global\htavail=\pdfpageheight \global\advance\htavail by -2\verticalmargin
+}
+
+\def\trytobalance{
+  \global\htavail=\pdfpageheight \global\advance\htavail by -2\verticalmargin
+  \global\advance\htavail by -\pagetotal
+  \trialheight=\ht\galley \divide\trialheight by \colcount
+  \ifdim\trialheight>\htavail \trialheight=\htavail\fi
+  \vbadness=10000
+  \loop
+    \global\setbox\trial=\copy\galley
+    {\vfuzz=20pt \setbox0=\vsplit\trial to 0pt} % get splittopskip at start
+    \global\setbox2=\hbox{}
+    {
+      \index=0
+      \loop \ifnum\index<\colcount
+        \global\setbox0=\vsplit\trial to \trialheight
+        \global\setbox2=\hbox{\unhbox2\box0\hfil}
+        \advance\index by 1
+        \repeat
+      \global\setbox2=\hbox to \fullhsize{\unhbox2\unskip}
+    }
+    \tryagainfalse
+    \ifvoid\trial\else \ifdim\trialheight<\htavail \tryagaintrue \fi\fi
+    \iftryagain \advance\trialheight by 10pt \repeat
+%  \msg{trytobalance box2: ht=\the\ht2, dp=\the\dp2}
+  \box2 \medskip
+  \global\setbox\galley=\vbox{\unvbox\trial}
+  \global\htavail=\pdfpageheight \global\advance\htavail by -2\verticalmargin
+}
+\newbox\trial \newdimen\trialheight \newif\iftryagain
+
+\def\papersize#1{\lowercase{\def\test{#1}}
+  \ifx\test\letter \pdfpagewidth=8.5in \pdfpageheight=11in
+  \else\ifx\test\legal \pdfpagewidth=8.5in \pdfpageheight=14in
+  \else\ifx\test\tabloid \pdfpagewidth=11in \pdfpageheight=17in
+  \else\ifx\test\afour \pdfpagewidth=210mm \pdfpageheight=297mm
+  \else\ifx\test\athree \pdfpagewidth=297mm \pdfpageheight=420mm
+  \else\msg{Error: unknown paper size "#1"}
+  \fi\fi\fi\fi\fi
+  \iflandscape \swappaperdimens \fi
+  \setmargins}
+\def\letter{letter}\def\legal{legal}\def\tabloid{tabloid}\def\afour{a4}\def\athree{a3}
+\def\landscape{\iflandscape\else \landscapetrue \swappaperdimens \setmargins \fi}
+\newif\iflandscape
+\def\swappaperdimens{\dimen0=\pdfpagewidth
+  \pdfpagewidth=\pdfpageheight \pdfpageheight=\dimen0 }
+
+\def\setmargins{\dimen0=\pdfpagewidth \advance\dimen0 by -2\sidemargin \hsize=\dimen0
+  \dimen0=\pdfpageheight \advance\dimen0 by -2\verticalmargin \vsize=\dimen0
+  \fullhsize=\hsize}
+\newdimen\sidemargin \sidemargin=1in
+\newdimen\verticalmargin \verticalmargin=1in
+\newdimen\fullhsize
+\def\line{\hbox to \fullhsize}
+
+\newtoks\testfontname
+\testfontname={ undefined }
+\def\testfont#1{\testfontname={#1}}
+
+\font\labelfont=cmtt8 at 5pt
+\newif\iflabels \labelstrue
+\def\showlabels{\labelstrue}
+\def\hidelabels{\labelsfalse}
+
+\font\rhfont=cmtt8
+\headline={{\rhfont\the\testfontname\hss
+  \nn\year-\nn\month-\nn\day\ 
+  {\count0=\time \divide\count0 by 60 \nn{\count0}:%
+  \multiply\count0 by 60 \advance\count0 by -\time \nn{-\count0}}
+  \ page \folio}}
+\def\nn#1{\ifnum#1<10 0\fi\number#1}
+\def\makeheadline{\vbox to 0pt {\vskip -22.5pt
+  \line {\vbox to 8.5pt{}\the\headline}\kern1pt\hrule\vss }\nointerlineskip }
+
+\def\uncatcodespecials{\def\do##1{\catcode`##1=12\relax}\dospecials}
+\def\testmode{\uncatcodespecials \catcode"20=10 \the\activesubs
+  \iftextescape \catcode`\\=0 \catcode`\{=1 \catcode`\}=2 \fi}
+\newif\iftextescape
+
+\def\N#1{\leavevmode
+  \count255=\XeTeXglyphindex "#1"
+  \ifnum\count255=0 \message{Error: glyph #1 not found}\fi
+  \XeTeXglyph\count255\relax}
+\def\G#1{\leavevmode\XeTeXglyph#1\relax}
+\def\U#1{\uppercase{\char"#1}\relax}
+
+\let\@=\expandafter
+\def\sub #1 #2{\count255=`#1
+  \activesubs=\@\@\@{\@\the\@\activesubs
+     \@\catcode\the\count255=13 }
+  \lccode`\~=\count255
+  \def\rep{\noexpand#2} \lowercase{\edef~{\rep}}}
+\newtoks\activesubs
+
+\def\clearsubs{\activesubs={}}
+
+\catcode"80=\active \let^^80=\relax
+\newtoks\sampletext
+
+\def\text{\begingroup \endlinechar="80 \catcode"80=12
+  \uncatcodespecials \catcode`\{=1 \catcode`\}=2
+  \afterassignment\endgroup \global\sampletext}
+
+\def\setuptext#1#2#3#4{%
+  \fontsize=#1pt
+  \font\myfont="\the\testfontname" at \fontsize \myfont
+  \begingroup\testmode
+  \catcode"80=\active \let^^80=\par
+  \edef\test{#2}\ifx\test\empty \global\baselineskip=1.2\fontsize
+  \else \global\baselineskip=#2pt \fi
+  \def\indentfactor{0.0625}%
+  \edef\test{#3}\ifx\test\asterisk \def\indentfactor{0}\hsize=\maxdimen
+  \else\ifx\test\empty\else \hsize=#3 \fi\fi
+  \setalignment{#4}
+  \parindent=\indentfactor\hsize }
+\newdimen\fontsize
+\def\asterisk{*}
+\def\empty{}
+
+\def\setalignment#1{%
+  \edef\test{#1}%
+  \ifx\test\left
+    \parfillskip=0pt plus 1fil \leftskip=0pt \rightskip=0pt plus 1fill
+  \else\ifx\test\center
+    \def\indentfactor{0}\parfillskip=0pt \leftskip=0pt plus 1fill \rightskip=\leftskip
+  \else\ifx\test\right
+    \parfillskip=0pt plus 1fil \leftskip=0pt plus 1fill \rightskip=0pt
+  \else\ifx\test\justify
+    \parfillskip=0pt plus 1fil \leftskip=0pt \rightskip=\leftskip
+  \fi\fi\fi\fi}
+\def\left{l} \def\center{c} \def\right{r} \def\justify{j}
+
+\def\class#1#2{\@\def\csname cls-#1\endcsname{#2}%
+  \classcount=0 \edef\prefix{member-#1-}\docount#2,\end
+  \@\edef\csname clscount-#1\endcsname{\the\classcount}}
+
+\newcount\classcount
+\def\docount#1,#2\end{\def\test{#1}\ifx\test\empty\let\next\relax
+  \else\def\rest{#2}\let\next\more\fi\next}
+\def\more{\advance\classcount by 1
+  \@\xdef\csname\prefix\the\classcount\endcsname{\test}
+  \@\docount\rest,\end}
+
+\newcount\index \newcount\limit \newcount\rotating
+\begingroup
+\catcode`\@=\active
+\gdef\processframe{\gdef\classlist{}\global\classcount=0
+  \let@=\appendclass \setbox0=\vbox{\thetext}%
+  \let@=\doclass
+  \ifnum\classcount>0 \rotating=1 \global\firsttrue \rotateclass
+  %\tracingonline=1 \showlists
+  \else \setbox0=\vbox{\noindent
+     \iflabels\llap{\labelfont\spec\kern3pt}\fi
+     \copy\strutbox\ignorespaces\thetext \setfinaldepth}\unvbox0 \fi
+  \endgroup \filbreak}
+
+\gdef\appendclass#1{%
+  \ifx@#1\notfoundfalse\else
+    \def\findclass##1#1##2\end{\def\test{##2}%
+      \ifx\test\empty\notfoundtrue\else\notfoundfalse\fi}
+    \@\findclass\classlist#1\end \fi
+  \ifnotfound\global\advance\classcount by 1
+    \xdef\classlist{\classlist\ifx\classlist\empty\else,\fi#1}%
+    \@\gdef\csname clsname-\the\classcount\endcsname{#1}\fi}
+
+\gdef\doclass#1{%
+  \ifx@#1\char64 \else
+    \csname member-#1-\csname clsindex-#1\endcsname\endcsname\fi}
+\endgroup
+\newif\ifnotfound \notfoundtrue
+
+\def\rotateclass{%
+  \@\ifx\csname clscount-\csname clsname-\the\rotating\endcsname\endcsname\relax
+    \msg{Error: class \csname clsname-\the\rotating\endcsname\space is undefined!}\limit=0
+  \else \@\limit\csname clscount-\csname clsname-\the\rotating\endcsname\endcsname \fi
+  \index=0
+  \loop \ifnum\index<\limit \advance\index by 1
+    \@\edef\csname clsindex-\csname clsname-\the\rotating\endcsname
+      \endcsname{\the\index}
+    \ifnum\rotating<\classcount
+      \begingroup
+        \advance\rotating by 1 \rotateclass
+      \endgroup
+    \else
+      \setbox0=\vbox{
+        \noindent
+        \iflabels\iffirst\llap{\labelfont\spec\kern3pt}\global\firstfalse\fi\fi
+        \copy\strutbox\ignorespaces\thetext
+        \setfinaldepth
+      }\unvbox0
+    \fi
+    \repeat}
+\newif\iffirst
+
+\def\setfinaldepth{\ifhmode\endgraf\fi
+  \setbox0=\lastbox \dp0=\dp\strutbox \nointerlineskip \vskip0pt \box0 }
+
+\newtoks\sizes
+\def\printreport{\startreport
+  \begingroup
+  \classcount=0 \def\prefix{size-} \@\docount\the\sizes,\end
+  \testmode \catcode`\@=13 \catcode13=13 \catcode"80=13 \let^^80=\par
+  \the\activesubs
+  \edef\sizecount{\the\classcount}
+  \index=0
+  \loop \ifnum\index<\sizecount \advance\index by 1
+    \edef\spec{\csname size-\the\index\endcsname}%
+    \@\splitsizeinfo\spec////\end
+    \setuptext{\ptsize}{\leading}{\width}{\align}\setupstrut
+    \processframe \repeat
+  \endgroup
+  \endreport}
+
+\def\splitsizeinfo#1/#2/#3/#4/#5\end
+  {\def\ptsize{#1}\def\leading{#2}\def\width{#3}\lowercase{\def\align{#4}}}
+
+\def\dotext{\begingroup \catcode13=13 \catcode64=13 \testmode \readtextline}
+{\catcode13=13 \gdef\readtextline#1^^M{\gdef\thetext{#1}\dotextorsample}}
+
+\def\dotextorsample{%
+  \ifx\thetext\empty \def\thetext{\@\scantokens\@{\the\sampletext}}\fi
+  \printreport \endgroup}
+
+\def\dofile#1{\def\thetext{\input "#1"\relax} \printreport}
+
+\def\setupstrut{\setbox0=\hbox{\XeTeXuseglyphmetrics=0 \char"20 }%
+  \dimen0=\ht0 \advance\dimen0 by \dp0
+  \count255=\baselineskip \multiply\count255 by 100
+  \divide\count255 by \dimen0
+  \dimen0=\ht0  \multiply\dimen0 by \count255 \divide\dimen0 by 100
+  \ht\strutbox=\dimen0
+  \dimen2=\dp0  \multiply\dimen2 by \count255 \divide\dimen2 by 100
+  \dp\strutbox=\dimen2 }
+\newbox\strutbox \setbox\strutbox=\hbox{}
+
