@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../tools/FTMLcreateList.xsl"?>
+<ftml version="1.0">
+  <head>
+    <columns comment="30%" label="15%" string="50%" style="5%"/>
+    <fontsrc>url(../results/KNDABadami-Regular.ttf)</fontsrc>
+    <title>Import</title>
+  </head>
+  <testgroup label="mostly dots">
+    <test label="visarga ka-nukta upadhmaniya">
+      <string>\u0C83 \u0c95\u0cbc \u0cf2</string>
+    </test>
+    <test label="jihvamuliya and X">
+      <string>\u0cf1 X</string>
+    </test>
+  </testgroup>
+  <testgroup label="sample glyphs">
+    <test label="lvocalic llvocalic ka-lvocalic ka-llvocalic">
+      <string>\u0c8c \u0ce1 \u0c95\u0ce2 \u0c95\u0ce3</string>
+    </test>
+    <test label="below matras">
+      <string>\u0c95\u0cc3 \u0c95\u0cc4 \u0c95\u0cc8 \u0c95\u0ce2 \u0c95\u0ce3</string>
+    </test>
+    <test label="candrabindus">
+      <string>\u0c95\u0c80\u0c95 \u0c95\u0c81\u0c95</string>
+    </test>
+  </testgroup>
+</ftml>
