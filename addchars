@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# $HOME/script/zind/bin/ffbuilder-config -a $HOME/pub/doc/Adobe/agl-aglfn/aglfn.txt test.xml test.txt
+# ffbuilder -a -c test.xml -f ../../../latn/fonts/charis_local/5.000/zip/CharisSIL-R.ttf Badami-R.sfd ../badami/source/Badami-R.sfd
+# ttfbuilder -a -c test.xml -f ../../../latn/fonts/charis_local/5.000/zip/CharisSIL-R.ttf ../badami/results/KNDABadami-Regular.ttf Badami-Regular.ttf
+
+# ffcg=$HOME/builds/pysilfont-old/scripts/examples/fontforge/FFcopyGlyphs.py
+# ffcg=$HOME/builds/pysilfont/scripts/examples/fontforge/FFcopyGlyphs.py
+
+directory=$(basename $PWD)
+project=../${directory%%_local}
+wscript=${project}/wscript
+# grep -E "faces|styles" $wscript | grep = > wscript.py
+
+rm -f *.sfd
+
+nlci=$HOME/work/nlci/projects/fonts/charsets
+charis=${nlci}/charis
+sort -o pre.txt ${charis}/composite.txt ${charis}/decomposition.txt
+python loop.py ffcopyglyphs ${project}/source
