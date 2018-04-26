@@ -1,20 +1,54 @@
 #!/bin/bash
 
-# $HOME/script/zind/bin/ffbuilder-config -a $HOME/pub/doc/Adobe/agl-aglfn/aglfn.txt test.xml test.txt
-# ffbuilder -a -c test.xml -f ../../../latn/fonts/charis_local/5.000/zip/CharisSIL-R.ttf Badami-R.sfd ../badami/source/Badami-R.sfd
-# ttfbuilder -a -c test.xml -f ../../../latn/fonts/charis_local/5.000/zip/CharisSIL-R.ttf ../badami/results/KNDABadami-Regular.ttf Badami-Regular.ttf
-
-# ffcg=$HOME/builds/pysilfont-old/scripts/examples/fontforge/FFcopyGlyphs.py
-# ffcg=$HOME/builds/pysilfont/scripts/examples/fontforge/FFcopyGlyphs.py
-
-directory=$(basename $PWD)
+extra=$PWD
+directory=$(basename $extra)
 project=../${directory%%_local}
+ufo=${project}/results/ufo
+src=${project}/source
 wscript=${project}/wscript
+nlci=$HOME/work/nlci/projects/fonts/scripts
 # grep -E "faces|styles" $wscript | grep = > wscript.py
-
 rm -f *.sfd
 
-nlci=$HOME/work/nlci/projects/fonts/charsets
-charis=${nlci}/charis
-sort -o pre.txt ${charis}/composite.txt ${charis}/decomposition.txt
-python loop.py ffcopyglyphs ${project}/source
+pushd ${src}
+for sfd in *-?.sfd *-??.sfd
+do
+    echo $sfd
+    fontforge -script ${nlci}/emsize.ff $sfd
+done
+popd
+
+pushd ${project}
+smith distclean -l
+smith configure -l
+smith build -l
+popd
+
+pushd ${ufo}
+for ttf in *.ttf
+do
+    echo $ttf
+    fontforge -script ${nlci}/ttf2sfd.ff $ttf
+done
+for sfd in *.sfd
+do
+    echo $sfd
+    fontforge -script ${nlci}/emsize.ff $sfd
+done
+popd
+
+sort -o cs/charis/pre.txt cs/charis/composite.txt cs/charis/decomposition.txt
+sort -o cs/gentium/pre.txt cs/gentium/composite.txt cs/gentium/decomposition.txt
+python addchars.py ${src}
+
+pushd ${src}
+for sfd in *-???*.sfd
+do
+    echo $sfd
+    fontforge -script ${nlci}/sfd2ufo.ff $sfd
+done
+popd
+
+# rm -rf ${project}/source/*.ufo
+# mv -v ${ufo}/*.ufo ${project}/source
+# mv -v ${ufo}/*.sfd ${project}/source

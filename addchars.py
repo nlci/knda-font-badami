@@ -3,50 +3,58 @@
 import os
 import os.path
 import sys
+import shutil
 from wscript import *
 
-nlci = '../../../../work/nlci/projects/fonts/charsets/'
-charis = '../../../latn/fonts/charis_local/5.000/zip/CharisSIL'
-gentium = '../../../latn/fonts/gentium_local/basic/1.102/zip/GenBkBas'
-annapurna = '../../../deva/fonts/annapurna_local/1.203/zip/AnnapurnaSIL-'
+charis = '../../../latn/fonts/charis_local/5.000/zip/unhinted/CharisSIL'
+gentium = '../../../latn/fonts/gentium_local/basic/1.102/zip/unhinted/GenBkBas'
+annapurna = '../../../deva/fonts/annapurna_local/1.203/zip/unhinted/AnnapurnaSIL-'
+panini = '../../../deva/fonts/panini/source/Panini'
+thiruvalluvar = '../../../taml/fonts/thiruvalluvar/source/ThiruValluvar'
 badami = '../badami/source'
 
 def runCommand(cmd, filenames):
-    cmd = sys.argv[1] + ' -f ' + cmd + ' ' + filenames
+    cmd = 'ffcopyglyphs' + ' -f ' + cmd + ' ' + ifont+ ' ' + ofont
     print cmd
     os.system(cmd)
 
 def findFile(filename):
-    return os.path.join(sys.argv[2], filename)
+    return os.path.join(sys.argv[1], filename)
 
 def modifyFile(cmd, filename):
     tmp = 'tmp.sfd'
     os.rename(findFile(filename), tmp)
-    runCommand(cmd, tmp + ' ' + findFile(filename))
+    runCommand(cmd, tmp, findFile(filename))
     os.remove(tmp)
 
 def modifySource(sfd, f, s, sn):
     print sfd
 
-    cmd = '-i ' + findFile(os.path.join('..', 'results', f + '-' + sn.replace(' ', '') + '.ttf')) + ' --namefile knda_glyphs.txt --rangefile knda.txt'
+    shutil.copyfile(f + '-' +  s + '.sfd', sfd)
+
+    cmd = '-i ' + thiruvalluvar + '-' + sn + '.sfd' + ' --rangefile cs/thiruvalluvar/main.txt'
+    modifyFile(cmd, sfd)
+
+    cmd = '-i ' + panini + '-' + sn + '.sfd' + ' --rangefile cs/panini/main.txt'
     modifyFile(cmd, sfd)
 
     asn = sn
-    asn = asn.replace('Bold Italic', 'Bold')
+    asn = asn.replace('BoldItalic', 'Bold')
     asn = asn.replace('Italic', 'Regular')
-    cmd = '-i ' + annapurna + asn + '.ttf' + ' --rangefile ' + os.path.join(nlci, 'annapurna', 'indic.txt')
-    # modifyFile(cmd, sfd)
+    cmd = '-i ' + annapurna + asn + '.ttf' + ' --rangefile cs/annapurna/main.txt'
+    modifyFile(cmd, sfd)
 
-    cmd = '-s 0.5 -i ' + charis + s + '.ttf' + ' -n uni0334.Lrg --rangefile pre.txt --rangefile nrsi.txt --rangefile pua.txt --rangefile nlci-latin.txt'
-    # cmd = '-s 0.5 -i ' + charis + s + '.ttf' + ' --rangefile nrsi.txt --rangefile nlci.txt'
-    # modifyFile(cmd, sfd)
-
-    # ms = s.replace('-', '')
-    # cmd = '-s 0.5 -i ' + gentium + ms + '.ttf' + ' --rangefile pre.txt --rangefile nrsi.txt --rangefile nlci.txt'
-    # modifyFile(cmd, sfd)
-    # findFile(os.path.join('..', 'results', f + '-' + sn.replace(' ', '') + '.ttf'))
+    if f == 'Kaveri':
+        cmd = '-i ' + charis + s + '.ttf' + ' -n uni0334.Lrg -n uni03A9 --rangefile cs/charis/pre.txt --rangefile cs/charis/main.txt'
+        modifyFile(cmd, sfd)
+    else:
+        gs = s.replace('-', '')
+        cmd = '-i ' + gentium + gs + '.ttf' + ' --namefile cs/gentium/main_glyphs.txt --rangefile cs/gentium/pre.txt --rangefile cs/gentium/main.txt'
+        modifyFile(cmd, sfd)
+        cmd = '-i ' + charis + s + '.ttf' + ' --rangefile cs/charis/composite4gentium.txt --rangefile cs/charis/extra4gentium.txt'
+        modifyFile(cmd, sfd)
 
 for f in faces:
     for (s, sn) in zip(styles, stylesName):
-        modifySource(f + s + '.sfd', f, s, sn)
-# modifySource('master.sfd', 'Badami', '-R', 'Regular')
+        sn = sn.replace(' ', '')
+        modifySource(f + '-' + sn + '.sfd', f, s, sn)
