@@ -43,7 +43,7 @@ pushd ${src}
 for sfd in *-???*.sfd
 do
     echo $sfd
-    perl $HOME//script/zind/bin/codepoint2name.pl -c $sfd -n tmp.sfd -m ${extra}/glyphs_names.tsv
+    perl $HOME/script/zind/bin/codepoint2name.pl -c $sfd -n tmp.sfd -m ${extra}/glyphs_names.tsv
     mv tmp.sfd $sfd
 done
 for sfd in *-???*.sfd
@@ -52,5 +52,8 @@ do
     ufo2="$(basename $sfd .sfd).ufo"
     fontforge -script ${nlci}/sfd2ufo.ff $sfd $ufo2
     psfnormalize -v 3 -p checkfix=none $ufo2
+    ufo3=$ufo2
+    ${nlci}/ufo_init.py $ufo3
+    # ./tools/position_subs.py $ufo3
 done
 popd
