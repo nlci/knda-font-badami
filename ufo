@@ -41,6 +41,10 @@ sort -o cs/charis/pre.txt cs/charis/composite.txt cs/charis/decomposition.txt
 sort -o cs/gentium/pre.txt cs/gentium/composite.txt cs/gentium/decomposition.txt
 python addchars.py ${src}
 
+rm -rf ${src}/*.ufo
+# mv -v ${ufo}/*.ufo ${src}
+# mv -v ${ufo}/*.sfd ${src}
+
 pushd ${src}
 for sfd in *-???*.sfd
 do
@@ -48,7 +52,3 @@ do
     fontforge -script ${nlci}/sfd2ufo.ff $sfd
 done
 popd
-
-# rm -rf ${project}/source/*.ufo
-# mv -v ${ufo}/*.ufo ${project}/source
-# mv -v ${ufo}/*.sfd ${project}/source

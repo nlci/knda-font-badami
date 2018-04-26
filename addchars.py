@@ -13,8 +13,8 @@ panini = '../../../deva/fonts/panini/source/Panini'
 thiruvalluvar = '../../../taml/fonts/thiruvalluvar/source/ThiruValluvar'
 badami = '../badami/source'
 
-def runCommand(cmd, filenames):
-    cmd = 'ffcopyglyphs' + ' -f ' + cmd + ' ' + ifont+ ' ' + ofont
+def runCommand(cmd, ifont, ofont):
+    cmd = 'ffcopyglyphs' + ' -f ' + cmd + ' ' + ifont + ' ' + ofont
     print cmd
     os.system(cmd)
 
@@ -30,12 +30,24 @@ def modifyFile(cmd, filename):
 def modifySource(sfd, f, s, sn):
     print sfd
 
-    shutil.copyfile(f + '-' +  s + '.sfd', sfd)
+    old = findFile(f + s + '.sfd')
+    new = findFile(sfd)
+    shutil.copyfile(old, new)
+
+    #cmd = '-i ' + findFile(os.path.join('..', 'results', 'ufo', f + '-' + sn + '.sfd')) + ' --namefile cs/knda/main_glyphs.txt --rangefile cs/knda/main.txt'
+    #modifyFile(cmd, sfd)
+
+    cmd = '-i ' + findFile(os.path.join('..', 'results', 'ufo', f + '-' + sn + '.sfd')) + ' --namefile cs/knda/main_glyphs.txt'
+    modifyFile(cmd, sfd)
+
+    cmd = '-i ' + findFile(os.path.join('..', 'results', 'ufo', f + '-' + sn + '.sfd')) + ' --rangefile cs/knda/main.txt'
+    modifyFile(cmd, sfd)
 
     cmd = '-i ' + thiruvalluvar + '-' + sn + '.sfd' + ' --rangefile cs/thiruvalluvar/main.txt'
     modifyFile(cmd, sfd)
 
-    cmd = '-i ' + panini + '-' + sn + '.sfd' + ' --rangefile cs/panini/main.txt'
+     # not from BoldItalic
+    cmd = '-i ' + panini + s + '.sfd' + ' --rangefile cs/panini/main4knda.txt'
     modifyFile(cmd, sfd)
 
     asn = sn
