@@ -12,6 +12,7 @@ annapurna = '../../../deva/fonts/annapurna_local/1.203/zip/unhinted/AnnapurnaSIL
 panini = '../../../deva/fonts/panini/source/Panini'
 thiruvalluvar = '../../../taml/fonts/thiruvalluvar/source/ThiruValluvar'
 badami = '../badami/source'
+exo = '../../../latn/fonts/exo/1.500/zip/unhinted/Exo-'
 
 def runCommand(cmd, ifont, ofont):
     cmd = 'ffcopyglyphs' + ' -f ' + cmd + ' ' + ifont + ' ' + ofont
@@ -34,20 +35,15 @@ def modifySource(sfd, f, s, sn):
     new = findFile(sfd)
     shutil.copyfile(old, new)
 
-    #cmd = '-i ' + findFile(os.path.join('..', 'results', 'ufo', f + '-' + sn + '.sfd')) + ' --namefile cs/knda/main_glyphs.txt --rangefile cs/knda/main.txt'
-    #modifyFile(cmd, sfd)
-
-    cmd = '-i ' + findFile(os.path.join('..', 'results', 'ufo', f + '-' + sn + '.sfd')) + ' --namefile cs/knda/main_glyphs.txt'
-    modifyFile(cmd, sfd)
-
-    cmd = '-i ' + findFile(os.path.join('..', 'results', 'ufo', f + '-' + sn + '.sfd')) + ' --rangefile cs/knda/main.txt'
+    cmd = '-i ' + findFile(os.path.join('..', 'results', 'ufo', f + '-' + sn + '.sfd')) + ' --namefile cs/knda/main_glyphs.txt --rangefile cs/knda/main.txt'
     modifyFile(cmd, sfd)
 
     cmd = '-i ' + thiruvalluvar + '-' + sn + '.sfd' + ' --rangefile cs/thiruvalluvar/main.txt'
     modifyFile(cmd, sfd)
 
-     # not from BoldItalic
-    cmd = '-i ' + panini + s + '.sfd' + ' --rangefile cs/panini/main4knda.txt'
+    ps = s
+    ps = ps.replace('-BI', '-B')
+    cmd = '-i ' + panini + ps + '.sfd' + ' --rangefile cs/panini/main4knda.txt'
     modifyFile(cmd, sfd)
 
     asn = sn
@@ -57,7 +53,23 @@ def modifySource(sfd, f, s, sn):
     modifyFile(cmd, sfd)
 
     if f == 'Kaveri':
-        cmd = '-i ' + charis + s + '.ttf' + ' -n uni0334.Lrg -n uni03A9 --rangefile cs/charis/pre.txt --rangefile cs/charis/main.txt'
+        lighter = {
+            'Regular': 'Medium',
+            'Italic': 'MediumItalic',
+            'Bold': 'SemiBold',
+            'BoldItalic': 'SemiBoldItalic'
+            }
+        heavier = {
+            'Regular': 'SemiBold',
+            'Italic': 'SemiBoldItalic',
+            'Bold': 'Bold',
+            'BoldItalic': 'BoldItalic'
+            }
+        esn = lighter[sn]
+        esn = heavier[sn]
+        cmd = '-i ' + exo + esn + '.sfd' + ' --namefile cs/exo/main_glyphs.txt --rangefile cs/exo/pre.txt --rangefile cs/exo/main.txt'
+        modifyFile(cmd, sfd)
+        cmd = '-i ' + charis + s + '.ttf' + ' --rangefile cs/charis/composite4gentium.txt --rangefile cs/charis/extra4exo.txt'
         modifyFile(cmd, sfd)
     else:
         gs = s.replace('-', '')

@@ -39,6 +39,7 @@ popd
 
 sort -o cs/charis/pre.txt cs/charis/composite.txt cs/charis/decomposition.txt
 sort -o cs/gentium/pre.txt cs/gentium/composite.txt cs/gentium/decomposition.txt
+sort -o cs/exo/pre.txt cs/exo/composite.txt cs/exo/decomposition.txt
 python addchars.py ${src}
 
 rm -rf ${src}/*.ufo
@@ -46,6 +47,12 @@ rm -rf ${src}/*.ufo
 # mv -v ${ufo}/*.sfd ${src}
 
 pushd ${src}
+for sfd in *-???*.sfd
+do
+    echo $sfd
+    perl $HOME//script/zind/bin/codepoint2name.pl -c $sfd -n tmp.sfd -m ${extra}/glyphs_names.tsv
+    mv tmp.sfd $sfd
+done
 for sfd in *-???*.sfd
 do
     echo $sfd
