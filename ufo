@@ -10,14 +10,6 @@ nlci=$HOME/work/nlci/projects/fonts/scripts
 # grep -E "faces|styles" $wscript | grep = > wscript.py
 rm -f *.sfd
 
-pushd ${src}
-for sfd in *-?.sfd *-??.sfd
-do
-    echo $sfd
-    fontforge -script ${nlci}/emsize.ff $sfd
-done
-popd
-
 pushd ${project}
 smith distclean -l
 smith configure -l
@@ -28,7 +20,8 @@ pushd ${ufo}
 for ttf in *.ttf
 do
     echo $ttf
-    fontforge -script ${nlci}/ttf2sfd.ff $ttf
+    sfd="$(basename $ttf .ttf).sfd"
+    fontforge -script ${nlci}/ttf2sfd.ff $ttf $sfd
 done
 for sfd in *.sfd
 do
@@ -56,6 +49,8 @@ done
 for sfd in *-???*.sfd
 do
     echo $sfd
-    fontforge -script ${nlci}/sfd2ufo.ff $sfd
+    ufo2="$(basename $sfd .sfd).ufo"
+    fontforge -script ${nlci}/sfd2ufo.ff $sfd $ufo2
+    psfnormalize -v 3 -p checkfix=none $ufo2
 done
 popd
