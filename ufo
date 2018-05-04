@@ -6,6 +6,7 @@ nlci=$HOME/work/nlci/projects/fonts/tools
 # grep -E "faces|styles" wscript | grep = > wscript.py
 rm -f *.sfd
 
+git checkout -- ${src}/*.sfd
 smith distclean -l
 smith configure -l
 smith build -l
@@ -51,3 +52,4 @@ do
     # ./tools/position_subs.py $ufo3
 done
 popd
+git checkout -- ${src}/*.sfd
