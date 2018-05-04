@@ -20,7 +20,7 @@ ZIPDIR='releases'
 TESTDIR='tests'
 STANDARDS='tests/reference'
 
-# set the font name, version, licensing and description
+# set the font name, licensing, description, and version
 script='knda'
 APPNAME='nlci-' + script
 VERSION='0.200'
@@ -34,6 +34,7 @@ Pan Kannada font designed to support all the languages using the Kannada script.
 '''
 DESC_NAME='NLCI-' + script
 DEBPKG='fonts-nlci-' + script
+#getufoinfo('source/Badami-Regular.ufo')
 
 # set test parameters
 TESTSTRING=u'\u0c95'
@@ -112,7 +113,7 @@ for f in faces:
                ),
             #classes = fontbase + 'badami_classes.xml',
             ap = generated + f + s + '.xml',
-            version = TTF_VERSION,
+            version = VERSION,
             copyright = COPYRIGHT,
             license = ofl('Badami', 'Kaveri', 'NLCI'),
             woff = woff('web/' + fontfilename + '.woff'),
