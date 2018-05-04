@@ -9,7 +9,7 @@ from wscript import *
 charis = '../../../latn/fonts/charis_local/5.000/zip/unhinted/CharisSIL'
 gentium = '../../../latn/fonts/gentium_local/basic/1.102/zip/unhinted/GenBkBas'
 annapurna = '../../../deva/fonts/annapurna_local/1.203/zip/unhinted/AnnapurnaSIL-'
-panini = '../../../deva/fonts/panini/source/Panini'
+panini = '../../../deva/fonts/panini-master/source/Panini'
 thiruvalluvar = '../../../taml/fonts/thiruvalluvar/source/ThiruValluvar'
 badami = '../badami/source'
 exo = '../../../latn/fonts/exo/1.500/zip/unhinted/Exo-'
