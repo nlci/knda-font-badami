@@ -18,11 +18,7 @@ do
     sfd="$(basename $ttf .ttf).sfd"
     fontforge -script ${nlci}/ttf2sfd.ff $ttf $sfd
 done
-for sfd in *.sfd
-do
-    echo $sfd
-    fontforge -script ${nlci}/emsize.ff $sfd
-done
+fontforge -script ${nlci}/emsize1000.ff Kaveri-Regular.sfd
 popd
 
 sort -o cs/charis/pre.txt cs/charis/composite.txt cs/charis/decomposition.txt
@@ -32,7 +28,6 @@ python addchars.py ${src}
 
 rm -rf ${src}/*.ufo
 # mv -v ${ufo}/*.ufo ${src}
-# mv -v ${ufo}/*.sfd ${src}
 
 pushd ${src}
 for sfd in *-???*.sfd
@@ -53,3 +48,4 @@ do
 done
 popd
 git checkout -- ${src}/*.sfd
+rm -rf ${src}/backups
