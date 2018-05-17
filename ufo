@@ -28,6 +28,7 @@ python addchars.py ${src}
 
 rm -rf ${src}/*.ufo
 # mv -v ${ufo}/*.ufo ${src}
+# mv -v ${ufo}/*.sfd ${src}
 
 pushd ${src}
 for sfd in *-???*.sfd

@@ -68,8 +68,8 @@ hackos2 = os2.hackos2(panose, codePageRange, unicodeRange)
 if '-l' in opts:
     for f, fLegacy in zip(faces, facesLegacy):
         for (s, sn, sLegacy) in zip(styles, stylesName, stylesLegacy):
-            gentium = '../../../../latn/fonts/gentium_local/basic/1.102/zip/unhinted/GenBkBas' + s.replace('-', '') + '.ttf'
-            charis = '../../../../latn/fonts/charis_local/5.000/zip/unhinted/CharisSIL' + s + '.ttf'
+            gentium = '../../../../latn/fonts/gentium_local/basic/1.102/zip/unhinted/2048/GenBkBas' + s.replace('-', '') + '.ttf'
+            charis = '../../../../latn/fonts/charis_local/5.000/zip/unhinted/2048/CharisSIL' + s + '.ttf'
             devapanini = '../../../../deva/fonts/panini/results/DEVAPanini-Regular.ttf'
             font(target = process('ufo/' + f + '-' + sn.replace(' ', '') + '.ttf',
                     cmd('cp ${DEP} ${TGT}'),
