@@ -39,6 +39,7 @@ DEBPKG='fonts-nlci-' + script
 # set test parameters
 TESTSTRING=u'\u0c95'
 ftmlTest('tools/FTMLcreateList.xsl')
+testCommand('sile', cmd='${SILE} -o "${TGT}" "${SRC[0].abspath()}" -f "${SRC[1]}"', extracmds=['sile'], shapers=0, supports=['.sil'], ext='.pdf')
 
 # set fonts to build
 faces = ('Badami', 'Kaveri')
