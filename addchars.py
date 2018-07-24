@@ -16,7 +16,6 @@ panini = '../../../deva/fonts/panini-master/source/Panini'
 deva = '../../../deva/fonts/panini/source/'
 thiruvalluvar = '../../../taml/fonts/thiruvalluvar/source/ThiruValluvar'
 vaigai = '../../../taml/fonts/thiruvalluvar/source/Vaigai'
-badami = '../badami/source'
 exo = '../../../latn/fonts/exo/1.500/zip/unhinted/1000/Exo-'
 
 def runCommand(cmd, ifont, ofont):
