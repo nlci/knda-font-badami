@@ -2,7 +2,7 @@
 
 ufo=results/ufo
 src=source
-nlci=$HOME/work/nlci/projects/fonts/tools
+nlci=$HOME/script/tools
 # grep -E "faces|styles" wscript | grep = > wscript.py
 rm -f *.sfd
 
