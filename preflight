@@ -1,0 +1,17 @@
+#!/bin/sh
+
+faces="Badami Kaveri"
+for face in $faces
+do
+    ufo=source/${face}-Regular.ufo
+    psfsetkeys -k "copyright" --filepart OFL.txt $ufo
+    psfsetkeys -k "openTypeNameLicense" --file OFL.txt $ufo
+    psfsetversion $ufo 0.201
+    psfsyncmasters source/${face}Roman.designspace source/${face}Italic.designspace
+    psfmakewoffmetadata -n ${face} -i in.nlci.fonts $ufo
+done
+
+for ufo in source/*.ufo
+do
+    psfnormalize -v 3 -p checkfix=fix $ufo
+done

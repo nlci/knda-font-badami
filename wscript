@@ -23,18 +23,16 @@ STANDARDS='tests/reference'
 # set the font name, licensing, description, and version
 script='knda'
 APPNAME='nlci-' + script
-VERSION='0.200'
-TTF_VERSION='0.200'
-COPYRIGHT='Copyright (c) 2009-2018, NLCI (http://www.nlci.in/fonts/)'
+#COPYRIGHT='Copyright (c) 2009-2018, NLCI (http://www.nlci.in/fonts/)'
 LICENSE='OFL.txt'
 
 DESC_SHORT='Kannada Unicode font with OT support'
-DESC_LONG='''
-Pan Kannada font designed to support all the languages using the Kannada script.
-'''
+#DESC_LONG='''
+#Pan Kannada font designed to support all the languages using the Kannada script.
+#'''
 DESC_NAME='NLCI-' + script
 DEBPKG='fonts-nlci-' + script
-#getufoinfo('source/Badami-Regular.ufo')
+getufoinfo('source/Badami-Regular.ufo')
 
 # set test parameters
 TESTSTRING=u'\u0c95'
@@ -114,8 +112,8 @@ for f in faces:
             #classes = fontbase + 'badami_classes.xml',
             ap = generated + f + s + '.xml',
             version = VERSION,
-            copyright = COPYRIGHT,
-            license = ofl('Badami', 'Kaveri', 'NLCI'),
+            #copyright = COPYRIGHT,
+            #license = ofl('Badami', 'Kaveri', 'NLCI'),
             woff = woff('web/' + fontfilename + '.woff'),
             script = 'knda',
             #package = p,

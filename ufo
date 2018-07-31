@@ -1,12 +1,17 @@
 #!/bin/bash
 
+faces="Badami Kaveri"
+styles=(Regular Bold Italic "Bold Italic")
+desc_long="Pan Kannada font designed to support all the languages using the Kannada script."
+
 ufo=results/ufo
-src=source
-nlci=$HOME/script/tools
+export src=source
+export nlci=$HOME/script/tools
 # grep -E "faces|styles" wscript | grep = > wscript.py
 rm -f *.sfd
 
 git checkout -- ${src}/*.sfd
+export FLOWARGS=""
 smith distclean -l
 smith configure -l
 smith build -l
@@ -42,11 +47,8 @@ do
     echo $sfd
     ufo2="$(basename $sfd .sfd).ufo"
     fontforge -script ${nlci}/sfd2ufo.ff $sfd $ufo2
-    psfnormalize -v 3 -p checkfix=none $ufo2
-    ufo3=$ufo2
-    ${nlci}/ufo_init.py $ufo3
-    # ./tools/position_subs.py $ufo3
 done
 popd
 git checkout -- ${src}/*.sfd
-rm -rf ${src}/backups
+
+source ${nlci}/metadata.bash

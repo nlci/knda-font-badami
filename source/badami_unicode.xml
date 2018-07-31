@@ -139,8 +139,10 @@
 <glyph PSName="semicolon.knda"><base UID="F03B"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="question.knda"><base UID="F03F"><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName="nbsp.knda"><base UID="F020"><advance width="1400"/></base></glyph>
+<!--
 <glyph PSName='lvocalicmatra' UID='0CE2'><base UID='F04A'><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName='llvocalicmatra' UID='0CE3'><base UID='F04B'><scale x="1.4" y="1.4"/></base></glyph>
+-->
 <glyph PSName='lvocalicmatra.alt'><base UID='F04A'><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName='llvocalicmatra.alt'><base UID='F04B'><scale x="1.4" y="1.4"/></base></glyph>
 <glyph PSName='xmatra'><base UID='F0DC'><scale x="1.4" y="1.4"/></base></glyph>
