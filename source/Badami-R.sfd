@@ -20,13 +20,13 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1250503974
-ModificationTime: 1523582524
+ModificationTime: 1533080492
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 0
 VLineGap: 0
-Panose: 5 0 0 0 0 0 0 0 0 0
+Panose: 2 0 0 3 0 0 0 0 0 0
 OS2TypoAscent: -72
 OS2TypoAOffset: 1
 OS2TypoDescent: -196
@@ -51,7 +51,8 @@ OS2SupYOff: 453
 OS2StrikeYSize: 50
 OS2StrikeYPos: 259
 OS2Vendor: 'Alts'
-OS2UnicodeRanges: 00000000.00000000.00000000.00000000
+OS2CodePages: 20000001.00000000
+OS2UnicodeRanges: a04080ff.500021cb.08000028.00000000
 Lookup: 262 0 0 "blwm" { "blwm-2sub"  } []
 MarkAttachClasses: 1
 DEI: 91125
@@ -90,7 +91,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 37 14
+WinInfo: 0 36 12
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Sub" "blwm-2sub" "Nukta"""  "s"""  "V""" 

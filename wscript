@@ -59,10 +59,10 @@ archive = fontbase + 'archive/'
 generated = 'generated/'
 tag = script.upper()
 
-panose = [2, 0, 0, 3]
-codePageRange = [0]
-unicodeRange = [0, 1, 15, 22, 31]
-hackos2 = os2.hackos2(panose, codePageRange, unicodeRange)
+#panose = [2, 0, 0, 3]
+#codePageRange = [0]
+#unicodeRange = [0, 1, 15, 22, 31]
+#hackos2 = os2.hackos2(panose, codePageRange, unicodeRange)
 
 if '-l' in opts:
     for f, fLegacy in zip(faces, facesLegacy):
@@ -95,7 +95,7 @@ for f in faces:
         fontfilename = tag + f + '-' + sn.replace(' ', '')
         font(target = process(fontfilename + '.ttf',
                 cmd(psfix + ' ${DEP} ${TGT}'),
-                cmd(hackos2 + ' ${DEP} ${TGT}'),
+                #cmd(hackos2 + ' ${DEP} ${TGT}'),
                 name(tag + ' ' + f, lang='en-US', subfamily=(sn))
                 ),
             source = fontbase + f + snf + '.ufo',

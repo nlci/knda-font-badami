@@ -10,7 +10,7 @@ export nlci=$HOME/script/tools
 # grep -E "faces|styles" wscript | grep = > wscript.py
 rm -f *.sfd
 
-git checkout -- ${src}/*.sfd
+git checkout -- ${src}/*-???*.sfd
 export FLOWARGS=""
 smith distclean -l
 smith configure -l
@@ -49,6 +49,6 @@ do
     fontforge -script ${nlci}/sfd2ufo.ff $sfd $ufo2
 done
 popd
-git checkout -- ${src}/*.sfd
+git checkout -- ${src}/*-???*.sfd
 
 source ${nlci}/metadata.bash

@@ -20,13 +20,13 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1250825675
-ModificationTime: 1526424567
+ModificationTime: 1533087631
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 0
 VLineGap: 0
-Panose: 5 0 0 0 0 0 0 0 0 0
+Panose: 2 0 0 3 0 0 0 0 0 0
 OS2TypoAscent: -72
 OS2TypoAOffset: 1
 OS2TypoDescent: -196
@@ -90,7 +90,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 37 14
+WinInfo: 0 36 12
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Sub" "blwm-2sub" "Nukta"""  "s"""  "V""" 
