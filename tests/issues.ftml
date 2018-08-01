@@ -6,6 +6,11 @@
     <fontsrc>url(../results/KNDABadami-Regular.ttf)</fontsrc>
     <title>Issues</title>
   </head>
+  <testgroup label="Rendering check">
+    <test label="Check">
+      <string>RenderingUnknown</string>
+    </test>
+  </testgroup>
   <testgroup label="halant as vowel">
     <test label="extra vowel and ZW[N]J after virama">
       <string>\u0c95\u0ccd\u0cd5\u0c82 \u0c95\u0ccd\u200c\u0cd5\u0c82 \u0c95\u0ccd\u200d\u0cd5\u0c82</string>
@@ -56,6 +61,11 @@
     </test>
     <test label="pt2 and with ZW[N]J before virama">
       <string>\u0cb0\u0ccd\u0cb9\u0cbe \u0cb0\u200c\u0ccd\u0cb9\u0cbe \u0cb0\u200d\u0ccd\u0cb9\u0cbe</string>
+    </test>
+  </testgroup>
+  <testgroup label="harfbuzz vs microsoft">
+    <test label="double-halant">
+      <string>\u0C9A\u0CCD\u0C9A\u0CCD</string>
     </test>
   </testgroup>
 </ftml>

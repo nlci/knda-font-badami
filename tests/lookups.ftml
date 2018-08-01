@@ -6,6 +6,11 @@
     <fontsrc>url(../results/KNDABadami-Regular.ttf)</fontsrc>
     <title>Lookups</title>
   </head>
+  <testgroup label="Rendering check">
+    <test label="Check">
+      <string>RenderingUnknown</string>
+    </test>
+  </testgroup>
   <testgroup label="nukt2">
     <test label="simple nukta">
       <string>\u0c95\u0cbc</string>

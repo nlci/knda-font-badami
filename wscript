@@ -14,10 +14,9 @@ import os2
 
 # set the default output folders
 out='results'
-DOCDIR='documentation'
-OUTDIR='installers'
-ZIPDIR='releases'
-TESTDIR='tests'
+
+# locations of files needed for some tasks
+DOCDIR = ['documentation', 'web']
 STANDARDS='tests/reference'
 
 # set the font name, licensing, description, and version
@@ -36,7 +35,8 @@ getufoinfo('source/Badami-Regular.ufo')
 
 # set test parameters
 TESTSTRING=u'\u0c95'
-ftmlTest('tools/FTMLcreateList.xsl')
+#ftmlTest('tools/FTMLcreateList.xsl')
+ftmlTest('tools/ftml-padauk.xsl')
 testCommand('sile', cmd='${SILE} -o "${TGT}" "${SRC[0].abspath()}" -f "${SRC[1]}"', extracmds=['sile'], shapers=0, supports=['.sil'], ext='.pdf')
 
 # set fonts to build

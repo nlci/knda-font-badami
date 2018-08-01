@@ -60,6 +60,7 @@ class Generate(object):
         virama = chr(0x0CCD)
         ka = chr(consonants[0])
         with open(filename, 'w') as output:
+            output.write('RenderingUnknown\n')
             for c1 in consonants:
                 conjuncts = list()
                 for c2 in consonants:

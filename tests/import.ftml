@@ -6,6 +6,11 @@
     <fontsrc>url(../results/KNDABadami-Regular.ttf)</fontsrc>
     <title>Import</title>
   </head>
+  <testgroup label="Rendering check">
+    <test label="Check">
+      <string>RenderingUnknown</string>
+    </test>
+  </testgroup>
   <testgroup label="mostly dots">
     <test label="visarga ka-nukta upadhmaniya">
       <string>\u0C83 \u0c95\u0cbc \u0cf2</string>

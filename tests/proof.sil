@@ -1,11 +1,11 @@
 \begin[class=fontproof]{document}
 \setTestFont[]
 
-\section{Kannada}
+\section{Samples}
 
 \subsection{Name}
 
-\proof{ಕನ್ನಡ ಲಿಪಿ}
+\proof{Kannada ಕನ್ನಡ ಲಿಪಿ RenderingUnknown}
 
 \proof[size="10,11,12,16",heading=Body text]{ಕನ್ನಡ ಲಿಪಿ}
 
@@ -13,14 +13,14 @@
 
 \section{Patterns}
 
-\pattern[chars="I",reps="ಅಕ",heading=Sample mixed script]{aIb}
+\pattern[chars="I",reps="ಅಕ",heading=Sample mixed script]{aIB}
 
-\patterngroup[name="vowels"]{ಅಆ}
-\patterngroup[name="cons"]{ಕಖ}
+\patterngroup[name="vowels"]{ಆಇ}
+\patterngroup[name="cons"]{ಖಗ}
 \patterngroup[name="matras"]{ಾಿ}
-\pattern[chars="e,k,o,w",reps="group_vowels,group_cons,group_vowels,group_cons",heading=Lowercase]{text_az}
-\pattern[chars="E,K,O,W",reps="group_vowels,group_cons,group_vowels,group_cons",heading=Uppercase]{text_AZ}
-\pattern[chars="C,M",reps="group_cons,group_matras",heading=Some matra combinations]{ಅCMಕ}
+\pattern[chars="e,k,o,u",reps="group_vowels,group_cons,group_vowels,group_cons",heading=Lowercase]{text_az}
+\pattern[chars="E,K,O,U",reps="group_vowels,group_cons,group_vowels,group_cons",heading=Uppercase]{text_AZ}
+\pattern[chars="C,M",reps="group_cons,group_matras",heading=Some matra combinations]{ಈCMಘ}
 
 \patterngroup[name="digits"]{೦೧೨೩೪೫೬೭೮೯}
 \pattern[chars="@",reps="group_digits",heading=Digits]{೦@೧@೨@೩@೪@೫@೬@೭@೮@೯}
