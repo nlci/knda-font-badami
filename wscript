@@ -114,7 +114,7 @@ for f in faces:
             version = VERSION,
             #copyright = COPYRIGHT,
             #license = ofl('Badami', 'Kaveri', 'NLCI'),
-            woff = woff('web/' + fontfilename + '.woff'),
+            woff = woff('woff/' + fontfilename + '.woff', params = '-v ' + VERSION + ' -m ../' + fontbase + f + '-WOFF-metadata.xml'),
             script = 'knda',
             #package = p,
             fret = fret(params = '-r')
