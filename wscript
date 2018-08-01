@@ -84,12 +84,11 @@ psfix = 'cp' if '-p' in opts else 'psfix'
 if '-l' in opts:
     faces = list()
 for f in faces:
-#    p = package(
-#        appname = APPNAME + '-' + f.lower(),
-#        version = VERSION,
-#        outdir = 'packages',
-#        zipdir = ''
-#    )
+    p = package(
+        appname = APPNAME + '-' + f.lower(),
+        version = VERSION,
+        docdir = DOCDIR # 'documentation'
+    )
     for (s, sn) in zip(styles, stylesName):
         snf = '-' + sn.replace(' ', '')
         fontfilename = tag + f + '-' + sn.replace(' ', '')
@@ -116,6 +115,6 @@ for f in faces:
             #license = ofl('Badami', 'Kaveri', 'NLCI'),
             woff = woff('woff/' + fontfilename + '.woff', params = '-v ' + VERSION + ' -m ../' + fontbase + f + '-WOFF-metadata.xml'),
             script = 'knda',
-            #package = p,
+            package = p,
             fret = fret(params = '-r')
             )
