@@ -17,13 +17,12 @@ Before
  - copy ka_ssa* from Badami to Kaveri
 
 Drawing
- - Break link for [l]lvocalicmatra
- - re-encode 0962, 0963 to 0CE2, 0CE3
+ - Break link for [l]lvocalicmatra.alt
  - Copy, rotate, move, scale the glyphs for [l]lvocalicmatra.alt (from Kannada O/OO)
  - Copy jihvamuliya from vedic and remove ring
  - Rotate and enlarge the glyph for upadhmaniya
  - Remove most of the glyph (currently the om sign) from the two candrabindus
- - Make italic for U+20B9 INDIAN RUPEE SIGN
+ - U+20B9 INDIAN RUPEE SIGN needs to be made italic in the Italic and Bold Italic faces
 
 Editing
  - rename u0C83 back to visarga (and revert the .fea as well for this)
@@ -33,14 +32,15 @@ Features
  - short and long tail on lvocalicvowel (U+0C8C)
 
 Old
- - copy from Panini the Bold and Italic glyphs for [l]lvocalicmatra
  - Stretch jihvamuliya
- - Make italic for U+20A8 RUPEE SIGN and U+20B9 INDIAN RUPEE SIGN
 
 ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
+03 Aug 2018 (Dev NLCI) NLCI Kannada fonts version 0.201
+- Position sub sub forms better
+- Include a few more characters
 29 Mar 2018 (Dev NLCI) NLCI Kannada fonts version 0.200
 - Add many Latin and Devanagari characters.
 - Latin glyphs in Badami are from Gentium Book Basic (https://software.sil.org/gentium/)

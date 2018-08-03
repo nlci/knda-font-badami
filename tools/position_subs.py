@@ -6,6 +6,7 @@ import sys
 # Open UFO
 ufo = sys.argv[1]
 font = OpenFont(ufo)
+print(f'posistion_subs.py for {ufo}')
 
 # Modify UFO
 layer = font.getLayer(font.defaultLayer.name)
