@@ -22,13 +22,9 @@ STANDARDS='tests/reference'
 # set the font name, licensing, description, and version
 script='knda'
 APPNAME='nlci-' + script
-#COPYRIGHT='Copyright (c) 2009-2018, NLCI (http://www.nlci.in/fonts/)'
 LICENSE='OFL.txt'
 
 DESC_SHORT='Kannada Unicode font with OT support'
-#DESC_LONG='''
-#Pan Kannada font designed to support all the languages using the Kannada script.
-#'''
 DESC_NAME='NLCI-' + script
 DEBPKG='fonts-nlci-' + script
 getufoinfo('source/Badami-Regular.ufo')
@@ -89,30 +85,27 @@ for f in faces:
         version = VERSION,
         docdir = DOCDIR # 'documentation'
     )
-    for (s, sn) in zip(styles, stylesName):
+    for sn in stylesName:
         snf = '-' + sn.replace(' ', '')
-        fontfilename = tag + f + '-' + sn.replace(' ', '')
+        fontfilename = tag + f + '-' + snf
         font(target = process(fontfilename + '.ttf',
                 cmd(psfix + ' ${DEP} ${TGT}'),
-                #cmd(hackos2 + ' ${DEP} ${TGT}'),
                 name(tag + ' ' + f, lang='en-US', subfamily=(sn))
                 ),
             source = fontbase + f + snf + '.ufo',
             opentype = fea(fontbase + 'master.fea', no_make = True),
-            # opentype = fea(generated + f + s + '.fea',
+            # opentype = fea(generated + f + sn + '.fea',
             #     master = fontbase + 'master.fea',
             #     make_params = '' # might need -z 8 to work around a FontForge bug
             #     ),
             graphite = gdl(generated + f + s + '.gdl',
                master = fontbase + 'master.gdl',
                make_params = '-p 1',
-               params = ''
+               params =  '-e ' + f + snf + '_gdlerr.txt'
                ),
             #classes = fontbase + 'badami_classes.xml',
             ap = generated + f + s + '.xml',
             version = VERSION,
-            #copyright = COPYRIGHT,
-            #license = ofl('Badami', 'Kaveri', 'NLCI'),
             woff = woff('woff/' + fontfilename + '.woff', params = '-v ' + VERSION + ' -m ../' + fontbase + f + '-WOFF-metadata.xml'),
             script = 'knda',
             package = p,
