@@ -87,24 +87,24 @@ for f in faces:
     )
     for sn in stylesName:
         snf = '-' + sn.replace(' ', '')
-        fontfilename = tag + f + '-' + snf
+        fontfilename = tag + f + snf
         font(target = process(fontfilename + '.ttf',
                 cmd(psfix + ' ${DEP} ${TGT}'),
                 name(tag + ' ' + f, lang='en-US', subfamily=(sn))
                 ),
             source = fontbase + f + snf + '.ufo',
             opentype = fea(fontbase + 'master.fea', no_make = True),
-            # opentype = fea(generated + f + sn + '.fea',
+            # opentype = fea(generated + f + snf + '.fea',
             #     master = fontbase + 'master.fea',
             #     make_params = '' # might need -z 8 to work around a FontForge bug
             #     ),
-            graphite = gdl(generated + f + s + '.gdl',
+            graphite = gdl(generated + f + snf + '.gdl',
                master = fontbase + 'master.gdl',
                make_params = '-p 1',
                params =  '-e ' + f + snf + '_gdlerr.txt'
                ),
             #classes = fontbase + 'badami_classes.xml',
-            ap = generated + f + s + '.xml',
+            ap = generated + f + snf + '.xml',
             version = VERSION,
             woff = woff('woff/' + fontfilename + '.woff', params = '-v ' + VERSION + ' -m ../' + fontbase + f + '-WOFF-metadata.xml'),
             script = 'knda',
