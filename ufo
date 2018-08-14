@@ -4,36 +4,14 @@ faces="Badami Kaveri"
 styles=(Regular Bold Italic "Bold Italic")
 desc_long="Pan Kannada font designed to support all the languages using the Kannada script."
 
-ufo=results/ufo
-export src=source
 export nlci=$HOME/script/tools
-# grep -E "faces|styles" wscript | grep = > wscript.py
-rm -f *.sfd
-
-rm -f ${src}/*-???*.sfd
-export FLOWARGS=""
-smith distclean -l
-smith configure -l
-smith build -l
+source ${nlci}/prepare.bash
 
 pushd ${ufo}
-for ttf in *.ttf
-do
-    echo $ttf
-    sfd="$(basename $ttf .ttf).sfd"
-    fontforge -script ${nlci}/ttf2sfd.ff $ttf $sfd
-done
 fontforge -script ${nlci}/emsize1000.ff Kaveri-Regular.sfd
 popd
 
-sort -o cs/charis/pre.txt cs/charis/composite.txt cs/charis/decomposition.txt
-sort -o cs/gentium/pre.txt cs/gentium/composite.txt cs/gentium/decomposition.txt
-sort -o cs/exo/pre.txt cs/exo/composite.txt cs/exo/decomposition.txt
-python addchars.py ${src}
-
-rm -rf ${src}/*.ufo
-# mv -v ${ufo}/*.ufo ${src}
-# mv -v ${ufo}/*.sfd ${src}
+source ${nlci}/addchars.bash
 
 pushd ${src}
 for sfd in *-???*.sfd
@@ -41,12 +19,6 @@ do
     echo $sfd
     perl $HOME/script/zind/bin/codepoint2name.pl -c $sfd -n tmp.sfd -m glyphs_names.tsv
     mv tmp.sfd $sfd
-done
-for sfd in *-???*.sfd
-do
-    echo $sfd
-    ufo2="$(basename $sfd .sfd).ufo"
-    fontforge -script ${nlci}/sfd2ufo.ff $sfd $ufo2
 done
 popd
 
