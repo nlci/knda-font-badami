@@ -1,6 +1,6 @@
 #!/bin/bash
 
-faces="Badami Kaveri"
+faces=(Badami Kaveri)
 styles=(Regular Bold Italic "Bold Italic")
 desc_long="Pan Kannada font designed to support all the languages using the Kannada script."
 
