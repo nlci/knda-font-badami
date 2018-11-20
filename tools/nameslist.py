@@ -1,5 +1,22 @@
 #!/usr/bin/python3
 
+Vowels = [
+    0x0C85,  # KANNADA LETTER A
+    0x0C86,  # KANNADA LETTER AA
+    0x0C87,  # KANNADA LETTER I
+    0x0C88,  # KANNADA LETTER II
+    0x0C89,  # KANNADA LETTER U
+    0x0C8A,  # KANNADA LETTER UU
+    0x0C8B,  # KANNADA LETTER VOCALIC R
+    0x0C8C,  # KANNADA LETTER VOCALIC L
+    0x0C8E,  # KANNADA LETTER E
+    0x0C8F,  # KANNADA LETTER EE
+    0x0C90,  # KANNADA LETTER AI
+    0x0C92,  # KANNADA LETTER O
+    0x0C93,  # KANNADA LETTER OO
+    0x0C94,  # KANNADA LETTER AU
+    ]
+
 Consonants = [
     0x0C95,  # KANNADA LETTER KA
     0x0C96,  # KANNADA LETTER KHA
@@ -39,9 +56,22 @@ Consonants = [
     0x0CB9,  # KANNADA LETTER HA
     ]
 
+Nukta = [
+    0x0CBC,  # KANNADA SIGN NUKTA
+    ]
+
 Virama = [
     0x0CCD,  # KANNADA SIGN VIRAMA
     ]
 
+vowels = list(map(chr, Vowels))
 consonants = list(map(chr, Consonants))
 h = virama = list(map(chr, Virama))[0]
+n = nukta = list(map(chr, Nukta))[0]
+
+Akhands = [
+    chr(0x0C95) + h + chr(0x0CB7),  # KaSsa
+    chr(0x0c9c) + h + chr(0x0c9e),  # JaNya
+    ]
+
+akhands = Akhands
