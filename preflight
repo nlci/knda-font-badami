@@ -15,3 +15,8 @@ for ufo in source/*.ufo
 do
     psfnormalize -v 3 -p checkfix=fix $ufo
 done
+
+for auto in tools/auto_*
+do
+    ./$auto tests/$(basename $auto .py).txt
+done
