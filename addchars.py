@@ -38,13 +38,6 @@ def modifySource(sfd, f, s, sn):
     emsize = '1000'
     emext = '.sfd'
 
-    #old = findFile(f + s + '.sfd')
-    #new = findFile(sfd)
-    #shutil.copyfile(old, new)
-
-    #cmd = '-i ' + findFile(os.path.join('..', 'results', 'ufo', f + '-' + sn + '.sfd')) + ' --namefile cs/knda/main_glyphs.txt --rangefile cs/knda/main.txt'
-    #modifyFile(cmd, sfd)
-
     cmd = '-i ' + vaigai + '-' + sn + '.sfd' + ' --rangefile cs/thiruvalluvar/main.txt'
     modifyFile(cmd, sfd)
 
