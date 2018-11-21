@@ -37,6 +37,7 @@ def modifySource(sfd, f, s, sn):
 
     emsize = '1000'
     emext = '.sfd'
+    emopt = '-s ' + str(1/1.4) + ' '
 
     cmd = '-i ' + vaigai + '-' + sn + '.sfd' + ' --rangefile cs/thiruvalluvar/main.txt'
     modifyFile(cmd, sfd)
@@ -49,7 +50,7 @@ def modifySource(sfd, f, s, sn):
     asn = sn
     asn = asn.replace('BoldItalic', 'Bold')
     asn = asn.replace('Italic', 'Regular')
-    cmd = '-i ' + annapurna_dir + emsize + annapurna_ttf + asn + emext + ' --rangefile cs/annapurna/main.txt'
+    cmd = emopt + '-i ' + annapurna_dir + emsize + annapurna_ttf + asn + emext + ' --rangefile cs/annapurna/main.txt'
     modifyFile(cmd, sfd)
 
     if f == 'Kaveri':
@@ -67,15 +68,15 @@ def modifySource(sfd, f, s, sn):
             }
         esn = lighter[sn]
         esn = heavier[sn]
-        cmd = '-i ' + exo + esn + '.ttf' + ' --namefile cs/exo/main_glyphs.txt --rangefile cs/exo/pre.txt --rangefile cs/exo/main.txt'
+        cmd = emopt + '-i ' + exo + esn + '.ttf' + ' --namefile cs/exo/main_glyphs.txt --rangefile cs/exo/pre.txt --rangefile cs/exo/main.txt'
         modifyFile(cmd, sfd)
-        cmd = '-i ' + charis_dir + emsize + charis_ttf + s + emext + ' --rangefile cs/charis/composite4gentium.txt --rangefile cs/charis/extra4exo.txt'
+        cmd = emopt + '-i ' + charis_dir + emsize + charis_ttf + s + emext + ' --rangefile cs/charis/composite4gentium.txt --rangefile cs/charis/extra4exo.txt'
         modifyFile(cmd, sfd)
     else:
         gs = s.replace('-', '')
-        cmd = '-i ' + gentium_dir + emsize + gentium_ttf + gs + emext + ' --namefile cs/gentium/main_glyphs.txt --rangefile cs/gentium/pre.txt --rangefile cs/gentium/main.txt'
+        cmd = emopt + '-i ' + gentium_dir + emsize + gentium_ttf + gs + emext + ' --namefile cs/gentium/main_glyphs.txt --rangefile cs/gentium/pre.txt --rangefile cs/gentium/main.txt'
         modifyFile(cmd, sfd)
-        cmd = '-i ' + charis_dir + emsize + charis_ttf + s + emext + ' --rangefile cs/charis/composite4gentium.txt --rangefile cs/charis/extra4gentium.txt'
+        cmd = emopt + '-i ' + charis_dir + emsize + charis_ttf + s + emext + ' --rangefile cs/charis/composite4gentium.txt --rangefile cs/charis/extra4gentium.txt'
         modifyFile(cmd, sfd)
 
 for f in faces:
