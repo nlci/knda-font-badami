@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 
-import sys
 from nameslist import *
+import sys
+
 
 ka = consonants[0]
 with open(sys.argv[1], 'w') as output:

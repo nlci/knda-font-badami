@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
-import sys
 from nameslist import *
+import sys
 
 
 def process(chars, label, output):

@@ -55,10 +55,10 @@ archive = fontbase + 'archive/'
 generated = 'generated/'
 tag = script.upper()
 
-#panose = [2, 0, 0, 3]
-#codePageRange = [0]
-#unicodeRange = [0, 1, 15, 22, 31]
-#hackos2 = os2.hackos2(panose, codePageRange, unicodeRange)
+panose = [2, 0, 0, 3]
+codePageRange = [0, 29]
+unicodeRange = [0, 1, 2, 3, 4, 5, 6, 7, 15, 22, 29, 31, 32, 33, 35, 38, 39, 40, 45, 60, 62, 67, 69, 91]
+hackos2 = os2.hackos2(panose, codePageRange, unicodeRange)
 
 if '-l' in opts:
     for f, fLegacy in zip(faces, facesLegacy):
@@ -66,7 +66,8 @@ if '-l' in opts:
             gentium = '../../../../latn/fonts/gentium_local/basic/1.102/zip/unhinted/2048/GenBkBas' + s.replace('-', '') + '.ttf'
             charis = '../../../../latn/fonts/charis_local/5.000/zip/unhinted/2048/CharisSIL' + s + '.ttf'
             font(target = process('ufo/' + f + '-' + sn.replace(' ', '') + '.ttf',
-                    cmd('cp ${DEP} ${TGT}'),
+                    cmd(hackos2 + ' ${DEP} ${TGT}'),
+                    name(f, lang='en-US', subfamily=(sn))
                     ),
                 source = legacy(f + s + '.ttf',
                                 source = archive + 'unhinted/' + fLegacy + sLegacy + '.ttf',

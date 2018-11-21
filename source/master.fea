@@ -448,15 +448,15 @@ feature abvm {
 	\v \w \x \y \z \braceleft \bar \braceright \asciitilde \quoteleft \quoteright
 	\quotedblleft \quotedblright \makewide \nbsp \anusvara \u0C83
 	\avowel \aavowel \ivowel \iivowel \uvowel \uuvowel \rvocalicvowel \rvocalicvowel.part \lvocalicvowel \lvocalicvowel.part
-	\evowel \eevowel \aivowel \ovowel \oovowel \auvowel \ka.base \ka_rvocalicmatra.sub
+	\evowel \eevowel \aivowel \ovowel \oovowel \auvowel \ka.base \ka_rvocalicmatra.below
 	\kha.base \ga.base \gha.base \ca.base \cha.base \ja.base
 	\jha.base \jha.half.base \jha.part \jha.base.mathra \tta.base
-	\ttha.base \dda.base \ddha.base \nna.base \ta.base \ta_ya.sub
-	\ta_va.sub \ta_rvocalicmatra.sub \ta_ailengthmark.sub \tha.base \da.base
+	\ttha.base \dda.base \ddha.base \nna.base \ta.base \ta_ya.below
+	\ta_va.below \ta_rvocalicmatra.below \ta_ailengthmark.below \tha.base \da.base
 	\dha.base \na.base \pa.base \pha.base \ba.base \bha.base
 	\ma.base \ma.base.mathra \ma.part \ya.base \ya.part
 	\ya.part.i \ya.base.mathra \ra \ra.base \ra.below
-	\ra.below.subcons \ra.below.large \ra_ailengthmark.sub \la.base
+	\ra.below.subcons \ra.below.large \ra_ailengthmark.below \la.base
 	\lla.base \va.base \sha.base \ssa.base \sa.base \ha.base \avagraha
 	\aamatra \imatra \iimatra \umatra \umatra.large \uumatra \uumatra.large \rvocalicmatra \rrvocalicmatra
 	\ematra.large \eematra \aimatra \omatra \omatra.large \oomatra \oomatra.large \aumatra \virama

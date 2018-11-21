@@ -121,12 +121,12 @@ endpass;
 pass(6)
 
 	// blws
-	g_ta_sub g_ya_sub > _ g_ta_ya_sub:(1 2);
-	g_ta_sub g_va_sub > _ g_ta_va_sub:(1 2);
-	g_rvocalicmatra g_ka_sub > _ g_ka_rvocalicmatra_sub:(1 2);
-	g_rvocalicmatra g_ta_sub > _ g_ta_rvocalicmatra_sub:(1 2);
-	g_ta_sub g_ailengthmark > _ g_ta_ailengthmark_sub:(1 2);
-	g_ra_below g_ailengthmark > _ g_ra_ailengthmark_sub:(1 2);
+	g_ta_sub g_ya_sub > _ g_ta_ya_below:(1 2);
+	g_ta_sub g_va_sub > _ g_ta_va_below:(1 2);
+	g_rvocalicmatra g_ka_sub > _ g_ka_rvocalicmatra_below:(1 2);
+	g_rvocalicmatra g_ta_sub > _ g_ta_rvocalicmatra_below:(1 2);
+	g_ta_sub g_ailengthmark > _ g_ta_ailengthmark_below:(1 2);
+	g_ra_below g_ailengthmark > _ g_ra_ailengthmark_below:(1 2);
 	g_sha_imathra g_ra_below > _ g_sha_ra_imathra:(1 2);
 
 endpass;
