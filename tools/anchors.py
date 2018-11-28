@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+from nameslist import *
 from fontParts.world import *
 import sys
 
@@ -9,7 +10,20 @@ font = OpenFont(ufo)
 print(f'Add anchors for {ufo}')
 
 # Modify UFO
-layer = font.getLayer(font.defaultLayer.name)
+
+# Position nukta marks
+glyph = font['nukta']
+(a_xmin, a_ymin, a_xmax, a_ymax) = glyph[2].bounds
+(b_xmin, b_ymin, b_xmax, b_ymax) = glyph[3].bounds
+xcenter = (a_xmin + b_xmax) / 2
+noffset = (a_ymin + b_ymax) / 2
+glyph.appendAnchor('_N', (xcenter, noffset))
+
+glyph = font['nukta.alt']
+(a_xmin, a_ymin, a_xmax, a_ymax) = glyph[2].bounds
+xcenter = (a_xmin + a_xmax) / 2
+ycenter = (a_ymin + a_ymax) / 2
+glyph.appendAnchor('_N', (xcenter, ycenter))
 
 # Position ematra...
 
@@ -17,28 +31,44 @@ layer = font.getLayer(font.defaultLayer.name)
 # As a result, the bounding box values for this glyph are not useful.
 # We will use bounding box of the first (good) contour,
 # and ignore the other contours. They can be removed later.
-ematra = font['ematra']
-if font.info.familyName == 'Badami':
-    (xmin, ymin, xmax, ymax) = ematra[0].bounds  # box of first contour
-else:
-    (xmin, ymin, xmax, ymax) = ematra.bounds
+#ematra = font['ematra']
+#if font.info.familyName == 'Badami':
+#    (xmin, ymin, xmax, ymax) = ematra[0].bounds  # box of first contour
+#else:
+#    (xmin, ymin, xmax, ymax) = ematra.bounds
 
-ematra.appendAnchor('_V', (xmin, ymin))
+#ematra.appendAnchor('_V', (xmax, ymin))
 
-for glyph in layer:
+for glyph in font:
+    bounds = glyph.bounds
+    if bounds is None:
+        continue
+    (xmin, ymin, xmax, ymax) = bounds
+    xcenter = (xmin + xmax) / 2
 
     # ...on some consonants.
-    if glyph.name in ('jha.base', 'ma.base', 'ya.base'):
-        (xmin, ymin, xmax, ymax) = glyph.bounds
-        xcenter = (xmin + xmax) / 2
-        anchor = glyph.appendAnchor('V', (xcenter, ymax))
+    #if glyph.name in ('jha.base', 'ma.base', 'ya.base'):
+    #    glyph.appendAnchor('V', (xcenter, ymax + 50))
 
     # Position sub sub forms
     if glyph.name.endswith('.sub') or glyph.name in ('ra.below', 'ra.below.large', 'ra.below.ra'):
-        (xmin, ymin, xmax, ymax) = glyph.bounds
-        anchor = glyph.appendAnchor('Sub', (xmax + 50, -200))
+        glyph.appendAnchor('S', (xmax + 50, -200))
         if glyph.name.endswith('.sub'):
-            anchor = glyph.appendAnchor('_Sub', (xmin, 0))
+            glyph.appendAnchor('_S', (xmin, 0))
+
+    # Position nuktas on bases
+    if glyph.unicode in Vowels + Consonants:
+        glyph.appendAnchor('N', (xcenter, ymin + noffset))
+
+    # Akhands
+    if glyph.name == 'ka':
+        glyph.appendAnchor('K', (xcenter, 0))
+    if glyph.name == 'ja':
+        glyph.appendAnchor('J', (xcenter, 0))
+    if glyph.name == 'ssa.sub':
+        glyph.appendAnchor('_K', (xcenter, 0))
+    if glyph.name == 'nya.sub':
+        glyph.appendAnchor('_J', (xcenter, 0))
 
 # Save UFO
 font.changed()

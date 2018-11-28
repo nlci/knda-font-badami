@@ -208,6 +208,9 @@
 <glyph PSName='u0CB3.base'><base UID='F0D7'></base></glyph>
 <glyph PSName='u0CB3.imathra'><base UID='F0D8'></base></glyph>
 <glyph PSName='u0CB3.sub'><base UID='F0D9'></base></glyph>
+<glyph PSName='u0CDE' UID='0CDE'><base UID='F08D'></base></glyph>
+<glyph PSName='u0CDE.imathra'><base UID='F08E'></base></glyph>
+<glyph PSName='u0CDE.sub'><base UID='F08F'></base></glyph>
 <glyph PSName='u0CB5' UID='0CB5'><base UID='F0C8'></base><base UID='F0DA'></base></glyph>
 <glyph PSName='u0CB5.base'><base UID='F0C8'></base></glyph>
 <glyph PSName='u0CB5.imathra'><base UID='F0C9'></base></glyph>
@@ -251,9 +254,6 @@
 <glyph PSName='u0CCD' UID='0CCD'><base UID='F0E9'></base></glyph>
 <glyph PSName='u0CD5' UID='0CD5'><base UID='F0DE'></base></glyph>
 <glyph PSName='u0CD6' UID='0CD6'><base UID='F0E7'></base></glyph>
-<glyph PSName='u0CDE' UID='0CDE'><base UID='F08D'></base></glyph>
-<glyph PSName='u0CDE.imathra'><base UID='F08E'></base></glyph>
-<glyph PSName='u0CDE.sub'><base UID='F08F'></base></glyph>
 <glyph PSName='u0CE0' UID='0CE0'><base UID='F046'></base><base UID='F0E0'></base></glyph>
 <glyph PSName='u0CE1' UID='0CE1'><base UID='F08C'></base></glyph>
 <glyph PSName='u0CE6' UID='0CE6'><base UID='F080'></base></glyph>

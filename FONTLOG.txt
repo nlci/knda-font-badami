@@ -40,6 +40,7 @@ ChangeLog
 (This should list both major and minor changes, most recent first.)
 
 Unreleased
+- Position nuktas
 - Glyphs from the legacy font files are no longer scaled up
 - Glyphs from Latin fonts and Annapurna SIL are scaled 71%
 03 Aug 2018 (Dev NLCI) NLCI Kannada fonts version 0.201

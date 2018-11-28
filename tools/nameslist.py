@@ -71,7 +71,7 @@ n = nukta = list(map(chr, Nukta))[0]
 
 Akhands = [
     chr(0x0C95) + h + chr(0x0CB7),  # KaSsa
-    chr(0x0c9c) + h + chr(0x0c9e),  # JaNya
+    chr(0x0C9C) + h + chr(0x0C9E),  # JaNya
     ]
 
 akhands = Akhands

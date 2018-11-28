@@ -26,6 +26,9 @@ source ${nlci}/metadata.bash
 
 for ufo in ${src}/*.ufo
 do
+    basefont=$(basename $ufo .ufo)
+    psfaddanchors -i source/${basefont}_ap.xml $ufo
+
     ./tools/anchors.py $ufo
 done
 echo "done producing UFO sources"
