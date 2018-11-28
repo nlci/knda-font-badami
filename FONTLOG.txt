@@ -14,7 +14,6 @@ Known issues in the new sources
 -------------------------------
 Before
  - Adjust double danda spacing in legacy mapping file in xml
- - copy ka_ssa* from Badami to Kaveri
 
 Drawing
  - Break link for [l]lvocalicmatra.alt
@@ -40,6 +39,7 @@ ChangeLog
 (This should list both major and minor changes, most recent first.)
 
 Unreleased
+- Provide akhand forms
 - Position nuktas
 - Glyphs from the legacy font files are no longer scaled up
 - Glyphs from Latin fonts and Annapurna SIL are scaled 71%

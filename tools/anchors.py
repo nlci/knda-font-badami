@@ -11,6 +11,11 @@ print(f'Add anchors for {ufo}')
 
 # Modify UFO
 
+# Akhands
+akhand1 = ('ka_ssa', 'ka_ssa.base', 'ka_ssa.imathra')
+akhand2 = ('ja_nya', 'ja_nya.base', 'ja_nya.imathra')
+akhands = akhand1 + akhand2
+
 # Position nukta marks
 glyph = font['nukta']
 (a_xmin, a_ymin, a_xmax, a_ymax) = glyph[2].bounds
@@ -51,24 +56,18 @@ for glyph in font:
     #    glyph.appendAnchor('V', (xcenter, ymax + 50))
 
     # Position sub sub forms
-    if glyph.name.endswith('.sub') or glyph.name in ('ra.below', 'ra.below.large', 'ra.below.ra'):
+    if (glyph.name.endswith('.sub') or
+        glyph.name in ('ra.below', 'ra.below.large', 'ra.below.ra') + akhands):
+        # Add anchors.
         glyph.appendAnchor('S', (xmax + 50, -200))
         if glyph.name.endswith('.sub'):
             glyph.appendAnchor('_S', (xmin, 0))
 
     # Position nuktas on bases
-    if glyph.unicode in Vowels + Consonants:
+    if glyph.unicode in Vowels + Consonants or glyph.name in akhands:
         glyph.appendAnchor('N', (xcenter, ymin + noffset))
 
     # Akhands
-    if glyph.name == 'ka':
-        glyph.appendAnchor('K', (xcenter, 0))
-    if glyph.name == 'ja':
-        glyph.appendAnchor('J', (xcenter, 0))
-    if glyph.name == 'ssa.sub':
-        glyph.appendAnchor('_K', (xcenter, 0))
-    if glyph.name == 'nya.sub':
-        glyph.appendAnchor('_J', (xcenter, 0))
 
 # Save UFO
 font.changed()

@@ -15,7 +15,8 @@ table(glyph)
 	cls_takesUbasedMatra = ( g_pa g_pa_base g_pha g_pha_base g_va g_va_base );
 	cls_takesLargeRaSubCons = ( g_gha g_cha g_jha g_ddha
 		g_tha g_dha g_pha g_bha );
-	cls_cons = ( cno_sub g_ra );
+	cls_akhands = ( g_ka_ssa g_ja_nya );
+	cls_cons = ( cno_sub g_ra cls_akhands );
 	cls_subCons = ( csub g_ra_below );
 
 endtable; // glyph
@@ -25,8 +26,13 @@ table(substitution)
 pass(1)
 
 	// akhn
-	g_ka g_virama g_ssa > _ g_ka g_ssa_sub:(1 2);
-	g_ja g_virama g_nya > _ g_ja g_nya_sub:(1 2);
+	// Make akhand forms...
+	g_ka g_virama g_ssa > _ _ g_ka_ssa:(1 2 3);
+	g_ja g_virama g_nya > _ _ g_ja_nya:(1 2 3);
+
+	// ...but not if they are sub forms
+	g_virama g_ka g_virama g_ssa > g_virama g_ka g_virama g_ssa;
+	g_virama g_ja g_virama g_nya > g_virama g_ja g_virama g_nya;
 
 	// decompose matras
 	_ _ g_oomatra > g_ematra:3 g_uumatra:3 g_lengthmark;
@@ -139,6 +145,7 @@ pass(7)
 
 	// special handling of ra sub forms
 	g_ra_below > g_ra_below_subcons / cls_subCons _;
+	g_ra_below > g_ra_below_subcons / cls_akhands _;
 	g_ra_below > g_ra_below_large / cls_takesLargeRaSubCons _;
 	g_ra_below > g_ra_below_ra / g_ra_imathra _;
 	g_ra_below > g_ra_below_ra / g_ra opt(cls_subConsPassMatras) _;

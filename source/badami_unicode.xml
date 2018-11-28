@@ -53,6 +53,14 @@
 <glyph PSName='acutedeva' UID='0954'><base UID='F09D'></base></glyph>
 <glyph PSName='doublesvarita' UID='1CDA'><base UID='F09F'></base></glyph>
 
+<glyph PSName='u0C95_u0CB7'><base UID='F04F'></base><base UID='F0DA'></base><base UID='F0D0'><shift x='-95' y='0'/></base></glyph>
+<glyph PSName='u0C95_u0CB7.base'><base UID='F04F'></base><base UID='F0D0'><shift x='-95' y='0'/></base></glyph>
+<glyph PSName='u0C95_u0CB7.imathra'><base UID='F050'></base><base UID='F0D0'><shift x='-95' y='0'/></base></glyph>
+
+<glyph PSName='u0C9C_u0C9E'><base UID='F064'></base><base UID='F06B'><shift x='-328' y='0'/></base></glyph>
+<glyph PSName='u0C9C_u0C9E.base'><base UID='F065'></base><base UID='F06B'><shift x='-328' y='0'/></base></glyph>
+<glyph PSName='u0C9C_u0C9E.imathra'><base UID='F066'></base><base UID='F06B'><shift x='-328' y='0'/></base></glyph>
+
 <!-- original non-roman mapping -->
 <glyph PSName='inherent'><base UID='F0DA'></base></glyph>
 <glyph PSName='makewide'><base UID='F0E1'></base></glyph>
@@ -266,7 +274,5 @@
 <glyph PSName='u0CED' UID='0CED'><base UID='F087'></base></glyph>
 <glyph PSName='u0CEE' UID='0CEE'><base UID='F088'></base></glyph>
 <glyph PSName='u0CEF' UID='0CEF'><base UID='F089'></base></glyph>
-<glyph PSName='u0C95_u0CB7'><base UID='F04F'></base><base UID='F0DA'></base><base UID='F0D0'></base></glyph>
-<glyph PSName='u0C95_u0CB7.base'><base UID='F04F'></base><base UID='F0D0'></base></glyph>
 </glyphs>
 </font>

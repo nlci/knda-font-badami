@@ -17,6 +17,22 @@ Vowels = [
     0x0C94,  # KANNADA LETTER AU
     ]
 
+Matras = [
+    0x0CBE,  # KANNADA VOWEL SIGN AA
+    0x0CBF,  # KANNADA VOWEL SIGN I
+    0x0CC0,  # KANNADA VOWEL SIGN II
+    0x0CC1,  # KANNADA VOWEL SIGN U
+    0x0CC2,  # KANNADA VOWEL SIGN UU
+    0x0CC3,  # KANNADA VOWEL SIGN VOCALIC R
+    0x0CC4,  # KANNADA VOWEL SIGN VOCALIC RR
+    0x0CC6,  # KANNADA VOWEL SIGN E
+    0x0CC7,  # KANNADA VOWEL SIGN EE
+    0x0CC8,  # KANNADA VOWEL SIGN AI
+    0x0CCA,  # KANNADA VOWEL SIGN O
+    0x0CCB,  # KANNADA VOWEL SIGN OO
+    0x0CCC,  # KANNADA VOWEL SIGN AU
+    ]
+
 Consonants = [
     0x0C95,  # KANNADA LETTER KA
     0x0C96,  # KANNADA LETTER KHA
@@ -65,9 +81,10 @@ Virama = [
     ]
 
 vowels = list(map(chr, Vowels))
+matras = list(map(chr, Matras))
 consonants = list(map(chr, Consonants))
-h = virama = list(map(chr, Virama))[0]
 n = nukta = list(map(chr, Nukta))[0]
+h = virama = list(map(chr, Virama))[0]
 
 Akhands = [
     chr(0x0C95) + h + chr(0x0CB7),  # KaSsa
