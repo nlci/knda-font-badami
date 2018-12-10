@@ -44,7 +44,7 @@
 <glyph PSName='llvocalicmatra.alt'><base UID='F04B'></base></glyph>
 <glyph PSName='xmatra'><base UID='F0DC'></base></glyph>
 <!--
-<glyph PSName='jihvamuliya' UID='0CF1'><base UID='0078' font="1"/><scale x="1.0" y="1.0"/></glyph>
+<glyph PSName='jihvamuliya' UID='0CF1'><base UID='0078' font="1"><scale x="1.0" y="1.0"/></base></glyph>
 -->
 <glyph PSName='upadhmaniya' UID='0CF2'><base UID='F04E'><scale x="1.9" y="1.9"/></base></glyph>
 <glyph PSName='udatta' UID='0951'><base UID='F09A'></base></glyph>

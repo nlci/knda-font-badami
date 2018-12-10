@@ -6,6 +6,7 @@ import sys
 
 with open(sys.argv[1], 'w') as output:
     output.write('RenderingUnknown\n')
+
     for c0 in consonants:
         for c1 in consonants:
             for c2 in consonants:

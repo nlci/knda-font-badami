@@ -86,9 +86,16 @@ consonants = list(map(chr, Consonants))
 n = nukta = list(map(chr, Nukta))[0]
 h = virama = list(map(chr, Virama))[0]
 
+ka = consonants[0]
+ga = consonants[2]
+gha = consonants[3]
+ja = consonants[7]
+nya = consonants[9]
+ssa = consonants[33]
+
 Akhands = [
-    chr(0x0C95) + h + chr(0x0CB7),  # KaSsa
-    chr(0x0C9C) + h + chr(0x0C9E),  # JaNya
+    ka + h + ssa,  # KaSsa
+    ja + h + nya,  # JaNya
     ]
 
 akhands = Akhands

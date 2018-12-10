@@ -67,8 +67,6 @@ for glyph in font:
     if glyph.unicode in Vowels + Consonants or glyph.name in akhands:
         glyph.appendAnchor('N', (xcenter, ymin + noffset))
 
-    # Akhands
-
 # Save UFO
 font.changed()
 font.save()
