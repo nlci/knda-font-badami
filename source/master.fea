@@ -466,7 +466,7 @@ feature abvm {
 	\exclam.knda \quoteleft.knda \quotedblleft.knda \quoteright.knda
 	\quotedblright.knda \parenleft.knda \parenright.knda \comma.knda
 	\hyphen.knda \period.knda \slash.knda \colon.knda \semicolon.knda
-	\question.knda \danda \doubledanda ];
+	\question.knda \danda \dandadbl ];
 @GDEF_Ligature = [\shortrr \ka \ka.imathra \ka.sub \kha \kha.imathra
 	\kha.sub \ga \ga.imathra \ga.sub \gha \gha.imathra \gha.sub
 	\nga \nga.sub \ca \ca.imathra \ca.sub \cha \cha.imathra

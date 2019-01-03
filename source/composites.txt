@@ -1,0 +1,2 @@
+nukta = u1CDE | 0CBC
+nukta.alt = u1CDD
