@@ -37,7 +37,7 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
-Unreleased
+04 Jan 2019 (Dev NLCI) NLCI Kannada fonts version 0.300
 - Provide akhand forms
 - Position nuktas
 - Glyphs from the legacy font files are no longer scaled up

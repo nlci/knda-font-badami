@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="in.nlci.fonts.Kaveri.0.201" />
+  <uniqueid id="in.nlci.fonts.Kaveri.0.300" />
   <vendor name="NLCI" url="http://www.nlci.in/fonts/" />
   <credits>
     <credit
@@ -17,7 +17,6 @@
       -------------------------------
       Before
       - Adjust double danda spacing in legacy mapping file in xml
-      - copy ka_ssa* from Badami to Kaveri
       
       Drawing
       - Break link for [l]lvocalicmatra.alt
@@ -41,6 +40,11 @@
       ---------
       (This should list both major and minor changes, most recent first.)
       
+      Unreleased
+      - Provide akhand forms
+      - Position nuktas
+      - Glyphs from the legacy font files are no longer scaled up
+      - Glyphs from Latin fonts and Annapurna SIL are scaled 71%
       03 Aug 2018 (Dev NLCI) NLCI Kannada fonts version 0.201
       - Position sub sub forms better
       - Include a few more characters
@@ -56,7 +60,7 @@
   </description>
   <license url="http://scripts.sil.org/OFL" id="org.sil.ofl.1.1">
     <text lang="en">
-      This Font Software is Copyright (c) 2009-2018, NLCI (http://www.nlci.in/fonts/)
+      This Font Software is Copyright (c) 2009-2019, NLCI (http://www.nlci.in/fonts/)
       with Reserved Font Names "Badami" and "Kaveri" and "NLCI".
       Latin glyphs in Badami are Copyright (c) 2003-2013, SIL International (http://www.sil.org/)
       with Reserved Font Names "Gentium" and "SIL".
@@ -162,7 +166,7 @@
   </license>
   <copyright>
     <text lang="en">
-      This Font Software is Copyright (c) 2009-2018, NLCI (http://www.nlci.in/fonts/)
+      This Font Software is Copyright (c) 2009-2019, NLCI (http://www.nlci.in/fonts/)
       with Reserved Font Names "Badami" and "Kaveri" and "NLCI".
       Latin glyphs in Badami are Copyright (c) 2003-2013, SIL International (http://www.sil.org/)
       with Reserved Font Names "Gentium" and "SIL".
