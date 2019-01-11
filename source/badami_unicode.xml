@@ -16,7 +16,7 @@
 <glyph PSName="parenleft.knda"><base UID="F028"></base></glyph>
 <glyph PSName="parenright.knda"><base UID="F029"></base></glyph>
 <glyph UID="0964" PSName="danda"><base UID="F02B"></base></glyph>
-<glyph UID="0965" PSName="doubledanda"><base UID="F02B"></base><base UID="F02B"></base></glyph>
+<glyph UID="0965" PSName="doubledanda"><base UID="F02B"></base><base UID="F02B"><shift x='-82' y='0'/></base></glyph>
 <glyph PSName="comma.knda"><base UID="F02C"></base></glyph>
 <glyph PSName="hyphen.knda"><base UID="F02D"></base></glyph>
 <glyph PSName="period.knda"><base UID="F02E"></base></glyph>

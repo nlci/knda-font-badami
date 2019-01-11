@@ -1,2 +1,3 @@
 nukta = u1CDE | 0CBC
 nukta.alt = u1CDD
+jihvamuliya = u1CF5 | 0CF1

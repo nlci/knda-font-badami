@@ -6,7 +6,7 @@ do
     ufo=source/${face}-Regular.ufo
     psfsetkeys -k "copyright" --filepart OFL.txt $ufo
     psfsetkeys -k "openTypeNameLicense" --file OFL.txt $ufo
-    psfsetversion $ufo 0.300
+    psfsetversion $ufo 0.301
     psfsyncmasters source/${face}Roman.designspace source/${face}Italic.designspace
     psfmakewoffmetadata -n ${face} -i in.nlci.fonts $ufo
 done
