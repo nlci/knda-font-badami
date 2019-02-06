@@ -1,4 +1,4 @@
-#!/bin/python
+#!/bin/python3
 
 # set OS/2 bits using hackos2
 
