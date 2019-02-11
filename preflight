@@ -13,8 +13,9 @@ done
 
 for ufo in source/*.ufo
 do
-    psfnormalize -v 3 -p checkfix=fix $ufo
+    psfnormalize -v 3 -p checkfix=fix $ufo &
 done
+wait
 
 for auto in tools/auto_*
 do
