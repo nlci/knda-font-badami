@@ -7,6 +7,8 @@ do
     psfsetkeys -k "copyright" --filepart OFL.txt $ufo
     psfsetkeys -k "openTypeNameLicense" --file OFL.txt $ufo
     psfsetversion $ufo 0.301
+    psfsetglyphorder -i source/glyph_data-${face}.csv $ufo
+    psfsetpsnames -i source/glyph_data-${face}.csv $ufo
     psfsyncmasters source/${face}Roman.designspace source/${face}Italic.designspace
     psfmakewoffmetadata -n ${face} -i in.nlci.fonts $ufo
 done
