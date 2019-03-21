@@ -84,7 +84,7 @@ vowels = list(map(chr, Vowels))
 matras = list(map(chr, Matras))
 consonants = list(map(chr, Consonants))
 n = nukta = list(map(chr, Nukta))[0]
-h = virama = list(map(chr, Virama))[0]
+virama = list(map(chr, Virama))[0]
 
 ka = consonants[0]
 ga = consonants[2]
@@ -94,8 +94,8 @@ nya = consonants[9]
 ssa = consonants[33]
 
 Akhands = [
-    ka + h + ssa,  # KaSsa
-    ja + h + nya,  # JaNya
+    ka + virama + ssa,  # KaSsa
+    ja + virama + nya,  # JaNya
     ]
 
 akhands = Akhands

@@ -7,6 +7,7 @@ import sys
 with open(sys.argv[1], 'w') as output:
     output.write('RenderingUnknown\n')
 
+    h = virama
     for c0 in (ka, ga, gha, ja):
         output.write(c0 + '\n')
         for c1 in consonants:
