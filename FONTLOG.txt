@@ -12,18 +12,12 @@ Pan Kannada font designed to support all the languages using the Kannada script.
 
 Known issues in the new sources
 -------------------------------
-Before
- - Adjust double danda spacing in legacy mapping file in xml
-
 Drawing
  - Break link for [l]lvocalicmatra.alt
  - Copy, rotate, move, scale the glyphs for [l]lvocalicmatra.alt (from Kannada O/OO)
  - Move top ring of upadhmaniya to the baseline
  - Remove most of the glyph (currently the om sign) from the two candrabindus
  - U+20B9 INDIAN RUPEE SIGN needs to be made italic in the Italic and Bold Italic faces
-
-Editing
- - rename u0C83 back to visarga (and revert the .fea as well for this)
 
 Features
  - vowel less na
