@@ -18,7 +18,7 @@ akhands = akhand1 + akhand2
 
 ## Position nukta marks
 nuktas = ('nukta', 'nukta.alt')
-vedic_dots = ('u1CDE', 'u1CDD')
+vedic_dots = ('vedictonetwodotsbelow', 'vedictonedotbelow')
 for nukta, vedic_dot in zip(nuktas, vedic_dots):
     vg = font[vedic_dot]
     (xmin, ymin, xmax, ymax) = vg.bounds
