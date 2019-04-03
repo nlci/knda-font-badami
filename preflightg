@@ -1,0 +1,6 @@
+#!/bin/sh
+
+for g in source/*.glyphs
+do
+    psfglyphs2ufo $g source
+done

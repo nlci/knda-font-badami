@@ -1,0 +1,6 @@
+#!/bin/sh
+
+for ds in source/*.designspace
+do
+    psfufo2glyphs $ds
+done

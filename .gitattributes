@@ -23,6 +23,7 @@
 *.cfg text eol=lf
 *.css text eol=lf
 *.fea text eol=lf
+*.feax text eol=lf
 *.ftml text eol=lf
 *.gdl text eol=lf
 *.gdh text eol=lf
@@ -40,6 +41,8 @@
 *.xml text eol=lf
 
 preflight text eol=lf
+preflightg text eol=lf
+preglyphs text eol=lf
 wscript text eol=lf
 
 # Declare text files that will stay in LF (i.e. not expected to be used on Windows)

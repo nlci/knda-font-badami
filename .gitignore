@@ -4,10 +4,13 @@
 
 # smith
 .waf-*
+.smithpickle-*
 .lock-*
 results/**
 buildlinux2/**
 bin/**
+source/temp/*
+source/backups/*
 
 # general backup files
 *~
@@ -49,6 +52,8 @@ current.fpr
 *.bak
 *.vfbak
 *.~tt
++.idea/*
+
 
 # Shares
 .AppleDB
