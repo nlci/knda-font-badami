@@ -41,7 +41,7 @@ Unreleased
 - Add many Latin and Devanagari characters.
 - Latin glyphs in Badami are from Gentium Book Basic (https://software.sil.org/gentium/)
 - Latin glyphs in Kaveri are from Exo (https://github.com/NDISCOVER/Exo-1.0)
-- Additional Latin glyphs are from Charis SIL (https://software.sil.org/charis/)
+- Additional Latin glyphs in Kaveri are from Charis SIL (https://software.sil.org/charis/)
 - Indian Rupee Sign is from Annapurna SIL (https://software.sil.org/annapurna/)
 19 Jun 2015 (Dev NLCI) NLCI Kannada fonts version 0.100
 - Latin glyphs are from Charis SIL (http://scripts.sil.org/CharisSILfont)

@@ -7,11 +7,9 @@ desc_long="Pan Kannada font designed to support all the languages using the Kann
 export nlci=$HOME/script/tools
 source ${nlci}/prepare.bash
 
-pushd ${ufo}
+pushd ${src}
 fontforge -script ${nlci}/emsize1000.ff Kaveri-Regular.sfd
 popd
-
-source ${nlci}/addchars.bash
 
 pushd ${src}
 for sfd in *-???*.sfd
