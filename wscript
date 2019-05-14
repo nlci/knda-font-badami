@@ -88,7 +88,7 @@ for f in faces:
         snf = '-' + sn.replace(' ', '')
         fontfilename = tag + f + snf
         font(target = process(fontfilename + '.ttf',
-                cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', [fontbase + f + snf + '.ufo']),
+                cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', [fontbase + f + snf + '.ufo']),
                 name(tag + ' ' + f, lang='en-US', subfamily=(sn))
                 ),
             source = fontbase + f + snf + '.ufo',
@@ -108,7 +108,7 @@ for f in faces:
             woff = woff('woff/' + fontfilename + '.woff', params = '-v ' + VERSION + ' -m ../' + fontbase + f + '-WOFF-metadata.xml'),
             script = 'knda',
             package = p,
-            fret = fret(params = '-r')
+            fret = fret(params = '-r -oi')
             )
 
 def configure(ctx):

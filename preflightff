@@ -1,0 +1,9 @@
+#!/bin/sh
+
+for ufo in source/*.ufo
+do
+    psffixffglifs -p checkfix=fix $ufo &
+done
+wait
+
+./preflight
