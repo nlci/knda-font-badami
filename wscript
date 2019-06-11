@@ -92,11 +92,12 @@ for f in faces:
                 name(tag + ' ' + f, lang='en-US', subfamily=(sn))
                 ),
             source = fontbase + f + snf + '.ufo',
-            opentype = fea(fontbase + 'master.fea', no_make = True),
-            # opentype = fea(generated + f + snf + '.fea',
-            #     master = fontbase + 'master.fea',
-            #     make_params = '' # might need -z 8 to work around a FontForge bug
-            #     ),
+            # opentype = fea(fontbase + 'master.fea', no_make = True),
+            opentype = fea(generated + f + snf + '.fea',
+                master = fontbase + 'master.feax',
+                make_params = '',
+                params = ''
+                ),
             graphite = gdl(generated + f + snf + '.gdl',
                master = fontbase + 'master.gdl',
                make_params = '-p 1',
