@@ -13,9 +13,6 @@ for contour in ematra.contours:
     if len(contour) <= 2:
         ematra.removeContour(contour)
 
-double = font['doubledanda']
-double.name = 'dandadbl'
-
 # Save UFO
 font.changed()
 font.save()

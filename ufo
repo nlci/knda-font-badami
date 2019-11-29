@@ -5,28 +5,24 @@ styles=(Regular Bold Italic "Bold Italic")
 desc_long="Pan Kannada font designed to support all the languages using the Kannada script."
 
 export nlci=$HOME/script/tools
+export src=source
 source ${nlci}/prepare.bash
 
 pushd ${src}
 fontforge -script ${nlci}/emsize1000.ff Kaveri-Regular.sfd
 popd
 
-pushd ${src}
-for sfd in *-???*.sfd
+source ${nlci}/metadata.bash
+
+pushd manual_aps
+for ufo in *.ufo
 do
-    echo $sfd
-    perl $HOME/script/zind/bin/codepoint2name.pl -c $sfd -n tmp.sfd -m glyphs_names.tsv
-    mv tmp.sfd $sfd
+    basefont=$(basename $ufo .ufo)
+    psfexportanchors $ufo ${basefont}_ap.xml
+    psfaddanchors -i ${basefont}_ap.xml ../${src}/$ufo
+    ../tools/anchors.py ../${src}/$ufo
 done
 popd
 
-source ${nlci}/metadata.bash
-
-for ufo in ${src}/*.ufo
-do
-    basefont=$(basename $ufo .ufo)
-    psfaddanchors -i source/${basefont}_ap.xml $ufo
-
-    ./tools/anchors.py $ufo
-done
+rm -f ${src}/*-???*.sfd*
 echo "done producing UFO sources"
