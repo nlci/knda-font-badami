@@ -9,8 +9,8 @@ do
     psfsetversion $ufo 0.301
     psfsetglyphorder -i source/glyph_data-${face}.csv $ufo
     psfsetpsnames -i source/glyph_data-${face}.csv $ufo
+    psfmakewoffmetadata -n ${face} -i in.nlci.fonts --populateufowoff --force $ufo
     psfsyncmasters source/${face}Roman.designspace source/${face}Italic.designspace
-    psfmakewoffmetadata -n ${face} -i in.nlci.fonts $ufo
 done
 
 for ufo in source/*.ufo
