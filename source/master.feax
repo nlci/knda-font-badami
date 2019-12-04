@@ -1,5 +1,5 @@
 languagesystem DFLT dflt;
-languagesystem knda dflt;
+languagesystem knd2 dflt;
 languagesystem latn dflt;
 
 
@@ -488,6 +488,7 @@ feature abvm {
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
+  # GlyphClassDef @GDEF_bases, , @GDEF_marks, ;
 
   LigatureCaretByPos \da 726;
 } GDEF;

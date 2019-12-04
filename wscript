@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # this is a smith configuration file
 
 # badami
@@ -28,6 +28,7 @@ DESC_SHORT='Kannada Unicode font with OT support'
 DESC_NAME='NLCI-' + script
 DEBPKG='fonts-nlci-' + script
 getufoinfo('source/Badami-Regular.ufo')
+BUILDLABEL = 'beta1'
 
 # set test parameters
 TESTSTRING=u'\u0c95'
@@ -92,7 +93,6 @@ for f in faces:
                 name(tag + ' ' + f, lang='en-US', subfamily=(sn))
                 ),
             source = fontbase + f + snf + '.ufo',
-            # opentype = fea(fontbase + 'master.fea', no_make = True),
             opentype = fea(generated + f + snf + '.fea',
                 master = fontbase + 'master.feax',
                 make_params = '',
@@ -107,9 +107,9 @@ for f in faces:
             ap = generated + f + snf + '.xml',
             version = VERSION,
             woff = woff('woff/' + fontfilename + '.woff', params = '-v ' + VERSION + ' -m ../' + fontbase + f + '-WOFF-metadata.xml'),
-            script = 'knda',
+            script = 'knd2', # 'knda'
             package = p,
-            fret = fret(params = '-r -oi')
+            fret = fret(params = '-oi')
             )
 
 def configure(ctx):
