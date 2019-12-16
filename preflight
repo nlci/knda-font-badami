@@ -1,5 +1,11 @@
 #!/bin/sh
 
+for ufo in source/*.ufo
+do
+    psfnormalize -v 3 -p checkfix=fix $ufo &
+done
+wait
+
 faces="Badami Kaveri"
 for face in $faces
 do
@@ -9,17 +15,6 @@ do
     psfsetversion $ufo 0.301
     psfsetglyphorder -i source/glyph_data-${face}.csv $ufo
     psfsetpsnames -i source/glyph_data-${face}.csv $ufo
-    psfmakewoffmetadata -n ${face} -i in.nlci.fonts --populateufowoff --force $ufo
+    psfmakewoffmetadata -n ${face} -i in.nlci.fonts $ufo # --populateufowoff --force
     psfsyncmasters source/${face}Roman.designspace source/${face}Italic.designspace
-done
-
-for ufo in source/*.ufo
-do
-    psfnormalize -v 3 -p checkfix=fix $ufo &
-done
-wait
-
-for auto in tools/auto_*
-do
-    ./$auto tests/$(basename $auto .py).txt
 done
