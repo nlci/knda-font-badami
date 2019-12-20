@@ -1,31 +1,35 @@
 \begin[class=fontproof]{document}
+\bidi-off
 \setTestFont[]
-
-\section{Samples}
-
-\subsection{Name}
 
 \proof{Kannada ಕನ್ನಡ ಲಿಪಿ RenderingUnknown}
 
-\proof[size="10,11,12,16",heading=Body text]{ಕನ್ನಡ ಲಿಪಿ}
+\subsection{Waterfall}
 
+\proof[size="10,11,12,16",heading=Body text]{ಕನ್ನಡ ಲಿಪಿ}
 \proof[size="18,24,30,36",heading=Heading text]{ಕನ್ನಡ ಲಿಪಿ}
 
 \section{Patterns}
 
-\pattern[chars="I",reps="ಅಕ",heading=Sample mixed script]{aIB}
+\subsection{Letters}
 
-\patterngroup[name="vowels"]{ಆಇ}
-\patterngroup[name="cons"]{ಖಗ}
-\patterngroup[name="matras"]{ಾಿ}
-\pattern[chars="e,k,o,u",reps="group_vowels,group_cons,group_vowels,group_cons",heading=Lowercase]{text_az}
-\pattern[chars="E,K,O,U",reps="group_vowels,group_cons,group_vowels,group_cons",heading=Uppercase]{text_AZ}
-\pattern[chars="C,M",reps="group_cons,group_matras",heading=Some matra combinations]{ಈCMಘ}
+\proof{ಅಆಇಈಉಊಋಌಎಏಐಒಓಔೠೡ}
+\proof{ಕಖಗಘಙಚಛಜಝಞಟಠಡಢಣತಥದಧನಪಫಬಭಮಯರಱಲಳವಶಷಸಹೞ}
 
+\patterngroup[name="cons"]{ಕಖಗಘಙಚಛಜಝಞಟಠಡಢಣತಥದಧನಪಫಬಭಮಯರಱಲಳವಶಷಸಹೞ}
+\patterngroup[name="matras"]{ಾಿೀುೂೃೄೆೇೈೊೋೌೢೣ}
+\pattern[chars="C,M",reps="group_cons,group_matras",heading=Cons+Matras]{CM}
+
+\subsection{Digits}
+
+\proof{೦೧೨೩೪೫೬೭೮೯}
 \patterngroup[name="digits"]{೦೧೨೩೪೫೬೭೮೯}
-\pattern[chars="@",reps="group_digits",heading=Digits]{೦@೧@೨@೩@೪@೫@೬@೭@೮@೯}
+\pattern[chars="@",reps="group_digits",format="list"]{@೦@೧@೨@೩@೪@೫@೬@೭@೮@೯}
 
-\pattern[chars="¡,¿",reps="।,॥",heading=Punctuation]{text_punct}
+\subsection{Punctuation}
+
+\proof{!()*,-./:;?[]{}।॥}
+\pattern[chars="@",reps="group_cons",format="list"]{@!@(@)@*@,@-@.@/@:@;@?@[@]@{@}@।@॥}
 
 \section{Generated}
 
@@ -35,5 +39,17 @@
 
 \subsection{Glyphs}
 \repertoire
+
+\subsection{Kannada}
+\unicharchart[type=range,start=0C80,end=0CFF]
+
+\subsection{ASCII}
+\unicharchart[type=range,start=0020,end=007F]
+
+\subsection{Punctuation}
+\unicharchart[type=range,start=2010,end=201F]
+
+\subsection{Latin-1}
+\unicharchart[type=range,start=00A0,end=00FF]
 
 \end{document}

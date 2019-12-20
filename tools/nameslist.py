@@ -15,6 +15,8 @@ Vowels = [
     0x0C92,  # KANNADA LETTER O
     0x0C93,  # KANNADA LETTER OO
     0x0C94,  # KANNADA LETTER AU
+    0x0CE0,  # KANNADA LETTER VOCALIC RR
+    0x0CE1,  # KANNADA LETTER VOCALIC LL
     ]
 
 Matras = [
@@ -31,6 +33,8 @@ Matras = [
     0x0CCA,  # KANNADA VOWEL SIGN O
     0x0CCB,  # KANNADA VOWEL SIGN OO
     0x0CCC,  # KANNADA VOWEL SIGN AU
+    0x0CE2,  # KANNADA VOWEL SIGN VOCALIC L
+    0x0CE3,  # KANNADA VOWEL SIGN VOCALIC LL
     ]
 
 Consonants = [
@@ -80,11 +84,25 @@ Virama = [
     0x0CCD,  # KANNADA SIGN VIRAMA
     ]
 
+Digits = [
+    0x0CE6,  # KANNADA DIGIT ZERO
+    0x0CE7,  # KANNADA DIGIT ONE
+    0x0CE8,  # KANNADA DIGIT TWO
+    0x0CE9,  # KANNADA DIGIT THREE
+    0x0CEA,  # KANNADA DIGIT FOUR
+    0x0CEB,  # KANNADA DIGIT FIVE
+    0x0CEC,  # KANNADA DIGIT SIX
+    0x0CED,  # KANNADA DIGIT SEVEN
+    0x0CEE,  # KANNADA DIGIT EIGHT
+    0x0CEF,  # KANNADA DIGIT NINE
+    ]
+
 vowels = list(map(chr, Vowels))
 matras = list(map(chr, Matras))
 consonants = list(map(chr, Consonants))
 n = nukta = list(map(chr, Nukta))[0]
-virama = list(map(chr, Virama))[0]
+h = virama = list(map(chr, Virama))[0]
+digits = list(map(chr, Digits))
 
 ka = consonants[0]
 ga = consonants[2]
