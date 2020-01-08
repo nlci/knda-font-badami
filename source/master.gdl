@@ -9,16 +9,18 @@ table(glyph)
 	cls_vowel = ( g_avowel g_aavowel g_ivowel g_iivowel g_uvowel g_uuvowel
 		g_rvocalicvowel g_lvocalicvowel g_evowel g_eevowel g_aivowel g_ovowel
 		g_oovowel g_auvowel g_rrvocalicvowel g_llvocalicvowel );
-	cls_matraToBase = ( g_aamatra g_ematra g_aumatra g_virama );
+	// cls_matraToBase = ( g_aamatra g_ematra g_aumatra g_virama );
 	cls_subConsPassMatras = ( g_imatra g_umatra g_uumatra
-		g_rvocalicmatra g_rrvocalicmatra cls_matraToBase );
+		g_rvocalicmatra g_rrvocalicmatra cMatraToBase );
 	cls_rephPassMatras = ( cls_subConsPassMatras g_lengthmark g_ailengthmark );
-	cls_takesLargeEmatra = ( g_nga g_nya g_rra );
-	cls_takesUbasedMatra = ( g_pa g_pa_base g_pha g_pha_base g_va g_va_base );
-	cls_takesLargeRaSubCons = ( g_gha g_cha g_jha g_ddha
-		g_tha g_dha g_pha g_bha );
-	cls_akhands = ( g_ka_ssa g_ja_nya );
-	cls_cons = ( cno_sub g_ra cls_akhands );
+	// cls_takesLargeEmatra = ( g_nga g_nya g_rra );
+	// cls_takesUbasedMatra = ( g_pa g_pa_base g_pha g_pha_base g_va g_va_base );
+	// cls_takesLargeRaSubCons = ( g_gha g_cha g_jha g_ddha
+	// 	g_tha g_dha g_pha g_bha );
+	// cls_akhands = ( g_ka_ssa g_ja_nya );
+
+	// Also in FEAX
+	cls_cons = ( cno_sub g_ra cAkhands );
 	cls_subCons = ( csub g_ra_below );
 
 endtable; // glyph
@@ -37,6 +39,10 @@ pass(1)
 	// Make akhand forms...
 	g_ka g_virama g_ssa > _ _ g_ka_ssa:(1 2 3);
 	g_ja g_virama g_nya > _ _ g_ja_nya:(1 2 3);
+
+	// ...even if preceded by a future reph...
+	g_ra g_virama g_ka g_virama g_ssa > g_ra g_virama _ _ g_ka_ssa:(1 2 3);
+	g_ra g_virama g_ja g_virama g_nya > g_ra g_virama _ _ g_ja_nya:(1 2 3);
 
 	// ...but not if they are sub forms
 	g_virama g_ka g_virama g_ssa > g_virama g_ka g_virama g_ssa;
@@ -121,11 +127,16 @@ pass(5)
 
 	// pres2? abvs
 
+	// ignore vowels where the matras to base do not go on the base form
+	g_jha > g_jha / _ cMatraToBase;
+	g_ma > g_ma / _ cMatraToBase;
+	g_ya > g_ya / _ cMatraToBase;
+
 	// vowel signs and parts AA, E, AU and haln
-	cno_base > cbase / _ cls_matraToBase;
+	cno_base > cbase / _ cMatraToBase;
 
 	// different E matra
-	g_ematra > g_ematra_large / cls_takesLargeEmatra _;
+	g_ematra > g_ematra_large / cTakesLargeEmatra _;
 
 	// vowel signs and parts I
 	cno_imathra g_imatra  > cimathra:2 _;
@@ -148,13 +159,13 @@ endpass;
 pass(7)
 
 	// psts
-	g_umatra > g_umatra_large / cls_takesUbasedMatra _;
-	g_uumatra > g_uumatra_large / cls_takesUbasedMatra g_ematra? _;
+	g_umatra > g_umatra_large / cTakesUbasedMatra _;
+	g_uumatra > g_uumatra_large / cTakesUbasedMatra g_ematra? _;
 
 	// special handling of ra sub forms
 	g_ra_below > g_ra_below_subcons / cls_subCons _;
-	g_ra_below > g_ra_below_subcons / cls_akhands _;
-	g_ra_below > g_ra_below_large / cls_takesLargeRaSubCons _;
+	g_ra_below > g_ra_below_subcons / cAkhands _;
+	g_ra_below > g_ra_below_large / cTakesLargeRaSubCons _;
 	g_ra_below > g_ra_below_ra / g_ra_imathra _;
 	g_ra_below > g_ra_below_ra / g_ra opt(cls_subConsPassMatras) _;
 	g_ra_below > g_ra_below_ra / g_ra_base opt2(cls_subConsPassMatras) _;

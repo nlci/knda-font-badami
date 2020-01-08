@@ -59,6 +59,10 @@ for glyph in font:
     if glyph.unicode in Vowels + Consonants or glyph.name in akhands:
         glyph.appendAnchor('N', (xcenter, ymin + ycenter))
 
+    # Add un-used anchors on matras so they will be classified as marks in OpenType
+    if glyph.name.endswith('matra') or glyph.name == 'lengthmark':
+        glyph.appendAnchor('_M', (0, 0))
+
 # Save UFO
 font.changed()
 font.save()

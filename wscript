@@ -94,6 +94,7 @@ for f in faces:
                 ),
             source = fontbase + f + snf + '.ufo',
             opentype = fea(generated + f + snf + '.fea',
+                mapfile = generated + f + snf + '.map',
                 master = fontbase + 'master.feax',
                 make_params = '',
                 params = ''
@@ -103,7 +104,7 @@ for f in faces:
                make_params = '-p 1',
                params =  '-e ' + f + snf + '_gdlerr.txt'
                ),
-            #classes = fontbase + 'badami_classes.xml',
+            classes = fontbase + 'classes.xml',
             ap = generated + f + snf + '.xml',
             version = VERSION,
             woff = woff('woff/' + fontfilename + '.woff', params = '-v ' + VERSION + ' -m ../' + fontbase + f + '-WOFF-metadata.xml'),

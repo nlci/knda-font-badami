@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../tools/FTMLcreateList.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../tools/ftml-multiple.xsl"?>
 <ftml version="1.0">
   <head>
-    <columns comment="30%" label="15%" string="50%" style="5%"/>
+    <fontscale>300</fontscale>
     <fontsrc>url(../results/KNDABadami-Regular.ttf)</fontsrc>
+    <fontsrc>url(../tests/reference/NotoSerifKannada-Regular.ttf)</fontsrc>
+    <fontsrc>url(../tests/reference/NotoSansKannada-Regular.ttf)</fontsrc>
+    <fontsrc>url(../tests/reference/NotoSansKannadaUI-Regular.ttf)</fontsrc>
+    <fontsrc>url(../tests/reference/Lohit-Kannada.ttf)</fontsrc>
     <title>Lookups</title>
   </head>
   <testgroup label="Rendering check">
@@ -215,6 +219,15 @@
     <test label="rra-ematra">
       <string>\u0cb1\u0cc6</string>
     </test>
+    <test label="jha and matras">
+      <string>\u0c9d \u0c9d\u0cbe \u0c9d\u0cbf \u0c9d\u0cc0 \u0c9d\u0cc1 \u0c9d\u0cc2 \u0c9d\u0cc3 \u0c9d\u0cc4 \u0c9d\u0cc6 \u0c9d\u0cc7 \u0c9d\u0cc8 \u0c9d\u0cca \u0c9d\u0ccb \u0c9d\u0ccc \u0c9d\u0ccd</string>
+    </test>
+    <test label="ma and matras">
+      <string>\u0cae \u0cae\u0cbe \u0cae\u0cbf \u0cae\u0cc0 \u0cae\u0cc1 \u0cae\u0cc2 \u0cae\u0cc3 \u0cae\u0cc4 \u0cae\u0cc6 \u0cae\u0cc7 \u0cae\u0cc8 \u0cae\u0cca \u0cae\u0ccb \u0cae\u0ccc \u0cae\u0ccd</string>
+    </test>
+    <test label="ya and matras">
+      <string>\u0caf \u0caf\u0cbe \u0caf\u0cbf \u0caf\u0cc0 \u0caf\u0cc1 \u0caf\u0cc2 \u0caf\u0cc3 \u0caf\u0cc4 \u0caf\u0cc6 \u0caf\u0cc7 \u0caf\u0cc8 \u0caf\u0cca \u0caf\u0ccb \u0caf\u0ccc \u0caf\u0ccd</string>
+    </test>
     <test label="nya-halant-nga-ematra">
       <string>\u0c9e\u0ccd\u0c99\u0cc6</string>
     </test>
@@ -323,11 +336,11 @@
       </test>
   </testgroup>
   <testgroup label="haln">
-    <test label="ka-halant">
-      <string>\u0c95\u0ccd</string>
+    <test label="na-halant">
+      <string>\u0ca8\u0ccd</string>
     </test>
-    <test label="kha-halant">
-      <string>\u0c96\u0ccd</string>
+    <test label="kh-halant-ssa-halant">
+      <string>\u0c95\u0ccd\u0cb7\u0ccd</string>
     </test>
   </testgroup>
   <testgroup label="extra">
