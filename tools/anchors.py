@@ -35,6 +35,14 @@ for nukta, vedic_dot in zip(nuktas, vedic_dots):
 #(xmin, ymin, xmax, ymax) = ematra.bounds
 #ematra.appendAnchor('_V', (xmax, ymin))
 
+jha_base = font['jha.base']
+for anchor in jha_base.anchors:
+    if anchor.name == 'V':
+        x = anchor.x
+        y = anchor.y
+        jha_regbase = font['jha.regbase']
+        jha_regbase.appendAnchor('V', (x, y))
+
 ## Position both
 for glyph in font:
     bounds = glyph.bounds

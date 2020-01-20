@@ -53,120 +53,17 @@ lookup BelowFormOfCons {
     sub virama @Cons by @SubCons;
 } BelowFormOfCons;
 
-lookup MultipleSubstitutionlookup13 {
-  lookupflag 0;
-    sub \ra by \ra \virama ;
-    sub \rra by \rra \virama ;
-} MultipleSubstitutionlookup13;
-
-lookup akhnAkhandinKannadalookup0 {
-  lookupflag 0;
-    sub [\ka \kha \ga \gha \nga \ca \cha \ja \jha \nya \tta \ttha
-	\dda \ddha \nna \ta \tha \da \dha \na \pa \pha
-	\ba \bha \ma \ya \rra \la \lla \va \sha \ssa
-	\sa \ha \fa ] [\virama ] [\ra \rra ]'lookup MultipleSubstitutionlookup13  ;
-} akhnAkhandinKannadalookup0;
-
-lookup LigatureSubstitutionlookup14 {
-  lookupflag 0;
-    sub \ka \virama  by \ka;
-    sub \kha \virama  by \kha;
-    sub \ga \virama  by \ga;
-    sub \gha \virama  by \gha;
-    sub \nga \virama  by \nga;
-    sub \ca \virama  by \ca;
-    sub \cha \virama  by \cha;
-    sub \ja \virama  by \ja;
-    sub \jha \virama  by \jha;
-    sub \nya \virama  by \nya;
-    sub \tta \virama  by \tta;
-    sub \ttha \virama  by \ttha;
-    sub \dda \virama  by \dda;
-    sub \ddha \virama  by \ddha;
-    sub \nna \virama  by \nna;
-    sub \ta \virama  by \ta;
-    sub \tha \virama  by \tha;
-    sub \da \virama  by \da;
-    sub \dha \virama  by \dha;
-    sub \na \virama  by \na;
-    sub \pa \virama  by \pa;
-    sub \pha \virama  by \pha;
-    sub \ba \virama  by \ba;
-    sub \bha \virama  by \bha;
-    sub \ma \virama  by \ma;
-    sub \ya \virama  by \ya;
-    sub \rra \virama  by \rra;
-    sub \la \virama  by \la;
-    sub \lla \virama  by \lla;
-    sub \va \virama  by \va;
-    sub \sha \virama  by \sha;
-    sub \ssa \virama  by \ssa;
-    sub \sa \virama  by \sa;
-    sub \ha \virama  by \ha;
-    sub \fa \virama  by \fa;
-} LigatureSubstitutionlookup14;
-
-lookup akhnAkhandinKannadalookup1 {
-  lookupflag 0;
-    sub [\ka \kha \ga \gha \nga \ca \cha \ja \jha \nya \tta \ttha
-	\dda \ddha \nna \ta \tha \da \dha \na \pa \pha
-	\ba \bha \ma \ya \rra \la \lla \va \sha \ssa
-	\sa \ha \fa ]'lookup LigatureSubstitutionlookup14  [\virama ]'lookup LigatureSubstitutionlookup14  [\rra ] ;
-    sub [\ka \kha \ga \gha \nga \ca \cha \ja \jha \nya \tta \ttha
-	\dda \ddha \nna \ta \tha \da \dha \na \pa \pha
-	\ba \bha \ma \ya \rra \la \lla \va \sha \ssa
-	\sa \ha \fa ]'lookup LigatureSubstitutionlookup14  [\virama ]'lookup LigatureSubstitutionlookup14  [\ra ] ;
-} akhnAkhandinKannadalookup1;
-
-lookup akhnAkhandinKannadalookup6 {
-  lookupflag 0;
-    sub \sha \imatra \ra \virama  by \sha_ra.imathra;
-} akhnAkhandinKannadalookup6;
-
-lookup SingleSubstitutionlookup17 {
-  lookupflag 0;
-    sub \ma.base by \ma.part ;
-    sub \ya.base by \ya.part ;
-} SingleSubstitutionlookup17;
-
-lookup abvsAboveBaseSubstitutionsinKannadalookup9 {
-  lookupflag 0;
-    sub [\ma.base \ya.base \jha.base ]'lookup SingleSubstitutionlookup17  [\ematra ] [\uumatra ] ;
-    sub [\ma.base \ya.base \jha.base ]'lookup SingleSubstitutionlookup17  [\rra.sub ] [\ematra ] [\uumatra ] ;
-} abvsAboveBaseSubstitutionsinKannadalookup9;
-
-lookup SingleSubstitutionlookup18 {
-  lookupflag 0;
-    sub \jha.base by \jha.base.mathra ;
-    sub \ma.base by \ma.base.mathra ;
-    sub \ya.base by \ya.base.mathra ;
-} SingleSubstitutionlookup18;
-
-lookup abvsAboveBaseSubstitutionsinKannadalookup10 {
-  lookupflag 0;
-    sub [\jha.base \ma.base \ya.base ]'lookup SingleSubstitutionlookup18  [\virama ] ;
-    sub [\jha.base \ma.base \ya.base ]'lookup SingleSubstitutionlookup18  [\aumatra ] ;
-    sub [\jha.base \ma.base \ya.base ]'lookup SingleSubstitutionlookup18  [\aamatra ] ;
-} abvsAboveBaseSubstitutionsinKannadalookup10;
-
-lookup abvsAboveBaseSubstitutionsinKannadalookup12 {
-  lookupflag 0;
-    sub [\pa \pha \va \pa.base \pha.base \va.base ] [\umatra \uumatra ]'  by [\umatra.large \uumatra.large ];
-} abvsAboveBaseSubstitutionsinKannadalookup12;
-
 lookup PreBaseSub {
   lookupflag 0;
-    # ignore vowels where the matras to base do not go on the base form
-    ignore sub jha' @MatraToBase;
-    ignore sub ma' @MatraToBase;
-    ignore sub ya' @MatraToBase;
+    # some consonants have a multiple base forms (.noEbase and .regbase)
+    sub @cno_noEbase' @MatraToBase by @c_noEbase;
+    sub @cno_regbase' ematra uumatra by @c_regbase;
 
-    # vowel signs and parts AA, E, AU and haln
+    # vowel signs AA, AU and haln
     sub @cno_base' @MatraToBase by @c_base;
 
-    # OT shapers will re-order matras next to the base consonant,
-    # but not virams, so we have to match the virama (skipping a SubCons) manually.
-    sub @cno_base' @SubCons virama by @c_base;
+    # vowel sign and parts with E (but not for the multiple base consonants)
+    sub @cno_base' ematra by @c_base;
 } PreBaseSub;
 
 lookup LargeEmatra {
@@ -184,9 +81,6 @@ lookup BelowBaseSubForRa {
     ignore sub ra.below ailengthmark' shortrr';
     # undo reph formation in the following case
     sub ailengthmark' shortrr' by ra_ailengthmark.below;
-
-    # related to reph
-    sub ra.below' ailengthmark' by ra_ailengthmark.below;
 } BelowBaseSubForRa;
 
 lookup BelowBaseSub {
@@ -197,7 +91,7 @@ lookup BelowBaseSub {
   	sub ka.sub rvocalicmatra by ka_rvocalicmatra.below;
 	  sub ta.sub rvocalicmatra by ta_rvocalicmatra.below;
     sub ta.sub ailengthmark by ta_ailengthmark.below;
-
+    sub ra.below ailengthmark by ra_ailengthmark.below;
     sub sha.imathra ra.below by sha_ra.imathra;
 } BelowBaseSub;
 
@@ -231,13 +125,13 @@ lookup SwapLengthAndRaSub {
 
 lookup PostBaseSub {
   lookupflag 0;
-    sub @TakesUbasedMatra umatra' by umatra.large;
-    sub @TakesUbasedMatra uumatra' by uumatra.large;
-    sub @TakesUbasedMatra ematra uumatra' by uumatra.large;
+    sub @TakesUnderUMatra umatra' by umatra.large;
+    sub @TakesUnderUMatra uumatra' by uumatra.large;
+    sub @TakesUnderUMatra ematra uumatra' by uumatra.large;
 
     # special handling of ra sub forms
     sub @SubCons ra.below' by ra.below.subcons;
-    #sub @Akhands ra.below' by ra.below.subcons;
+    sub @Akhands ra.below' by ra.below.subcons;
     sub @TakesLargeRaSubCons ra.below' by ra.below.large;
     sub ra ra.below' by ra.below.ra;
     sub ra.imathra ra.below' by ra.below.ra;
@@ -249,9 +143,9 @@ lookup HalantForms {
     sub @cno_virama' virama' by @c_virama;
 } HalantForms;
 
-#feature ccmp {
-#    lookup FontCheck;
-#} ccmp;
+feature ccmp {
+    lookup FontCheck;
+} ccmp;
 
 feature akhn {
     lookup Akhands;
@@ -272,8 +166,6 @@ feature pres {
 
 feature abvs {
     lookup LargeEmatra;
-    lookup abvsAboveBaseSubstitutionsinKannadalookup9;
-    lookup abvsAboveBaseSubstitutionsinKannadalookup10;
     lookup ImatraLigature;
 } abvs;
 
@@ -283,7 +175,6 @@ feature blws {
 } blws;
 
 feature psts {
-    # lookup abvsAboveBaseSubstitutionsinKannadalookup12;
     lookup MoreRaSub;
     lookup SwapLengthAndRaSub;
     lookup PostBaseSub;
@@ -386,6 +277,11 @@ lookup blwmBelowBaseMarkinKannadalookup4 {
     pos @cc36_back_2 @cc36_match_1'lookup RightSubMove  ;
 } blwmBelowBaseMarkinKannadalookup4;
 
+lookup EMatras {
+  lookupflag 0;
+    pos base @V mark @_V;
+} EMatras;
+
 lookup Nuktas {
   lookupflag 0;
     pos base @N mark @_N;
@@ -400,15 +296,6 @@ lookup SubSubForms {
   lookupflag 0;
     pos mark @S mark @_S;
 } SubSubForms;
-
-lookup abvsAboveBaseSubstitutionslookup1 {
-  lookupflag 0;
-  markClass [\inherent ] <anchor -279 540> @V;
-  markClass [\ematra ] <anchor -226 535> @V;
-  pos base [\jha.base ] <anchor 404 537> mark @V;
-  pos base [\ma.base ] <anchor 537 535> mark @V;
-  pos base [\ya.base ] <anchor 707 527> mark @V;
-} abvsAboveBaseSubstitutionslookup1;
 
 feature mark {
 
@@ -425,6 +312,10 @@ feature mark {
       lookup markMarkPositioninglookup6;
 } mark;
 
+feature abvm {
+    lookup EMatras;
+} abvm;
+
 feature blwm {
     lookup Nuktas;
     lookup SubForms;
@@ -435,63 +326,9 @@ feature blwm {
       lookup blwmBelowBaseMarkinKannadalookup4;
 } blwm;
 
-feature abvm {
-
- script knda;
-     language dflt ;
-      lookup abvsAboveBaseSubstitutionslookup1;
-} abvm;
-#Mark attachment classes (defined in GDEF, used in lookupflags)
-
-@GDEF_Simple = [\.null \nonmarkingreturn \space \exclam \quotedbl \numbersign
-	\dollar \percent \ampersand \quotesingle \parenleft \parenright \asterisk \plus
-	\comma \hyphen \period \slash \zero \one \two \three \four \five \six \seven \eight
-	\nine \colon \semicolon \less \equal \greater \question \at \A \B \C \D \E \F \G \H \I \J
-	\K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z \bracketleft \backslash \bracketright
-	\asciicircum \underscore \grave \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u
-	\v \w \x \y \z \braceleft \bar \braceright \asciitilde \quoteleft \quoteright
-	\quotedblleft \quotedblright \makewide \nbsp \anusvara \visarga
-	\avowel \aavowel \ivowel \iivowel \uvowel \uuvowel \rvocalicvowel \rvocalicvowel.part \lvocalicvowel \lvocalicvowel.part
-	\evowel \eevowel \aivowel \ovowel \oovowel \auvowel \ka.base \ka_rvocalicmatra.below
-	\kha.base \ga.base \gha.base \ca.base \cha.base \ja.base
-	\jha.base \jha.half.base \jha.part \jha.base.mathra \tta.base
-	\ttha.base \dda.base \ddha.base \nna.base \ta.base \ta_ya.below
-	\ta_va.below \ta_rvocalicmatra.below \ta_ailengthmark.below \tha.base \da.base
-	\dha.base \na.base \pa.base \pha.base \ba.base \bha.base
-	\ma.base \ma.base.mathra \ma.part \ya.base \ya.part
-	\ya.part.i \ya.base.mathra \ra \ra.base \ra.below
-	\ra.below.subcons \ra.below.large \ra_ailengthmark.below \la.base
-	\lla.base \va.base \sha.base \ssa.base \sa.base \ha.base \avagraha
-	\aamatra \imatra \iimatra \umatra \umatra.large \uumatra \uumatra.large \rvocalicmatra \rrvocalicmatra
-	\ematra.large \eematra \aimatra \omatra \omatra.large \oomatra \oomatra.large \aumatra \virama
-	\lengthmark \ailengthmark \fa.sub \rrvocalicvowel \llvocalicvowel \zeroknda \oneknda \twoknda \threeknda \fourknda \fiveknda
-	\sixknda \sevenknda \eightknda \nineknda \zwj \zwnj \zwsp \wj \ka_ssa
-	\ka_ssa.base \nukta.alt
-	\exclam.knda \quoteleft.knda \quotedblleft.knda \quoteright.knda
-	\quotedblright.knda \parenleft.knda \parenright.knda \comma.knda
-	\hyphen.knda \period.knda \slash.knda \colon.knda \semicolon.knda
-	\question.knda \danda \dandadbl ];
-@GDEF_Ligature = [\shortrr \ka \ka.imathra \ka.sub \kha \kha.imathra
-	\kha.sub \ga \ga.imathra \ga.sub \gha \gha.imathra \gha.sub
-	\nga \nga.sub \ca \ca.imathra \ca.sub \cha \cha.imathra
-	\cha.sub \ja \ja.imathra \ja.sub \jha \jha.imathra \jha.sub
-	\nya \nya.sub \tta \tta.imathra \tta.sub \ttha \ttha.imathra
-	\ttha.sub \dda \dda.imathra \dda.sub \ddha \ddha.imathra \ddha.sub
-	\nna \nna.imathra \nna.sub \ta \ta.imathra \ta.sub \tha
-	\tha.imathra \tha.sub \da \da.imathra \da.sub \dha
-	\dha.imathra \dha.sub \na \na.imathra \na.sub \pa
-	\pa.imathra \pa.sub \pha \pha.imathra \pha.sub \ba
-	\ba.imathra \ba.sub \bha \bha.imathra \bha.sub \ma
-	\ma.imathra \ma.sub \ya \ya.imathra \ya.sub \ra.imathra
-	\ra.below.ra \rra \rra.imathra \rra.sub \la \la.imathra
-	\la.sub \lla \lla.imathra \lla.sub \va \va.imathra \va.sub
-	\sha \sha.imathra \sha.sub \sha_ra.imathra \ssa \ssa.imathra
-	\ssa.sub \sa \sa.imathra \sa.sub \ha \ha.imathra \ha.sub
-	\fa \fa.imathra ];
-@GDEF_Mark = [\inherent \ematra \nukta ];
+# GDEF
 
 table GDEF {
-  # GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
   GlyphClassDef @GDEF_bases, , @GDEF_marks, ;
 
   LigatureCaretByPos \da 726;

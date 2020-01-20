@@ -63,7 +63,7 @@
 
 <!-- original non-roman mapping -->
 <glyph PSName='inherent'><base UID='F0DA'></base></glyph>
-<glyph PSName='makewide'><base UID='F0E1'></base></glyph>
+<glyph PSName='widebase'><base UID='F0E1'></base></glyph>
 <glyph PSName='shortrr'><base UID='F025'></base></glyph>
 <glyph PSName='u00A0' UID='00A0'><base UID='F020'></base></glyph>
 <glyph PSName='u0C82' UID='0C82'><base UID='F04D'></base></glyph>
@@ -117,11 +117,11 @@
 <glyph PSName='u0C9C.sub'><base UID='F067'></base></glyph>
 <glyph PSName='u0C9D' UID='0C9D'><base UID='F0C1'></base><base UID='F0DA'></base><base UID='F068'></base><base UID='F0DF'></base></glyph>
 <glyph PSName='u0C9D.base'><base UID='F0C1'></base><base UID='F068'></base><base UID='F0DF'></base></glyph>
-<glyph PSName='u0C9D.half.base'><base UID='F0C1'></base><base UID='F068'></base></glyph>
+<glyph PSName='u0C9D.regbase'><base UID='F0C1'></base><base UID='F068'></base></glyph>
 <glyph PSName='u0C9D.imathra'><base UID='F0C2'></base><base UID='F068'></base><base UID='F0DF'></base></glyph>
 <glyph PSName='u0C9D.sub'><base UID='F069'></base></glyph>
 <glyph PSName='u0C9D.part'><base UID='F068'></base></glyph>
-<glyph PSName='u0C9D.base.mathra'><base UID='F0C1'></base><base UID='F0DA'></base><base UID='F068'></base><base UID='F0E1'></base></glyph>
+<glyph PSName='u0C9D.noEbase'><base UID='F0C1'></base><base UID='F0DA'></base><base UID='F068'></base><base UID='F0E1'></base></glyph>
 <glyph PSName='u0C9E' UID='0C9E'><base UID='F06A'></base></glyph>
 <glyph PSName='u0C9E.sub'><base UID='F06B'></base></glyph>
 <glyph PSName='u0C9F' UID='0C9F'><base UID='F06C'></base></glyph>
@@ -188,15 +188,15 @@
 <glyph PSName='u0CAE.base'><base UID='F0C8'></base><base UID='F0DF'></base></glyph>
 <glyph PSName='u0CAE.imathra'><base UID='F0C9'></base><base UID='F0DF'></base></glyph>
 <glyph PSName='u0CAE.sub'><base UID='F0BD'></base></glyph>
-<glyph PSName='u0CAE.base.mathra'><base UID='F0C8'></base><base UID='F0DA'></base><base UID='F0E1'></base></glyph>
-<glyph PSName='u0CAE.part'><base UID='F0C8'></base></glyph>
+<glyph PSName='u0CAE.noEbase'><base UID='F0C8'></base><base UID='F0DA'></base><base UID='F0E1'></base></glyph>
+<glyph PSName='u0CAE.regbase'><base UID='F0C8'></base></glyph>
 <glyph PSName='u0CAF' UID='0CAF'><base UID='F0BE'></base><base UID='F0DA'></base><base UID='F0DF'></base></glyph>
 <glyph PSName='u0CAF.base'><base UID='F0BE'></base><base UID='F0DF'></base></glyph>
 <glyph PSName='u0CAF.imathra'><base UID='F0BF'></base><base UID='F0DF'></base></glyph>
 <glyph PSName='u0CAF.sub'><base UID='F0C0'></base></glyph>
-<glyph PSName='u0CAF.part'><base UID='F0BE'></base></glyph>
-<glyph PSName='u0CAF.part.i'><base UID='F0BF'></base></glyph>
-<glyph PSName='u0CAF.base.mathra'><base UID='F0BE'></base><base UID='F0DA'></base><base UID='F0E1'></base></glyph>
+<glyph PSName='u0CAF.regbase'><base UID='F0BE'></base></glyph>
+<glyph PSName='u0CAF.part'><base UID='F0BF'></base></glyph>
+<glyph PSName='u0CAF.noEbase'><base UID='F0BE'></base><base UID='F0DA'></base><base UID='F0E1'></base></glyph>
 <glyph PSName='u0CB0' UID='0CB0'><base UID='F0C1'></base><base UID='F0DA'></base></glyph>
 <glyph PSName='u0CB0.base'><base UID='F0C1'></base></glyph>
 <glyph PSName='u0CB0.below'><base UID='F0EF'></base></glyph>

@@ -11,7 +11,7 @@ table(glyph)
 		g_oovowel g_auvowel g_rrvocalicvowel g_llvocalicvowel );
 	// cls_matraToBase = ( g_aamatra g_ematra g_aumatra g_virama );
 	cls_subConsPassMatras = ( g_imatra g_umatra g_uumatra
-		g_rvocalicmatra g_rrvocalicmatra cMatraToBase );
+		g_rvocalicmatra g_rrvocalicmatra g_ematra cMatraToBase);
 	cls_rephPassMatras = ( cls_subConsPassMatras g_lengthmark g_ailengthmark );
 	// cls_takesLargeEmatra = ( g_nga g_nya g_rra );
 	// cls_takesUbasedMatra = ( g_pa g_pa_base g_pha g_pha_base g_va g_va_base );
@@ -125,15 +125,19 @@ endpass;
 
 pass(5)
 
-	// pres2? abvs
+	// pres
 
-	// ignore vowels where the matras to base do not go on the base form
-	g_jha > g_jha / _ cMatraToBase;
-	g_ma > g_ma / _ cMatraToBase;
-	g_ya > g_ya / _ cMatraToBase;
+	// some consonants have a multiple base forms (.noEbase and .regbase)
+	cno_noEbase > cnoEbase / _ cMatraToBase;
+	cno_regbase > cregbase / _ g_ematra g_uumatra;
 
-	// vowel signs and parts AA, E, AU and haln
+	// vowel signs AA, AU and haln
 	cno_base > cbase / _ cMatraToBase;
+
+	// vowel sign and parts with E (but not for the multiple base consonants)
+	cno_base > cbase / _ g_ematra;
+
+	// abvs
 
 	// different E matra
 	g_ematra > g_ematra_large / cTakesLargeEmatra _;
@@ -159,8 +163,8 @@ endpass;
 pass(7)
 
 	// psts
-	g_umatra > g_umatra_large / cTakesUbasedMatra _;
-	g_uumatra > g_uumatra_large / cTakesUbasedMatra g_ematra? _;
+	g_umatra > g_umatra_large / cTakesUnderUMatra _;
+	g_uumatra > g_uumatra_large / cTakesUnderUMatra g_ematra? _;
 
 	// special handling of ra sub forms
 	g_ra_below > g_ra_below_subcons / cls_subCons _;

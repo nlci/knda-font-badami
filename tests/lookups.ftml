@@ -185,7 +185,7 @@
       <string>\u0ca8\u0ccd\u0ca6</string>
     </test>
   </testgroup>
-  <testgroup label="pres2 ?, abvs">
+  <testgroup label="pres2, abvs">
     <test label="ka-aamatra">
       <string>\u0c95\u0cbe</string>
     </test>
@@ -338,6 +338,9 @@
   <testgroup label="haln">
     <test label="na-halant">
       <string>\u0ca8\u0ccd</string>
+    </test>
+    <test label="jha-halant">
+      <string>\u0c9d\u0ccd</string>
     </test>
     <test label="kh-halant-ssa-halant">
       <string>\u0c95\u0ccd\u0cb7\u0ccd</string>
