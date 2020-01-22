@@ -22,6 +22,9 @@
     <test label="with akhn 1">
       <string>\u0c95\u0ccd\u0cb7\u0cbc</string>
     </test>
+    <test label="ja with AA and I matras">
+      <string>\u0c9c\u0cbc \u0c9c\u0cbe\u0cbc \u0c9c\u0cbf\u0cbc</string>
+    </test>
   </testgroup>
   <testgroup label="akhn">
     <test label="akhn 1 and with ZW[N]J">

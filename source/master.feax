@@ -1,8 +1,10 @@
 languagesystem DFLT dflt;
 languagesystem knd2 dflt;
 
+# Also in GDL
 @Cons = [@cno_sub ra]; # @Akhands
 @SubCons = [@c_sub ra.below];
+
 @AtomicVowels = [aamatra imatra umatra uumatra rvocalicmatra rrvocalicmatra ematra aumatra];
 
 
@@ -187,18 +189,6 @@ feature haln {
 
 # GPOS
 
-lookup markMarkPositioninglookup6 {
-  lookupflag 0;
-  markClass [\nukta ] <anchor -905 -600> @Nukta;
-  pos base [\avowel \aavowel \ivowel \ovowel \oovowel \ja \ja.base \ja.imathra ] <anchor 400 -50> mark @Nukta;
-  pos base [\iivowel ] <anchor 415 -50> mark @Nukta;
-  pos base [\uuvowel ] <anchor 650 -50> mark @Nukta;
-  pos base [\rvocalicvowel ] <anchor 615 -50> mark @Nukta;
-  pos base [\lvocalicvowel ] <anchor 575 -50> mark @Nukta;
-  pos base [\lvocalicvowel.part ] <anchor 395 -50> mark @Nukta;
-  pos base [\evowel \eevowel \aivowel \auvowel ] <anchor 380 -50> mark @Nukta;
-} markMarkPositioninglookup6;
-
 lookup RightSubMove {
   lookupflag 0;
     pos \rvocalicmatra <50 0 0 0>;
@@ -297,21 +287,6 @@ lookup SubSubForms {
     pos mark @S mark @_S;
 } SubSubForms;
 
-feature mark {
-
- script DFLT;
-     language dflt ;
-      lookup markMarkPositioninglookup6;
-
- script knda;
-     language dflt ;
-      lookup markMarkPositioninglookup6;
-
- script latn;
-     language dflt ;
-      lookup markMarkPositioninglookup6;
-} mark;
-
 feature abvm {
     lookup EMatras;
 } abvm;
@@ -320,7 +295,6 @@ feature blwm {
     lookup Nuktas;
     lookup SubForms;
     lookup SubSubForms;
-      #lookup blwmkshaformation;
       lookup RightSubMove;
       lookup blwmBelowBaseMarkinKannadalookup2;
       lookup blwmBelowBaseMarkinKannadalookup4;

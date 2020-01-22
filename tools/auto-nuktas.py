@@ -19,3 +19,11 @@ with open(sys.argv[1], 'w') as output:
     process(vowels, 'Vowels', output)
     process(consonants, 'Consonants', output)
     process(akhands, 'Akhands', output)
+
+    output.write('Table\n')
+    for c in consonants:
+        conjuncts = list()
+        for m in matras:
+            conjuncts.append(c + m + n)
+        line = ' '.join(conjuncts) + '\n'
+        output.write(line)
