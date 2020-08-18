@@ -13,12 +13,12 @@ for f in faces:
     lighter = {
         'Regular': 'Medium',
         'Italic': 'MediumItalic',
-        'Bold': 'Demibold',
-        'Bold Italic': 'DemiboldItalic'
+        'Bold': 'SemiBold',
+        'Bold Italic': 'SemiBoldItalic'
         }
     heavier = {
-        'Regular': 'Demibold',
-        'Italic': 'DemiboldItalic',
+        'Regular': 'SemiBold',
+        'Italic': 'SemiBoldItalic',
         'Bold': 'Bold',
         'Bold Italic': 'BoldItalic'
         }
