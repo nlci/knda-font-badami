@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../tools/FTMLcreateList.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../tools/ftml.xsl"?>
 <ftml version="1.0">
   <head>
-    <columns comment="30%" label="15%" string="50%" style="5%"/>
+    <fontscale>300</fontscale>
     <fontsrc>url(../results/KNDABadami-Regular.ttf)</fontsrc>
     <title>Issues</title>
   </head>

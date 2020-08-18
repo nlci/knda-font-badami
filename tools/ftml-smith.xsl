@@ -2,10 +2,6 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:output method="html" encoding="utf-8"/>
 
-<!-- http://github.com/silnrsi/pysilfont -->
-<!-- Copyright (c) 2015 SIL International (http://www.sil.org) -->
-<!-- Released under the MIT License (http://opensource.org/licenses/MIT) -->
-
 <!-- set variables from head element -->
 <xsl:variable name="width-comment" select="/ftml/head/widths/@comment"/>
 <xsl:variable name="width-label" select="/ftml/head/widths/@label"/>
@@ -18,9 +14,11 @@
 
 <!-- if $useCSSstyles is non-empty then emit and use CSS styles for font feature settings;
      otherwise font feature settings are output with the test strings  -->
-<xsl:variable name="useCSSstyles"></xsl:variable>	
+<xsl:variable name="useCSSstyles"></xsl:variable>
 
-<!-- 
+<xsl:param name="fontsrc" select="ftml/head/fontsrc"/>
+
+<!--
 	Process the root node to construct the html page
 -->
 <xsl:template match="/">
@@ -28,13 +26,7 @@
 	<head>
         <script>
             function regtochar(match, p1) {
-                p1 = parseInt(p1,16);
-                if (p1 > 0xFFFF) {    // must generate UTF-16
-                    p1 -= 0x10000;
-                    return String.fromCharCode(0xD800 + (p1 >> 10), 0xDC00 + (p1 &amp; 0x3FF));
-                } else {
-                    return String.fromCharCode(p1);
-                }
+                return String.fromCharCode(parseInt(p1, 16));
             };
             function init() {
                 var tw = document.createTreeWalker(document.body , NodeFilter.SHOW_TEXT, null, false);
@@ -53,27 +45,20 @@
 		</meta>
 		<style>
 	body, td { font-family: sans-serif; }
-	@font-face {font-family: TestFont; src: <xsl:value-of select="ftml/head/fontsrc"/>; }
+	@font-face {font-family: TestFont; src: url(<xsl:value-of select="$fontsrc"/>); }
 	th { text-align: left; }
 	table,th,td { padding: 2px; border: 1px solid #111111; border-collapse: collapse; }
-	.string {font-family: TestFont; font-size: <xsl:value-of select="$font-scale"/>%; }
-<xsl:if test="$width-table != ''">
-	table { width: <xsl:value-of select="$width-table"/>; }
+	.string {font-family: TestFont; font-size: <xsl:value-of select="$font-scale"/>%; <xsl:if test="$width-string != ''"> width: <xsl:value-of select="$width-string"/>;}</xsl:if> }
+<xsl:if test="$width-table != ''">	table { width: <xsl:value-of select="$width-table"/> }
 </xsl:if>
-<xsl:if test="$width-label != ''">
-	.label { width: <xsl:value-of select="$width-label"/>; }
+<xsl:if test="$width-label != ''">	.label { width: <xsl:value-of select="$width-label"/> }
 </xsl:if>
-<xsl:if test="$width-string != ''">
-	.string {width: <xsl:value-of select="$width-string"/>; }
+<xsl:if test="$width-comment != ''">	.comment {width: <xsl:value-of select="$width-comment"/>}
 </xsl:if>
-<xsl:if test="$width-comment != ''">
-	.comment {width: <xsl:value-of select="$width-comment"/>; }
+<xsl:if test="$width-stylename != ''">	.stylename {width: <xsl:value-of select="$width-stylename"/>}
 </xsl:if>
-<xsl:if test="$width-stylename != ''">
-	.stylename {width: <xsl:value-of select="$width-stylename"/>; }
-</xsl:if>
-	.dim {color: silver; }
-	.bright {color: red; }
+	.dim {color: silver;}
+	.bright {color: red;}
 <xsl:if test="$useCSSstyles != ''">
 	<xsl:apply-templates select="/ftml/head/styles/*" />
 </xsl:if>
@@ -87,7 +72,7 @@
 </html>
 </xsl:template>
 
-<!-- 
+<!--
 	Build CSS style for FTML style element, but only for non-empty @feats
 -->
 <xsl:template match="style">
@@ -97,15 +82,15 @@
 		-moz-font-feature-settings: <xsl:value-of select="@feats"/>;
 		-ms-font-feature-settings: <xsl:value-of select="@feats"/>;
 		-webkit-font-feature-settings: <xsl:value-of select="@feats"/>;
-		font-feature-settings: <xsl:value-of select="@feats"/>;
+		font-feature-settings: <xsl:value-of select="@feats"/> ;
 <xsl:if test="$width-string != ''">
-		width: <xsl:value-of select="$width-string"/>;
+		width: <xsl:value-of select="$width-string"/>
 </xsl:if>
 	}
 </xsl:if>
 </xsl:template>
 
-<!-- 
+<!--
 	Process a testgroup, emitting a table containing all test records from the group
 -->
 <xsl:template match="testgroup">
@@ -118,10 +103,10 @@
 	</table>
 </xsl:template>
 
-<!-- 
-	Emit html lang and either css class or font-feature-settings for a test 
+<!--
+	Emit html lang and either css class or font-feature-settings for a test
 -->
-<xsl:template match="style" mode="getLang">
+<xsl:template match="style" mode="getStyle">
 	<xsl:if test="@lang">
 		<xsl:attribute name="lang">
 			<xsl:value-of select="@lang"/>
@@ -129,7 +114,7 @@
 	</xsl:if>
 	<xsl:if test="@feats">
 		<xsl:choose>
-			<xsl:when test="$useCSSstyles != ''">	
+			<xsl:when test="$useCSSstyles != ''">
 				<xsl:attribute name="class">string_<xsl:value-of select="@name"/></xsl:attribute>
 			</xsl:when>
 			<xsl:otherwise>
@@ -143,7 +128,7 @@
 	</xsl:if>
 </xsl:template>
 
-<!-- 
+<!--
 	Process a single test record, emitting a table row
 -->
 <xsl:template match="test">
@@ -160,8 +145,9 @@
 		<xsl:if test="@stylename">
 			<!-- emit features and lang attributes -->
 			<xsl:variable name="styleName" select="@stylename"/>
-			<xsl:apply-templates select="/ftml/head/styles/style[@name=$styleName]" mode="getLang"/>
+			<xsl:apply-templates select="/ftml/head/styles/style[@name=$styleName]" mode="getStyle"/>
 		</xsl:if>
+		<!-- add direction if needed -->
 		<xsl:if test="@rtl='True' ">
               <xsl:attribute name="dir">RTL</xsl:attribute>
 		</xsl:if>
@@ -176,12 +162,17 @@
 			</xsl:otherwise>
 		</xsl:choose>
 	</td>
+
+
+	<!-- if *any* test has a comment, emit the comment column -->
 	<xsl:if test="/ftml/testgroup/test/comment">
 		<td class="comment">
 			<!-- emit comment -->
 			<xsl:value-of select="comment"/>
 		</td>
 	</xsl:if>
+
+	<!-- similarly, if *any* test has a stylename, emit a column for it -->
 	<xsl:if test="/ftml/testgroup/test/@stylename">
 		<td class="stylename">
 			<!-- emit style name -->
@@ -191,27 +182,27 @@
 </tr>
 </xsl:template>
 
-<!--  
-	suppress all text nodes except those we really want 
+<!--
+	suppress all text nodes except those we really want
 -->
 <xsl:template match="text()"/>
 
-<!-- 
-	for test strings that have no <em> children, emit text nodes without any adornment 
+<!--
+	for test strings that have no <em> children, emit text nodes without any adornment
 -->
 <xsl:template match="string/text()">
 	<xsl:value-of select="."/>
 </xsl:template>
 
-<!-- 
-	for test strings that have <em> children, emit text nodes dimmed 
+<!--
+	for test strings that have <em> children, emit text nodes dimmed
 -->
 <xsl:template match="string/text()" mode="hasEM">
 	<span class="dim"><xsl:value-of select="."/></span>
 </xsl:template>
 
-<!-- 
-	for <em> children of test strings, emit the text nodes with no adornment 
+<!--
+	for <em> children of test strings, emit the text nodes with no adornment
 -->
 <xsl:template match="em/text()" mode="hasEM">
 	<!-- <span class="bright"><xsl:value-of select="."/></span> -->
@@ -219,4 +210,3 @@
 </xsl:template>
 
 </xsl:stylesheet>
-
