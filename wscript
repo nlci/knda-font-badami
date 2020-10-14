@@ -77,29 +77,26 @@ for f in faces:
         version = VERSION,
         docdir = DOCDIR # 'documentation'
     )
-    for sn in stylesName:
-        snf = '-' + sn.replace(' ', '')
-        fontfilename = tag + f + snf
-        font(target = process(fontfilename + '.ttf',
-                cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', [fontbase + f + snf + '.ufo']),
-                name(tag + ' ' + f, lang='en-US', subfamily=(sn))
-                ),
-            source = fontbase + f + snf + '.ufo',
-            opentype = fea(generated + f + snf + '.fea',
-                mapfile = generated + f + snf + '.map',
+    for dspace in ('Roman', 'Italic'):
+        designspace('source/' + f + dspace + '.designspace',
+            target = process('${DS:FILENAME_BASE}.ttf',
+                cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']),
+            ),
+            opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
+                mapfile = generated + '${DS:FILENAME_BASE}.map',
                 master = fontbase + 'master.feax',
                 make_params = '',
                 params = ''
                 ),
-            graphite = gdl(generated + f + snf + '.gdl',
+            graphite = gdl(generated + '${DS:FILENAME_BASE}.gdl',
                master = fontbase + 'master.gdl',
                make_params = '-p 1',
-               params =  '-e ' + f + snf + '_gdlerr.txt'
+               params =  '-e ${DS:FILENAME_BASE}_gdlerr.txt'
                ),
-            classes = fontbase + 'classes.xml',
-            ap = generated + f + snf + '.xml',
+            classes = fontbase + 'badami_classes.xml',
+            ap = generated + '${DS:FILENAME_BASE}.xml',
             version = VERSION,
-            woff = woff('woff/' + fontfilename + '.woff', params = '-v ' + VERSION + ' -m ../' + fontbase + f + '-WOFF-metadata.xml'),
+            woff = woff('woff/' + '${DS:FILENAME_BASE}.woff', params = '-v ' + VERSION + ' -m ../' + fontbase + '${DS:FAMILYNAME}-WOFF-metadata.xml'),
             script = 'knd2', # 'knda'
             package = p,
             pdf = fret(params = '-oi')
