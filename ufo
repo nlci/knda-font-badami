@@ -2,7 +2,7 @@
 
 faces=(Badami Kaveri)
 styles=(Regular Bold Italic "Bold Italic")
-desc_long="Pan Kannada font designed to support all the languages using the Kannada script."
+desc_long="Kannada script font for all languages using the Kannada script"
 
 export nlci=$HOME/script/tools
 export src=source
