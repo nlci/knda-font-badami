@@ -153,7 +153,7 @@
 
 \font\rhfont=cmtt8
 \headline={{\rhfont\the\testfontname\hss
-  \nn\year-\nn\month-\nn\day\ 
+  \nn\year-\nn\month-\nn\day\
   {\count0=\time \divide\count0 by 60 \nn{\count0}:%
   \multiply\count0 by 60 \advance\count0 by -\time \nn{-\count0}}
   \ page \folio}}
@@ -321,4 +321,3 @@
   \dimen2=\dp0  \multiply\dimen2 by \count255 \divide\dimen2 by 100
   \dp\strutbox=\dimen2 }
 \newbox\strutbox \setbox\strutbox=\hbox{}
-
