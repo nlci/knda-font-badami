@@ -31,6 +31,10 @@
 \proof{!()*,-./:;?[]{}।॥}
 \pattern[chars="@",reps="group_cons",format="list"]{@!@(@)@*@,@-@.@/@:@;@?@[@]@{@}@।@॥}
 
+\subsection{Spaces}
+
+\proof{H H H H H H H H H H0H H.H H H H H}
+
 \section{Generated}
 
 \subsection{Latin text}
