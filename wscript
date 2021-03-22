@@ -96,7 +96,8 @@ for f in faces:
             classes = fontbase + 'badami_classes.xml',
             ap = generated + '${DS:FILENAME_BASE}.xml',
             version = VERSION,
-            woff = woff('woff/' + '${DS:FILENAME_BASE}.woff', params = '-v ' + VERSION + ' -m ../' + fontbase + '${DS:FAMILYNAME}-WOFF-metadata.xml'),
+            woff = woff('woff/${DS:FILENAME_BASE}',
+                metadata = '../source/${DS:FAMILYNAME_NOSPC}-WOFF-metadata.xml'),
             script = 'knd2', # 'knda'
             package = p,
             pdf = fret(params = '-oi')

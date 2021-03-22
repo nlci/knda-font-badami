@@ -22,7 +22,7 @@ If this is not the case, go to (http://scripts.sil.org/OFL) for all the details 
 /* use Badami - Regular in .woff format */
 @font-face {
   font-family: BadamiW;
-  src: url(KNDABadami-Regular.woff);
+  src: url(Badami-Regular.woff2);
 }
 
 /* set body to use Badami in .woff format */
