@@ -3,7 +3,7 @@
 <ftml version="1.0">
   <head>
     <fontscale>300</fontscale>
-    <fontsrc>url(../results/KNDABadami-Regular.ttf)</fontsrc>
+    <fontsrc>url(../results/Badami-Regular.ttf)</fontsrc>
     <title>Import</title>
   </head>
   <testgroup label="Rendering check">

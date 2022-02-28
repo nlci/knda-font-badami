@@ -25,4 +25,5 @@ done
 popd
 
 rm -f ${src}/*-???*.sfd*
+./preflight
 echo "done producing UFO sources"

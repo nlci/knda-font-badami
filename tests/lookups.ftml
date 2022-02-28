@@ -3,11 +3,12 @@
 <ftml version="1.0">
   <head>
     <fontscale>300</fontscale>
-    <fontsrc>url(../results/KNDABadami-Regular.ttf)</fontsrc>
-    <fontsrc>url(../references/NotoSerifKannada-Regular.ttf)</fontsrc>
-    <fontsrc>url(../references/NotoSansKannada-Regular.ttf)</fontsrc>
-    <fontsrc>url(../references/NotoSansKannadaUI-Regular.ttf)</fontsrc>
-    <fontsrc>url(../references/Lohit-Kannada.ttf)</fontsrc>
+    <fontsrc label="GR">url(../results/Badami-Regular.ttf)</fontsrc>
+    <fontsrc label="OT">url(../results/tests/ftml/fonts/Badami-Regular_ot_knd2.ttf)</fontsrc>
+    <fontsrc label="Noto Serif">url(../references/NotoSerifKannada-Regular.ttf)</fontsrc>
+    <fontsrc label="Noto Sans">url(../references/NotoSansKannada-Regular.ttf)</fontsrc>
+    <fontsrc label="Noto Sans UI">url(../references/NotoSansKannadaUI-Regular.ttf)</fontsrc>
+    <fontsrc label="Lohit">url(../references/Lohit-Kannada.ttf)</fontsrc>
     <title>Lookups</title>
   </head>
   <testgroup label="Rendering check">

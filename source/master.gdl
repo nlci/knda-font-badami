@@ -103,7 +103,7 @@ pass(3)
 	g_virama g_fa > _ g_fa_sub:(1 2) / cls_vowel _ _;
 
 	// sub marks in isolation
-	g_zwj g_virama cls_cons > _ _ cls_subCons:(1 2 3) / g_nbsp _ _ _;
+	g_zwj g_virama cls_cons > _ _ cls_subCons:(1 2 3) / g_nbspace _ _ _;
 
 endpass;
 

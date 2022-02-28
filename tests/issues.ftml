@@ -3,7 +3,7 @@
 <ftml version="1.0">
   <head>
     <fontscale>300</fontscale>
-    <fontsrc>url(../results/KNDABadami-Regular.ttf)</fontsrc>
+    <fontsrc>url(../results/Badami-Regular.ttf)</fontsrc>
     <title>Issues</title>
   </head>
   <testgroup label="Rendering check">
@@ -69,9 +69,12 @@
       <string>\u0cb0\u0ccd\u0cb9\u0cbe \u0cb0\u200c\u0ccd\u0cb9\u0cbe \u0cb0\u200d\u0ccd\u0cb9\u0cbe</string>
     </test>
   </testgroup>
-  <testgroup label="harfbuzz vs microsoft">
-    <test label="double-halant">
+  <testgroup label="public">
+    <test label="harfbuzz vs microsoft for double-halant">
       <string>\u0C9A\u0CCD\u0C9A\u0CCD</string>
+    </test>
+    <test label="MS 809">
+      <string>\u0cb0\u200d\u0ccd\u0c95\u0ccd</string>
     </test>
   </testgroup>
 </ftml>
