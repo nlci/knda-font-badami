@@ -295,7 +295,7 @@ feature blwm {
     lookup Nuktas;
     lookup SubForms;
     lookup SubSubForms;
-      lookup RightSubMove;
+      # lookup RightSubMove;
       lookup blwmBelowBaseMarkinKannadalookup2;
       lookup blwmBelowBaseMarkinKannadalookup4;
 } blwm;

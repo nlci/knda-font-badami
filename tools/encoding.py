@@ -8,12 +8,8 @@ ufo = sys.argv[1]
 font = OpenFont(ufo)
 
 # Modify UFO
-ematra = font['ematra']
-for contour in ematra.contours:
-    if len(contour) <= 2:
-        ematra.removeContour(contour)
 
 # Save UFO
-font.changed()
-font.save()
-font.close()
+# font.changed()
+# font.save()
+# font.close()

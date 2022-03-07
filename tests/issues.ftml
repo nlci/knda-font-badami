@@ -3,7 +3,13 @@
 <ftml version="1.0">
   <head>
     <fontscale>300</fontscale>
-    <fontsrc>url(../results/Badami-Regular.ttf)</fontsrc>
+    <fontsrc label="RefGR">url(../references/Badami-Regular.ttf)</fontsrc>
+    <fontsrc label="CurGR">url(../results/Badami-Regular.ttf)</fontsrc>
+    <fontsrc label="CurOT">url(../results/tests/ftml/fonts/Badami-Regular_ot_knd2.ttf)</fontsrc>
+    <fontsrc label="Noto Serif">url(../references/NotoSerifKannada-Regular.ttf)</fontsrc>
+    <fontsrc label="Noto Sans">url(../references/NotoSansKannada-Regular.ttf)</fontsrc>
+    <fontsrc label="Noto Sans UI">url(../references/NotoSansKannadaUI-Regular.ttf)</fontsrc>
+    <fontsrc label="Lohit">url(../references/Lohit-Kannada.ttf)</fontsrc>
     <title>Issues</title>
   </head>
   <testgroup label="Rendering check">
@@ -34,7 +40,7 @@
       <string>\u0cb9\u0ccd\u0cd5\u0cc6</string>
     </test>
     <test label="ra">
-      <string>\u0cac\u0cb0\u0ccd\u0cad\u0cd5</string>
+      <string>\u0cac\u0cb0\u0ccd\u0cad\u0cd5 \u0cac\u0cb0\u0ccd\u0cad\u0ccd\u0cd5</string>
     </test>
   </testgroup>
   <testgroup label="words">

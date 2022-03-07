@@ -3,8 +3,9 @@
 <ftml version="1.0">
   <head>
     <fontscale>300</fontscale>
-    <fontsrc label="GR">url(../results/Badami-Regular.ttf)</fontsrc>
-    <fontsrc label="OT">url(../results/tests/ftml/fonts/Badami-Regular_ot_knd2.ttf)</fontsrc>
+    <fontsrc label="RefGR">url(../references/Badami-Regular.ttf)</fontsrc>
+    <fontsrc label="CurGR">url(../results/Badami-Regular.ttf)</fontsrc>
+    <fontsrc label="CurOT">url(../results/tests/ftml/fonts/Badami-Regular_ot_knd2.ttf)</fontsrc>
     <fontsrc label="Noto Serif">url(../references/NotoSerifKannada-Regular.ttf)</fontsrc>
     <fontsrc label="Noto Sans">url(../references/NotoSansKannada-Regular.ttf)</fontsrc>
     <fontsrc label="Noto Sans UI">url(../references/NotoSansKannadaUI-Regular.ttf)</fontsrc>
@@ -29,10 +30,12 @@
   </testgroup>
   <testgroup label="akhn">
     <test label="akhn 1 and with ZW[N]J">
-      <string>\u0c95\u0ccd\u0cb7 \u0c95\u0ccd\u200c\u0cb7 \u0c95\u0ccd\u200d\u0cb7</string><comment>ka-halant-ssa</comment>
+      <comment>ka-halant-ssa</comment>
+      <string>\u0c95\u0ccd\u0cb7 \u0c95\u0ccd\u200c\u0cb7 \u0c95\u0ccd\u200d\u0cb7</string>
     </test>
     <test label="akhn 2">
-      <string>\u0c9c\u0ccd\u0c9e</string><comment>ja-halant-nya</comment>
+      <comment>ja-halant-nya</comment>
+      <string>\u0c9c\u0ccd\u0c9e</string>
     </test>
   </testgroup>
   <testgroup label="rphf">
@@ -281,6 +284,27 @@
       </test>
       <test label="sub ligature (sa-ra) with ailengthmark">
         <string>\u0cb8\u0ccd\u0cb0\u0cd6</string>
+      </test>
+      <test label="ga sub ga with self, rvocalicmatra, rrvocalicmatra, ailengthmark">
+        <string>\u0c97\u0ccd\u0c97 \u0c97\u0ccd\u0c97\u0cc3 \u0c97\u0ccd\u0c97\u0cc4 \u0c97\u0ccd\u0c97\u0cd6</string>
+      </test>
+      <test label="ga sub ga sub ga with rvocalicmatra, rrvocalicmatra, ailengthmark">
+        <string>\u0c97\u0ccd\u0c97\u0ccd\u0c97\u0cc3 \u0c97\u0ccd\u0c97\u0ccd\u0c97\u0cc4 \u0c97\u0ccd\u0c97\u0ccd\u0c97\u0cd6</string>
+      </test>
+      <test label="ya sub ya with self, rvocalicmatra, rrvocalicmatra, ailengthmark">
+        <string>\u0caf\u0ccd\u0caf \u0caf\u0ccd\u0caf\u0cc3 \u0caf\u0ccd\u0caf\u0cc4 \u0caf\u0ccd\u0caf\u0cd6</string>
+      </test>
+      <test label="ya sub ya sub ya with rvocalicmatra, rrvocalicmatra, ailengthmark">
+        <string>\u0caf\u0ccd\u0caf\u0ccd\u0caf\u0cc3 \u0caf\u0ccd\u0caf\u0ccd\u0caf\u0cc4 \u0caf\u0ccd\u0caf\u0ccd\u0caf\u0cd6</string>
+      </test>
+      <test label="ssa sub ssa with self, rvocalicmatra, rrvocalicmatra, ailengthmark">
+        <string>\u0cb7\u0ccd\u0cb7 \u0cb7\u0ccd\u0cb7\u0cc3 \u0cb7\u0ccd\u0cb7\u0cc4 \u0cb7\u0ccd\u0cb7\u0cd6</string>
+      </test>
+      <test label="ssa sub ssa sub ssa with rvocalicmatra, rrvocalicmatra, ailengthmark">
+        <string>\u0cb7\u0ccd\u0cb7\u0ccd\u0cb7\u0cc3 \u0cb7\u0ccd\u0cb7\u0ccd\u0cb7\u0cc4 \u0cb7\u0ccd\u0cb7\u0ccd\u0cb7\u0cd6</string>
+      </test>
+      <test label="ra sub ra with self, rvocalicmatra, rrvocalicmatra, ailengthmark">
+        <string>\u0cb0\u0ccd\u0cb0 \u0cb0\u0ccd\u0cb0\u0cc3 \u0cb0\u0ccd\u0cb0\u0cc4 \u0cb0\u0ccd\u0cb0\u0cd6</string>
       </test>
   </testgroup>
   <testgroup label="psts">
