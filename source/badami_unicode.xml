@@ -6,7 +6,8 @@
 <glyph PSName="exclam.knda"><base UID="F021"></base></glyph>
 <glyph PSName="quoteleft.knda"><base UID="F022"></base></glyph>
 <glyph PSName="quotedblleft.knda"><base UID="F022"></base><base UID="F022"></base></glyph>
-<glyph UID="25CC" PSName="dottedcircle"><base UID="F023"></base></glyph>
+<glyph UID="25CC" PSName="dottedcircle"><base UID="F020"></base></glyph>
+<glyph PSName="dottedcircle.alt"><base UID="F023"></base></glyph>
 <glyph PSName='spacingcandrabindu' UID='0C80'><base UID='F024'></base></glyph>
 <glyph PSName='candrabindu' UID='0C81'><base UID='F024'></base></glyph>
 <glyph UID="0950" PSName="om"><base UID="F024"></base></glyph>
