@@ -36,7 +36,7 @@
 <glyph PSName="colon.knda"><base UID="F03A"></base></glyph>
 <glyph PSName="semicolon.knda"><base UID="F03B"></base></glyph>
 <glyph PSName="question.knda"><base UID="F03F"></base></glyph>
-<glyph PSName="nbsp.knda"><base UID="F020"><advance width="1400"/></base></glyph>
+<glyph PSName="nbspace.knda"><base UID="F020"><advance width="1400"/></base></glyph>
 <!--
 <glyph PSName='lvocalicmatra' UID='0CE2'><base UID='F04A'></base></glyph>
 <glyph PSName='llvocalicmatra' UID='0CE3'><base UID='F04B'></base></glyph>
@@ -66,7 +66,6 @@
 <glyph PSName='inherent'><base UID='F0DA'></base></glyph>
 <glyph PSName='widebase'><base UID='F0E1'></base></glyph>
 <glyph PSName='shortrr'><base UID='F025'></base></glyph>
-<glyph PSName='u00A0' UID='00A0'><base UID='F020'></base></glyph>
 <glyph PSName='u0C82' UID='0C82'><base UID='F04D'></base></glyph>
 <glyph PSName='u0C83' UID='0C83'><base UID='F04E'></base></glyph>
 <glyph PSName='u0C85' UID='0C85'><base UID='F040'></base></glyph>
