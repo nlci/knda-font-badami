@@ -12,22 +12,26 @@ for f in faces:
 
     lighter = {
         'Regular': 'Medium',
-        'Italic': 'MediumItalic',
+        'Italic': 'Medium Italic',
         'Bold': 'SemiBold',
-        'Bold Italic': 'SemiBoldItalic'
+        'Bold Italic': 'SemiBold Italic'
         }
     heavier = {
         'Regular': 'SemiBold',
-        'Italic': 'SemiBoldItalic',
+        'Italic': 'SemiBold Italic',
         'Bold': 'Bold',
-        'Bold Italic': 'BoldItalic'
+        'Bold Italic': 'Bold Italic'
         }
 
     for sn in stylesName:
         if f == 'Kaveri':
-            # esn = lighter[sn]
-            esn = heavier[sn]
-            modifyFile(scale1000, 'exo', f, sn, esn)
+            # styles = lighter
+            styles = heavier
+            modifyFile(scale1000, 'exo', f, sn, styles)
             modifyFile(scale2048, 'charis', f, sn)
         else:
-            modifyFile(scale2048, 'gentium', f, sn)
+            styles = {
+                'Regular': 'Medium',
+                'Italic': 'Medium Italic',
+            }
+            modifyFile(scale2048, 'gentium', f, sn, styles)

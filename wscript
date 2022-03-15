@@ -25,7 +25,8 @@ DESC_NAME='NLCI-' + script
 getufoinfo('source/Badami-Regular.ufo')
 # BUILDLABEL = 'beta1'
 
-# Set up the FTML tests
+# Set up tests
+TEXTSIZE=16
 ftmlTest('tools/ftml-smith.xsl')
 
 # set fonts to build
