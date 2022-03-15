@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ra.below.large" format="2">
+  <advance width="10"/>
+  <anchor x="29" y="-200" name="S"/>
+  <outline>
+    <contour>
+      <point x="-25" y="-69" type="curve"/>
+      <point x="-33" y="-85"/>
+      <point x="-33" y="-85"/>
+      <point x="-41" y="-101" type="curve" smooth="yes"/>
+      <point x="-49" y="-114"/>
+      <point x="-63" y="-129"/>
+      <point x="-83" y="-146" type="curve" smooth="yes"/>
+      <point x="-160" y="-209"/>
+      <point x="-264" y="-220"/>
+      <point x="-329" y="-220" type="curve" smooth="yes"/>
+      <point x="-466" y="-220"/>
+      <point x="-523" y="-171"/>
+      <point x="-544" y="-146" type="curve" smooth="yes"/>
+      <point x="-565" y="-121"/>
+      <point x="-565" y="-117"/>
+      <point x="-570" y="-69" type="curve"/>
+      <point x="-581" y="-79"/>
+      <point x="-586" y="-92"/>
+      <point x="-586" y="-122" type="curve" smooth="yes"/>
+      <point x="-586" y="-253"/>
+      <point x="-427" y="-286"/>
+      <point x="-344" y="-286" type="curve" smooth="yes"/>
+      <point x="-297" y="-286"/>
+      <point x="-251" y="-278"/>
+      <point x="-206" y="-264" type="curve" smooth="yes"/>
+      <point x="-36" y="-206"/>
+      <point x="-21" y="-100"/>
+      <point x="-21" y="-84" type="curve" smooth="yes"/>
+      <point x="-21" y="-77"/>
+      <point x="-22" y="-72"/>
+    </contour>
+  </outline>
+</glyph>

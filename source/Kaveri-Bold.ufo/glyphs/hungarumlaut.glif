@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hungarumlaut" format="2">
+  <advance width="284"/>
+  <unicode hex="02DD"/>
+  <note>
+GF Latin Plus glyph
+</note>
+  <outline>
+    <contour>
+      <point x="127" y="450" type="line"/>
+      <point x="190" y="450" type="line"/>
+      <point x="261" y="550" type="line"/>
+      <point x="181" y="550" type="line"/>
+    </contour>
+    <contour>
+      <point x="10" y="450" type="line"/>
+      <point x="73" y="450" type="line"/>
+      <point x="144" y="550" type="line"/>
+      <point x="64" y="550" type="line"/>
+    </contour>
+  </outline>
+</glyph>

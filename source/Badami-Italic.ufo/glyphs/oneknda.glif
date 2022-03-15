@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="oneknda" format="2">
+  <advance width="467"/>
+  <unicode hex="0CE7"/>
+  <outline>
+    <contour>
+      <point x="498" y="253" type="curve" smooth="yes"/>
+      <point x="498" y="409"/>
+      <point x="350" y="416"/>
+      <point x="325" y="416" type="curve" smooth="yes"/>
+      <point x="160" y="416"/>
+      <point x="57" y="268"/>
+      <point x="57" y="151" type="curve" smooth="yes"/>
+      <point x="57" y="68"/>
+      <point x="110" y="-4"/>
+      <point x="138" y="-4" type="curve" smooth="yes"/>
+      <point x="158" y="-4"/>
+      <point x="171" y="5"/>
+      <point x="175" y="25" type="curve"/>
+      <point x="102" y="82"/>
+      <point x="80" y="132"/>
+      <point x="80" y="172" type="curve" smooth="yes"/>
+      <point x="80" y="256"/>
+      <point x="172" y="346"/>
+      <point x="312" y="346" type="curve" smooth="yes"/>
+      <point x="387" y="346"/>
+      <point x="478" y="315"/>
+      <point x="478" y="228" type="curve" smooth="yes"/>
+      <point x="478" y="144"/>
+      <point x="393" y="77"/>
+      <point x="310" y="25" type="curve"/>
+      <point x="304" y="-3"/>
+      <point x="336" y="-4"/>
+      <point x="343" y="-4" type="curve" smooth="yes"/>
+      <point x="376" y="-1"/>
+      <point x="498" y="122"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ja_nya" format="2">
+  <advance width="663"/>
+  <anchor x="368" y="-431" name="N"/>
+  <anchor x="793" y="-200" name="S"/>
+  <outline>
+    <component base="ja"/>
+    <component base="nya.sub" xOffset="335"/>
+  </outline>
+</glyph>

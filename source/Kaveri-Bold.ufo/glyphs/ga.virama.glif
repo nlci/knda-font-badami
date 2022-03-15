@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ga.virama" format="2">
+  <advance width="1018"/>
+  <outline>
+    <component base="ga.base"/>
+    <component base="virama" xOffset="413"/>
+  </outline>
+</glyph>

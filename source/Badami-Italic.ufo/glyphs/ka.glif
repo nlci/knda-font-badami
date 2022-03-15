@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ka" format="2">
+  <advance width="383"/>
+  <unicode hex="0C95"/>
+  <anchor x="264" y="-132" name="N"/>
+  <outline>
+    <component base="ka.base"/>
+    <component base="inherent" xOffset="373"/>
+  </outline>
+</glyph>

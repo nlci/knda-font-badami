@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dotaccent" format="2">
+  <advance width="133"/>
+  <unicode hex="02D9"/>
+  <note>
+GF Latin Plus glyph
+</note>
+  <outline>
+    <contour>
+      <point x="41" y="455" type="curve" smooth="yes"/>
+      <point x="90" y="455" type="line" smooth="yes"/>
+      <point x="99" y="455"/>
+      <point x="104" y="460"/>
+      <point x="104" y="469" type="curve" smooth="yes"/>
+      <point x="104" y="539" type="line" smooth="yes"/>
+      <point x="104" y="548"/>
+      <point x="99" y="554"/>
+      <point x="90" y="554" type="curve" smooth="yes"/>
+      <point x="41" y="554" type="line" smooth="yes"/>
+      <point x="31" y="554"/>
+      <point x="26" y="548"/>
+      <point x="26" y="539" type="curve" smooth="yes"/>
+      <point x="26" y="469" type="line" smooth="yes"/>
+      <point x="26" y="461"/>
+      <point x="32" y="455"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bar" format="2">
+  <advance width="179"/>
+  <unicode hex="007C"/>
+  <note>
+GF Latin Plus glyph
+</note>
+  <outline>
+    <contour>
+      <point x="54" y="-51" type="line"/>
+      <point x="125" y="-51" type="line"/>
+      <point x="125" y="550" type="line"/>
+      <point x="54" y="550" type="line"/>
+    </contour>
+  </outline>
+</glyph>

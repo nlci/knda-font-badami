@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="trademark" format="2">
+  <advance width="507"/>
+  <unicode hex="2122"/>
+  <note>
+GF Latin Plus glyph
+</note>
+  <outline>
+    <contour>
+      <point x="225" y="273" type="line"/>
+      <point x="277" y="273" type="line"/>
+      <point x="292" y="437" type="line"/>
+      <point x="344" y="273" type="line"/>
+      <point x="382" y="273" type="line"/>
+      <point x="432" y="438" type="line"/>
+      <point x="447" y="273" type="line"/>
+      <point x="498" y="273" type="line"/>
+      <point x="468" y="522" type="line"/>
+      <point x="412" y="522" type="line"/>
+      <point x="364" y="351" type="line"/>
+      <point x="307" y="522" type="line"/>
+      <point x="253" y="522" type="line"/>
+    </contour>
+    <contour>
+      <point x="87" y="273" type="line"/>
+      <point x="139" y="273" type="line"/>
+      <point x="139" y="479" type="line"/>
+      <point x="214" y="479" type="line"/>
+      <point x="214" y="522" type="line"/>
+      <point x="12" y="522" type="line"/>
+      <point x="12" y="479" type="line"/>
+      <point x="87" y="479" type="line"/>
+    </contour>
+  </outline>
+</glyph>

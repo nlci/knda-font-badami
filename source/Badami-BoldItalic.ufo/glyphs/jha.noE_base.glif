@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jha.noEbase" format="2">
+  <advance width="984"/>
+  <outline>
+    <component base="ra.base"/>
+    <component base="inherent" xOffset="439"/>
+    <component base="jha.part" xOffset="449"/>
+    <component base="widebase" xOffset="707"/>
+  </outline>
+</glyph>

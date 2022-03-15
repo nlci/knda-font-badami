@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="parenleft" format="2">
+  <advance width="266"/>
+  <unicode hex="0028"/>
+  <note>
+GF Latin Plus glyph
+</note>
+  <outline>
+    <contour>
+      <point x="149" y="-150" type="curve"/>
+      <point x="229" y="-150" type="line"/>
+      <point x="187" y="-61"/>
+      <point x="163" y="25"/>
+      <point x="163" y="127" type="curve" smooth="yes"/>
+      <point x="163" y="295"/>
+      <point x="245" y="488"/>
+      <point x="350" y="614" type="curve"/>
+      <point x="270" y="614" type="line"/>
+      <point x="163" y="502"/>
+      <point x="75" y="298"/>
+      <point x="75" y="121" type="curve" smooth="yes"/>
+      <point x="75" y="6"/>
+      <point x="105" y="-80"/>
+    </contour>
+  </outline>
+</glyph>

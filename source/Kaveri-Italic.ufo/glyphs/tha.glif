@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tha" format="2">
+  <advance width="638"/>
+  <unicode hex="0CA5"/>
+  <anchor x="456" y="-230" name="N"/>
+  <outline>
+    <component base="tha.base"/>
+    <component base="inherent" xOffset="521"/>
+  </outline>
+</glyph>

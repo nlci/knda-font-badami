@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflex" format="2">
+  <advance width="275"/>
+  <unicode hex="02C6"/>
+  <note>
+GF Latin Plus glyph
+</note>
+  <outline>
+    <contour>
+      <point x="99" y="450" type="line"/>
+      <point x="161" y="450" type="line"/>
+      <point x="219" y="504" type="line"/>
+      <point x="258" y="450" type="line"/>
+      <point x="319" y="450" type="line"/>
+      <point x="264" y="551" type="line"/>
+      <point x="192" y="551" type="line"/>
+    </contour>
+  </outline>
+</glyph>

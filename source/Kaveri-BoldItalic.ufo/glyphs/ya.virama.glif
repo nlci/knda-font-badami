@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ya.virama" format="2">
+  <advance width="1704"/>
+  <outline>
+    <component base="ya.regbase"/>
+    <component base="inherent" xOffset="728"/>
+    <component base="widebase" xOffset="851"/>
+    <component base="virama" xOffset="1099"/>
+  </outline>
+</glyph>

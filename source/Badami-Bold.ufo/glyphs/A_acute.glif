@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Aacute" format="2">
+  <advance width="448"/>
+  <unicode hex="00C1"/>
+  <outline>
+    <component base="A"/>
+    <component base="CombAcute.LP" xOffset="418" yOffset="111"/>
+  </outline>
+</glyph>

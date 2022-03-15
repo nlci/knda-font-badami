@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rvocalicvowel" format="2">
+  <advance width="1059"/>
+  <unicode hex="0C8B"/>
+  <anchor x="646" y="-116" name="N"/>
+  <outline>
+    <component base="rvocalicvowel.part"/>
+    <component base="umatra" xOffset="751"/>
+  </outline>
+</glyph>

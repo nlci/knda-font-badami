@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="va.virama" format="2">
+  <advance width="1185"/>
+  <outline>
+    <component base="va.base"/>
+    <component base="virama" xOffset="580"/>
+  </outline>
+</glyph>

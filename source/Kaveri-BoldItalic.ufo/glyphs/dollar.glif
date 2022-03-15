@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dollar" format="2">
+  <advance width="435"/>
+  <unicode hex="0024"/>
+  <note>
+GF Latin Plus glyph
+</note>
+  <outline>
+    <component base="S"/>
+    <contour>
+      <point x="269" y="515" type="line"/>
+      <point x="328" y="533" type="line"/>
+      <point x="333" y="588" type="line"/>
+      <point x="274" y="571" type="line"/>
+    </contour>
+    <contour>
+      <point x="174" y="-63" type="line"/>
+      <point x="233" y="-63" type="line"/>
+      <point x="245" y="6" type="line"/>
+      <point x="185" y="6" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ya.noEbase" format="2">
+  <advance width="928"/>
+  <outline>
+    <component base="ya.regbase"/>
+    <component base="inherent" xOffset="641"/>
+    <component base="widebase" xOffset="651"/>
+  </outline>
+</glyph>

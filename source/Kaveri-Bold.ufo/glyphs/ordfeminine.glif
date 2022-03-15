@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ordfeminine" format="2">
+  <advance width="293"/>
+  <unicode hex="00AA"/>
+  <note>
+GF Latin Plus glyph
+</note>
+  <outline>
+    <component base="a.superior" yOffset="57"/>
+    <contour>
+      <point x="18" y="181" type="line"/>
+      <point x="272" y="181" type="line"/>
+      <point x="272" y="231" type="line"/>
+      <point x="18" y="231" type="line"/>
+    </contour>
+  </outline>
+</glyph>

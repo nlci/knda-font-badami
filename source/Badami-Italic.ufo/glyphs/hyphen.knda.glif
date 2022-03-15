@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hyphen.knda" format="2">
+  <advance width="399"/>
+  <outline>
+    <contour>
+      <point x="372" y="169" type="line"/>
+      <point x="344" y="233" type="line"/>
+      <point x="112" y="233" type="line"/>
+      <point x="140" y="169" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="umatra.large" format="2">
+  <advance width="86"/>
+  <outline>
+    <contour>
+      <point x="-100" y="-65" type="curve" smooth="yes"/>
+      <point x="-173" y="-65"/>
+      <point x="-220" y="-3"/>
+      <point x="-242" y="25" type="curve"/>
+      <point x="-255" y="19" type="line"/>
+      <point x="-228" y="-66"/>
+      <point x="-160" y="-141"/>
+      <point x="-80" y="-141" type="curve" smooth="yes"/>
+      <point x="66" y="-141"/>
+      <point x="82" y="34"/>
+      <point x="82" y="111" type="curve" smooth="yes"/>
+      <point x="82" y="244"/>
+      <point x="40" y="363"/>
+      <point x="4" y="363" type="curve" smooth="yes"/>
+      <point x="-15" y="363"/>
+      <point x="-24" y="353"/>
+      <point x="-24" y="333" type="curve" smooth="yes"/>
+      <point x="-24" y="326"/>
+      <point x="-22" y="317"/>
+      <point x="-17" y="306" type="curve" smooth="yes"/>
+      <point x="29" y="231"/>
+      <point x="43" y="166"/>
+      <point x="43" y="113" type="curve" smooth="yes"/>
+      <point x="43" y="5"/>
+      <point x="-17" y="-65"/>
+    </contour>
+  </outline>
+</glyph>

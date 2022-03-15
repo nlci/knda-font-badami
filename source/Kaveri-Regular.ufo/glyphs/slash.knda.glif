@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="slash.knda" format="2">
+  <advance width="527"/>
+  <outline>
+    <contour>
+      <point x="461" y="537" type="line"/>
+      <point x="396" y="537" type="line"/>
+      <point x="70" y="-49" type="line"/>
+      <point x="129" y="-49" type="line"/>
+    </contour>
+  </outline>
+</glyph>

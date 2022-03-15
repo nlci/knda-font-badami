@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ta.sub" format="2">
+  <advance width="170"/>
+  <anchor x="197" y="-200" name="S"/>
+  <anchor x="-281" y="0" name="_S"/>
+  <outline>
+    <contour>
+      <point x="-4" y="-130" type="curve" smooth="yes"/>
+      <point x="-4" y="-143"/>
+      <point x="-2" y="-155"/>
+      <point x="2" y="-166" type="curve"/>
+      <point x="-1" y="-166"/>
+      <point x="-247" y="-169"/>
+      <point x="-268" y="-169" type="curve"/>
+      <point x="-281" y="-230" type="line"/>
+      <point x="19" y="-230" type="line" smooth="yes"/>
+      <point x="104" y="-230"/>
+      <point x="147" y="-161"/>
+      <point x="147" y="-99" type="curve" smooth="yes"/>
+      <point x="147" y="-67"/>
+      <point x="133" y="-25"/>
+      <point x="85" y="-25" type="curve" smooth="yes"/>
+      <point x="22" y="-25"/>
+      <point x="-4" y="-84"/>
+    </contour>
+    <contour>
+      <point x="82" y="-87" type="curve" smooth="yes"/>
+      <point x="109" y="-87"/>
+      <point x="112" y="-108"/>
+      <point x="112" y="-118" type="curve" smooth="yes"/>
+      <point x="112" y="-138"/>
+      <point x="100" y="-166"/>
+      <point x="65" y="-166" type="curve" smooth="yes"/>
+      <point x="34" y="-166" type="line"/>
+      <point x="31" y="-159"/>
+      <point x="29" y="-153"/>
+      <point x="29" y="-146" type="curve" smooth="yes"/>
+      <point x="29" y="-123"/>
+      <point x="42" y="-87"/>
+    </contour>
+  </outline>
+</glyph>

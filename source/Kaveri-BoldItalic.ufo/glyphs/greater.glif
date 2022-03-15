@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="greater" format="2">
+  <advance width="435"/>
+  <unicode hex="003E"/>
+  <note>
+GF Latin Plus glyph
+</note>
+  <outline>
+    <contour>
+      <point x="87" y="106" type="line"/>
+      <point x="399" y="203" type="line"/>
+      <point x="413" y="296" type="line"/>
+      <point x="132" y="390" type="line"/>
+      <point x="117" y="298" type="line"/>
+      <point x="303" y="251" type="line"/>
+      <point x="101" y="198" type="line"/>
+    </contour>
+  </outline>
+</glyph>

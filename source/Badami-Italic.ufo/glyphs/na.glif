@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="na" format="2">
+  <advance width="477"/>
+  <unicode hex="0CA8"/>
+  <anchor x="298" y="-151" name="N"/>
+  <outline>
+    <component base="na.base"/>
+    <component base="inherent" xOffset="467"/>
+  </outline>
+</glyph>

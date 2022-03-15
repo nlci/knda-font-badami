@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="vedictonedotbelow" format="2">
+  <advance width="10"/>
+  <unicode hex="1CDD"/>
+  <outline>
+    <contour>
+      <point x="-344" y="-50" type="curve" smooth="yes"/>
+      <point x="-381" y="-50"/>
+      <point x="-410" y="-81"/>
+      <point x="-410" y="-115" type="curve" smooth="yes"/>
+      <point x="-410" y="-152"/>
+      <point x="-378" y="-182"/>
+      <point x="-344" y="-182" type="curve" smooth="yes"/>
+      <point x="-308" y="-182"/>
+      <point x="-277" y="-151"/>
+      <point x="-277" y="-115" type="curve" smooth="yes"/>
+      <point x="-277" y="-78"/>
+      <point x="-309" y="-50"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="oomatra.large" format="2">
+  <advance width="668"/>
+  <outline>
+    <component base="ematra"/>
+    <component base="uumatra.large" xOffset="10"/>
+    <component base="lengthmark" xOffset="383"/>
+  </outline>
+</glyph>

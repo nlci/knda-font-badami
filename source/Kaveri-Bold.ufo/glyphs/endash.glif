@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="endash" format="2">
+  <advance width="369"/>
+  <unicode hex="2013"/>
+  <note>
+GF Latin Plus glyph
+</note>
+  <outline>
+    <contour>
+      <point x="15" y="163" type="line"/>
+      <point x="353" y="163" type="line"/>
+      <point x="353" y="249" type="line"/>
+      <point x="15" y="249" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ja_nya.imathra" format="2">
+  <advance width="671"/>
+  <anchor x="368" y="-431" name="N"/>
+  <anchor x="751" y="-200" name="S"/>
+  <outline>
+    <component base="ja.imathra"/>
+    <component base="nya.sub" xOffset="343"/>
+  </outline>
+</glyph>

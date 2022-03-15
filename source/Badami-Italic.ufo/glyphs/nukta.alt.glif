@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nukta.alt" format="2">
+  <advance width="10"/>
+  <anchor x="-382" y="-128" name="_N"/>
+  <outline>
+    <component base="vedictonedotbelow"/>
+  </outline>
+</glyph>

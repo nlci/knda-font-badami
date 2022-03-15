@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="onehalf" format="2">
+  <advance width="822"/>
+  <unicode hex="00BD"/>
+  <note>
+GF Latin Plus glyph
+</note>
+  <outline>
+    <component base="fraction" xOffset="218"/>
+    <component base="two.denominator" xOffset="496" yOffset="-31"/>
+    <component base="one.numerator" xOffset="2"/>
+  </outline>
+</glyph>

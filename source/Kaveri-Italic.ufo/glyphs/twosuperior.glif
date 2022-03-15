@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="twosuperior" format="2">
+  <advance width="297"/>
+  <unicode hex="00B2"/>
+  <note>
+GF Latin Plus glyph
+</note>
+  <outline>
+    <contour>
+      <point x="71" y="253" type="line"/>
+      <point x="310" y="253" type="line"/>
+      <point x="320" y="316" type="line"/>
+      <point x="176" y="316" type="line"/>
+      <point x="261" y="389" type="line" smooth="yes"/>
+      <point x="322" y="443"/>
+      <point x="341" y="486"/>
+      <point x="341" y="534" type="curve" smooth="yes"/>
+      <point x="341" y="578"/>
+      <point x="316" y="604"/>
+      <point x="246" y="604" type="curve" smooth="yes"/>
+      <point x="201" y="604"/>
+      <point x="163" y="597"/>
+      <point x="133" y="593" type="curve"/>
+      <point x="125" y="538" type="line"/>
+      <point x="220" y="538" type="line" smooth="yes"/>
+      <point x="255" y="538"/>
+      <point x="266" y="527"/>
+      <point x="266" y="508" type="curve" smooth="yes"/>
+      <point x="266" y="487"/>
+      <point x="250" y="457"/>
+      <point x="212" y="424" type="curve" smooth="yes"/>
+      <point x="80" y="309" type="line"/>
+    </contour>
+  </outline>
+</glyph>

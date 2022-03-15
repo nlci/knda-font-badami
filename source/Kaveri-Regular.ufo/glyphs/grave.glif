@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="grave" format="2">
+  <advance width="161"/>
+  <unicode hex="0060"/>
+  <note>
+GF Latin Plus glyph
+</note>
+  <outline>
+    <contour>
+      <point x="97" y="450" type="line"/>
+      <point x="149" y="450" type="line"/>
+      <point x="84" y="549" type="line"/>
+      <point x="12" y="549" type="line"/>
+    </contour>
+  </outline>
+</glyph>

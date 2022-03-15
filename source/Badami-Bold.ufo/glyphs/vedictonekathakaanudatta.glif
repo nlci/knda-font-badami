@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="vedictonekathakaanudatta" format="2">
+  <advance width="10"/>
+  <unicode hex="1CDC"/>
+  <outline>
+    <contour>
+      <point x="-300" y="760" type="line"/>
+      <point x="-300" y="1052" type="line"/>
+      <point x="-367" y="1052" type="line"/>
+      <point x="-367" y="760" type="line"/>
+    </contour>
+  </outline>
+</glyph>

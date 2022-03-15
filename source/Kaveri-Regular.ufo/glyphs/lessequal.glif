@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lessequal" format="2">
+  <advance width="435"/>
+  <unicode hex="2264"/>
+  <note>
+GF Latin Plus glyph
+</note>
+  <outline>
+    <component base="minus" xOffset="0" yOffset="-178"/>
+    <contour>
+      <point x="365" y="170" type="line"/>
+      <point x="365" y="247" type="line"/>
+      <point x="155" y="299" type="line"/>
+      <point x="365" y="346" type="line"/>
+      <point x="365" y="423" type="line"/>
+      <point x="69" y="337" type="line"/>
+      <point x="69" y="258" type="line"/>
+    </contour>
+  </outline>
+</glyph>

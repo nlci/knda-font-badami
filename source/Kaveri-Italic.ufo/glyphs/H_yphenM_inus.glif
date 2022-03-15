@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="HyphenMinus" format="2">
+  <advance width="227"/>
+  <outline>
+    <contour>
+      <point x="202" y="196" type="line"/>
+      <point x="30" y="196" type="line"/>
+      <point x="21" y="147" type="line"/>
+      <point x="192" y="147" type="line"/>
+    </contour>
+  </outline>
+</glyph>

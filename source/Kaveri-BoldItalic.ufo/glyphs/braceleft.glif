@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="braceleft" format="2">
+  <advance width="226"/>
+  <unicode hex="007B"/>
+  <note>
+GF Latin Plus glyph
+</note>
+  <outline>
+    <contour>
+      <point x="203" y="-150" type="curve"/>
+      <point x="215" y="-70" type="line"/>
+      <point x="185" y="-70"/>
+      <point x="173" y="-58"/>
+      <point x="173" y="-30" type="curve" smooth="yes"/>
+      <point x="173" y="-6"/>
+      <point x="204" y="155"/>
+      <point x="204" y="179" type="curve" smooth="yes"/>
+      <point x="204" y="210"/>
+      <point x="182" y="231"/>
+      <point x="144" y="238" type="curve"/>
+      <point x="187" y="242"/>
+      <point x="218" y="262"/>
+      <point x="226" y="310" type="curve" smooth="yes"/>
+      <point x="247" y="446" type="line" smooth="yes"/>
+      <point x="255" y="501"/>
+      <point x="269" y="516"/>
+      <point x="308" y="516" type="curve"/>
+      <point x="322" y="601" type="line"/>
+      <point x="211" y="601"/>
+      <point x="161" y="569"/>
+      <point x="145" y="468" type="curve" smooth="yes"/>
+      <point x="122" y="328" type="line" smooth="yes"/>
+      <point x="117" y="297"/>
+      <point x="91" y="289"/>
+      <point x="67" y="287" type="curve"/>
+      <point x="52" y="189" type="line"/>
+      <point x="83" y="189"/>
+      <point x="95" y="179"/>
+      <point x="95" y="155" type="curve" smooth="yes"/>
+      <point x="95" y="135"/>
+      <point x="63" y="-19"/>
+      <point x="63" y="-59" type="curve" smooth="yes"/>
+      <point x="63" y="-120"/>
+      <point x="100" y="-150"/>
+    </contour>
+  </outline>
+</glyph>

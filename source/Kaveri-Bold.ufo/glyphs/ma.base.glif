@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ma.base" format="2">
+  <advance width="888"/>
+  <anchor x="609" y="487" name="V"/>
+  <outline>
+    <component base="va.base"/>
+    <component base="umatra" xOffset="580"/>
+  </outline>
+</glyph>

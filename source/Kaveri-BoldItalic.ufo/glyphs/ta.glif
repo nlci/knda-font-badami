@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ta" format="2">
+  <advance width="584"/>
+  <unicode hex="0CA4"/>
+  <anchor x="415" y="-116" name="N"/>
+  <outline>
+    <component base="ta.base"/>
+    <component base="inherent" xOffset="461"/>
+  </outline>
+</glyph>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="da" format="2">
+  <advance width="553"/>
+  <unicode hex="0CA6"/>
+  <anchor x="276" y="-128" name="N"/>
+  <outline>
+    <component base="da.base"/>
+    <component base="inherent" xOffset="543"/>
+  </outline>
+</glyph>

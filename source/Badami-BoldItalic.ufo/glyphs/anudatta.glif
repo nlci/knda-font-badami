@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="anudatta" format="2">
+  <advance width="10"/>
+  <unicode hex="0952"/>
+  <outline>
+    <contour>
+      <point x="-190" y="-349" type="line"/>
+      <point x="-224" y="-292" type="line"/>
+      <point x="-473" y="-292" type="line"/>
+      <point x="-439" y="-349" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fraction" format="2">
+  <advance width="213"/>
+  <unicode hex="2044"/>
+  <note>
+GF Latin Plus glyph
+</note>
+  <outline>
+    <contour>
+      <point x="-57" y="0" type="line"/>
+      <point x="4" y="0" type="line"/>
+      <point x="270" y="550" type="line"/>
+      <point x="208" y="550" type="line"/>
+    </contour>
+  </outline>
+</glyph>

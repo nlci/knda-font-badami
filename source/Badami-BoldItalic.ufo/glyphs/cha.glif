@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cha" format="2">
+  <advance width="553"/>
+  <unicode hex="0C9B"/>
+  <anchor x="340" y="-263" name="N"/>
+  <outline>
+    <component base="cha.base"/>
+    <component base="inherent" xOffset="543"/>
+  </outline>
+</glyph>

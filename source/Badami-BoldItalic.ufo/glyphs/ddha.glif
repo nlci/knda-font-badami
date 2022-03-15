@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ddha" format="2">
+  <advance width="535"/>
+  <unicode hex="0CA2"/>
+  <anchor x="323" y="-263" name="N"/>
+  <outline>
+    <component base="ddha.base"/>
+    <component base="inherent" xOffset="525"/>
+  </outline>
+</glyph>

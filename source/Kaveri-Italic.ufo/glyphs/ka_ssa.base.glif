@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ka_ssa.base" format="2">
+  <advance width="438"/>
+  <anchor x="260" y="-419" name="N"/>
+  <anchor x="637" y="-200" name="S"/>
+  <outline>
+    <component base="ka.base"/>
+    <component base="ssa.sub" xOffset="282"/>
+  </outline>
+</glyph>

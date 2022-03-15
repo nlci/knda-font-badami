@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tildecomb.case" format="2">
+  <note>
+GF Latin Plus glyph
+</note>
+  <outline>
+    <component base="tilde" xOffset="-353" yOffset="114"/>
+  </outline>
+</glyph>

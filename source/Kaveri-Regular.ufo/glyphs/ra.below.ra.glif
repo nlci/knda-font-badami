@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ra.below.ra" format="2">
+  <advance width="108"/>
+  <anchor x="161" y="-200" name="S"/>
+  <outline>
+    <contour>
+      <point x="-59" y="-176" type="curve" smooth="yes"/>
+      <point x="-182" y="-176" type="line"/>
+      <point x="-182" y="-234" type="line"/>
+      <point x="-55" y="-234" type="line" smooth="yes"/>
+      <point x="43" y="-234"/>
+      <point x="111" y="-151"/>
+      <point x="111" y="-59" type="curve" smooth="yes"/>
+      <point x="111" y="195" type="line"/>
+      <point x="43" y="195" type="line"/>
+      <point x="43" y="-63" type="line" smooth="yes"/>
+      <point x="43" y="-124"/>
+      <point x="0" y="-176"/>
+    </contour>
+  </outline>
+</glyph>

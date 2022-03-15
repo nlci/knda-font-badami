@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="onesuperior" format="2">
+  <advance width="297"/>
+  <unicode hex="00B9"/>
+  <note>
+GF Latin Plus glyph
+</note>
+  <outline>
+    <contour>
+      <point x="159" y="253" type="line"/>
+      <point x="230" y="253" type="line"/>
+      <point x="285" y="604" type="line"/>
+      <point x="222" y="604" type="line"/>
+      <point x="137" y="574" type="line"/>
+      <point x="130" y="530" type="line"/>
+      <point x="204" y="541" type="line"/>
+    </contour>
+    <contour>
+      <point x="81" y="253" type="line"/>
+      <point x="307" y="253" type="line"/>
+      <point x="317" y="316" type="line"/>
+      <point x="91" y="316" type="line"/>
+    </contour>
+  </outline>
+</glyph>

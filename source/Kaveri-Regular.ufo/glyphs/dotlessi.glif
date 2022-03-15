@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dotlessi" format="2">
+  <advance width="177"/>
+  <unicode hex="0131"/>
+  <note>
+GF Latin Plus glyph
+</note>
+  <outline>
+    <contour>
+      <point x="45" y="0" type="line"/>
+      <point x="133" y="0" type="line"/>
+      <point x="133" y="382" type="line"/>
+      <point x="45" y="382" type="line"/>
+    </contour>
+  </outline>
+</glyph>

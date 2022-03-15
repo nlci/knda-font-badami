@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iimatra" format="2">
+  <advance width="605"/>
+  <unicode hex="0CC0"/>
+  <anchor x="0" y="0" name="_M"/>
+  <outline>
+    <component base="imatra"/>
+    <component base="lengthmark" xOffset="240"/>
+  </outline>
+</glyph>

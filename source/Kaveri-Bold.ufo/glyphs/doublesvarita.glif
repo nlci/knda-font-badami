@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="doublesvarita" format="2">
+  <advance width="11"/>
+  <unicode hex="1CDA"/>
+  <outline>
+    <contour>
+      <point x="-172" y="553" type="line"/>
+      <point x="-172" y="719" type="line"/>
+      <point x="-239" y="719" type="line"/>
+      <point x="-239" y="553" type="line"/>
+    </contour>
+    <contour>
+      <point x="-277" y="553" type="line"/>
+      <point x="-277" y="719" type="line"/>
+      <point x="-344" y="719" type="line"/>
+      <point x="-344" y="553" type="line"/>
+    </contour>
+  </outline>
+</glyph>

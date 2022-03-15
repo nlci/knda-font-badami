@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ma.noEbase" format="2">
+  <advance width="951"/>
+  <outline>
+    <component base="va.base"/>
+    <component base="inherent" xOffset="580"/>
+    <component base="widebase" xOffset="703"/>
+  </outline>
+</glyph>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seven" format="2">
+  <advance width="395"/>
+  <unicode hex="0037"/>
+  <note>
+GF Latin Plus glyph
+</note>
+  <outline>
+    <contour>
+      <point x="84" y="0" type="line"/>
+      <point x="202" y="0" type="line"/>
+      <point x="377" y="483" type="line"/>
+      <point x="349" y="528" type="line"/>
+      <point x="16" y="528" type="line"/>
+      <point x="16" y="422" type="line"/>
+      <point x="241" y="422" type="line"/>
+    </contour>
+  </outline>
+</glyph>

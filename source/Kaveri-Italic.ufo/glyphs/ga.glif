@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ga" format="2">
+  <advance width="510"/>
+  <unicode hex="0C97"/>
+  <anchor x="386" y="-128" name="N"/>
+  <outline>
+    <component base="ga.base"/>
+    <component base="inherent" xOffset="393"/>
+  </outline>
+</glyph>

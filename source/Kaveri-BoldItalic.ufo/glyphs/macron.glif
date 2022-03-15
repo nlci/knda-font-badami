@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macron" format="2">
+  <advance width="256"/>
+  <unicode hex="00AF"/>
+  <note>
+GF Latin Plus glyph
+</note>
+  <outline>
+    <contour>
+      <point x="100" y="462" type="line"/>
+      <point x="301" y="462" type="line"/>
+      <point x="311" y="524" type="line"/>
+      <point x="110" y="524" type="line"/>
+    </contour>
+  </outline>
+</glyph>

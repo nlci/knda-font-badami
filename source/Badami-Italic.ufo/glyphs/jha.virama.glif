@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jha.virama" format="2">
+  <advance width="1298"/>
+  <outline>
+    <component base="ra.base"/>
+    <component base="inherent" xOffset="439"/>
+    <component base="jha.part" xOffset="449"/>
+    <component base="widebase" xOffset="707"/>
+    <component base="virama" xOffset="984"/>
+  </outline>
+</glyph>

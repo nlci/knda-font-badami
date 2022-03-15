@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bha" format="2">
+  <advance width="697"/>
+  <unicode hex="0CAD"/>
+  <anchor x="400" y="-218" name="N"/>
+  <outline>
+    <component base="bha.base"/>
+    <component base="inherent" xOffset="574"/>
+  </outline>
+</glyph>

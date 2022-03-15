@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nukta" format="2">
+  <advance width="10"/>
+  <unicode hex="0CBC"/>
+  <anchor x="-382" y="-116" name="_N"/>
+  <outline>
+    <component base="vedictonetwodotsbelow"/>
+  </outline>
+</glyph>

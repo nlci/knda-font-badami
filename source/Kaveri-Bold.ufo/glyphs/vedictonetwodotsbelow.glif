@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="vedictonetwodotsbelow" format="2">
+  <advance width="10"/>
+  <unicode hex="1CDE"/>
+  <outline>
+    <contour>
+      <point x="-258" y="-50" type="curve" smooth="yes"/>
+      <point x="-296" y="-50"/>
+      <point x="-324" y="-79"/>
+      <point x="-324" y="-115" type="curve" smooth="yes"/>
+      <point x="-324" y="-152"/>
+      <point x="-292" y="-182"/>
+      <point x="-258" y="-182" type="curve" smooth="yes"/>
+      <point x="-219" y="-182"/>
+      <point x="-192" y="-150"/>
+      <point x="-192" y="-115" type="curve" smooth="yes"/>
+      <point x="-192" y="-81"/>
+      <point x="-221" y="-50"/>
+    </contour>
+    <contour>
+      <point x="-457" y="-50" type="curve" smooth="yes"/>
+      <point x="-495" y="-50"/>
+      <point x="-523" y="-79"/>
+      <point x="-523" y="-115" type="curve" smooth="yes"/>
+      <point x="-523" y="-152"/>
+      <point x="-491" y="-182"/>
+      <point x="-457" y="-182" type="curve" smooth="yes"/>
+      <point x="-423" y="-182"/>
+      <point x="-391" y="-152"/>
+      <point x="-391" y="-115" type="curve" smooth="yes"/>
+      <point x="-391" y="-77"/>
+      <point x="-423" y="-50"/>
+    </contour>
+  </outline>
+</glyph>

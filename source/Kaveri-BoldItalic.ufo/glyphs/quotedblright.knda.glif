@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotedblright.knda" format="2">
+  <advance width="534"/>
+  <outline>
+    <component base="quoteright.knda"/>
+    <component base="quoteright.knda" xOffset="267"/>
+  </outline>
+</glyph>

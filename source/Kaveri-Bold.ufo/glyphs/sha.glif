@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sha" format="2">
+  <advance width="562"/>
+  <unicode hex="0CB6"/>
+  <anchor x="338" y="-118" name="N"/>
+  <outline>
+    <component base="sha.base"/>
+    <component base="inherent" xOffset="439"/>
+  </outline>
+</glyph>

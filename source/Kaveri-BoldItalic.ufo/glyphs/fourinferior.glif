@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fourinferior" format="2">
+  <advance width="321"/>
+  <outline>
+    <component base="foursuperior" xOffset="-54" yOffset="-357"/>
+  </outline>
+</glyph>

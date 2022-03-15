@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acute" format="2">
+  <advance width="161"/>
+  <unicode hex="00B4"/>
+  <note>
+GF Latin Plus glyph
+</note>
+  <outline>
+    <contour>
+      <point x="84" y="450" type="line"/>
+      <point x="140" y="450" type="line"/>
+      <point x="236" y="549" type="line"/>
+      <point x="159" y="549" type="line"/>
+    </contour>
+  </outline>
+</glyph>

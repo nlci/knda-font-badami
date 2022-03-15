@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ya" format="2">
+  <advance width="1159"/>
+  <unicode hex="0CAF"/>
+  <anchor x="662" y="-116" name="N"/>
+  <outline>
+    <component base="ya.regbase"/>
+    <component base="inherent" xOffset="728"/>
+    <component base="umatra" xOffset="851"/>
+  </outline>
+</glyph>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="x" format="2">
+  <advance width="386"/>
+  <unicode hex="0078"/>
+  <note>
+GF Latin Plus glyph
+</note>
+  <outline>
+    <contour>
+      <point x="273" y="0" type="line"/>
+      <point x="380" y="0" type="line"/>
+      <point x="113" y="383" type="line"/>
+      <point x="6" y="383" type="line"/>
+    </contour>
+    <contour>
+      <point x="6" y="0" type="line"/>
+      <point x="113" y="0" type="line"/>
+      <point x="192" y="125" type="line"/>
+      <point x="154" y="224" type="line"/>
+    </contour>
+    <contour>
+      <point x="232" y="157" type="line"/>
+      <point x="380" y="383" type="line"/>
+      <point x="273" y="383" type="line"/>
+      <point x="187" y="245" type="line"/>
+    </contour>
+  </outline>
+</glyph>

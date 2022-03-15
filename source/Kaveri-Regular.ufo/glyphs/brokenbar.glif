@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="brokenbar" format="2">
+  <advance width="179"/>
+  <unicode hex="00A6"/>
+  <note>
+GF Latin Plus glyph
+</note>
+  <outline>
+    <contour>
+      <point x="54" y="306" type="line"/>
+      <point x="125" y="306" type="line"/>
+      <point x="125" y="550" type="line"/>
+      <point x="54" y="550" type="line"/>
+    </contour>
+    <contour>
+      <point x="54" y="-51" type="line"/>
+      <point x="125" y="-51" type="line"/>
+      <point x="125" y="182" type="line"/>
+      <point x="54" y="182" type="line"/>
+    </contour>
+  </outline>
+</glyph>

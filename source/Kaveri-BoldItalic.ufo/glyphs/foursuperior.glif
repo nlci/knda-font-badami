@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="foursuperior" format="2">
+  <advance width="297"/>
+  <unicode hex="2074"/>
+  <note>
+GF Latin Plus glyph
+</note>
+  <outline>
+    <contour>
+      <point x="213" y="253" type="line"/>
+      <point x="297" y="253" type="line"/>
+      <point x="308" y="321" type="line"/>
+      <point x="342" y="334" type="line"/>
+      <point x="351" y="391" type="line"/>
+      <point x="319" y="391" type="line"/>
+      <point x="335" y="492" type="line"/>
+      <point x="267" y="492" type="line"/>
+      <point x="244" y="449" type="line"/>
+      <point x="235" y="391" type="line"/>
+      <point x="170" y="391" type="line"/>
+      <point x="297" y="601" type="line"/>
+      <point x="210" y="601" type="line"/>
+      <point x="64" y="359" type="line"/>
+      <point x="73" y="321" type="line"/>
+      <point x="224" y="321" type="line"/>
+    </contour>
+  </outline>
+</glyph>

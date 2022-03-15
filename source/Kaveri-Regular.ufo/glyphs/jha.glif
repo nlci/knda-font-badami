@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jha" format="2">
+  <advance width="1142"/>
+  <unicode hex="0C9D"/>
+  <anchor x="646" y="-265" name="N"/>
+  <outline>
+    <component base="ra.base"/>
+    <component base="inherent" xOffset="439"/>
+    <component base="jha.part" xOffset="556"/>
+    <component base="umatra" xOffset="849"/>
+  </outline>
+</glyph>

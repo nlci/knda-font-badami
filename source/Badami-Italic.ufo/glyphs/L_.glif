@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="L" format="2">
+  <advance width="328"/>
+  <unicode hex="004C"/>
+  <outline>
+    <contour>
+      <point x="306" y="92" type="curve"/>
+      <point x="289" y="99" type="line"/>
+      <point x="263" y="44"/>
+      <point x="250" y="34"/>
+      <point x="211" y="34" type="curve" smooth="yes"/>
+      <point x="169" y="34" type="line" smooth="yes"/>
+      <point x="123" y="34"/>
+      <point x="111" y="41"/>
+      <point x="113" y="58" type="curve" smooth="yes"/>
+      <point x="160" y="399" type="line"/>
+      <point x="161" y="405"/>
+      <point x="179" y="414"/>
+      <point x="209" y="420" type="curve"/>
+      <point x="211" y="439" type="line"/>
+      <point x="59" y="439" type="line"/>
+      <point x="57" y="420" type="line"/>
+      <point x="87" y="414"/>
+      <point x="100" y="404"/>
+      <point x="100" y="399" type="curve" smooth="yes"/>
+      <point x="50" y="39" type="line" smooth="yes"/>
+      <point x="49" y="33"/>
+      <point x="31" y="24"/>
+      <point x="1" y="18" type="curve"/>
+      <point x="0" y="0" type="line"/>
+      <point x="279" y="0" type="line"/>
+      <point x="285" y="13"/>
+      <point x="296" y="51"/>
+    </contour>
+  </outline>
+</glyph>

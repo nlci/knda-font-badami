@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ra" format="2">
+  <advance width="449"/>
+  <unicode hex="0CB0"/>
+  <anchor x="222" y="-117" name="N"/>
+  <outline>
+    <component base="ra.base"/>
+    <component base="inherent" xOffset="439"/>
+  </outline>
+</glyph>

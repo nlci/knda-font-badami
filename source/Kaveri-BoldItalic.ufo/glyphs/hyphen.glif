@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hyphen" format="2">
+  <advance width="247"/>
+  <unicode hex="002D"/>
+  <note>
+GF Latin Plus glyph
+</note>
+  <outline>
+    <contour>
+      <point x="41" y="164" type="line"/>
+      <point x="259" y="164" type="line"/>
+      <point x="273" y="249" type="line"/>
+      <point x="54" y="249" type="line"/>
+    </contour>
+  </outline>
+</glyph>

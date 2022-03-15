@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="pha" format="2">
+  <advance width="693"/>
+  <unicode hex="0CAB"/>
+  <anchor x="473" y="-230" name="N"/>
+  <outline>
+    <component base="pha.base"/>
+    <component base="inherent" xOffset="576"/>
+  </outline>
+</glyph>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="backslash" format="2">
+  <advance width="314"/>
+  <unicode hex="005C"/>
+  <note>
+GF Latin Plus glyph
+</note>
+  <outline>
+    <contour>
+      <point x="205" y="-51" type="line"/>
+      <point x="294" y="-51" type="line"/>
+      <point x="188" y="550" type="line"/>
+      <point x="99" y="550" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ma" format="2">
+  <advance width="801"/>
+  <unicode hex="0CAE"/>
+  <anchor x="437" y="-138" name="N"/>
+  <outline>
+    <component base="va.base"/>
+    <component base="inherent" xOffset="533"/>
+    <component base="umatra" xOffset="543"/>
+  </outline>
+</glyph>

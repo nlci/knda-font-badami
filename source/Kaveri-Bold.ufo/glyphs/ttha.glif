@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ttha" format="2">
+  <advance width="584"/>
+  <unicode hex="0CA0"/>
+  <anchor x="362" y="-116" name="N"/>
+  <outline>
+    <component base="ttha.base"/>
+    <component base="inherent" xOffset="461"/>
+  </outline>
+</glyph>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="numbersign" format="2">
+  <advance width="516"/>
+  <unicode hex="0023"/>
+  <note>
+GF Latin Plus glyph
+</note>
+  <outline>
+    <contour>
+      <point x="92" y="0" type="line"/>
+      <point x="163" y="0" type="line"/>
+      <point x="190" y="147" type="line"/>
+      <point x="272" y="147" type="line"/>
+      <point x="245" y="0" type="line"/>
+      <point x="317" y="0" type="line"/>
+      <point x="343" y="147" type="line"/>
+      <point x="472" y="147" type="line"/>
+      <point x="481" y="218" type="line"/>
+      <point x="360" y="218" type="line"/>
+      <point x="374" y="303" type="line"/>
+      <point x="496" y="303" type="line"/>
+      <point x="506" y="374" type="line"/>
+      <point x="385" y="374" type="line"/>
+      <point x="412" y="522" type="line"/>
+      <point x="340" y="522" type="line"/>
+      <point x="314" y="374" type="line"/>
+      <point x="232" y="374" type="line"/>
+      <point x="259" y="522" type="line"/>
+      <point x="188" y="522" type="line"/>
+      <point x="161" y="374" type="line"/>
+      <point x="46" y="374" type="line"/>
+      <point x="35" y="303" type="line"/>
+      <point x="147" y="303" type="line"/>
+      <point x="132" y="218" type="line"/>
+      <point x="21" y="218" type="line"/>
+      <point x="11" y="147" type="line"/>
+      <point x="119" y="147" type="line"/>
+    </contour>
+    <contour>
+      <point x="204" y="218" type="line"/>
+      <point x="218" y="303" type="line"/>
+      <point x="303" y="303" type="line"/>
+      <point x="288" y="218" type="line"/>
+    </contour>
+  </outline>
+</glyph>

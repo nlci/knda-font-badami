@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="saltillo" format="2">
+  <advance width="190"/>
+  <unicode hex="A78C"/>
+  <outline>
+    <contour>
+      <point x="192" y="473" type="curve" smooth="yes"/>
+      <point x="192" y="498"/>
+      <point x="175" y="509"/>
+      <point x="153" y="509" type="curve" smooth="yes"/>
+      <point x="125" y="509"/>
+      <point x="106" y="494"/>
+      <point x="103" y="453" type="curve" smooth="yes"/>
+      <point x="86" y="213" type="line"/>
+      <point x="117" y="213" type="line"/>
+      <point x="190" y="452" type="line"/>
+      <point x="191" y="461"/>
+      <point x="192" y="467"/>
+    </contour>
+  </outline>
+</glyph>

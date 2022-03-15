@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="periodcentered" format="2">
+  <advance width="187"/>
+  <unicode hex="00B7"/>
+  <note>
+GF Latin Plus glyph
+</note>
+  <outline>
+    <contour>
+      <point x="91" y="229" type="curve" smooth="yes"/>
+      <point x="152" y="229" type="line" smooth="yes"/>
+      <point x="161" y="229"/>
+      <point x="167" y="232"/>
+      <point x="169" y="243" type="curve" smooth="yes"/>
+      <point x="180" y="306" type="line" smooth="yes"/>
+      <point x="181" y="316"/>
+      <point x="178" y="322"/>
+      <point x="167" y="322" type="curve" smooth="yes"/>
+      <point x="106" y="322" type="line" smooth="yes"/>
+      <point x="96" y="322"/>
+      <point x="89" y="316"/>
+      <point x="88" y="306" type="curve" smooth="yes"/>
+      <point x="78" y="243" type="line" smooth="yes"/>
+      <point x="77" y="234"/>
+      <point x="82" y="229"/>
+    </contour>
+  </outline>
+</glyph>

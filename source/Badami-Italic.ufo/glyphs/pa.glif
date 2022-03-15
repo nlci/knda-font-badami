@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="pa" format="2">
+  <advance width="543"/>
+  <unicode hex="0CAA"/>
+  <anchor x="332" y="-140" name="N"/>
+  <outline>
+    <component base="pa.base"/>
+    <component base="inherent" xOffset="533"/>
+  </outline>
+</glyph>

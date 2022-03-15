@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="notequal" format="2">
+  <advance width="435"/>
+  <unicode hex="2260"/>
+  <note>
+GF Latin Plus glyph
+</note>
+  <outline>
+    <component base="equal"/>
+    <contour>
+      <point x="81" y="56" type="line"/>
+      <point x="141" y="56" type="line"/>
+      <point x="352" y="452" type="line"/>
+      <point x="293" y="452" type="line"/>
+    </contour>
+  </outline>
+</glyph>

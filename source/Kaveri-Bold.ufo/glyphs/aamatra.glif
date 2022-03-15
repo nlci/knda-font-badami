@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aamatra" format="2">
+  <advance width="519"/>
+  <unicode hex="0CBE"/>
+  <anchor x="0" y="0" name="_M"/>
+  <outline>
+    <contour>
+      <point x="447" y="488" type="curve" smooth="yes"/>
+      <point x="-5" y="488" type="line"/>
+      <point x="-5" y="407" type="line"/>
+      <point x="426" y="407" type="line" smooth="yes"/>
+      <point x="431" y="407"/>
+      <point x="435" y="406"/>
+      <point x="437" y="404" type="curve"/>
+      <point x="440" y="392" type="line"/>
+      <point x="440" y="83" type="line"/>
+      <point x="436" y="75" type="line"/>
+      <point x="425" y="72" type="line"/>
+      <point x="293" y="72" type="line" smooth="yes"/>
+      <point x="289" y="72"/>
+      <point x="273" y="73"/>
+      <point x="270" y="90" type="curve"/>
+      <point x="271" y="133" type="line"/>
+      <point x="332" y="133" type="line"/>
+      <point x="332" y="213" type="line"/>
+      <point x="174" y="213" type="line"/>
+      <point x="174" y="74" type="line" smooth="yes"/>
+      <point x="174" y="32"/>
+      <point x="213" y="1"/>
+      <point x="263" y="1" type="curve" smooth="yes"/>
+      <point x="458" y="0" type="line" smooth="yes"/>
+      <point x="495" y="0"/>
+      <point x="527" y="32"/>
+      <point x="527" y="74" type="curve" smooth="yes"/>
+      <point x="527" y="415" type="line" smooth="yes"/>
+      <point x="527" y="449"/>
+      <point x="502" y="488"/>
+    </contour>
+  </outline>
+</glyph>

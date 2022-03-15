@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jha.imathra" format="2">
+  <advance width="1123"/>
+  <outline>
+    <component base="ra.imathra"/>
+    <component base="jha.part" xOffset="537"/>
+    <component base="umatra" xOffset="830"/>
+  </outline>
+</glyph>

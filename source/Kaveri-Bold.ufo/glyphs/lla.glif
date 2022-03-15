@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lla" format="2">
+  <advance width="581"/>
+  <unicode hex="0CB3"/>
+  <anchor x="326" y="-116" name="N"/>
+  <outline>
+    <component base="lla.base"/>
+    <component base="inherent" xOffset="458"/>
+  </outline>
+</glyph>

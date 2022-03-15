@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="glottalstopmod" format="2">
+  <advance width="239"/>
+  <unicode hex="02C0"/>
+  <outline>
+    <contour>
+      <point x="154" y="272" type="curve"/>
+      <point x="154" y="329" type="line" smooth="yes"/>
+      <point x="154" y="387"/>
+      <point x="235" y="408"/>
+      <point x="235" y="470" type="curve" smooth="yes"/>
+      <point x="235" y="509"/>
+      <point x="200" y="540"/>
+      <point x="136" y="540" type="curve" smooth="yes"/>
+      <point x="60" y="540"/>
+      <point x="9" y="497"/>
+      <point x="9" y="444" type="curve" smooth="yes"/>
+      <point x="9" y="437"/>
+      <point x="9" y="437"/>
+      <point x="9" y="434" type="curve"/>
+      <point x="18" y="426" type="line"/>
+      <point x="33" y="427"/>
+      <point x="74" y="434"/>
+      <point x="85" y="439" type="curve"/>
+      <point x="78" y="447"/>
+      <point x="77" y="457"/>
+      <point x="77" y="464" type="curve" smooth="yes"/>
+      <point x="77" y="486"/>
+      <point x="94" y="506"/>
+      <point x="117" y="506" type="curve" smooth="yes"/>
+      <point x="139" y="506"/>
+      <point x="162" y="487"/>
+      <point x="162" y="461" type="curve" smooth="yes"/>
+      <point x="162" y="415"/>
+      <point x="85" y="384"/>
+      <point x="85" y="320" type="curve" smooth="yes"/>
+      <point x="85" y="266" type="line"/>
+      <point x="96" y="255" type="line"/>
+      <point x="105" y="258"/>
+      <point x="146" y="267"/>
+    </contour>
+  </outline>
+</glyph>
