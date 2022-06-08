@@ -37,6 +37,12 @@ Matras = [
     0x0CE3,  # KANNADA VOWEL SIGN VOCALIC LL
     ]
 
+WrapMatras = [
+    0x0CC3,  # KANNADA VOWEL SIGN VOCALIC R
+    0x0CC4,  # KANNADA VOWEL SIGN VOCALIC RR
+    0x0CD6,  # KANNADA AI LENGTH MARK
+    ]
+
 Consonants = [
     0x0C95,  # KANNADA LETTER KA
     0x0C96,  # KANNADA LETTER KHA
@@ -99,6 +105,7 @@ Digits = [
 
 vowels = list(map(chr, Vowels))
 matras = list(map(chr, Matras))
+wrapmatras = list(map(chr, WrapMatras))
 consonants = list(map(chr, Consonants))
 n = nukta = list(map(chr, Nukta))[0]
 h = virama = list(map(chr, Virama))[0]
@@ -109,6 +116,7 @@ ga = consonants[2]
 gha = consonants[3]
 ja = consonants[7]
 nya = consonants[9]
+ra = consonants[26]
 ssa = consonants[33]
 
 Akhands = [

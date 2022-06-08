@@ -79,7 +79,7 @@
     <test label="harfbuzz vs microsoft for double-halant">
       <string>\u0C9A\u0CCD\u0C9A\u0CCD</string>
     </test>
-    <test label="MS 809">
+    <test label="MS Typography 809">
       <string>\u0cb0\u200d\u0ccd\u0c95\u0ccd</string>
     </test>
   </testgroup>
