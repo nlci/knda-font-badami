@@ -10,6 +10,7 @@
     <fontsrc label="Noto Sans">url(../references/NotoSansKannada-Regular.ttf)</fontsrc>
     <fontsrc label="Noto Sans UI">url(../references/NotoSansKannadaUI-Regular.ttf)</fontsrc>
     <fontsrc label="Lohit">url(../references/Lohit-Kannada.ttf)</fontsrc>
+    <fontsrc label="Gubbi">url(../references/Gubbi.ttf)</fontsrc>
     <title>Issues</title>
   </head>
   <testgroup label="Rendering check">
@@ -73,6 +74,17 @@
     </test>
     <test label="pt2 and with ZW[N]J before virama">
       <string>\u0cb0\u0ccd\u0cb9\u0cbe \u0cb0\u200c\u0ccd\u0cb9\u0cbe \u0cb0\u200d\u0ccd\u0cb9\u0cbe</string>
+    </test>
+  </testgroup>
+  <testgroup label="https://github.com/harfbuzz/harfbuzz/issues/435">
+    <test label="RA, ZWJ, VIRAMA, consonant, ... (newer)">
+      <string>\u0cb0\u200d\u0ccd\u0ca4 \u0cb0\u200d\u0ccd\u0cb9\u0cca \u0cb0\u200d\u0ccd\u0caf\u0cca</string>
+    </test>
+    <test label="RA, VIRAMA, ZWJ, consonant, ... (older)">
+      <string>\u0cb0\u0ccd\u200d\u0ca4 \u0cb0\u0ccd\u200d\u0cb9\u0cca \u0cb0\u0ccd\u200d\u0caf\u0cca</string>
+    </test>
+    <test label="without ZWJ (reph)">
+      <string>\u0cb0\u0ccd\u0ca4 \u0cb0\u0ccd\u0cb9\u0cca \u0cb0\u0ccd\u0caf\u0cca</string>
     </test>
   </testgroup>
   <testgroup label="public">
