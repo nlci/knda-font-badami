@@ -98,9 +98,7 @@
     </contour>
     <contour>
       <point x="256" y="108" type="curve" smooth="yes"/>
-      <point x="256" y="109"/>
-      <point x="256" y="109"/>
-      <point x="256" y="112" type="curve" smooth="yes"/>
+      <point x="256" y="112" type="line" smooth="yes"/>
       <point x="256" y="115"/>
       <point x="256" y="117"/>
       <point x="257" y="119" type="curve" smooth="yes"/>
