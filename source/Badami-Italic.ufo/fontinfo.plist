@@ -25,7 +25,7 @@ with Reserved Font Names "Annapurna" and "SIL".
   <key>italicAngle</key>
   <integer>-12</integer>
   <key>openTypeHeadCreated</key>
-  <string>2022/08/29 09:50:39</string>
+  <string>2022/08/29 16:01:12</string>
   <key>openTypeHheaAscender</key>
   <integer>604</integer>
   <key>openTypeHheaDescender</key>
@@ -267,6 +267,32 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <integer>0</integer>
   <key>versionMinor</key>
   <integer>401</integer>
+  <key>woffMetadataCredits</key>
+  <dict>
+    <key>credits</key>
+    <array>
+      <dict>
+        <key>name</key>
+        <string>Dev NLCI</string>
+        <key>role</key>
+        <string>NLCI designers and font engineers</string>
+        <key>url</key>
+        <string>http://www.nlci.in/fonts/</string>
+      </dict>
+    </array>
+  </dict>
+  <key>woffMetadataDescription</key>
+  <dict>
+    <key>text</key>
+    <array>
+      <dict>
+        <key>text</key>
+        <string>Pan Kannada font designed to support all the languages using the Kannada script.</string>
+      </dict>
+    </array>
+    <key>url</key>
+    <string>http://www.nlci.in/fonts/</string>
+  </dict>
   <key>xHeight</key>
   <integer>324</integer>
 </dict>
