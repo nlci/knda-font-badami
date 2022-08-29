@@ -273,7 +273,7 @@ ka.base,uni0C95.base,270,
 ka.imathra,uni0C95.imathra,271,
 ka.sub,uni0C95.sub,272,
 ka.virama,uni0C95.virama,273,
-ka_ssa,uni0C950CB7,274,0C95 0CB7
+ka_ssa,uni0C950CB7,274,0C95_0CB7
 ka_ssa.base,uni0C950CB7.base,275,
 ka_ssa.imathra,uni0C950CB7.imathra,276,
 ka_rvocalicmatra.below,uni0C950CC3.below,277,
@@ -310,7 +310,7 @@ ja.base,uni0C9C.base,307,
 ja.imathra,uni0C9C.imathra,308,
 ja.sub,uni0C9C.sub,309,
 ja.virama,uni0C9C.virama,310,
-ja_nya,uni0C9C0C9E,311,0C9C 0C9E
+ja_nya,uni0C9C0C9E,311,0C9C_0C9E
 ja_nya.base,uni0C9C0C9E.base,312,
 ja_nya.imathra,uni0C9C0C9E.imathra,313,
 jha,uni0C9D,314,0C9D
@@ -378,7 +378,7 @@ na.base,uni0CA8.base,375,
 na.imathra,uni0CA8.imathra,376,
 na.sub,uni0CA8.sub,377,
 na.virama,uni0CA8.virama,378,
-na_virama,uni0CA80CCD,379,0CA8 0CCD
+na_virama,uni0CA80CCD,379,0CA8_0CCD
 pa,uni0CAA,380,0CAA
 pa.base,uni0CAA.base,381,
 pa.imathra,uni0CAA.imathra,382,
