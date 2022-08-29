@@ -9,6 +9,7 @@
     <fontsrc label="Noto Serif">url(../references/NotoSerifKannada-Regular.ttf)</fontsrc>
     <fontsrc label="Noto Sans">url(../references/NotoSansKannada-Regular.ttf)</fontsrc>
     <fontsrc label="Noto Sans UI">url(../references/NotoSansKannadaUI-Regular.ttf)</fontsrc>
+    <fontsrc label="Tiro">url(../references/TiroKannada-Regular.ttf)</fontsrc>
     <fontsrc label="Lohit">url(../references/Lohit-Kannada.ttf)</fontsrc>
     <fontsrc label="Gubbi">url(../references/Gubbi.ttf)</fontsrc>
     <title>Issues</title>
@@ -85,6 +86,35 @@
     </test>
     <test label="without ZWJ (reph)">
       <string>\u0cb0\u0ccd\u0ca4 \u0cb0\u0ccd\u0cb9\u0cca \u0cb0\u0ccd\u0caf\u0cca</string>
+    </test>
+  </testgroup>
+  <testgroup label="indesign">
+    <test label="0">
+      <string>ಛ಼್ಛು</string>
+    </test>
+    <test label="1">
+      <string>ನ್ಜ಼</string>
+    </test>
+    <test label="2">
+      <string>ಜ಼್ಜಾ</string>
+    </test>
+    <test label="3">
+      <string>ಛ಼್ಛೊ</string>
+    </test>
+    <test label="4">
+      <string>ಛ಼್</string>
+    </test>
+    <test label="5">
+      <string>ಜ಼್ಜ</string>
+    </test>
+    <test label="6">
+      <string>ಜ಼್ಜಾ</string>
+    </test>
+    <test label="7">
+      <string>ಛ಼್</string>
+    </test>
+    <test label="8">
+      <string>ಛ಼್ಛು</string>
     </test>
   </testgroup>
   <testgroup label="public">
