@@ -13,23 +13,29 @@
 
 \subsection{Letters}
 
-\proof{ಅಆಇಈಉಊಋಌಎಏಐಒಓಔೠೡ}
-\proof{ಕಖಗಘಙಚಛಜಝಞಟಠಡಢಣತಥದಧನಪಫಬಭಮಯರಱಲಳವಶಷಸಹೞ}
-
+\patterngroup[name="vowels"]{ಅಆಇಈಉಊಋಌಎಏಐಒಓಔೠೡ}
 \patterngroup[name="cons"]{ಕಖಗಘಙಚಛಜಝಞಟಠಡಢಣತಥದಧನಪಫಬಭಮಯರಱಲಳವಶಷಸಹೞ}
-\patterngroup[name="matras"]{ಾಿೀುೂೃೄೆೇೈೊೋೌೢೣ}
-\pattern[chars="C,M",reps="group_cons,group_matras",heading=Cons+Matras]{CM}
+\patterngroup[name="matras"]{ ಾಿೀುೂೃೄೆೇೈೊೋೌೢೣ}
+
+\pattern[chars="V",reps="group_vowels",format="para"]{V}
+\pattern[chars="C",reps="group_cons",format="para"]{C}
+\pattern[chars="M",reps="group_matras",format="para"]{M}
+
+\pattern[chars="M,C",reps="group_matras,group_cons",format="table",heading=Consonant+Matra+Consonant]{CMC}
+\pattern[chars="S,C",reps="group_cons,group_cons",format="table",heading=Consonant+Consonant]{C್S}
+\pattern[chars="S,C",reps="group_cons,group_cons",format="table",heading=Consonant+Nukta+Consonant]{C಼್S}
+\pattern[chars="S,C",reps="group_cons,group_cons",format="table",heading=Ka+Consonant+Consonant]{ಕ್C್S}
 
 \subsection{Digits}
 
-\proof{೦೧೨೩೪೫೬೭೮೯}
 \patterngroup[name="digits"]{೦೧೨೩೪೫೬೭೮೯}
+\pattern[chars="D",reps="group_digits",format="para"]{D}
 \pattern[chars="@",reps="group_digits",format="list"]{@೦@೧@೨@೩@೪@೫@೬@೭@೮@೯}
 
 \subsection{Punctuation}
 
-\proof{!()*,-./:;?[]{}।॥}
-\pattern[chars="@",reps="group_cons",format="list"]{@!@(@)@*@,@-@.@/@:@;@?@[@]@{@}@।@॥}
+\proof{!"#&'()*,-./:;?[]।॥಄‐‑‒–—―‘’‚“”„†‡•…‧‰‹›⌈⌉⌊⌋⸢⸣⸤⸥}
+\pattern[chars="@",reps="group_cons",format="list"]{@!@"@#@&@'@(@)@*@,@-@.@/@:@;@?@[@]@।@॥@಄@‐@‑@‒@–@—@―@‘@’@‚@“@”@„@†@‡@•@…@‧@‹@›⌈@⌉@⌊@⌋@⸢@⸣@⸤@⸥@}
 
 \subsection{Spaces}
 
