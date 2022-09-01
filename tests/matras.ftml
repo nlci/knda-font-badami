@@ -19,7 +19,7 @@
       <string>RenderingUnknown</string>
     </test>
   </testgroup>
-  <testgroup label="Consonants with matras">
+  <testgroup label="Consonant with matras">
     <test label="0C95">
       <comment>ka</comment>
       <string>\u000C95_ \u000C95\u000CBE \u000C95\u000CBF \u000C95\u000CC0 \u000C95\u000CC1 \u000C95\u000CC2 \u000C95\u000CC3 \u000C95\u000CC4 \u000C95\u000CC6 \u000C95\u000CC7 \u000C95\u000CC8 \u000C95\u000CCA \u000C95\u000CCB \u000C95\u000CCC \u000C95\u000CE2 \u000C95\u000CE3 \u000C95\u000CCD</string>
@@ -165,7 +165,7 @@
       <string>\u000CDE_ \u000CDE\u000CBE \u000CDE\u000CBF \u000CDE\u000CC0 \u000CDE\u000CC1 \u000CDE\u000CC2 \u000CDE\u000CC3 \u000CDE\u000CC4 \u000CDE\u000CC6 \u000CDE\u000CC7 \u000CDE\u000CC8 \u000CDE\u000CCA \u000CDE\u000CCB \u000CDE\u000CCC \u000CDE\u000CE2 \u000CDE\u000CE3 \u000CDE\u000CCD</string>
     </test>
   </testgroup>
-  <testgroup label="Consonants with one or two sub forms and a wrap matra">
+  <testgroup label="Consonant with one or two sub forms and a wrap matra">
     <test label="0C95">
       <comment>ka</comment>
       <string>\u000C95\u000CCD\u000C95\u000CC3 \u000C95\u000CCD\u000C95\u000CCD\u000C95\u000CC3 \u000C95\u000CCD\u000C95\u000CC4 \u000C95\u000CCD\u000C95\u000CCD\u000C95\u000CC4 \u000C95\u000CCD\u000C95\u000CD6 \u000C95\u000CCD\u000C95\u000CCD\u000C95\u000CD6</string>

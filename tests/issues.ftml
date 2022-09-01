@@ -2,16 +2,15 @@
 <?xml-stylesheet type="text/xsl" href="../tools/ftml.xsl"?>
 <ftml version="1.0">
   <head>
-    <fontscale>300</fontscale>
+    <fontscale>200</fontscale>
     <fontsrc label="RefGR">url(../references/Badami-Regular.ttf)</fontsrc>
     <fontsrc label="CurGR">url(../results/Badami-Regular.ttf)</fontsrc>
     <fontsrc label="CurOT">url(../results/tests/ftml/fonts/Badami-Regular_ot_knd2.ttf)</fontsrc>
-    <fontsrc label="Noto Serif">url(../references/NotoSerifKannada-Regular.ttf)</fontsrc>
-    <fontsrc label="Noto Sans">url(../references/NotoSansKannada-Regular.ttf)</fontsrc>
-    <fontsrc label="Noto Sans UI">url(../references/NotoSansKannadaUI-Regular.ttf)</fontsrc>
+    <fontsrc label="NotoSerif">url(../references/NotoSerifKannada-Regular.ttf)</fontsrc>
+    <fontsrc label="NotoSans">url(../references/NotoSansKannada-Regular.ttf)</fontsrc>
+    <fontsrc label="NotoSansUI">url(../references/NotoSansKannadaUI-Regular.ttf)</fontsrc>
     <fontsrc label="Tiro">url(../references/TiroKannada-Regular.ttf)</fontsrc>
-    <fontsrc label="Lohit">url(../references/Lohit-Kannada.ttf)</fontsrc>
-    <fontsrc label="Gubbi">url(../references/Gubbi.ttf)</fontsrc>
+    <fontsrc label="Baloo">url(../references/BalooTamma2-Regular.ttf)</fontsrc>
     <title>Issues</title>
   </head>
   <testgroup label="Rendering check">
@@ -121,7 +120,7 @@
     <test label="harfbuzz vs microsoft for double-halant">
       <string>\u0C9A\u0CCD\u0C9A\u0CCD</string>
     </test>
-    <test label="MS Typography 809">
+    <test label="https://github.com/MicrosoftDocs/typography-issues/issues/809">
       <string>\u0cb0\u200d\u0ccd\u0c95\u0ccd</string>
     </test>
   </testgroup>

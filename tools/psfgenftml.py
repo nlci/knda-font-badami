@@ -201,13 +201,13 @@ def doit(args):
                 ftml.closeTest()
 
     if test.lower().startswith("matras"):
-        ftml.startTestGroup('Consonants with matras')
+        ftml.startTestGroup('Consonant with matras')
         for c in consonants:
             for m in matra_like:
                 builder.render((c,m), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
             ftml.closeTest()
 
-        ftml.startTestGroup('Consonants with one or two sub forms and a wrap matra')
+        ftml.startTestGroup('Consonant with one or two sub forms and a wrap matra')
         for c in (ka, ra):
             for wm in wrap_matras:
                 builder.render((c,virama,c,wm), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
@@ -215,16 +215,22 @@ def doit(args):
             ftml.closeTest()
 
     if test.lower().startswith("conjuncts"):
-        ftml.startTestGroup('Consonants with one sub form')
+        ftml.startTestGroup('Consonant with one sub form')
         for c1 in consonants:
             for c2 in consonants:
                 builder.render((c1,virama,c2), ftml, label=f'{c1:04X}', comment=builder.char(c1).basename)
             ftml.closeTest()
 
-        ftml.startTestGroup('Consonants with nukta and one sub form')
+        ftml.startTestGroup('Consonant with nukta and one sub form')
         for c1 in consonants:
             for c2 in consonants:
                 builder.render((c1,nukta,virama,c2), ftml, label=f'{c1:04X}', comment=builder.char(c1).basename)
+            ftml.closeTest()
+
+        ftml.startTestGroup('Consonant with nukta and one sub form and matra')
+        for c in consonants:
+            for m in matras:
+                builder.render((c,nukta,virama,ka,m), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
             ftml.closeTest()
 
         for c0 in (ka, ga, gha, ja):
@@ -235,6 +241,12 @@ def doit(args):
                 for c2 in consonants:
                     builder.render((c0,virama,c1,virama,c2), ftml, label=f'{c1:04X}', comment=builder.char(c1).basename)
                 ftml.closeTest()
+
+        ftml.startTestGroup('Consonant with two sub forms (all with nuktas) and matra')
+        for c in consonants:
+            for m in matras:
+                builder.render((c,nukta,virama,gha,nukta,virama,ja,nukta,m), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+            ftml.closeTest()
 
     if test.lower().startswith("nuktas"):
         ftml.startTestGroup('Vowels')

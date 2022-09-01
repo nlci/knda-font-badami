@@ -27,15 +27,6 @@
 
 \dofile{../tests/udhr-preamble-latin.txt}
 
-\class C {\U{0C95}, \U{0C96}}
-\class M {\U{0CBE}, \U{0CBF}}
-\class V {\U{0CCD}}
-\sizes={6,7,8,9,10}
-\columns=5
-
-\dotext @C@V@C@M
-%the only special character is the @ symbol, @@ will include it
-
 \clearsubs
 
 \columns=2
