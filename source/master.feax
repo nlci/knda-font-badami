@@ -7,7 +7,6 @@ languagesystem knd2 dflt;
 
 @AtomicVowels = [aamatra imatra umatra uumatra rvocalicmatra rrvocalicmatra ematra aumatra];
 
-
 # GSUB
 
 # For debugging the string "RenderingUnknown" will be rendered as "RenderingOpenType"
@@ -188,86 +187,30 @@ feature haln {
     lookup HalantForms;
 } haln;
 
-
 # GPOS
+
+@SubLike = [@c_sub ra.below.ra];
+@Wrap = [rrvocalicmatra rvocalicmatra ailengthmark];
 
 lookup RightSubMove {
   lookupflag 0;
-    pos \rvocalicmatra <50 0 0 0>;
-    pos \rrvocalicmatra <50 0 0 0>;
-    pos \ailengthmark <50 0 0 0>;
+    pos @Wrap <50 0 0 0>;
 } RightSubMove;
 
 lookup SubMove {
   lookupflag 0;
-    pos \ka.sub <-100 0 0 0>;
-    pos \kha.sub <-100 0 0 0>;
-    pos \ga.sub <-100 0 0 0>;
-    pos \gha.sub <-100 0 0 0>;
-    pos \nga.sub <-100 0 0 0>;
-    pos \ca.sub <-100 0 0 0>;
-    pos \cha.sub <-100 0 0 0>;
-    pos \ja.sub <-100 0 0 0>;
-    pos \jha.sub <-100 0 0 0>;
-    pos \nya.sub <-100 0 0 0>;
-    pos \tta.sub <-100 0 0 0>;
-    pos \ttha.sub <-100 0 0 0>;
-    pos \dda.sub <-100 0 0 0>;
-    pos \ddha.sub <-100 0 0 0>;
-    pos \nna.sub <-100 0 0 0>;
-    pos \ta.sub <-100 0 0 0>;
-    pos \tha.sub <-100 0 0 0>;
-    pos \da.sub <-100 0 0 0>;
-    pos \dha.sub <-100 0 0 0>;
-    pos \na.sub <-100 0 0 0>;
-    pos \pa.sub <-100 0 0 0>;
-    pos \pha.sub <-100 0 0 0>;
-    pos \ba.sub <-100 0 0 0>;
-    pos \bha.sub <-100 0 0 0>;
-    pos \ma.sub <-100 0 0 0>;
-    pos \ya.sub <-150 0 0 0>;
-    pos \ra.below.ra <-100 0 0 0>;
-    pos \rra.sub <-100 0 0 0>;
-    pos \la.sub <-100 0 0 0>;
-    pos \lla.sub <-100 0 0 0>;
-    pos \va.sub <-100 0 0 0>;
-    pos \sha.sub <-100 0 0 0>;
-    pos \ssa.sub <-150 75 0 0>;
-    pos \sa.sub <-100 0 0 0>;
-    pos \ha.sub <-100 0 0 0>;
+    pos @SubLike <-100 0 0 0>;
 } SubMove;
 
-lookup blwmBelowBaseMarkinKannadalookup2 {
+lookup SubLeft {
   lookupflag 0;
-    @cc35_match_1 = [\ka.sub \kha.sub \ga.sub \gha.sub \nga.sub \ca.sub \cha.sub
-	\ja.sub \jha.sub \nya.sub \tta.sub \ttha.sub \dda.sub
-	\ddha.sub \nna.sub \ta.sub \tha.sub \da.sub \dha.sub
-	\na.sub \pa.sub \pha.sub \ba.sub \bha.sub \ma.sub
-	\ya.sub \rra.sub \la.sub \lla.sub \va.sub \sha.sub
-	\ssa.sub \sa.sub \ha.sub \ra.below.ra ];
-    @cc35_match_2 = [\rrvocalicmatra \rvocalicmatra \ailengthmark ];
-    @cc35_ahead_1 = [\ka.sub \kha.sub \ga.sub \gha.sub \nga.sub \ca.sub \cha.sub
-	\ja.sub \jha.sub \nya.sub \tta.sub \ttha.sub \dda.sub
-	\ddha.sub \nna.sub \ta.sub \tha.sub \da.sub \dha.sub
-	\na.sub \pa.sub \pha.sub \ba.sub \bha.sub \ma.sub
-	\ya.sub \rra.sub \la.sub \lla.sub \va.sub \sha.sub
-	\ssa.sub \sa.sub \ha.sub \ra.below.ra ];
-    @cc35_ahead_2 = [\rrvocalicmatra \rvocalicmatra \ailengthmark ];
-    pos @cc35_match_1'lookup SubMove  @cc35_ahead_2 ;
-} blwmBelowBaseMarkinKannadalookup2;
+    pos @SubLike' lookup SubMove @Wrap;
+} SubLeft;
 
-lookup blwmBelowBaseMarkinKannadalookup4 {
+lookup WrapRight {
   lookupflag 0;
-    @cc36_match_1 = [\rrvocalicmatra \rvocalicmatra \ailengthmark ];
-    @cc36_back_1 = [\rrvocalicmatra \rvocalicmatra \ailengthmark ];
-    @cc36_back_2 = [\ka.sub \kha.sub \ga.sub \gha.sub \nga.sub \ca.sub \cha.sub
-	\ja.sub \jha.sub \nya.sub \tta.sub \ttha.sub \dda.sub
-	\ddha.sub \nna.sub \ta.sub \tha.sub \da.sub \dha.sub
-	\na.sub \pa.sub \pha.sub \ba.sub \bha.sub \ma.sub
-	\ya.sub \rra.sub \la.sub \lla.sub \va.sub \sha.sub
-	\ssa.sub \sa.sub \ha.sub \ra.below.ra ];
-    pos @cc36_back_2 @cc36_match_1'lookup RightSubMove  ;
-} blwmBelowBaseMarkinKannadalookup4;
+    pos @SubLike @Wrap' lookup RightSubMove;
+} WrapRight;
 
 lookup EMatras {
   lookupflag 0;
@@ -298,14 +241,12 @@ feature blwm {
     lookup SubForms;
     lookup SubSubForms;
       # lookup RightSubMove;
-      lookup blwmBelowBaseMarkinKannadalookup2;
-      lookup blwmBelowBaseMarkinKannadalookup4;
+      lookup SubLeft;
+      lookup WrapRight;
 } blwm;
 
 # GDEF
 
 table GDEF {
   GlyphClassDef @GDEF_bases, , @GDEF_marks, ;
-
-  LigatureCaretByPos \da 726;
 } GDEF;
