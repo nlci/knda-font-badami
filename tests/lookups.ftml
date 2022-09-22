@@ -262,50 +262,50 @@
       <test label="akhn 1 with sub and matra">
         <string>\u0c95\u0ccd\u0cb7\u0ccd\u0ca3\u0cc0</string>
       </test>
-      <test label="sub ligature (ta-ya)">
-        <string>\u0c95\u0ccd\u0ca4\u0ccd\u0caf</string>
-      </test>
-      <test label="sub ligature (ta-ya) with matra">
+      <test label="sub ligature (ta-ya) with iimatra">
         <string>\u0c95\u0ccd\u0ca4\u0ccd\u0caf\u0cc0</string>
       </test>
-      <test label="sub ligature (ta-va)">
-        <string>\u0c95\u0ccd\u0ca4\u0ccd\u0cb5</string>
+      <test label="sub ligature (ta-ya) with wrap matras">
+        <string>\u0c95\u0ccd\u0ca4\u0ccd\u0caf\u0cc3 \u0c95\u0ccd\u0ca4\u0ccd\u0caf\u0cc4 \u0c95\u0ccd\u0ca4\u0ccd\u0caf\u0cc8</string>
       </test>
-      <test label="sub ligature (ta-va) with matra">
+      <test label="sub ligature (ta-va) with iimatra">
         <string>\u0c95\u0ccd\u0ca4\u0ccd\u0cb5\u0cc0</string>
       </test>
-      <test label="sub ligature (sa-ka) with rvocalicmatra">
-        <string>\u0cb8\u0ccd\u0c95\u0cc3</string>
+      <test label="sub ligature (ta-va) with warp matras">
+        <string>\u0c95\u0ccd\u0ca4\u0ccd\u0cb5\u0cc3 \u0c95\u0ccd\u0ca4\u0ccd\u0cb5\u0cc4 \u0c95\u0ccd\u0ca4\u0ccd\u0cb5\u0cc8</string>
       </test>
-      <test label="sub ligature (sa-ta) with rvocalicmatra">
-        <string>\u0cb8\u0ccd\u0ca4\u0cc3</string>
+      <test label="sub ligature (sa-ka and jha-sa-ka) with rvocalicmatra">
+        <string>\u0cb8\u0ccd\u0c95\u0cc3 \u0c9d\u0ccd\u0cb8\u0ccd\u0c95\u0cc3</string>
       </test>
-      <test label="sub ligature (sa-ta) with ailengthmark">
-        <string>\u0cb8\u0ccd\u0ca4\u0cd6</string>
+      <test label="sub ligature (sa-ta and jha-sa-ta) with rvocalicmatra">
+        <string>\u0cb8\u0ccd\u0ca4\u0cc3 \u0c9d\u0ccd\u0cb8\u0ccd\u0ca4\u0cc3</string>
       </test>
-      <test label="sub ligature (sa-ra) with ailengthmark">
-        <string>\u0cb8\u0ccd\u0cb0\u0cd6</string>
+      <test label="sub ligature (sa-ta and jha-sa-ta) with aimatra">
+        <string>\u0cb8\u0ccd\u0ca4\u0cc8 \u0c9d\u0ccd\u0cb8\u0ccd\u0ca4\u0cc8</string>
       </test>
-      <test label="ga sub ga with self, rvocalicmatra, rrvocalicmatra, ailengthmark">
-        <string>\u0c97\u0ccd\u0c97 \u0c97\u0ccd\u0c97\u0cc3 \u0c97\u0ccd\u0c97\u0cc4 \u0c97\u0ccd\u0c97\u0cd6</string>
+      <test label="sub ligature (sa-ra and jha-sa-ra) with aimatra">
+        <string>\u0cb8\u0ccd\u0cb0\u0cc8 \u0c9d\u0ccd\u0cb8\u0ccd\u0cb0\u0cc8</string>
       </test>
-      <test label="ga sub ga sub ga with rvocalicmatra, rrvocalicmatra, ailengthmark">
-        <string>\u0c97\u0ccd\u0c97\u0ccd\u0c97\u0cc3 \u0c97\u0ccd\u0c97\u0ccd\u0c97\u0cc4 \u0c97\u0ccd\u0c97\u0ccd\u0c97\u0cd6</string>
+      <test label="ga sub ga with self, rvocalicmatra, rrvocalicmatra, aimatra">
+        <string>\u0c97\u0ccd\u0c97 \u0c97\u0ccd\u0c97\u0cc3 \u0c97\u0ccd\u0c97\u0cc4 \u0c97\u0ccd\u0c97\u0cc8</string>
       </test>
-      <test label="ya sub ya with self, rvocalicmatra, rrvocalicmatra, ailengthmark">
-        <string>\u0caf\u0ccd\u0caf \u0caf\u0ccd\u0caf\u0cc3 \u0caf\u0ccd\u0caf\u0cc4 \u0caf\u0ccd\u0caf\u0cd6</string>
+      <test label="ga sub ga sub ga with self, with rvocalicmatra, rrvocalicmatra, aimatra">
+        <string>\u0c97\u0ccd\u0c97\u0ccd\u0c97 \u0c97\u0ccd\u0c97\u0ccd\u0c97\u0cc3 \u0c97\u0ccd\u0c97\u0ccd\u0c97\u0cc4 \u0c97\u0ccd\u0c97\u0ccd\u0c97\u0cc8</string>
       </test>
-      <test label="ya sub ya sub ya with rvocalicmatra, rrvocalicmatra, ailengthmark">
-        <string>\u0caf\u0ccd\u0caf\u0ccd\u0caf\u0cc3 \u0caf\u0ccd\u0caf\u0ccd\u0caf\u0cc4 \u0caf\u0ccd\u0caf\u0ccd\u0caf\u0cd6</string>
+      <test label="ya sub ya with self, rvocalicmatra, rrvocalicmatra, aimatra">
+        <string>\u0caf\u0ccd\u0caf \u0caf\u0ccd\u0caf\u0cc3 \u0caf\u0ccd\u0caf\u0cc4 \u0caf\u0ccd\u0caf\u0cc8</string>
       </test>
-      <test label="ssa sub ssa with self, rvocalicmatra, rrvocalicmatra, ailengthmark">
-        <string>\u0cb7\u0ccd\u0cb7 \u0cb7\u0ccd\u0cb7\u0cc3 \u0cb7\u0ccd\u0cb7\u0cc4 \u0cb7\u0ccd\u0cb7\u0cd6</string>
+      <test label="ya sub ya sub ya with self, with rvocalicmatra, rrvocalicmatra, aimatra">
+        <string>\u0caf\u0ccd\u0caf\u0ccd\u0caf \u0caf\u0ccd\u0caf\u0ccd\u0caf\u0cc3 \u0caf\u0ccd\u0caf\u0ccd\u0caf\u0cc4 \u0caf\u0ccd\u0caf\u0ccd\u0caf\u0cc8</string>
       </test>
-      <test label="ssa sub ssa sub ssa with rvocalicmatra, rrvocalicmatra, ailengthmark">
-        <string>\u0cb7\u0ccd\u0cb7\u0ccd\u0cb7\u0cc3 \u0cb7\u0ccd\u0cb7\u0ccd\u0cb7\u0cc4 \u0cb7\u0ccd\u0cb7\u0ccd\u0cb7\u0cd6</string>
+      <test label="ssa sub ssa with self, rvocalicmatra, rrvocalicmatra, aimatra">
+        <string>\u0cb7\u0ccd\u0cb7 \u0cb7\u0ccd\u0cb7\u0cc3 \u0cb7\u0ccd\u0cb7\u0cc4 \u0cb7\u0ccd\u0cb7\u0cc8</string>
       </test>
-      <test label="ra sub ra with self, rvocalicmatra, rrvocalicmatra, ailengthmark">
-        <string>\u0cb0\u0ccd\u0cb0 \u0cb0\u0ccd\u0cb0\u0cc3 \u0cb0\u0ccd\u0cb0\u0cc4 \u0cb0\u0ccd\u0cb0\u0cd6</string>
+      <test label="ssa sub ssa sub ssa with self, with rvocalicmatra, rrvocalicmatra, aimatra">
+        <string>\u0cb7\u0ccd\u0cb7\u0ccd\u0cb7 \u0cb7\u0ccd\u0cb7\u0ccd\u0cb7\u0cc3 \u0cb7\u0ccd\u0cb7\u0ccd\u0cb7\u0cc4 \u0cb7\u0ccd\u0cb7\u0ccd\u0cb7\u0cc8</string>
+      </test>
+      <test label="ra sub ra with self, rvocalicmatra, rrvocalicmatra, aimatra">
+        <string>\u0cb0\u0ccd\u0cb0 \u0cb0\u0ccd\u0cb0\u0cc3 \u0cb0\u0ccd\u0cb0\u0cc4 \u0cb0\u0ccd\u0cb0\u0cc8</string>
       </test>
   </testgroup>
   <testgroup label="psts">

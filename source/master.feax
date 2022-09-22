@@ -189,29 +189,6 @@ feature haln {
 
 # GPOS
 
-@SubLike = [@c_sub ra.below.ra];
-@Wrap = [rrvocalicmatra rvocalicmatra ailengthmark];
-
-lookup RightSubMove {
-  lookupflag 0;
-    pos @Wrap <50 0 0 0>;
-} RightSubMove;
-
-lookup SubMove {
-  lookupflag 0;
-    pos @SubLike <-100 0 0 0>;
-} SubMove;
-
-lookup SubLeft {
-  lookupflag 0;
-    pos @SubLike' lookup SubMove @Wrap;
-} SubLeft;
-
-lookup WrapRight {
-  lookupflag 0;
-    pos @SubLike @Wrap' lookup RightSubMove;
-} WrapRight;
-
 lookup EMatras {
   lookupflag 0;
     pos base @V mark @_V;
@@ -232,6 +209,55 @@ lookup SubSubForms {
     pos mark @S_MarkBase mark @_S;
 } SubSubForms;
 
+# In the next two lookups (AiMove/AiRight) the ailengthmark is shifted
+# to the right. This kerns well with the following base glyph, and also
+# provides a space after the previous sub form.
+
+# The rrvocalicmatra and rvocalicmatra glyphs need the same space after
+# a sub form, but not shifted to the right like the ailengthmark since
+# that would bring them too close to the following base glyph. So we add
+# more advance width to the sub form if followed by rrvocalicmatra/rvocalicmatra.
+
+@SubLike = [@c_sub ra.below.ra];
+
+lookup WrapMatras {
+  lookupflag 0;
+    do
+    # One sub form:
+    # The wrap matras has a negative LSB, which is fine as long as the
+    # previous glyph is not below the baseline.
+    let one_ai = -MINx("ailengthmark");
+    let one_rr = -MINx("rrvocalicmatra") + 50;
+    let one_r = -MINx("rvocalicmatra") + 50;
+
+    for s = @SubLike;
+    # Two sub forms:
+    # The second sub form gets positioned, thus losing its advance width.
+    # So we add the width (not the advance width, as sub forms tend to
+    # under hang the previous glyph).
+    let two_ai = MAXx(s) - MINx(s);
+    let two = two_ai + 50;
+
+    {
+      pos $s $s' $two_ai ailengthmark;
+      pos $s $s' $two rrvocalicmatra;
+      pos $s $s' $two rvocalicmatra;
+      pos $s' $one_ai ailengthmark;
+      pos $s' $one_rr rrvocalicmatra;
+      pos $s' $one_r rvocalicmatra;
+    }
+} WrapMatras;
+
+lookup AiMove {
+  lookupflag 0;
+    pos ailengthmark <50 0 0 0>;
+} AiMove;
+
+lookup AiRight {
+  lookupflag 0;
+    pos @SubLike ailengthmark' lookup AiMove;
+} AiRight;
+
 feature abvm {
     lookup EMatras;
 } abvm;
@@ -240,9 +266,8 @@ feature blwm {
     lookup Nuktas;
     lookup SubForms;
     lookup SubSubForms;
-      # lookup RightSubMove;
-      lookup SubLeft;
-      lookup WrapRight;
+    lookup WrapMatras;
+    lookup AiRight;
 } blwm;
 
 # GDEF
