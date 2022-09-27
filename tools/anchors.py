@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
-from nameslist import *
 from fontParts.world import *
+from palaso.unicode.ucd import get_ucd
 import sys
 
 # Open UFO
@@ -64,7 +64,10 @@ for glyph in font:
             glyph.appendAnchor('_S', (xmin, 0))
 
     # Position nuktas on bases
-    if glyph.unicode in Vowels + Consonants or glyph.name in akhands:
+    character_name = ''
+    if glyph.unicode:
+        character_name = get_ucd(glyph.unicode, 'na')
+    if character_name.startswith('KANNADA LETTER') or glyph.name in akhands:
         glyph.appendAnchor('N', (xcenter, ymin + ycenter))
 
     # Add un-used anchors on matras so they will be classified as marks in OpenType
