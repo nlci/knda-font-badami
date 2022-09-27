@@ -142,6 +142,7 @@ lookup PostBaseSub {
 lookup HalantForms {
   lookupflag IgnoreMarks;
     sub @cno_virama' virama' by @c_virama;
+    sub @cno_virama' zwj' virama' by @c_virama;
     # sub @cno_virama' ra.below virama' by @c_virama;
     # sub @cno_virama' ra.below.subcons virama' by @c_virama;
 } HalantForms;
