@@ -116,6 +116,20 @@
       <string>ಛ಼್ಛು</string>
     </test>
   </testgroup>
+  <testgroup label="review">
+    <test label="sa sub tta aumatra">
+      <string>\u0CB8\u0CCD\u0C9F\u0CCC</string>
+    </test>
+    <test label="sa sub tta halant">
+      <string>\u0CB8\u0CCD\u0C9F\u0CCD</string>
+    </test>
+    <test label="sa sub ra aumatra">
+      <string>\u0CB8\u0CCD\u0CB0\u0CCC</string>
+    </test>
+    <test label="sa sub ra halant">
+      <string>\u0CB8\u0CCD\u0CB0\u0CCD</string>
+    </test>
+  </testgroup>
   <testgroup label="public">
     <test label="harfbuzz vs microsoft for double-halant">
       <string>\u0C9A\u0CCD\u0C9A\u0CCD</string>

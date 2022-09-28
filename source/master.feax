@@ -5,6 +5,7 @@ languagesystem knd2 dflt;
 @Cons = [@cno_sub ra]; # @Akhands
 @SubCons = [@c_sub ra.below];
 
+# Matras that do not have decompositions
 @AtomicVowels = [aamatra imatra umatra uumatra rvocalicmatra rrvocalicmatra ematra aumatra];
 
 # GSUB
@@ -136,16 +137,50 @@ lookup PostBaseSub {
     sub @TakesLargeRaSubCons ra.below' by ra.below.large;
     sub ra ra.below' by ra.below.ra;
     sub ra.imathra ra.below' by ra.below.ra;
+
+    # Non-atomic vowels will be decomposed, and the characters in the resulting
+    # decomposition that are atomic vowels (or were atomic to being with)
+    # will be reordered past sub forms to be next to the consonant they need
+    # to modify.
     sub @AtomicVowels ra.below' by ra.below.ra;
+
+    # The virama does not get reordered (like the vowels above) until the next
+    # lookup. Therefore, we match a different order here.
+    sub ra.below' virama by ra.below.ra;
 } PostBaseSub;
 
-lookup HalantForms {
+lookup RaSub2Halant {
+  lookupflag 0;
+    # sub ra.below by virama;
+    sub ra.below.ra by virama;
+    # sub ra.below.subcons by virama;
+} RaSub2Halant;
+
+lookup Halant2RaSub {
+  lookupflag 0;
+    # sub virama by ra.below;
+    sub virama by ra.below.ra;
+    # sub virama by ra.below.subcons;
+} Halant2RaSub;
+
+lookup HalantSubRaForms {
+  lookupflag 0;
+    # Swap the ra sub form and the virama so the virama is next to the
+    # consonant it needs to modify. Then the next lookup will modify
+    # the consonant for a consonant followed by an atomic vowel or a virama.
+
+    # sub ra.below' lookup RaSub2Halant virama' lookup Halant2RaSub;
+    sub ra.below.ra' lookup RaSub2Halant virama' lookup Halant2RaSub;
+    # sub ra.below.subcons' lookup RaSub2Halant virama' lookup Halant2RaSub;
+} HalantSubRaForms;
+
+lookup HalantBaseForms {
   lookupflag IgnoreMarks;
     sub @cno_virama' virama' by @c_virama;
+
+    # Matches an initial ra that is not turned in a reph.
     sub @cno_virama' zwj' virama' by @c_virama;
-    # sub @cno_virama' ra.below virama' by @c_virama;
-    # sub @cno_virama' ra.below.subcons virama' by @c_virama;
-} HalantForms;
+} HalantBaseForms;
 
 feature ccmp {
     lookup FontCheck;
@@ -185,7 +220,8 @@ feature psts {
 } psts;
 
 feature haln {
-    lookup HalantForms;
+    lookup HalantSubRaForms;
+    lookup HalantBaseForms;
 } haln;
 
 # GPOS
