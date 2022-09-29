@@ -90,8 +90,8 @@ lookup BelowBaseSub {
     # general ligatures
     sub ta.sub ya.sub by ta_ya.below;
     sub ta.sub va.sub by ta_va.below;
-  	sub ka.sub rvocalicmatra by ka_rvocalicmatra.below;
-	  sub ta.sub rvocalicmatra by ta_rvocalicmatra.below;
+    sub ka.sub rvocalicmatra by ka_rvocalicmatra.below;
+    sub ta.sub rvocalicmatra by ta_rvocalicmatra.below;
     sub ta.sub ailengthmark by ta_ailengthmark.below;
     sub ra.below ailengthmark by ra_ailengthmark.below;
     sub sha.imathra ra.below by sha_ra.imathra;
@@ -135,7 +135,13 @@ lookup PostBaseSub {
     sub @SubCons ra.below' by ra.below.subcons;
     sub @Akhands ra.below' by ra.below.subcons;
     sub @TakesLargeRaSubCons ra.below' by ra.below.large;
+
+    # The following will match even if a ZWJ is between the ra and the ra.below
     sub ra ra.below' by ra.below.ra;
+
+    # A ZWNJ has to be explicitly matched
+    sub ra zwnj ra.below' by ra.below.ra;
+
     sub ra.imathra ra.below' by ra.below.ra;
 
     # Non-atomic vowels will be decomposed, and the characters in the resulting
