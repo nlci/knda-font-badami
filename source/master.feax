@@ -161,35 +161,11 @@ lookup PostBaseSub {
     # to modify.
     sub @AtomicMatras ra.below' by ra.below.ra;
 
-    # The virama does not get reordered (like the vowels above) until the next
-    # lookup. Therefore, we match a different order here.
+    # The virama does not get reordered (like the vowels above).
+    # Therefore, we match a different order here.
     sub ra.below' virama by ra.below.ra;
+    sub ra.below' @c_sub virama by ra.below.ra;
 } PostBaseSub;
-
-lookup RaSub2Halant {
-  lookupflag 0;
-    # sub ra.below by virama;
-    sub ra.below.ra by virama;
-    # sub ra.below.subcons by virama;
-} RaSub2Halant;
-
-lookup Halant2RaSub {
-  lookupflag 0;
-    # sub virama by ra.below;
-    sub virama by ra.below.ra;
-    # sub virama by ra.below.subcons;
-} Halant2RaSub;
-
-lookup HalantSubRaForms {
-  lookupflag 0;
-    # Swap the ra sub form and the virama so the virama is next to the
-    # consonant it needs to modify. Then the next lookup will modify
-    # the consonant for a consonant followed by an atomic vowel or a virama.
-
-    # sub ra.below' lookup RaSub2Halant virama' lookup Halant2RaSub;
-    sub ra.below.ra' lookup RaSub2Halant virama' lookup Halant2RaSub;
-    # sub ra.below.subcons' lookup RaSub2Halant virama' lookup Halant2RaSub;
-} HalantSubRaForms;
 
 lookup HalantBaseForms {
   lookupflag IgnoreMarks;
@@ -237,7 +213,6 @@ feature psts {
 } psts;
 
 feature haln {
-    lookup HalantSubRaForms;
     lookup HalantBaseForms;
 } haln;
 

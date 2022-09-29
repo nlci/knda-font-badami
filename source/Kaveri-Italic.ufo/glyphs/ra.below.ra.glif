@@ -2,6 +2,7 @@
 <glyph name="ra.below.ra" format="2">
   <advance width="109"/>
   <anchor x="202" y="-200" name="S"/>
+  <anchor x="0" y="0" name="_M"/>
   <outline>
     <contour>
       <point x="98" y="-59" type="curve"/>

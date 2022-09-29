@@ -71,7 +71,7 @@ for glyph in font:
         glyph.appendAnchor('N', (xcenter, ymin + ycenter))
 
     # Add un-used anchors on matras so they will be classified as marks in OpenType
-    if glyph.name.endswith('matra') or glyph.name == 'lengthmark':
+    if glyph.name.endswith('matra') or glyph.name == 'lengthmark' or glyph.name.startswith('ra.below'):
         glyph.appendAnchor('_M', (0, 0))
 
 # Save UFO
