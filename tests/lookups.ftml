@@ -40,39 +40,153 @@
     </test>
   </testgroup>
   <testgroup label="rphf">
-    <test label="init ra">
-      <string>\u0cb0\u0ccd\u0c95 \u0cb0\u0ccd\u0cde</string>
+    <test label="init ra pha">
+      <string>\u0cb0\u0ccd\u0cab</string>
     </test>
+    <test label="init ra pha aamatra">
+      <string>\u0cb0\u0ccd\u0cab\u0cbe</string>
+    </test>
+    <test label="init ra pha imatra">
+      <string>\u0cb0\u0ccd\u0cab\u0cbf</string>
+    </test>
+    <test label="init ra pha iimatra">
+      <string>\u0cb0\u0ccd\u0cab\u0cc0 \u0cb0\u0ccd\u0cab\u0cbf\u0cd5</string>
+    </test>
+    <test label="init ra pha umatra">
+      <string>\u0cb0\u0ccd\u0cab\u0cc1</string>
+    </test>
+    <test label="init ra pha uumatra">
+      <string>\u0cb0\u0ccd\u0cab\u0cc2</string>
+    </test>
+    <test label="init ra pha rvocalicmatra">
+      <string>\u0cb0\u0ccd\u0cab\u0cc3</string>
+    </test>
+    <test label="init ra pha rrvocalicmatra">
+      <string>\u0cb0\u0ccd\u0cab\u0cc4</string>
+    </test>
+    <test label="init ra pha ematra">
+      <string>\u0cb0\u0ccd\u0cab\u0cc6</string>
+    </test>
+    <test label="init ra pha eematra">
+      <string>\u0cb0\u0ccd\u0cab\u0cc7 \u0cb0\u0ccd\u0cab\u0cc6\u0cd5</string>
+    </test>
+    <test label="init ra pha aimatra">
+      <string>\u0cb0\u0ccd\u0cab\u0cc8 \u0cb0\u0ccd\u0cab\u0cc6\u0cd6</string>
+    </test>
+    <test label="init ra pha omatra">
+      <string>\u0cb0\u0ccd\u0cab\u0cca \u0cb0\u0ccd\u0cab\u0cc6\u0cc2</string>
+    </test>
+    <test label="init ra pha oomatra">
+      <string>\u0cb0\u0ccd\u0cab\u0ccb \u0cb0\u0ccd\u0cab\u0cca\u0cd5 \u0cb0\u0ccd\u0cab\u0cc6\u0cc2\u0cd5</string>
+    </test>
+    <test label="init ra pha aumatra">
+      <string>\u0cb0\u0ccd\u0cab\u0ccc</string>
+    </test>
+    <test label="init ra pha lvocalicmatra">
+      <string>\u0cb0\u0ccd\u0cab\u0ce2</string>
+    </test>
+    <test label="init ra pha llvocalicmatra">
+      <string>\u0cb0\u0ccd\u0cab\u0ce3</string>
+    </test>
+
     <test label="ra sub ra">
       <string>\u0cb0\u0ccd\u0cb0</string>
+    </test>
+    <test label="ra sub ra aamatra">
+      <string>\u0cb0\u0ccd\u0cb0\u0cbe</string>
+    </test>
+    <test label="ra sub ra imatra">
+      <string>\u0cb0\u0ccd\u0cb0\u0cbf</string>
     </test>
     <test label="ra sub ra iimatra">
       <string>\u0cb0\u0ccd\u0cb0\u0cc0 \u0cb0\u0ccd\u0cb0\u0cbf\u0cd5</string>
     </test>
+    <test label="ra sub ra umatra">
+      <string>\u0cb0\u0ccd\u0cb0\u0cc1</string>
+    </test>
     <test label="ra sub ra uumatra">
       <string>\u0cb0\u0ccd\u0cb0\u0cc2</string>
+    </test>
+    <test label="ra sub ra rvocalicmatra">
+      <string>\u0cb0\u0ccd\u0cb0\u0cc3</string>
+    </test>
+    <test label="ra sub ra rrvocalicmatra">
+      <string>\u0cb0\u0ccd\u0cb0\u0cc4</string>
+    </test>
+    <test label="ra sub ra ematra">
+      <string>\u0cb0\u0ccd\u0cb0\u0cc6</string>
+    </test>
+    <test label="ra sub ra eematra">
+      <string>\u0cb0\u0ccd\u0cb0\u0cc7 \u0cb0\u0ccd\u0cb0\u0cc6\u0cd5</string>
     </test>
     <test label="ra sub ra aimatra">
       <string>\u0cb0\u0ccd\u0cb0\u0cc8 \u0cb0\u0ccd\u0cb0\u0cc6\u0cd6</string>
     </test>
+    <test label="ra sub ra omatra">
+      <string>\u0cb0\u0ccd\u0cb0\u0cca \u0cb0\u0ccd\u0cb0\u0cc6\u0cc2</string>
+    </test>
     <test label="ra sub ra oomatra">
       <string>\u0cb0\u0ccd\u0cb0\u0ccb \u0cb0\u0ccd\u0cb0\u0cca\u0cd5 \u0cb0\u0ccd\u0cb0\u0cc6\u0cc2\u0cd5</string>
     </test>
+    <test label="ra sub ra aumatra">
+      <string>\u0cb0\u0ccd\u0cb0\u0ccc</string>
+    </test>
+    <test label="ra sub ra lvocalicmatra">
+      <string>\u0cb0\u0ccd\u0cb0\u0ce2</string>
+    </test>
+    <test label="ra sub ra llvocalicmatra">
+      <string>\u0cb0\u0ccd\u0cb0\u0ce3</string>
+    </test>
+
     <test label="ra sub ra sub ra">
       <string>\u0cb0\u0ccd\u0cb0\u0ccd\u0cb0</string>
+    </test>
+    <test label="ra sub ra sub ra aamatra">
+      <string>\u0cb0\u0ccd\u0cb0\u0ccd\u0cb0\u0cbe</string>
+    </test>
+    <test label="ra sub ra sub ra imatra">
+      <string>\u0cb0\u0ccd\u0cb0\u0ccd\u0cb0\u0cbf</string>
     </test>
     <test label="ra sub ra sub ra iimatra">
       <string>\u0cb0\u0ccd\u0cb0\u0ccd\u0cb0\u0cc0 \u0cb0\u0ccd\u0cb0\u0ccd\u0cb0\u0cbf\u0cd5</string>
     </test>
+    <test label="ra sub ra sub ra umatra">
+      <string>\u0cb0\u0ccd\u0cb0\u0ccd\u0cb0\u0cc1</string>
+    </test>
     <test label="ra sub ra sub ra uumatra">
       <string>\u0cb0\u0ccd\u0cb0\u0ccd\u0cb0\u0cc2</string>
+    </test>
+    <test label="ra sub ra sub ra rvocalicmatra">
+      <string>\u0cb0\u0ccd\u0cb0\u0ccd\u0cb0\u0cc3</string>
+    </test>
+    <test label="ra sub ra sub ra rrvocalicmatra">
+      <string>\u0cb0\u0ccd\u0cb0\u0ccd\u0cb0\u0cc4</string>
+    </test>
+    <test label="ra sub ra sub ra ematra">
+      <string>\u0cb0\u0ccd\u0cb0\u0ccd\u0cb0\u0cc6</string>
+    </test>
+    <test label="ra sub ra sub ra eematra">
+      <string>\u0cb0\u0ccd\u0cb0\u0ccd\u0cb0\u0cc7 \u0cb0\u0ccd\u0cb0\u0ccd\u0cb0\u0cc6\u0cd5</string>
     </test>
     <test label="ra sub ra sub ra aimatra">
       <string>\u0cb0\u0ccd\u0cb0\u0ccd\u0cb0\u0cc8 \u0cb0\u0ccd\u0cb0\u0ccd\u0cb0\u0cc6\u0cd6</string>
     </test>
+    <test label="ra sub ra sub ra omatra">
+      <string>\u0cb0\u0ccd\u0cb0\u0ccd\u0cb0\u0cca \u0cb0\u0ccd\u0cb0\u0ccd\u0cb0\u0cc6\u0cc2</string>
+    </test>
     <test label="ra sub ra sub ra oomatra">
       <string>\u0cb0\u0ccd\u0cb0\u0ccd\u0cb0\u0ccb \u0cb0\u0ccd\u0cb0\u0ccd\u0cb0\u0cca\u0cd5 \u0cb0\u0ccd\u0cb0\u0ccd\u0cb0\u0cc6\u0cc2\u0cd5</string>
     </test>
+    <test label="ra sub ra sub ra aumatra">
+      <string>\u0cb0\u0ccd\u0cb0\u0ccd\u0cb0\u0ccc</string>
+    </test>
+    <test label="ra sub ra sub ra lvocalicmatra">
+      <string>\u0cb0\u0ccd\u0cb0\u0ccd\u0cb0\u0ce2</string>
+    </test>
+    <test label="ra sub ra sub ra llvocalicmatra">
+      <string>\u0cb0\u0ccd\u0cb0\u0ccd\u0cb0\u0ce3</string>
+    </test>
+
     <test label="ra-halant-ka-halant-kha">
       <string>\u0cb0\u0ccd\u0c95\u0ccd\u0c96</string>
     </test>

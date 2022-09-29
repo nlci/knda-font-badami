@@ -5,9 +5,6 @@ languagesystem knd2 dflt;
 @Cons = [@cno_sub ra]; # @Akhands
 @SubCons = [@c_sub ra.below];
 
-# Matras that do not have decompositions
-@AtomicVowels = [aamatra imatra umatra uumatra rvocalicmatra rrvocalicmatra ematra aumatra];
-
 # GSUB
 
 # For debugging the string "RenderingUnknown" will be rendered as "RenderingOpenType"
@@ -78,14 +75,7 @@ lookup ImatraLigature {
     sub @cno_imathra imatra by @c_imathra;
 } ImatraLigature;
 
-lookup BelowBaseSubForRa {
-  lookupflag 0;
-    ignore sub ra.below ailengthmark' shortrr';
-    # undo reph formation in the following case
-    sub ailengthmark' shortrr' by ra_ailengthmark.below;
-} BelowBaseSubForRa;
-
-lookup BelowBaseSub {
+lookup SubLigatures {
   lookupflag 0;
     # general ligatures
     sub ta.sub ya.sub by ta_ya.below;
@@ -95,20 +85,38 @@ lookup BelowBaseSub {
     sub ta.sub ailengthmark by ta_ailengthmark.below;
     sub ra.below ailengthmark by ra_ailengthmark.below;
     sub sha.imathra ra.below by sha_ra.imathra;
-} BelowBaseSub;
+} SubLigatures;
 
 lookup Reph2RaSub {
   lookupflag 0;
     sub shortrr by ra.below;
 } Reph2RaSub;
 
-lookup MoreRaSub {
-  lookupflag IgnoreMarks;
-    # undo reph formation in some cases
-    @RaLike = [ra ra.imathra ra.base @AtomicVowels];
-    ignore sub ra.below @RaLike shortrr';
-    sub @RaLike shortrr' lookup Reph2RaSub;
-} MoreRaSub;
+lookup UndoReph {
+  lookupflag 0;
+    # undo reph formation for ra sub ra, maybe followed by a matra
+    sub ra shortrr' lookup Reph2RaSub;
+    sub ra.base aamatra shortrr' lookup Reph2RaSub;
+    sub ra.imathra shortrr' lookup Reph2RaSub; # imatra
+    sub ra.imathra lengthmark shortrr' lookup Reph2RaSub; # iimatra
+    sub ra umatra shortrr' lookup Reph2RaSub;
+    sub ra uumatra shortrr' lookup Reph2RaSub;
+    sub ra rvocalicmatra shortrr' lookup Reph2RaSub;
+    sub ra rrvocalicmatra shortrr' lookup Reph2RaSub;
+    sub ra.base ematra shortrr' lookup Reph2RaSub;
+    sub ra.base ematra lengthmark shortrr' lookup Reph2RaSub; # eematra
+    sub ra.base ematra ailengthmark shortrr' lookup Reph2RaSub; # aimatra
+    sub ra.base ematra uumatra shortrr' lookup Reph2RaSub; # omatra
+    sub ra.base ematra uumatra lengthmark shortrr' lookup Reph2RaSub; # oomatra
+    sub ra.base aumatra shortrr' lookup Reph2RaSub; # aumatra
+    sub ra lvocalicmatra shortrr' lookup Reph2RaSub;
+    sub ra llvocalicmatra shortrr' lookup Reph2RaSub;
+} UndoReph;
+
+lookup SubLigature {
+  lookupflag 0;
+    sub ailengthmark ra.below by ra_ailengthmark.below;
+} SubLigature;
 
 lookup Length2RaSub {
   lookupflag 0;
@@ -144,11 +152,14 @@ lookup PostBaseSub {
 
     sub ra.imathra ra.below' by ra.below.ra;
 
+    # Matras that do not have decompositions
+    @AtomicMatras = [aamatra imatra umatra uumatra rvocalicmatra rrvocalicmatra ematra aumatra lvocalicmatra llvocalicmatra];
+
     # Non-atomic vowels will be decomposed, and the characters in the resulting
     # decomposition that are atomic vowels (or were atomic to being with)
     # will be reordered past sub forms to be next to the consonant they need
     # to modify.
-    sub @AtomicVowels ra.below' by ra.below.ra;
+    sub @AtomicMatras ra.below' by ra.below.ra;
 
     # The virama does not get reordered (like the vowels above) until the next
     # lookup. Therefore, we match a different order here.
@@ -215,12 +226,12 @@ feature abvs {
 } abvs;
 
 feature blws {
-    lookup BelowBaseSubForRa;
-    lookup BelowBaseSub;
+    lookup SubLigatures;
 } blws;
 
 feature psts {
-    lookup MoreRaSub;
+    lookup UndoReph;
+    lookup SubLigature;
     lookup SwapLengthAndRaSub;
     lookup PostBaseSub;
 } psts;
