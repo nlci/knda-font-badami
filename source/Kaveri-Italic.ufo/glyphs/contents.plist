@@ -216,6 +216,8 @@
   <string>anudatta.glif</string>
   <key>anusvara</key>
   <string>anusvara.glif</string>
+  <key>anusvaracomb</key>
+  <string>anusvaracomb.glif</string>
   <key>approxequal</key>
   <string>approxequal.glif</string>
   <key>aring</key>
@@ -786,8 +788,8 @@
   <string>na.sub.glif</string>
   <key>na.virama</key>
   <string>na.virama.glif</string>
-  <key>na_virama</key>
-  <string>na_virama.glif</string>
+  <key>nakaarapollu</key>
+  <string>nakaarapollu.glif</string>
   <key>nbhyphen</key>
   <string>nbhyphen.glif</string>
   <key>nbspace</key>
