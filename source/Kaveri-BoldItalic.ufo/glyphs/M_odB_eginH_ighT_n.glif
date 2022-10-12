@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ModBeginHighTn" format="2">
-  <advance width="220"/>
+  <advance width="219"/>
   <outline>
     <contour>
-      <point x="17" y="432" type="line"/>
-      <point x="17" y="204" type="line"/>
-      <point x="47" y="204" type="line"/>
-      <point x="47" y="402" type="line"/>
-      <point x="202" y="402" type="line"/>
-      <point x="202" y="432" type="line"/>
+      <point x="17" y="509" type="line"/>
+      <point x="17" y="280" type="line"/>
+      <point x="52" y="280" type="line"/>
+      <point x="52" y="474" type="line"/>
+      <point x="202" y="474" type="line"/>
+      <point x="202" y="509" type="line"/>
     </contour>
   </outline>
 </glyph>
