@@ -1,8 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="parenrightsuperior" format="2">
-  <advance width="193"/>
+  <advance width="189"/>
   <unicode hex="207E"/>
   <outline>
-    <component base="RtParen" xScale="0.65" yScale="0.6" xOffset="40" yOffset="287"/>
+    <contour>
+      <point x="162" y="567" type="line"/>
+      <point x="190" y="538"/>
+      <point x="202" y="497"/>
+      <point x="202" y="451" type="curve" smooth="yes"/>
+      <point x="202" y="425"/>
+      <point x="198" y="398"/>
+      <point x="190" y="371" type="curve" smooth="yes"/>
+      <point x="170" y="294"/>
+      <point x="129" y="235"/>
+      <point x="58" y="178" type="curve"/>
+      <point x="72" y="146" type="line"/>
+      <point x="157" y="209"/>
+      <point x="213" y="281"/>
+      <point x="237" y="371" type="curve" smooth="yes"/>
+      <point x="245" y="400"/>
+      <point x="248" y="428"/>
+      <point x="248" y="454" type="curve" smooth="yes"/>
+      <point x="248" y="517"/>
+      <point x="227" y="570"/>
+      <point x="190" y="601" type="curve"/>
+    </contour>
   </outline>
 </glyph>
