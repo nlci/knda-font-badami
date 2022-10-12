@@ -12,7 +12,7 @@ fi
 
 # configure tests
 tests="AllChars Proof Diac Matras Conjuncts Nuktas"
-urls='url(../references/Badami-Regular.ttf)=RefGR url(../results/Badami-Regular.ttf)=CurGR url(../results/tests/ftml/fonts/Badami-Regular_ot_knd2.ttf)=CurOT url(../references/NotoSerifKannada-Regular.ttf)=NotoSerif url(../references/NotoSansKannada-Regular.ttf)=NotoSans url(../references/NotoSansKannadaUI-Regular.ttf)=NotoSansUI url(../references/TiroKannada-Regular.ttf)=Tiro url(../references/BalooTamma2-Regular.ttf)=Baloo'
+urls='url(../references/Badami-Regular.ttf)=refR url(../results/Badami-Regular.ttf)=R url(../references/NotoSerifKannada-Regular.ttf)=NotoSerif url(../references/NotoSansKannada-Regular.ttf)=NotoSans url(../references/NotoSansKannadaUI-Regular.ttf)=NotoSansUI url(../references/TiroKannada-Regular.ttf)=Tiro url(../references/BalooTamma2-Regular.ttf)=Baloo'
 ufo='source/Badami-Regular.ufo'
 
 # list all the fonts to test

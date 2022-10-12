@@ -27,6 +27,9 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
+dd Oct 2022 (Dev NLCI) NLCI Kannada fonts version 0.500
+- Improved handling of sub forms and reph
+- Removed Graphite shaping
 08 Mar 2022 (Dev NLCI) NLCI Kannada fonts version 0.400
 - Allow virama (acting as a vowel) to come before a length mark
 - Corrected contour directions
