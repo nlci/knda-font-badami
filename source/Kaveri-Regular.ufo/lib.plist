@@ -153,7 +153,7 @@
     <string>dieresis</string>
     <string>copyright</string>
     <string>ordfeminine</string>
-    <string>guillemotleft</string>
+    <string>guillemetleft</string>
     <string>logicalnot</string>
     <string>softhyphen</string>
     <string>registered</string>
@@ -170,7 +170,7 @@
     <string>cedilla</string>
     <string>onesuperior</string>
     <string>ordmasculine</string>
-    <string>guillemotright</string>
+    <string>guillemetright</string>
     <string>onequarter</string>
     <string>onehalf</string>
     <string>threequarters</string>
@@ -248,19 +248,30 @@
     <string>Zcaron</string>
     <string>zcaron</string>
     <string>florin</string>
-    <string>glottalstopsmall</string>
-    <string>glottalstop</string>
-    <string>apostrophemod</string>
-    <string>glottalstopmod</string>
     <string>circumflex</string>
     <string>caron</string>
-    <string>colontriangularmod</string>
     <string>breve</string>
     <string>dotaccent</string>
     <string>ring</string>
     <string>ogonek</string>
     <string>tilde</string>
     <string>hungarumlaut</string>
+    <string>gravecomb</string>
+    <string>gravecomb.case</string>
+    <string>acutecomb</string>
+    <string>acutecomb.case</string>
+    <string>circumflexcomb</string>
+    <string>circumflexcomb.case</string>
+    <string>tildecomb</string>
+    <string>tildecomb.case</string>
+    <string>dieresiscomb</string>
+    <string>dieresiscomb.case</string>
+    <string>ringcomb</string>
+    <string>ringcomb.case</string>
+    <string>caroncomb</string>
+    <string>caroncomb.case</string>
+    <string>cedillacomb</string>
+    <string>cedillacomb.case</string>
     <string>cgj</string>
     <string>Omegagreek</string>
     <string>pi</string>
@@ -592,9 +603,9 @@
     <string>hyphensuperior</string>
     <string>parenleftsuperior</string>
     <string>parenrightsuperior</string>
-    <string>rs</string>
+    <string>rupee</string>
     <string>Euro</string>
-    <string>inr</string>
+    <string>inrupee</string>
     <string>trademark</string>
     <string>Ohm</string>
     <string>partialdiff</string>
@@ -627,7 +638,6 @@
     <string>halfbracketrighttop</string>
     <string>halfbracketleftbottom</string>
     <string>halfbracketrightbottom</string>
-    <string>saltillo</string>
     <string>sidebearingleft</string>
     <string>sidebearingright</string>
     <string>fi</string>
@@ -659,26 +669,10 @@
     <string>ModEndHighTn</string>
     <string>ModEndLowTn</string>
     <string>RtParen</string>
-    <string>acutecomb</string>
-    <string>acutecomb.case</string>
-    <string>caroncomb</string>
-    <string>caroncomb.case</string>
-    <string>cedillacomb</string>
-    <string>cedillacomb.case</string>
-    <string>circumflexcomb</string>
-    <string>circumflexcomb.case</string>
-    <string>dieresiscomb</string>
-    <string>dieresiscomb.case</string>
     <string>fourinferior</string>
-    <string>gravecomb</string>
-    <string>gravecomb.case</string>
     <string>inherent</string>
     <string>jdotless</string>
-    <string>ringcomb</string>
-    <string>ringcomb.case</string>
     <string>shortrr</string>
-    <string>tildecomb</string>
-    <string>tildecomb.case</string>
     <string>twoinferior</string>
     <string>widebase</string>
     <string>xmatra</string>
@@ -737,8 +731,6 @@
     <string>uni0952</string>
     <key>anusvara</key>
     <string>uni0C82</string>
-    <key>apostrophemod</key>
-    <string>uni02BC</string>
     <key>aumatra</key>
     <string>uni0CCC</string>
     <key>auvowel</key>
@@ -781,6 +773,14 @@
     <string>uni0C9A.virama</string>
     <key>candrabindu</key>
     <string>uni0C81</string>
+    <key>caroncomb</key>
+    <string>uni030C</string>
+    <key>caroncomb.case</key>
+    <string>uni030C.case</string>
+    <key>cedillacomb</key>
+    <string>uni0327</string>
+    <key>cedillacomb.case</key>
+    <string>uni0327.case</string>
     <key>ceilingleft</key>
     <string>uni2308</string>
     <key>ceilingright</key>
@@ -797,8 +797,10 @@
     <string>uni0C9B.sub</string>
     <key>cha.virama</key>
     <string>uni0C9B.virama</string>
-    <key>colontriangularmod</key>
-    <string>uni02D0</string>
+    <key>circumflexcomb</key>
+    <string>uni0302</string>
+    <key>circumflexcomb.case</key>
+    <string>uni0302.case</string>
     <key>cornerleftbottom</key>
     <string>uni231E</string>
     <key>cornerlefttop</key>
@@ -851,6 +853,10 @@
     <string>uni0CA7.sub</string>
     <key>dha.virama</key>
     <string>uni0CA7.virama</string>
+    <key>dieresiscomb</key>
+    <string>uni0308</string>
+    <key>dieresiscomb.case</key>
+    <string>uni0308.case</string>
     <key>divisionslash</key>
     <string>uni2215</string>
     <key>dottedcircle</key>
@@ -929,14 +935,12 @@
     <string>uni0C98.sub</string>
     <key>gha.virama</key>
     <string>uni0C98.virama</string>
-    <key>glottalstop</key>
-    <string>uni0294</string>
-    <key>glottalstopmod</key>
-    <string>uni02C0</string>
-    <key>glottalstopsmall</key>
-    <string>uni0242</string>
     <key>gravedeva</key>
     <string>uni0953</string>
+    <key>guillemetleft</key>
+    <string>guillemotleft</string>
+    <key>guillemetright</key>
+    <string>guillemotright</string>
     <key>ha</key>
     <string>uni0CB9</string>
     <key>ha.base</key>
@@ -971,7 +975,7 @@
     <string>uni0C88</string>
     <key>imatra</key>
     <string>uni0CBF</string>
-    <key>inr</key>
+    <key>inrupee</key>
     <string>uni20B9</string>
     <key>ivowel</key>
     <string>uni0C87</string>
@@ -1209,6 +1213,10 @@
     <string>uni0CB00CD6.below</string>
     <key>replacementCharacter</key>
     <string>uniFFFD</string>
+    <key>ringcomb</key>
+    <string>uni030A</string>
+    <key>ringcomb.case</key>
+    <string>uni030A.case</string>
     <key>rra</key>
     <string>uni0CB1</string>
     <key>rra.imathra</key>
@@ -1221,7 +1229,7 @@
     <string>uni0CC4</string>
     <key>rrvocalicvowel</key>
     <string>uni0CE0</string>
-    <key>rs</key>
+    <key>rupee</key>
     <string>uni20A8</string>
     <key>rvocalicmatra</key>
     <string>uni0CC3</string>
@@ -1239,8 +1247,6 @@
     <string>uni0CB8.sub</string>
     <key>sa.virama</key>
     <string>uni0CB8.virama</string>
-    <key>saltillo</key>
-    <string>uniA78C</string>
     <key>sevenknda</key>
     <string>uni0CED</string>
     <key>sevensuperior</key>

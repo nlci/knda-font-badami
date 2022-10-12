@@ -220,8 +220,6 @@
   <string>anudatta.glif</string>
   <key>anusvara</key>
   <string>anusvara.glif</string>
-  <key>apostrophemod</key>
-  <string>apostrophemod.glif</string>
   <key>approxequal</key>
   <string>approxequal.glif</string>
   <key>aring</key>
@@ -342,8 +340,6 @@
   <string>colon.glif</string>
   <key>colon.knda</key>
   <string>colon.knda.glif</string>
-  <key>colontriangularmod</key>
-  <string>colontriangularmod.glif</string>
   <key>comma</key>
   <string>comma.glif</string>
   <key>comma.knda</key>
@@ -558,12 +554,6 @@
   <string>gha.sub.glif</string>
   <key>gha.virama</key>
   <string>gha.virama.glif</string>
-  <key>glottalstop</key>
-  <string>glottalstop.glif</string>
-  <key>glottalstopmod</key>
-  <string>glottalstopmod.glif</string>
-  <key>glottalstopsmall</key>
-  <string>glottalstopsmall.glif</string>
   <key>grave</key>
   <string>grave.glif</string>
   <key>gravecomb</key>
@@ -576,10 +566,10 @@
   <string>greater.glif</string>
   <key>greaterequal</key>
   <string>greaterequal.glif</string>
-  <key>guillemotleft</key>
-  <string>guillemotleft.glif</string>
-  <key>guillemotright</key>
-  <string>guillemotright.glif</string>
+  <key>guillemetleft</key>
+  <string>guillemetleft.glif</string>
+  <key>guillemetright</key>
+  <string>guillemetright.glif</string>
   <key>guilsinglleft</key>
   <string>guilsinglleft.glif</string>
   <key>guilsinglright</key>
@@ -640,8 +630,8 @@
   <string>infinity.glif</string>
   <key>inherent</key>
   <string>inherent.glif</string>
-  <key>inr</key>
-  <string>inr.glif</string>
+  <key>inrupee</key>
+  <string>inrupee.glif</string>
   <key>integral</key>
   <string>integral.glif</string>
   <key>ivowel</key>
@@ -1044,8 +1034,8 @@
   <string>rrvocalicmatra.glif</string>
   <key>rrvocalicvowel</key>
   <string>rrvocalicvowel.glif</string>
-  <key>rs</key>
-  <string>rs.glif</string>
+  <key>rupee</key>
+  <string>rupee.glif</string>
   <key>rvocalicmatra</key>
   <string>rvocalicmatra.glif</string>
   <key>rvocalicvowel</key>
@@ -1064,8 +1054,6 @@
   <string>sa.sub.glif</string>
   <key>sa.virama</key>
   <string>sa.virama.glif</string>
-  <key>saltillo</key>
-  <string>saltillo.glif</string>
   <key>scaron</key>
   <string>scaron.glif</string>
   <key>section</key>
