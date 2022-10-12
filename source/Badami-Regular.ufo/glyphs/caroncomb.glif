@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombCaron" format="2">
+<glyph name="caroncomb" format="2">
+  <unicode hex="030C"/>
   <outline>
     <contour>
       <point x="-161" y="371" type="line"/>
