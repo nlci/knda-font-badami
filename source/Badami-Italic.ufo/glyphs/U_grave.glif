@@ -4,6 +4,6 @@
   <unicode hex="00D9"/>
   <outline>
     <component base="U"/>
-    <component base="CombGrave.LP" xOffset="364" yOffset="111"/>
+    <component base="gravecomb.cap" xOffset="364" yOffset="111"/>
   </outline>
 </glyph>

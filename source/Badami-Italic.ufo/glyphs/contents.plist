@@ -28,34 +28,6 @@
   <string>C_.glif</string>
   <key>Ccedilla</key>
   <string>C_cedilla.glif</string>
-  <key>CombAcute</key>
-  <string>C_ombA_cute.glif</string>
-  <key>CombAcute.LP</key>
-  <string>C_ombA_cute.L_P_.glif</string>
-  <key>CombCaron</key>
-  <string>C_ombC_aron.glif</string>
-  <key>CombCaron.LP</key>
-  <string>C_ombC_aron.L_P_.glif</string>
-  <key>CombCedilla</key>
-  <string>C_ombC_edilla.glif</string>
-  <key>CombCircum</key>
-  <string>C_ombC_ircum.glif</string>
-  <key>CombCircum.LP</key>
-  <string>C_ombC_ircum.L_P_.glif</string>
-  <key>CombDiaer</key>
-  <string>C_ombD_iaer.glif</string>
-  <key>CombDiaer.LP</key>
-  <string>C_ombD_iaer.L_P_.glif</string>
-  <key>CombGrave</key>
-  <string>C_ombG_rave.glif</string>
-  <key>CombGrave.LP</key>
-  <string>C_ombG_rave.L_P_.glif</string>
-  <key>CombRingAbv</key>
-  <string>C_ombR_ingA_bv.glif</string>
-  <key>CombTilde</key>
-  <string>C_ombT_ilde.glif</string>
-  <key>CombTilde.LP</key>
-  <string>C_ombT_ilde.L_P_.glif</string>
   <key>D</key>
   <string>D_.glif</string>
   <key>Delta</key>
@@ -78,8 +50,6 @@
   <string>F_.glif</string>
   <key>G</key>
   <string>G_.glif</string>
-  <key>GrCapDelta</key>
-  <string>G_rC_apD_elta.glif</string>
   <key>GrCapPi</key>
   <string>G_rC_apP_i.glif</string>
   <key>H</key>
@@ -220,6 +190,10 @@
   <string>acircumflex.glif</string>
   <key>acute</key>
   <string>acute.glif</string>
+  <key>acutecomb</key>
+  <string>acutecomb.glif</string>
+  <key>acutecomb.cap</key>
+  <string>acutecomb.cap.glif</string>
   <key>acutedeva</key>
   <string>acutedeva.glif</string>
   <key>adieresis</key>
@@ -240,8 +214,6 @@
   <string>anudatta.glif</string>
   <key>anusvara</key>
   <string>anusvara.glif</string>
-  <key>apostrophemod</key>
-  <string>apostrophemod.glif</string>
   <key>approxequal</key>
   <string>approxequal.glif</string>
   <key>aring</key>
@@ -322,10 +294,16 @@
   <string>candrabindu.glif</string>
   <key>caron</key>
   <string>caron.glif</string>
+  <key>caroncomb</key>
+  <string>caroncomb.glif</string>
+  <key>caroncomb.cap</key>
+  <string>caroncomb.cap.glif</string>
   <key>ccedilla</key>
   <string>ccedilla.glif</string>
   <key>cedilla</key>
   <string>cedilla.glif</string>
+  <key>cedillacomb</key>
+  <string>cedillacomb.glif</string>
   <key>ceilingleft</key>
   <string>ceilingleft.glif</string>
   <key>ceilingright</key>
@@ -346,12 +324,14 @@
   <string>cha.virama.glif</string>
   <key>circumflex</key>
   <string>circumflex.glif</string>
+  <key>circumflexcomb</key>
+  <string>circumflexcomb.glif</string>
+  <key>circumflexcomb.cap</key>
+  <string>circumflexcomb.cap.glif</string>
   <key>colon</key>
   <string>colon.glif</string>
   <key>colon.knda</key>
   <string>colon.knda.glif</string>
-  <key>colontriangularmod</key>
-  <string>colontriangularmod.glif</string>
   <key>comma</key>
   <string>comma.glif</string>
   <key>comma.knda</key>
@@ -422,6 +402,10 @@
   <string>dha.virama.glif</string>
   <key>dieresis</key>
   <string>dieresis.glif</string>
+  <key>dieresiscomb</key>
+  <string>dieresiscomb.glif</string>
+  <key>dieresiscomb.cap</key>
+  <string>dieresiscomb.cap.glif</string>
   <key>divide</key>
   <string>divide.glif</string>
   <key>divisionslash</key>
@@ -558,24 +542,22 @@
   <string>gha.sub.glif</string>
   <key>gha.virama</key>
   <string>gha.virama.glif</string>
-  <key>glottalstop</key>
-  <string>glottalstop.glif</string>
-  <key>glottalstopmod</key>
-  <string>glottalstopmod.glif</string>
-  <key>glottalstopsmall</key>
-  <string>glottalstopsmall.glif</string>
   <key>grave</key>
   <string>grave.glif</string>
+  <key>gravecomb</key>
+  <string>gravecomb.glif</string>
+  <key>gravecomb.cap</key>
+  <string>gravecomb.cap.glif</string>
   <key>gravedeva</key>
   <string>gravedeva.glif</string>
   <key>greater</key>
   <string>greater.glif</string>
   <key>greaterequal</key>
   <string>greaterequal.glif</string>
-  <key>guillemotleft</key>
-  <string>guillemotleft.glif</string>
-  <key>guillemotright</key>
-  <string>guillemotright.glif</string>
+  <key>guillemetleft</key>
+  <string>guillemetleft.glif</string>
+  <key>guillemetright</key>
+  <string>guillemetright.glif</string>
   <key>guilsinglleft</key>
   <string>guilsinglleft.glif</string>
   <key>guilsinglright</key>
@@ -636,8 +618,8 @@
   <string>infinity.glif</string>
   <key>inherent</key>
   <string>inherent.glif</string>
-  <key>inr</key>
-  <string>inr.glif</string>
+  <key>inrupee</key>
+  <string>inrupee.glif</string>
   <key>integral</key>
   <string>integral.glif</string>
   <key>ivowel</key>
@@ -1016,6 +998,8 @@
   <string>replacementC_haracter.glif</string>
   <key>ring</key>
   <string>ring.glif</string>
+  <key>ringcomb</key>
+  <string>ringcomb.glif</string>
   <key>rra</key>
   <string>rra.glif</string>
   <key>rra.imathra</key>
@@ -1028,8 +1012,8 @@
   <string>rrvocalicmatra.glif</string>
   <key>rrvocalicvowel</key>
   <string>rrvocalicvowel.glif</string>
-  <key>rs</key>
-  <string>rs.glif</string>
+  <key>rupee</key>
+  <string>rupee.glif</string>
   <key>rvocalicmatra</key>
   <string>rvocalicmatra.glif</string>
   <key>rvocalicvowel</key>
@@ -1048,8 +1032,6 @@
   <string>sa.sub.glif</string>
   <key>sa.virama</key>
   <string>sa.virama.glif</string>
-  <key>saltillo</key>
-  <string>saltillo.glif</string>
   <key>scaron</key>
   <string>scaron.glif</string>
   <key>section</key>
@@ -1170,6 +1152,10 @@
   <string>threesuperior.glif</string>
   <key>tilde</key>
   <string>tilde.glif</string>
+  <key>tildecomb</key>
+  <string>tildecomb.glif</string>
+  <key>tildecomb.cap</key>
+  <string>tildecomb.cap.glif</string>
   <key>trademark</key>
   <string>trademark.glif</string>
   <key>tta</key>
