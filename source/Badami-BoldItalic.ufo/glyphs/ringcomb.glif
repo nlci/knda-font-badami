@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="CombRingAbv" format="2">
+<glyph name="ringcomb" format="2">
+  <unicode hex="030A"/>
   <outline>
     <contour>
       <point x="-51" y="454" type="curve"/>
