@@ -404,7 +404,6 @@
     <string>na.imathra</string>
     <string>na.sub</string>
     <string>na.virama</string>
-    <string>na_virama</string>
     <string>pa</string>
     <string>pa.base</string>
     <string>pa.imathra</string>
@@ -513,6 +512,7 @@
     <string>virama</string>
     <string>lengthmark</string>
     <string>ailengthmark</string>
+    <string>nakaarapollu</string>
     <string>fa</string>
     <string>fa.imathra</string>
     <string>fa.sub</string>
@@ -535,6 +535,7 @@
     <string>nineknda</string>
     <string>jihvamuliya</string>
     <string>upadhmaniya</string>
+    <string>anusvaracomb</string>
     <string>doublesvarita</string>
     <string>vedictonekathakaanudatta</string>
     <string>vedictonedotbelow</string>
@@ -717,6 +718,8 @@
     <string>uni0952</string>
     <key>anusvara</key>
     <string>uni0C82</string>
+    <key>anusvaracomb</key>
+    <string>uni0CF3</string>
     <key>aumatra</key>
     <string>uni0CCC</string>
     <key>auvowel</key>
@@ -1087,8 +1090,8 @@
     <string>uni0CA8.sub</string>
     <key>na.virama</key>
     <string>uni0CA8.virama</string>
-    <key>na_virama</key>
-    <string>uni0CA80CCD</string>
+    <key>nakaarapollu</key>
+    <string>uni0CDD</string>
     <key>nbhyphen</key>
     <string>uni2011</string>
     <key>nbspace</key>
