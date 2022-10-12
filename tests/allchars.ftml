@@ -51,33 +51,33 @@
       <comment>florin</comment>
       <string>\u000192</string>
     </test>
-    <test label="U+0242">
-      <comment>glottalstopsmall</comment>
-      <string>\u000242</string>
-    </test>
-    <test label="U+0294">
-      <comment>glottalstop</comment>
-      <string>\u000294</string>
-    </test>
-    <test label="U+02BC">
-      <comment>apostrophemod</comment>
-      <string>\u0002BC</string>
-    </test>
-    <test label="U+02C0">
-      <comment>glottalstopmod</comment>
-      <string>\u0002C0</string>
-    </test>
     <test label="U+02C6">
       <comment>circumflex</comment>
       <string>\u0002C6 \u0002C7</string>
     </test>
-    <test label="U+02D0">
-      <comment>colontriangularmod</comment>
-      <string>\u0002D0</string>
-    </test>
     <test label="U+02D8">
       <comment>breve</comment>
       <string>\u0002D8 \u0002D9 \u0002DA \u0002DB \u0002DC \u0002DD</string>
+    </test>
+    <test label="U+0300">
+      <comment>gravecomb</comment>
+      <string>\u000C95\u000300 \u000C95\u000301 \u000C95\u000302 \u000C95\u000303</string>
+    </test>
+    <test label="U+0308">
+      <comment>dieresiscomb</comment>
+      <string>\u000C95\u000308</string>
+    </test>
+    <test label="U+030A">
+      <comment>ringcomb</comment>
+      <string>\u000C95\u00030A</string>
+    </test>
+    <test label="U+030C">
+      <comment>caroncomb</comment>
+      <string>\u000C95\u00030C</string>
+    </test>
+    <test label="U+0327">
+      <comment>cedillacomb</comment>
+      <string>\u000C95\u000327</string>
     </test>
     <test label="U+034F">
       <comment>cgj</comment>
@@ -220,7 +220,7 @@
       <string>\u00207D \u00207E</string>
     </test>
     <test label="U+20A8">
-      <comment>rs</comment>
+      <comment>rupee</comment>
       <string>\u0020A8</string>
     </test>
     <test label="U+20AC">
@@ -228,7 +228,7 @@
       <string>\u0020AC</string>
     </test>
     <test label="U+20B9">
-      <comment>inr</comment>
+      <comment>inrupee</comment>
       <string>\u0020B9</string>
     </test>
     <test label="U+2122">
@@ -306,10 +306,6 @@
     <test label="U+2E22">
       <comment>halfbracketlefttop</comment>
       <string>\u002E22 \u002E23 \u002E24 \u002E25</string>
-    </test>
-    <test label="U+A78C">
-      <comment>saltillo</comment>
-      <string>\u00A78C</string>
     </test>
     <test label="U+F130">
       <comment>sidebearingleft</comment>

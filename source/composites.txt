@@ -1,3 +1,4 @@
+rupee = R & s | 20A8
 nukta = vedictonetwodotsbelow | 0CBC
 nukta.alt = vedictonedotbelow
 jihvamuliya = vedicsignjihvamuliya | 0CF1

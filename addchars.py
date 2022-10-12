@@ -28,7 +28,7 @@ for f in faces:
             # styles = lighter
             styles = heavier
             modifyFile(scale1000, 'exo', f, sn, styles)
-            modifyFile(scale2048, 'charis', f, sn)
+            modifyFile(scale2048, 'andika', f, sn)
         else:
             styles = {
                 'Regular': 'Medium',
