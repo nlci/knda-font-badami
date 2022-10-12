@@ -11,7 +11,7 @@
 <glyph PSName='spacingcandrabindu' UID='0C80'><base UID='F024'></base></glyph>
 <glyph PSName='candrabindu' UID='0C81'><base UID='F024'></base></glyph>
 <glyph UID="0950" PSName="om"><base UID="F024"></base></glyph>
-<glyph PSName="na_virama"><base UID="F026"></base></glyph>
+<glyph UID="0CDD" PSName="nakaarapollu"><base UID="F026"></base></glyph>
 <glyph PSName="quoteright.knda"><base UID="F027"></base></glyph>
 <glyph PSName="quotedblright.knda"><base UID="F027"></base><base UID="F027"></base></glyph>
 <glyph PSName="parenleft.knda"><base UID="F028"></base></glyph>
@@ -67,6 +67,7 @@
 <glyph PSName='widebase'><base UID='F0E1'></base></glyph>
 <glyph PSName='shortrr'><base UID='F025'></base></glyph>
 <glyph PSName='u0C82' UID='0C82'><base UID='F04D'></base></glyph>
+<glyph PSName='anusvaracomb' UID='0CF3'><base UID='F04D'><scale x="0.6" y="0.6"/><shift x='0' y='280'/></base></glyph>
 <glyph PSName='u0C83' UID='0C83'><base UID='F04E'></base></glyph>
 <glyph PSName='u0C85' UID='0C85'><base UID='F040'></base></glyph>
 <glyph PSName='u0C86' UID='0C86'><base UID='F041'></base></glyph>

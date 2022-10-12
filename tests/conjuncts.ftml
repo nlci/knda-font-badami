@@ -5,19 +5,24 @@
     <comment>Background colors: light orange: includes a character from Unicode version 14.0 or later; light red: a character is missing from UFO; light green: a character is new in this version of the font</comment>
     <fontscale>200</fontscale>
     <fontsrc label="refR">url(../references/Badami-Regular.ttf)</fontsrc>
+    <fontsrc label="refB">url(../references/Badami-Bold.ttf)</fontsrc>
+    <fontsrc label="refI">url(../references/Badami-Italic.ttf)</fontsrc>
+    <fontsrc label="refBI">url(../references/Badami-BoldItalic.ttf)</fontsrc>
     <fontsrc label="R">url(../results/Badami-Regular.ttf)</fontsrc>
-    <fontsrc label="NotoSerif">url(../references/NotoSerifKannada-Regular.ttf)</fontsrc>
-    <fontsrc label="NotoSans">url(../references/NotoSansKannada-Regular.ttf)</fontsrc>
-    <fontsrc label="NotoSansUI">url(../references/NotoSansKannadaUI-Regular.ttf)</fontsrc>
-    <fontsrc label="Tiro">url(../references/TiroKannada-Regular.ttf)</fontsrc>
-    <fontsrc label="Baloo">url(../references/BalooTamma2-Regular.ttf)</fontsrc>
+    <fontsrc label="B">url(../results/Badami-Bold.ttf)</fontsrc>
+    <fontsrc label="I">url(../results/Badami-Italic.ttf)</fontsrc>
+    <fontsrc label="BI">url(../results/Badami-BoldItalic.ttf)</fontsrc>
+    <fontsrc label="notoSerif">url(../references/NotoSerifKannada-Regular.ttf)</fontsrc>
+    <fontsrc label="notoSans">url(../references/NotoSansKannada-Regular.ttf)</fontsrc>
+    <fontsrc label="notoSansUI">url(../references/NotoSansKannadaUI-Regular.ttf)</fontsrc>
+    <fontsrc label="tiro">url(../references/TiroKannada-Regular.ttf)</fontsrc>
+    <fontsrc label="baloo">url(../references/BalooTamma2-Regular.ttf)</fontsrc>
+    <fontsrc label="kR">url(../results/Kaveri-Regular.ttf)</fontsrc>
+    <fontsrc label="kB">url(../results/Kaveri-Bold.ttf)</fontsrc>
+    <fontsrc label="kI">url(../results/Kaveri-Italic.ttf)</fontsrc>
+    <fontsrc label="kBI">url(../results/Kaveri-BoldItalic.ttf)</fontsrc>
     <title>Conjuncts auto</title>
   </head>
-  <testgroup background="#f0f0f0" label="Rendering Check">
-    <test label="check">
-      <string>RenderingUnknown</string>
-    </test>
-  </testgroup>
   <testgroup label="Consonant with one sub form">
     <test label="0C95">
       <comment>ka</comment>

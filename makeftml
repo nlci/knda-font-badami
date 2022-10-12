@@ -12,7 +12,7 @@ fi
 
 # configure tests
 tests="AllChars Proof Diac Matras Conjuncts Nuktas"
-urls='url(../references/Badami-Regular.ttf)=refR url(../results/Badami-Regular.ttf)=R url(../references/NotoSerifKannada-Regular.ttf)=NotoSerif url(../references/NotoSansKannada-Regular.ttf)=NotoSans url(../references/NotoSansKannadaUI-Regular.ttf)=NotoSansUI url(../references/TiroKannada-Regular.ttf)=Tiro url(../references/BalooTamma2-Regular.ttf)=Baloo'
+urls='url(../references/Badami-Regular.ttf)=refR url(../references/Badami-Bold.ttf)=refB url(../references/Badami-Italic.ttf)=refI url(../references/Badami-BoldItalic.ttf)=refBI url(../results/Badami-Regular.ttf)=R url(../results/Badami-Bold.ttf)=B url(../results/Badami-Italic.ttf)=I url(../results/Badami-BoldItalic.ttf)=BI url(../references/NotoSerifKannada-Regular.ttf)=notoSerif url(../references/NotoSansKannada-Regular.ttf)=notoSans url(../references/NotoSansKannadaUI-Regular.ttf)=notoSansUI url(../references/TiroKannada-Regular.ttf)=tiro url(../references/BalooTamma2-Regular.ttf)=baloo url(../results/Kaveri-Regular.ttf)=kR url(../results/Kaveri-Bold.ttf)=kB url(../results/Kaveri-Italic.ttf)=kI url(../results/Kaveri-BoldItalic.ttf)=kBI'
 ufo='source/Badami-Regular.ufo'
 
 # list all the fonts to test
@@ -29,7 +29,7 @@ do
 	title="\"${test} auto\""
 	ftml=tests/${base}.ftml
 	log=tests/logs/${base}.log
-	eval tools/psfgenftml.py -q -t "$title" --scale 200 -i source/glyph_data-Badami.csv --xsl ../tools/ftml.xsl "$fonts" -l $log $ufo $ftml &
+	eval tools/psfgenftml.py -q -t "$title" --prevfont references/Badami-Regular.ttf --norendercheck --scale 200 -i source/glyph_data-Badami.csv --xsl ../tools/ftml.xsl "$fonts" -l $log $ufo $ftml &
 done
 wait
 echo "done."
