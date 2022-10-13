@@ -9,7 +9,9 @@
 <glyph UID="25CC" PSName="dottedcircle"><base UID="F020"></base></glyph>
 <glyph PSName="dottedcircle.alt"><base UID="F023"></base></glyph>
 <glyph PSName='spacingcandrabindu' UID='0C80'><base UID='F024'></base></glyph>
+<!--
 <glyph PSName='candrabindu' UID='0C81'><base UID='F024'></base></glyph>
+-->
 <glyph UID="0950" PSName="om"><base UID="F024"></base></glyph>
 <glyph UID="0CDD" PSName="nakaarapollu"><base UID="F026"></base></glyph>
 <glyph PSName="quoteright.knda"><base UID="F027"></base></glyph>

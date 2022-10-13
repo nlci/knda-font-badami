@@ -16,11 +16,9 @@ Drawing
  - Break link for [l]lvocalicmatra.alt
  - Copy, rotate, move, scale the glyphs for [l]lvocalicmatra.alt (from Kannada O/OO)
  - Move top ring of upadhmaniya to the baseline
- - Remove most of the glyph (currently the om sign) from the two candrabindus
  - U+20B9 INDIAN RUPEE SIGN needs to be made italic in the Italic and Bold Italic faces
 
 Features
- - vowel less na
  - short and long tail on lvocalicvowel (U+0C8C)
 
 ChangeLog

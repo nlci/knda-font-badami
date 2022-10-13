@@ -1,4 +1,5 @@
 rupee = R & s | 20A8
+candrabindu = spacingcandrabindu | 0C81
 nukta = vedictonetwodotsbelow | 0CBC
 nukta.alt = vedictonedotbelow
 jihvamuliya = vedicsignjihvamuliya | 0CF1

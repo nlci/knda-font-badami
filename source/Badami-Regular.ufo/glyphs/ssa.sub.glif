@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ssa.sub" format="2">
-  <advance width="10"/>
+  <advance width="160"/>
   <anchor x="200" y="-200" name="S"/>
   <anchor x="-247" y="0" name="_S"/>
   <outline>
