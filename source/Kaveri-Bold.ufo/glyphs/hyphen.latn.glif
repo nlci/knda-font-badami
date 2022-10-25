@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hyphen.latn" format="2">
+  <advance width="249"/>
+  <note>
+GF Latin Plus glyph
+</note>
+  <outline>
+    <contour>
+      <point x="15" y="164" type="line"/>
+      <point x="234" y="164" type="line"/>
+      <point x="234" y="249" type="line"/>
+      <point x="15" y="249" type="line"/>
+    </contour>
+  </outline>
+</glyph>

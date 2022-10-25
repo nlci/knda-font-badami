@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="slash" format="2">
-  <advance width="340"/>
+  <advance width="275"/>
   <unicode hex="002F"/>
   <outline>
     <contour>
-      <point x="84" y="-96" type="curve"/>
-      <point x="327" y="547" type="line"/>
-      <point x="312" y="558" type="line"/>
-      <point x="298" y="554"/>
-      <point x="269" y="546"/>
-      <point x="256" y="538" type="curve"/>
-      <point x="12" y="-105" type="line"/>
-      <point x="27" y="-116" type="line"/>
-      <point x="39" y="-113"/>
-      <point x="74" y="-102"/>
+      <point x="281" y="522" type="line"/>
+      <point x="209" y="522" type="line"/>
+      <point x="1" y="0" type="line"/>
+      <point x="73" y="0" type="line"/>
     </contour>
   </outline>
 </glyph>

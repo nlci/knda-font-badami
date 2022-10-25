@@ -1,3 +1,6 @@
+quotedblleft = quoteleft & quoteleft | 201C
+quotedblright = quoteright & quoteright | 201D
+divisionslash = slash | 2215
 rupee = R & s | 20A8
 candrabindu = spacingcandrabindu | 0C81
 nukta = vedictonetwodotsbelow | 0CBC

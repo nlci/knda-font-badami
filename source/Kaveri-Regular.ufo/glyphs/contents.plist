@@ -340,12 +340,12 @@
   <string>circumflexcomb.case.glif</string>
   <key>colon</key>
   <string>colon.glif</string>
-  <key>colon.knda</key>
-  <string>colon.knda.glif</string>
+  <key>colon.latn</key>
+  <string>colon.latn.glif</string>
   <key>comma</key>
   <string>comma.glif</string>
-  <key>comma.knda</key>
-  <string>comma.knda.glif</string>
+  <key>comma.latn</key>
+  <string>comma.latn.glif</string>
   <key>copyright</key>
   <string>copyright.glif</string>
   <key>cornerleftbottom</key>
@@ -448,8 +448,8 @@
   <string>egrave.glif</string>
   <key>eight</key>
   <string>eight.glif</string>
-  <key>eight.knda</key>
-  <string>eight.knda.glif</string>
+  <key>eight.latn</key>
+  <string>eight.latn.glif</string>
   <key>eightknda</key>
   <string>eightknda.glif</string>
   <key>eightsuperior</key>
@@ -480,8 +480,8 @@
   <string>evowel.glif</string>
   <key>exclam</key>
   <string>exclam.glif</string>
-  <key>exclam.knda</key>
-  <string>exclam.knda.glif</string>
+  <key>exclam.latn</key>
+  <string>exclam.latn.glif</string>
   <key>exclamdown</key>
   <string>exclamdown.glif</string>
   <key>f</key>
@@ -502,8 +502,8 @@
   <string>figurespace.glif</string>
   <key>five</key>
   <string>five.glif</string>
-  <key>five.knda</key>
-  <string>five.knda.glif</string>
+  <key>five.latn</key>
+  <string>five.latn.glif</string>
   <key>fiveknda</key>
   <string>fiveknda.glif</string>
   <key>fivesuperior</key>
@@ -520,8 +520,8 @@
   <string>four.glif</string>
   <key>four.denominator</key>
   <string>four.denominator.glif</string>
-  <key>four.knda</key>
-  <string>four.knda.glif</string>
+  <key>four.latn</key>
+  <string>four.latn.glif</string>
   <key>fourinferior</key>
   <string>fourinferior.glif</string>
   <key>fourknda</key>
@@ -604,8 +604,8 @@
   <string>hungarumlaut.glif</string>
   <key>hyphen</key>
   <string>hyphen.glif</string>
-  <key>hyphen.knda</key>
-  <string>hyphen.knda.glif</string>
+  <key>hyphen.latn</key>
+  <string>hyphen.latn.glif</string>
   <key>hyphenationpoint</key>
   <string>hyphenationpoint.glif</string>
   <key>hyphensuperior</key>
@@ -798,8 +798,8 @@
   <string>nbhyphen.glif</string>
   <key>nbspace</key>
   <string>nbspace.glif</string>
-  <key>nbspace.knda</key>
-  <string>nbspace.knda.glif</string>
+  <key>nbspace.latn</key>
+  <string>nbspace.latn.glif</string>
   <key>nga</key>
   <string>nga.glif</string>
   <key>nga.sub</key>
@@ -808,8 +808,8 @@
   <string>nga.virama.glif</string>
   <key>nine</key>
   <string>nine.glif</string>
-  <key>nine.knda</key>
-  <string>nine.knda.glif</string>
+  <key>nine.latn</key>
+  <string>nine.latn.glif</string>
   <key>nineknda</key>
   <string>nineknda.glif</string>
   <key>ninesuperior</key>
@@ -870,8 +870,8 @@
   <string>omatra.large.glif</string>
   <key>one</key>
   <string>one.glif</string>
-  <key>one.knda</key>
-  <string>one.knda.glif</string>
+  <key>one.latn</key>
+  <string>one.latn.glif</string>
   <key>one.numerator</key>
   <string>one.numerator.glif</string>
   <key>onehalf</key>
@@ -918,14 +918,14 @@
   <string>paragraphseparator.glif</string>
   <key>parenleft</key>
   <string>parenleft.glif</string>
-  <key>parenleft.knda</key>
-  <string>parenleft.knda.glif</string>
+  <key>parenleft.latn</key>
+  <string>parenleft.latn.glif</string>
   <key>parenleftsuperior</key>
   <string>parenleftsuperior.glif</string>
   <key>parenright</key>
   <string>parenright.glif</string>
-  <key>parenright.knda</key>
-  <string>parenright.knda.glif</string>
+  <key>parenright.latn</key>
+  <string>parenright.latn.glif</string>
   <key>parenrightsuperior</key>
   <string>parenrightsuperior.glif</string>
   <key>partialdiff</key>
@@ -934,8 +934,8 @@
   <string>percent.glif</string>
   <key>period</key>
   <string>period.glif</string>
-  <key>period.knda</key>
-  <string>period.knda.glif</string>
+  <key>period.latn</key>
+  <string>period.latn.glif</string>
   <key>periodcentered</key>
   <string>periodcentered.glif</string>
   <key>perthousand</key>
@@ -964,8 +964,8 @@
   <string>q.glif</string>
   <key>question</key>
   <string>question.glif</string>
-  <key>question.knda</key>
-  <string>question.knda.glif</string>
+  <key>question.latn</key>
+  <string>question.latn.glif</string>
   <key>questiondown</key>
   <string>questiondown.glif</string>
   <key>quotedbl</key>
@@ -974,20 +974,20 @@
   <string>quotedblbase.glif</string>
   <key>quotedblleft</key>
   <string>quotedblleft.glif</string>
-  <key>quotedblleft.knda</key>
-  <string>quotedblleft.knda.glif</string>
+  <key>quotedblleft.latn</key>
+  <string>quotedblleft.latn.glif</string>
   <key>quotedblright</key>
   <string>quotedblright.glif</string>
-  <key>quotedblright.knda</key>
-  <string>quotedblright.knda.glif</string>
+  <key>quotedblright.latn</key>
+  <string>quotedblright.latn.glif</string>
   <key>quoteleft</key>
   <string>quoteleft.glif</string>
-  <key>quoteleft.knda</key>
-  <string>quoteleft.knda.glif</string>
+  <key>quoteleft.latn</key>
+  <string>quoteleft.latn.glif</string>
   <key>quoteright</key>
   <string>quoteright.glif</string>
-  <key>quoteright.knda</key>
-  <string>quoteright.knda.glif</string>
+  <key>quoteright.latn</key>
+  <string>quoteright.latn.glif</string>
   <key>quotesinglbase</key>
   <string>quotesinglbase.glif</string>
   <key>quotesingle</key>
@@ -1062,12 +1062,12 @@
   <string>section.glif</string>
   <key>semicolon</key>
   <string>semicolon.glif</string>
-  <key>semicolon.knda</key>
-  <string>semicolon.knda.glif</string>
+  <key>semicolon.latn</key>
+  <string>semicolon.latn.glif</string>
   <key>seven</key>
   <string>seven.glif</string>
-  <key>seven.knda</key>
-  <string>seven.knda.glif</string>
+  <key>seven.latn</key>
+  <string>seven.latn.glif</string>
   <key>sevenknda</key>
   <string>sevenknda.glif</string>
   <key>sevensuperior</key>
@@ -1094,8 +1094,8 @@
   <string>sidebearingright.glif</string>
   <key>six</key>
   <string>six.glif</string>
-  <key>six.knda</key>
-  <string>six.knda.glif</string>
+  <key>six.latn</key>
+  <string>six.latn.glif</string>
   <key>sixknda</key>
   <string>sixknda.glif</string>
   <key>sixperemspace</key>
@@ -1104,14 +1104,14 @@
   <string>sixsuperior.glif</string>
   <key>slash</key>
   <string>slash.glif</string>
-  <key>slash.knda</key>
-  <string>slash.knda.glif</string>
+  <key>slash.latn</key>
+  <string>slash.latn.glif</string>
   <key>softhyphen</key>
   <string>softhyphen.glif</string>
   <key>space</key>
   <string>space.glif</string>
-  <key>space.knda</key>
-  <string>space.knda.glif</string>
+  <key>space.latn</key>
+  <string>space.latn.glif</string>
   <key>spacingcandrabindu</key>
   <string>spacingcandrabindu.glif</string>
   <key>ssa</key>
@@ -1164,8 +1164,8 @@
   <string>thorn.glif</string>
   <key>three</key>
   <string>three.glif</string>
-  <key>three.knda</key>
-  <string>three.knda.glif</string>
+  <key>three.latn</key>
+  <string>three.latn.glif</string>
   <key>three.numerator</key>
   <string>three.numerator.glif</string>
   <key>threeknda</key>
@@ -1208,8 +1208,8 @@
   <string>two.glif</string>
   <key>two.denominator</key>
   <string>two.denominator.glif</string>
-  <key>two.knda</key>
-  <string>two.knda.glif</string>
+  <key>two.latn</key>
+  <string>two.latn.glif</string>
   <key>twoinferior</key>
   <string>twoinferior.glif</string>
   <key>twoknda</key>
@@ -1310,8 +1310,8 @@
   <string>zcaron.glif</string>
   <key>zero</key>
   <string>zero.glif</string>
-  <key>zero.knda</key>
-  <string>zero.knda.glif</string>
+  <key>zero.latn</key>
+  <string>zero.latn.glif</string>
   <key>zeroknda</key>
   <string>zeroknda.glif</string>
   <key>zerosuperior</key>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="colon.latn" format="2">
+  <advance width="158"/>
+  <note>
+GF Latin Plus glyph
+</note>
+  <outline>
+    <component base="period"/>
+    <component base="period" xOffset="46" yOffset="289"/>
+  </outline>
+</glyph>

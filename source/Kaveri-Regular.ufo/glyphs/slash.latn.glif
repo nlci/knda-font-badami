@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="slash.latn" format="2">
+  <advance width="314"/>
+  <note>
+GF Latin Plus glyph
+</note>
+  <outline>
+    <contour>
+      <point x="12" y="-51" type="line"/>
+      <point x="101" y="-51" type="line"/>
+      <point x="302" y="550" type="line"/>
+      <point x="213" y="550" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -12,7 +12,7 @@ do
     ufo=source/${face}-Regular.ufo
     psfsetkeys -k "copyright" --filepart OFL.txt $ufo
     psfsetkeys -k "openTypeNameLicense" --file OFL.txt $ufo
-    psfsetversion $ufo 0.401
+    psfsetversion $ufo 0.500
     psfsetglyphorder -i source/glyph_data-${face}.csv $ufo
     psfsetpsnames -i source/glyph_data-${face}.csv $ufo
     psfmakewoffmetadata -n ${face} -i in.nlci.fonts $ufo

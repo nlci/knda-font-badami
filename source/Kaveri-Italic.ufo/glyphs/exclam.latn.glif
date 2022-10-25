@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="exclam.latn" format="2">
+  <advance width="192"/>
+  <note>
+GF Latin Plus glyph
+</note>
+  <outline>
+    <component base="period" xOffset="15"/>
+    <contour>
+      <point x="85" y="144" type="line"/>
+      <point x="150" y="144" type="line"/>
+      <point x="223" y="526" type="line"/>
+      <point x="135" y="526" type="line"/>
+    </contour>
+  </outline>
+</glyph>

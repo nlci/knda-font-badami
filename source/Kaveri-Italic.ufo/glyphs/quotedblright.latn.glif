@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotedblright.latn" format="2">
+  <advance width="258"/>
+  <note>
+GF Latin Plus glyph
+</note>
+  <outline>
+    <component base="quoteright"/>
+    <component base="quoteright" xOffset="107"/>
+  </outline>
+</glyph>

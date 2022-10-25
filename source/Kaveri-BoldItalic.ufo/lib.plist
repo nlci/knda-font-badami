@@ -22,9 +22,9 @@
     <string>.null</string>
     <string>nonmarkingreturn</string>
     <string>space</string>
-    <string>space.knda</string>
+    <string>space.latn</string>
     <string>exclam</string>
-    <string>exclam.knda</string>
+    <string>exclam.latn</string>
     <string>quotedbl</string>
     <string>numbersign</string>
     <string>dollar</string>
@@ -32,52 +32,52 @@
     <string>ampersand</string>
     <string>quotesingle</string>
     <string>parenleft</string>
-    <string>parenleft.knda</string>
+    <string>parenleft.latn</string>
     <string>parenright</string>
-    <string>parenright.knda</string>
+    <string>parenright.latn</string>
     <string>asterisk</string>
     <string>plus</string>
     <string>comma</string>
-    <string>comma.knda</string>
+    <string>comma.latn</string>
     <string>hyphen</string>
-    <string>hyphen.knda</string>
+    <string>hyphen.latn</string>
     <string>period</string>
-    <string>period.knda</string>
+    <string>period.latn</string>
     <string>slash</string>
-    <string>slash.knda</string>
+    <string>slash.latn</string>
     <string>zero</string>
-    <string>zero.knda</string>
+    <string>zero.latn</string>
     <string>one</string>
-    <string>one.knda</string>
+    <string>one.latn</string>
     <string>one.numerator</string>
     <string>two</string>
     <string>two.denominator</string>
-    <string>two.knda</string>
+    <string>two.latn</string>
     <string>three</string>
-    <string>three.knda</string>
+    <string>three.latn</string>
     <string>three.numerator</string>
     <string>four</string>
     <string>four.denominator</string>
-    <string>four.knda</string>
+    <string>four.latn</string>
     <string>five</string>
-    <string>five.knda</string>
+    <string>five.latn</string>
     <string>six</string>
-    <string>six.knda</string>
+    <string>six.latn</string>
     <string>seven</string>
-    <string>seven.knda</string>
+    <string>seven.latn</string>
     <string>eight</string>
-    <string>eight.knda</string>
+    <string>eight.latn</string>
     <string>nine</string>
-    <string>nine.knda</string>
+    <string>nine.latn</string>
     <string>colon</string>
-    <string>colon.knda</string>
+    <string>colon.latn</string>
     <string>semicolon</string>
-    <string>semicolon.knda</string>
+    <string>semicolon.latn</string>
     <string>less</string>
     <string>equal</string>
     <string>greater</string>
     <string>question</string>
-    <string>question.knda</string>
+    <string>question.latn</string>
     <string>at</string>
     <string>A</string>
     <string>B</string>
@@ -144,7 +144,7 @@
     <string>braceright</string>
     <string>asciitilde</string>
     <string>nbspace</string>
-    <string>nbspace.knda</string>
+    <string>nbspace.latn</string>
     <string>exclamdown</string>
     <string>cent</string>
     <string>sterling</string>
@@ -574,14 +574,14 @@
     <string>emdash</string>
     <string>horizontalbar</string>
     <string>quoteleft</string>
-    <string>quoteleft.knda</string>
+    <string>quoteleft.latn</string>
     <string>quoteright</string>
-    <string>quoteright.knda</string>
+    <string>quoteright.latn</string>
     <string>quotesinglbase</string>
     <string>quotedblleft</string>
-    <string>quotedblleft.knda</string>
+    <string>quotedblleft.latn</string>
     <string>quotedblright</string>
-    <string>quotedblright.knda</string>
+    <string>quotedblright.latn</string>
     <string>quotedblbase</string>
     <string>dagger</string>
     <string>daggerdbl</string>
@@ -1114,8 +1114,8 @@
     <string>uni2011</string>
     <key>nbspace</key>
     <string>uni00A0</string>
-    <key>nbspace.knda</key>
-    <string>uni00A0.knda</string>
+    <key>nbspace.latn</key>
+    <string>uni00A0.latn</string>
     <key>nga</key>
     <string>uni0C99</string>
     <key>nga.sub</key>

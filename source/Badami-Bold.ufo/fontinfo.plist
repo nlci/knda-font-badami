@@ -23,7 +23,7 @@ with Reserved Font Names "Annapurna" and "SIL".
   <key>familyName</key>
   <string>Badami</string>
   <key>openTypeHeadCreated</key>
-  <string>2022/10/13 06:11:17</string>
+  <string>2022/10/25 08:03:31</string>
   <key>openTypeHheaAscender</key>
   <integer>604</integer>
   <key>openTypeHheaDescender</key>
@@ -153,7 +153,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>openTypeNameUniqueID</key>
   <string>NLCI: Badami Bold: 2022</string>
   <key>openTypeNameVersion</key>
-  <string>Version 0.401</string>
+  <string>Version 0.500</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -264,7 +264,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>versionMajor</key>
   <integer>0</integer>
   <key>versionMinor</key>
-  <integer>401</integer>
+  <integer>500</integer>
   <key>woffMetadataCredits</key>
   <dict>
     <key>credits</key>

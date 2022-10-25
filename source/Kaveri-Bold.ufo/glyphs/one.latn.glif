@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="one.latn" format="2">
+  <advance width="265"/>
+  <note>
+GF Latin Plus glyph
+</note>
+  <outline>
+    <contour>
+      <point x="115" y="0" type="line"/>
+      <point x="221" y="0" type="line"/>
+      <point x="221" y="533" type="line"/>
+      <point x="127" y="533" type="line"/>
+      <point x="21" y="488" type="line"/>
+      <point x="21" y="420" type="line"/>
+      <point x="115" y="431" type="line"/>
+    </contour>
+  </outline>
+</glyph>

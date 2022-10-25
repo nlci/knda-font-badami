@@ -3,6 +3,6 @@
   <advance width="527"/>
   <unicode hex="2215"/>
   <outline>
-    <component base="slash.knda"/>
+    <component base="slash"/>
   </outline>
 </glyph>

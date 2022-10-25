@@ -25,7 +25,7 @@ with Reserved Font Names "Annapurna" and "SIL".
   <key>italicAngle</key>
   <integer>-12</integer>
   <key>openTypeHeadCreated</key>
-  <string>2022/10/13 06:11:17</string>
+  <string>2022/10/25 08:03:34</string>
   <key>openTypeHheaAscender</key>
   <integer>686</integer>
   <key>openTypeHheaDescender</key>
@@ -155,7 +155,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>openTypeNameUniqueID</key>
   <string>NLCI: Kaveri Italic: 2022</string>
   <key>openTypeNameVersion</key>
-  <string>Version 0.401</string>
+  <string>Version 0.500</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -266,7 +266,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>versionMajor</key>
   <integer>0</integer>
   <key>versionMinor</key>
-  <integer>401</integer>
+  <integer>500</integer>
   <key>woffMetadataCredits</key>
   <dict>
     <key>credits</key>
