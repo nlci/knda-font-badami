@@ -133,6 +133,27 @@
     <test label="sa sub ra halant">
       <string>\u0CB8\u0CCD\u0CB0\u0CCD</string>
     </test>
+    <test label="0C99">
+      <comment>nga with some matra like</comment>
+      <string>\u0c99\u0cbe \u0c99\u0cc6 \u0c99\u0ccc \u0c99\u0ccd</string>
+    </test>
+    <test label="0C9E">
+      <comment>nya with some matra like</comment>
+      <string>\u0c9e\u0cbe \u0c9e\u0cc6 \u0c9e\u0ccc \u0c9e\u0ccd</string>
+    </test>
+    <test label="0CB1">
+      <comment>rra with some matra like</comment>
+      <string>\u0cb1\u0cbe \u0cb1\u0cc6 \u0cb1\u0ccc \u0cb1\u0ccd</string>
+    </test>
+    <test label="(nga|nya) (imatra|iimatra)">
+      <string>\u0c99\u0cbf \u0c99\u0cc0 \u0c9e\u0cbf \u0c9e\u0cc0</string>
+    </test>
+    <test label="nya (umatra|uumatra)">
+      <string>\u0c9e\u0cc1 \u0c9e\u0cc2</string>
+    </test>
+    <test label="lla umatra">
+      <string>\u0cb3\u0cc1</string>
+    </test>
   </testgroup>
   <testgroup label="public">
     <test label="harfbuzz vs microsoft for double-halant">
@@ -142,10 +163,10 @@
       <string>\u0cb0\u200d\u0ccd\u0c95\u0ccd</string>
     </test>
   </testgroup>
-  <testgroup label="unicode">
-    <test label="U+0CF3">
-      <comment>anusvaracomb</comment>
-      <string>\u0c95\u0c82\u0c95\u0cf3</string>
+  <testgroup label="misc">
+    <test label="quotes">
+      <comment>dbl is composite</comment>
+      <string>\u2018\u0c95\u2019 \u201c\u0c95\u201d</string>
     </test>
   </testgroup>
 </ftml>

@@ -82,7 +82,8 @@ U+0CDE">
       <comment>ka kha ga gha nga ca cha ja jha nya tta ttha dda ddha nna ta tha da dha na pa pha ba bha ma ya ra rra la lla va sha ssa sa ha fa</comment>
       <string>\u000C95\u000C96\u000C97\u000C98\u000C99\u000C9A\u000C9B\u000C9C\u000C9D\u000C9E\u000C9F\u000CA0\u000CA1\u000CA2\u000CA3\u000CA4\u000CA5\u000CA6\u000CA7\u000CA8\u000CAA\u000CAB\u000CAC\u000CAD\u000CAE\u000CAF\u000CB0\u000CB1\u000CB2\u000CB3\u000CB5\u000CB6\u000CB7\u000CB8\u000CB9\u000CDE</string>
     </test>
-    <test label="U+0CBE
+    <test label="U+005F
+U+0CBE
 U+0CBF
 U+0CC0
 U+0CC1
@@ -96,9 +97,10 @@ U+0CCA
 U+0CCB
 U+0CCC
 U+0CE2
-U+0CE3">
-      <comment>aamatra imatra iimatra umatra uumatra rvocalicmatra rrvocalicmatra ematra eematra aimatra omatra oomatra aumatra lvocalicmatra llvocalicmatra</comment>
-      <string>\u000CBE\u000CBF\u000CC0\u000CC1\u000CC2\u000CC3\u000CC4\u000CC6\u000CC7\u000CC8\u000CCA\u000CCB\u000CCC\u000CE2\u000CE3</string>
+U+0CE3
+U+0CCD">
+      <comment>underscore aamatra imatra iimatra umatra uumatra rvocalicmatra rrvocalicmatra ematra eematra aimatra omatra oomatra aumatra lvocalicmatra llvocalicmatra virama</comment>
+      <string>_\u000CBE\u000CBF\u000CC0\u000CC1\u000CC2\u000CC3\u000CC4\u000CC6\u000CC7\u000CC8\u000CCA\u000CCB\u000CCC\u000CE2\u000CE3\u000CCD</string>
     </test>
     <test label="U+0CE6
 U+0CE7

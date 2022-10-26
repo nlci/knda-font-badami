@@ -160,7 +160,7 @@ def doit(args):
     if test.lower().startswith("proof"):
         # Characters used to create SILE test data
         ftml.startTestGroup('Proof')
-        for section in (vowels, consonants, matras, digits, punct):
+        for section in (vowels, consonants, matra_like, digits, punct):
             builder.render(section, ftml)
             ftml.closeTest()
 
@@ -204,7 +204,7 @@ def doit(args):
         ftml.startTestGroup('Consonant with matras')
         for c in consonants:
             for m in matra_like:
-                builder.render((c,m,c), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+                builder.render((c,m,0xcef), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
             ftml.closeTest()
 
         ftml.startTestGroup('Consonant with one or two sub forms and a wrap matra')

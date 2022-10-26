@@ -37,13 +37,17 @@ jobs:
           # smith version
           smith configure
           smith build
-          # smith alltests
+          smith alltests
           smith zip
           # smith tarball
           # smith release
       - uses: actions/upload-artifact@master
         with:
-          name: download
+          name: tests
+          path: results/tests
+      - uses: actions/upload-artifact@master
+        with:
+          name: packages
           path: results/releases
       - uses: marvinpinto/action-automatic-releases@latest
         with:

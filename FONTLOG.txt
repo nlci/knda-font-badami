@@ -10,17 +10,6 @@ Basic Font Information
 
 Pan Kannada font designed to support all the languages using the Kannada script.
 
-Known issues in the new sources
--------------------------------
-Drawing
- - Break link for [l]lvocalicmatra.alt
- - Copy, rotate, move, scale the glyphs for [l]lvocalicmatra.alt (from Kannada O/OO)
- - Move top ring of upadhmaniya to the baseline
- - U+20B9 INDIAN RUPEE SIGN needs to be made italic in the Italic and Bold Italic faces
-
-Features
- - short and long tail on lvocalicvowel (U+0C8C)
-
 ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
