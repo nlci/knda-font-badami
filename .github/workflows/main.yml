@@ -13,12 +13,12 @@ jobs:
       - name: Install smith toolchain
         run: |
           sudo add-apt-repository -y ppa:silnrsi/smith-py3
-          sudo add-apt-repository -y ppa:sile-typesetter/sile
+          # sudo add-apt-repository -y ppa:sile-typesetter/sile
           # sudo add-apt-repository -y ppa:fontforge/fontforge
           # sudo add-apt-repository -y ppa:jonathonf/texlive-2019
           # sudo add-apt-repository -y ppa:git-core/ppa
           sudo apt-get update -q -y
-          sudo apt-get install sile texlive-xetex libtext-unicode-equivalents-perl libtext-pdf-perl libio-string-perl libfont-ttf-scripts-perl libfont-ttf-perl libalgorithm-diff-perl libxml-parser-perl grcompiler libtext-csv-perl -y -qq
+          sudo apt-get install libtext-unicode-equivalents-perl libtext-pdf-perl libio-string-perl libfont-ttf-scripts-perl libfont-ttf-perl libalgorithm-diff-perl libxml-parser-perl grcompiler libtext-csv-perl -y -qq
           # sudo apt-get remove *php* *mono* *dotnet* -y
           # sudo apt-get autoremove -y
           # sudo apt-get upgrade -q -y
@@ -37,14 +37,14 @@ jobs:
           # smith version
           smith configure
           smith build
-          smith alltests
+          # smith alltests
           smith zip
           # smith tarball
           # smith release
       - uses: actions/upload-artifact@master
         with:
-          name: tests
-          path: results/tests
+          name: fonts
+          path: results/*.ttf
       - uses: actions/upload-artifact@master
         with:
           name: packages
