@@ -2,5 +2,5 @@
 
 for ds in source/*.designspace
 do
-    psfufo2glyphs $ds
+    psfufo2glyphs --nofea "$ds"
 done

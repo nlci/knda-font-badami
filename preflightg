@@ -2,7 +2,7 @@
 
 for g in source/*.glyphs
 do
-    psfglyphs2ufo $g source
+    psfglyphs2ufo --preservefea "$g" source
 done
 
 ./preflight
