@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nya_umatra" format="2">
+  <advance width="1063"/>
+  <anchor x="387" y="-122" name="N"/>
+  <anchor x="805" y="0" name="_M"/>
+  <outline>
+    <component base="nya"/>
+    <component base="umatra" xOffset="805"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

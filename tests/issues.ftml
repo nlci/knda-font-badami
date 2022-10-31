@@ -145,6 +145,10 @@
       <comment>rra with some matra like</comment>
       <string>\u0cb1\u0cbe \u0cb1\u0cc6 \u0cb1\u0ccc \u0cb1\u0ccd</string>
     </test>
+    <test label="0CDE">
+      <comment>fa with some matra like</comment>
+      <string>\u0cde\u0cbe \u0cde\u0cc6 \u0cde\u0ccc \u0cde\u0ccd</string>
+    </test>
     <test label="(nga|nya) (imatra|iimatra)">
       <string>\u0c99\u0cbf \u0c99\u0cc0 \u0c9e\u0cbf \u0c9e\u0cc0</string>
     </test>

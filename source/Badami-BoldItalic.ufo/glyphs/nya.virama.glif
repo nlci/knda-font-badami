@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nya.virama" format="2">
   <advance width="1119"/>
+  <anchor x="448" y="-122" name="N"/>
   <outline>
     <component base="nya"/>
     <component base="virama" xOffset="805"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

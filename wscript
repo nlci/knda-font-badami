@@ -6,8 +6,8 @@
 # command line options
 opts = preprocess_args(
     {'opt' : '-l'}, # build fonts from legacy for inclusion into final fonts
-    {'opt' : '-p'}, # do not run psfix on the final fonts
-    {'opt' : '-s'}  # only build a single font
+    {'opt' : '-r'}, # only build the main regular font
+    {'opt' : '-s'}  # only build a single font family
     )
 
 import os2
@@ -35,13 +35,13 @@ facesLegacy = ('BADA', 'KAVE')
 styles = ('-R', '-B', '-I', '-BI')
 stylesName = ('Regular', 'Bold', 'Italic', 'Bold Italic')
 stylesLegacy = ('', 'BD', 'I', 'BI')
+dspaces = ('Roman', 'Italic')
 
-if '-s' in opts:
+if '-r' in opts or '-s' in opts:
     faces = (faces[0],)
-    facesLegacy = (facesLegacy[0],)
-    styles = (styles[0],)
-    stylesName = (stylesName[0],)
-    stylesLegacy = (stylesLegacy[0],)
+
+if '-r' in opts:
+    dspaces = ('Regular',)
 
 # set build parameters
 fontbase = 'source/'
@@ -68,8 +68,6 @@ if '-l' in opts:
                                 noap = '')
                 )
 
-psfix = 'cp' if '-p' in opts else 'psfix'
-
 if '-l' in opts:
     faces = list()
 for f in faces:
@@ -78,7 +76,7 @@ for f in faces:
         version = VERSION,
         docdir = DOCDIR # 'documentation'
     )
-    for dspace in ('Roman', 'Italic'):
+    for dspace in dspaces:
         designspace('source/' + f + dspace + '.designspace',
             target = process('${DS:FILENAME_BASE}.ttf',
                 cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']),

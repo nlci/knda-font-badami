@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nga_aamatra" format="2">
+  <advance width="849"/>
+  <anchor x="286" y="-130" name="N"/>
+  <anchor x="572" y="0" name="_M"/>
+  <outline>
+    <component base="nga"/>
+    <component base="aamatra" xOffset="572"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

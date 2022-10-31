@@ -1,11 +1,34 @@
-quotedblleft = quoteleft & quoteleft | 201C
-quotedblright = quoteright & quoteright | 201D
 divisionslash = slash | 2215
 rupee = R & s | 20A8
-candrabindu = spacingcandrabindu | 0C81
-nukta = vedictonetwodotsbelow | 0CBC
-nukta.alt = vedictonedotbelow
-jihvamuliya = vedicsignjihvamuliya | 0CF1
+
+nya_umatra = nya & umatra
+lla_umatra = lla & umatra
+
+nga.altbase = nga
+aamatra.large = aamatra
+aumatra.large = aumatra
+virama.large = virama
+
+nga_aamatra = nga.altbase & aamatra.large
+nya_aamatra = nya & aamatra.large
+rra_aamatra = rra & aamatra.large
+fa_aamatra = fa & aamatra.large
+
+nga_ematra = nga.altbase & ematra.large
+nya_ematra = nya & ematra.large
+rra_ematra = rra & ematra.large
+fa_ematra = fa & ematra.large
+
+nga_aumatra = nga.altbase & aumatra.large
+rra_aumatra = rra & aumatra.large
+nya_aumatra = nya & aumatra.large
+fa_aumatra = fa & aumatra.large
+
+nga_virama = nga.altbase & virama.large
+nya_virama = nya & virama.large
+rra_virama = rra & virama.large
+fa_virama = fa & virama.large
+
 ba.virama = ba.base & virama
 bha.virama = bha.base & virama
 ca.virama = ca.base & virama
@@ -14,7 +37,7 @@ da.virama = da.base & virama
 dda.virama = dda.base & virama
 ddha.virama = ddha.base & virama
 dha.virama = dha.base & virama
-fa.virama = fa.base & virama
+fa.virama = fa & virama
 ga.virama = ga.base & virama
 gha.virama = gha.base & virama
 ha.virama = ha.base & virama

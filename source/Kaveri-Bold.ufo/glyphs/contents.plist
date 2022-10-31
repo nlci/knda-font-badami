@@ -190,6 +190,8 @@
   <string>aacute.glif</string>
   <key>aamatra</key>
   <string>aamatra.glif</string>
+  <key>aamatra.large</key>
+  <string>aamatra.large.glif</string>
   <key>aavowel</key>
   <string>aavowel.glif</string>
   <key>acircumflex</key>
@@ -238,6 +240,8 @@
   <string>atilde.glif</string>
   <key>aumatra</key>
   <string>aumatra.glif</string>
+  <key>aumatra.large</key>
+  <string>aumatra.large.glif</string>
   <key>auvowel</key>
   <string>auvowel.glif</string>
   <key>avagraha</key>
@@ -494,6 +498,14 @@
   <string>fa.sub.glif</string>
   <key>fa.virama</key>
   <string>fa.virama.glif</string>
+  <key>fa_aamatra</key>
+  <string>fa_aamatra.glif</string>
+  <key>fa_aumatra</key>
+  <string>fa_aumatra.glif</string>
+  <key>fa_ematra</key>
+  <string>fa_ematra.glif</string>
+  <key>fa_virama</key>
+  <string>fa_virama.glif</string>
   <key>fi</key>
   <string>fi.glif</string>
   <key>figuredash</key>
@@ -736,6 +748,8 @@
   <string>lla.sub.glif</string>
   <key>lla.virama</key>
   <string>lla.virama.glif</string>
+  <key>lla_umatra</key>
+  <string>lla_umatra.glif</string>
   <key>llvocalicmatra</key>
   <string>llvocalicmatra.glif</string>
   <key>llvocalicmatra.alt</key>
@@ -802,10 +816,20 @@
   <string>nbspace.latn.glif</string>
   <key>nga</key>
   <string>nga.glif</string>
+  <key>nga.altbase</key>
+  <string>nga.altbase.glif</string>
   <key>nga.sub</key>
   <string>nga.sub.glif</string>
   <key>nga.virama</key>
   <string>nga.virama.glif</string>
+  <key>nga_aamatra</key>
+  <string>nga_aamatra.glif</string>
+  <key>nga_aumatra</key>
+  <string>nga_aumatra.glif</string>
+  <key>nga_ematra</key>
+  <string>nga_ematra.glif</string>
+  <key>nga_virama</key>
+  <string>nga_virama.glif</string>
   <key>nine</key>
   <string>nine.glif</string>
   <key>nine.latn</key>
@@ -844,6 +868,16 @@
   <string>nya.sub.glif</string>
   <key>nya.virama</key>
   <string>nya.virama.glif</string>
+  <key>nya_aamatra</key>
+  <string>nya_aamatra.glif</string>
+  <key>nya_aumatra</key>
+  <string>nya_aumatra.glif</string>
+  <key>nya_ematra</key>
+  <string>nya_ematra.glif</string>
+  <key>nya_umatra</key>
+  <string>nya_umatra.glif</string>
+  <key>nya_virama</key>
+  <string>nya_virama.glif</string>
   <key>o</key>
   <string>o.glif</string>
   <key>o.superior</key>
@@ -1032,6 +1066,14 @@
   <string>rra.sub.glif</string>
   <key>rra.virama</key>
   <string>rra.virama.glif</string>
+  <key>rra_aamatra</key>
+  <string>rra_aamatra.glif</string>
+  <key>rra_aumatra</key>
+  <string>rra_aumatra.glif</string>
+  <key>rra_ematra</key>
+  <string>rra_ematra.glif</string>
+  <key>rra_virama</key>
+  <string>rra_virama.glif</string>
   <key>rrvocalicmatra</key>
   <string>rrvocalicmatra.glif</string>
   <key>rrvocalicvowel</key>
@@ -1268,6 +1310,8 @@
   <string>vedictonetwodotsbelow.glif</string>
   <key>virama</key>
   <string>virama.glif</string>
+  <key>virama.large</key>
+  <string>virama.large.glif</string>
   <key>visarga</key>
   <string>visarga.glif</string>
   <key>w</key>

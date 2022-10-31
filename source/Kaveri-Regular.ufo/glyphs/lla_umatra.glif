@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lla_umatra" format="2">
+  <advance width="846"/>
+  <anchor x="310" y="-128" name="N"/>
+  <anchor x="553" y="0" name="_M"/>
+  <outline>
+    <component base="lla.base"/>
+    <component base="inherent" xOffset="436"/>
+    <component base="umatra" xOffset="553"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

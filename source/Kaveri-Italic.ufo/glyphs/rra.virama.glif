@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rra.virama" format="2">
   <advance width="1145"/>
+  <anchor x="478" y="-128" name="N"/>
   <outline>
     <component base="rra"/>
     <component base="virama" xOffset="569"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

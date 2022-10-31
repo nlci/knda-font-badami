@@ -356,8 +356,13 @@
     <string>gha.sub</string>
     <string>gha.virama</string>
     <string>nga</string>
+    <string>nga.altbase</string>
     <string>nga.sub</string>
     <string>nga.virama</string>
+    <string>nga_aamatra</string>
+    <string>nga_ematra</string>
+    <string>nga_aumatra</string>
+    <string>nga_virama</string>
     <string>ca</string>
     <string>ca.base</string>
     <string>ca.imathra</string>
@@ -387,6 +392,11 @@
     <string>nya</string>
     <string>nya.sub</string>
     <string>nya.virama</string>
+    <string>nya_aamatra</string>
+    <string>nya_umatra</string>
+    <string>nya_ematra</string>
+    <string>nya_aumatra</string>
+    <string>nya_virama</string>
     <string>tta</string>
     <string>tta.base</string>
     <string>tta.imathra</string>
@@ -489,6 +499,10 @@
     <string>rra.imathra</string>
     <string>rra.sub</string>
     <string>rra.virama</string>
+    <string>rra_aamatra</string>
+    <string>rra_ematra</string>
+    <string>rra_aumatra</string>
+    <string>rra_virama</string>
     <string>la</string>
     <string>la.base</string>
     <string>la.imathra</string>
@@ -499,6 +513,7 @@
     <string>lla.imathra</string>
     <string>lla.sub</string>
     <string>lla.virama</string>
+    <string>lla_umatra</string>
     <string>va</string>
     <string>va.base</string>
     <string>va.imathra</string>
@@ -529,6 +544,7 @@
     <string>nukta.alt</string>
     <string>avagraha</string>
     <string>aamatra</string>
+    <string>aamatra.large</string>
     <string>imatra</string>
     <string>iimatra</string>
     <string>umatra</string>
@@ -546,7 +562,9 @@
     <string>oomatra</string>
     <string>oomatra.large</string>
     <string>aumatra</string>
+    <string>aumatra.large</string>
     <string>virama</string>
+    <string>virama.large</string>
     <string>lengthmark</string>
     <string>ailengthmark</string>
     <string>nakaarapollu</string>
@@ -554,6 +572,10 @@
     <string>fa.imathra</string>
     <string>fa.sub</string>
     <string>fa.virama</string>
+    <string>fa_aamatra</string>
+    <string>fa_ematra</string>
+    <string>fa_aumatra</string>
+    <string>fa_virama</string>
     <string>rrvocalicvowel</string>
     <string>llvocalicvowel</string>
     <string>lvocalicmatra</string>
@@ -741,6 +763,8 @@
     <string>uniFE08</string>
     <key>aamatra</key>
     <string>uni0CBE</string>
+    <key>aamatra.large</key>
+    <string>uni0CBE.large</string>
     <key>aavowel</key>
     <string>uni0C86</string>
     <key>acutedeva</key>
@@ -759,6 +783,8 @@
     <string>uni0CF3</string>
     <key>aumatra</key>
     <string>uni0CCC</string>
+    <key>aumatra.large</key>
+    <string>uni0CCC.large</string>
     <key>auvowel</key>
     <string>uni0C94</string>
     <key>avagraha</key>
@@ -919,6 +945,14 @@
     <string>uni0CDE.sub</string>
     <key>fa.virama</key>
     <string>uni0CDE.virama</string>
+    <key>fa_aamatra</key>
+    <string>uni0CDE0CBE</string>
+    <key>fa_aumatra</key>
+    <string>uni0CDE0CCC</string>
+    <key>fa_ematra</key>
+    <string>uni0CDE0CC6</string>
+    <key>fa_virama</key>
+    <string>uni0CDE0CCD</string>
     <key>fi</key>
     <string>uniFB01</string>
     <key>figurespace</key>
@@ -1089,6 +1123,8 @@
     <string>uni0CB3.sub</string>
     <key>lla.virama</key>
     <string>uni0CB3.virama</string>
+    <key>lla_umatra</key>
+    <string>uni0CB30CC1</string>
     <key>llvocalicmatra</key>
     <string>uni0CE3</string>
     <key>llvocalicmatra.alt</key>
@@ -1137,10 +1173,20 @@
     <string>uni00A0.latn</string>
     <key>nga</key>
     <string>uni0C99</string>
+    <key>nga.altbase</key>
+    <string>uni0C99.altbase</string>
     <key>nga.sub</key>
     <string>uni0C99.sub</string>
     <key>nga.virama</key>
     <string>uni0C99.virama</string>
+    <key>nga_aamatra</key>
+    <string>uni0C990CBE</string>
+    <key>nga_aumatra</key>
+    <string>uni0C990CCC</string>
+    <key>nga_ematra</key>
+    <string>uni0C990CC6</string>
+    <key>nga_virama</key>
+    <string>uni0C990CCD</string>
     <key>nineknda</key>
     <string>uni0CEF</string>
     <key>ninesuperior</key>
@@ -1167,6 +1213,16 @@
     <string>uni0C9E.sub</string>
     <key>nya.virama</key>
     <string>uni0C9E.virama</string>
+    <key>nya_aamatra</key>
+    <string>uni0C9E0CBE</string>
+    <key>nya_aumatra</key>
+    <string>uni0C9E0CCC</string>
+    <key>nya_ematra</key>
+    <string>uni0C9E0CC6</string>
+    <key>nya_umatra</key>
+    <string>uni0C9E0CC1</string>
+    <key>nya_virama</key>
+    <string>uni0C9E0CCD</string>
     <key>objectReplacementCharacter</key>
     <string>uniFFFC</string>
     <key>om</key>
@@ -1247,6 +1303,14 @@
     <string>uni0CB1.sub</string>
     <key>rra.virama</key>
     <string>uni0CB1.virama</string>
+    <key>rra_aamatra</key>
+    <string>uni0CB10CBE</string>
+    <key>rra_aumatra</key>
+    <string>uni0CB10CCC</string>
+    <key>rra_ematra</key>
+    <string>uni0CB10CC6</string>
+    <key>rra_virama</key>
+    <string>uni0CB10CCD</string>
     <key>rrvocalicmatra</key>
     <string>uni0CC4</string>
     <key>rrvocalicvowel</key>
@@ -1409,6 +1473,8 @@
     <string>uni1CDE</string>
     <key>virama</key>
     <string>uni0CCD</string>
+    <key>virama.large</key>
+    <string>uni0CCD.large</string>
     <key>visarga</key>
     <string>uni0C83</string>
     <key>wj</key>
