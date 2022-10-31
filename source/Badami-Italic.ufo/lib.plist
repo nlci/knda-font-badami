@@ -8,7 +8,7 @@
   <string>3141</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/quotedblleft.latn/quoteleft.latn/quotedblleft/iivowel/quotedblright/quotedblright.latn</string>
+    <string>/quotedblleft.latn/quoteleft.latn/quotedblleft/ma/quotedblright/quotedblright.latn</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
