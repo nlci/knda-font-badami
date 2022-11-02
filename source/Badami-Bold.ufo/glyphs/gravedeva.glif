@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gravedeva" format="2">
-  <advance width="10"/>
   <unicode hex="0953"/>
   <outline>
     <contour>
@@ -10,4 +9,10 @@
       <point x="-292" y="554" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>10</integer>
+    </dict>
+  </lib>
 </glyph>

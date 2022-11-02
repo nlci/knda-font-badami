@@ -4,12 +4,6 @@
   <anchor x="276" y="-128" name="N"/>
   <outline>
     <component base="fa"/>
-    <component base="ematra.large" xOffset="555"/>
+    <component base="ematra.large" xOffset="547"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.04,0.57,0.04,1</string>
-    </dict>
-  </lib>
 </glyph>

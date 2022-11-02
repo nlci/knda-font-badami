@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nga_aumatra" format="2">
-  <advance width="945"/>
+  <advance width="1080"/>
   <anchor x="286" y="-130" name="N"/>
   <anchor x="572" y="0" name="_M"/>
   <outline>
     <component base="nga"/>
-    <component base="aumatra" xOffset="572"/>
+    <component base="aumatra.large" xOffset="774"/>
   </outline>
   <lib>
     <dict>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nga_ematra" format="2">
-  <advance width="791"/>
+  <advance width="826"/>
   <anchor x="286" y="-142" name="N"/>
   <outline>
     <component base="nga"/>
-    <component base="ematra.large" xOffset="572"/>
+    <component base="ematra.large" xOffset="571"/>
   </outline>
   <lib>
     <dict>

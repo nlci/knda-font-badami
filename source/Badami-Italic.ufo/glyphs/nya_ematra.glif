@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nya_ematra" format="2">
-  <advance width="1024"/>
+  <advance width="1019"/>
   <anchor x="449" y="-133" name="N"/>
   <outline>
     <component base="nya"/>
-    <component base="ematra.large" xOffset="805"/>
+    <component base="ematra.large" xOffset="802"/>
   </outline>
   <lib>
     <dict>

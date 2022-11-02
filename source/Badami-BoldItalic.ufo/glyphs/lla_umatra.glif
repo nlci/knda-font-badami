@@ -6,7 +6,33 @@
   <outline>
     <component base="lla.base"/>
     <component base="inherent" xOffset="449"/>
-    <component base="umatra" xOffset="459"/>
+    <contour>
+      <point x="744" y="232" type="curve" smooth="yes"/>
+      <point x="744" y="341"/>
+      <point x="661" y="419"/>
+      <point x="591" y="419" type="curve" smooth="yes"/>
+      <point x="562" y="419"/>
+      <point x="538" y="394"/>
+      <point x="538" y="371" type="curve" smooth="yes"/>
+      <point x="538" y="333"/>
+      <point x="609" y="331"/>
+      <point x="650" y="306" type="curve" smooth="yes"/>
+      <point x="690" y="282"/>
+      <point x="710" y="250"/>
+      <point x="710" y="209" type="curve" smooth="yes"/>
+      <point x="710" y="115"/>
+      <point x="627" y="82"/>
+      <point x="572" y="82" type="curve" smooth="yes"/>
+      <point x="470" y="82"/>
+      <point x="441" y="138"/>
+      <point x="440" y="192" type="curve"/>
+      <point x="425" y="190" type="line"/>
+      <point x="414" y="106"/>
+      <point x="428" y="-8"/>
+      <point x="547" y="-8" type="curve" smooth="yes"/>
+      <point x="687" y="-8"/>
+      <point x="744" y="158"/>
+    </contour>
   </outline>
   <lib>
     <dict>

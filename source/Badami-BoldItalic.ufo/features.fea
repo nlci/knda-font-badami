@@ -183,9 +183,9 @@ markClass ematra <anchor -81 414> @_V;
 
 # AP: V
 @V = [jha.base jha.regbase ma.base ya.base];
-# baseClass [jha.base jha.regbase] <anchor 380 413> @V;
-# baseClass ma.base <anchor 479 413> @V;
-# baseClass ya.base <anchor 599 413> @V;
+# baseClass [jha.base jha.regbase] <anchor 369 414> @V;
+# baseClass ma.base <anchor 469 414> @V;
+# baseClass ya.base <anchor 590 414> @V;
 
 # AP: _N
 markClass nukta <anchor -382 -116> @_N;
@@ -538,9 +538,9 @@ feature haln {
 # GPOS
 lookup EMatras {
     lookupflag 0;
-    pos base [jha.base jha.regbase] <anchor 380 413> mark @_V;
-    pos base ma.base <anchor 479 413> mark @_V;
-    pos base ya.base <anchor 599 413> mark @_V;
+    pos base [jha.base jha.regbase] <anchor 369 414> mark @_V;
+    pos base ma.base <anchor 469 414> mark @_V;
+    pos base ya.base <anchor 590 414> mark @_V;
 } EMatras;
 
 lookup Nuktas {

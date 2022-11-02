@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fa_virama" format="2">
-  <advance width="869"/>
+  <advance width="1044"/>
   <anchor x="277" y="-140" name="N"/>
   <outline>
     <component base="fa"/>
-    <component base="virama" xOffset="555"/>
+    <component base="virama.large" xOffset="760"/>
   </outline>
   <lib>
     <dict>

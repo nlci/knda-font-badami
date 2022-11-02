@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rra_ematra" format="2">
-  <advance width="774"/>
+  <advance width="792"/>
   <anchor x="323" y="-140" name="N"/>
   <outline>
     <component base="rra"/>
-    <component base="ematra.large" xOffset="555"/>
+    <component base="ematra.large" xOffset="575"/>
   </outline>
   <lib>
     <dict>

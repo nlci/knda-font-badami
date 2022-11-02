@@ -5,7 +5,33 @@
   <anchor x="805" y="0" name="_M"/>
   <outline>
     <component base="nya"/>
-    <component base="umatra" xOffset="805"/>
+    <contour>
+      <point x="1090" y="232" type="curve" smooth="yes"/>
+      <point x="1090" y="341"/>
+      <point x="1007" y="419"/>
+      <point x="937" y="419" type="curve" smooth="yes"/>
+      <point x="908" y="419"/>
+      <point x="884" y="394"/>
+      <point x="884" y="371" type="curve" smooth="yes"/>
+      <point x="884" y="333"/>
+      <point x="955" y="331"/>
+      <point x="996" y="306" type="curve" smooth="yes"/>
+      <point x="1036" y="282"/>
+      <point x="1056" y="250"/>
+      <point x="1056" y="209" type="curve" smooth="yes"/>
+      <point x="1056" y="115"/>
+      <point x="973" y="82"/>
+      <point x="918" y="82" type="curve" smooth="yes"/>
+      <point x="816" y="82"/>
+      <point x="787" y="138"/>
+      <point x="786" y="192" type="curve"/>
+      <point x="771" y="190" type="line"/>
+      <point x="760" y="106"/>
+      <point x="774" y="-8"/>
+      <point x="893" y="-8" type="curve" smooth="yes"/>
+      <point x="1033" y="-8"/>
+      <point x="1090" y="158"/>
+    </contour>
   </outline>
   <lib>
     <dict>

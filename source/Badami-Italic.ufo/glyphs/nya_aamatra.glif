@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nya_aamatra" format="2">
-  <advance width="1082"/>
+  <advance width="1187"/>
   <anchor x="449" y="-133" name="N"/>
   <anchor x="805" y="0" name="_M"/>
   <outline>
     <component base="nya"/>
-    <component base="aamatra" xOffset="805"/>
+    <component base="aamatra.large" xOffset="1000"/>
   </outline>
   <lib>
     <dict>

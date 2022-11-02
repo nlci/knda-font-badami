@@ -4,7 +4,7 @@
   <anchor x="448" y="-122" name="N"/>
   <outline>
     <component base="nya"/>
-    <component base="ematra.large" xOffset="805"/>
+    <component base="ematra.large" xOffset="785"/>
   </outline>
   <lib>
     <dict>

@@ -8,14 +8,14 @@
   <string>3141</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/nga.virama/rra.virama</string>
-    <string>/iivowel</string>
-    <string>/nya/ematra.large/space/nya/eematra/space/nya/aimatra</string>
-    <string>/nya.virama</string>
-    <string>/lla/umatra/nga/imatra t/ka.base/ematra</string>
-    <string>/endash</string>
-    <string>/quotedblright.latn/quotedblleft/ka/quotedblright/quoteleft</string>
-    <string>/aamatra/space/aumatra -/dandadbl/danda/emdash/endash/hyphen.latn 3</string>
+    <string>/virama/ha.base/lla/umatra/nga/imatra t/ka.base/ematra</string>
+    <string>-/dandadbl/danda/emdash/endash/hyphen.latn</string>
+    <string>/nga_aamatra/nga_ematra/nga_aumatra/nga_virama/ematra.large/space/aamatra.large/space/aumatra.large/space/virama.large/space/ematra 
+/nya_aamatra/nya_ematra/nya_aumatra/nya_virama/umatra/lla_umatra/nya_umatra/iivowel 
+/rra_aamatra/rra_ematra/rra_aumatra/rra_virama 
+/fa_aamatra/fa_ematra/fa_aumatra/fa_virama 
+/jha.base/jha/space/inherent/jha.regbase/ma.base/ya.base/space/ematra</string>
+    <string>/hyphentwo/ka.base/ka -/nbhyphen/figuredash/endash/emdash/horizontalbar</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

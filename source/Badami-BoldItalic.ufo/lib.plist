@@ -8,7 +8,12 @@
   <string>3141</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/quotedblleft.latn/quoteleft.latn/quotedblleft/ma/quotedblright/quotedblright.latn</string>
+    <string>/nga_aamatra/nga_ematra/nga_aumatra/nga_virama/ematra.large/space/aamatra.large/space/aumatra.large/space/virama.large/space/ematra 
+/nya_aamatra/nya_ematra/nya_aumatra/nya_virama/nya_umatra/umatra/lla_umatra/nya_umatra 
+/rra_aamatra/rra_ematra/rra_aumatra/rra_virama 
+/fa_aamatra/fa_ematra/fa_aumatra/fa_virama 
+/jha.base/jha.regbase/ma.base/space/ematra/ya.base/space/virama</string>
+    <string>/fa_virama/hyphentwo/hyphen.latn/ka.base/ka -/nbhyphen/figuredash/endash/emdash/horizontalbar</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

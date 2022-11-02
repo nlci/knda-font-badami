@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="jha.base" format="2">
   <advance width="955"/>
-  <anchor x="287" y="413" name="V"/>
+  <anchor x="281" y="414" name="V"/>
   <outline>
     <component base="ra.base"/>
     <component base="jha.part" xOffset="439"/>
-    <component base="umatra" xOffset="697"/>
+    <component base="umatra" xOffset="700"/>
   </outline>
 </glyph>
