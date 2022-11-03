@@ -10,12 +10,12 @@
   <array>
     <string>/virama/ha.base/lla/umatra/nga/imatra t/ka.base/ematra</string>
     <string>-/dandadbl/danda/emdash/endash/hyphen.latn</string>
-    <string>/nga_aamatra/nga_ematra/nga_aumatra/nga_virama/ematra.large/space/aamatra.large/space/aumatra.large/space/virama.large/space/ematra 
+    <string>/nga_aamatra/nga_ematra/nga_aumatra/nga_virama/ematra.large/space/aamatra.large/space/aumatra.large/space/virama.large/space/ematra/space !./ta.imathra 
 /nya_aamatra/nya_ematra/nya_aumatra/nya_virama/umatra/lla_umatra/nya_umatra/iivowel 
 /rra_aamatra/rra_ematra/rra_aumatra/rra_virama 
 /fa_aamatra/fa_ematra/fa_aumatra/fa_virama 
 /jha.base/jha/space/inherent/jha.regbase/ma.base/ya.base/space/ematra</string>
-    <string>/hyphentwo/ka.base/ka -/nbhyphen/figuredash/endash/emdash/horizontalbar</string>
+    <string>/hyphentwo/ka.base/ka !-/nbhyphen/figuredash/endash/emdash/horizontalbar</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

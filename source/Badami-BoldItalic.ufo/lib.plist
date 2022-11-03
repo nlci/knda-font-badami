@@ -13,7 +13,8 @@
 /rra_aamatra/rra_ematra/rra_aumatra/rra_virama 
 /fa_aamatra/fa_ematra/fa_aumatra/fa_virama 
 /jha.base/jha.regbase/ma.base/space/ematra/ya.base/space/virama</string>
-    <string>/fa_virama/hyphentwo/hyphen.latn/ka.base/ka -/nbhyphen/figuredash/endash/emdash/horizontalbar</string>
+    <string>/fa_virama/hyphentwo/hyphen.latn/ka.base/ka -/nbhyphen/figuredash/endash/emdash/horizontalbar !</string>
+    <string>!./ta.imathra</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
