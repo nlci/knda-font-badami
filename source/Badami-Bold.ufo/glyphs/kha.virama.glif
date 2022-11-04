@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="kha.virama" format="2">
-  <advance width="955"/>
-  <outline>
-    <component base="kha.base"/>
-    <component base="virama" xOffset="641"/>
-  </outline>
-</glyph>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="divisionslash" format="2">
-  <advance width="275"/>
-  <unicode hex="2215"/>
+<glyph name="pha_virama" format="2">
+  <advance width="847"/>
   <outline>
-    <component base="slash"/>
+    <component base="pha.base"/>
+    <component base="virama" xOffset="533"/>
   </outline>
   <lib>
     <dict>
