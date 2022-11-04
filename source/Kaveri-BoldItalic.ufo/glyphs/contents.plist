@@ -254,8 +254,8 @@
   <string>ba.imathra.glif</string>
   <key>ba.sub</key>
   <string>ba.sub.glif</string>
-  <key>ba.virama</key>
-  <string>ba.virama.glif</string>
+  <key>ba_virama</key>
+  <string>ba_virama.glif</string>
   <key>backslash</key>
   <string>backslash.glif</string>
   <key>bar</key>
@@ -268,8 +268,8 @@
   <string>bha.imathra.glif</string>
   <key>bha.sub</key>
   <string>bha.sub.glif</string>
-  <key>bha.virama</key>
-  <string>bha.virama.glif</string>
+  <key>bha_virama</key>
+  <string>bha_virama.glif</string>
   <key>braceleft</key>
   <string>braceleft.glif</string>
   <key>braceright</key>
@@ -296,8 +296,8 @@
   <string>ca.imathra.glif</string>
   <key>ca.sub</key>
   <string>ca.sub.glif</string>
-  <key>ca.virama</key>
-  <string>ca.virama.glif</string>
+  <key>ca_virama</key>
+  <string>ca_virama.glif</string>
   <key>candrabindu</key>
   <string>candrabindu.glif</string>
   <key>caron</key>
@@ -330,8 +330,8 @@
   <string>cha.imathra.glif</string>
   <key>cha.sub</key>
   <string>cha.sub.glif</string>
-  <key>cha.virama</key>
-  <string>cha.virama.glif</string>
+  <key>cha_virama</key>
+  <string>cha_virama.glif</string>
   <key>circumflex</key>
   <string>circumflex.glif</string>
   <key>circumflexcomb</key>
@@ -368,8 +368,8 @@
   <string>da.imathra.glif</string>
   <key>da.sub</key>
   <string>da.sub.glif</string>
-  <key>da.virama</key>
-  <string>da.virama.glif</string>
+  <key>da_virama</key>
+  <string>da_virama.glif</string>
   <key>dagger</key>
   <string>dagger.glif</string>
   <key>daggerdbl</key>
@@ -386,8 +386,8 @@
   <string>dda.imathra.glif</string>
   <key>dda.sub</key>
   <string>dda.sub.glif</string>
-  <key>dda.virama</key>
-  <string>dda.virama.glif</string>
+  <key>dda_virama</key>
+  <string>dda_virama.glif</string>
   <key>ddha</key>
   <string>ddha.glif</string>
   <key>ddha.base</key>
@@ -396,8 +396,8 @@
   <string>ddha.imathra.glif</string>
   <key>ddha.sub</key>
   <string>ddha.sub.glif</string>
-  <key>ddha.virama</key>
-  <string>ddha.virama.glif</string>
+  <key>ddha_virama</key>
+  <string>ddha_virama.glif</string>
   <key>degree</key>
   <string>degree.glif</string>
   <key>dha</key>
@@ -408,8 +408,8 @@
   <string>dha.imathra.glif</string>
   <key>dha.sub</key>
   <string>dha.sub.glif</string>
-  <key>dha.virama</key>
-  <string>dha.virama.glif</string>
+  <key>dha_virama</key>
+  <string>dha_virama.glif</string>
   <key>dieresis</key>
   <string>dieresis.glif</string>
   <key>dieresiscomb</key>
@@ -492,8 +492,6 @@
   <string>fa.imathra.glif</string>
   <key>fa.sub</key>
   <string>fa.sub.glif</string>
-  <key>fa.virama</key>
-  <string>fa.virama.glif</string>
   <key>fa_aamatra</key>
   <string>fa_aamatra.glif</string>
   <key>fa_aumatra</key>
@@ -550,8 +548,8 @@
   <string>ga.imathra.glif</string>
   <key>ga.sub</key>
   <string>ga.sub.glif</string>
-  <key>ga.virama</key>
-  <string>ga.virama.glif</string>
+  <key>ga_virama</key>
+  <string>ga_virama.glif</string>
   <key>germandbls</key>
   <string>germandbls.glif</string>
   <key>gha</key>
@@ -562,8 +560,8 @@
   <string>gha.imathra.glif</string>
   <key>gha.sub</key>
   <string>gha.sub.glif</string>
-  <key>gha.virama</key>
-  <string>gha.virama.glif</string>
+  <key>gha_virama</key>
+  <string>gha_virama.glif</string>
   <key>grave</key>
   <string>grave.glif</string>
   <key>gravecomb</key>
@@ -594,8 +592,8 @@
   <string>ha.imathra.glif</string>
   <key>ha.sub</key>
   <string>ha.sub.glif</string>
-  <key>ha.virama</key>
-  <string>ha.virama.glif</string>
+  <key>ha_virama</key>
+  <string>ha_virama.glif</string>
   <key>hairspace</key>
   <string>hairspace.glif</string>
   <key>halfbracketleftbottom</key>
@@ -656,14 +654,14 @@
   <string>ja.imathra.glif</string>
   <key>ja.sub</key>
   <string>ja.sub.glif</string>
-  <key>ja.virama</key>
-  <string>ja.virama.glif</string>
   <key>ja_nya</key>
   <string>ja_nya.glif</string>
   <key>ja_nya.base</key>
   <string>ja_nya.base.glif</string>
   <key>ja_nya.imathra</key>
   <string>ja_nya.imathra.glif</string>
+  <key>ja_virama</key>
+  <string>ja_virama.glif</string>
   <key>jdotless</key>
   <string>jdotless.glif</string>
   <key>jha</key>
@@ -680,8 +678,8 @@
   <string>jha.regbase.glif</string>
   <key>jha.sub</key>
   <string>jha.sub.glif</string>
-  <key>jha.virama</key>
-  <string>jha.virama.glif</string>
+  <key>jha_virama</key>
+  <string>jha_virama.glif</string>
   <key>jihvamuliya</key>
   <string>jihvamuliya.glif</string>
   <key>k</key>
@@ -694,8 +692,6 @@
   <string>ka.imathra.glif</string>
   <key>ka.sub</key>
   <string>ka.sub.glif</string>
-  <key>ka.virama</key>
-  <string>ka.virama.glif</string>
   <key>ka_rvocalicmatra.below</key>
   <string>ka_rvocalicmatra.below.glif</string>
   <key>ka_ssa</key>
@@ -704,6 +700,8 @@
   <string>ka_ssa.base.glif</string>
   <key>ka_ssa.imathra</key>
   <string>ka_ssa.imathra.glif</string>
+  <key>ka_virama</key>
+  <string>ka_virama.glif</string>
   <key>kha</key>
   <string>kha.glif</string>
   <key>kha.base</key>
@@ -712,8 +710,8 @@
   <string>kha.imathra.glif</string>
   <key>kha.sub</key>
   <string>kha.sub.glif</string>
-  <key>kha.virama</key>
-  <string>kha.virama.glif</string>
+  <key>kha_virama</key>
+  <string>kha_virama.glif</string>
   <key>l</key>
   <string>l.glif</string>
   <key>la</key>
@@ -724,8 +722,8 @@
   <string>la.imathra.glif</string>
   <key>la.sub</key>
   <string>la.sub.glif</string>
-  <key>la.virama</key>
-  <string>la.virama.glif</string>
+  <key>la_virama</key>
+  <string>la_virama.glif</string>
   <key>lengthmark</key>
   <string>lengthmark.glif</string>
   <key>less</key>
@@ -742,10 +740,10 @@
   <string>lla.imathra.glif</string>
   <key>lla.sub</key>
   <string>lla.sub.glif</string>
-  <key>lla.virama</key>
-  <string>lla.virama.glif</string>
   <key>lla_umatra</key>
   <string>lla_umatra.glif</string>
+  <key>lla_virama</key>
+  <string>lla_virama.glif</string>
   <key>llvocalicmatra</key>
   <string>llvocalicmatra.glif</string>
   <key>llvocalicmatra.alt</key>
@@ -778,8 +776,8 @@
   <string>ma.regbase.glif</string>
   <key>ma.sub</key>
   <string>ma.sub.glif</string>
-  <key>ma.virama</key>
-  <string>ma.virama.glif</string>
+  <key>ma_virama</key>
+  <string>ma_virama.glif</string>
   <key>macron</key>
   <string>macron.glif</string>
   <key>minus</key>
@@ -800,8 +798,8 @@
   <string>na.imathra.glif</string>
   <key>na.sub</key>
   <string>na.sub.glif</string>
-  <key>na.virama</key>
-  <string>na.virama.glif</string>
+  <key>na_virama</key>
+  <string>na_virama.glif</string>
   <key>nakaarapollu</key>
   <string>nakaarapollu.glif</string>
   <key>nbhyphen</key>
@@ -816,8 +814,6 @@
   <string>nga.altbase.glif</string>
   <key>nga.sub</key>
   <string>nga.sub.glif</string>
-  <key>nga.virama</key>
-  <string>nga.virama.glif</string>
   <key>nga_aamatra</key>
   <string>nga_aamatra.glif</string>
   <key>nga_aumatra</key>
@@ -842,8 +838,8 @@
   <string>nna.imathra.glif</string>
   <key>nna.sub</key>
   <string>nna.sub.glif</string>
-  <key>nna.virama</key>
-  <string>nna.virama.glif</string>
+  <key>nna_virama</key>
+  <string>nna_virama.glif</string>
   <key>nnbspace</key>
   <string>nnbspace.glif</string>
   <key>nonmarkingreturn</key>
@@ -862,8 +858,6 @@
   <string>nya.glif</string>
   <key>nya.sub</key>
   <string>nya.sub.glif</string>
-  <key>nya.virama</key>
-  <string>nya.virama.glif</string>
   <key>nya_aamatra</key>
   <string>nya_aamatra.glif</string>
   <key>nya_aumatra</key>
@@ -940,8 +934,8 @@
   <string>pa.imathra.glif</string>
   <key>pa.sub</key>
   <string>pa.sub.glif</string>
-  <key>pa.virama</key>
-  <string>pa.virama.glif</string>
+  <key>pa_virama</key>
+  <string>pa_virama.glif</string>
   <key>paragraph</key>
   <string>paragraph.glif</string>
   <key>paragraphseparator</key>
@@ -978,8 +972,8 @@
   <string>pha.imathra.glif</string>
   <key>pha.sub</key>
   <string>pha.sub.glif</string>
-  <key>pha.virama</key>
-  <string>pha.virama.glif</string>
+  <key>pha_virama</key>
+  <string>pha_virama.glif</string>
   <key>pi</key>
   <string>pi.glif</string>
   <key>plus</key>
@@ -1038,10 +1032,10 @@
   <string>ra.below.subcons.glif</string>
   <key>ra.imathra</key>
   <string>ra.imathra.glif</string>
-  <key>ra.virama</key>
-  <string>ra.virama.glif</string>
   <key>ra_ailengthmark.below</key>
   <string>ra_ailengthmark.below.glif</string>
+  <key>ra_virama</key>
+  <string>ra_virama.glif</string>
   <key>radical</key>
   <string>radical.glif</string>
   <key>registered</key>
@@ -1060,8 +1054,6 @@
   <string>rra.imathra.glif</string>
   <key>rra.sub</key>
   <string>rra.sub.glif</string>
-  <key>rra.virama</key>
-  <string>rra.virama.glif</string>
   <key>rra_aamatra</key>
   <string>rra_aamatra.glif</string>
   <key>rra_aumatra</key>
@@ -1092,8 +1084,8 @@
   <string>sa.imathra.glif</string>
   <key>sa.sub</key>
   <string>sa.sub.glif</string>
-  <key>sa.virama</key>
-  <string>sa.virama.glif</string>
+  <key>sa_virama</key>
+  <string>sa_virama.glif</string>
   <key>scaron</key>
   <string>scaron.glif</string>
   <key>section</key>
@@ -1118,10 +1110,10 @@
   <string>sha.imathra.glif</string>
   <key>sha.sub</key>
   <string>sha.sub.glif</string>
-  <key>sha.virama</key>
-  <string>sha.virama.glif</string>
   <key>sha_ra.imathra</key>
   <string>sha_ra.imathra.glif</string>
+  <key>sha_virama</key>
+  <string>sha_virama.glif</string>
   <key>shortrr</key>
   <string>shortrr.glif</string>
   <key>siddham</key>
@@ -1160,8 +1152,8 @@
   <string>ssa.imathra.glif</string>
   <key>ssa.sub</key>
   <string>ssa.sub.glif</string>
-  <key>ssa.virama</key>
-  <string>ssa.virama.glif</string>
+  <key>ssa_virama</key>
+  <string>ssa_virama.glif</string>
   <key>sterling</key>
   <string>sterling.glif</string>
   <key>summation</key>
@@ -1176,14 +1168,14 @@
   <string>ta.imathra.glif</string>
   <key>ta.sub</key>
   <string>ta.sub.glif</string>
-  <key>ta.virama</key>
-  <string>ta.virama.glif</string>
   <key>ta_ailengthmark.below</key>
   <string>ta_ailengthmark.below.glif</string>
   <key>ta_rvocalicmatra.below</key>
   <string>ta_rvocalicmatra.below.glif</string>
   <key>ta_va.below</key>
   <string>ta_va.below.glif</string>
+  <key>ta_virama</key>
+  <string>ta_virama.glif</string>
   <key>ta_ya.below</key>
   <string>ta_ya.below.glif</string>
   <key>tha</key>
@@ -1194,8 +1186,8 @@
   <string>tha.imathra.glif</string>
   <key>tha.sub</key>
   <string>tha.sub.glif</string>
-  <key>tha.virama</key>
-  <string>tha.virama.glif</string>
+  <key>tha_virama</key>
+  <string>tha_virama.glif</string>
   <key>thinspace</key>
   <string>thinspace.glif</string>
   <key>thorn</key>
@@ -1230,8 +1222,8 @@
   <string>tta.imathra.glif</string>
   <key>tta.sub</key>
   <string>tta.sub.glif</string>
-  <key>tta.virama</key>
-  <string>tta.virama.glif</string>
+  <key>tta_virama</key>
+  <string>tta_virama.glif</string>
   <key>ttha</key>
   <string>ttha.glif</string>
   <key>ttha.base</key>
@@ -1240,8 +1232,8 @@
   <string>ttha.imathra.glif</string>
   <key>ttha.sub</key>
   <string>ttha.sub.glif</string>
-  <key>ttha.virama</key>
-  <string>ttha.virama.glif</string>
+  <key>ttha_virama</key>
+  <string>ttha_virama.glif</string>
   <key>two</key>
   <string>two.glif</string>
   <key>two.denominator</key>
@@ -1292,8 +1284,8 @@
   <string>va.imathra.glif</string>
   <key>va.sub</key>
   <string>va.sub.glif</string>
-  <key>va.virama</key>
-  <string>va.virama.glif</string>
+  <key>va_virama</key>
+  <string>va_virama.glif</string>
   <key>vedicsignjihvamuliya</key>
   <string>vedicsignjihvamuliya.glif</string>
   <key>vedictonedotbelow</key>
@@ -1336,8 +1328,8 @@
   <string>ya.regbase.glif</string>
   <key>ya.sub</key>
   <string>ya.sub.glif</string>
-  <key>ya.virama</key>
-  <string>ya.virama.glif</string>
+  <key>ya_virama</key>
+  <string>ya_virama.glif</string>
   <key>yacute</key>
   <string>yacute.glif</string>
   <key>ydieresis</key>

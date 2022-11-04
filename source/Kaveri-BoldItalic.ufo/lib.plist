@@ -309,30 +309,29 @@
     <string>ka.base</string>
     <string>ka.imathra</string>
     <string>ka.sub</string>
-    <string>ka.virama</string>
     <string>ka_ssa</string>
     <string>ka_ssa.base</string>
     <string>ka_ssa.imathra</string>
     <string>ka_rvocalicmatra.below</string>
+    <string>ka_virama</string>
     <string>kha</string>
     <string>kha.base</string>
     <string>kha.imathra</string>
     <string>kha.sub</string>
-    <string>kha.virama</string>
+    <string>kha_virama</string>
     <string>ga</string>
     <string>ga.base</string>
     <string>ga.imathra</string>
     <string>ga.sub</string>
-    <string>ga.virama</string>
+    <string>ga_virama</string>
     <string>gha</string>
     <string>gha.base</string>
     <string>gha.imathra</string>
     <string>gha.sub</string>
-    <string>gha.virama</string>
+    <string>gha_virama</string>
     <string>nga</string>
     <string>nga.altbase</string>
     <string>nga.sub</string>
-    <string>nga.virama</string>
     <string>nga_aamatra</string>
     <string>nga_ematra</string>
     <string>nga_aumatra</string>
@@ -341,20 +340,20 @@
     <string>ca.base</string>
     <string>ca.imathra</string>
     <string>ca.sub</string>
-    <string>ca.virama</string>
+    <string>ca_virama</string>
     <string>cha</string>
     <string>cha.base</string>
     <string>cha.imathra</string>
     <string>cha.sub</string>
-    <string>cha.virama</string>
+    <string>cha_virama</string>
     <string>ja</string>
     <string>ja.base</string>
     <string>ja.imathra</string>
     <string>ja.sub</string>
-    <string>ja.virama</string>
     <string>ja_nya</string>
     <string>ja_nya.base</string>
     <string>ja_nya.imathra</string>
+    <string>ja_virama</string>
     <string>jha</string>
     <string>jha.base</string>
     <string>jha.imathra</string>
@@ -362,10 +361,9 @@
     <string>jha.part</string>
     <string>jha.regbase</string>
     <string>jha.sub</string>
-    <string>jha.virama</string>
+    <string>jha_virama</string>
     <string>nya</string>
     <string>nya.sub</string>
-    <string>nya.virama</string>
     <string>nya_aamatra</string>
     <string>nya_umatra</string>
     <string>nya_ematra</string>
@@ -375,83 +373,83 @@
     <string>tta.base</string>
     <string>tta.imathra</string>
     <string>tta.sub</string>
-    <string>tta.virama</string>
+    <string>tta_virama</string>
     <string>ttha</string>
     <string>ttha.base</string>
     <string>ttha.imathra</string>
     <string>ttha.sub</string>
-    <string>ttha.virama</string>
+    <string>ttha_virama</string>
     <string>dda</string>
     <string>dda.base</string>
     <string>dda.imathra</string>
     <string>dda.sub</string>
-    <string>dda.virama</string>
+    <string>dda_virama</string>
     <string>ddha</string>
     <string>ddha.base</string>
     <string>ddha.imathra</string>
     <string>ddha.sub</string>
-    <string>ddha.virama</string>
+    <string>ddha_virama</string>
     <string>nna</string>
     <string>nna.base</string>
     <string>nna.imathra</string>
     <string>nna.sub</string>
-    <string>nna.virama</string>
+    <string>nna_virama</string>
     <string>ta</string>
     <string>ta.base</string>
     <string>ta.imathra</string>
     <string>ta.sub</string>
-    <string>ta.virama</string>
     <string>ta_ya.below</string>
     <string>ta_va.below</string>
     <string>ta_rvocalicmatra.below</string>
+    <string>ta_virama</string>
     <string>ta_ailengthmark.below</string>
     <string>tha</string>
     <string>tha.base</string>
     <string>tha.imathra</string>
     <string>tha.sub</string>
-    <string>tha.virama</string>
+    <string>tha_virama</string>
     <string>da</string>
     <string>da.base</string>
     <string>da.imathra</string>
     <string>da.sub</string>
-    <string>da.virama</string>
+    <string>da_virama</string>
     <string>dha</string>
     <string>dha.base</string>
     <string>dha.imathra</string>
     <string>dha.sub</string>
-    <string>dha.virama</string>
+    <string>dha_virama</string>
     <string>na</string>
     <string>na.base</string>
     <string>na.imathra</string>
     <string>na.sub</string>
-    <string>na.virama</string>
+    <string>na_virama</string>
     <string>pa</string>
     <string>pa.base</string>
     <string>pa.imathra</string>
     <string>pa.sub</string>
-    <string>pa.virama</string>
+    <string>pa_virama</string>
     <string>pha</string>
     <string>pha.base</string>
     <string>pha.imathra</string>
     <string>pha.sub</string>
-    <string>pha.virama</string>
+    <string>pha_virama</string>
     <string>ba</string>
     <string>ba.base</string>
     <string>ba.imathra</string>
     <string>ba.sub</string>
-    <string>ba.virama</string>
+    <string>ba_virama</string>
     <string>bha</string>
     <string>bha.base</string>
     <string>bha.imathra</string>
     <string>bha.sub</string>
-    <string>bha.virama</string>
+    <string>bha_virama</string>
     <string>ma</string>
     <string>ma.base</string>
     <string>ma.imathra</string>
     <string>ma.noEbase</string>
     <string>ma.regbase</string>
     <string>ma.sub</string>
-    <string>ma.virama</string>
+    <string>ma_virama</string>
     <string>ya</string>
     <string>ya.base</string>
     <string>ya.imathra</string>
@@ -459,7 +457,7 @@
     <string>ya.part</string>
     <string>ya.regbase</string>
     <string>ya.sub</string>
-    <string>ya.virama</string>
+    <string>ya_virama</string>
     <string>ra</string>
     <string>ra.base</string>
     <string>ra.below</string>
@@ -467,12 +465,11 @@
     <string>ra.below.ra</string>
     <string>ra.below.subcons</string>
     <string>ra.imathra</string>
-    <string>ra.virama</string>
+    <string>ra_virama</string>
     <string>ra_ailengthmark.below</string>
     <string>rra</string>
     <string>rra.imathra</string>
     <string>rra.sub</string>
-    <string>rra.virama</string>
     <string>rra_aamatra</string>
     <string>rra_ematra</string>
     <string>rra_aumatra</string>
@@ -481,39 +478,39 @@
     <string>la.base</string>
     <string>la.imathra</string>
     <string>la.sub</string>
-    <string>la.virama</string>
+    <string>la_virama</string>
     <string>lla</string>
     <string>lla.base</string>
     <string>lla.imathra</string>
     <string>lla.sub</string>
-    <string>lla.virama</string>
     <string>lla_umatra</string>
+    <string>lla_virama</string>
     <string>va</string>
     <string>va.base</string>
     <string>va.imathra</string>
     <string>va.sub</string>
-    <string>va.virama</string>
+    <string>va_virama</string>
     <string>sha</string>
     <string>sha.base</string>
     <string>sha.imathra</string>
     <string>sha.sub</string>
-    <string>sha.virama</string>
     <string>sha_ra.imathra</string>
+    <string>sha_virama</string>
     <string>ssa</string>
     <string>ssa.base</string>
     <string>ssa.imathra</string>
     <string>ssa.sub</string>
-    <string>ssa.virama</string>
+    <string>ssa_virama</string>
     <string>sa</string>
     <string>sa.base</string>
     <string>sa.imathra</string>
     <string>sa.sub</string>
-    <string>sa.virama</string>
+    <string>sa_virama</string>
     <string>ha</string>
     <string>ha.base</string>
     <string>ha.imathra</string>
     <string>ha.sub</string>
-    <string>ha.virama</string>
+    <string>ha_virama</string>
     <string>nukta</string>
     <string>nukta.alt</string>
     <string>avagraha</string>
@@ -545,7 +542,6 @@
     <string>fa</string>
     <string>fa.imathra</string>
     <string>fa.sub</string>
-    <string>fa.virama</string>
     <string>fa_aamatra</string>
     <string>fa_ematra</string>
     <string>fa_aumatra</string>
@@ -778,8 +774,8 @@
     <string>uni0CAC.imathra</string>
     <key>ba.sub</key>
     <string>uni0CAC.sub</string>
-    <key>ba.virama</key>
-    <string>uni0CAC.virama</string>
+    <key>ba_virama</key>
+    <string>uni0CAC0CCD</string>
     <key>bha</key>
     <string>uni0CAD</string>
     <key>bha.base</key>
@@ -788,8 +784,8 @@
     <string>uni0CAD.imathra</string>
     <key>bha.sub</key>
     <string>uni0CAD.sub</string>
-    <key>bha.virama</key>
-    <string>uni0CAD.virama</string>
+    <key>bha_virama</key>
+    <string>uni0CAD0CCD</string>
     <key>bulletoperator</key>
     <string>uni2219</string>
     <key>ca</key>
@@ -800,8 +796,8 @@
     <string>uni0C9A.imathra</string>
     <key>ca.sub</key>
     <string>uni0C9A.sub</string>
-    <key>ca.virama</key>
-    <string>uni0C9A.virama</string>
+    <key>ca_virama</key>
+    <string>uni0C9A0CCD</string>
     <key>candrabindu</key>
     <string>uni0C81</string>
     <key>caroncomb</key>
@@ -826,8 +822,8 @@
     <string>uni0C9B.imathra</string>
     <key>cha.sub</key>
     <string>uni0C9B.sub</string>
-    <key>cha.virama</key>
-    <string>uni0C9B.virama</string>
+    <key>cha_virama</key>
+    <string>uni0C9B0CCD</string>
     <key>circumflexcomb</key>
     <string>uni0302</string>
     <key>circumflexcomb.case</key>
@@ -848,8 +844,8 @@
     <string>uni0CA6.imathra</string>
     <key>da.sub</key>
     <string>uni0CA6.sub</string>
-    <key>da.virama</key>
-    <string>uni0CA6.virama</string>
+    <key>da_virama</key>
+    <string>uni0CA60CCD</string>
     <key>danda</key>
     <string>uni0964</string>
     <key>dandadbl</key>
@@ -862,8 +858,8 @@
     <string>uni0CA1.imathra</string>
     <key>dda.sub</key>
     <string>uni0CA1.sub</string>
-    <key>dda.virama</key>
-    <string>uni0CA1.virama</string>
+    <key>dda_virama</key>
+    <string>uni0CA10CCD</string>
     <key>ddha</key>
     <string>uni0CA2</string>
     <key>ddha.base</key>
@@ -872,8 +868,8 @@
     <string>uni0CA2.imathra</string>
     <key>ddha.sub</key>
     <string>uni0CA2.sub</string>
-    <key>ddha.virama</key>
-    <string>uni0CA2.virama</string>
+    <key>ddha_virama</key>
+    <string>uni0CA20CCD</string>
     <key>dha</key>
     <string>uni0CA7</string>
     <key>dha.base</key>
@@ -882,8 +878,8 @@
     <string>uni0CA7.imathra</string>
     <key>dha.sub</key>
     <string>uni0CA7.sub</string>
-    <key>dha.virama</key>
-    <string>uni0CA7.virama</string>
+    <key>dha_virama</key>
+    <string>uni0CA70CCD</string>
     <key>dieresiscomb</key>
     <string>uni0308</string>
     <key>dieresiscomb.case</key>
@@ -924,8 +920,6 @@
     <string>uni0CDE.imathra</string>
     <key>fa.sub</key>
     <string>uni0CDE.sub</string>
-    <key>fa.virama</key>
-    <string>uni0CDE.virama</string>
     <key>fa_aamatra</key>
     <string>uni0CDE0CBE</string>
     <key>fa_aumatra</key>
@@ -962,8 +956,8 @@
     <string>uni0C97.imathra</string>
     <key>ga.sub</key>
     <string>uni0C97.sub</string>
-    <key>ga.virama</key>
-    <string>uni0C97.virama</string>
+    <key>ga_virama</key>
+    <string>uni0C970CCD</string>
     <key>gha</key>
     <string>uni0C98</string>
     <key>gha.base</key>
@@ -972,8 +966,8 @@
     <string>uni0C98.imathra</string>
     <key>gha.sub</key>
     <string>uni0C98.sub</string>
-    <key>gha.virama</key>
-    <string>uni0C98.virama</string>
+    <key>gha_virama</key>
+    <string>uni0C980CCD</string>
     <key>gravedeva</key>
     <string>uni0953</string>
     <key>guillemetleft</key>
@@ -988,8 +982,8 @@
     <string>uni0CB9.imathra</string>
     <key>ha.sub</key>
     <string>uni0CB9.sub</string>
-    <key>ha.virama</key>
-    <string>uni0CB9.virama</string>
+    <key>ha_virama</key>
+    <string>uni0CB90CCD</string>
     <key>hairspace</key>
     <string>uni200A</string>
     <key>halfbracketleftbottom</key>
@@ -1026,14 +1020,14 @@
     <string>uni0C9C.imathra</string>
     <key>ja.sub</key>
     <string>uni0C9C.sub</string>
-    <key>ja.virama</key>
-    <string>uni0C9C.virama</string>
     <key>ja_nya</key>
     <string>uni0C9C0C9E</string>
     <key>ja_nya.base</key>
     <string>uni0C9C0C9E.base</string>
     <key>ja_nya.imathra</key>
     <string>uni0C9C0C9E.imathra</string>
+    <key>ja_virama</key>
+    <string>uni0C9C0CCD</string>
     <key>jha</key>
     <string>uni0C9D</string>
     <key>jha.base</key>
@@ -1048,8 +1042,8 @@
     <string>uni0C9D.regbase</string>
     <key>jha.sub</key>
     <string>uni0C9D.sub</string>
-    <key>jha.virama</key>
-    <string>uni0C9D.virama</string>
+    <key>jha_virama</key>
+    <string>uni0C9D0CCD</string>
     <key>jihvamuliya</key>
     <string>uni0CF1</string>
     <key>ka</key>
@@ -1060,8 +1054,6 @@
     <string>uni0C95.imathra</string>
     <key>ka.sub</key>
     <string>uni0C95.sub</string>
-    <key>ka.virama</key>
-    <string>uni0C95.virama</string>
     <key>ka_rvocalicmatra.below</key>
     <string>uni0C950CC3.below</string>
     <key>ka_ssa</key>
@@ -1070,6 +1062,8 @@
     <string>uni0C950CB7.base</string>
     <key>ka_ssa.imathra</key>
     <string>uni0C950CB7.imathra</string>
+    <key>ka_virama</key>
+    <string>uni0C950CCD</string>
     <key>kha</key>
     <string>uni0C96</string>
     <key>kha.base</key>
@@ -1078,8 +1072,8 @@
     <string>uni0C96.imathra</string>
     <key>kha.sub</key>
     <string>uni0C96.sub</string>
-    <key>kha.virama</key>
-    <string>uni0C96.virama</string>
+    <key>kha_virama</key>
+    <string>uni0C960CCD</string>
     <key>la</key>
     <string>uni0CB2</string>
     <key>la.base</key>
@@ -1088,8 +1082,8 @@
     <string>uni0CB2.imathra</string>
     <key>la.sub</key>
     <string>uni0CB2.sub</string>
-    <key>la.virama</key>
-    <string>uni0CB2.virama</string>
+    <key>la_virama</key>
+    <string>uni0CB20CCD</string>
     <key>lengthmark</key>
     <string>uni0CD5</string>
     <key>lineseparator</key>
@@ -1102,10 +1096,10 @@
     <string>uni0CB3.imathra</string>
     <key>lla.sub</key>
     <string>uni0CB3.sub</string>
-    <key>lla.virama</key>
-    <string>uni0CB3.virama</string>
     <key>lla_umatra</key>
     <string>uni0CB30CC1</string>
+    <key>lla_virama</key>
+    <string>uni0CB30CCD</string>
     <key>llvocalicmatra</key>
     <string>uni0CE3</string>
     <key>llvocalicmatra.alt</key>
@@ -1132,8 +1126,8 @@
     <string>uni0CAE.regbase</string>
     <key>ma.sub</key>
     <string>uni0CAE.sub</string>
-    <key>ma.virama</key>
-    <string>uni0CAE.virama</string>
+    <key>ma_virama</key>
+    <string>uni0CAE0CCD</string>
     <key>na</key>
     <string>uni0CA8</string>
     <key>na.base</key>
@@ -1142,8 +1136,8 @@
     <string>uni0CA8.imathra</string>
     <key>na.sub</key>
     <string>uni0CA8.sub</string>
-    <key>na.virama</key>
-    <string>uni0CA8.virama</string>
+    <key>na_virama</key>
+    <string>uni0CA80CCD</string>
     <key>nakaarapollu</key>
     <string>uni0CDD</string>
     <key>nbhyphen</key>
@@ -1158,8 +1152,6 @@
     <string>uni0C99.altbase</string>
     <key>nga.sub</key>
     <string>uni0C99.sub</string>
-    <key>nga.virama</key>
-    <string>uni0C99.virama</string>
     <key>nga_aamatra</key>
     <string>uni0C990CBE</string>
     <key>nga_aumatra</key>
@@ -1180,8 +1172,8 @@
     <string>uni0CA3.imathra</string>
     <key>nna.sub</key>
     <string>uni0CA3.sub</string>
-    <key>nna.virama</key>
-    <string>uni0CA3.virama</string>
+    <key>nna_virama</key>
+    <string>uni0CA30CCD</string>
     <key>nnbspace</key>
     <string>uni202F</string>
     <key>nukta</key>
@@ -1192,8 +1184,6 @@
     <string>uni0C9E</string>
     <key>nya.sub</key>
     <string>uni0C9E.sub</string>
-    <key>nya.virama</key>
-    <string>uni0C9E.virama</string>
     <key>nya_aamatra</key>
     <string>uni0C9E0CBE</string>
     <key>nya_aumatra</key>
@@ -1234,8 +1224,8 @@
     <string>uni0CAA.imathra</string>
     <key>pa.sub</key>
     <string>uni0CAA.sub</string>
-    <key>pa.virama</key>
-    <string>uni0CAA.virama</string>
+    <key>pa_virama</key>
+    <string>uni0CAA0CCD</string>
     <key>paragraphseparator</key>
     <string>uni2029</string>
     <key>parenleftsuperior</key>
@@ -1250,8 +1240,8 @@
     <string>uni0CAB.imathra</string>
     <key>pha.sub</key>
     <string>uni0CAB.sub</string>
-    <key>pha.virama</key>
-    <string>uni0CAB.virama</string>
+    <key>pha_virama</key>
+    <string>uni0CAB0CCD</string>
     <key>punctuationspace</key>
     <string>uni2008</string>
     <key>ra</key>
@@ -1268,10 +1258,10 @@
     <string>uni0CB0.below.subcons</string>
     <key>ra.imathra</key>
     <string>uni0CB0.imathra</string>
-    <key>ra.virama</key>
-    <string>uni0CB0.virama</string>
     <key>ra_ailengthmark.below</key>
     <string>uni0CB00CD6.below</string>
+    <key>ra_virama</key>
+    <string>uni0CB00CCD</string>
     <key>replacementCharacter</key>
     <string>uniFFFD</string>
     <key>ringcomb</key>
@@ -1284,8 +1274,6 @@
     <string>uni0CB1.imathra</string>
     <key>rra.sub</key>
     <string>uni0CB1.sub</string>
-    <key>rra.virama</key>
-    <string>uni0CB1.virama</string>
     <key>rra_aamatra</key>
     <string>uni0CB10CBE</string>
     <key>rra_aumatra</key>
@@ -1314,8 +1302,8 @@
     <string>uni0CB8.imathra</string>
     <key>sa.sub</key>
     <string>uni0CB8.sub</string>
-    <key>sa.virama</key>
-    <string>uni0CB8.virama</string>
+    <key>sa_virama</key>
+    <string>uni0CB80CCD</string>
     <key>sevenknda</key>
     <string>uni0CED</string>
     <key>sevensuperior</key>
@@ -1328,10 +1316,10 @@
     <string>uni0CB6.imathra</string>
     <key>sha.sub</key>
     <string>uni0CB6.sub</string>
-    <key>sha.virama</key>
-    <string>uni0CB6.virama</string>
     <key>sha_ra.imathra</key>
     <string>uni0CB60CB0.imathra</string>
+    <key>sha_virama</key>
+    <string>uni0CB60CCD</string>
     <key>siddham</key>
     <string>uni0C84</string>
     <key>sidebearingleft</key>
@@ -1356,8 +1344,8 @@
     <string>uni0CB7.imathra</string>
     <key>ssa.sub</key>
     <string>uni0CB7.sub</string>
-    <key>ssa.virama</key>
-    <string>uni0CB7.virama</string>
+    <key>ssa_virama</key>
+    <string>uni0CB70CCD</string>
     <key>ta</key>
     <string>uni0CA4</string>
     <key>ta.base</key>
@@ -1366,14 +1354,14 @@
     <string>uni0CA4.imathra</string>
     <key>ta.sub</key>
     <string>uni0CA4.sub</string>
-    <key>ta.virama</key>
-    <string>uni0CA4.virama</string>
     <key>ta_ailengthmark.below</key>
     <string>uni0CA40CD6.below</string>
     <key>ta_rvocalicmatra.below</key>
     <string>uni0CA40CC3.below</string>
     <key>ta_va.below</key>
     <string>uni0CA40CB5.below</string>
+    <key>ta_virama</key>
+    <string>uni0CA40CCD</string>
     <key>ta_ya.below</key>
     <string>uni0CA40CAF.below</string>
     <key>tha</key>
@@ -1384,8 +1372,8 @@
     <string>uni0CA5.imathra</string>
     <key>tha.sub</key>
     <string>uni0CA5.sub</string>
-    <key>tha.virama</key>
-    <string>uni0CA5.virama</string>
+    <key>tha_virama</key>
+    <string>uni0CA50CCD</string>
     <key>thinspace</key>
     <string>uni2009</string>
     <key>threeknda</key>
@@ -1402,8 +1390,8 @@
     <string>uni0C9F.imathra</string>
     <key>tta.sub</key>
     <string>uni0C9F.sub</string>
-    <key>tta.virama</key>
-    <string>uni0C9F.virama</string>
+    <key>tta_virama</key>
+    <string>uni0C9F0CCD</string>
     <key>ttha</key>
     <string>uni0CA0</string>
     <key>ttha.base</key>
@@ -1412,8 +1400,8 @@
     <string>uni0CA0.imathra</string>
     <key>ttha.sub</key>
     <string>uni0CA0.sub</string>
-    <key>ttha.virama</key>
-    <string>uni0CA0.virama</string>
+    <key>ttha_virama</key>
+    <string>uni0CA00CCD</string>
     <key>twoknda</key>
     <string>uni0CE8</string>
     <key>twosuperior</key>
@@ -1442,8 +1430,8 @@
     <string>uni0CB5.imathra</string>
     <key>va.sub</key>
     <string>uni0CB5.sub</string>
-    <key>va.virama</key>
-    <string>uni0CB5.virama</string>
+    <key>va_virama</key>
+    <string>uni0CB50CCD</string>
     <key>vedicsignjihvamuliya</key>
     <string>uni1CF5</string>
     <key>vedictonedotbelow</key>
@@ -1476,8 +1464,8 @@
     <string>uni0CAF.regbase</string>
     <key>ya.sub</key>
     <string>uni0CAF.sub</string>
-    <key>ya.virama</key>
-    <string>uni0CAF.virama</string>
+    <key>ya_virama</key>
+    <string>uni0CAF0CCD</string>
     <key>zeroknda</key>
     <string>uni0CE6</string>
     <key>zerosuperior</key>
