@@ -18,7 +18,7 @@ jobs:
           # sudo add-apt-repository -y ppa:jonathonf/texlive-2019
           # sudo add-apt-repository -y ppa:git-core/ppa
           sudo apt-get update -q -y
-          sudo apt-get install sile libtext-unicode-equivalents-perl libtext-pdf-perl libio-string-perl libfont-ttf-scripts-perl libfont-ttf-perl libalgorithm-diff-perl libxml-parser-perl grcompiler libtext-csv-perl -y -qq
+          sudo apt-get install sile texlive-xetex libtext-unicode-equivalents-perl libtext-pdf-perl libio-string-perl libfont-ttf-scripts-perl libfont-ttf-perl libalgorithm-diff-perl libxml-parser-perl grcompiler libtext-csv-perl wamerican wbritish -y -qq
           # sudo apt-get remove *php* *mono* *dotnet* -y
           # sudo apt-get autoremove -y
           # sudo apt-get upgrade -q -y
@@ -32,20 +32,36 @@ jobs:
           python3 -m pip install --upgrade git+https://github.com/silnrsi/palaso-python.git@master#egg=palaso --user
           python3 -m pip install --upgrade git+https://github.com/silnrsi/smith.git@master#egg=smith --user
           # sudo pip3 install --upgrade git+https://github.com/googlefonts/fontbakery.git@main#egg=fontbakery
+          git clone https://github.com/silnrsi/fontproof
+          cd fontproof
+          sudo install -m 644 classes/* /usr/share/sile/classes/
+          sudo install -m 644 packages/* /usr/share/sile/packages/
       - name: configure / build / test / release
         run: |
           # smith version
           smith configure
           smith build
           # smith alltests
+          smith sile
+          smith pdfs
           smith zip
           # smith tarball
           # smith release
-      - uses: actions/upload-artifact@master
+      - uses: actions/upload-artifact@v3
+        with:
+          name: sile
+          path: results/tests/sile/*.pdf
+      - uses: actions/upload-artifact@v3
+        with:
+          name: pdfs
+          path: results/tests/pdfs/*.pdf
+      - uses: actions/upload-artifact@v3
         with:
           name: fonts
-          path: results/*.ttf
-      - uses: actions/upload-artifact@master
+          path: |
+            results/*.ttf
+            *.txt
+      - uses: actions/upload-artifact@v3
         with:
           name: packages
           path: results/releases
@@ -57,3 +73,12 @@ jobs:
       #     title: "Development Build"
       #     files: |
       #       results/releases
+      - uses: ncipollo/release-action@v1
+        with:
+          artifacts: results/releases/nlci-*-*-*-dev-*.zip
+          name: "Development Build"
+          generateReleaseNotes: true
+          prerelease: true
+          allowUpdates: true
+          tag: "dev"
+          token: "${{ secrets.GITHUB_TOKEN }}"

@@ -84,7 +84,7 @@ for f in faces:
             opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
                 mapfile = generated + '${DS:FILENAME_BASE}.map',
                 master = fontbase + 'master.feax',
-                make_params = '',
+                make_params = ' -L last',
                 params = ''
                 ),
             # graphite = gdl(generated + '${DS:FILENAME_BASE}.gdl',

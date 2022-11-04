@@ -359,10 +359,260 @@ U+0CB7">
       <comment>ka ssa</comment>
       <string>\u000C95\u000CB7</string>
     </test>
+    <test label="U+0C95
+U+0CCD">
+      <comment>ka virama</comment>
+      <string>\u000C95\u000CCD</string>
+    </test>
+    <test label="U+0C96
+U+0CCD">
+      <comment>kha virama</comment>
+      <string>\u000C96\u000CCD</string>
+    </test>
+    <test label="U+0C97
+U+0CCD">
+      <comment>ga virama</comment>
+      <string>\u000C97\u000CCD</string>
+    </test>
+    <test label="U+0C98
+U+0CCD">
+      <comment>gha virama</comment>
+      <string>\u000C98\u000CCD</string>
+    </test>
+    <test label="U+0C99
+U+0CBE">
+      <comment>nga aamatra</comment>
+      <string>\u000C99\u000CBE</string>
+    </test>
+    <test label="U+0C99
+U+0CC6">
+      <comment>nga ematra</comment>
+      <string>\u000C99\u000CC6</string>
+    </test>
+    <test label="U+0C99
+U+0CCC">
+      <comment>nga aumatra</comment>
+      <string>\u000C99\u000CCC</string>
+    </test>
+    <test label="U+0C99
+U+0CCD">
+      <comment>nga virama</comment>
+      <string>\u000C99\u000CCD</string>
+    </test>
+    <test label="U+0C9A
+U+0CCD">
+      <comment>ca virama</comment>
+      <string>\u000C9A\u000CCD</string>
+    </test>
+    <test label="U+0C9B
+U+0CCD">
+      <comment>cha virama</comment>
+      <string>\u000C9B\u000CCD</string>
+    </test>
     <test label="U+0C9C
 U+0C9E">
       <comment>ja nya</comment>
       <string>\u000C9C\u000C9E</string>
+    </test>
+    <test label="U+0C9C
+U+0CCD">
+      <comment>ja virama</comment>
+      <string>\u000C9C\u000CCD</string>
+    </test>
+    <test label="U+0C9D
+U+0CCD">
+      <comment>jha virama</comment>
+      <string>\u000C9D\u000CCD</string>
+    </test>
+    <test label="U+0C9E
+U+0CBE">
+      <comment>nya aamatra</comment>
+      <string>\u000C9E\u000CBE</string>
+    </test>
+    <test label="U+0C9E
+U+0CC1">
+      <comment>nya umatra</comment>
+      <string>\u000C9E\u000CC1</string>
+    </test>
+    <test label="U+0C9E
+U+0CC6">
+      <comment>nya ematra</comment>
+      <string>\u000C9E\u000CC6</string>
+    </test>
+    <test label="U+0C9E
+U+0CCC">
+      <comment>nya aumatra</comment>
+      <string>\u000C9E\u000CCC</string>
+    </test>
+    <test label="U+0C9E
+U+0CCD">
+      <comment>nya virama</comment>
+      <string>\u000C9E\u000CCD</string>
+    </test>
+    <test label="U+0C9F
+U+0CCD">
+      <comment>tta virama</comment>
+      <string>\u000C9F\u000CCD</string>
+    </test>
+    <test label="U+0CA0
+U+0CCD">
+      <comment>ttha virama</comment>
+      <string>\u000CA0\u000CCD</string>
+    </test>
+    <test label="U+0CA1
+U+0CCD">
+      <comment>dda virama</comment>
+      <string>\u000CA1\u000CCD</string>
+    </test>
+    <test label="U+0CA2
+U+0CCD">
+      <comment>ddha virama</comment>
+      <string>\u000CA2\u000CCD</string>
+    </test>
+    <test label="U+0CA3
+U+0CCD">
+      <comment>nna virama</comment>
+      <string>\u000CA3\u000CCD</string>
+    </test>
+    <test label="U+0CA4
+U+0CCD">
+      <comment>ta virama</comment>
+      <string>\u000CA4\u000CCD</string>
+    </test>
+    <test label="U+0CA5
+U+0CCD">
+      <comment>tha virama</comment>
+      <string>\u000CA5\u000CCD</string>
+    </test>
+    <test label="U+0CA6
+U+0CCD">
+      <comment>da virama</comment>
+      <string>\u000CA6\u000CCD</string>
+    </test>
+    <test label="U+0CA7
+U+0CCD">
+      <comment>dha virama</comment>
+      <string>\u000CA7\u000CCD</string>
+    </test>
+    <test label="U+0CA8
+U+0CCD">
+      <comment>na virama</comment>
+      <string>\u000CA8\u000CCD</string>
+    </test>
+    <test label="U+0CAA
+U+0CCD">
+      <comment>pa virama</comment>
+      <string>\u000CAA\u000CCD</string>
+    </test>
+    <test label="U+0CAB
+U+0CCD">
+      <comment>pha virama</comment>
+      <string>\u000CAB\u000CCD</string>
+    </test>
+    <test label="U+0CAC
+U+0CCD">
+      <comment>ba virama</comment>
+      <string>\u000CAC\u000CCD</string>
+    </test>
+    <test label="U+0CAD
+U+0CCD">
+      <comment>bha virama</comment>
+      <string>\u000CAD\u000CCD</string>
+    </test>
+    <test label="U+0CAE
+U+0CCD">
+      <comment>ma virama</comment>
+      <string>\u000CAE\u000CCD</string>
+    </test>
+    <test label="U+0CAF
+U+0CCD">
+      <comment>ya virama</comment>
+      <string>\u000CAF\u000CCD</string>
+    </test>
+    <test label="U+0CB0
+U+0CCD">
+      <comment>ra virama</comment>
+      <string>\u000CB0\u000CCD</string>
+    </test>
+    <test label="U+0CB1
+U+0CBE">
+      <comment>rra aamatra</comment>
+      <string>\u000CB1\u000CBE</string>
+    </test>
+    <test label="U+0CB1
+U+0CC6">
+      <comment>rra ematra</comment>
+      <string>\u000CB1\u000CC6</string>
+    </test>
+    <test label="U+0CB1
+U+0CCC">
+      <comment>rra aumatra</comment>
+      <string>\u000CB1\u000CCC</string>
+    </test>
+    <test label="U+0CB1
+U+0CCD">
+      <comment>rra virama</comment>
+      <string>\u000CB1\u000CCD</string>
+    </test>
+    <test label="U+0CB2
+U+0CCD">
+      <comment>la virama</comment>
+      <string>\u000CB2\u000CCD</string>
+    </test>
+    <test label="U+0CB3
+U+0CC1">
+      <comment>lla umatra</comment>
+      <string>\u000CB3\u000CC1</string>
+    </test>
+    <test label="U+0CB3
+U+0CCD">
+      <comment>lla virama</comment>
+      <string>\u000CB3\u000CCD</string>
+    </test>
+    <test label="U+0CB5
+U+0CCD">
+      <comment>va virama</comment>
+      <string>\u000CB5\u000CCD</string>
+    </test>
+    <test label="U+0CB6
+U+0CCD">
+      <comment>sha virama</comment>
+      <string>\u000CB6\u000CCD</string>
+    </test>
+    <test label="U+0CB7
+U+0CCD">
+      <comment>ssa virama</comment>
+      <string>\u000CB7\u000CCD</string>
+    </test>
+    <test label="U+0CB8
+U+0CCD">
+      <comment>sa virama</comment>
+      <string>\u000CB8\u000CCD</string>
+    </test>
+    <test label="U+0CB9
+U+0CCD">
+      <comment>ha virama</comment>
+      <string>\u000CB9\u000CCD</string>
+    </test>
+    <test label="U+0CDE
+U+0CBE">
+      <comment>fa aamatra</comment>
+      <string>\u000CDE\u000CBE</string>
+    </test>
+    <test label="U+0CDE
+U+0CC6">
+      <comment>fa ematra</comment>
+      <string>\u000CDE\u000CC6</string>
+    </test>
+    <test label="U+0CDE
+U+0CCC">
+      <comment>fa aumatra</comment>
+      <string>\u000CDE\u000CCC</string>
+    </test>
+    <test label="U+0CDE
+U+0CCD">
+      <comment>fa virama</comment>
+      <string>\u000CDE\u000CCD</string>
     </test>
   </testgroup>
 </ftml>

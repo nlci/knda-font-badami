@@ -345,6 +345,9 @@
     <test label="rra-ematra">
       <string>\u0cb1\u0cc6</string>
     </test>
+    <test label="fa-ematra">
+      <string>\u0cde\u0cc6</string>
+    </test>
     <test label="jha and matras">
       <string>\u0c9d \u0c9d\u0cbe \u0c9d\u0cbf \u0c9d\u0cc0 \u0c9d\u0cc1 \u0c9d\u0cc2 \u0c9d\u0cc3 \u0c9d\u0cc4 \u0c9d\u0cc6 \u0c9d\u0cc7 \u0c9d\u0cc8 \u0c9d\u0cca \u0c9d\u0ccb \u0c9d\u0ccc \u0c9d\u0ccd</string>
     </test>

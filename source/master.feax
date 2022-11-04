@@ -169,10 +169,10 @@ lookup PostBaseSub {
 
 lookup HalantBaseForms {
   lookupflag IgnoreMarks;
-    sub @cno_virama' virama' by @c_virama;
+    sub @cligno_virama' virama' by @clig_virama;
 
     # Matches an initial ra that is not turned in a reph.
-    sub @cno_virama' zwj' virama' by @c_virama;
+    sub @cligno_virama' zwj' virama' by @clig_virama;
 } HalantBaseForms;
 
 feature ccmp {
