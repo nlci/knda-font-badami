@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ta.virama" format="2">
-  <advance width="753"/>
-  <outline>
-    <component base="ta.base"/>
-    <component base="virama" xOffset="439"/>
-  </outline>
-</glyph>

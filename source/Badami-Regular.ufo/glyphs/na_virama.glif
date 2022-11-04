@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="divisionslash" format="2">
-  <advance width="275"/>
-  <unicode hex="2215"/>
+<glyph name="na_virama" format="2">
+  <advance width="781"/>
   <outline>
-    <component base="slash"/>
+    <component base="na.base"/>
+    <component base="virama" xOffset="467"/>
   </outline>
   <lib>
     <dict>
