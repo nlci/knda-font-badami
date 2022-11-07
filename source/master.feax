@@ -65,10 +65,12 @@ lookup PreBaseSub {
     sub @cno_base' ematra by @c_base;
 } PreBaseSub;
 
-lookup LargeEmatra {
+lookup LargeEmatraLike {
   lookupflag 0;
-    sub @TakesLargeEmatra ematra' by ematra.large;
-} LargeEmatra;
+    sub @cligno_aamatra' aamatra' by @clig_aamatra;
+    sub @cligno_ematra' ematra' by @clig_ematra;
+    sub @cligno_aumatra' aumatra' by @clig_aumatra;
+} LargeEmatraLike;
 
 lookup ImatraLigature {
   lookupflag 0;
@@ -197,7 +199,7 @@ feature pres {
 } pres;
 
 feature abvs {
-    lookup LargeEmatra;
+    lookup LargeEmatraLike;
     lookup ImatraLigature;
 } abvs;
 

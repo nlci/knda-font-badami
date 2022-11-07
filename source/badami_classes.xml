@@ -2,7 +2,6 @@
 <classes>
   <class name="Akhands">ka_ssa ja_nya</class>
   <class name="MatraToBase">aamatra aumatra virama</class>
-  <class name="TakesLargeEmatra">nga nya rra</class>
   <class name="TakesUnderUMatra">pa pa.base pha pha.base va va.base</class>
   <class name="TakesLargeRaSubCons">gha cha jha ddha tha dha pha bha</class>
 </classes>
