@@ -81,6 +81,7 @@ for f in faces:
             target = process('${DS:FILENAME_BASE}.ttf',
                 cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']),
             ),
+            params = '--decomposeComponents --removeOverlaps',
             opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
                 mapfile = generated + '${DS:FILENAME_BASE}.map',
                 master = fontbase + 'master.feax',
