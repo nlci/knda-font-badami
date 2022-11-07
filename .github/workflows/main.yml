@@ -73,12 +73,12 @@ jobs:
       #     title: "Development Build"
       #     files: |
       #       results/releases
-      - uses: ncipollo/release-action@v1
-        with:
-          artifacts: results/releases/nlci-*-*-*-dev-*.zip
-          name: "Development Build"
-          generateReleaseNotes: true
-          prerelease: true
-          allowUpdates: true
-          tag: "dev"
-          token: "${{ secrets.GITHUB_TOKEN }}"
+      # - uses: ncipollo/release-action@v1
+      #   with:
+      #     artifacts: results/releases/nlci-*-*-*-dev-*.zip
+      #     name: "Development Build"
+      #     generateReleaseNotes: true
+      #     prerelease: true
+      #     allowUpdates: true
+      #     tag: "dev"
+      #     token: "${{ secrets.GITHUB_TOKEN }}"

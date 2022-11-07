@@ -58,7 +58,7 @@ lookup PreBaseSub {
     sub @cno_noEbase' @MatraToBase by @c_noEbase;
     sub @cno_regbase' ematra uumatra by @c_regbase;
 
-    # vowel signs AA, AU and haln
+    # vowel signs AA and AU
     sub @cno_base' @MatraToBase by @c_base;
 
     # vowel sign and parts with E (but not for the multiple base consonants)
