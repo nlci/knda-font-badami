@@ -65,6 +65,13 @@ lookup PreBaseSub {
     sub @cno_base' ematra by @c_base;
 } PreBaseSub;
 
+lookup PreBaseLig {
+  lookupflag 0;
+    # custom ligatures
+    sub nya umatra by nya_umatra;
+    sub lla umatra by lla_umatra;
+} PreBaseLig;
+
 lookup LargeEmatraLike {
   lookupflag 0;
     sub @cligno_aamatra' aamatra' by @clig_aamatra;
@@ -196,6 +203,7 @@ feature blwf {
 
 feature pres {
     lookup PreBaseSub;
+    lookup PreBaseLig;
 } pres;
 
 feature abvs {
@@ -219,6 +227,10 @@ feature haln {
 } haln;
 
 # GPOS
+
+lookup KernPairs {
+    kernpairs;
+} KernPairs;
 
 lookup EMatras {
   lookupflag 0;
@@ -288,6 +300,10 @@ lookup AiRight {
   lookupflag 0;
     pos @SubLike ailengthmark' lookup AiMove;
 } AiRight;
+
+feature dist {
+    lookup KernPairs;
+} dist;
 
 feature abvm {
     lookup EMatras;

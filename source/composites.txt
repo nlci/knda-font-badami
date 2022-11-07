@@ -1,5 +1,4 @@
 divisionslash = slash | 2215
-rupee = R & s | 20A8
 
 ba_virama = ba.base & virama
 bha_virama = bha.base & virama
