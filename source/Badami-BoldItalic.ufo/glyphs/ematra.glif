@@ -2,8 +2,8 @@
 <glyph name="ematra" format="2">
   <advance width="10"/>
   <unicode hex="0CC6"/>
-  <anchor x="0" y="0" name="_M"/>
   <anchor x="-81" y="414" name="_V"/>
+  <anchor x="0" y="0" name="_none"/>
   <outline>
     <contour>
       <point x="84" y="489" type="curve" smooth="yes"/>

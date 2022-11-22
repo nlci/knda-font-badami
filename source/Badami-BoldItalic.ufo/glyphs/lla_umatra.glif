@@ -2,7 +2,6 @@
 <glyph name="lla_umatra" format="2">
   <advance width="717"/>
   <anchor x="301" y="-128" name="N"/>
-  <anchor x="459" y="0" name="_M"/>
   <outline>
     <component base="lla.base"/>
     <component base="inherent" xOffset="449"/>

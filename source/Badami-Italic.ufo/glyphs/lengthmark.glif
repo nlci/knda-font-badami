@@ -2,7 +2,7 @@
 <glyph name="lengthmark" format="2">
   <advance width="285"/>
   <unicode hex="0CD5"/>
-  <anchor x="0" y="0" name="_M"/>
+  <anchor x="0" y="0" name="_none"/>
   <outline>
     <contour>
       <point x="100" y="200" type="curve" smooth="yes"/>

@@ -2,7 +2,7 @@
 <glyph name="uumatra" format="2">
   <advance width="617"/>
   <unicode hex="0CC2"/>
-  <anchor x="0" y="0" name="_M"/>
+  <anchor x="0" y="0" name="_none"/>
   <outline>
     <contour>
       <point x="492" y="488" type="curve" smooth="yes"/>

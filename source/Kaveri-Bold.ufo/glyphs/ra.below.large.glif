@@ -2,7 +2,7 @@
 <glyph name="ra.below.large" format="2">
   <advance width="16"/>
   <anchor x="56" y="-200" name="S"/>
-  <anchor x="0" y="0" name="_M"/>
+  <anchor x="0" y="0" name="_none"/>
   <outline>
     <contour>
       <point x="-646" y="-73" type="curve"/>

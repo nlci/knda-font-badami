@@ -2,7 +2,6 @@
 <glyph name="nya_aamatra" format="2">
   <advance width="1203"/>
   <anchor x="387" y="-133" name="N"/>
-  <anchor x="805" y="0" name="_M"/>
   <outline>
     <component base="nya"/>
     <component base="aamatra.large" xOffset="986"/>

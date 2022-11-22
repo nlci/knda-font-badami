@@ -2,7 +2,6 @@
 <glyph name="nga_aumatra" format="2">
   <advance width="1088"/>
   <anchor x="338" y="-142" name="N"/>
-  <anchor x="572" y="0" name="_M"/>
   <outline>
     <component base="nga"/>
     <component base="aumatra.large" xOffset="800"/>

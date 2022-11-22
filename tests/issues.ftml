@@ -159,6 +159,11 @@
       <string>\u0cb3\u0cc1</string>
     </test>
   </testgroup>
+  <testgroup label="gdef">
+    <test label="akhands">
+      <string>\u0c95\u0ccd\u0cb7\u0cb3 \u0c95\u0ccd\u0cb7\u0cc2</string>
+    </test>
+  </testgroup>
   <testgroup label="public">
     <test label="harfbuzz vs microsoft for double-halant">
       <string>\u0C9A\u0CCD\u0C9A\u0CCD</string>

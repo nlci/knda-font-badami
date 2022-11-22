@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
+<ftml version="1.0">
+  <head>
+    <comment>Background colors: light orange: includes a character from Unicode version 14.0 or later; light red: a character is missing from UFO; light green: a character is new in this version of the font</comment>
+    <fontscale>200</fontscale>
+    <fontsrc label="refR">url(../references/Badami-Regular.ttf)</fontsrc>
+    <fontsrc label="refB">url(../references/Badami-Bold.ttf)</fontsrc>
+    <fontsrc label="refI">url(../references/Badami-Italic.ttf)</fontsrc>
+    <fontsrc label="refBI">url(../references/Badami-BoldItalic.ttf)</fontsrc>
+    <fontsrc label="R">url(../results/Badami-Regular.ttf)</fontsrc>
+    <fontsrc label="B">url(../results/Badami-Bold.ttf)</fontsrc>
+    <fontsrc label="I">url(../results/Badami-Italic.ttf)</fontsrc>
+    <fontsrc label="BI">url(../results/Badami-BoldItalic.ttf)</fontsrc>
+    <fontsrc label="notoSerif">url(../references/NotoSerifKannada-Regular.ttf)</fontsrc>
+    <fontsrc label="notoSans">url(../references/NotoSansKannada-Regular.ttf)</fontsrc>
+    <fontsrc label="notoSansUI">url(../references/NotoSansKannadaUI-Regular.ttf)</fontsrc>
+    <fontsrc label="tiro">url(../references/TiroKannada-Regular.ttf)</fontsrc>
+    <fontsrc label="baloo">url(../references/BalooTamma2-Regular.ttf)</fontsrc>
+    <fontsrc label="kR">url(../results/Kaveri-Regular.ttf)</fontsrc>
+    <fontsrc label="kB">url(../results/Kaveri-Bold.ttf)</fontsrc>
+    <fontsrc label="kI">url(../results/Kaveri-Italic.ttf)</fontsrc>
+    <fontsrc label="kBI">url(../results/Kaveri-BoldItalic.ttf)</fontsrc>
+    <title>Diac auto</title>
+  </head>
+  <testgroup label="Representative diacritics on all bases that take diacritics">
+    <test label="U+0CB0
+U+0C81">
+      <comment>ra candrabindu</comment>
+      <string>\u000CB0\u000C81 \u000CB0\u000C82 \u000CB0\u000C83 \u000CB0\u000CBC</string>
+    </test>
+    <test label="U+0CB1
+U+0C81">
+      <comment>rra candrabindu</comment>
+      <string>\u000CB1\u000C81 \u000CB1\u000C82 \u000CB1\u000C83 \u000CB1\u000CBC</string>
+    </test>
+    <test label="U+0CB2
+U+0C81">
+      <comment>la candrabindu</comment>
+      <string>\u000CB2\u000C81 \u000CB2\u000C82 \u000CB2\u000C83 \u000CB2\u000CBC</string>
+    </test>
+    <test label="U+0CB3
+U+0C81">
+      <comment>lla candrabindu</comment>
+      <string>\u000CB3\u000C81 \u000CB3\u000C82 \u000CB3\u000C83 \u000CB3\u000CBC</string>
+    </test>
+    <test label="U+0CB5
+U+0C81">
+      <comment>va candrabindu</comment>
+      <string>\u000CB5\u000C81 \u000CB5\u000C82 \u000CB5\u000C83 \u000CB5\u000CBC</string>
+    </test>
+    <test label="U+0CB6
+U+0C81">
+      <comment>sha candrabindu</comment>
+      <string>\u000CB6\u000C81 \u000CB6\u000C82 \u000CB6\u000C83 \u000CB6\u000CBC</string>
+    </test>
+    <test label="U+0CB7
+U+0C81">
+      <comment>ssa candrabindu</comment>
+      <string>\u000CB7\u000C81 \u000CB7\u000C82 \u000CB7\u000C83 \u000CB7\u000CBC</string>
+    </test>
+    <test label="U+0CB8
+U+0C81">
+      <comment>sa candrabindu</comment>
+      <string>\u000CB8\u000C81 \u000CB8\u000C82 \u000CB8\u000C83 \u000CB8\u000CBC</string>
+    </test>
+    <test label="U+0CB9
+U+0C81">
+      <comment>ha candrabindu</comment>
+      <string>\u000CB9\u000C81 \u000CB9\u000C82 \u000CB9\u000C83 \u000CB9\u000CBC</string>
+    </test>
+    <test label="U+0CBD
+U+0C81">
+      <comment>avagraha candrabindu</comment>
+      <string>\u000CBD\u000C81 \u000CBD\u000C82 \u000CBD\u000C83 \u000CBD\u000CBC</string>
+    </test>
+    <test background="#ffc8a0" label="U+0CDD
+U+0C81">
+      <comment>nakaarapollu candrabindu</comment>
+      <string>\u000CDD\u000C81 \u000CDD\u000C82 \u000CDD\u000C83 \u000CDD\u000CBC</string>
+    </test>
+    <test background="#ffc8a0" label="U+0CDE
+U+0C81">
+      <comment>fa candrabindu</comment>
+      <string>\u000CDE\u000C81 \u000CDE\u000C82 \u000CDE\u000C83 \u000CDE\u000CBC</string>
+    </test>
+    <test background="#ffc8a0" label="U+0CE0
+U+0C81">
+      <comment>rrvocalicvowel candrabindu</comment>
+      <string>\u000CE0\u000C81 \u000CE0\u000C82 \u000CE0\u000C83 \u000CE0\u000CBC</string>
+    </test>
+    <test background="#ffc8a0" label="U+0CE1
+U+0C81">
+      <comment>llvocalicvowel candrabindu</comment>
+      <string>\u000CE1\u000C81 \u000CE1\u000C82 \u000CE1\u000C83 \u000CE1\u000CBC</string>
+    </test>
+    <test background="#ffc8a0" label="U+0CF1
+U+0C81">
+      <comment>jihvamuliya candrabindu</comment>
+      <string>\u000CF1\u000C81 \u000CF1\u000C82 \u000CF1\u000C83 \u000CF1\u000CBC</string>
+    </test>
+    <test background="#ffc8a0" label="U+0CF2
+U+0C81">
+      <comment>upadhmaniya candrabindu</comment>
+      <string>\u000CF2\u000C81 \u000CF2\u000C82 \u000CF2\u000C83 \u000CF2\u000CBC</string>
+    </test>
+  </testgroup>
+  <testgroup label="All diacritics on representative bases">
+    <test label="U+0C95
+U+0CBC">
+      <comment>ka nukta</comment>
+      <string>\u000C95\u000CBC \u000CDE\u000CBC \u0025CC\u000CBC</string>
+    </test>
+    <test label="U+0C95
+U+0CBF">
+      <comment>ka imatra</comment>
+      <string>\u000C95\u000CBF \u000CDE\u000CBF \u0025CC\u000CBF</string>
+    </test>
+    <test label="U+0C95
+U+0CC6">
+      <comment>ka ematra</comment>
+      <string>\u000C95\u000CC6 \u000CDE\u000CC6 \u0025CC\u000CC6</string>
+    </test>
+    <test label="U+0C95
+U+0CCC">
+      <comment>ka aumatra</comment>
+      <string>\u000C95\u000CCC \u000CDE\u000CCC \u0025CC\u000CCC</string>
+    </test>
+    <test label="U+0C95
+U+0CCD">
+      <comment>ka virama</comment>
+      <string>\u000C95\u000CCD \u000CDE\u000CCD \u0025CC\u000CCD</string>
+    </test>
+    <test label="U+0C95
+U+0CE2">
+      <comment>ka lvocalicmatra</comment>
+      <string>\u000C95\u000CE2 \u000CDE\u000CE2 \u0025CC\u000CE2</string>
+    </test>
+    <test label="U+0C95
+U+0CE3">
+      <comment>ka llvocalicmatra</comment>
+      <string>\u000C95\u000CE3 \u000CDE\u000CE3 \u0025CC\u000CE3</string>
+    </test>
+  </testgroup>
+</ftml>

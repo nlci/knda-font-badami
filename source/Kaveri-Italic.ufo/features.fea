@@ -1,8 +1,8 @@
 
 # Main Classes
 @Akhands = [ka_ssa ja_nya];
-@GDEF_bases = [.notdef .null A AE Aacute Acircumflex Adieresis Agrave Aring Atilde B C Ccedilla D Delta E Eacute Ecircumflex Edieresis Egrave Eth Euro F G H HyphenMinus I Iacute Icircumflex Idieresis Igrave J K L M MiddleDot ModBeginHighTn ModBeginLowTn ModEndHighTn ModEndLowTn N Ntilde O OE Oacute Ocircumflex Odieresis Ograve Ohm Omegagreek Oslash Otilde P Q R S Scaron T Thorn U Uacute Ucircumflex Udieresis Ugrave V VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS9 W X Y Yacute Ydieresis Z Zcaron a a.superior aacute aavowel acircumflex acute acutecomb acutecomb.case acutedeva adieresis ae agrave ailengthmark aivowel ampersand anudatta anusvara anusvaracomb approxequal aring asciicircum asciitilde asterisk at atilde auvowel avagraha avowel b ba ba.base ba.imathra ba_virama backslash bar bha bha.base bha.imathra bha_virama braceleft braceright bracketleft bracketright breve brokenbar bullet bulletoperator c ca ca.base ca.imathra ca_virama candrabindu caron caroncomb caroncomb.case ccedilla cedilla cedillacomb cedillacomb.case ceilingleft ceilingright cent cgj cha cha.base cha.imathra cha_virama circumflex circumflexcomb circumflexcomb.case colon colon.latn comma comma.latn copyright cornerleftbottom cornerlefttop cornerrightbottom cornerrighttop currency d da da.base da.imathra da_virama dagger daggerdbl danda dandadbl dda dda.base dda.imathra dda_virama ddha ddha.base ddha.imathra ddha_virama degree dha dha.base dha.imathra dha_virama dieresis dieresiscomb dieresiscomb.case divide divisionslash dollar dotaccent dotlessi dottedcircle dottedcircle.alt doublesvarita e eacute ecircumflex edieresis eevowel egrave eight eight.latn eightknda eightsuperior ellipsis ematra.large emdash emquad emspace endash enquad enspace equal eth evowel exclam exclam.latn exclamdown f fa fa.imathra fa_ematra fa_virama fi figuredash figurespace five five.latn fiveknda fivesuperior fl floorleft floorright florin four four.denominator four.latn fourinferior fourknda fourperemspace foursuperior fraction g ga ga.base ga.imathra ga_virama germandbls gha gha.base gha.imathra gha_virama grave gravecomb gravecomb.case gravedeva greater greaterequal guillemetleft guillemetright guilsinglleft guilsinglright h ha ha.base ha.imathra ha_virama hairspace halfbracketleftbottom halfbracketlefttop halfbracketrightbottom halfbracketrighttop horizontalbar hungarumlaut hyphen hyphen.latn hyphenationpoint hyphensuperior hyphentwo i iacute icircumflex idieresis igrave iivowel infinity inherent inrupee integral ivowel j ja ja.base ja.imathra ja_nya ja_nya.base ja_nya.imathra ja_virama jdotless jha jha.base jha.imathra jha.noEbase jha.part jha.regbase jha_virama jihvamuliya k ka ka.base ka.imathra ka_rvocalicmatra.below ka_ssa ka_ssa.base ka_ssa.imathra ka_virama kha kha.base kha.imathra kha_virama l la la.base la.imathra la_virama less lessequal lineseparator lla lla.base lla.imathra lla_virama llvocalicmatra.alt llvocalicvowel logicalnot lozenge lvocalicmatra.alt lvocalicvowel lvocalicvowel.part m ma ma.base ma.imathra ma.noEbase ma.regbase ma_virama macron minus mu mu.copy1 multiply n na na.base na.imathra na_virama nakaarapollu nbhyphen nbspace nbspace.latn nga nga.altbase nga_ematra nga_virama nine nine.latn nineknda ninesuperior nna nna.base nna.imathra nna_virama nnbspace nonmarkingreturn notequal ntilde numbersign nya nya_ematra nya_virama o o.superior oacute objectReplacementCharacter ocircumflex odieresis oe ogonek ograve om omatra.large one one.latn one.numerator onehalf oneknda onequarter onesuperior oomatra.large oovowel openbox ordfeminine ordmasculine oslash otilde ovowel p pa pa.base pa.imathra pa_virama paragraph paragraphseparator parenleft parenleft.latn parenleftsuperior parenright parenright.latn parenrightsuperior partialdiff percent period period.latn periodcentered perthousand pha pha.base pha.imathra pha_virama pi plus plusminus product punctuationspace q question question.latn questiondown quotedbl quotedblbase quotedblleft quotedblleft.latn quotedblright quotedblright.latn quoteleft quoteleft.latn quoteright quoteright.latn quotesinglbase quotesingle r ra ra.base ra.imathra ra_ailengthmark.below ra_virama radical registered replacementCharacter ring ringcomb ringcomb.case rra rra.imathra rra_ematra rra_virama rrvocalicvowel rupee rvocalicvowel rvocalicvowel.part s sa sa.base sa.imathra sa_virama scaron section semicolon semicolon.latn seven seven.latn sevenknda sevensuperior sha sha.base sha.imathra sha_ra.imathra sha_virama shortrr siddham sidebearingleft sidebearingright six six.latn sixknda sixperemspace sixsuperior slash slash.latn softhyphen space space.latn spacingcandrabindu ssa ssa.base ssa.imathra ssa_virama sterling summation t ta ta.base ta.imathra ta_ailengthmark.below ta_rvocalicmatra.below ta_va.below ta_virama ta_ya.below tha tha.base tha.imathra tha_virama thinspace thorn three three.latn three.numerator threeknda threeperemspace threequarters threesuperior tilde tildecomb tildecomb.case trademark tta tta.base tta.imathra tta_virama ttha ttha.base ttha.imathra ttha_virama two two.denominator two.latn twoinferior twoknda twosuperior u uacute ucircumflex udatta udieresis ugrave umatra.large underscore upadhmaniya uumatra.large uuvowel uvowel v va va.base va.imathra va_virama vedicsignjihvamuliya vedictonedotbelow vedictonekathakaanudatta vedictonethreedotsbelow vedictonetwodotsbelow virama virama.large visarga w widebase wj x y ya ya.base ya.imathra ya.noEbase ya.part ya.regbase ya_virama yacute ydieresis yen z zcaron zero zero.latn zeroknda zerosuperior zwj zwnbsp zwnj zwsp];
-@GDEF_marks = [aamatra aamatra.large aimatra aumatra aumatra.large ba.sub bha.sub ca.sub cha.sub da.sub dda.sub ddha.sub dha.sub eematra ematra fa.sub fa_aamatra fa_aumatra ga.sub gha.sub ha.sub iimatra imatra ja.sub jha.sub ka.sub kha.sub la.sub lengthmark lla.sub lla_umatra llvocalicmatra lvocalicmatra ma.sub na.sub nga.sub nga_aamatra nga_aumatra nna.sub nukta nukta.alt nya.sub nya_aamatra nya_aumatra nya_umatra omatra oomatra pa.sub pha.sub ra.below ra.below.large ra.below.ra ra.below.subcons rra.sub rra_aamatra rra_aumatra rrvocalicmatra rvocalicmatra sa.sub sha.sub ssa.sub ta.sub tha.sub tta.sub ttha.sub umatra uumatra va.sub xmatra ya.sub];
+@GDEF_bases = [.notdef .null A AE Aacute Acircumflex Adieresis Agrave Aring Atilde B C Ccedilla D Delta E Eacute Ecircumflex Edieresis Egrave Eth Euro F G H HyphenMinus I Iacute Icircumflex Idieresis Igrave J K L M MiddleDot ModBeginHighTn ModBeginLowTn ModEndHighTn ModEndLowTn N Ntilde O OE Oacute Ocircumflex Odieresis Ograve Ohm Omegagreek Oslash Otilde P Q R S Scaron T Thorn U Uacute Ucircumflex Udieresis Ugrave V W X Y Yacute Ydieresis Z Zcaron a a.superior aacute aavowel acircumflex acute acutecomb acutecomb.case acutedeva adieresis ae agrave ailengthmark aivowel ampersand anudatta anusvara anusvaracomb approxequal aring asciicircum asciitilde asterisk at atilde auvowel avagraha avowel b ba ba.base ba.imathra ba_virama backslash bar bha bha.base bha.imathra bha_virama braceleft braceright bracketleft bracketright breve brokenbar bullet bulletoperator c ca ca.base ca.imathra ca_virama candrabindu caron caroncomb caroncomb.case ccedilla cedilla cedillacomb cedillacomb.case ceilingleft ceilingright cent cgj cha cha.base cha.imathra cha_virama circumflex circumflexcomb circumflexcomb.case colon colon.latn comma comma.latn copyright cornerleftbottom cornerlefttop cornerrightbottom cornerrighttop currency d da da.base da.imathra da_virama dagger daggerdbl danda dandadbl dda dda.base dda.imathra dda_virama ddha ddha.base ddha.imathra ddha_virama degree dha dha.base dha.imathra dha_virama dieresis dieresiscomb dieresiscomb.case divide divisionslash dollar dotaccent dotlessi dottedcircle dottedcircle.alt doublesvarita e eacute ecircumflex edieresis eevowel egrave eight eight.latn eightknda eightsuperior ellipsis ematra.large emdash emquad emspace endash enquad enspace equal eth evowel exclam exclam.latn exclamdown f fa fa.imathra fa_aamatra fa_aumatra fa_ematra fa_virama fi figuredash figurespace five five.latn fiveknda fivesuperior fl floorleft floorright florin four four.denominator four.latn fourinferior fourknda fourperemspace foursuperior fraction g ga ga.base ga.imathra ga_virama germandbls gha gha.base gha.imathra gha_virama grave gravecomb gravecomb.case gravedeva greater greaterequal guillemetleft guillemetright guilsinglleft guilsinglright h ha ha.base ha.imathra ha_virama hairspace halfbracketleftbottom halfbracketlefttop halfbracketrightbottom halfbracketrighttop horizontalbar hungarumlaut hyphen hyphen.latn hyphenationpoint hyphensuperior hyphentwo i iacute icircumflex idieresis igrave iivowel infinity inherent inrupee integral ivowel j ja ja.base ja.imathra ja_nya ja_nya.base ja_nya.imathra ja_virama jdotless jha jha.base jha.imathra jha.noEbase jha.part jha.regbase jha_virama jihvamuliya k ka ka.base ka.imathra ka_rvocalicmatra.below ka_ssa ka_ssa.base ka_ssa.imathra ka_virama kha kha.base kha.imathra kha_virama l la la.base la.imathra la_virama less lessequal lineseparator lla lla.base lla.imathra lla_umatra lla_virama llvocalicmatra.alt llvocalicvowel logicalnot lozenge lvocalicmatra.alt lvocalicvowel lvocalicvowel.part m ma ma.base ma.imathra ma.noEbase ma.regbase ma_virama macron minus mu mu.copy1 multiply n na na.base na.imathra na_virama nakaarapollu nbhyphen nbspace nbspace.latn nga nga.altbase nga_aamatra nga_aumatra nga_ematra nga_virama nine nine.latn nineknda ninesuperior nna nna.base nna.imathra nna_virama nnbspace nonmarkingreturn notequal ntilde numbersign nya nya_aamatra nya_aumatra nya_ematra nya_umatra nya_virama o o.superior oacute objectReplacementCharacter ocircumflex odieresis oe ogonek ograve om omatra.large one one.latn one.numerator onehalf oneknda onequarter onesuperior oomatra.large oovowel openbox ordfeminine ordmasculine oslash otilde ovowel p pa pa.base pa.imathra pa_virama paragraph paragraphseparator parenleft parenleft.latn parenleftsuperior parenright parenright.latn parenrightsuperior partialdiff percent period period.latn periodcentered perthousand pha pha.base pha.imathra pha_virama pi plus plusminus product punctuationspace q question question.latn questiondown quotedbl quotedblbase quotedblleft quotedblleft.latn quotedblright quotedblright.latn quoteleft quoteleft.latn quoteright quoteright.latn quotesinglbase quotesingle r ra ra.base ra.imathra ra_ailengthmark.below ra_virama radical registered replacementCharacter ring ringcomb ringcomb.case rra rra.imathra rra_aamatra rra_aumatra rra_ematra rra_virama rrvocalicvowel rupee rvocalicvowel rvocalicvowel.part s sa sa.base sa.imathra sa_virama scaron section semicolon semicolon.latn seven seven.latn sevenknda sevensuperior sha sha.base sha.imathra sha_ra.imathra sha_virama shortrr siddham sidebearingleft sidebearingright six six.latn sixknda sixperemspace sixsuperior slash slash.latn softhyphen space space.latn spacingcandrabindu ssa ssa.base ssa.imathra ssa_virama sterling summation t ta ta.base ta.imathra ta_ailengthmark.below ta_rvocalicmatra.below ta_va.below ta_virama ta_ya.below tha tha.base tha.imathra tha_virama thinspace thorn three three.latn three.numerator threeknda threeperemspace threequarters threesuperior tilde tildecomb tildecomb.case trademark tta tta.base tta.imathra tta_virama ttha ttha.base ttha.imathra ttha_virama two two.denominator two.latn twoinferior twoknda twosuperior u uacute ucircumflex udatta udieresis ugrave umatra.large underscore upadhmaniya uumatra.large uuvowel uvowel v va va.base va.imathra va_virama vedicsignjihvamuliya vedictonedotbelow vedictonekathakaanudatta vedictonethreedotsbelow vedictonetwodotsbelow virama virama.large visarga w widebase wj x y ya ya.base ya.imathra ya.noEbase ya.part ya.regbase ya_virama yacute ydieresis yen z zcaron zero zero.latn zeroknda zerosuperior zwj zwnbsp zwnj zwsp];
+@GDEF_marks = [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS9 aamatra aamatra.large aimatra aumatra aumatra.large ba.sub bha.sub ca.sub cha.sub da.sub dda.sub ddha.sub dha.sub eematra ematra fa.sub ga.sub gha.sub ha.sub iimatra imatra ja.sub jha.sub ka.sub kha.sub la.sub lengthmark lla.sub llvocalicmatra lvocalicmatra ma.sub na.sub nga.sub nna.sub nukta nukta.alt nya.sub omatra oomatra pa.sub pha.sub ra.below ra.below.large ra.below.ra ra.below.subcons rra.sub rrvocalicmatra rvocalicmatra sa.sub sha.sub ssa.sub ta.sub tha.sub tta.sub ttha.sub umatra uumatra va.sub xmatra ya.sub];
 @MatraToBase = [aamatra aumatra];
 @TakesLargeRaSubCons = [gha cha jha ddha tha dha pha bha];
 @TakesUnderUMatra = [pa pa.base pha pha.base va va.base];
@@ -59,21 +59,15 @@
 
 # Positioning classes and statements
 
-# AP: _M
-markClass [aamatra aamatra.large aimatra aumatra aumatra.large eematra ematra iimatra imatra lengthmark llvocalicmatra lvocalicmatra omatra oomatra ra.below ra.below.large ra.below.ra ra.below.subcons rrvocalicmatra rvocalicmatra umatra uumatra xmatra] <anchor 0 0> @_M;
-markClass [fa_aamatra fa_aumatra] <anchor 695 0> @_M;
-markClass lla_umatra <anchor 553 0> @_M;
-markClass [nga_aamatra nga_aumatra] <anchor 623 0> @_M;
-markClass [nya_aamatra nya_aumatra nya_umatra] <anchor 789 0> @_M;
-markClass [rra_aamatra rra_aumatra] <anchor 569 0> @_M;
+# AP: _none
+markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS9 aamatra aamatra.large aimatra aumatra aumatra.large eematra ematra iimatra imatra lengthmark llvocalicmatra lvocalicmatra omatra oomatra ra.below ra.below.large ra.below.ra ra.below.subcons rrvocalicmatra rvocalicmatra umatra uumatra xmatra] <anchor 0 0> @_none;
 
 # AP: N
-@N = [aavowel aivowel auvowel avowel fa fa_ematra fa_virama ba na bha ca cha da dda ddha dha tha eevowel evowel ga gha ha iivowel ivowel ja ja_nya ja_nya.base ja_nya.imathra jha ka ka_ssa ka_ssa.base ka_ssa.imathra kha la lla llvocalicvowel lvocalicvowel ma nakaarapollu nga nga.altbase nga_ematra nga_virama nna nya nya_ematra nya_virama oovowel ovowel pa pha ra ttha rra rra_ematra rra_virama rrvocalicvowel uuvowel rvocalicvowel sa sha ssa ta tta uvowel va ya];
-@N_MarkBase = [fa_aamatra fa_aumatra lla_umatra nga_aamatra nga_aumatra nya_aamatra nya_aumatra nya_umatra rra_aamatra rra_aumatra];
+@N = [aavowel aivowel auvowel avowel fa fa_aamatra fa_aumatra fa_ematra fa_virama ba na bha ca cha da dda ddha dha tha eevowel evowel ga gha ha iivowel ivowel ja ja_nya ja_nya.base ja_nya.imathra jha ka ka_ssa ka_ssa.base ka_ssa.imathra kha la lla lla_umatra llvocalicvowel lvocalicvowel ma nakaarapollu nga nga.altbase nga_aamatra nga_aumatra nga_ematra nga_virama nna nya nya_aamatra nya_aumatra nya_ematra nya_umatra nya_virama oovowel ovowel pa pha ra ttha rra rra_aamatra rra_aumatra rra_ematra rra_virama rrvocalicvowel uuvowel rvocalicvowel sa sha ssa ta tta uvowel va ya];
 # baseClass aavowel <anchor 504 -130> @N;
 # baseClass aivowel <anchor 476 -130> @N;
 # baseClass auvowel <anchor 472 -128> @N;
-# baseClass [avowel fa fa_ematra fa_virama] <anchor 477 -128> @N;
+# baseClass [avowel fa fa_aamatra fa_aumatra fa_ematra fa_virama] <anchor 477 -128> @N;
 # baseClass [ba na] <anchor 432 -128> @N;
 # baseClass bha <anchor 450 -230> @N;
 # baseClass ca <anchor 460 -128> @N;
@@ -100,20 +94,20 @@ markClass [rra_aamatra rra_aumatra] <anchor 569 0> @_M;
 # baseClass ka_ssa.imathra <anchor 308 -419> @N;
 # baseClass kha <anchor 437 -130> @N;
 # baseClass la <anchor 438 -128> @N;
-# baseClass lla <anchor 400 -128> @N;
+# baseClass [lla lla_umatra] <anchor 400 -128> @N;
 # baseClass llvocalicvowel <anchor 670 -124> @N;
 # baseClass lvocalicvowel <anchor 533 -128> @N;
 # baseClass ma <anchor 598 -128> @N;
 # baseClass nakaarapollu <anchor 410 -128> @N;
-# baseClass [nga nga.altbase nga_ematra nga_virama] <anchor 419 -128> @N;
+# baseClass [nga nga.altbase nga_aamatra nga_aumatra nga_ematra nga_virama] <anchor 419 -128> @N;
 # baseClass nna <anchor 464 -128> @N;
-# baseClass [nya nya_ematra nya_virama] <anchor 544 -128> @N;
+# baseClass [nya nya_aamatra nya_aumatra nya_ematra nya_umatra nya_virama] <anchor 544 -128> @N;
 # baseClass oovowel <anchor 420 -128> @N;
 # baseClass ovowel <anchor 422 -128> @N;
 # baseClass pa <anchor 473 -130> @N;
 # baseClass pha <anchor 473 -230> @N;
 # baseClass [ra ttha] <anchor 414 -128> @N;
-# baseClass [rra rra_ematra rra_virama] <anchor 478 -128> @N;
+# baseClass [rra rra_aamatra rra_aumatra rra_ematra rra_virama] <anchor 478 -128> @N;
 # baseClass [rrvocalicvowel uuvowel] <anchor 754 -128> @N;
 # baseClass rvocalicvowel <anchor 617 -128> @N;
 # baseClass sa <anchor 403 -128> @N;
@@ -124,11 +118,6 @@ markClass [rra_aamatra rra_aumatra] <anchor 569 0> @_M;
 # baseClass uvowel <anchor 654 -128> @N;
 # baseClass va <anchor 461 -128> @N;
 # baseClass ya <anchor 680 -128> @N;
-# baseClass [fa_aamatra fa_aumatra] <anchor 477 -128> @N_MarkBase;
-# baseClass lla_umatra <anchor 400 -128> @N_MarkBase;
-# baseClass [nga_aamatra nga_aumatra] <anchor 419 -128> @N_MarkBase;
-# baseClass [nya_aamatra nya_aumatra nya_umatra] <anchor 544 -128> @N_MarkBase;
-# baseClass [rra_aamatra rra_aumatra] <anchor 478 -128> @N_MarkBase;
 
 # AP: S
 @S = [ja_nya ja_nya.base ja_nya.imathra ka_ssa ka_ssa.base ka_ssa.imathra];
@@ -593,7 +582,7 @@ lookup Nuktas {
     pos base aavowel <anchor 504 -130> mark @_N;
     pos base aivowel <anchor 476 -130> mark @_N;
     pos base auvowel <anchor 472 -128> mark @_N;
-    pos base [avowel fa fa_ematra fa_virama] <anchor 477 -128> mark @_N;
+    pos base [avowel fa fa_aamatra fa_aumatra fa_ematra fa_virama] <anchor 477 -128> mark @_N;
     pos base [ba na] <anchor 432 -128> mark @_N;
     pos base bha <anchor 450 -230> mark @_N;
     pos base ca <anchor 460 -128> mark @_N;
@@ -620,20 +609,20 @@ lookup Nuktas {
     pos base ka_ssa.imathra <anchor 308 -419> mark @_N;
     pos base kha <anchor 437 -130> mark @_N;
     pos base la <anchor 438 -128> mark @_N;
-    pos base lla <anchor 400 -128> mark @_N;
+    pos base [lla lla_umatra] <anchor 400 -128> mark @_N;
     pos base llvocalicvowel <anchor 670 -124> mark @_N;
     pos base lvocalicvowel <anchor 533 -128> mark @_N;
     pos base ma <anchor 598 -128> mark @_N;
     pos base nakaarapollu <anchor 410 -128> mark @_N;
-    pos base [nga nga.altbase nga_ematra nga_virama] <anchor 419 -128> mark @_N;
+    pos base [nga nga.altbase nga_aamatra nga_aumatra nga_ematra nga_virama] <anchor 419 -128> mark @_N;
     pos base nna <anchor 464 -128> mark @_N;
-    pos base [nya nya_ematra nya_virama] <anchor 544 -128> mark @_N;
+    pos base [nya nya_aamatra nya_aumatra nya_ematra nya_umatra nya_virama] <anchor 544 -128> mark @_N;
     pos base oovowel <anchor 420 -128> mark @_N;
     pos base ovowel <anchor 422 -128> mark @_N;
     pos base pa <anchor 473 -130> mark @_N;
     pos base pha <anchor 473 -230> mark @_N;
     pos base [ra ttha] <anchor 414 -128> mark @_N;
-    pos base [rra rra_ematra rra_virama] <anchor 478 -128> mark @_N;
+    pos base [rra rra_aamatra rra_aumatra rra_ematra rra_virama] <anchor 478 -128> mark @_N;
     pos base [rrvocalicvowel uuvowel] <anchor 754 -128> mark @_N;
     pos base rvocalicvowel <anchor 617 -128> mark @_N;
     pos base sa <anchor 403 -128> mark @_N;
