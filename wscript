@@ -48,6 +48,7 @@ fontbase = 'source/'
 archive = fontbase + 'archive/unhinted/'
 generated = 'generated/'
 tag = script.upper()
+omitaps = '--omitaps "_V V"'
 
 panose = [2, 0, 0, 3]
 codePageRange = [0, 29]
@@ -85,7 +86,7 @@ for f in faces:
             opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
                 mapfile = generated + '${DS:FILENAME_BASE}.map',
                 master = fontbase + 'master.feax',
-                make_params = ' -L last',
+                make_params = omitaps + ' -L last',
                 params = ''
                 ),
             # graphite = gdl(generated + '${DS:FILENAME_BASE}.gdl',

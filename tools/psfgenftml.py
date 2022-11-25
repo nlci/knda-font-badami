@@ -71,7 +71,7 @@ def doit(args):
     ka_ssa = (ka,virama,ssa)
     ja_nya = (ja,virama,nya)
     akhands = [ka_ssa, ja_nya]
-    nine = 0x0CEF
+    nine = digits[-1]
 
     # Initialize FTML document:
     # Default name for test: AllChars or something based on the csvdata file:
@@ -207,6 +207,12 @@ def doit(args):
                 builder.render((c,m,nine), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
             ftml.closeTest()
 
+        ftml.startTestGroup('Akhands with matras')
+        for a in akhands:
+            for m in matra_like:
+                builder.render((a+(m,)), ftml, label=f'{a[0]:04X}', comment=builder.char(a[0]).basename)
+        ftml.closeTest()
+
         ftml.startTestGroup('Consonant with one or two sub forms and a wrap matra')
         for c in consonants:
             for wm in wrap_matras:
@@ -276,11 +282,23 @@ def doit(args):
                 builder.render((c,m,nukta), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
             ftml.closeTest()
 
+        ftml.startTestGroup('Akhands with matra and nukta')
+        for a in akhands:
+            for m in matra_like:
+                builder.render((a+(m,)+(nukta,)), ftml, label=f'{a[0]:04X}', comment=builder.char(a[0]).basename)
+        ftml.closeTest()
+
         ftml.startTestGroup('Consonants with nukta and matra')
         for c in consonants:
             for m in matra_like:
                 builder.render((c,nukta,m), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
             ftml.closeTest()
+
+        ftml.startTestGroup('Akhands with nukta and matra')
+        for a in akhands:
+            for m in matra_like:
+                builder.render((a+(nukta,)+(m,)), ftml, label=f'{a[0]:04X}', comment=builder.char(a[0]).basename)
+        ftml.closeTest()
 
     # Write the output ftml file
     ftml.writeFile(args.output)

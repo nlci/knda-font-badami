@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ja_nya_aamatra" format="2">
+  <advance width="841"/>
+  <anchor x="282" y="-387" name="N"/>
+  <anchor x="593" y="-200" name="S"/>
+  <outline>
+    <component base="ja.base"/>
+    <component base="nya.sub" xOffset="236"/>
+    <component base="aamatra" xOffset="564"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

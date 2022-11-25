@@ -92,6 +92,9 @@
     <test label="init ra pha llvocalicmatra">
       <string>\u0cb0\u0ccd\u0cab\u0ce3</string>
     </test>
+    <test label="init ra pha halant">
+      <string>\u0cb0\u0ccd\u0cab\u0ccd</string>
+    </test>
 
     <test label="ra sub ra">
       <string>\u0cb0\u0ccd\u0cb0</string>
@@ -141,6 +144,9 @@
     <test label="ra sub ra llvocalicmatra">
       <string>\u0cb0\u0ccd\u0cb0\u0ce3</string>
     </test>
+    <test label="ra sub ra halant">
+      <string>\u0cb0\u0ccd\u0cb0\u0ccd</string>
+    </test>
 
     <test label="ra sub ra sub ra">
       <string>\u0cb0\u0ccd\u0cb0\u0ccd\u0cb0</string>
@@ -189,6 +195,9 @@
     </test>
     <test label="ra sub ra sub ra llvocalicmatra">
       <string>\u0cb0\u0ccd\u0cb0\u0ccd\u0cb0\u0ce3</string>
+    </test>
+    <test label="ra sub ra sub ra halant">
+      <string>\u0cb0\u0ccd\u0cb0\u0ccd\u0cb0\u0ccd</string>
     </test>
 
     <test label="ra-halant-ka-halant-kha">
@@ -504,10 +513,10 @@
     <test label="(ka|sa)-halant-ga-halant-ra-halant">
       <string>\u0c95\u0ccd\u0c97\u0ccd\u0cb0\u0ccd \u0cb8\u0ccd\u0c97\u0ccd\u0cb0\u0ccd</string>
     </test>
-    <test label="(ka|sa)-halant-kha-halant-ga-halan">
+    <test label="(ka|sa)-halant-kha-halant-ga-halant">
       <string>\u0c95\u0ccd\u0c96\u0ccd\u0c97\u0ccd \u0cb8\u0ccd\u0c96\u0ccd\u0c97\u0ccd</string>
     </test>
-    <test label="(ka|sa)-halant-kha-halant-ga-halan">
+    <test label="(ka|sa)-halant-kha-halant-ga-halant">
       <string>\u0c95\u0ccd\u0c96\u0ccd\u0c97\u0ccd \u0cb8\u0ccd\u0c96\u0ccd\u0c97\u0ccd</string>
     </test>
   </testgroup>

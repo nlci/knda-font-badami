@@ -52,19 +52,6 @@ lookup BelowFormOfCons {
     sub virama @Cons by @SubCons;
 } BelowFormOfCons;
 
-lookup PreBaseSub {
-  lookupflag 0;
-    # some consonants have a multiple base forms (.noEbase and .regbase)
-    sub @cno_noEbase' @MatraToBase by @c_noEbase;
-    sub @cno_regbase' ematra uumatra by @c_regbase;
-
-    # vowel signs AA and AU
-    sub @cno_base' @MatraToBase by @c_base;
-
-    # vowel sign and parts with E (but not for the multiple base consonants)
-    sub @cno_base' ematra by @c_base;
-} PreBaseSub;
-
 lookup PreBaseLig {
   lookupflag 0;
     # custom ligatures
@@ -72,17 +59,18 @@ lookup PreBaseLig {
     sub lla umatra by lla_umatra;
 } PreBaseLig;
 
-lookup LargeEmatraLike {
+lookup AboveMatras {
   lookupflag 0;
-    sub @cligno_aamatra' aamatra' by @clig_aamatra;
-    sub @cligno_ematra' ematra' by @clig_ematra;
-    sub @cligno_aumatra' aumatra' by @clig_aumatra;
-} LargeEmatraLike;
-
-lookup ImatraLigature {
-  lookupflag 0;
+    sub @cligno_aamatra aamatra by @clig_aamatra;
     sub @cno_imathra imatra by @c_imathra;
-} ImatraLigature;
+    sub @cligno_ematra ematra by @clig_ematra;
+    sub @cligno_aumatra aumatra by @clig_aumatra;
+} AboveMatras;
+
+lookup Omatra {
+  lookupflag 0;
+    sub @cno_Obase' uumatra by @c_Obase;
+} Omatra;
 
 lookup SubLigatures {
   lookupflag 0;
@@ -105,19 +93,19 @@ lookup UndoReph {
   lookupflag 0;
     # undo reph formation for ra sub ra, maybe followed by a matra
     sub ra shortrr' lookup Reph2RaSub;
-    sub ra.base aamatra shortrr' lookup Reph2RaSub;
+    sub ra_aamatra shortrr' lookup Reph2RaSub;
     sub ra.imathra shortrr' lookup Reph2RaSub; # imatra
     sub ra.imathra lengthmark shortrr' lookup Reph2RaSub; # iimatra
     sub ra umatra shortrr' lookup Reph2RaSub;
     sub ra uumatra shortrr' lookup Reph2RaSub;
     sub ra rvocalicmatra shortrr' lookup Reph2RaSub;
     sub ra rrvocalicmatra shortrr' lookup Reph2RaSub;
-    sub ra.base ematra shortrr' lookup Reph2RaSub;
-    sub ra.base ematra lengthmark shortrr' lookup Reph2RaSub; # eematra
-    sub ra.base ematra ailengthmark shortrr' lookup Reph2RaSub; # aimatra
-    sub ra.base ematra uumatra shortrr' lookup Reph2RaSub; # omatra
-    sub ra.base ematra uumatra lengthmark shortrr' lookup Reph2RaSub; # oomatra
-    sub ra.base aumatra shortrr' lookup Reph2RaSub; # aumatra
+    sub ra_ematra shortrr' lookup Reph2RaSub;
+    sub ra_ematra lengthmark shortrr' lookup Reph2RaSub; # eematra
+    sub ra_ematra ailengthmark shortrr' lookup Reph2RaSub; # aimatra
+    sub ra_ematra uumatra shortrr' lookup Reph2RaSub; # omatra
+    sub ra_ematra uumatra lengthmark shortrr' lookup Reph2RaSub; # oomatra
+    sub ra_aumatra shortrr' lookup Reph2RaSub; # aumatra
     sub ra lvocalicmatra shortrr' lookup Reph2RaSub;
     sub ra llvocalicmatra shortrr' lookup Reph2RaSub;
 } UndoReph;
@@ -144,9 +132,17 @@ lookup SwapLengthAndRaSub {
 
 lookup PostBaseSub {
   lookupflag 0;
-    sub @TakesUnderUMatra umatra' by umatra.large;
-    sub @TakesUnderUMatra uumatra' by uumatra.large;
-    sub @TakesUnderUMatra ematra uumatra' by uumatra.large;
+    @ConsTakesUnderUMatra = [pa pha va];
+    sub @ConsTakesUnderUMatra umatra' by umatra.large;
+    sub @ConsTakesUnderUMatra uumatra' by uumatra.large;
+
+    # Special case for omarta (which also covers oomatra)
+    # Since omatra = ematra + uumatra,
+    # a ligature that ends with ematra,
+    # followed by a uumatra,
+    # is an omatra.
+    @LigTakesUnderUMatra = [pa_ematra pha_ematra va_ematra];
+    sub @LigTakesUnderUMatra uumatra' by uumatra.large;
 
     # special handling of ra sub forms
     sub @SubCons ra.below' by ra.below.subcons;
@@ -161,8 +157,8 @@ lookup PostBaseSub {
 
     sub ra.imathra ra.below' by ra.below.ra;
 
-    # Matras that do not have decompositions
-    @AtomicMatras = [aamatra imatra umatra uumatra rvocalicmatra rrvocalicmatra ematra aumatra lvocalicmatra llvocalicmatra];
+    # Matras (that may be in a ligature with a consonant) that do not have decompositions
+    @AtomicMatras = [@clig_aamatra imatra umatra uumatra rvocalicmatra rrvocalicmatra @clig_ematra @clig_aumatra lvocalicmatra llvocalicmatra];
 
     # Non-atomic vowels will be decomposed, and the characters in the resulting
     # decomposition that are atomic vowels (or were atomic to being with)
@@ -202,13 +198,12 @@ feature blwf {
 } blwf;
 
 feature pres {
-    lookup PreBaseSub;
     lookup PreBaseLig;
 } pres;
 
 feature abvs {
-    lookup LargeEmatraLike;
-    lookup ImatraLigature;
+    lookup AboveMatras;
+    lookup Omatra;
 } abvs;
 
 feature blws {
@@ -231,11 +226,6 @@ feature haln {
 lookup KernPairs {
     kernpairs;
 } KernPairs;
-
-lookup EMatras {
-  lookupflag 0;
-    pos base @V mark @_V;
-} EMatras;
 
 lookup Nuktas {
   lookupflag 0;
@@ -304,10 +294,6 @@ lookup AiRight {
 feature dist {
     lookup KernPairs;
 } dist;
-
-feature abvm {
-    lookup EMatras;
-} abvm;
 
 feature blwm {
     lookup Nuktas;

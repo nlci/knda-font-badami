@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ka_ssa_virama" format="2">
+  <advance width="1070"/>
+  <anchor x="276" y="-407" name="N"/>
+  <anchor x="672" y="-200" name="S"/>
+  <outline>
+    <component base="ka.base"/>
+    <component base="ssa.sub" xOffset="301"/>
+    <component base="virama" xOffset="465"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

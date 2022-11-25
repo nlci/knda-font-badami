@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ya_aamatra" format="2">
+  <advance width="1205"/>
+  <outline>
+    <component base="ya.regbase"/>
+    <component base="inherent" xOffset="641"/>
+    <component base="widebase" xOffset="651"/>
+    <component base="aamatra" xOffset="928"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

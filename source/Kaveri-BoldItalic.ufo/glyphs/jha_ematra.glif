@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jha_ematra" format="2">
+  <advance width="1077"/>
+  <outline>
+    <component base="ra.base"/>
+    <component base="jha.part" xOffset="461"/>
+    <component base="umatra" xOffset="769"/>
+    <component base="ematra" xOffset="627" yOffset="-13"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

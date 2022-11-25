@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sha_aumatra" format="2">
+  <advance width="1111"/>
+  <outline>
+    <component base="sha.base"/>
+    <component base="aumatra" xOffset="418"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

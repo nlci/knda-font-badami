@@ -252,6 +252,12 @@
   <string>ba.imathra.glif</string>
   <key>ba.sub</key>
   <string>ba.sub.glif</string>
+  <key>ba_aamatra</key>
+  <string>ba_aamatra.glif</string>
+  <key>ba_aumatra</key>
+  <string>ba_aumatra.glif</string>
+  <key>ba_ematra</key>
+  <string>ba_ematra.glif</string>
   <key>ba_virama</key>
   <string>ba_virama.glif</string>
   <key>backslash</key>
@@ -266,6 +272,12 @@
   <string>bha.imathra.glif</string>
   <key>bha.sub</key>
   <string>bha.sub.glif</string>
+  <key>bha_aamatra</key>
+  <string>bha_aamatra.glif</string>
+  <key>bha_aumatra</key>
+  <string>bha_aumatra.glif</string>
+  <key>bha_ematra</key>
+  <string>bha_ematra.glif</string>
   <key>bha_virama</key>
   <string>bha_virama.glif</string>
   <key>braceleft</key>
@@ -294,6 +306,12 @@
   <string>ca.imathra.glif</string>
   <key>ca.sub</key>
   <string>ca.sub.glif</string>
+  <key>ca_aamatra</key>
+  <string>ca_aamatra.glif</string>
+  <key>ca_aumatra</key>
+  <string>ca_aumatra.glif</string>
+  <key>ca_ematra</key>
+  <string>ca_ematra.glif</string>
   <key>ca_virama</key>
   <string>ca_virama.glif</string>
   <key>candrabindu</key>
@@ -326,6 +344,12 @@
   <string>cha.imathra.glif</string>
   <key>cha.sub</key>
   <string>cha.sub.glif</string>
+  <key>cha_aamatra</key>
+  <string>cha_aamatra.glif</string>
+  <key>cha_aumatra</key>
+  <string>cha_aumatra.glif</string>
+  <key>cha_ematra</key>
+  <string>cha_ematra.glif</string>
   <key>cha_virama</key>
   <string>cha_virama.glif</string>
   <key>circumflex</key>
@@ -364,6 +388,12 @@
   <string>da.imathra.glif</string>
   <key>da.sub</key>
   <string>da.sub.glif</string>
+  <key>da_aamatra</key>
+  <string>da_aamatra.glif</string>
+  <key>da_aumatra</key>
+  <string>da_aumatra.glif</string>
+  <key>da_ematra</key>
+  <string>da_ematra.glif</string>
   <key>da_virama</key>
   <string>da_virama.glif</string>
   <key>dagger</key>
@@ -382,6 +412,12 @@
   <string>dda.imathra.glif</string>
   <key>dda.sub</key>
   <string>dda.sub.glif</string>
+  <key>dda_aamatra</key>
+  <string>dda_aamatra.glif</string>
+  <key>dda_aumatra</key>
+  <string>dda_aumatra.glif</string>
+  <key>dda_ematra</key>
+  <string>dda_ematra.glif</string>
   <key>dda_virama</key>
   <string>dda_virama.glif</string>
   <key>ddha</key>
@@ -392,6 +428,12 @@
   <string>ddha.imathra.glif</string>
   <key>ddha.sub</key>
   <string>ddha.sub.glif</string>
+  <key>ddha_aamatra</key>
+  <string>ddha_aamatra.glif</string>
+  <key>ddha_aumatra</key>
+  <string>ddha_aumatra.glif</string>
+  <key>ddha_ematra</key>
+  <string>ddha_ematra.glif</string>
   <key>ddha_virama</key>
   <string>ddha_virama.glif</string>
   <key>degree</key>
@@ -404,6 +446,12 @@
   <string>dha.imathra.glif</string>
   <key>dha.sub</key>
   <string>dha.sub.glif</string>
+  <key>dha_aamatra</key>
+  <string>dha_aamatra.glif</string>
+  <key>dha_aumatra</key>
+  <string>dha_aumatra.glif</string>
+  <key>dha_ematra</key>
+  <string>dha_ematra.glif</string>
   <key>dha_virama</key>
   <string>dha_virama.glif</string>
   <key>dieresis</key>
@@ -540,6 +588,12 @@
   <string>ga.imathra.glif</string>
   <key>ga.sub</key>
   <string>ga.sub.glif</string>
+  <key>ga_aamatra</key>
+  <string>ga_aamatra.glif</string>
+  <key>ga_aumatra</key>
+  <string>ga_aumatra.glif</string>
+  <key>ga_ematra</key>
+  <string>ga_ematra.glif</string>
   <key>ga_virama</key>
   <string>ga_virama.glif</string>
   <key>germandbls</key>
@@ -552,6 +606,12 @@
   <string>gha.imathra.glif</string>
   <key>gha.sub</key>
   <string>gha.sub.glif</string>
+  <key>gha_aamatra</key>
+  <string>gha_aamatra.glif</string>
+  <key>gha_aumatra</key>
+  <string>gha_aumatra.glif</string>
+  <key>gha_ematra</key>
+  <string>gha_ematra.glif</string>
   <key>gha_virama</key>
   <string>gha_virama.glif</string>
   <key>grave</key>
@@ -584,6 +644,12 @@
   <string>ha.imathra.glif</string>
   <key>ha.sub</key>
   <string>ha.sub.glif</string>
+  <key>ha_aamatra</key>
+  <string>ha_aamatra.glif</string>
+  <key>ha_aumatra</key>
+  <string>ha_aumatra.glif</string>
+  <key>ha_ematra</key>
+  <string>ha_ematra.glif</string>
   <key>ha_virama</key>
   <string>ha_virama.glif</string>
   <key>hairspace</key>
@@ -646,12 +712,26 @@
   <string>ja.imathra.glif</string>
   <key>ja.sub</key>
   <string>ja.sub.glif</string>
+  <key>ja_aamatra</key>
+  <string>ja_aamatra.glif</string>
+  <key>ja_aumatra</key>
+  <string>ja_aumatra.glif</string>
+  <key>ja_ematra</key>
+  <string>ja_ematra.glif</string>
   <key>ja_nya</key>
   <string>ja_nya.glif</string>
   <key>ja_nya.base</key>
   <string>ja_nya.base.glif</string>
   <key>ja_nya.imathra</key>
   <string>ja_nya.imathra.glif</string>
+  <key>ja_nya_aamatra</key>
+  <string>ja_nya_aamatra.glif</string>
+  <key>ja_nya_aumatra</key>
+  <string>ja_nya_aumatra.glif</string>
+  <key>ja_nya_ematra</key>
+  <string>ja_nya_ematra.glif</string>
+  <key>ja_nya_virama</key>
+  <string>ja_nya_virama.glif</string>
   <key>ja_virama</key>
   <string>ja_virama.glif</string>
   <key>jha</key>
@@ -668,6 +748,14 @@
   <string>jha.regbase.glif</string>
   <key>jha.sub</key>
   <string>jha.sub.glif</string>
+  <key>jha_aamatra</key>
+  <string>jha_aamatra.glif</string>
+  <key>jha_aumatra</key>
+  <string>jha_aumatra.glif</string>
+  <key>jha_ematra</key>
+  <string>jha_ematra.glif</string>
+  <key>jha_ematra.Obase</key>
+  <string>jha_ematra.O_base.glif</string>
   <key>jha_virama</key>
   <string>jha_virama.glif</string>
   <key>jihvamuliya</key>
@@ -682,6 +770,12 @@
   <string>ka.imathra.glif</string>
   <key>ka.sub</key>
   <string>ka.sub.glif</string>
+  <key>ka_aamatra</key>
+  <string>ka_aamatra.glif</string>
+  <key>ka_aumatra</key>
+  <string>ka_aumatra.glif</string>
+  <key>ka_ematra</key>
+  <string>ka_ematra.glif</string>
   <key>ka_rvocalicmatra.below</key>
   <string>ka_rvocalicmatra.below.glif</string>
   <key>ka_ssa</key>
@@ -690,6 +784,14 @@
   <string>ka_ssa.base.glif</string>
   <key>ka_ssa.imathra</key>
   <string>ka_ssa.imathra.glif</string>
+  <key>ka_ssa_aamatra</key>
+  <string>ka_ssa_aamatra.glif</string>
+  <key>ka_ssa_aumatra</key>
+  <string>ka_ssa_aumatra.glif</string>
+  <key>ka_ssa_ematra</key>
+  <string>ka_ssa_ematra.glif</string>
+  <key>ka_ssa_virama</key>
+  <string>ka_ssa_virama.glif</string>
   <key>ka_virama</key>
   <string>ka_virama.glif</string>
   <key>kha</key>
@@ -700,6 +802,12 @@
   <string>kha.imathra.glif</string>
   <key>kha.sub</key>
   <string>kha.sub.glif</string>
+  <key>kha_aamatra</key>
+  <string>kha_aamatra.glif</string>
+  <key>kha_aumatra</key>
+  <string>kha_aumatra.glif</string>
+  <key>kha_ematra</key>
+  <string>kha_ematra.glif</string>
   <key>kha_virama</key>
   <string>kha_virama.glif</string>
   <key>l</key>
@@ -712,6 +820,12 @@
   <string>la.imathra.glif</string>
   <key>la.sub</key>
   <string>la.sub.glif</string>
+  <key>la_aamatra</key>
+  <string>la_aamatra.glif</string>
+  <key>la_aumatra</key>
+  <string>la_aumatra.glif</string>
+  <key>la_ematra</key>
+  <string>la_ematra.glif</string>
   <key>la_virama</key>
   <string>la_virama.glif</string>
   <key>lengthmark</key>
@@ -730,6 +844,12 @@
   <string>lla.imathra.glif</string>
   <key>lla.sub</key>
   <string>lla.sub.glif</string>
+  <key>lla_aamatra</key>
+  <string>lla_aamatra.glif</string>
+  <key>lla_aumatra</key>
+  <string>lla_aumatra.glif</string>
+  <key>lla_ematra</key>
+  <string>lla_ematra.glif</string>
   <key>lla_umatra</key>
   <string>lla_umatra.glif</string>
   <key>lla_virama</key>
@@ -766,6 +886,14 @@
   <string>ma.regbase.glif</string>
   <key>ma.sub</key>
   <string>ma.sub.glif</string>
+  <key>ma_aamatra</key>
+  <string>ma_aamatra.glif</string>
+  <key>ma_aumatra</key>
+  <string>ma_aumatra.glif</string>
+  <key>ma_ematra</key>
+  <string>ma_ematra.glif</string>
+  <key>ma_ematra.Obase</key>
+  <string>ma_ematra.O_base.glif</string>
   <key>ma_virama</key>
   <string>ma_virama.glif</string>
   <key>macron</key>
@@ -786,6 +914,12 @@
   <string>na.imathra.glif</string>
   <key>na.sub</key>
   <string>na.sub.glif</string>
+  <key>na_aamatra</key>
+  <string>na_aamatra.glif</string>
+  <key>na_aumatra</key>
+  <string>na_aumatra.glif</string>
+  <key>na_ematra</key>
+  <string>na_ematra.glif</string>
   <key>na_virama</key>
   <string>na_virama.glif</string>
   <key>nakaarapollu</key>
@@ -826,6 +960,12 @@
   <string>nna.imathra.glif</string>
   <key>nna.sub</key>
   <string>nna.sub.glif</string>
+  <key>nna_aamatra</key>
+  <string>nna_aamatra.glif</string>
+  <key>nna_aumatra</key>
+  <string>nna_aumatra.glif</string>
+  <key>nna_ematra</key>
+  <string>nna_ematra.glif</string>
   <key>nna_virama</key>
   <string>nna_virama.glif</string>
   <key>nnbspace</key>
@@ -918,6 +1058,12 @@
   <string>pa.imathra.glif</string>
   <key>pa.sub</key>
   <string>pa.sub.glif</string>
+  <key>pa_aamatra</key>
+  <string>pa_aamatra.glif</string>
+  <key>pa_aumatra</key>
+  <string>pa_aumatra.glif</string>
+  <key>pa_ematra</key>
+  <string>pa_ematra.glif</string>
   <key>pa_virama</key>
   <string>pa_virama.glif</string>
   <key>paragraph</key>
@@ -956,6 +1102,12 @@
   <string>pha.imathra.glif</string>
   <key>pha.sub</key>
   <string>pha.sub.glif</string>
+  <key>pha_aamatra</key>
+  <string>pha_aamatra.glif</string>
+  <key>pha_aumatra</key>
+  <string>pha_aumatra.glif</string>
+  <key>pha_ematra</key>
+  <string>pha_ematra.glif</string>
   <key>pha_virama</key>
   <string>pha_virama.glif</string>
   <key>pi</key>
@@ -1016,8 +1168,14 @@
   <string>ra.below.subcons.glif</string>
   <key>ra.imathra</key>
   <string>ra.imathra.glif</string>
+  <key>ra_aamatra</key>
+  <string>ra_aamatra.glif</string>
   <key>ra_ailengthmark.below</key>
   <string>ra_ailengthmark.below.glif</string>
+  <key>ra_aumatra</key>
+  <string>ra_aumatra.glif</string>
+  <key>ra_ematra</key>
+  <string>ra_ematra.glif</string>
   <key>ra_virama</key>
   <string>ra_virama.glif</string>
   <key>radical</key>
@@ -1066,6 +1224,12 @@
   <string>sa.imathra.glif</string>
   <key>sa.sub</key>
   <string>sa.sub.glif</string>
+  <key>sa_aamatra</key>
+  <string>sa_aamatra.glif</string>
+  <key>sa_aumatra</key>
+  <string>sa_aumatra.glif</string>
+  <key>sa_ematra</key>
+  <string>sa_ematra.glif</string>
   <key>sa_virama</key>
   <string>sa_virama.glif</string>
   <key>scaron</key>
@@ -1092,6 +1256,12 @@
   <string>sha.imathra.glif</string>
   <key>sha.sub</key>
   <string>sha.sub.glif</string>
+  <key>sha_aamatra</key>
+  <string>sha_aamatra.glif</string>
+  <key>sha_aumatra</key>
+  <string>sha_aumatra.glif</string>
+  <key>sha_ematra</key>
+  <string>sha_ematra.glif</string>
   <key>sha_ra.imathra</key>
   <string>sha_ra.imathra.glif</string>
   <key>sha_virama</key>
@@ -1134,6 +1304,12 @@
   <string>ssa.imathra.glif</string>
   <key>ssa.sub</key>
   <string>ssa.sub.glif</string>
+  <key>ssa_aamatra</key>
+  <string>ssa_aamatra.glif</string>
+  <key>ssa_aumatra</key>
+  <string>ssa_aumatra.glif</string>
+  <key>ssa_ematra</key>
+  <string>ssa_ematra.glif</string>
   <key>ssa_virama</key>
   <string>ssa_virama.glif</string>
   <key>sterling</key>
@@ -1150,8 +1326,14 @@
   <string>ta.imathra.glif</string>
   <key>ta.sub</key>
   <string>ta.sub.glif</string>
+  <key>ta_aamatra</key>
+  <string>ta_aamatra.glif</string>
   <key>ta_ailengthmark.below</key>
   <string>ta_ailengthmark.below.glif</string>
+  <key>ta_aumatra</key>
+  <string>ta_aumatra.glif</string>
+  <key>ta_ematra</key>
+  <string>ta_ematra.glif</string>
   <key>ta_rvocalicmatra.below</key>
   <string>ta_rvocalicmatra.below.glif</string>
   <key>ta_va.below</key>
@@ -1168,6 +1350,12 @@
   <string>tha.imathra.glif</string>
   <key>tha.sub</key>
   <string>tha.sub.glif</string>
+  <key>tha_aamatra</key>
+  <string>tha_aamatra.glif</string>
+  <key>tha_aumatra</key>
+  <string>tha_aumatra.glif</string>
+  <key>tha_ematra</key>
+  <string>tha_ematra.glif</string>
   <key>tha_virama</key>
   <string>tha_virama.glif</string>
   <key>thinspace</key>
@@ -1202,6 +1390,12 @@
   <string>tta.imathra.glif</string>
   <key>tta.sub</key>
   <string>tta.sub.glif</string>
+  <key>tta_aamatra</key>
+  <string>tta_aamatra.glif</string>
+  <key>tta_aumatra</key>
+  <string>tta_aumatra.glif</string>
+  <key>tta_ematra</key>
+  <string>tta_ematra.glif</string>
   <key>tta_virama</key>
   <string>tta_virama.glif</string>
   <key>ttha</key>
@@ -1212,6 +1406,12 @@
   <string>ttha.imathra.glif</string>
   <key>ttha.sub</key>
   <string>ttha.sub.glif</string>
+  <key>ttha_aamatra</key>
+  <string>ttha_aamatra.glif</string>
+  <key>ttha_aumatra</key>
+  <string>ttha_aumatra.glif</string>
+  <key>ttha_ematra</key>
+  <string>ttha_ematra.glif</string>
   <key>ttha_virama</key>
   <string>ttha_virama.glif</string>
   <key>two</key>
@@ -1260,6 +1460,12 @@
   <string>va.imathra.glif</string>
   <key>va.sub</key>
   <string>va.sub.glif</string>
+  <key>va_aamatra</key>
+  <string>va_aamatra.glif</string>
+  <key>va_aumatra</key>
+  <string>va_aumatra.glif</string>
+  <key>va_ematra</key>
+  <string>va_ematra.glif</string>
   <key>va_virama</key>
   <string>va_virama.glif</string>
   <key>vedicsignjihvamuliya</key>
@@ -1304,6 +1510,14 @@
   <string>ya.regbase.glif</string>
   <key>ya.sub</key>
   <string>ya.sub.glif</string>
+  <key>ya_aamatra</key>
+  <string>ya_aamatra.glif</string>
+  <key>ya_aumatra</key>
+  <string>ya_aumatra.glif</string>
+  <key>ya_ematra</key>
+  <string>ya_ematra.glif</string>
+  <key>ya_ematra.Obase</key>
+  <string>ya_ematra.O_base.glif</string>
   <key>ya_virama</key>
   <string>ya_virama.glif</string>
   <key>yacute</key>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ka_ssa_ematra" format="2">
+  <advance width="601"/>
+  <anchor x="332" y="-419" name="N"/>
+  <anchor x="694" y="-200" name="S"/>
+  <anchor x="356" y="487" name="_V"/>
+  <outline>
+    <component base="ka.base"/>
+    <component base="ssa.sub" xOffset="328"/>
+    <component base="ematra" xOffset="484"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

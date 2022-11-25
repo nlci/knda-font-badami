@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ya_ematra.Obase" format="2">
+  <advance width="651"/>
+  <anchor x="560" y="414" name="_V"/>
+  <outline>
+    <component base="ya.regbase"/>
+    <component base="ematra" xOffset="641"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

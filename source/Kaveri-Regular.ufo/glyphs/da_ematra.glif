@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="da_ematra" format="2">
+  <advance width="637"/>
+  <anchor x="392" y="487" name="_V"/>
+  <outline>
+    <component base="da.base"/>
+    <component base="ematra" xOffset="520"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ja_nya_ematra" format="2">
+  <advance width="574"/>
+  <anchor x="302" y="-387" name="N"/>
+  <anchor x="621" y="-200" name="S"/>
+  <anchor x="483" y="414" name="_V"/>
+  <outline>
+    <component base="ja.base"/>
+    <component base="nya.sub" xOffset="236"/>
+    <component base="ematra" xOffset="564"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>
