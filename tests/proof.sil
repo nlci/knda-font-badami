@@ -21,29 +21,25 @@
 \pattern[chars="C",reps="group_cons",format="para"]{C}
 \pattern[chars="M",reps="group_matras",format="para"]{M}
 
-\pattern[chars="M,C",reps="group_matras,group_cons",format="table",heading=Consonant+Matra+Consonant]{CM೯}
+\pattern[chars="M,C",reps="group_matras,group_cons",format="table",heading=Consonant+Matra+Nine]{CM೯}
 \pattern[chars="S,C",reps="group_cons,group_cons",format="table",heading=Consonant+Consonant]{C್S}
 \pattern[chars="S,C",reps="group_cons,group_cons",format="table",heading=Consonant+Nukta+Consonant]{C಼್S}
 \pattern[chars="S,C",reps="group_cons,group_cons",format="table",heading=Ka+Consonant+Consonant]{ಕ್C್S}
 
 \subsection{Digits}
 
-\patterngroup[name="digits_indic"]{₹೦೧೨೩೪೫೬೭೮೯}
+\patterngroup[name="digits_indic"]{೦೧೨೩೪೫೬೭೮೯}
 \pattern[chars="D",reps="group_digits_indic",format="para"]{D}
-\pattern[chars="@",reps="group_digits_indic",format="list"]{@₹@೦@೧@೨@೩@೪@೫@೬@೭@೮@೯}
+\pattern[chars="@",reps="group_digits_indic",format="list"]{@₨@₹@೦@೧@೨@೩@೪@೫@೬@೭@೮@೯@–@}
 
-\patterngroup[name="digits_latin"]{₹0123456789}
+\patterngroup[name="digits_latin"]{0123456789}
 \pattern[chars="D",reps="group_digits_latin",format="para"]{D}
-\pattern[chars="@",reps="group_digits_latin",format="list"]{@₹@0@1@2@3@4@5@6@7@8@9}
+\pattern[chars="@",reps="group_digits_latin",format="list"]{@₨@₹@0@1@2@3@4@5@6@7@8@9@–@}
 
 \subsection{Punctuation}
 
 \proof{!"#&'()*,-./:;?[]।॥಄‐‑‒–—―‘’‚“”„†‡•…‧‰‹›⌈⌉⌊⌋⸢⸣⸤⸥}
 \pattern[chars="@",reps="group_cons",format="list"]{@!@"@#@&@'@(@)@*@,@-@.@/@:@;@?@[@]@।@॥@಄@‐@‑@‒@–@—@―@‘@’@‚@“@”@„@†@‡@•@…@‧@‹@›⌈@⌉@⌊@⌋@⸢@⸣@⸤@⸥@}
-
-\subsection{Quotes}
-
-\proof{‘ಕ’ “ಕ”}
 
 \subsection{Spaces}
 
