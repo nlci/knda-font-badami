@@ -14,7 +14,10 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
-dd Oct 2022 (Dev NLCI) NLCI Kannada fonts version 0.500
+dd Nov 2022 (Dev NLCI) NLCI Kannada fonts version 0.500
+- Improved flat joins to resolve hinting issues
+- New ligatures for some matras with round top consonants
+- Small improvements to many glyphs
 - Improved handling of sub forms and reph
 - Removed Graphite shaping
 - Added U+0CDD and U+0CF3
