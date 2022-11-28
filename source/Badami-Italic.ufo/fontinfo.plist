@@ -23,7 +23,7 @@ with Reserved Font Names "Andika" and "SIL".
   <key>italicAngle</key>
   <integer>-12</integer>
   <key>openTypeHeadCreated</key>
-  <string>2022/11/25 16:37:25</string>
+  <string>2022/11/28 09:17:16</string>
   <key>openTypeHheaAscender</key>
   <integer>604</integer>
   <key>openTypeHheaDescender</key>
@@ -241,10 +241,6 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <string>Badami-Italic</string>
   <key>postscriptFullName</key>
   <string>Badami Italic</string>
-  <key>postscriptStemSnapH</key>
-  <array/>
-  <key>postscriptStemSnapV</key>
-  <array/>
   <key>postscriptUnderlinePosition</key>
   <integer>-310</integer>
   <key>postscriptUnderlineThickness</key>

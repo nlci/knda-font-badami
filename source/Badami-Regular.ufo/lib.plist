@@ -5,7 +5,7 @@
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict/>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3141</string>
+  <string>3149</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/virama/ha.base/lla/umatra/nga/imatra t/ka.base/ematra</string>
@@ -16,6 +16,8 @@
 /fa_aamatra/fa_ematra/fa_aumatra/fa_virama 
 /jha.base/jha/space/inherent/jha.regbase/ma.base/ya.base/space/ematra</string>
     <string>/hyphentwo/ka.base/ka !-/nbhyphen/figuredash/endash/emdash/horizontalbar</string>
+    <string>/dha.base/tha.base 
+</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
