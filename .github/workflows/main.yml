@@ -40,13 +40,13 @@ jobs:
         run: |
           # smith version
           smith configure
-          smith build
+          # smith build
           # smith alltests
           smith sile
           smith pdfs
           smith zip
           # smith tarball
-          # smith release
+          smith release
       - uses: actions/upload-artifact@v3
         with:
           name: sile
