@@ -2,6 +2,8 @@
 <glyph name="udieresis" format="2">
   <advance width="401"/>
   <unicode hex="00FC"/>
+  <anchor x="186" y="0" name="H"/>
+  <anchor x="201" y="510" name="U"/>
   <outline>
     <component base="u"/>
     <component base="dieresiscomb" xOffset="389"/>

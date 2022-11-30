@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="three.latn" format="2">
   <advance width="361"/>
+  <anchor x="180" y="477" name="U"/>
   <outline>
     <contour>
       <point x="319" y="132" type="curve"/>

@@ -4,6 +4,7 @@
   <note>
 GF Latin Plus glyph
 </note>
+  <anchor x="-192" y="-107" name="_bottom"/>
   <outline>
     <component base="cedilla" xOffset="-273"/>
   </outline>

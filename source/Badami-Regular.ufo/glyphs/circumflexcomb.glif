@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="circumflexcomb" format="2">
   <unicode hex="0302"/>
+  <anchor x="-182" y="366" name="_U"/>
   <outline>
     <contour>
       <point x="-69" y="382" type="curve"/>

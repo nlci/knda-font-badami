@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tildecomb.cap" format="2">
+  <anchor x="-182" y="366" name="_U"/>
   <outline>
     <contour>
       <point x="-57" y="458" type="curve"/>

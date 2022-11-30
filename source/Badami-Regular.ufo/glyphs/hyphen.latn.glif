@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hyphen.latn" format="2">
   <advance width="245"/>
+  <anchor x="120" y="366" name="U"/>
   <outline>
     <contour>
       <point x="224" y="191" type="curve"/>

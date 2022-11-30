@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ringcomb" format="2">
   <unicode hex="030A"/>
+  <anchor x="-188" y="366" name="_U"/>
   <outline>
     <contour>
       <point x="-115" y="455" type="curve"/>

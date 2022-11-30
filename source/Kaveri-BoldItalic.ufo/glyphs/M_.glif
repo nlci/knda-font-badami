@@ -5,6 +5,8 @@
   <note>
 GF Latin Plus glyph
 </note>
+  <anchor x="288" y="-107" name="bottom"/>
+  <anchor x="397" y="578" name="top"/>
   <outline>
     <contour>
       <point x="29" y="0" type="line"/>

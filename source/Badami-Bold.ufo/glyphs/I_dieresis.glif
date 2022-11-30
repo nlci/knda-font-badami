@@ -2,6 +2,8 @@
 <glyph name="Idieresis" format="2">
   <advance width="233"/>
   <unicode hex="00CF"/>
+  <anchor x="113" y="0" name="H"/>
+  <anchor x="113" y="589" name="U"/>
   <outline>
     <component base="I"/>
     <component base="dieresiscomb.cap" xOffset="301" yOffset="111"/>

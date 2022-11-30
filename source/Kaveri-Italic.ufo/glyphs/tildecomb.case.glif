@@ -3,6 +3,7 @@
   <note>
 GF Latin Plus glyph
 </note>
+  <anchor x="-170" y="607" name="_top"/>
   <outline>
     <component base="tildecomb" xOffset="21" yOffset="142"/>
   </outline>

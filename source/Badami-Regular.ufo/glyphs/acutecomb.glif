@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="acutecomb" format="2">
   <unicode hex="0301"/>
+  <anchor x="-189" y="366" name="_U"/>
   <outline>
     <contour>
       <point x="-206" y="364" type="curve"/>

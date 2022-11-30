@@ -3,6 +3,7 @@
   <note>
 GF Latin Plus glyph
 </note>
+  <anchor x="-226" y="-107" name="_bottom"/>
   <outline>
     <component base="cedillacomb" xOffset="-35"/>
   </outline>

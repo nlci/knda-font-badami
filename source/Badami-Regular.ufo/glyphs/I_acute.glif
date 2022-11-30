@@ -2,6 +2,8 @@
 <glyph name="Iacute" format="2">
   <advance width="219"/>
   <unicode hex="00CD"/>
+  <anchor x="106" y="0" name="H"/>
+  <anchor x="106" y="596" name="U"/>
   <outline>
     <component base="I"/>
     <component base="acutecomb.cap" xOffset="298" yOffset="111"/>

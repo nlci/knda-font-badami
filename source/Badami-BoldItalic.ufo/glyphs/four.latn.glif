@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="four.latn" format="2">
   <advance width="324"/>
+  <anchor x="198" y="460" name="U"/>
   <outline>
     <contour>
       <point x="304" y="154" type="curve"/>

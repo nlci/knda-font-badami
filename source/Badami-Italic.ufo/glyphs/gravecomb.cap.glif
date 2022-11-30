@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gravecomb.cap" format="2">
+  <anchor x="-98" y="348" name="_U"/>
   <outline>
     <contour>
       <point x="-44" y="375" type="curve"/>

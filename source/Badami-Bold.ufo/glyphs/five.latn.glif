@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="five.latn" format="2">
   <advance width="361"/>
+  <anchor x="181" y="477" name="U"/>
   <outline>
     <contour>
       <point x="320" y="142" type="curve"/>

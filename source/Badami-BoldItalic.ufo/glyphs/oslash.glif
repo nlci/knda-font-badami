@@ -2,6 +2,8 @@
 <glyph name="oslash" format="2">
   <advance width="317"/>
   <unicode hex="00F8"/>
+  <anchor x="133" y="0" name="H"/>
+  <anchor x="184" y="348" name="U"/>
   <outline>
     <contour>
       <point x="321" y="320" type="line"/>

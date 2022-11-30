@@ -2,6 +2,7 @@
 <glyph name="AE" format="2">
   <advance width="577"/>
   <unicode hex="00C6"/>
+  <anchor x="337" y="477" name="U"/>
   <outline>
     <contour>
       <point x="561" y="106" type="curve"/>

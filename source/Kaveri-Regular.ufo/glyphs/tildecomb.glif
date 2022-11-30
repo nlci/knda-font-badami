@@ -4,6 +4,7 @@
   <note>
 GF Latin Plus glyph
 </note>
+  <anchor x="-202" y="464" name="_top"/>
   <outline>
     <component base="tilde" xOffset="-353"/>
   </outline>

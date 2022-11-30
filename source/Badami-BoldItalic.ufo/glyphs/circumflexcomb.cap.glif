@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="circumflexcomb.cap" format="2">
+  <anchor x="-131" y="348" name="_U"/>
   <outline>
     <contour>
       <point x="-19" y="376" type="curve"/>

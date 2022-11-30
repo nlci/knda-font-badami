@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dieresiscomb.cap" format="2">
+  <anchor x="-188" y="366" name="_U"/>
   <outline>
     <contour>
       <point x="-214" y="428" type="curve"/>

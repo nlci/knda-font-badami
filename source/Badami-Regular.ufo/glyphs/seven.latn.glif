@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seven.latn" format="2">
   <advance width="343"/>
+  <anchor x="171" y="477" name="U"/>
   <outline>
     <contour>
       <point x="317" y="407" type="curve"/>

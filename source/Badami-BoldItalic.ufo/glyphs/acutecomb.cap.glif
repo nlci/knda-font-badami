@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="acutecomb.cap" format="2">
+  <anchor x="-131" y="348" name="_U"/>
   <outline>
     <contour>
       <point x="-4" y="460" type="line"/>

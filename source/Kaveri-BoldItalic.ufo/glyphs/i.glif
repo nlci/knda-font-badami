@@ -5,6 +5,7 @@
   <note>
 GF Latin Plus glyph
 </note>
+  <anchor x="80" y="-107" name="bottom"/>
   <outline>
     <component base="dotlessi"/>
     <contour>

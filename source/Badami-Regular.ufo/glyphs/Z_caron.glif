@@ -2,6 +2,7 @@
 <glyph name="Zcaron" format="2">
   <advance width="378"/>
   <unicode hex="017D"/>
+  <anchor x="196" y="596" name="U"/>
   <outline>
     <component base="Z"/>
     <component base="caroncomb.cap" xOffset="378" yOffset="111"/>

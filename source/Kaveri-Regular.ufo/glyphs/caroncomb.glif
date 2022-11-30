@@ -4,6 +4,7 @@
   <note>
 GF Latin Plus glyph
 </note>
+  <anchor x="-192" y="464" name="_top"/>
   <outline>
     <component base="caron" xOffset="-329"/>
   </outline>
