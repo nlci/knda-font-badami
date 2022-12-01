@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Aring" format="2">
-  <advance width="448"/>
+  <advance width="462"/>
   <unicode hex="00C5"/>
-  <anchor x="220" y="0" name="H"/>
-  <anchor x="220" y="631" name="U"/>
+  <anchor x="227" y="0" name="H"/>
+  <anchor x="227" y="662" name="U"/>
   <outline>
     <component base="A"/>
-    <component base="ringcomb" xOffset="408" yOffset="111"/>
+    <component base="ringcomb" xOffset="422" yOffset="117"/>
   </outline>
 </glyph>

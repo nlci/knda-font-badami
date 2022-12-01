@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="space.latn" format="2">
-  <advance width="157"/>
-  <anchor x="78" y="0" name="H"/>
-  <anchor x="78" y="477" name="U"/>
+  <advance width="165"/>
+  <anchor x="82" y="0" name="H"/>
+  <anchor x="82" y="501" name="U"/>
   <outline/>
 </glyph>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nbspace.latn" format="2">
-  <advance width="142"/>
-  <anchor x="87" y="0" name="H"/>
-  <anchor x="151" y="460" name="U"/>
+  <advance width="150"/>
+  <anchor x="91" y="0" name="H"/>
+  <anchor x="159" y="483" name="U"/>
   <outline/>
 </glyph>

@@ -14,6 +14,11 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
+dd Dec 2022 (Dev NLCI) NLCI Kannada fonts version 0.600
+- Change size and weight of Latin in Badami
+- Latin glyphs in Badami are from Gentium Plus at 75% (https://software.sil.org/gentium/)
+- Latin glyphs in Kaveri are from Exo at 71% (https://github.com/NDISCOVER/Exo-1.0)
+- Additional Latin glyphs in Kaveri are from Andika at 71% (https://software.sil.org/andika/)
 30 Nov 2022 (Dev NLCI) NLCI Kannada fonts version 0.500
 - Improved flat joins to resolve hinting issues
 - New ligatures for some matras with round top consonants

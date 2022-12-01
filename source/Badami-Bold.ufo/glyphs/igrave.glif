@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="igrave" format="2">
-  <advance width="214"/>
+  <advance width="217"/>
   <unicode hex="00EC"/>
-  <anchor x="109" y="0" name="H"/>
-  <anchor x="109" y="515" name="U"/>
+  <anchor x="111" y="0" name="H"/>
+  <anchor x="111" y="532" name="U"/>
   <outline>
     <component base="dotlessi"/>
-    <component base="gravecomb" xOffset="269"/>
+    <component base="gravecomb" xOffset="276"/>
   </outline>
 </glyph>

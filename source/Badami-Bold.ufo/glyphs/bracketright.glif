@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bracketright" format="2">
-  <advance width="219"/>
+  <advance width="230"/>
   <unicode hex="005D"/>
   <outline>
     <contour>
-      <point x="23" y="-116" type="line"/>
-      <point x="197" y="-116" type="line"/>
-      <point x="197" y="558" type="line"/>
-      <point x="21" y="558" type="line"/>
-      <point x="17" y="550"/>
-      <point x="10" y="529"/>
-      <point x="8" y="519" type="curve"/>
-      <point x="23" y="507" type="line"/>
-      <point x="116" y="507" type="line"/>
-      <point x="116" y="-66" type="line"/>
-      <point x="21" y="-66" type="line"/>
-      <point x="18" y="-71"/>
-      <point x="11" y="-93"/>
-      <point x="9" y="-104" type="curve"/>
+      <point x="25" y="-122" type="line"/>
+      <point x="197" y="-122" type="line"/>
+      <point x="197" y="585" type="line"/>
+      <point x="23" y="585" type="line"/>
+      <point x="19" y="577"/>
+      <point x="12" y="558"/>
+      <point x="10" y="548" type="curve"/>
+      <point x="25" y="536" type="line"/>
+      <point x="124" y="536" type="line"/>
+      <point x="124" y="-73" type="line"/>
+      <point x="23" y="-73" type="line"/>
+      <point x="19" y="-79"/>
+      <point x="13" y="-99"/>
+      <point x="11" y="-110" type="curve"/>
     </contour>
   </outline>
 </glyph>

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="circumflexcomb.cap" format="2">
-  <anchor x="-187" y="366" name="_U"/>
+  <anchor x="-194" y="384" name="_U"/>
   <outline>
     <contour>
-      <point x="-69" y="386" type="curve"/>
-      <point x="-163" y="501" type="line"/>
-      <point x="-211" y="501" type="line"/>
-      <point x="-308" y="386" type="line"/>
-      <point x="-302" y="377"/>
-      <point x="-293" y="366"/>
-      <point x="-285" y="362" type="curve"/>
-      <point x="-188" y="422" type="line"/>
-      <point x="-90" y="362" type="line"/>
-      <point x="-82" y="366"/>
-      <point x="-75" y="377"/>
+      <point x="-73" y="403" type="curve"/>
+      <point x="-170" y="522" type="line"/>
+      <point x="-217" y="522" type="line"/>
+      <point x="-317" y="403" type="line"/>
+      <point x="-310" y="394"/>
+      <point x="-303" y="385"/>
+      <point x="-295" y="381" type="curve"/>
+      <point x="-194" y="448" type="line"/>
+      <point x="-93" y="381" type="line"/>
+      <point x="-84" y="385"/>
+      <point x="-78" y="394"/>
     </contour>
   </outline>
 </glyph>

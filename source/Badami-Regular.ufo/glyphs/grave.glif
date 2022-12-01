@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="grave" format="2">
-  <advance width="227"/>
+  <advance width="239"/>
   <unicode hex="0060"/>
-  <anchor x="114" y="491" name="U"/>
+  <anchor x="119" y="516" name="U"/>
   <outline>
     <contour>
-      <point x="154" y="376" type="curve"/>
-      <point x="73" y="521" type="line"/>
-      <point x="61" y="520"/>
-      <point x="22" y="514"/>
-      <point x="13" y="511" type="curve"/>
-      <point x="5" y="495" type="line"/>
-      <point x="131" y="364" type="line"/>
-      <point x="139" y="366"/>
-      <point x="149" y="372"/>
+      <point x="160" y="394" type="curve"/>
+      <point x="72" y="545" type="line"/>
+      <point x="60" y="544"/>
+      <point x="28" y="538"/>
+      <point x="19" y="536" type="curve"/>
+      <point x="10" y="521" type="line"/>
+      <point x="139" y="383" type="line"/>
+      <point x="148" y="385"/>
+      <point x="156" y="391"/>
     </contour>
   </outline>
 </glyph>

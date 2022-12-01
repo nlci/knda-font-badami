@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="caroncomb.cap" format="2">
-  <anchor x="-127" y="348" name="_U"/>
+  <anchor x="-130" y="366" name="_U"/>
   <outline>
     <contour>
-      <point x="-9" y="472" type="line"/>
-      <point x="-13" y="480"/>
-      <point x="-17" y="484"/>
-      <point x="-23" y="489" type="curve"/>
-      <point x="-117" y="422" type="line"/>
-      <point x="-193" y="489" type="line"/>
-      <point x="-200" y="484"/>
-      <point x="-205" y="480"/>
-      <point x="-212" y="472" type="curve"/>
-      <point x="-143" y="365" type="line"/>
-      <point x="-106" y="365" type="line"/>
+      <point x="-10" y="494" type="line"/>
+      <point x="-15" y="503"/>
+      <point x="-16" y="506"/>
+      <point x="-22" y="511" type="curve"/>
+      <point x="-120" y="436" type="line"/>
+      <point x="-199" y="511" type="line"/>
+      <point x="-206" y="505"/>
+      <point x="-208" y="503"/>
+      <point x="-215" y="494" type="curve"/>
+      <point x="-145" y="384" type="line"/>
+      <point x="-111" y="384" type="line"/>
     </contour>
   </outline>
 </glyph>
