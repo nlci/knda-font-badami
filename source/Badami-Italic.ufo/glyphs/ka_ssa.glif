@@ -5,7 +5,7 @@
   <anchor x="500" y="-200" name="S"/>
   <outline>
     <component base="ka.base"/>
-    <component base="inherent" xOffset="373"/>
+    <component base="_inherent" xOffset="373"/>
     <component base="ssa.sub" xOffset="288"/>
   </outline>
 </glyph>

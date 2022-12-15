@@ -3,8 +3,8 @@
   <advance width="984"/>
   <outline>
     <component base="ra.base"/>
-    <component base="inherent" xOffset="439"/>
+    <component base="_inherent" xOffset="439"/>
     <component base="jha.part" xOffset="449"/>
-    <component base="widebase" xOffset="707"/>
+    <component base="_widebase" xOffset="707"/>
   </outline>
 </glyph>
