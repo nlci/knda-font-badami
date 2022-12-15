@@ -367,6 +367,12 @@ U+0CBE">
     </test>
     <test label="U+0C95
 U+0CB7
+U+0CBF">
+      <comment>ka ssa imatra</comment>
+      <string>\u000C95\u000CB7\u000CBF</string>
+    </test>
+    <test label="U+0C95
+U+0CB7
 U+0CC6">
       <comment>ka ssa ematra</comment>
       <string>\u000C95\u000CB7\u000CC6</string>
@@ -389,6 +395,11 @@ U+0CBE">
       <string>\u000C95\u000CBE</string>
     </test>
     <test label="U+0C95
+U+0CBF">
+      <comment>ka imatra</comment>
+      <string>\u000C95\u000CBF</string>
+    </test>
+    <test label="U+0C95
 U+0CC6">
       <comment>ka ematra</comment>
       <string>\u000C95\u000CC6</string>
@@ -407,6 +418,11 @@ U+0CCD">
 U+0CBE">
       <comment>kha aamatra</comment>
       <string>\u000C96\u000CBE</string>
+    </test>
+    <test label="U+0C96
+U+0CBF">
+      <comment>kha imatra</comment>
+      <string>\u000C96\u000CBF</string>
     </test>
     <test label="U+0C96
 U+0CC6">
@@ -429,6 +445,11 @@ U+0CBE">
       <string>\u000C97\u000CBE</string>
     </test>
     <test label="U+0C97
+U+0CBF">
+      <comment>ga imatra</comment>
+      <string>\u000C97\u000CBF</string>
+    </test>
+    <test label="U+0C97
 U+0CC6">
       <comment>ga ematra</comment>
       <string>\u000C97\u000CC6</string>
@@ -447,6 +468,11 @@ U+0CCD">
 U+0CBE">
       <comment>gha aamatra</comment>
       <string>\u000C98\u000CBE</string>
+    </test>
+    <test label="U+0C98
+U+0CBF">
+      <comment>gha imatra</comment>
+      <string>\u000C98\u000CBF</string>
     </test>
     <test label="U+0C98
 U+0CC6">
@@ -489,6 +515,11 @@ U+0CBE">
       <string>\u000C9A\u000CBE</string>
     </test>
     <test label="U+0C9A
+U+0CBF">
+      <comment>ca imatra</comment>
+      <string>\u000C9A\u000CBF</string>
+    </test>
+    <test label="U+0C9A
 U+0CC6">
       <comment>ca ematra</comment>
       <string>\u000C9A\u000CC6</string>
@@ -507,6 +538,11 @@ U+0CCD">
 U+0CBE">
       <comment>cha aamatra</comment>
       <string>\u000C9B\u000CBE</string>
+    </test>
+    <test label="U+0C9B
+U+0CBF">
+      <comment>cha imatra</comment>
+      <string>\u000C9B\u000CBF</string>
     </test>
     <test label="U+0C9B
 U+0CC6">
@@ -536,6 +572,12 @@ U+0CBE">
     </test>
     <test label="U+0C9C
 U+0C9E
+U+0CBF">
+      <comment>ja nya imatra</comment>
+      <string>\u000C9C\u000C9E\u000CBF</string>
+    </test>
+    <test label="U+0C9C
+U+0C9E
 U+0CC6">
       <comment>ja nya ematra</comment>
       <string>\u000C9C\u000C9E\u000CC6</string>
@@ -558,6 +600,11 @@ U+0CBE">
       <string>\u000C9C\u000CBE</string>
     </test>
     <test label="U+0C9C
+U+0CBF">
+      <comment>ja imatra</comment>
+      <string>\u000C9C\u000CBF</string>
+    </test>
+    <test label="U+0C9C
 U+0CC6">
       <comment>ja ematra</comment>
       <string>\u000C9C\u000CC6</string>
@@ -576,6 +623,11 @@ U+0CCD">
 U+0CBE">
       <comment>jha aamatra</comment>
       <string>\u000C9D\u000CBE</string>
+    </test>
+    <test label="U+0C9D
+U+0CBF">
+      <comment>jha imatra</comment>
+      <string>\u000C9D\u000CBF</string>
     </test>
     <test label="U+0C9D
 U+0CC6">
@@ -623,6 +675,11 @@ U+0CBE">
       <string>\u000C9F\u000CBE</string>
     </test>
     <test label="U+0C9F
+U+0CBF">
+      <comment>tta imatra</comment>
+      <string>\u000C9F\u000CBF</string>
+    </test>
+    <test label="U+0C9F
 U+0CC6">
       <comment>tta ematra</comment>
       <string>\u000C9F\u000CC6</string>
@@ -641,6 +698,11 @@ U+0CCD">
 U+0CBE">
       <comment>ttha aamatra</comment>
       <string>\u000CA0\u000CBE</string>
+    </test>
+    <test label="U+0CA0
+U+0CBF">
+      <comment>ttha imatra</comment>
+      <string>\u000CA0\u000CBF</string>
     </test>
     <test label="U+0CA0
 U+0CC6">
@@ -663,6 +725,11 @@ U+0CBE">
       <string>\u000CA1\u000CBE</string>
     </test>
     <test label="U+0CA1
+U+0CBF">
+      <comment>dda imatra</comment>
+      <string>\u000CA1\u000CBF</string>
+    </test>
+    <test label="U+0CA1
 U+0CC6">
       <comment>dda ematra</comment>
       <string>\u000CA1\u000CC6</string>
@@ -681,6 +748,11 @@ U+0CCD">
 U+0CBE">
       <comment>ddha aamatra</comment>
       <string>\u000CA2\u000CBE</string>
+    </test>
+    <test label="U+0CA2
+U+0CBF">
+      <comment>ddha imatra</comment>
+      <string>\u000CA2\u000CBF</string>
     </test>
     <test label="U+0CA2
 U+0CC6">
@@ -703,6 +775,11 @@ U+0CBE">
       <string>\u000CA3\u000CBE</string>
     </test>
     <test label="U+0CA3
+U+0CBF">
+      <comment>nna imatra</comment>
+      <string>\u000CA3\u000CBF</string>
+    </test>
+    <test label="U+0CA3
 U+0CC6">
       <comment>nna ematra</comment>
       <string>\u000CA3\u000CC6</string>
@@ -721,6 +798,11 @@ U+0CCD">
 U+0CBE">
       <comment>ta aamatra</comment>
       <string>\u000CA4\u000CBE</string>
+    </test>
+    <test label="U+0CA4
+U+0CBF">
+      <comment>ta imatra</comment>
+      <string>\u000CA4\u000CBF</string>
     </test>
     <test label="U+0CA4
 U+0CC6">
@@ -743,6 +825,11 @@ U+0CBE">
       <string>\u000CA5\u000CBE</string>
     </test>
     <test label="U+0CA5
+U+0CBF">
+      <comment>tha imatra</comment>
+      <string>\u000CA5\u000CBF</string>
+    </test>
+    <test label="U+0CA5
 U+0CC6">
       <comment>tha ematra</comment>
       <string>\u000CA5\u000CC6</string>
@@ -761,6 +848,11 @@ U+0CCD">
 U+0CBE">
       <comment>da aamatra</comment>
       <string>\u000CA6\u000CBE</string>
+    </test>
+    <test label="U+0CA6
+U+0CBF">
+      <comment>da imatra</comment>
+      <string>\u000CA6\u000CBF</string>
     </test>
     <test label="U+0CA6
 U+0CC6">
@@ -783,6 +875,11 @@ U+0CBE">
       <string>\u000CA7\u000CBE</string>
     </test>
     <test label="U+0CA7
+U+0CBF">
+      <comment>dha imatra</comment>
+      <string>\u000CA7\u000CBF</string>
+    </test>
+    <test label="U+0CA7
 U+0CC6">
       <comment>dha ematra</comment>
       <string>\u000CA7\u000CC6</string>
@@ -801,6 +898,11 @@ U+0CCD">
 U+0CBE">
       <comment>na aamatra</comment>
       <string>\u000CA8\u000CBE</string>
+    </test>
+    <test label="U+0CA8
+U+0CBF">
+      <comment>na imatra</comment>
+      <string>\u000CA8\u000CBF</string>
     </test>
     <test label="U+0CA8
 U+0CC6">
@@ -823,6 +925,11 @@ U+0CBE">
       <string>\u000CAA\u000CBE</string>
     </test>
     <test label="U+0CAA
+U+0CBF">
+      <comment>pa imatra</comment>
+      <string>\u000CAA\u000CBF</string>
+    </test>
+    <test label="U+0CAA
 U+0CC6">
       <comment>pa ematra</comment>
       <string>\u000CAA\u000CC6</string>
@@ -841,6 +948,11 @@ U+0CCD">
 U+0CBE">
       <comment>pha aamatra</comment>
       <string>\u000CAB\u000CBE</string>
+    </test>
+    <test label="U+0CAB
+U+0CBF">
+      <comment>pha imatra</comment>
+      <string>\u000CAB\u000CBF</string>
     </test>
     <test label="U+0CAB
 U+0CC6">
@@ -863,6 +975,11 @@ U+0CBE">
       <string>\u000CAC\u000CBE</string>
     </test>
     <test label="U+0CAC
+U+0CBF">
+      <comment>ba imatra</comment>
+      <string>\u000CAC\u000CBF</string>
+    </test>
+    <test label="U+0CAC
 U+0CC6">
       <comment>ba ematra</comment>
       <string>\u000CAC\u000CC6</string>
@@ -881,6 +998,11 @@ U+0CCD">
 U+0CBE">
       <comment>bha aamatra</comment>
       <string>\u000CAD\u000CBE</string>
+    </test>
+    <test label="U+0CAD
+U+0CBF">
+      <comment>bha imatra</comment>
+      <string>\u000CAD\u000CBF</string>
     </test>
     <test label="U+0CAD
 U+0CC6">
@@ -903,6 +1025,11 @@ U+0CBE">
       <string>\u000CAE\u000CBE</string>
     </test>
     <test label="U+0CAE
+U+0CBF">
+      <comment>ma imatra</comment>
+      <string>\u000CAE\u000CBF</string>
+    </test>
+    <test label="U+0CAE
 U+0CC6">
       <comment>ma ematra</comment>
       <string>\u000CAE\u000CC6</string>
@@ -921,6 +1048,11 @@ U+0CCD">
 U+0CBE">
       <comment>ya aamatra</comment>
       <string>\u000CAF\u000CBE</string>
+    </test>
+    <test label="U+0CAF
+U+0CBF">
+      <comment>ya imatra</comment>
+      <string>\u000CAF\u000CBF</string>
     </test>
     <test label="U+0CAF
 U+0CC6">
@@ -943,6 +1075,11 @@ U+0CBE">
       <string>\u000CB0\u000CBE</string>
     </test>
     <test label="U+0CB0
+U+0CBF">
+      <comment>ra imatra</comment>
+      <string>\u000CB0\u000CBF</string>
+    </test>
+    <test label="U+0CB0
 U+0CC6">
       <comment>ra ematra</comment>
       <string>\u000CB0\u000CC6</string>
@@ -961,6 +1098,11 @@ U+0CCD">
 U+0CBE">
       <comment>rra aamatra</comment>
       <string>\u000CB1\u000CBE</string>
+    </test>
+    <test label="U+0CB1
+U+0CBF">
+      <comment>rra imatra</comment>
+      <string>\u000CB1\u000CBF</string>
     </test>
     <test label="U+0CB1
 U+0CC6">
@@ -983,6 +1125,11 @@ U+0CBE">
       <string>\u000CB2\u000CBE</string>
     </test>
     <test label="U+0CB2
+U+0CBF">
+      <comment>la imatra</comment>
+      <string>\u000CB2\u000CBF</string>
+    </test>
+    <test label="U+0CB2
 U+0CC6">
       <comment>la ematra</comment>
       <string>\u000CB2\u000CC6</string>
@@ -1001,6 +1148,11 @@ U+0CCD">
 U+0CBE">
       <comment>lla aamatra</comment>
       <string>\u000CB3\u000CBE</string>
+    </test>
+    <test label="U+0CB3
+U+0CBF">
+      <comment>lla imatra</comment>
+      <string>\u000CB3\u000CBF</string>
     </test>
     <test label="U+0CB3
 U+0CC1">
@@ -1028,6 +1180,11 @@ U+0CBE">
       <string>\u000CB5\u000CBE</string>
     </test>
     <test label="U+0CB5
+U+0CBF">
+      <comment>va imatra</comment>
+      <string>\u000CB5\u000CBF</string>
+    </test>
+    <test label="U+0CB5
 U+0CC6">
       <comment>va ematra</comment>
       <string>\u000CB5\u000CC6</string>
@@ -1043,9 +1200,20 @@ U+0CCD">
       <string>\u000CB5\u000CCD</string>
     </test>
     <test label="U+0CB6
+U+0CB0
+U+0CBF">
+      <comment>sha ra imatra</comment>
+      <string>\u000CB6\u000CB0\u000CBF</string>
+    </test>
+    <test label="U+0CB6
 U+0CBE">
       <comment>sha aamatra</comment>
       <string>\u000CB6\u000CBE</string>
+    </test>
+    <test label="U+0CB6
+U+0CBF">
+      <comment>sha imatra</comment>
+      <string>\u000CB6\u000CBF</string>
     </test>
     <test label="U+0CB6
 U+0CC6">
@@ -1068,6 +1236,11 @@ U+0CBE">
       <string>\u000CB7\u000CBE</string>
     </test>
     <test label="U+0CB7
+U+0CBF">
+      <comment>ssa imatra</comment>
+      <string>\u000CB7\u000CBF</string>
+    </test>
+    <test label="U+0CB7
 U+0CC6">
       <comment>ssa ematra</comment>
       <string>\u000CB7\u000CC6</string>
@@ -1086,6 +1259,11 @@ U+0CCD">
 U+0CBE">
       <comment>sa aamatra</comment>
       <string>\u000CB8\u000CBE</string>
+    </test>
+    <test label="U+0CB8
+U+0CBF">
+      <comment>sa imatra</comment>
+      <string>\u000CB8\u000CBF</string>
     </test>
     <test label="U+0CB8
 U+0CC6">
@@ -1108,6 +1286,11 @@ U+0CBE">
       <string>\u000CB9\u000CBE</string>
     </test>
     <test label="U+0CB9
+U+0CBF">
+      <comment>ha imatra</comment>
+      <string>\u000CB9\u000CBF</string>
+    </test>
+    <test label="U+0CB9
 U+0CC6">
       <comment>ha ematra</comment>
       <string>\u000CB9\u000CC6</string>
@@ -1126,6 +1309,11 @@ U+0CCD">
 U+0CBE">
       <comment>fa aamatra</comment>
       <string>\u000CDE\u000CBE</string>
+    </test>
+    <test label="U+0CDE
+U+0CBF">
+      <comment>fa imatra</comment>
+      <string>\u000CDE\u000CBF</string>
     </test>
     <test label="U+0CDE
 U+0CC6">

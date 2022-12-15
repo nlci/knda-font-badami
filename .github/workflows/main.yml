@@ -53,7 +53,7 @@ jobs:
           path: results/tests/sile/*.pdf
       - uses: actions/upload-artifact@v3
         with:
-          name: pdfs
+          name: text
           path: results/tests/pdfs/*.pdf
       - uses: actions/upload-artifact@v3
         with:
