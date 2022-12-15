@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ma.imathra" format="2">
-  <advance width="791"/>
-  <outline>
-    <component base="va.imathra"/>
-    <component base="umatra" xOffset="533"/>
-  </outline>
-</glyph>
