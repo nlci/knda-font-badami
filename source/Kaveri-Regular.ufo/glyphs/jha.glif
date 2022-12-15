@@ -5,7 +5,7 @@
   <anchor x="646" y="-265" name="N"/>
   <outline>
     <component base="ra.base"/>
-    <component base="inherent" xOffset="439"/>
+    <component base="_inherent" xOffset="439"/>
     <component base="jha.part" xOffset="556"/>
     <component base="umatra" xOffset="849"/>
   </outline>

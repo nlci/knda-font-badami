@@ -5,6 +5,6 @@
   <anchor x="438" y="-182" name="N"/>
   <outline>
     <component base="ssa.base"/>
-    <component base="inherent" xOffset="576"/>
+    <component base="_inherent" xOffset="576"/>
   </outline>
 </glyph>

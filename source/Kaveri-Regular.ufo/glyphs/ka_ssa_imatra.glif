@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ka_ssa_imatra" format="2">
+  <advance width="550"/>
+  <anchor x="398" y="-419" name="N"/>
+  <anchor x="760" y="-200" name="S"/>
+  <outline>
+    <component base="ka_imatra"/>
+    <component base="ssa.sub" xOffset="394"/>
+  </outline>
+</glyph>

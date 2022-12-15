@@ -5,6 +5,6 @@
   <anchor x="420" y="-128" name="N"/>
   <outline>
     <component base="ha.base"/>
-    <component base="inherent" xOffset="602"/>
+    <component base="_inherent" xOffset="602"/>
   </outline>
 </glyph>
