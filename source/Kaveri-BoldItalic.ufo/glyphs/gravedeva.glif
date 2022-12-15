@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gravedeva" format="2">
-  <advance width="11"/>
   <unicode hex="0953"/>
+  <anchor x="-268" y="548" name="_C"/>
   <outline>
     <contour>
       <point x="-141" y="548" type="line"/>

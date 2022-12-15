@@ -5,7 +5,7 @@
     <component base="ra.base"/>
     <component base="jha.part" xOffset="439"/>
     <component base="umatra" xOffset="732"/>
-    <component base="ematra" xOffset="586"/>
+    <component base="ematra" xOffset="574" yOffset="1"/>
   </outline>
   <lib>
     <dict>

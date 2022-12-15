@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ra.below.ra" format="2">
   <advance width="162"/>
-  <anchor x="206" y="-200" name="S"/>
-  <anchor x="0" y="0" name="_none"/>
+  <anchor x="-175" y="-271" name="N"/>
+  <anchor x="128" y="-200" name="S"/>
+  <anchor x="-35" y="0" name="_none"/>
   <outline>
     <contour>
       <point x="136" y="168" type="curve" smooth="yes"/>

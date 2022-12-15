@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ya_ematra.Obase" format="2">
   <advance width="651"/>
-  <anchor x="472" y="414" name="_V"/>
+  <anchor x="479" y="414" name="_V"/>
   <outline>
     <component base="ya.regbase"/>
     <component base="ematra" xOffset="641"/>

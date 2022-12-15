@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nga.altbase" format="2">
   <advance width="654"/>
-  <anchor x="395" y="-116" name="N"/>
   <outline>
     <component base="nga"/>
   </outline>

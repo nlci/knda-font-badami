@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nna.sub" format="2">
   <advance width="191"/>
-  <anchor x="199" y="-200" name="S"/>
-  <anchor x="-224" y="0" name="_S"/>
+  <anchor x="-86" y="-271" name="N"/>
+  <anchor x="167" y="-200" name="S"/>
+  <anchor x="-215" y="0" name="_S"/>
   <outline>
     <contour>
       <point x="-18" y="-236" type="curve" smooth="yes"/>

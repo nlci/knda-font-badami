@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="jha.sub" format="2">
   <advance width="148"/>
-  <anchor x="335" y="-200" name="S"/>
-  <anchor x="-344" y="0" name="_S"/>
+  <anchor x="-82" y="-271" name="N"/>
+  <anchor x="297" y="-200" name="S"/>
+  <anchor x="-340" y="0" name="_S"/>
   <outline>
     <contour>
       <point x="205" y="-20" type="curve"/>

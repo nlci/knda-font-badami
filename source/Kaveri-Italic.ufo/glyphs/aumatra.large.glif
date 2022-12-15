@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aumatra.large" format="2">
   <advance width="693"/>
-  <anchor x="0" y="0" name="_none"/>
+  <anchor x="-74" y="0" name="_none"/>
   <outline>
     <component base="aumatra"/>
   </outline>

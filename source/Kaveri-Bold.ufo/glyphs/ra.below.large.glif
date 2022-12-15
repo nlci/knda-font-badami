@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ra.below.large" format="2">
   <advance width="16"/>
-  <anchor x="56" y="-200" name="S"/>
+  <anchor x="-346" y="-271" name="N"/>
+  <anchor x="48" y="-200" name="S"/>
   <anchor x="0" y="0" name="_none"/>
   <outline>
     <contour>

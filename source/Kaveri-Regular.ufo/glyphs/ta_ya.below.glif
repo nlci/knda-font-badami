@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ta_ya.below" format="2">
   <advance width="178"/>
+  <anchor x="100" y="558" name="C"/>
+  <anchor x="328" y="-71" name="N"/>
   <outline>
     <contour>
       <point x="-73" y="-293" type="curve" smooth="yes"/>

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tha.sub" format="2">
   <advance width="180"/>
-  <anchor x="227" y="-200" name="S"/>
-  <anchor x="-197" y="0" name="_S"/>
+  <anchor x="-10" y="-271" name="N"/>
+  <anchor x="220" y="-200" name="S"/>
+  <anchor x="-190" y="0" name="_S"/>
   <outline>
     <contour>
       <point x="177" y="-159" type="curve" smooth="yes"/>

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nga_ematra" format="2">
   <advance width="976"/>
-  <anchor x="395" y="-116" name="N"/>
+  <anchor x="100" y="558" name="C"/>
+  <anchor x="376" y="-71" name="N"/>
   <outline>
     <component base="nga"/>
     <component base="ematra.large" xOffset="654"/>

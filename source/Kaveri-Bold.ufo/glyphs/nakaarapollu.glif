@@ -2,7 +2,8 @@
 <glyph name="nakaarapollu" format="2">
   <advance width="617"/>
   <unicode hex="0CDD"/>
-  <anchor x="370" y="-116" name="N"/>
+  <anchor x="100" y="558" name="C"/>
+  <anchor x="352" y="-71" name="N"/>
   <outline>
     <contour>
       <point x="126" y="415" type="curve" smooth="yes"/>

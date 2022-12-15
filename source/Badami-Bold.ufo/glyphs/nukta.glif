@@ -2,7 +2,7 @@
 <glyph name="nukta" format="2">
   <advance width="10"/>
   <unicode hex="0CBC"/>
-  <anchor x="-358" y="-116" name="_N"/>
+  <anchor x="-398" y="-71" name="_N"/>
   <outline>
     <component base="vedictonetwodotsbelow"/>
   </outline>

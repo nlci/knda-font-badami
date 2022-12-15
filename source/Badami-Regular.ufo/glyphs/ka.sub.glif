@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ka.sub" format="2">
   <advance width="170"/>
+  <anchor x="38" y="-271" name="N"/>
   <anchor x="212" y="-200" name="S"/>
   <anchor x="-86" y="0" name="_S"/>
   <outline>

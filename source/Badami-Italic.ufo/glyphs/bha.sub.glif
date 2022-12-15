@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bha.sub" format="2">
   <advance width="180"/>
-  <anchor x="205" y="-200" name="S"/>
-  <anchor x="-232" y="0" name="_S"/>
+  <anchor x="-115" y="-271" name="N"/>
+  <anchor x="144" y="-200" name="S"/>
+  <anchor x="-250" y="0" name="_S"/>
   <outline>
     <contour>
       <point x="119" y="88" type="curve" smooth="yes"/>

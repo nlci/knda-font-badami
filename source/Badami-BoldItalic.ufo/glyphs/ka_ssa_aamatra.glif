@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ka_ssa_aamatra" format="2">
   <advance width="650"/>
-  <anchor x="210" y="-344" name="N"/>
-  <anchor x="468" y="-200" name="S"/>
+  <anchor x="202" y="484" name="C"/>
+  <anchor x="180" y="-71" name="N"/>
+  <anchor x="436" y="-200" name="S"/>
   <outline>
     <component base="ka.base"/>
     <component base="ssa.sub" xOffset="278"/>

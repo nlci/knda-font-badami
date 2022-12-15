@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bha_imatra" format="2">
   <advance width="572"/>
+  <anchor x="202" y="484" name="C"/>
+  <anchor x="250" y="-211" name="N"/>
   <outline>
     <contour>
       <point x="421" y="59" type="curve" smooth="yes"/>

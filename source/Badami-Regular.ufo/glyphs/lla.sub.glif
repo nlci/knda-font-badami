@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lla.sub" format="2">
   <advance width="143"/>
+  <anchor x="-24" y="-271" name="N"/>
   <anchor x="179" y="-200" name="S"/>
   <anchor x="-178" y="0" name="_S"/>
   <outline>

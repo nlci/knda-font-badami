@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ma_imatra" format="2">
   <advance width="940"/>
+  <anchor x="100" y="558" name="C"/>
+  <anchor x="548" y="-71" name="N"/>
   <outline>
     <component base="va_imatra"/>
     <component base="umatra" xOffset="648"/>

@@ -2,7 +2,8 @@
 <glyph name="kha" format="2">
   <advance width="701"/>
   <unicode hex="0C96"/>
-  <anchor x="408" y="-118" name="N"/>
+  <anchor x="100" y="558" name="C"/>
+  <anchor x="388" y="-71" name="N"/>
   <outline>
     <contour>
       <point x="630" y="385" type="curve" smooth="yes"/>

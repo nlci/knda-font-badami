@@ -2,7 +2,8 @@
 <glyph name="dha" format="2">
   <advance width="638"/>
   <unicode hex="0CA7"/>
-  <anchor x="389" y="-230" name="N"/>
+  <anchor x="100" y="558" name="C"/>
+  <anchor x="389" y="-211" name="N"/>
   <outline>
     <component base="dha.base"/>
     <component base="_inherent" xOffset="521"/>

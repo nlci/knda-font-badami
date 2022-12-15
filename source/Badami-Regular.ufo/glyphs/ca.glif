@@ -2,7 +2,8 @@
 <glyph name="ca" format="2">
   <advance width="574"/>
   <unicode hex="0C9A"/>
-  <anchor x="286" y="-142" name="N"/>
+  <anchor x="100" y="484" name="C"/>
+  <anchor x="290" y="-71" name="N"/>
   <outline>
     <component base="ca.base"/>
     <component base="_inherent" xOffset="564"/>

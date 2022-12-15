@@ -2,7 +2,8 @@
 <glyph name="bha" format="2">
   <advance width="582"/>
   <unicode hex="0CAD"/>
-  <anchor x="288" y="-263" name="N"/>
+  <anchor x="100" y="484" name="C"/>
+  <anchor x="294" y="-211" name="N"/>
   <outline>
     <component base="bha.base"/>
     <component base="_inherent" xOffset="572"/>

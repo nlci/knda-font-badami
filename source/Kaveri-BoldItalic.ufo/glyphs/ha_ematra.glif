@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ha_ematra" format="2">
   <advance width="755"/>
-  <anchor x="597" y="499" name="_V"/>
+  <anchor x="611" y="487" name="_V"/>
   <outline>
     <component base="ha.base"/>
     <component base="ematra" xOffset="632"/>

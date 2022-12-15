@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nya.sub" format="2">
   <advance width="277"/>
-  <anchor x="298" y="-200" name="S"/>
-  <anchor x="-204" y="0" name="_S"/>
+  <anchor x="-26" y="-271" name="N"/>
+  <anchor x="265" y="-200" name="S"/>
+  <anchor x="-195" y="0" name="_S"/>
   <outline>
     <contour>
       <point x="248" y="-106" type="curve" smooth="yes"/>

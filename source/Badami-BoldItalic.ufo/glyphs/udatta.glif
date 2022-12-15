@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="udatta" format="2">
-  <advance width="10"/>
   <unicode hex="0951"/>
+  <anchor x="-112" y="553" name="_C"/>
   <outline>
     <contour>
       <point x="-97" y="553" type="line"/>

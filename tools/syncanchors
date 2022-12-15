@@ -1,0 +1,16 @@
+#!/bin/bash
+
+export nlci=$HOME/script/tools
+ca="$nlci/copyanchors.py -l $nlci/anchors.json"
+
+pushd source
+
+$ca    Badami-Regular.ufo Badami-Bold.ufo
+$ca -i Badami-Regular.ufo Badami-Italic.ufo
+$ca -i Badami-Regular.ufo Badami-BoldItalic.ufo
+
+$ca    Kaveri-Regular.ufo Kaveri-Bold.ufo
+$ca -i Kaveri-Regular.ufo Kaveri-Italic.ufo
+$ca -i Kaveri-Regular.ufo Kaveri-BoldItalic.ufo
+
+popd

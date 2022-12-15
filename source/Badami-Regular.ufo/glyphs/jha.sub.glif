@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="jha.sub" format="2">
   <advance width="324"/>
+  <anchor x="64" y="-271" name="N"/>
   <anchor x="360" y="-200" name="S"/>
   <anchor x="-183" y="0" name="_S"/>
   <outline>

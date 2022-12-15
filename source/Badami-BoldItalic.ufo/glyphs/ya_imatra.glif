@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ya_imatra" format="2">
   <advance width="899"/>
+  <anchor x="202" y="484" name="C"/>
+  <anchor x="442" y="-71" name="N"/>
   <outline>
     <component base="ya.part"/>
     <component base="umatra" xOffset="641"/>

@@ -2,7 +2,8 @@
 <glyph name="pa" format="2">
   <advance width="693"/>
   <unicode hex="0CAA"/>
-  <anchor x="405" y="-130" name="N"/>
+  <anchor x="100" y="558" name="C"/>
+  <anchor x="405" y="-71" name="N"/>
   <outline>
     <component base="pa.base"/>
     <component base="_inherent" xOffset="576"/>

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dha.sub" format="2">
   <advance width="119"/>
-  <anchor x="302" y="-200" name="S"/>
-  <anchor x="-245" y="0" name="_S"/>
+  <anchor x="2" y="-271" name="N"/>
+  <anchor x="282" y="-200" name="S"/>
+  <anchor x="-227" y="0" name="_S"/>
   <outline>
     <contour>
       <point x="-176" y="-265" type="curve" smooth="yes"/>

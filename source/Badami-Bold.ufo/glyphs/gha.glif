@@ -2,7 +2,8 @@
 <glyph name="gha" format="2">
   <advance width="588"/>
   <unicode hex="0C98"/>
-  <anchor x="318" y="-263" name="N"/>
+  <anchor x="100" y="484" name="C"/>
+  <anchor x="318" y="-211" name="N"/>
   <outline>
     <component base="gha.base"/>
     <component base="_inherent" xOffset="578"/>

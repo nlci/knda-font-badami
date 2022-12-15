@@ -2,7 +2,8 @@
 <glyph name="pha" format="2">
   <advance width="693"/>
   <unicode hex="0CAB"/>
-  <anchor x="473" y="-230" name="N"/>
+  <anchor x="218" y="558" name="C"/>
+  <anchor x="361" y="-211" name="N"/>
   <outline>
     <component base="pha.base"/>
     <component base="_inherent" xOffset="576"/>

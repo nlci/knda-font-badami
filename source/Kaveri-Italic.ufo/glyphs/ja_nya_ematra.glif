@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ja_nya_ematra" format="2">
   <advance width="631"/>
-  <anchor x="282" y="-443" name="N"/>
-  <anchor x="749" y="-200" name="S"/>
-  <anchor x="489" y="486" name="_V"/>
+  <anchor x="218" y="558" name="C"/>
+  <anchor x="364" y="-71" name="N"/>
+  <anchor x="662" y="-200" name="S"/>
+  <anchor x="503" y="487" name="_V"/>
   <outline>
     <component base="ja.base"/>
     <component base="nya.sub" xOffset="186"/>

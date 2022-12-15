@@ -2,7 +2,8 @@
 <glyph name="jha" format="2">
   <advance width="965"/>
   <unicode hex="0C9D"/>
-  <anchor x="524" y="-284" name="N"/>
+  <anchor x="202" y="484" name="C"/>
+  <anchor x="440" y="-211" name="N"/>
   <outline>
     <component base="ra.base"/>
     <component base="_inherent" xOffset="439"/>

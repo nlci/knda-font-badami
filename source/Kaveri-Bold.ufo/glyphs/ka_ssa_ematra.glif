@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ka_ssa_ematra" format="2">
   <advance width="588"/>
-  <anchor x="306" y="-407" name="N"/>
-  <anchor x="691" y="-200" name="S"/>
-  <anchor x="324" y="499" name="_V"/>
+  <anchor x="100" y="558" name="C"/>
+  <anchor x="292" y="-71" name="N"/>
+  <anchor x="694" y="-200" name="S"/>
+  <anchor x="337" y="487" name="_V"/>
   <outline>
     <component base="ka.base"/>
     <component base="ssa.sub" xOffset="301"/>

@@ -2,7 +2,8 @@
 <glyph name="ssa" format="2">
   <advance width="543"/>
   <unicode hex="0CB7"/>
-  <anchor x="332" y="-155" name="N"/>
+  <anchor x="202" y="484" name="C"/>
+  <anchor x="269" y="-71" name="N"/>
   <outline>
     <component base="ssa.base"/>
     <component base="_inherent" xOffset="533"/>

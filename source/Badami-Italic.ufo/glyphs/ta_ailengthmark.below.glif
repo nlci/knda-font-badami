@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ta_ailengthmark.below" format="2">
   <advance width="143"/>
+  <anchor x="202" y="484" name="C"/>
+  <anchor x="212" y="-71" name="N"/>
   <outline>
     <contour>
       <point x="94" y="-8" type="curve" smooth="yes"/>

@@ -4,7 +4,7 @@
   <outline>
     <component base="va.base"/>
     <component base="umatra" xOffset="533"/>
-    <component base="ematra" xOffset="550"/>
+    <component base="ematra" xOffset="527"/>
   </outline>
   <lib>
     <dict>

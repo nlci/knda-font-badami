@@ -2,7 +2,8 @@
 <glyph name="ga" format="2">
   <advance width="536"/>
   <unicode hex="0C97"/>
-  <anchor x="351" y="-116" name="N"/>
+  <anchor x="100" y="558" name="C"/>
+  <anchor x="334" y="-71" name="N"/>
   <outline>
     <component base="ga.base"/>
     <component base="_inherent" xOffset="413"/>

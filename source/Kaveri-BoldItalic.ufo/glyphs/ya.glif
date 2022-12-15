@@ -2,7 +2,8 @@
 <glyph name="ya" format="2">
   <advance width="1159"/>
   <unicode hex="0CAF"/>
-  <anchor x="712" y="-116" name="N"/>
+  <anchor x="218" y="558" name="C"/>
+  <anchor x="614" y="-71" name="N"/>
   <outline>
     <component base="ya.regbase"/>
     <component base="_inherent" xOffset="728"/>

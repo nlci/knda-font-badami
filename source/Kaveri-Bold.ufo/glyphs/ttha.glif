@@ -2,7 +2,8 @@
 <glyph name="ttha" format="2">
   <advance width="584"/>
   <unicode hex="0CA0"/>
-  <anchor x="362" y="-116" name="N"/>
+  <anchor x="100" y="558" name="C"/>
+  <anchor x="344" y="-71" name="N"/>
   <outline>
     <component base="ttha.base"/>
     <component base="_inherent" xOffset="461"/>

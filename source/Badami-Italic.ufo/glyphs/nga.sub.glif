@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nga.sub" format="2">
   <advance width="180"/>
-  <anchor x="169" y="-200" name="S"/>
-  <anchor x="-236" y="0" name="_S"/>
+  <anchor x="-106" y="-271" name="N"/>
+  <anchor x="137" y="-200" name="S"/>
+  <anchor x="-226" y="0" name="_S"/>
   <outline>
     <contour>
       <point x="50" y="-55" type="curve" smooth="yes"/>

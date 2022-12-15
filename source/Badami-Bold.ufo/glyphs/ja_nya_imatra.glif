@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ja_nya_imatra" format="2">
   <advance width="564"/>
-  <anchor x="288" y="-387" name="N"/>
-  <anchor x="605" y="-200" name="S"/>
+  <anchor x="100" y="484" name="C"/>
+  <anchor x="286" y="-71" name="N"/>
+  <anchor x="598" y="-200" name="S"/>
   <outline>
     <component base="ja_imatra"/>
     <component base="nya.sub" xOffset="236"/>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="pha_imatra" format="2">
   <advance width="533"/>
+  <anchor x="202" y="484" name="C"/>
+  <anchor x="230" y="-211" name="N"/>
   <outline>
     <contour>
       <point x="288" y="287" type="curve" smooth="yes"/>

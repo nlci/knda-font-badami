@@ -2,7 +2,8 @@
 <glyph name="nna" format="2">
   <advance width="592"/>
   <unicode hex="0CA3"/>
-  <anchor x="328" y="-124" name="N"/>
+  <anchor x="202" y="484" name="C"/>
+  <anchor x="282" y="-71" name="N"/>
   <outline>
     <contour>
       <point x="618" y="255" type="curve" smooth="yes"/>

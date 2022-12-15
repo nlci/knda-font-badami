@@ -2,7 +2,8 @@
 <glyph name="na" format="2">
   <advance width="626"/>
   <unicode hex="0CA8"/>
-  <anchor x="452" y="-116" name="N"/>
+  <anchor x="218" y="558" name="C"/>
+  <anchor x="351" y="-71" name="N"/>
   <outline>
     <component base="na.base"/>
     <component base="_inherent" xOffset="503"/>

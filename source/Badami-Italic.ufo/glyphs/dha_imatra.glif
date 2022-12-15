@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dha_imatra" format="2">
   <advance width="564"/>
+  <anchor x="202" y="484" name="C"/>
+  <anchor x="236" y="-211" name="N"/>
   <outline>
     <contour>
       <point x="575" y="235" type="curve" smooth="yes"/>

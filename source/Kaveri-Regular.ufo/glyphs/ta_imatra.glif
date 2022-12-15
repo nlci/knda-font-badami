@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ta_imatra" format="2">
   <advance width="539"/>
+  <anchor x="100" y="558" name="C"/>
+  <anchor x="328" y="-71" name="N"/>
   <outline>
     <contour>
       <point x="471" y="566" type="curve" smooth="yes"/>

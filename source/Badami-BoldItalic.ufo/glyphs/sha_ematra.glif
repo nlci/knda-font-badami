@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sha_ematra" format="2">
   <advance width="469"/>
-  <anchor x="378" y="414" name="_V"/>
+  <anchor x="392" y="414" name="_V"/>
   <outline>
     <component base="sha.base"/>
     <component base="ematra" xOffset="459"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aamatra.large" format="2">
   <advance width="519"/>
-  <anchor x="0" y="0" name="_none"/>
+  <anchor x="-103" y="0" name="_none"/>
   <outline>
     <component base="aamatra"/>
   </outline>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tta_ematra" format="2">
   <advance width="565"/>
-  <anchor x="386" y="414" name="_V"/>
+  <anchor x="393" y="414" name="_V"/>
   <outline>
     <component base="tta.base"/>
     <component base="ematra" xOffset="555"/>

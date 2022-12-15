@@ -2,7 +2,8 @@
 <glyph name="rvocalicvowel" format="2">
   <advance width="879"/>
   <unicode hex="0C8B"/>
-  <anchor x="441" y="-138" name="N"/>
+  <anchor x="100" y="484" name="C"/>
+  <anchor x="441" y="-71" name="N"/>
   <outline>
     <component base="rvocalicvowel.part"/>
     <component base="umatra" xOffset="621"/>

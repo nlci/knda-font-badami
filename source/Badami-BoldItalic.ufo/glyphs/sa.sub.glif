@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sa.sub" format="2">
   <advance width="162"/>
-  <anchor x="196" y="-200" name="S"/>
-  <anchor x="-234" y="0" name="_S"/>
+  <anchor x="-131" y="-271" name="N"/>
+  <anchor x="124" y="-200" name="S"/>
+  <anchor x="-264" y="0" name="_S"/>
   <outline>
     <contour>
       <point x="146" y="28" type="curve" smooth="yes"/>

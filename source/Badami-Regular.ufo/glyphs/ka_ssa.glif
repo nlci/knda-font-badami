@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ka_ssa" format="2">
   <advance width="383"/>
-  <anchor x="234" y="-357" name="N"/>
+  <anchor x="234" y="-271" name="N"/>
   <anchor x="488" y="-200" name="S"/>
   <outline>
     <component base="ka.base"/>

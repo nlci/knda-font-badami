@@ -2,7 +2,8 @@
 <glyph name="ta" format="2">
   <advance width="449"/>
   <unicode hex="0CA4"/>
-  <anchor x="222" y="-121" name="N"/>
+  <anchor x="100" y="484" name="C"/>
+  <anchor x="228" y="-71" name="N"/>
   <outline>
     <component base="ta.base"/>
     <component base="_inherent" xOffset="439"/>

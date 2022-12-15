@@ -2,7 +2,7 @@
 <glyph name="aimatra" format="2">
   <advance width="267"/>
   <unicode hex="0CC8"/>
-  <anchor x="0" y="0" name="_none"/>
+  <anchor x="62" y="0" name="_none"/>
   <outline>
     <component base="ematra"/>
     <component base="ailengthmark" xOffset="123"/>

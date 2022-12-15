@@ -2,7 +2,8 @@
 <glyph name="ba" format="2">
   <advance width="678"/>
   <unicode hex="0CAC"/>
-  <anchor x="451" y="-116" name="N"/>
+  <anchor x="218" y="558" name="C"/>
+  <anchor x="366" y="-71" name="N"/>
   <outline>
     <contour>
       <point x="678" y="488" type="curve" smooth="yes"/>

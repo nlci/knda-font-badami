@@ -2,7 +2,8 @@
 <glyph name="llvocalicvowel" format="2">
   <advance width="589"/>
   <unicode hex="0CE1"/>
-  <anchor x="624" y="-111" name="N"/>
+  <anchor x="100" y="558" name="C"/>
+  <anchor x="594" y="-71" name="N"/>
   <outline>
     <contour>
       <point x="1084" y="490" type="curve" smooth="yes"/>

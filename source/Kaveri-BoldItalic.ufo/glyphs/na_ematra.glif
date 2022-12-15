@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="na_ematra" format="2">
   <advance width="626"/>
-  <anchor x="468" y="499" name="_V"/>
+  <anchor x="482" y="487" name="_V"/>
   <outline>
     <component base="na.base"/>
     <component base="ematra" xOffset="503"/>

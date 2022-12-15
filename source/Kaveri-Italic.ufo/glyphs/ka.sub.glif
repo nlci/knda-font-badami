@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ka.sub" format="2">
   <advance width="117"/>
-  <anchor x="278" y="-200" name="S"/>
-  <anchor x="-137" y="0" name="_S"/>
+  <anchor x="-64" y="-271" name="N"/>
+  <anchor x="185" y="-200" name="S"/>
+  <anchor x="-188" y="0" name="_S"/>
   <outline>
     <contour>
       <point x="-51" y="-295" type="curve" smooth="yes"/>

@@ -2,7 +2,7 @@
 <glyph name="rrvocalicmatra" format="2">
   <advance width="426"/>
   <unicode hex="0CC4"/>
-  <anchor x="0" y="0" name="_none"/>
+  <anchor x="3" y="0" name="_none"/>
   <outline>
     <contour>
       <point x="-136" y="-293" type="curve" smooth="yes"/>

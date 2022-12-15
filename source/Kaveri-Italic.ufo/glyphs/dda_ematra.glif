@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dda_ematra" format="2">
   <advance width="652"/>
-  <anchor x="510" y="486" name="_V"/>
+  <anchor x="524" y="487" name="_V"/>
   <outline>
     <component base="dda.base"/>
     <component base="ematra" xOffset="535"/>

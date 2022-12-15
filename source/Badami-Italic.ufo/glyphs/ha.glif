@@ -2,7 +2,8 @@
 <glyph name="ha" format="2">
   <advance width="592"/>
   <unicode hex="0CB9"/>
-  <anchor x="358" y="-136" name="N"/>
+  <anchor x="202" y="484" name="C"/>
+  <anchor x="284" y="-71" name="N"/>
   <outline>
     <component base="ha.base"/>
     <component base="_inherent" xOffset="582"/>

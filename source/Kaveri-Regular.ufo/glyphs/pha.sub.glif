@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="pha.sub" format="2">
   <advance width="106"/>
+  <anchor x="2" y="-271" name="N"/>
   <anchor x="269" y="-200" name="S"/>
   <anchor x="-215" y="0" name="_S"/>
   <outline>

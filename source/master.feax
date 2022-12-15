@@ -146,6 +146,7 @@ lookup PostBaseSub {
 
     # special handling of ra sub forms
     sub @SubCons ra.below' by ra.below.subcons;
+
     sub @Akhands ra.below' by ra.below.subcons;
     sub @TakesLargeRaSubCons ra.below' by ra.below.large;
 
@@ -233,6 +234,11 @@ lookup KernPairs {
     kernpairs;
 } KernPairs;
 
+lookup Candrabindu {
+  lookupflag 0;
+    pos base @C mark @_C;
+} Candrabindu;
+
 lookup Nuktas {
   lookupflag 0;
     pos base @N mark @_N;
@@ -247,6 +253,11 @@ lookup SubSubForms {
   lookupflag 0;
     pos mark @S_MarkBase mark @_S;
 } SubSubForms;
+
+lookup SubNuktas {
+  lookupflag 0;
+    pos mark @N_MarkBase mark @_N;
+} SubNuktas;
 
 # In the next two lookups (AiMove/AiRight) the ailengthmark is shifted
 # to the right. This kerns well with the following base glyph, and also
@@ -300,6 +311,10 @@ lookup AiRight {
 feature dist {
     lookup KernPairs;
 } dist;
+
+feature abvm {
+    lookup Candrabindu;
+} abvm;
 
 feature blwm {
     lookup Nuktas;

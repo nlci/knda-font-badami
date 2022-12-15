@@ -4,7 +4,7 @@
   <outline>
     <component base="ya.regbase"/>
     <component base="umatra" xOffset="728"/>
-    <component base="ematra" xOffset="859" yOffset="-9"/>
+    <component base="ematra" xOffset="808" yOffset="2"/>
   </outline>
   <lib>
     <dict>

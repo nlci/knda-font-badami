@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="la_ematra" format="2">
   <advance width="667"/>
-  <anchor x="403" y="499" name="_V"/>
+  <anchor x="416" y="487" name="_V"/>
   <outline>
     <component base="la.base"/>
     <component base="ematra" xOffset="544"/>

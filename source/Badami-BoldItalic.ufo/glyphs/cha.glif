@@ -2,7 +2,8 @@
 <glyph name="cha" format="2">
   <advance width="553"/>
   <unicode hex="0C9B"/>
-  <anchor x="340" y="-263" name="N"/>
+  <anchor x="202" y="484" name="C"/>
+  <anchor x="236" y="-211" name="N"/>
   <outline>
     <component base="cha.base"/>
     <component base="_inherent" xOffset="543"/>

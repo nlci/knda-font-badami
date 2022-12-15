@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nya_aamatra" format="2">
   <advance width="1187"/>
-  <anchor x="449" y="-133" name="N"/>
+  <anchor x="202" y="484" name="C"/>
+  <anchor x="372" y="-71" name="N"/>
   <outline>
     <component base="nya"/>
     <component base="aamatra.large" xOffset="1000"/>

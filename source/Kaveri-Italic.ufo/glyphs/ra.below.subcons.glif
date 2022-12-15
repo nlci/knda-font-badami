@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ra.below.subcons" format="2">
   <advance width="109"/>
-  <anchor x="0" y="0" name="_none"/>
+  <anchor x="-31" y="0" name="_none"/>
   <outline>
     <contour>
       <point x="265" y="-126" type="curve" smooth="yes"/>

@@ -2,7 +2,7 @@
 <glyph name="oomatra" format="2">
   <advance width="1053"/>
   <unicode hex="0CCB"/>
-  <anchor x="0" y="0" name="_none"/>
+  <anchor x="4" y="0" name="_none"/>
   <outline>
     <component base="ematra"/>
     <component base="uumatra" xOffset="117"/>

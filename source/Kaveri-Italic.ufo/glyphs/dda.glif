@@ -2,7 +2,8 @@
 <glyph name="dda" format="2">
   <advance width="652"/>
   <unicode hex="0CA1"/>
-  <anchor x="462" y="-128" name="N"/>
+  <anchor x="218" y="558" name="C"/>
+  <anchor x="379" y="-71" name="N"/>
   <outline>
     <component base="dda.base"/>
     <component base="_inherent" xOffset="535"/>

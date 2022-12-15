@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dda.sub" format="2">
   <advance width="191"/>
+  <anchor x="-1" y="-271" name="N"/>
   <anchor x="232" y="-200" name="S"/>
   <anchor x="-184" y="0" name="_S"/>
   <outline>
