@@ -5,6 +5,6 @@
   <anchor x="473" y="-230" name="N"/>
   <outline>
     <component base="pha.base"/>
-    <component base="inherent" xOffset="576"/>
+    <component base="_inherent" xOffset="576"/>
   </outline>
 </glyph>

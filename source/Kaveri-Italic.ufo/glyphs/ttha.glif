@@ -5,6 +5,6 @@
   <anchor x="414" y="-128" name="N"/>
   <outline>
     <component base="ttha.base"/>
-    <component base="inherent" xOffset="439"/>
+    <component base="_inherent" xOffset="439"/>
   </outline>
 </glyph>

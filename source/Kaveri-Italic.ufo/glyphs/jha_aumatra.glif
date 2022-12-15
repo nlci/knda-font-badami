@@ -3,9 +3,9 @@
   <advance width="1778"/>
   <outline>
     <component base="ra.base"/>
-    <component base="inherent" xOffset="439"/>
+    <component base="_inherent" xOffset="439"/>
     <component base="jha.part" xOffset="556"/>
-    <component base="widebase" xOffset="849"/>
+    <component base="_widebase" xOffset="849"/>
     <component base="aumatra" xOffset="1085"/>
   </outline>
   <lib>

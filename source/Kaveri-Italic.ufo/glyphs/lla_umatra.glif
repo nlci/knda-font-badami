@@ -4,7 +4,7 @@
   <anchor x="400" y="-128" name="N"/>
   <outline>
     <component base="lla.base"/>
-    <component base="inherent" xOffset="436"/>
+    <component base="_inherent" xOffset="436"/>
     <component base="umatra" xOffset="553"/>
   </outline>
   <lib>

@@ -3,8 +3,8 @@
   <advance width="1622"/>
   <outline>
     <component base="ya.regbase"/>
-    <component base="inherent" xOffset="693"/>
-    <component base="widebase" xOffset="810"/>
+    <component base="_inherent" xOffset="693"/>
+    <component base="_widebase" xOffset="810"/>
     <component base="virama" xOffset="1046"/>
   </outline>
   <lib>
