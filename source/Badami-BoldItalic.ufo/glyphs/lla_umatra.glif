@@ -4,7 +4,7 @@
   <anchor x="301" y="-128" name="N"/>
   <outline>
     <component base="lla.base"/>
-    <component base="inherent" xOffset="449"/>
+    <component base="_inherent" xOffset="449"/>
     <contour>
       <point x="744" y="232" type="curve" smooth="yes"/>
       <point x="744" y="341"/>

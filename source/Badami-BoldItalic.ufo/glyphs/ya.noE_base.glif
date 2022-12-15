@@ -3,7 +3,7 @@
   <advance width="928"/>
   <outline>
     <component base="ya.regbase"/>
-    <component base="inherent" xOffset="641"/>
-    <component base="widebase" xOffset="651"/>
+    <component base="_inherent" xOffset="641"/>
+    <component base="_widebase" xOffset="651"/>
   </outline>
 </glyph>

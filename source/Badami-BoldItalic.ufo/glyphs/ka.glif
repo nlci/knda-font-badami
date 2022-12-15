@@ -5,6 +5,6 @@
   <anchor x="261" y="-121" name="N"/>
   <outline>
     <component base="ka.base"/>
-    <component base="inherent" xOffset="373"/>
+    <component base="_inherent" xOffset="373"/>
   </outline>
 </glyph>
