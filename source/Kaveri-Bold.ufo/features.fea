@@ -1,8 +1,8 @@
 
 # Main Classes
 @Akhands = [ka_ssa ja_nya];
-@GDEF_bases = [.notdef .null A AE Aacute Acircumflex Adieresis Agrave Aring Atilde B C Ccedilla D Delta E Eacute Ecircumflex Edieresis Egrave Eth Euro F G H HyphenMinus I Iacute Icircumflex Idieresis Igrave J K L LftParen M MiddleDot ModBeginHighTn ModBeginLowTn ModEndHighTn ModEndLowTn N Ntilde O OE Oacute Ocircumflex Odieresis Ograve Ohm Omegagreek Oslash Otilde P Q R RtParen S Scaron T Thorn U Uacute Ucircumflex Udieresis Ugrave V W X Y Yacute Ydieresis Z Zcaron a a.superior aacute aavowel acircumflex acute acutecomb acutecomb.case acutedeva adieresis ae agrave ailengthmark aivowel ampersand anudatta anusvara anusvaracomb approxequal aring asciicircum asciitilde asterisk at atilde auvowel avagraha avowel b ba ba.base ba.imathra ba_aamatra ba_aumatra ba_virama backslash bar bha bha.base bha.imathra bha_aamatra bha_aumatra bha_virama braceleft braceright bracketleft bracketright breve brokenbar bullet bulletoperator c ca ca.base ca.imathra ca_aamatra ca_aumatra ca_virama candrabindu caron caroncomb caroncomb.case ccedilla cedilla cedillacomb cedillacomb.case ceilingleft ceilingright cent cgj cha cha.base cha.imathra cha_aamatra cha_aumatra cha_virama circumflex circumflexcomb circumflexcomb.case colon colon.latn comma comma.latn copyright cornerleftbottom cornerlefttop cornerrightbottom cornerrighttop currency d da da.base da.imathra da_aamatra da_aumatra da_virama dagger daggerdbl danda dandadbl dda dda.base dda.imathra dda_aamatra dda_aumatra dda_virama ddha ddha.base ddha.imathra ddha_aamatra ddha_aumatra ddha_virama degree dha dha.base dha.imathra dha_aamatra dha_aumatra dha_virama dieresis dieresiscomb dieresiscomb.case divide divisionslash dollar dotaccent dotlessi dottedcircle dottedcircle.alt doublesvarita e eacute ecircumflex edieresis eevowel egrave eight eight.latn eightknda eightsuperior ellipsis ematra.large emdash emquad emspace endash enquad enspace equal eth evowel exclam exclam.latn exclamdown f fa fa.imathra fa_aamatra fa_aumatra fa_ematra fa_virama fi figuredash figurespace five five.latn fiveknda fivesuperior fl floorleft floorright florin four four.denominator four.latn fourinferior fourknda fourperemspace foursuperior fraction g ga ga.base ga.imathra ga_aamatra ga_aumatra ga_virama germandbls gha gha.base gha.imathra gha_aamatra gha_aumatra gha_virama grave gravecomb gravecomb.case gravedeva greater greaterequal guillemetleft guillemetright guilsinglleft guilsinglright h ha ha.base ha.imathra ha_aamatra ha_aumatra ha_virama hairspace halfbracketleftbottom halfbracketlefttop halfbracketrightbottom halfbracketrighttop horizontalbar hungarumlaut hyphen hyphen.latn hyphenationpoint hyphensuperior hyphentwo i iacute icircumflex idieresis igrave iivowel infinity inherent inrupee integral ivowel j ja ja.base ja.imathra ja_aamatra ja_aumatra ja_nya ja_nya.base ja_nya.imathra ja_nya_aamatra ja_nya_aumatra ja_nya_virama ja_virama jdotless jha jha.base jha.imathra jha.noEbase jha.part jha.regbase jha_aamatra jha_aumatra jha_ematra jha_ematra.Obase jha_virama jihvamuliya k ka ka.base ka.imathra ka_aamatra ka_aumatra ka_rvocalicmatra.below ka_ssa ka_ssa.base ka_ssa.imathra ka_ssa_aamatra ka_ssa_aumatra ka_ssa_virama ka_virama kha kha.base kha.imathra kha_aamatra kha_aumatra kha_virama l la la.base la.imathra la_aamatra la_aumatra la_virama less lessequal lineseparator lla lla.base lla.imathra lla_aamatra lla_aumatra lla_umatra lla_virama llvocalicmatra.alt llvocalicvowel logicalnot lozenge lvocalicmatra.alt lvocalicvowel lvocalicvowel.part m ma ma.base ma.imathra ma.noEbase ma.regbase ma_aamatra ma_aumatra ma_ematra ma_virama macron minus mu mu.copy1 multiply n na na.base na.imathra na_aamatra na_aumatra na_virama nakaarapollu nbhyphen nbspace nbspace.latn nga nga.altbase nga_aamatra nga_aumatra nga_ematra nga_virama nine nine.latn nineknda ninesuperior nna nna.base nna.imathra nna_aamatra nna_aumatra nna_virama nnbspace nonmarkingreturn notequal ntilde numbersign nya nya_aamatra nya_aumatra nya_ematra nya_umatra nya_virama o o.superior oacute objectReplacementCharacter ocircumflex odieresis oe ogonek ograve om omatra.large one one.latn one.numerator onehalf oneknda onequarter onesuperior oomatra.large oovowel openbox ordfeminine ordmasculine oslash otilde ovowel p pa pa.base pa.imathra pa_aamatra pa_aumatra pa_virama paragraph paragraphseparator parenleft parenleft.latn parenleftsuperior parenright parenright.latn parenrightsuperior partialdiff percent period period.latn periodcentered perthousand pha pha.base pha.imathra pha_aamatra pha_aumatra pha_virama pi plus plusminus product punctuationspace q question question.latn questiondown quotedbl quotedblbase quotedblleft quotedblleft.latn quotedblright quotedblright.latn quoteleft quoteleft.latn quoteright quoteright.latn quotesinglbase quotesingle r ra ra.base ra.imathra ra_aamatra ra_ailengthmark.below ra_aumatra ra_virama radical registered replacementCharacter ring ringcomb ringcomb.case rra rra.imathra rra_aamatra rra_aumatra rra_ematra rra_virama rrvocalicvowel rupee rvocalicvowel rvocalicvowel.part s sa sa.base sa.imathra sa_aamatra sa_aumatra sa_virama scaron section semicolon semicolon.latn seven seven.latn sevenknda sevensuperior sha sha.base sha.imathra sha_aamatra sha_aumatra sha_ra.imathra sha_virama shortrr siddham sidebearingleft sidebearingright six six.latn sixknda sixperemspace sixsuperior slash slash.latn softhyphen space space.latn spacingcandrabindu ssa ssa.base ssa.imathra ssa_aamatra ssa_aumatra ssa_virama sterling summation t ta ta.base ta.imathra ta_aamatra ta_ailengthmark.below ta_aumatra ta_rvocalicmatra.below ta_va.below ta_virama ta_ya.below tha tha.base tha.imathra tha_aamatra tha_aumatra tha_virama thinspace thorn three three.latn three.numerator threeknda threeperemspace threequarters threesuperior tilde tildecomb tildecomb.case trademark tta tta.base tta.imathra tta_aamatra tta_aumatra tta_virama ttha ttha.base ttha.imathra ttha_aamatra ttha_aumatra ttha_virama two two.denominator two.latn twoinferior twoknda twosuperior u uacute ucircumflex udatta udieresis ugrave umatra.large underscore upadhmaniya uumatra.large uuvowel uvowel v va va.base va.imathra va_aamatra va_aumatra va_virama vedicsignjihvamuliya vedictonedotbelow vedictonekathakaanudatta vedictonethreedotsbelow vedictonetwodotsbelow virama virama.large visarga w widebase wj x y ya ya.base ya.imathra ya.noEbase ya.part ya.regbase ya_aamatra ya_aumatra ya_ematra ya_virama yacute ydieresis yen z zcaron zero zero.latn zeroknda zerosuperior zwj zwnbsp zwnj zwsp];
-@GDEF_marks = [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS9 aamatra aamatra.large aimatra aumatra aumatra.large ba.sub ba_ematra bha.sub bha_ematra ca.sub ca_ematra cha.sub cha_ematra da.sub da_ematra dda.sub dda_ematra ddha.sub ddha_ematra dha.sub dha_ematra eematra ematra fa.sub ga.sub ga_ematra gha.sub gha_ematra ha.sub ha_ematra iimatra imatra ja.sub ja_ematra ja_nya_ematra jha.sub ka.sub ka_ematra ka_ssa_ematra kha.sub kha_ematra la.sub la_ematra lengthmark lla.sub lla_ematra llvocalicmatra lvocalicmatra ma.sub ma_ematra.Obase na.sub na_ematra nga.sub nna.sub nna_ematra nukta nukta.alt nya.sub omatra oomatra pa.sub pa_ematra pha.sub pha_ematra ra.below ra.below.large ra.below.ra ra.below.subcons ra_ematra rra.sub rrvocalicmatra rvocalicmatra sa.sub sa_ematra sha.sub sha_ematra ssa.sub ssa_ematra ta.sub ta_ematra tha.sub tha_ematra tta.sub tta_ematra ttha.sub ttha_ematra umatra uumatra va.sub va_ematra xmatra ya.sub ya_ematra.Obase];
+@GDEF_bases = [.notdef .null A AE Aacute Acircumflex Adieresis Agrave Aring Atilde B C Ccedilla D Delta E Eacute Ecircumflex Edieresis Egrave Eth Euro F G H HyphenMinus I Iacute Icircumflex Idieresis Igrave J K L LftParen M MiddleDot ModBeginHighTn ModBeginLowTn ModEndHighTn ModEndLowTn N Ntilde O OE Oacute Ocircumflex Odieresis Ograve Ohm Omegagreek Oslash Otilde P Q R RtParen S Scaron T Thorn U Uacute Ucircumflex Udieresis Ugrave V W X Y Yacute Ydieresis Z Zcaron _inherent _widebase a a.superior aacute aavowel acircumflex acute acutedeva adieresis ae agrave ailengthmark aivowel ampersand anudatta anusvara anusvaracomb approxequal aring asciicircum asciitilde asterisk at atilde auvowel avagraha avowel b ba ba.base ba_aamatra ba_aumatra ba_imatra ba_virama backslash bar bha bha.base bha_aamatra bha_aumatra bha_imatra bha_virama braceleft braceright bracketleft bracketright breve brokenbar bullet bulletoperator c ca ca.base ca_aamatra ca_aumatra ca_imatra ca_virama candrabindu caron ccedilla cedilla ceilingleft ceilingright cent cha cha.base cha_aamatra cha_aumatra cha_imatra cha_virama circumflex colon colon.latn comma comma.latn copyright cornerleftbottom cornerlefttop cornerrightbottom cornerrighttop currency d da da.base da_aamatra da_aumatra da_imatra da_virama dagger daggerdbl danda dandadbl dda dda.base dda_aamatra dda_aumatra dda_imatra dda_virama ddha ddha.base ddha_aamatra ddha_aumatra ddha_imatra ddha_virama degree dha dha.base dha_aamatra dha_aumatra dha_imatra dha_virama dieresis divide divisionslash dollar dotaccent dotlessi dottedcircle dottedcircle.alt doublesvarita e eacute ecircumflex edieresis eevowel egrave eight eight.latn eightknda eightsuperior ellipsis ematra.large emdash emquad emspace endash enquad enspace equal eth evowel exclam exclam.latn exclamdown f fa fa_aamatra fa_aumatra fa_ematra fa_imatra fa_virama fi figuredash figurespace five five.latn fiveknda fivesuperior fl floorleft floorright florin four four.denominator four.latn fourinferior fourknda fourperemspace foursuperior fraction g ga ga.base ga_aamatra ga_aumatra ga_imatra ga_virama germandbls gha gha.base gha_aamatra gha_aumatra gha_imatra gha_virama grave gravedeva greater greaterequal guillemetleft guillemetright guilsinglleft guilsinglright h ha ha.base ha_aamatra ha_aumatra ha_imatra ha_virama hairspace halfbracketleftbottom halfbracketlefttop halfbracketrightbottom halfbracketrighttop horizontalbar hungarumlaut hyphen hyphen.latn hyphenationpoint hyphensuperior hyphentwo i iacute icircumflex idieresis igrave iivowel infinity inrupee integral ivowel j ja ja.base ja_aamatra ja_aumatra ja_imatra ja_nya ja_nya.base ja_nya_aamatra ja_nya_aumatra ja_nya_imatra ja_nya_virama ja_virama jdotless jha jha.base jha.noEbase jha.part jha.regbase jha_aamatra jha_aumatra jha_ematra jha_ematra.Obase jha_imatra jha_virama jihvamuliya k ka ka.base ka_aamatra ka_aumatra ka_imatra ka_rvocalicmatra.below ka_ssa ka_ssa.base ka_ssa_aamatra ka_ssa_aumatra ka_ssa_imatra ka_ssa_virama ka_virama kha kha.base kha_aamatra kha_aumatra kha_imatra kha_virama l la la.base la_aamatra la_aumatra la_imatra la_virama less lessequal lineseparator lla lla.base lla_aamatra lla_aumatra lla_imatra lla_umatra lla_virama llvocalicmatra.alt llvocalicvowel logicalnot lozenge lvocalicmatra.alt lvocalicvowel lvocalicvowel.part m ma ma.base ma.noEbase ma.regbase ma_aamatra ma_aumatra ma_ematra ma_imatra ma_virama macron minus mu mu.copy1 multiply n na na.base na_aamatra na_aumatra na_imatra na_virama nakaarapollu nbhyphen nbspace nbspace.latn nga nga.altbase nga_aamatra nga_aumatra nga_ematra nga_virama nine nine.latn nineknda ninesuperior nna nna.base nna_aamatra nna_aumatra nna_imatra nna_virama nnbspace nonmarkingreturn notequal ntilde numbersign nya nya_aamatra nya_aumatra nya_ematra nya_umatra nya_virama o o.superior oacute objectReplacementCharacter ocircumflex odieresis oe ogonek ograve om omatra.large one one.latn one.numerator onehalf oneknda onequarter onesuperior oomatra.large oovowel openbox ordfeminine ordmasculine oslash otilde ovowel p pa pa.base pa_aamatra pa_aumatra pa_imatra pa_virama paragraph paragraphseparator parenleft parenleft.latn parenleftsuperior parenright parenright.latn parenrightsuperior partialdiff percent period period.latn periodcentered perthousand pha pha.base pha_aamatra pha_aumatra pha_imatra pha_virama pi plus plusminus product punctuationspace q question question.latn questiondown quotedbl quotedblbase quotedblleft quotedblleft.latn quotedblright quotedblright.latn quoteleft quoteleft.latn quoteright quoteright.latn quotesinglbase quotesingle r ra ra.base ra_aamatra ra_ailengthmark.below ra_aumatra ra_imatra ra_virama radical registered replacementCharacter ring rra rra_aamatra rra_aumatra rra_ematra rra_imatra rra_virama rrvocalicvowel rupee rvocalicvowel rvocalicvowel.part s sa sa.base sa_aamatra sa_aumatra sa_imatra sa_virama scaron section semicolon semicolon.latn seven seven.latn sevenknda sevensuperior sha sha.base sha_aamatra sha_aumatra sha_imatra sha_ra_imatra sha_virama shortrr siddham sidebearingleft sidebearingright six six.latn sixknda sixperemspace sixsuperior slash slash.latn softhyphen space space.latn spacingcandrabindu ssa ssa.base ssa_aamatra ssa_aumatra ssa_imatra ssa_virama sterling summation t ta ta.base ta_aamatra ta_ailengthmark.below ta_aumatra ta_imatra ta_rvocalicmatra.below ta_va.below ta_virama ta_ya.below tha tha.base tha_aamatra tha_aumatra tha_imatra tha_virama thinspace thorn three three.latn three.numerator threeknda threeperemspace threequarters threesuperior tilde trademark tta tta.base tta_aamatra tta_aumatra tta_imatra tta_virama ttha ttha.base ttha_aamatra ttha_aumatra ttha_imatra ttha_virama two two.denominator two.latn twoinferior twoknda twosuperior u uacute ucircumflex udatta udieresis ugrave umatra.large underscore upadhmaniya uumatra.large uuvowel uvowel v va va.base va_aamatra va_aumatra va_imatra va_virama vedicsignjihvamuliya vedictonedotbelow vedictonekathakaanudatta vedictonethreedotsbelow vedictonetwodotsbelow virama virama.large visarga w wj x y ya ya.base ya.noEbase ya.part ya.regbase ya_aamatra ya_aumatra ya_ematra ya_imatra ya_virama yacute ydieresis yen z zcaron zero zero.latn zeroknda zerosuperior zwj zwnbsp zwnj zwsp];
+@GDEF_marks = [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS9 _xmatra aamatra aamatra.large acutecomb acutecomb.case aimatra aumatra aumatra.large ba.sub ba_ematra bha.sub bha_ematra ca.sub ca_ematra caroncomb caroncomb.case cedillacomb cedillacomb.case cgj cha.sub cha_ematra circumflexcomb circumflexcomb.case da.sub da_ematra dda.sub dda_ematra ddha.sub ddha_ematra dha.sub dha_ematra dieresiscomb dieresiscomb.case eematra ematra fa.sub ga.sub ga_ematra gha.sub gha_ematra gravecomb gravecomb.case ha.sub ha_ematra iimatra imatra ja.sub ja_ematra ja_nya_ematra jha.sub ka.sub ka_ematra ka_ssa_ematra kha.sub kha_ematra la.sub la_ematra lengthmark lla.sub lla_ematra llvocalicmatra lvocalicmatra ma.sub ma_ematra.Obase na.sub na_ematra nga.sub nna.sub nna_ematra nukta nukta.alt nya.sub omatra oomatra pa.sub pa_ematra pha.sub pha_ematra ra.below ra.below.large ra.below.ra ra.below.subcons ra_ematra ringcomb ringcomb.case rra.sub rrvocalicmatra rvocalicmatra sa.sub sa_ematra sha.sub sha_ematra ssa.sub ssa_ematra ta.sub ta_ematra tha.sub tha_ematra tildecomb tildecomb.case tta.sub tta_ematra ttha.sub ttha_ematra umatra uumatra va.sub va_ematra ya.sub ya_ematra.Obase];
 @TakesLargeRaSubCons = [gha cha jha ddha tha dha pha bha];
 @c_Obase = [jha_ematra.Obase ma_ematra.Obase ya_ematra.Obase];
 @cno_Obase = [jha_ematra ma_ematra ya_ematra];
@@ -20,8 +20,6 @@
 @cno_copy1 = [mu];
 @c_denominator = [four.denominator two.denominator];
 @cno_denominator = [four two];
-@c_imathra = [ba.imathra bha.imathra ca.imathra cha.imathra da.imathra dda.imathra ddha.imathra dha.imathra fa.imathra ga.imathra gha.imathra ha.imathra ja.imathra ja_nya.imathra jha.imathra ka.imathra ka_ssa.imathra kha.imathra la.imathra lla.imathra ma.imathra na.imathra nna.imathra pa.imathra pha.imathra ra.imathra rra.imathra sa.imathra sha.imathra ssa.imathra ta.imathra tha.imathra tta.imathra ttha.imathra va.imathra ya.imathra];
-@cno_imathra = [ba bha ca cha da dda ddha dha fa ga gha ha ja ja_nya jha ka ka_ssa kha la lla ma na nna pa pha ra rra sa sha ssa ta tha tta ttha va ya];
 @c_large = [aamatra.large aumatra.large ematra.large omatra.large oomatra.large ra.below.large umatra.large uumatra.large virama.large];
 @cno_large = [aamatra aumatra ematra omatra oomatra ra.below umatra uumatra virama];
 @c_latn = [colon.latn comma.latn eight.latn exclam.latn five.latn four.latn hyphen.latn nbspace.latn nine.latn one.latn parenleft.latn parenright.latn period.latn question.latn quotedblleft.latn quotedblright.latn quoteleft.latn quoteright.latn semicolon.latn seven.latn six.latn slash.latn space.latn three.latn two.latn zero.latn];
@@ -45,6 +43,7 @@
 @clig_aamatra = [ba_aamatra bha_aamatra ca_aamatra cha_aamatra da_aamatra dda_aamatra ddha_aamatra dha_aamatra fa_aamatra ga_aamatra gha_aamatra ha_aamatra ja_aamatra ja_nya_aamatra jha_aamatra ka_aamatra ka_ssa_aamatra kha_aamatra la_aamatra lla_aamatra ma_aamatra na_aamatra nga_aamatra nna_aamatra nya_aamatra pa_aamatra pha_aamatra ra_aamatra rra_aamatra sa_aamatra sha_aamatra ssa_aamatra ta_aamatra tha_aamatra tta_aamatra ttha_aamatra va_aamatra ya_aamatra];
 @clig_aumatra = [ba_aumatra bha_aumatra ca_aumatra cha_aumatra da_aumatra dda_aumatra ddha_aumatra dha_aumatra fa_aumatra ga_aumatra gha_aumatra ha_aumatra ja_aumatra ja_nya_aumatra jha_aumatra ka_aumatra ka_ssa_aumatra kha_aumatra la_aumatra lla_aumatra ma_aumatra na_aumatra nga_aumatra nna_aumatra nya_aumatra pa_aumatra pha_aumatra ra_aumatra rra_aumatra sa_aumatra sha_aumatra ssa_aumatra ta_aumatra tha_aumatra tta_aumatra ttha_aumatra va_aumatra ya_aumatra];
 @clig_ematra = [ba_ematra bha_ematra ca_ematra cha_ematra da_ematra dda_ematra ddha_ematra dha_ematra fa_ematra ga_ematra gha_ematra ha_ematra ja_ematra ja_nya_ematra jha_ematra ka_ematra ka_ssa_ematra kha_ematra la_ematra lla_ematra ma_ematra na_ematra nga_ematra nna_ematra nya_ematra pa_ematra pha_ematra ra_ematra rra_ematra sa_ematra sha_ematra ssa_ematra ta_ematra tha_ematra tta_ematra ttha_ematra va_ematra ya_ematra];
+@clig_imatra = [ba_imatra bha_imatra ca_imatra cha_imatra da_imatra dda_imatra ddha_imatra dha_imatra fa_imatra ga_imatra gha_imatra ha_imatra ja_imatra ja_nya_imatra jha_imatra ka_imatra ka_ssa_imatra kha_imatra la_imatra lla_imatra ma_imatra na_imatra nna_imatra pa_imatra pha_imatra ra_imatra rra_imatra sa_imatra sha_imatra ssa_imatra ta_imatra tha_imatra tta_imatra ttha_imatra va_imatra ya_imatra];
 @clig_nya = [ja_nya];
 @clig_ssa = [ka_ssa];
 @clig_umatra = [lla_umatra nya_umatra];
@@ -52,6 +51,7 @@
 @cligno_aamatra = [ba bha ca cha da dda ddha dha fa ga gha ha ja ja_nya jha ka ka_ssa kha la lla ma na nga nna nya pa pha ra rra sa sha ssa ta tha tta ttha va ya];
 @cligno_aumatra = [ba bha ca cha da dda ddha dha fa ga gha ha ja ja_nya jha ka ka_ssa kha la lla ma na nga nna nya pa pha ra rra sa sha ssa ta tha tta ttha va ya];
 @cligno_ematra = [ba bha ca cha da dda ddha dha fa ga gha ha ja ja_nya jha ka ka_ssa kha la lla ma na nga nna nya pa pha ra rra sa sha ssa ta tha tta ttha va ya];
+@cligno_imatra = [ba bha ca cha da dda ddha dha fa ga gha ha ja ja_nya jha ka ka_ssa kha la lla ma na nna pa pha ra rra sa sha ssa ta tha tta ttha va ya];
 @cligno_nya = [ja];
 @cligno_ssa = [ka];
 @cligno_umatra = [lla nya];
@@ -59,11 +59,88 @@
 
 # Positioning classes and statements
 
+# AP: bottom
+@bottom = [A C D E G H I K L S M N O R T u U X Y Z d a c e dotlessi i r h n k l m o s t w y z];
+# baseClass A <anchor 243 -107> @bottom;
+# baseClass C <anchor 240 -107> @bottom;
+# baseClass D <anchor 210 -107> @bottom;
+# baseClass E <anchor 237 -107> @bottom;
+# baseClass [G H] <anchor 251 -107> @bottom;
+# baseClass I <anchor 98 -107> @bottom;
+# baseClass K <anchor 229 -107> @bottom;
+# baseClass [L S] <anchor 206 -107> @bottom;
+# baseClass M <anchor 309 -107> @bottom;
+# baseClass N <anchor 244 -107> @bottom;
+# baseClass O <anchor 249 -107> @bottom;
+# baseClass R <anchor 217 -107> @bottom;
+# baseClass [T u] <anchor 209 -107> @bottom;
+# baseClass U <anchor 238 -107> @bottom;
+# baseClass X <anchor 222 -107> @bottom;
+# baseClass Y <anchor 226 -107> @bottom;
+# baseClass [Z d] <anchor 201 -107> @bottom;
+# baseClass [a c e] <anchor 192 -107> @bottom;
+# baseClass [dotlessi i r] <anchor 93 -107> @bottom;
+# baseClass [h n] <anchor 212 -107> @bottom;
+# baseClass k <anchor 197 -107> @bottom;
+# baseClass l <anchor 132 -107> @bottom;
+# baseClass m <anchor 332 -107> @bottom;
+# baseClass o <anchor 205 -107> @bottom;
+# baseClass s <anchor 175 -107> @bottom;
+# baseClass t <anchor 149 -107> @bottom;
+# baseClass w <anchor 298 -107> @bottom;
+# baseClass y <anchor 371 -107> @bottom;
+# baseClass z <anchor 174 -107> @bottom;
+
+# AP: top
+@top = [A AE B T C D E F G H I L J K M N O Oslash P R S U W X Y Z a c e ae b d dotlessi f g h l m n o oslash p r s t u w y z];
+# baseClass A <anchor 243 578> @top;
+# baseClass AE <anchor 380 578> @top;
+# baseClass [B T] <anchor 209 578> @top;
+# baseClass C <anchor 225 578> @top;
+# baseClass D <anchor 233 578> @top;
+# baseClass [E F] <anchor 223 578> @top;
+# baseClass G <anchor 232 578> @top;
+# baseClass H <anchor 251 578> @top;
+# baseClass [I L] <anchor 98 578> @top;
+# baseClass J <anchor 190 578> @top;
+# baseClass K <anchor 229 578> @top;
+# baseClass M <anchor 309 578> @top;
+# baseClass N <anchor 244 578> @top;
+# baseClass [O Oslash] <anchor 249 578> @top;
+# baseClass P <anchor 217 578> @top;
+# baseClass R <anchor 214 578> @top;
+# baseClass S <anchor 206 578> @top;
+# baseClass U <anchor 238 578> @top;
+# baseClass W <anchor 373 578> @top;
+# baseClass X <anchor 222 578> @top;
+# baseClass Y <anchor 226 578> @top;
+# baseClass Z <anchor 201 578> @top;
+# baseClass [a c e] <anchor 192 464> @top;
+# baseClass ae <anchor 305 464> @top;
+# baseClass b <anchor 93 607> @top;
+# baseClass d <anchor 324 607> @top;
+# baseClass dotlessi <anchor 93 464> @top;
+# baseClass f <anchor 194 622> @top;
+# baseClass g <anchor 207 464> @top;
+# baseClass h <anchor 106 616> @top;
+# baseClass l <anchor 93 616> @top;
+# baseClass m <anchor 343 464> @top;
+# baseClass n <anchor 212 464> @top;
+# baseClass [o oslash] <anchor 205 464> @top;
+# baseClass p <anchor 201 464> @top;
+# baseClass r <anchor 158 464> @top;
+# baseClass s <anchor 175 464> @top;
+# baseClass t <anchor 127 531> @top;
+# baseClass u <anchor 209 464> @top;
+# baseClass w <anchor 298 464> @top;
+# baseClass y <anchor 196 464> @top;
+# baseClass z <anchor 174 464> @top;
+
 # AP: _none
-markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS9 aamatra aamatra.large aimatra aumatra aumatra.large eematra ematra iimatra imatra lengthmark llvocalicmatra lvocalicmatra omatra oomatra ra.below ra.below.large ra.below.ra ra.below.subcons rrvocalicmatra rvocalicmatra umatra uumatra xmatra] <anchor 0 0> @_none;
+markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS9 _xmatra aamatra aamatra.large aimatra aumatra aumatra.large eematra ematra iimatra imatra lengthmark llvocalicmatra lvocalicmatra omatra oomatra ra.below ra.below.large ra.below.ra ra.below.subcons rrvocalicmatra rvocalicmatra umatra uumatra] <anchor 0 0> @_none;
 
 # AP: N
-@N = [aavowel aivowel auvowel avowel fa fa_aamatra fa_aumatra fa_ematra fa_virama rra rra_aamatra rra_aumatra rra_ematra rra_virama ba bha ca cha da dda va ddha dha tha eevowel evowel ga gha ha iivowel ivowel ja ja_nya ja_nya.base ja_nya_aamatra ja_nya_aumatra ja_nya_virama ja_nya.imathra jha ka ka_ssa ka_ssa.base ka_ssa_aamatra ka_ssa_aumatra ka_ssa_virama ka_ssa.imathra kha la lla lla_umatra llvocalicvowel lvocalicvowel ma na nakaarapollu nga nga.altbase nga_aamatra nga_aumatra nga_ematra nga_virama nna nya nya_aamatra nya_aumatra nya_ematra nya_umatra nya_virama oovowel ovowel pa pha ra ttha rrvocalicvowel rvocalicvowel sa sha ssa ta tta uuvowel uvowel ya];
+@N = [aavowel aivowel auvowel avowel fa fa_aamatra fa_aumatra fa_ematra fa_virama rra rra_aamatra rra_aumatra rra_ematra rra_virama ba bha ca cha da dda va ddha dha tha eevowel evowel ga gha ha iivowel ivowel ja ja_nya ja_nya.base ja_nya_aamatra ja_nya_aumatra ja_nya_virama ja_nya_imatra jha ka ka_ssa ka_ssa.base ka_ssa_aamatra ka_ssa_aumatra ka_ssa_virama ka_ssa_imatra kha la lla lla_umatra llvocalicvowel lvocalicvowel ma na nakaarapollu nga nga.altbase nga_aamatra nga_aumatra nga_ematra nga_virama nna nya nya_aamatra nya_aumatra nya_ematra nya_umatra nya_virama oovowel ovowel pa pha ra ttha rrvocalicvowel rvocalicvowel sa sha ssa ta tta uuvowel uvowel ya];
 @N_MarkBase = [ja_nya_ematra ka_ssa_ematra];
 # baseClass aavowel <anchor 474 -118> @N;
 # baseClass aivowel <anchor 446 -118> @N;
@@ -87,12 +164,12 @@ markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS
 # baseClass ja <anchor 398 -116> @N;
 # baseClass ja_nya <anchor 360 -431> @N;
 # baseClass [ja_nya.base ja_nya_aamatra ja_nya_aumatra ja_nya_virama] <anchor 299 -431> @N;
-# baseClass ja_nya.imathra <anchor 368 -431> @N;
+# baseClass ja_nya_imatra <anchor 368 -431> @N;
 # baseClass jha <anchor 678 -253> @N;
 # baseClass ka <anchor 308 -115> @N;
 # baseClass ka_ssa <anchor 417 -407> @N;
 # baseClass [ka_ssa.base ka_ssa_aamatra ka_ssa_aumatra ka_ssa_virama] <anchor 306 -407> @N;
-# baseClass ka_ssa.imathra <anchor 374 -407> @N;
+# baseClass ka_ssa_imatra <anchor 374 -407> @N;
 # baseClass kha <anchor 408 -118> @N;
 # baseClass la <anchor 406 -116> @N;
 # baseClass [lla lla_umatra] <anchor 326 -116> @N;
@@ -121,15 +198,21 @@ markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS
 # baseClass ja_nya_ematra <anchor 299 -431> @N_MarkBase;
 # baseClass ka_ssa_ematra <anchor 306 -407> @N_MarkBase;
 
+# AP: _top
+markClass [acutecomb caroncomb circumflexcomb dieresiscomb gravecomb ringcomb] <anchor -192 464> @_top;
+markClass [acutecomb.case caroncomb.case circumflexcomb.case dieresiscomb.case gravecomb.case ringcomb.case] <anchor -192 578> @_top;
+markClass tildecomb <anchor -203 464> @_top;
+markClass tildecomb.case <anchor -197 578> @_top;
+
 # AP: S
-@S = [ja_nya ja_nya.base ja_nya_aamatra ja_nya_aumatra ja_nya_virama ja_nya.imathra ka_ssa ka_ssa.base ka_ssa_aamatra ka_ssa_aumatra ka_ssa_virama ka_ssa.imathra];
+@S = [ja_nya ja_nya.base ja_nya_aamatra ja_nya_aumatra ja_nya_virama ja_nya_imatra ka_ssa ka_ssa.base ka_ssa_aamatra ka_ssa_aumatra ka_ssa_virama ka_ssa_imatra];
 @S_MarkBase = [ba.sub bha.sub pa.sub ca.sub nga.sub cha.sub kha.sub pha.sub da.sub dha.sub tta.sub dda.sub ddha.sub fa.sub ga.sub gha.sub jha.sub ha.sub ja.sub ja_nya_ematra ka.sub la.sub ya.sub ka_ssa_ematra lla.sub ma.sub na.sub nna.sub nya.sub ra.below ra.below.large ra.below.ra rra.sub sa.sub ta.sub sha.sub ssa.sub tha.sub ttha.sub va.sub];
 # baseClass ja_nya <anchor 744 -200> @S;
 # baseClass [ja_nya.base ja_nya_aamatra ja_nya_aumatra ja_nya_virama] <anchor 745 -200> @S;
-# baseClass ja_nya.imathra <anchor 751 -200> @S;
+# baseClass ja_nya_imatra <anchor 751 -200> @S;
 # baseClass ka_ssa <anchor 814 -200> @S;
 # baseClass [ka_ssa.base ka_ssa_aamatra ka_ssa_aumatra ka_ssa_virama] <anchor 691 -200> @S;
-# baseClass ka_ssa.imathra <anchor 760 -200> @S;
+# baseClass ka_ssa_imatra <anchor 760 -200> @S;
 # baseClass [ba.sub bha.sub pa.sub] <anchor 308 -200> @S_MarkBase;
 # baseClass [ca.sub nga.sub] <anchor 337 -200> @S_MarkBase;
 # baseClass [cha.sub kha.sub pha.sub] <anchor 288 -200> @S_MarkBase;
@@ -205,6 +288,12 @@ markClass [ra_ematra ta_ematra ttha_ematra] <anchor 320 499> @_V;
 markClass sa_ematra <anchor 345 499> @_V;
 markClass sha_ematra <anchor 298 499> @_V;
 markClass tta_ematra <anchor 408 499> @_V;
+
+# AP: _bottom
+markClass [cedillacomb cedillacomb.case] <anchor -192 -107> @_bottom;
+
+# AP: _U
+markClass cgj <anchor 0 0> @_U;
 
 # AP: V
 @V = [jha.base jha.regbase ma.base ya.base];
@@ -341,42 +430,42 @@ lookup AboveMatras {
     sub ttha aamatra by ttha_aamatra;
     sub va aamatra by va_aamatra;
     sub ya aamatra by ya_aamatra;
-    sub ba imatra by ba.imathra;
-    sub bha imatra by bha.imathra;
-    sub ca imatra by ca.imathra;
-    sub cha imatra by cha.imathra;
-    sub da imatra by da.imathra;
-    sub dda imatra by dda.imathra;
-    sub ddha imatra by ddha.imathra;
-    sub dha imatra by dha.imathra;
-    sub fa imatra by fa.imathra;
-    sub ga imatra by ga.imathra;
-    sub gha imatra by gha.imathra;
-    sub ha imatra by ha.imathra;
-    sub ja imatra by ja.imathra;
-    sub ja_nya imatra by ja_nya.imathra;
-    sub jha imatra by jha.imathra;
-    sub ka imatra by ka.imathra;
-    sub ka_ssa imatra by ka_ssa.imathra;
-    sub kha imatra by kha.imathra;
-    sub la imatra by la.imathra;
-    sub lla imatra by lla.imathra;
-    sub ma imatra by ma.imathra;
-    sub na imatra by na.imathra;
-    sub nna imatra by nna.imathra;
-    sub pa imatra by pa.imathra;
-    sub pha imatra by pha.imathra;
-    sub ra imatra by ra.imathra;
-    sub rra imatra by rra.imathra;
-    sub sa imatra by sa.imathra;
-    sub sha imatra by sha.imathra;
-    sub ssa imatra by ssa.imathra;
-    sub ta imatra by ta.imathra;
-    sub tha imatra by tha.imathra;
-    sub tta imatra by tta.imathra;
-    sub ttha imatra by ttha.imathra;
-    sub va imatra by va.imathra;
-    sub ya imatra by ya.imathra;
+    sub ba imatra by ba_imatra;
+    sub bha imatra by bha_imatra;
+    sub ca imatra by ca_imatra;
+    sub cha imatra by cha_imatra;
+    sub da imatra by da_imatra;
+    sub dda imatra by dda_imatra;
+    sub ddha imatra by ddha_imatra;
+    sub dha imatra by dha_imatra;
+    sub fa imatra by fa_imatra;
+    sub ga imatra by ga_imatra;
+    sub gha imatra by gha_imatra;
+    sub ha imatra by ha_imatra;
+    sub ja imatra by ja_imatra;
+    sub ja_nya imatra by ja_nya_imatra;
+    sub jha imatra by jha_imatra;
+    sub ka imatra by ka_imatra;
+    sub ka_ssa imatra by ka_ssa_imatra;
+    sub kha imatra by kha_imatra;
+    sub la imatra by la_imatra;
+    sub lla imatra by lla_imatra;
+    sub ma imatra by ma_imatra;
+    sub na imatra by na_imatra;
+    sub nna imatra by nna_imatra;
+    sub pa imatra by pa_imatra;
+    sub pha imatra by pha_imatra;
+    sub ra imatra by ra_imatra;
+    sub rra imatra by rra_imatra;
+    sub sa imatra by sa_imatra;
+    sub sha imatra by sha_imatra;
+    sub ssa imatra by ssa_imatra;
+    sub ta imatra by ta_imatra;
+    sub tha imatra by tha_imatra;
+    sub tta imatra by tta_imatra;
+    sub ttha imatra by ttha_imatra;
+    sub va imatra by va_imatra;
+    sub ya imatra by ya_imatra;
     sub ba ematra by ba_ematra;
     sub bha ematra by bha_ematra;
     sub ca ematra by ca_ematra;
@@ -469,7 +558,7 @@ lookup SubLigatures {
     sub ta.sub rvocalicmatra by ta_rvocalicmatra.below;
     sub ta.sub ailengthmark by ta_ailengthmark.below;
     sub ra.below ailengthmark by ra_ailengthmark.below;
-    sub sha.imathra ra.below by sha_ra.imathra;
+    sub sha_imatra ra.below by sha_ra_imatra;
 } SubLigatures;
 
 lookup Reph2RaSub {
@@ -482,9 +571,8 @@ lookup UndoReph {
     # undo reph formation for ra sub ra, maybe followed by a matra
     sub ra shortrr' lookup Reph2RaSub;
     sub ra_aamatra shortrr' lookup Reph2RaSub;
-    sub ra.imathra shortrr' lookup Reph2RaSub;
-    # imatra
-    sub ra.imathra lengthmark shortrr' lookup Reph2RaSub;
+    sub ra_imatra shortrr' lookup Reph2RaSub;
+    sub ra_imatra lengthmark shortrr' lookup Reph2RaSub;
     # iimatra
     sub ra umatra shortrr' lookup Reph2RaSub;
     sub ra uumatra shortrr' lookup Reph2RaSub;
@@ -545,9 +633,14 @@ lookup PostBaseSub {
     sub ra ra.below' by ra.below.ra;
     # A ZWNJ has to be explicitly matched
     sub ra zwnj ra.below' by ra.below.ra;
-    sub ra.imathra ra.below' by ra.below.ra;
+    sub ra_imatra ra.below' by ra.below.ra;
     # Matras (that may be in a ligature with a consonant) that do not have decompositions
-    @AtomicMatras = [@clig_aamatra imatra umatra uumatra rvocalicmatra rrvocalicmatra @clig_ematra @clig_aumatra lvocalicmatra llvocalicmatra];
+    @AtomicMatras = [@clig_aamatra umatra uumatra rvocalicmatra rrvocalicmatra @clig_ematra @clig_aumatra lvocalicmatra llvocalicmatra];
+    # The glyph imatra could be listed in AtomicMatras (and was originally) since it is indeed an atomic matra.
+    # However, this class is used to determine contexts where a special form of ra below (ra.below.ra) needs to be used.
+    # The special form of ra below looks better when following most matras (those that extend to the right),
+    # even though the base consonant might not be ra. Ligatures with imatra do not visually extend to the right,
+    # so the special form of ra below is not needed (just like with a consonant without a matra).
     # Non-atomic vowels will be decomposed, and the characters in the resulting
     # decomposition that are atomic vowels (or were atomic to being with)
     # will be reordered past sub forms to be next to the consonant they need
@@ -710,12 +803,12 @@ lookup Nuktas {
     pos base ja <anchor 398 -116> mark @_N;
     pos base ja_nya <anchor 360 -431> mark @_N;
     pos base [ja_nya.base ja_nya_aamatra ja_nya_aumatra ja_nya_virama] <anchor 299 -431> mark @_N;
-    pos base ja_nya.imathra <anchor 368 -431> mark @_N;
+    pos base ja_nya_imatra <anchor 368 -431> mark @_N;
     pos base jha <anchor 678 -253> mark @_N;
     pos base ka <anchor 308 -115> mark @_N;
     pos base ka_ssa <anchor 417 -407> mark @_N;
     pos base [ka_ssa.base ka_ssa_aamatra ka_ssa_aumatra ka_ssa_virama] <anchor 306 -407> mark @_N;
-    pos base ka_ssa.imathra <anchor 374 -407> mark @_N;
+    pos base ka_ssa_imatra <anchor 374 -407> mark @_N;
     pos base kha <anchor 408 -118> mark @_N;
     pos base la <anchor 406 -116> mark @_N;
     pos base [lla lla_umatra] <anchor 326 -116> mark @_N;
@@ -747,10 +840,10 @@ lookup SubForms {
     lookupflag 0;
     pos base ja_nya <anchor 744 -200> mark @_S;
     pos base [ja_nya.base ja_nya_aamatra ja_nya_aumatra ja_nya_virama] <anchor 745 -200> mark @_S;
-    pos base ja_nya.imathra <anchor 751 -200> mark @_S;
+    pos base ja_nya_imatra <anchor 751 -200> mark @_S;
     pos base ka_ssa <anchor 814 -200> mark @_S;
     pos base [ka_ssa.base ka_ssa_aamatra ka_ssa_aumatra ka_ssa_virama] <anchor 691 -200> mark @_S;
-    pos base ka_ssa.imathra <anchor 760 -200> mark @_S;
+    pos base ka_ssa_imatra <anchor 760 -200> mark @_S;
 } SubForms;
 
 lookup SubSubForms {
