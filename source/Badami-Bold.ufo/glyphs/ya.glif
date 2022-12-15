@@ -5,7 +5,7 @@
   <anchor x="458" y="-126" name="N"/>
   <outline>
     <component base="ya.regbase"/>
-    <component base="inherent" xOffset="641"/>
+    <component base="_inherent" xOffset="641"/>
     <component base="umatra" xOffset="651"/>
   </outline>
 </glyph>
