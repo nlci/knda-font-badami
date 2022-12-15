@@ -62,7 +62,7 @@ lookup PreBaseLig {
 lookup AboveMatras {
   lookupflag 0;
     sub @cligno_aamatra aamatra by @clig_aamatra;
-    sub @cno_imathra imatra by @c_imathra;
+    sub @cligno_imatra imatra by @clig_imatra;
     sub @cligno_ematra ematra by @clig_ematra;
     sub @cligno_aumatra aumatra by @clig_aumatra;
 } AboveMatras;
@@ -81,7 +81,7 @@ lookup SubLigatures {
     sub ta.sub rvocalicmatra by ta_rvocalicmatra.below;
     sub ta.sub ailengthmark by ta_ailengthmark.below;
     sub ra.below ailengthmark by ra_ailengthmark.below;
-    sub sha.imathra ra.below by sha_ra.imathra;
+    sub sha_imatra ra.below by sha_ra_imatra;
 } SubLigatures;
 
 lookup Reph2RaSub {
@@ -94,8 +94,8 @@ lookup UndoReph {
     # undo reph formation for ra sub ra, maybe followed by a matra
     sub ra shortrr' lookup Reph2RaSub;
     sub ra_aamatra shortrr' lookup Reph2RaSub;
-    sub ra.imathra shortrr' lookup Reph2RaSub; # imatra
-    sub ra.imathra lengthmark shortrr' lookup Reph2RaSub; # iimatra
+    sub ra_imatra shortrr' lookup Reph2RaSub;
+    sub ra_imatra lengthmark shortrr' lookup Reph2RaSub; # iimatra
     sub ra umatra shortrr' lookup Reph2RaSub;
     sub ra uumatra shortrr' lookup Reph2RaSub;
     sub ra rvocalicmatra shortrr' lookup Reph2RaSub;
@@ -155,10 +155,16 @@ lookup PostBaseSub {
     # A ZWNJ has to be explicitly matched
     sub ra zwnj ra.below' by ra.below.ra;
 
-    sub ra.imathra ra.below' by ra.below.ra;
+    sub ra_imatra ra.below' by ra.below.ra;
 
     # Matras (that may be in a ligature with a consonant) that do not have decompositions
-    @AtomicMatras = [@clig_aamatra imatra umatra uumatra rvocalicmatra rrvocalicmatra @clig_ematra @clig_aumatra lvocalicmatra llvocalicmatra];
+    @AtomicMatras = [@clig_aamatra umatra uumatra rvocalicmatra rrvocalicmatra @clig_ematra @clig_aumatra lvocalicmatra llvocalicmatra];
+
+    # The glyph imatra could be listed in AtomicMatras (and was originally) since it is indeed an atomic matra.
+    # However, this class is used to determine contexts where a special form of ra below (ra.below.ra) needs to be used.
+    # The special form of ra below looks better when following most matras (those that extend to the right),
+    # even though the base consonant might not be ra. Ligatures with imatra do not visually extend to the right,
+    # so the special form of ra below is not needed (just like with a consonant without a matra).
 
     # Non-atomic vowels will be decomposed, and the characters in the resulting
     # decomposition that are atomic vowels (or were atomic to being with)

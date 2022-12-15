@@ -259,9 +259,59 @@
     <test label="ra sub ra with ZW[N]J before virama">
       <string>\u0cb0\u200c\u0ccd\u0cb0 \u0cb0\u200d\u0ccd\u0cb0</string>
     </test>
+
     <test label="ka sub ra">
       <string>\u0c95\u0ccd\u0cb0</string>
     </test>
+    <test label="ka sub ra aamatra">
+      <string>\u0c95\u0ccd\u0cb0\u0cbe</string>
+    </test>
+    <test label="ka sub ra imatra">
+      <string>\u0c95\u0ccd\u0cb0\u0cbf</string>
+    </test>
+    <test label="ka sub ra iimatra">
+      <string>\u0c95\u0ccd\u0cb0\u0cc0 \u0c95\u0ccd\u0cb0\u0cbf\u0cd5</string>
+    </test>
+    <test label="ka sub ra umatra">
+      <string>\u0c95\u0ccd\u0cb0\u0cc1</string>
+    </test>
+    <test label="ka sub ra uumatra">
+      <string>\u0c95\u0ccd\u0cb0\u0cc2</string>
+    </test>
+    <test label="ka sub ra rvocalicmatra">
+      <string>\u0c95\u0ccd\u0cb0\u0cc3</string>
+    </test>
+    <test label="ka sub ra rrvocalicmatra">
+      <string>\u0c95\u0ccd\u0cb0\u0cc4</string>
+    </test>
+    <test label="ka sub ra ematra">
+      <string>\u0c95\u0ccd\u0cb0\u0cc6</string>
+    </test>
+    <test label="ka sub ra eematra">
+      <string>\u0c95\u0ccd\u0cb0\u0cc7 \u0c95\u0ccd\u0cb0\u0cc6\u0cd5</string>
+    </test>
+    <test label="ka sub ra aimatra">
+      <string>\u0c95\u0ccd\u0cb0\u0cc8 \u0c95\u0ccd\u0cb0\u0cc6\u0cd6</string>
+    </test>
+    <test label="ka sub ra omatra">
+      <string>\u0c95\u0ccd\u0cb0\u0cca \u0c95\u0ccd\u0cb0\u0cc6\u0cc2</string>
+    </test>
+    <test label="ka sub ra oomatra">
+      <string>\u0c95\u0ccd\u0cb0\u0ccb \u0c95\u0ccd\u0cb0\u0cca\u0cd5 \u0c95\u0ccd\u0cb0\u0cc6\u0cc2\u0cd5</string>
+    </test>
+    <test label="ka sub ra aumatra">
+      <string>\u0c95\u0ccd\u0cb0\u0ccc</string>
+    </test>
+    <test label="ka sub ra lvocalicmatra">
+      <string>\u0c95\u0ccd\u0cb0\u0ce2</string>
+    </test>
+    <test label="ka sub ra llvocalicmatra">
+      <string>\u0c95\u0ccd\u0cb0\u0ce3</string>
+    </test>
+    <test label="ka sub ra halant">
+      <string>\u0c95\u0ccd\u0c95\u0ccd</string>
+    </test>
+
     <test label="sub ra alone">
       <string>\u00a0\u200d\u0ccd\u0cb0</string>
     </test>
