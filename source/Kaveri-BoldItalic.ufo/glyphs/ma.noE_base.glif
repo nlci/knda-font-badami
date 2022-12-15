@@ -3,7 +3,7 @@
   <advance width="951"/>
   <outline>
     <component base="va.base"/>
-    <component base="inherent" xOffset="580"/>
-    <component base="widebase" xOffset="703"/>
+    <component base="_inherent" xOffset="580"/>
+    <component base="_widebase" xOffset="703"/>
   </outline>
 </glyph>

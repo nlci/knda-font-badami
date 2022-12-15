@@ -5,6 +5,6 @@
   <anchor x="432" y="-116" name="N"/>
   <outline>
     <component base="ra.base"/>
-    <component base="inherent" xOffset="461"/>
+    <component base="_inherent" xOffset="461"/>
   </outline>
 </glyph>

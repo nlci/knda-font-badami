@@ -5,6 +5,6 @@
   <anchor x="482" y="-116" name="N"/>
   <outline>
     <component base="va.base"/>
-    <component base="inherent" xOffset="580"/>
+    <component base="_inherent" xOffset="580"/>
   </outline>
 </glyph>

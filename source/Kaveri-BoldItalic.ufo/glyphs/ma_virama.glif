@@ -3,8 +3,8 @@
   <advance width="1556"/>
   <outline>
     <component base="va.base"/>
-    <component base="inherent" xOffset="580"/>
-    <component base="widebase" xOffset="703"/>
+    <component base="_inherent" xOffset="580"/>
+    <component base="_widebase" xOffset="703"/>
     <component base="virama" xOffset="951"/>
   </outline>
   <lib>
