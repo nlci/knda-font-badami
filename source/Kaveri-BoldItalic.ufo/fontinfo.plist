@@ -151,7 +151,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>openTypeNameUniqueID</key>
   <string>NLCI: Kaveri Bold Italic: 2022</string>
   <key>openTypeNameVersion</key>
-  <string>Version 0.600</string>
+  <string>Version 0.601</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -260,7 +260,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>versionMajor</key>
   <integer>0</integer>
   <key>versionMinor</key>
-  <integer>600</integer>
+  <integer>601</integer>
   <key>woffMetadataCredits</key>
   <dict>
     <key>credits</key>

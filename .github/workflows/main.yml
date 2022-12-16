@@ -41,8 +41,8 @@ jobs:
           # smith version
           smith configure
           smith build
-          # smith zip
-          smith release
+          smith zip
+          # smith release
           # smith alltests
           smith sile
           smith pdfs
