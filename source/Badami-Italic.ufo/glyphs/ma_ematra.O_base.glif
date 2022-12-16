@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ma_ematra.Obase" format="2">
   <advance width="543"/>
-  <anchor x="474" y="414" name="_V"/>
+  <anchor x="202" y="484" name="C"/>
+  <anchor x="387" y="-71" name="N"/>
+  <anchor x="460" y="414" name="_V"/>
   <outline>
     <component base="va.base"/>
     <component base="ematra" xOffset="533"/>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tta_aumatra" format="2">
   <advance width="928"/>
+  <anchor x="202" y="484" name="C"/>
+  <anchor x="260" y="-71" name="N"/>
   <outline>
     <component base="tta.base"/>
     <component base="aumatra" xOffset="555"/>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kha_ematra" format="2">
   <advance width="669"/>
-  <anchor x="541" y="487" name="_V"/>
+  <anchor x="218" y="558" name="C"/>
+  <anchor x="373" y="-71" name="N"/>
+  <anchor x="527" y="486" name="_V"/>
   <outline>
     <component base="kha.base"/>
     <component base="ematra" xOffset="552"/>

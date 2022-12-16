@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ba_virama" format="2">
   <advance width="1123"/>
+  <anchor x="100" y="558" name="C"/>
+  <anchor x="381" y="-71" name="N"/>
   <outline>
     <component base="ba.base"/>
     <component base="virama" xOffset="547"/>

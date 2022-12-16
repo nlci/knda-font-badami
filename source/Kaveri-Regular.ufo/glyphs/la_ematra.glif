@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="la_ematra" format="2">
   <advance width="634"/>
+  <anchor x="100" y="558" name="C"/>
+  <anchor x="386" y="-71" name="N"/>
   <anchor x="389" y="487" name="_V"/>
   <outline>
     <component base="la.base"/>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="cha_ematra" format="2">
   <advance width="644"/>
-  <anchor x="500" y="487" name="_V"/>
+  <anchor x="218" y="558" name="C"/>
+  <anchor x="340" y="-211" name="N"/>
+  <anchor x="486" y="499" name="_V"/>
   <outline>
     <component base="cha.base"/>
     <component base="ematra" xOffset="521"/>

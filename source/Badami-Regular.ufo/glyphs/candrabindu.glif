@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="candrabindu" format="2">
   <unicode hex="0C81"/>
+  <anchor x="-425" y="376" name="_C"/>
   <outline>
     <component base="spacingcandrabindu" xOffset="-785"/>
   </outline>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="pha_ematra" format="2">
   <advance width="693"/>
-  <anchor x="565" y="487" name="_V"/>
+  <anchor x="218" y="558" name="C"/>
+  <anchor x="361" y="-211" name="N"/>
+  <anchor x="551" y="486" name="_V"/>
   <outline>
     <component base="pha.base"/>
     <component base="ematra" xOffset="576"/>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gha_ematra" format="2">
   <advance width="588"/>
-  <anchor x="511" y="414" name="_V"/>
+  <anchor x="202" y="484" name="C"/>
+  <anchor x="274" y="-211" name="N"/>
+  <anchor x="497" y="414" name="_V"/>
   <outline>
     <component base="gha.base"/>
     <component base="ematra" xOffset="578"/>

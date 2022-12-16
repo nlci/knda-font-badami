@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ya_ematra" format="2">
   <advance width="986"/>
+  <anchor x="218" y="558" name="C"/>
+  <anchor x="614" y="-71" name="N"/>
   <outline>
     <component base="ya.regbase"/>
     <component base="umatra" xOffset="693"/>
-    <component base="ematra" xOffset="798" yOffset="2"/>
+    <component base="ematra" xOffset="812" yOffset="3"/>
   </outline>
   <lib>
     <dict>

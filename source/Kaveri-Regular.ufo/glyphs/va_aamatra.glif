@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="va_aamatra" format="2">
   <advance width="1045"/>
+  <anchor x="100" y="558" name="C"/>
+  <anchor x="394" y="-71" name="N"/>
   <outline>
     <component base="va.base"/>
     <component base="aamatra" xOffset="551"/>

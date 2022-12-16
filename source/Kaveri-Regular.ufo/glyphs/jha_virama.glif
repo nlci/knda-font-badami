@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="jha_virama" format="2">
   <advance width="1661"/>
+  <anchor x="100" y="558" name="C"/>
+  <anchor x="646" y="-211" name="N"/>
   <outline>
     <component base="ra.base"/>
     <component base="_inherent" xOffset="439"/>

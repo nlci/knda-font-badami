@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kha_virama" format="2">
   <advance width="955"/>
+  <anchor x="202" y="484" name="C"/>
+  <anchor x="294" y="-71" name="N"/>
   <outline>
     <component base="kha.base"/>
     <component base="virama" xOffset="641"/>

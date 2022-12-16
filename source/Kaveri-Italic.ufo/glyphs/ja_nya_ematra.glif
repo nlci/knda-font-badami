@@ -4,7 +4,7 @@
   <anchor x="218" y="558" name="C"/>
   <anchor x="364" y="-71" name="N"/>
   <anchor x="662" y="-200" name="S"/>
-  <anchor x="503" y="487" name="_V"/>
+  <anchor x="489" y="486" name="_V"/>
   <outline>
     <component base="ja.base"/>
     <component base="nya.sub" xOffset="186"/>

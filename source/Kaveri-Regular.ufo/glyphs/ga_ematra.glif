@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ga_ematra" format="2">
   <advance width="510"/>
+  <anchor x="100" y="558" name="C"/>
+  <anchor x="334" y="-71" name="N"/>
   <anchor x="265" y="487" name="_V"/>
   <outline>
     <component base="ga.base"/>

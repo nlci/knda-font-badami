@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sha_aumatra" format="2">
   <advance width="1167"/>
+  <anchor x="218" y="558" name="C"/>
+  <anchor x="307" y="-71" name="N"/>
   <outline>
     <component base="sha.base"/>
     <component base="aumatra" xOffset="439"/>

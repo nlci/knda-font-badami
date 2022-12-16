@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ta_ematra" format="2">
   <advance width="556"/>
-  <anchor x="428" y="487" name="_V"/>
+  <anchor x="218" y="558" name="C"/>
+  <anchor x="314" y="-71" name="N"/>
+  <anchor x="414" y="486" name="_V"/>
   <outline>
     <component base="ta.base"/>
     <component base="ematra" xOffset="439"/>

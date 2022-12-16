@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ba_ematra" format="2">
   <advance width="664"/>
-  <anchor x="536" y="487" name="_V"/>
+  <anchor x="218" y="558" name="C"/>
+  <anchor x="366" y="-71" name="N"/>
+  <anchor x="522" y="486" name="_V"/>
   <outline>
     <component base="ba.base"/>
     <component base="ematra" xOffset="547"/>

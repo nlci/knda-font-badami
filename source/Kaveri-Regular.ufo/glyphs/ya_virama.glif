@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ya_virama" format="2">
   <advance width="1622"/>
+  <anchor x="100" y="558" name="C"/>
+  <anchor x="629" y="-71" name="N"/>
   <outline>
     <component base="ya.regbase"/>
     <component base="_inherent" xOffset="693"/>

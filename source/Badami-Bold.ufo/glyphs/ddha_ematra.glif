@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ddha_ematra" format="2">
   <advance width="535"/>
-  <anchor x="363" y="414" name="_V"/>
+  <anchor x="100" y="484" name="C"/>
+  <anchor x="270" y="-211" name="N"/>
+  <anchor x="356" y="414" name="_V"/>
   <outline>
     <component base="ddha.base"/>
     <component base="ematra" xOffset="525"/>

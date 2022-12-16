@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="jha.regbase" format="2">
   <advance width="732"/>
-  <anchor x="563" y="488" name="V"/>
+  <anchor x="561" y="486" name="V"/>
   <outline>
     <component base="ra.base"/>
     <component base="jha.part" xOffset="439"/>

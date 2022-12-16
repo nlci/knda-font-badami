@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sa_aamatra" format="2">
   <advance width="956"/>
+  <anchor x="100" y="558" name="C"/>
+  <anchor x="343" y="-71" name="N"/>
   <outline>
     <component base="sa.base"/>
     <component base="aamatra" xOffset="462"/>

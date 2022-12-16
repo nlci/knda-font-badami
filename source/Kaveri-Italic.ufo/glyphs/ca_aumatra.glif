@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ca_aumatra" format="2">
   <advance width="1250"/>
+  <anchor x="218" y="558" name="C"/>
+  <anchor x="387" y="-71" name="N"/>
   <outline>
     <component base="ca.base"/>
     <component base="aumatra" xOffset="557"/>

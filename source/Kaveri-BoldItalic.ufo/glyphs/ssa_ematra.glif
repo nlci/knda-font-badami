@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ssa_ematra" format="2">
   <advance width="728"/>
-  <anchor x="584" y="487" name="_V"/>
+  <anchor x="218" y="558" name="C"/>
+  <anchor x="424" y="-71" name="N"/>
+  <anchor x="570" y="499" name="_V"/>
   <outline>
     <component base="ssa.base"/>
     <component base="ematra" xOffset="605"/>

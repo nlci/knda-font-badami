@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ssa_aumatra" format="2">
   <advance width="906"/>
+  <anchor x="100" y="484" name="C"/>
+  <anchor x="284" y="-71" name="N"/>
   <outline>
     <component base="ssa.base"/>
     <component base="aumatra" xOffset="533"/>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bha_ematra" format="2">
   <advance width="697"/>
-  <anchor x="446" y="487" name="_V"/>
+  <anchor x="100" y="558" name="C"/>
+  <anchor x="380" y="-211" name="N"/>
+  <anchor x="433" y="499" name="_V"/>
   <outline>
     <component base="bha.base"/>
     <component base="ematra" xOffset="574"/>

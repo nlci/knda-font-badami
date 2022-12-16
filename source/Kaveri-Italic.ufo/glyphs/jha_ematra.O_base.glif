@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="jha_ematra.Obase" format="2">
   <advance width="732"/>
+  <anchor x="218" y="558" name="C"/>
+  <anchor x="602" y="-211" name="N"/>
   <outline>
     <component base="ra.base"/>
     <component base="jha.part" xOffset="439"/>
-    <component base="ematra" xOffset="574" yOffset="1"/>
+    <component base="ematra" xOffset="586"/>
   </outline>
   <lib>
     <dict>

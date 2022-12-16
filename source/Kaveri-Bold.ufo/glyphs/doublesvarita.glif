@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="doublesvarita" format="2">
-  <advance width="11"/>
   <unicode hex="1CDA"/>
+  <anchor x="-246" y="553" name="_C"/>
   <outline>
     <contour>
       <point x="-172" y="553" type="line"/>

@@ -39,7 +39,7 @@ for nukta, vedic_dot in zip(nuktas, vedic_dots):
     ng.appendAnchor('_N', (xcenter, ymax))
 
 # Position extra marks
-above_marks = ('udatta', 'gravedeva', 'acutedeva', 'vedictonekathakaanudatta')
+above_marks = ('udatta', 'gravedeva', 'acutedeva', 'doublesvarita', 'vedictonekathakaanudatta', 'candrabindu')
 below_marks = ('anudatta', 'vedictonedotbelow', 'vedictonetwodotsbelow', 'vedictonethreedotsbelow')
 for glyph_name in above_marks + below_marks:
     glyph = font[glyph_name]

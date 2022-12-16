@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ma.base" format="2">
   <advance width="845"/>
-  <anchor x="672" y="487" name="V"/>
+  <anchor x="675" y="487" name="V"/>
   <outline>
     <component base="va.base"/>
     <component base="umatra" xOffset="552"/>
