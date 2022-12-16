@@ -41,12 +41,11 @@ jobs:
           # smith version
           smith configure
           smith build
+          # smith zip
+          smith release
           # smith alltests
           smith sile
           smith pdfs
-          smith zip
-          # smith tarball
-          # smith release
       - uses: actions/upload-artifact@v3
         with:
           name: sile
