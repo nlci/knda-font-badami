@@ -1,4 +1,4 @@
-This Font Software is Copyright (c) 2009-2022, NLCI (http://www.nlci.in/fonts/)
+This Font Software is Copyright (c) 2009-2023, NLCI (http://www.nlci.in/fonts/)
 with Reserved Font Names "Badami" and "Kaveri" and "NLCI".
 Latin glyphs in Badami are Copyright (c) 2003-2019, SIL International (http://www.sil.org/)
 with Reserved Font Names "Gentium" and "SIL".

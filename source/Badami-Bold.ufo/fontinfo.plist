@@ -7,7 +7,7 @@
   <key>capHeight</key>
   <integer>439</integer>
   <key>copyright</key>
-  <string>This Font Software is Copyright (c) 2009-2022, NLCI (http://www.nlci.in/fonts/)
+  <string>This Font Software is Copyright (c) 2009-2023, NLCI (http://www.nlci.in/fonts/)
 with Reserved Font Names "Badami" and "Kaveri" and "NLCI".
 Latin glyphs in Badami are Copyright (c) 2003-2019, SIL International (http://www.sil.org/)
 with Reserved Font Names "Gentium" and "SIL".
@@ -21,7 +21,7 @@ with Reserved Font Names "Andika" and "SIL".
   <key>familyName</key>
   <string>Badami</string>
   <key>openTypeHeadCreated</key>
-  <string>2022/12/16 10:44:00</string>
+  <string>2023/01/11 13:54:01</string>
   <key>openTypeHheaAscender</key>
   <integer>604</integer>
   <key>openTypeHheaDescender</key>
@@ -35,7 +35,7 @@ with Reserved Font Names "Andika" and "SIL".
   <key>openTypeNameDesignerURL</key>
   <string>http://www.nlci.in/fonts/</string>
   <key>openTypeNameLicense</key>
-  <string>This Font Software is Copyright (c) 2009-2022, NLCI (http://www.nlci.in/fonts/)
+  <string>This Font Software is Copyright (c) 2009-2023, NLCI (http://www.nlci.in/fonts/)
 with Reserved Font Names "Badami" and "Kaveri" and "NLCI".
 Latin glyphs in Badami are Copyright (c) 2003-2019, SIL International (http://www.sil.org/)
 with Reserved Font Names "Gentium" and "SIL".
@@ -147,7 +147,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Bold</string>
   <key>openTypeNameUniqueID</key>
-  <string>NLCI: Badami Bold: 2022</string>
+  <string>NLCI: Badami Bold: 2023</string>
   <key>openTypeNameVersion</key>
   <string>Version 0.601</string>
   <key>openTypeOS2CodePageRanges</key>
