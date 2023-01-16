@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="cha_virama" format="2">
-  <advance width="1126"/>
+  <advance width="1106"/>
   <anchor x="100" y="558" name="C"/>
   <anchor x="384" y="-211" name="N"/>
   <outline>
     <component base="cha.base"/>
-    <component base="virama" xOffset="521"/>
+    <component base="virama" xOffset="501"/>
   </outline>
   <lib>
     <dict>

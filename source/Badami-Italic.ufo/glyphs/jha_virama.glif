@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="jha_virama" format="2">
-  <advance width="1298"/>
+  <advance width="1258"/>
   <anchor x="202" y="484" name="C"/>
   <anchor x="440" y="-211" name="N"/>
   <outline>
@@ -8,7 +8,7 @@
     <component base="_inherent" xOffset="439"/>
     <component base="jha.part" xOffset="449"/>
     <component base="_widebase" xOffset="707"/>
-    <component base="virama" xOffset="984"/>
+    <component base="virama" xOffset="944"/>
   </outline>
   <lib>
     <dict>

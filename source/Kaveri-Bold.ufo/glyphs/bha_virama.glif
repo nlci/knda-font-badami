@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bha_virama" format="2">
-  <advance width="1179"/>
+  <advance width="1129"/>
   <anchor x="100" y="558" name="C"/>
   <anchor x="380" y="-211" name="N"/>
   <outline>
     <component base="bha.base"/>
-    <component base="virama" xOffset="574"/>
+    <component base="virama" xOffset="524"/>
   </outline>
   <lib>
     <dict>

@@ -3,41 +3,41 @@ hyphentwo = hyphen | 2010
 nbhyphen = hyphen | 2011
 divisionslash = slash | 2215
 
-ba_virama = ba.base & virama
-bha_virama = bha.base & virama
-ca_virama = ca.base & virama
-cha_virama = cha.base & virama
-da_virama = da.base & virama
-dda_virama = dda.base & virama
-ddha_virama = ddha.base & virama
-dha_virama = dha.base & virama
-ga_virama = ga.base & virama
+ba_virama = ba.base & virama[shift=-50,0] ^ 0,-50
+bha_virama = bha.base & virama[shift=-50,0] ^ 0,-50
+ca_virama = ca.base & virama[shift=-20,0] ^ 0,-20
+cha_virama = cha.base & virama[shift=-20,0] ^ 0,-20
+da_virama = da.base & virama[shift=-40,0] ^ 0,-40
+dda_virama = dda.base & virama[shift=-40,0] ^ 0,-40
+ddha_virama = ddha.base & virama[shift=-40,0] ^ 0,-40
+dha_virama = dha.base & virama[shift=-40,0] ^ 0,-40
+ga_virama = ga.base & virama[shift=-40,0] ^ 0,-40
 gha_virama = gha.base & virama
-ha_virama = ha.base & virama
-ja_virama = ja.base & virama
-jha_virama = jha.noEbase & virama
-ka_virama = ka.base & virama
-kha_virama = kha.base & virama
-la_virama = la.base & virama
-lla_virama = lla.base & virama
-ma_virama = ma.noEbase & virama
-na_virama = na.base & virama
-nna_virama = nna.base & virama
-pa_virama = pa.base & virama
-pha_virama = pha.base & virama
-ra_virama = ra.base & virama
-sa_virama = sa.base & virama
-sha_virama = sha.base & virama
-ssa_virama = ssa.base & virama
-ta_virama = ta.base & virama
-tha_virama = tha.base & virama
-tta_virama = tta.base & virama
-ttha_virama = ttha.base & virama
-va_virama = va.base & virama
-ya_virama = ya.noEbase & virama
+ha_virama = ha.base & virama[shift=-40,0] ^ 0,-40
+ja_virama = ja.base & virama[shift=-40,0] ^ 0,-40
+jha_virama = jha.noEbase & virama[shift=-40,0] ^ 0,-40
+ka_virama = ka.base & virama[shift=-10,0] ^ 0,-10
+kha_virama = kha.base & virama[shift=-10,0] ^ 0,-10
+la_virama = la.base & virama[shift=-20,0] ^ 0,-20
+lla_virama = lla.base & virama[shift=-18,0] ^ 0,-18
+ma_virama = ma.noEbase & virama[shift=-40,0] ^ 0,-40
+na_virama = na.base & virama[shift=-40,0] ^ 0,-40
+nna_virama = nna.base & virama[shift=-30,0] ^ 0,-30
+pa_virama = pa.base & virama[shift=-20,0] ^ 0,-20
+pha_virama = pha.base & virama[shift=-20,0] ^ 0,-20
+ra_virama = ra.base & virama[shift=-30,0] ^ 0,-30
+sa_virama = sa.base & virama[shift=-30,0] ^ 0,-30
+sha_virama = sha.base & virama[shift=-30,0] ^ 0,-30
+ssa_virama = ssa.base & virama[shift=-20,0] ^ 0,-20
+ta_virama = ta.base & virama[shift=-30,0] ^ 0,-30
+tha_virama = tha.base & virama[shift=-30,0] ^ 0,-30
+tta_virama = tta.base & virama[shift=-40,0] ^ 0,-40
+ttha_virama = ttha.base & virama[shift=-30,0] ^ 0,-30
+va_virama = va.base & virama[shift=-40,0] ^ 0,-40
+ya_virama = ya.noEbase & virama[shift=-40,0] ^ 0,-40
 
-ka_ssa_virama = ka_ssa.base & virama
-ja_nya_virama = ja_nya.base & virama
+ka_ssa_virama = ka_ssa.base & virama[shift=-10,0] ^ 0,-10
+ja_nya_virama = ja_nya.base & virama[shift=-40,0] ^ 0,-40
 
 ba_aamatra = ba.base & aamatra
 bha_aamatra = bha.base & aamatra

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ca_virama" format="2">
-  <advance width="1190"/>
+  <advance width="1170"/>
   <anchor x="218" y="558" name="C"/>
   <anchor x="387" y="-71" name="N"/>
   <outline>
     <component base="ca.base"/>
-    <component base="virama" xOffset="585"/>
+    <component base="virama" xOffset="565"/>
   </outline>
   <lib>
     <dict>

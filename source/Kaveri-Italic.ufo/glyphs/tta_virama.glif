@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tta_virama" format="2">
-  <advance width="1099"/>
+  <advance width="1059"/>
   <anchor x="218" y="558" name="C"/>
   <anchor x="376" y="-71" name="N"/>
   <outline>
     <component base="tta.base"/>
-    <component base="virama" xOffset="523"/>
+    <component base="virama" xOffset="483"/>
   </outline>
   <lib>
     <dict>

@@ -11,7 +11,7 @@ faces="Badami Kaveri"
 for face in $faces
 do
     ufo=source/${face}-Regular.ufo
-    psfsetglyphorder -i source/glyph_data-${face}.csv $ufo
+    psfsetglyphorder -i source/glyph_data-${face}.csv $ufo # --header sort_design
     psfsetpsnames -i source/glyph_data-${face}.csv $ufo
     psfmakewoffmetadata -n ${face} -i in.nlci.fonts $ufo
     psfsyncmasters source/${face}Roman.designspace source/${face}Italic.designspace

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ja_nya_virama" format="2">
-  <advance width="1090"/>
+  <advance width="1050"/>
   <anchor x="100" y="558" name="C"/>
   <anchor x="379" y="-71" name="N"/>
   <anchor x="704" y="-200" name="S"/>
   <outline>
     <component base="ja.base"/>
     <component base="nya.sub" xOffset="344"/>
-    <component base="virama" xOffset="514"/>
+    <component base="virama" xOffset="474"/>
   </outline>
   <lib>
     <dict>

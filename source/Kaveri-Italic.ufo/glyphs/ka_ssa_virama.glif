@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ka_ssa_virama" format="2">
-  <advance width="1014"/>
+  <advance width="1004"/>
   <anchor x="218" y="558" name="C"/>
   <anchor x="278" y="-71" name="N"/>
   <anchor x="652" y="-200" name="S"/>
   <outline>
     <component base="ka.base"/>
     <component base="ssa.sub" xOffset="282"/>
-    <component base="virama" xOffset="438"/>
+    <component base="virama" xOffset="428"/>
   </outline>
   <lib>
     <dict>
