@@ -48,6 +48,9 @@
 @cligno_ssa = [ka];
 @cligno_umatra = [lla nya];
 @cligno_virama = [ba bha ca cha da dda ddha dha fa ga gha ha ja_nya ja jha ka_ssa ka kha la lla ma na nga nna nya pa pha ra rra sa sha ssa ta tha tta ttha va ya];
+@public.kern1.aumatra_ligs = [ba_aumatra bha_aumatra ca_aumatra cha_aumatra da_aumatra dda_aumatra ddha_aumatra dha_aumatra fa_aumatra ga_aumatra gha_aumatra ha_aumatra ja_aumatra ja_nya_aumatra jha_aumatra ka_aumatra ka_ssa_aumatra kha_aumatra la_aumatra lla_aumatra ma_aumatra na_aumatra nga_aumatra nna_aumatra nya_aumatra pa_aumatra pha_aumatra ra_aumatra rra_aumatra sa_aumatra sha_aumatra ssa_aumatra ta_aumatra tha_aumatra tta_aumatra ttha_aumatra va_aumatra ya_aumatra];
+@public.kern1.virama_ligs = [ba_virama bha_virama ca_virama cha_virama da_virama dda_virama ddha_virama dha_virama fa_virama ga_virama gha_virama ha_virama ja_nya_virama ja_virama jha_virama ka_ssa_virama ka_virama kha_virama la_virama lla_virama ma_virama na_virama nga_virama nna_virama nya_virama pa_virama pha_virama ra_virama rra_virama sa_virama sha_virama ssa_virama ta_virama tha_virama tta_virama ttha_virama va_virama ya_virama];
+@public.kern2.sub_cons = [ba.sub bha.sub ca.sub cha.sub da.sub dda.sub ddha.sub dha.sub fa.sub ga.sub gha.sub ha.sub ja.sub jha.sub ka.sub kha.sub la.sub lla.sub ma.sub na.sub nga.sub nna.sub nya.sub pa.sub pha.sub ra.below.ra rra.sub sa.sub sha.sub ssa.sub ta.sub tha.sub tta.sub ttha.sub va.sub ya.sub];
 
 # Positioning classes and statements
 
@@ -928,6 +931,8 @@ feature haln {
 lookup KernPairs {
     pos nya -30 imatra;
     pos nya -130 uumatra;
+    pos @public.kern1.aumatra_ligs -40 @public.kern2.sub_cons;
+    pos @public.kern1.virama_ligs -40 @public.kern2.sub_cons;
 } KernPairs;
 
 lookup Candrabindu {
