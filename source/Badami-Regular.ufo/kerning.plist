@@ -9,5 +9,15 @@
     <key>uumatra</key>
     <integer>-130</integer>
   </dict>
+  <key>public.kern1.aumatra_ligs</key>
+  <dict>
+    <key>public.kern2.sub_cons</key>
+    <integer>-40</integer>
+  </dict>
+  <key>public.kern1.virama_ligs</key>
+  <dict>
+    <key>public.kern2.sub_cons</key>
+    <integer>-40</integer>
+  </dict>
 </dict>
 </plist>
