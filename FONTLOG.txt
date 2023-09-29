@@ -48,7 +48,7 @@ ChangeLog
 - Additional Latin glyphs in Kaveri are from Charis SIL (https://software.sil.org/charis/)
 - Indian Rupee Sign is from Annapurna SIL (https://software.sil.org/annapurna/)
 19 Jun 2015 (Dev NLCI) NLCI Kannada fonts version 0.100
-- Latin glyphs are from Charis SIL (http://scripts.sil.org/CharisSILfont)
+- Latin glyphs are from Charis SIL (https://software.sil.org/charis/)
 
 Acknowledgements
 ----------------
