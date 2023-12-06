@@ -46,7 +46,7 @@ with Reserved Font Names "Andika" and "SIL".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
-https://scripts.sil.org/OFL
+https://openfontlicense.org
 
 
 -----------------------------------------------------------
@@ -137,7 +137,7 @@ FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
 OTHER DEALINGS IN THE FONT SOFTWARE.
 </string>
   <key>openTypeNameLicenseURL</key>
-  <string>https://scripts.sil.org/OFL</string>
+  <string>https://openfontlicense.org</string>
   <key>openTypeNameManufacturer</key>
   <string>NLCI</string>
   <key>openTypeNameManufacturerURL</key>
