@@ -151,7 +151,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>openTypeNameUniqueID</key>
   <string>NLCI: Kaveri Italic: 2023</string>
   <key>openTypeNameVersion</key>
-  <string>Version 0.602</string>
+  <string>Version 0.603</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -260,7 +260,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>versionMajor</key>
   <integer>0</integer>
   <key>versionMinor</key>
-  <integer>602</integer>
+  <integer>603</integer>
   <key>woffMetadataCredits</key>
   <dict>
     <key>credits</key>

@@ -44,6 +44,12 @@
     <test label="ha+virama+length+ematra">
       <string>\u0cb9\u0ccd\u0cd5\u0cc6</string>
     </test>
+    <test label="ha+length+virama+ematra">
+      <string>\u0cb9\u0cd5\u0ccd\u0cc6</string>
+    </test>
+    <test label="ka+length+virama">
+      <string>\u0c95\u0cd5\u0ccd</string>
+    </test>
     <test label="ra">
       <string>\u0cac\u0cb0\u0ccd\u0cad\u0cd5 \u0cac\u0cb0\u0ccd\u0cad\u0ccd\u0cd5</string>
     </test>

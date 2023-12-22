@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="in.nlci.fonts.Badami.0.602" />
+  <uniqueid id="in.nlci.fonts.Badami.0.603" />
   <vendor name="NLCI" url="http://www.nlci.in/fonts/" />
   <credits>
     <credit
@@ -14,7 +14,7 @@
       Pan Kannada font designed to support all the languages using the Kannada script.
     </text>
   </description>
-  <license url="https://openfontlicense.org" id="org.sil.ofl.1.1">
+  <license url="https://openfontlicense.org" id="org.openfontlicense.1.1">
     <text lang="en">
       This Font Software is Copyright (c) 2009-2023, NLCI (http://www.nlci.in/fonts/)
       with Reserved Font Names "Badami" and "Kaveri" and "NLCI".

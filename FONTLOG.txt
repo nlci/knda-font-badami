@@ -14,6 +14,8 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
+22 Dec 2023 (Dev NLCI) NLCI Kannada fonts version 0.603
+- Kern some character combinations
 16 Dec 2022 (Dev NLCI) NLCI Kannada fonts version 0.600
 - Improved positioning of nuktas in the italic faces
 - Change size and weight of Latin in Badami
