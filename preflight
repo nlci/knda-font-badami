@@ -4,7 +4,7 @@ for ufo in source/*.ufo
 do
     psfnormalize -v 3 -p checkfix=fix $ufo
     psfbuildcomp -c --remove _none --preserve "[CN]" -i source/composites.txt $ufo
-    psfmakefea -o $ufo/features.fea -i source/master.feax -L last -c source/badami_classes.xml $ufo
+    makefea --psfCompatible -o $ufo/features.fea -i source/master.feax -L last -c source/badami_classes.xml $ufo
 done
 
 faces="Badami Kaveri"

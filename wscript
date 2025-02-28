@@ -86,7 +86,7 @@ for f in faces:
             opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
                 mapfile = generated + '${DS:FILENAME_BASE}.map',
                 master = fontbase + 'master.feax',
-                make_params = omitaps + ' -L last',
+                make_params = omitaps + '--psfCompatible -L last',
                 params = ''
                 ),
             # graphite = gdl(generated + '${DS:FILENAME_BASE}.gdl',
@@ -97,7 +97,7 @@ for f in faces:
             classes = fontbase + 'badami_classes.xml',
             ap = generated + '${DS:FILENAME_BASE}.xml',
             version = VERSION,
-            woff = woff('woff/${DS:FILENAME_BASE}', type='woff2',
+            woff = woff('web/${DS:FILENAME_BASE}', type='woff2',
                 metadata = '../source/${DS:FAMILYNAME_NOSPC}-WOFF-metadata.xml'),
             script = 'knd2', # 'knda'
             package = p,

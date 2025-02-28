@@ -201,8 +201,8 @@ def doit(args):
                 ftml.closeTest()
 
     if test.lower().startswith("matras"):
-        ftml.startTestGroup('Consonant with matras')
-        for c in consonants:
+        ftml.startTestGroup('Consonants with matras')
+        for c in consonants + [dotted_circle]:
             for m in matra_like:
                 builder.render((c,m,nine), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
             ftml.closeTest()
