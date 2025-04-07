@@ -187,6 +187,34 @@ lookup HalantBaseForms {
     sub @cligno_virama' zwj' virama' by @clig_virama;
 } HalantBaseForms;
 
+lookup Knda2LatnDigits {
+  lookupflag 0;
+    sub zeroknda by zero;
+    sub oneknda by one;
+    sub twoknda by two;
+    sub threeknda by three;
+    sub fourknda by four;
+    sub fiveknda by five;
+    sub sixknda by six;
+    sub sevenknda by seven;
+    sub eightknda by eight;
+    sub nineknda by nine;
+} Knda2LatnDigits;
+
+lookup Latn2KndaDigits {
+  lookupflag 0;
+    sub zero by zeroknda;
+    sub one by oneknda;
+    sub two by twoknda;
+    sub three by threeknda;
+    sub four by fourknda;
+    sub five by fiveknda;
+    sub six by sixknda;
+    sub seven by sevenknda;
+    sub eight by eightknda;
+    sub nine by nineknda;
+} Latn2KndaDigits;
+
 feature ccmp {
     lookup FontCheck;
 } ccmp;
@@ -227,6 +255,20 @@ feature psts {
 feature haln {
     lookup HalantBaseForms;
 } haln;
+
+feature ss19 {
+  featureNames {
+    name 3 1 0x409 "Kannada to Latin Digits";
+    };
+    lookup Knda2LatnDigits;
+} ss19;
+
+feature ss20 {
+  featureNames {
+    name 3 1 0x409 "Latin to Kannada Digits";
+    };
+    lookup Latn2KndaDigits;
+} ss20;
 
 # GPOS
 

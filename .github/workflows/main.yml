@@ -7,7 +7,11 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
     steps:
       - uses: actions/checkout@v4
       - name: Install smith toolchain
@@ -28,7 +32,7 @@ jobs:
           # pip3 install fontmake --user
           # pip3 install MutatorMath --user
           # pip3 install Brotli --user
-          python3 -m pip install --upgrade silfont[git]@git+https://github.com/silnrsi/pysilfont.git@master --user
+          python3 -m pip install --upgrade "silfont[git] @ git+https://github.com/silnrsi/pysilfont.git@master" --user
           #python3 -m pip install --upgrade git+https://github.com/silnrsi/palaso-python.git@master#egg=palaso --user
           python3 -m pip install --upgrade smith@git+https://github.com/silnrsi/smith.git@master --user
           python3 -m pip install --upgrade gftools@https://github.com/googlefonts/gftools.git@main --user
@@ -62,12 +66,13 @@ jobs:
         with:
           name: packages
           path: results/releases
-      - uses: ncipollo/release-action@v1
-        with:
-          artifacts: results/releases/nlci-*-*-*-dev-*.zip
-          name: "Development Build"
-          generateReleaseNotes: true
-          prerelease: true
-          allowUpdates: true
-          tag: "dev"
-          # token: "${{ secrets.GITHUB_TOKEN }}"
+      - name: Create GitHub Release
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          gh release delete dev -y --cleanup-tag || true;
+          gh release create dev
+          --title "Development Build"
+          --generate-notes
+          --prerelease
+          results/releases/nlci-*-*-*-dev-*.zip

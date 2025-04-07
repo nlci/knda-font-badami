@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../tools/ftml.xsl"?>
+<ftml version="1.0">
+  <head>
+    <fontscale>200</fontscale>
+    <fontsrc label="refR">url(../references/Badami-Regular.ttf)</fontsrc>
+    <fontsrc label="refB">url(../references/Badami-Bold.ttf)</fontsrc>
+    <fontsrc label="refI">url(../references/Badami-Italic.ttf)</fontsrc>
+    <fontsrc label="refBI">url(../references/Badami-BoldItalic.ttf)</fontsrc>
+    <fontsrc label="R">url(../results/Badami-Regular.ttf)</fontsrc>
+    <fontsrc label="B">url(../results/Badami-Bold.ttf)</fontsrc>
+    <fontsrc label="I">url(../results/Badami-Italic.ttf)</fontsrc>
+    <fontsrc label="BI">url(../results/Badami-BoldItalic.ttf)</fontsrc>
+    <fontsrc label="notoSerif">url(../references/NotoSerifKannada-Regular.ttf)</fontsrc>
+    <fontsrc label="notoSans">url(../references/NotoSansKannada-Regular.ttf)</fontsrc>
+    <fontsrc label="notoSansUI">url(../references/NotoSansKannadaUI-Regular.ttf)</fontsrc>
+    <fontsrc label="tiro">url(../references/TiroKannada-Regular.ttf)</fontsrc>
+    <fontsrc label="baloo">url(../references/BalooTamma2-Regular.ttf)</fontsrc>
+    <fontsrc label="kR">url(../results/Kaveri-Regular.ttf)</fontsrc>
+    <fontsrc label="kB">url(../results/Kaveri-Bold.ttf)</fontsrc>
+    <fontsrc label="kI">url(../results/Kaveri-Italic.ttf)</fontsrc>
+    <fontsrc label="kBI">url(../results/Kaveri-BoldItalic.ttf)</fontsrc>
+    <styles>
+      <style feats="'ss19' 1" name="ss19_1"/>
+      <style feats="'ss20' 1" name="ss20_1"/>
+    </styles>
+    <title>Digits</title>
+  </head>
+  <testgroup label="Kannada digits">
+    <test label="Kannada codepoints">
+      <string>\u0CE6\u0CE7\u0CE8\u0CE9\u0CEA\u0CEB\u0CEC\u0CED\u0CEE\u0CEF</string>
+    </test>
+    <test label="Latin codepoints" stylename="ss20_1">
+      <string>0123456789</string>
+    </test>
+  </testgroup>
+  <testgroup label="Latin digits">
+    <test label="Kannada codepoints" stylename="ss19_1">
+      <string>\u0CE6\u0CE7\u0CE8\u0CE9\u0CEA\u0CEB\u0CEC\u0CED\u0CEE\u0CEF</string>
+    </test>
+    <test label="Latin codepoints">
+      <string>0123456789</string>
+    </test>
+  </testgroup>
+</ftml>
