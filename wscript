@@ -7,7 +7,7 @@
 opts = preprocess_args(
     {'opt' : '-l'}, # build fonts from legacy for inclusion into final fonts
     {'opt' : '-r'}, # only build the main regular font
-    {'opt' : '-s'}  # only build the main font family
+    {'opt' : '-s'}, # only build the main font family
     )
 
 import os2
@@ -16,12 +16,11 @@ import os2
 DOCDIR = ['documentation', 'web']
 
 # set the font name, licensing, description, and version
-script='knda'
-APPNAME='nlci-' + script
+prefix = 'nlci-knda-'
+APPNAME = prefix + 'badami'
 LICENSE='OFL.txt'
 
 DESC_SHORT='Kannada Unicode font with OT support'
-DESC_NAME='NLCI-' + script
 getufoinfo('source/Badami-Regular.ufo')
 # BUILDLABEL = 'beta1'
 
@@ -37,14 +36,10 @@ stylesName = ('Regular', 'Bold', 'Italic', 'Bold Italic')
 stylesLegacy = ('', 'BD', 'I', 'BI')
 dspaces = ('Roman', 'Italic')
 
-if '-s' in opts:
-    faces = (faces[0],)
-
 # set build parameters
 fontbase = 'source/'
 archive = fontbase + 'archive/unhinted/'
 generated = 'generated/'
-tag = script.upper()
 omitaps = '--omitaps "_V V"'
 
 panose = [2, 0, 0, 3]
@@ -66,38 +61,57 @@ if '-l' in opts:
                                 noap = '')
                 )
 
-if '-l' in opts:
-    faces = list()
-for f in faces:
-    p = package(
-        appname = APPNAME + '-' + f.lower(),
+for dspace in dspaces:
+    designspace('source/' + 'Badami' + dspace + '.designspace',
+        target = process('${DS:FILENAME_BASE}.ttf',
+            cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']),
+        ),
+        # params = '--decomposeComponents --removeOverlaps',
+        instances = ['Badami Regular'] if '-r' in opts else None,
+        opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
+            mapfile = generated + '${DS:FILENAME_BASE}.map',
+            master = fontbase + 'master.feax',
+            make_params = omitaps + '--psfCompatible -L last',
+            params = ''
+            ),
+        # graphite = gdl(generated + '${DS:FILENAME_BASE}.gdl',
+        #    master = fontbase + 'master.gdl',
+        #    make_params = '-p 1',
+        #    params =  '-e ${DS:FILENAME_BASE}_gdlerr.txt'
+        #    ),
+        classes = fontbase + 'badami_classes.xml',
+        ap = generated + '${DS:FILENAME_BASE}.xml',
         version = VERSION,
-        docdir = DOCDIR # 'documentation'
+        woff = woff('web/${DS:FILENAME_BASE}', type='woff2',
+            metadata = '../source/${DS:FAMILYNAME_NOSPC}-WOFF-metadata.xml'),
+        script = 'knd2', # 'knda'
+        pdf = fret(params = '-oi')
+        )
+
+if '-s' not in opts:
+    kaveripackage = package(
+        appname = prefix + 'kaveri',
+        version = VERSION,
+        docdir = {'documentation': 'documentation', 'web_kaveri': 'web'}
     )
     for dspace in dspaces:
-        designspace('source/' + f + dspace + '.designspace',
+        designspace('source/' + 'Kaveri' + dspace + '.designspace',
             target = process('${DS:FILENAME_BASE}.ttf',
                 cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']),
             ),
-            # params = '--decomposeComponents --removeOverlaps',
-            instances = ['Badami Regular'] if '-r' in opts else None,
             opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
                 mapfile = generated + '${DS:FILENAME_BASE}.map',
                 master = fontbase + 'master.feax',
                 make_params = omitaps + '--psfCompatible -L last',
                 params = ''
                 ),
-            # graphite = gdl(generated + '${DS:FILENAME_BASE}.gdl',
-            #    master = fontbase + 'master.gdl',
-            #    make_params = '-p 1',
-            #    params =  '-e ${DS:FILENAME_BASE}_gdlerr.txt'
-            #    ),
             classes = fontbase + 'badami_classes.xml',
             ap = generated + '${DS:FILENAME_BASE}.xml',
             version = VERSION,
-            woff = woff('web/${DS:FILENAME_BASE}', type='woff2',
-                metadata = '../source/${DS:FAMILYNAME_NOSPC}-WOFF-metadata.xml'),
-            script = 'knd2', # 'knda'
-            package = p,
+            woff = woff('web_kaveri/${DS:FILENAME_BASE}', type='woff2',
+                metadata = '../source/${DS:FAMILYNAME_NOSPC}-WOFF-metadata.xml',
+                dontship = True),
+            script = 'knd2',
+            package = kaveripackage,
             pdf = fret(params = '-oi')
             )
