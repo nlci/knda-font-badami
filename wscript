@@ -61,11 +61,14 @@ if '-l' in opts:
                                 noap = '')
                 )
 
+cmds = [
+    cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${source}']),
+    cmd('gftools fix-nonhinting -q --no-backup ${DEP} ${TGT}'),
+    ]
+
 for dspace in dspaces:
     designspace('source/' + 'Badami' + dspace + '.designspace',
-        target = process('${DS:FILENAME_BASE}.ttf',
-            cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']),
-        ),
+        target = process('${DS:FILENAME_BASE}.ttf', *cmds),
         # params = '--decomposeComponents --removeOverlaps',
         instances = ['Badami Regular'] if '-r' in opts else None,
         opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
@@ -96,9 +99,7 @@ if '-s' not in opts:
     )
     for dspace in dspaces:
         designspace('source/' + 'Kaveri' + dspace + '.designspace',
-            target = process('${DS:FILENAME_BASE}.ttf',
-                cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']),
-            ),
+            target = process('${DS:FILENAME_BASE}.ttf', *cmds),
             opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
                 mapfile = generated + '${DS:FILENAME_BASE}.map',
                 master = fontbase + 'master.feax',
