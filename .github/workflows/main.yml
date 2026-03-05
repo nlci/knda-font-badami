@@ -18,7 +18,7 @@ jobs:
           sudo add-apt-repository -y ppa:sile-typesetter/sile
           sudo apt-get update -y -q
           sudo apt-get install sile luarocks libfont-ttf-scripts-perl grcompiler -y -qq
-          pip3 install Brotli --user
+          pip3 install gftools --user
           python3 -m pip install --upgrade "silfont[git] @ git+https://github.com/silnrsi/pysilfont.git@master" --user
           python3 -m pip install --upgrade "feaxlib @ git+https://github.com/silnrsi/feax.git@main" --user
           python3 -m pip install --upgrade "smith @ git+https://github.com/silnrsi/smith.git@master" --user
