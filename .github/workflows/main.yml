@@ -10,7 +10,7 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Install smith toolchain
         run: |
@@ -39,19 +39,19 @@ jobs:
         run: |
           smith sile
       - name: Upload fonts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: fonts
           path: |
             results/*.ttf
             *.txt
       - name: Upload packages
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: packages
           path: results/releases
       - name: Upload proofs
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: proofs
           path: results/tests/sile/*.pdf
