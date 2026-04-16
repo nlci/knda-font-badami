@@ -1,0 +1,49 @@
+---
+title: NLCI Kannada - Version History
+fontversion: 0.603
+---
+
+### 22 Dec 2023 (Dev NLCI) NLCI Kannada fonts version 0.603
+- Kern some character combinations
+
+### 16 Dec 2022 (Dev NLCI) NLCI Kannada fonts version 0.600
+- Improved positioning of nuktas in the italic faces
+- Change size and weight of Latin in Badami
+- Latin glyphs in Badami are from Gentium Plus at 75% (https://software.sil.org/gentium/)
+- Latin glyphs in Kaveri are from Exo at 71% (https://github.com/NDISCOVER/Exo-1.0)
+- Additional Latin glyphs in Kaveri are from Andika at 71% (https://software.sil.org/andika/)
+
+### 30 Nov 2022 (Dev NLCI) NLCI Kannada fonts version 0.500
+- Improved flat joins to resolve hinting issues
+- New ligatures for some matras with round top consonants
+- Small improvements to many glyphs
+- Improved handling of sub forms and reph
+- Removed Graphite shaping
+- Added U+0CDD and U+0CF3
+
+### 08 Mar 2022 (Dev NLCI) NLCI Kannada fonts version 0.400
+- Allow virama (acting as a vowel) to come before a length mark
+- Corrected contour directions
+- Remove script prefix (KNDA) from font names
+- Improved OpenType and Graphite shaping
+- Slightly expand and improve the character set
+
+### 04 Jan 2019 (Dev NLCI) NLCI Kannada fonts version 0.300
+- Provide akhand forms
+- Position nuktas
+- Glyphs from the legacy font files are no longer scaled up
+- Glyphs from Latin fonts and Annapurna SIL are scaled 71%
+
+### 03 Aug 2018 (Dev NLCI) NLCI Kannada fonts version 0.201
+- Position sub sub forms better
+- Include a few more characters
+
+### 29 Mar 2018 (Dev NLCI) NLCI Kannada fonts version 0.200
+- Add many Latin and Devanagari characters.
+- Latin glyphs in Badami are from Gentium Book Basic (https://software.sil.org/gentium/)
+- Latin glyphs in Kaveri are from Exo (https://github.com/NDISCOVER/Exo-1.0)
+- Additional Latin glyphs in Kaveri are from Charis SIL (https://software.sil.org/charis/)
+- Indian Rupee Sign is from Annapurna SIL (https://software.sil.org/annapurna/)
+
+### 19 Jun 2015 (Dev NLCI) NLCI Kannada fonts version 0.100
+- Latin glyphs are from Charis SIL (https://software.sil.org/charis/)

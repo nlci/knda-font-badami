@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <title>NLCI Kannada - Frequently Asked Questions</title>
+    <meta name="author" content="NLCI">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="stylesheet" href="./assets/css/theme.css">
+    <link rel="stylesheet" href="./assets/css/webfonts.css">
+</head>
+<body>
+<div class="container">
+<article class="article">
+    <header>
+        <h1 class="title">NLCI Kannada - Frequently Asked Questions</h1>
+    </header>
+    <h3 id="how-do-i-use-the-halant-character-as-a-vowel"><em>How do I
+    use the halant character as a vowel?</em></h3>
+    <p>The fonts have a blank and zero width glyph for U+25CC DOTTED
+    CIRCLE. This allows the character sequence of</p>
+    <ul>
+    <li>U+0CCD KANNADA SIGN VIRAMA</li>
+    <li>U+0CD5 KANNADA LENGTH MARK</li>
+    </ul>
+    <p>to display as desired for some languages. <a
+    href="https://github.com/n8willis/opentype-shaping-documents/issues/163">A
+    better solution</a>, which also works with these fonts, is to use
+    the character sequence</p>
+    <ul>
+    <li>U+0CD5 KANNADA LENGTH MARK</li>
+    <li>U+0CCD KANNADA SIGN VIRAMA</li>
+    </ul>
+    <p>which works for a number of others fonts as well.</p>
+    <footer class="footer">
+        <p>This guide is from the <a href="https://github.com/nlci/knda-font-badami" title="" class="active">NLCI Kannada project</a> version 0.603 and is copyright © 2009-2026, NLCI (http://www.nlci.in/fonts/).</p>
+    </footer>
+</article>
+</div>
+</body>
+</html>
