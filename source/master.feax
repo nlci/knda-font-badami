@@ -1,6 +1,10 @@
 languagesystem DFLT dflt;
 languagesystem knd2 dflt;
 
+# From classes XML file
+@Akhands = [ka_ssa ja_nya];
+@TakesLargeRaSubCons = [gha cha jha ddha tha dha pha bha];
+
 # Also in GDL
 @Cons = [@cno_sub ra]; # @Akhands
 @SubCons = [@c_sub ra.below];
