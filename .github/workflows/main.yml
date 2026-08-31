@@ -1,6 +1,6 @@
 name: main
 
-on: [push, pull_request]
+on: [push]
 
 jobs:
   smith:
@@ -10,7 +10,7 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
 
       - name: Install smith toolchain
         run: |

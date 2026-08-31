@@ -82,7 +82,7 @@ for dspace in dspaces:
         #    make_params = '-p 1',
         #    params =  '-e ${DS:FILENAME_BASE}_gdlerr.txt'
         #    ),
-        classes = fontbase + 'badami_classes.xml',
+        # classes = fontbase + 'badami_classes.xml',
         ap = generated + '${DS:FILENAME_BASE}.xml',
         version = VERSION,
         woff = woff('web/${DS:FILENAME_BASE}', type='woff2',
@@ -106,7 +106,7 @@ if '-s' not in opts:
                 make_params = omitaps + '--psfCompatible -L last',
                 params = ''
                 ),
-            classes = fontbase + 'badami_classes.xml',
+            # classes = fontbase + 'badami_classes.xml',
             ap = generated + '${DS:FILENAME_BASE}.xml',
             version = VERSION,
             woff = woff('web_kaveri/${DS:FILENAME_BASE}', type='woff2',
